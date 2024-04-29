@@ -1,0 +1,611 @@
+Sparking Creativity with Robots:
+A Design Perspective
+Patr´ıcia Alves-Oliveira
+Dept. of Psychology
+ISCTE-IUL - CIS-IUL - INESC-ID
+Lisbon, Portugal
+patricia alves olivera@iscte-iul.pt
+Silvia Tulli
+Dept. of Computer Science
+Instituto Superior T´ecnico - INESC-ID
+Lisbon, Portugal
+silvia.tulli@gaips.inesc-id.pt
+Philipp Wilken
+Dept. of Business Informatics
+University Duisburg-Essen
+Duisburg-Essen, Germany
+philipp.wilken@stud.uni-due.de
+Ramona Merhej
+Dept. of Computer Science
+Instituto Superior T´ecnico - INESC-ID
+Lisbon, Portugal
+ramona.merhej@gaips.inesc-id.pt
+Jo˜ao Gandum
+Dept. of Computer Science
+Instituto Superior T´ecnico
+Lisbon, Portugal
+joao.gandum@tecnico.ulisboa.pt
+Ana Paiva
+Dept. of Computer Science
+Instituto Superior T´ecnico - INESC-ID
+Lisbon, Portugal
+ana.paiva@inesc-id.pt
+Abstract—We present the design and evaluation process of a
+robot aimed at stimulating creativity in humans in a drawing-
+oriented collaborative drawing task. Collaboration towards a
+common goal is known to be one of the most inﬂuential factors
+for creativity nourishing. The social robot acted as a collaborative
+peer in a drawing activity, taking turns with the human, to
+complete their drawing. In each turn, both “artists” (the robot
+and the human) draw something new until they achieved their
+ﬁnal drawing. The goal was to study if a robot, in comparison
+with a tablet, can stimulate creativity. A total of 28 participants
+were distributed across robot and tablet conditions. Creativity
+scores for each drawing were calculated. Contrary to what was
+expected, creativity score did not present statistically signiﬁcant
+main effect across conditions. We discuss our results under a
+design perspective, addressing the role of the robot’s embodiment
+and presence, as well as the purpose of use for robots in society
+and what implications there is for design.
+Index Terms—Social robots, co-creativity, critical design, spec-
+ulative design, embodiment
+I. INTRODUCTION
+Creativity is one of the most sought-after skills with major
+implications for well-being and personal life, and it is related
+to career professional success in career [1]–[3]. The role of
+creativity in society has been highlighted and valued [4]. As
+a consequence, developed societies have put emphasis on the
+value of innovation, collaboration, and creative problem solv-
+ing, over standardized knowledge [5]. Therefore, the economy
+of developed societies is shifting from an industrial economy,
+that valued manufacturing work and standard memorization of
+procedures, towards a creative economy, valuing creativity at
+work [6]–[8]. Knowing this, it becomes imperative to study
+and develop ways to spark creativity, specially using new
+technologies, such as social robots.
+Scholars have been debating about how to harnesses the
+creative potential. On the one hand, changes in the tradi-
+tional school system have been suggested, namely concerning
+curriculum content, teaching approaches, and education for
+empowerment [9]. Other developments have been made target-
+ing adults and the workplace, speciﬁcally by studying which
+work environment characteristics stimulate creativity [10], how
+communication and the quality of the relationship affects
+creativity [11], and other additional conditions related with
+creativity nourishing, such as independence and the nature
+of the task itself [12]. From these variables that inﬂuence
+creativity development, collaboration (or teamwork), deﬁned
+by a group of people working together towards a common
+goal by interacting with each other, is known to be one of the
+most inﬂuential factors [13].
+In this work, we designed and developed a collaborative
+activity between a social robot and a human participant
+to understand the effects of human-robot interaction (HRI)
+on creativity outcomes. The team was constituted by one
+humanoid robot and one adult participant that engaged in
+an open-ended collaborative drawing task. This meant that
+the “artists” (study participants and the robot) could draw
+anything. The resulting product, i.e., their ﬁnal drawing, was
+evaluated in terms of creativity scores. We compared the
+results with a control condition constituted by a tablet to
+investigate the effects of the robot’s embodiment and presence
+on creativity.
+II. RELATED WORK
+A. Deﬁning Creativity
+Creativity is considered one of the highest human cognitive
+abilities [22]. It is a multi-faced concept with over 60 dif-
+ferent deﬁnitions in the ﬁeld of psychology alone [23], [24].
+While earliest deﬁnitions of creativity described this ability
+as a function of an individual [14], creativity deﬁnition has
+evolved and is now deﬁned as an interaction between aptitude,
+environment, and process by which an individual or a group
+produces a tangible product that is both novel and useful,
+within the social context [25]. More deﬁnitions are present in
+TABLE I
+SUMMARY OF SELECTED DEFINITIONS OF CREATIVITY IN TIMELINE ORDER.
+Author(s)
+Creativity deﬁnition
+Guilford,
+1967
+[14]
+Creativity is deﬁned as the embodiment of thought in the form of external behavior, consisting of three characteristics: ﬂuency,
+ﬂexibility, and originality.
+Torrance,
+1998
+[15]
+Creativity is viewed as a series of ﬂows, including problem identiﬁcation, speculation, construction of hypothetical assumptions
+and creation, and the sharing of ideas with others.
+Amabile,
+1996
+[16]
+Creativity is regarded as the interaction between the individual and its external environment, including three components: domain-
+relevant skills, creativity-relevant skills creative-thinking skills, and task motivation.
+Sternberg
+and
+Lubart,
+1996
+[17]
+Creativity is perceived as an ability that everyone has, though with varying levels that are affected by the combination of six types
+of different and interrelated elements: intellectual abilities, knowledge, thinking styles, personality, motivation, and environmental
+elements.
+Boden, 2004 [18]
+Creativity is composed of Psychological and Historical creativity: P-creativity involves coming up with a surprising, valuable idea
+thats new to the person who invented it; an idea is H-creative if no one else has had it before and it has arisen for the ﬁrst time
+in human history.
+Baer and Kauf-
+man, 2005 [19]
+Creativity is explained through the lenses of the Amusement Park Theory that states intelligence, motivation, and a suitable
+environment, are necessary pre-requisites of creativity.
+Sawyer,
+2017
+[20]
+Creativity is understood in the context of a group emergence where ﬂow, collaboration, and improvisation processes take place.
+When group synchrony is reached, it becomes difﬁcult to discriminate the individual contribution of each person, as “the whole is
+greater than the individual parts”.
+Cronin
+and
+Loewenstein,
+2018 [21]
+Creativity is a process of following cues to generate insights that change our perspectives, which with the craft we can use to form
+inventions and enlightenment.
+the literature, and an overview of selected creativity deﬁnitions
+can be found in Table I.
+Creativity is also composed of different domains, namely
+ﬁgural and verbal. While ﬁgural creativity involves creative
+thinking in visual arts (e.g., drawing, painting, sculpting),
+verbal creativity relates with communication of ideas and
+thoughts (e.g., poetry, discourse, and communication) [26].
+Creativity is also characterized in terms of the “four P’s of
+creativity”, that represent essential cornerstones for creativ-
+ity research. These four P’s are the Person (covers infor-
+mation about personality, intellect, temperament, physique,
+traits, habits, attitudes, self-concept, value systems, defense
+mechanisms, and behaviour), Process (relates to motivation,
+perception, learning, thinking, and communication), Product
+(when an idea becomes embodied into tangible form), and
+Press (or environment, and refers to the relationship between
+human beings and their environment) [27]. In light of these di-
+mensions, different tests and interventions for creative thinking
+were developed (see a literature review on [28]). For additional
+material on creativity assessment, see [29]–[32].
+Given that the nature of our task consists in a drawing
+activity, our work focuses on ﬁgural creativity. The ﬁnal
+drawing is evaluated in terms of creativity, which means we
+have focused on the study of the creative product, since a
+creativity score is computed for the ﬁnal drawing.
+B. Collaborative Technology for Creativity
+Technology appears as promising in the ﬁeld of creativity
+[33]. Lubart (2005), envisions computers promoting creativity
+in different ways and has deﬁned fours possible future roles
+for computers in the ﬁeld of creativity [34]:
+• Computer as nanny – computers encourage creativity
+by monitoring the working process and supporting the
+potentially creative person according to the progress
+made.
+• Computer as pen-pal – computers facilitate the ex-
+change of creative ideas between diverse people by inte-
+grating and represent them on a physical space.
+• Computer as coach – computers can support the creative
+process by providing information in different ways that
+people can come up with creative ideas, serving as
+analogs to jump-start the creative process.
+• Computer as colleague – computers work in a real
+partnership in the creative process with humans, and
+this is the most ambitious vision of humancomputer
+interaction.
+Computers have already been used to serve as a tool to
+help game designers to co-design new levels for their games,
+acting as a colleague, showing a positive inﬂuence for the
+creative level design process [35]. Additionally, when children
+create a story with autonomous virtual agents in a tablet app,
+their creative idea generation process is richer with more
+ﬂuency of ideas, demonstrating that the autonomous behavior
+of technology can spark creativity in a storytelling task [36].
+Other interesting projects with virtual environments have been
+developed to demonstrate technological creativity, e.g., [37].
+Robots have also joined technologies for creativity promo-
+tion. A social robot was used to encourage participants to
+generate creative ideas for their Zen Rock Garden. The results
+showed that participants engaged in the creativity task for
+longer periods of time and provided almost twice the number
+of creative expressions in the robot condition compared to the
+PowerPoint condition [38]. A different study used a social
+robot to stimulate curiosity, an essential creative trait, in
+children. Children’s curiosity levels were higher after inter-
+acting with the curious and social robot, denoting the impact
+Fig. 1. Experimental study conditions: on the right: participant drawing with
+a robot; on the left: participant drawing with a tablet.
+o robots in humans’ creative behavior [39]. Additionally, a
+robot is being used to stimulate creativity in children during
+a storytelling task. This robot aims to act as a character in
+children’s stories providing additional ideas for their story plot.
+Preliminary results were promising in relation with creativity
+stimulation [40]–[42].
+III. EXPERIMENTAL STUDY:
+ROBOTS FOR CREATIVITY SPARK
+This work is a design proposal that envisions social robots
+as drivers for human creativity. To test the hypothesis that
+robots can play a role in stimulating human creativity, we
+created a scenario in which a human participant and a robot
+collaboratively draw something together. This was compared
+to another study condition in which a participant draw collab-
+oratively with a tablet. For a visual representation of the study
+conditions, see Figure 1. The drawing task has a collaborative
+nature because the robot and the human take turns during the
+drawing process. Additionally, the drawing was open-ended,
+which means that no speciﬁc instruction for a drawing was
+provided and the task only ﬁnishes when the human participant
+is satisﬁed with their drawing. The goal was to test if the
+embodiment and the presence of a robot can stimulate human
+creativity. It is established in the HRI literature that the mere
+physical presence of a social robot inﬂuences the interaction
+with the human counterpart [43]–[45], making our research
+question the following: can the embodiment and the presence
+of social robot lead to human creativity during a collaborative
+drawing task? Furthermore, our study hypothesis is that during
+a collaborative drawing between a human participant and
+a social robot, ﬁgural creativity levels on the human will
+increase, compared to drawing with a tablet.
+A. Participants
+A total of 28 participants were involved in this study, being
+randomly distributed across two study conditions (robot or
+tablet conditions). Participants in the tablet condition were
+22-30 years old (M = 24.25, SD = 2.33), 57.1% male, and
+57.1% had interacted with a robots before; participants in
+the robot condition were 19-33 years old (M = 24.35, SD =
+4.49), 71.4% male, and 64.3% had interacted a robots before.
+Participants were recruited from the Technical University of
+Lisbon in Portugal, constituting a student academic population.
+Their participation was voluntary, and each participant signed
+Fig. 2.
+Examples of ﬁnal drawings: on the right: drawing made my a
+participant and a robot. The green aspects of the drawing were the elements
+drawn by the robot; on the left: drawing made by a participant and the tablet.
+The red strokes are the elements drawn by the tablet.
+a consent form prior to the starting of the study and assented
+to participate.
+B. Creativity Measure
+We used the Test for Creative Thinking-Drawing Production
+(TCT-DP) test to measure the ﬁgural creativity of the human
+participants. TCT-DP is a well established test in the ﬁeld
+of creativity, applicable to persons of a broad age range, is
+culture-fair, and helps identifying high creative potentials as
+well as low creative, neglected, and poorly developed ones
+[46]–[48]. A version of the test adapted to the Portuguese
+population was used [49].
+TCT-DP consists of a sheet of paper with six graphic
+elements of a circle, a dot, a dashed line, a 90-degree angle, a
+curved line, and a small open square, placed at ﬁxed and pre-
+established locations on the page. All of the elements, except
+for the small open square, are enclosed in a large rectangular
+frame, and this forms a short of an incomplete drawing. In its
+traditional form, participants are instructed to “complete the
+drawing initiated by an artist” and must produce a drawing
+using these elements. In the case of our study, we changed
+the instruction and participants were told to “draw something
+together with the robot”, since the this was a collaborative
+drawing task. In our case, the robot (or the tablet) would draw
+the already six graphic elements predeﬁned by the creative test
+and participants would complete the drawing. This ensured
+that the drawings made by the robot or the tablet across
+all study sessions were the same, thus, controlling for the
+creativity stimuli. For an example of how the drawings looked
+like, see Figure 2. In our study, instead of a sheet of paper used
+in the traditional application of the TCT-DP, we used a tablet
+for the drawing task. We opted for this method because the
+NAO robot (https://www.softbankrobotics.com/emea/en/nao)
+used for our study lacks dexterity to write. Therefore, a tablet
+was used to simulate the robot’s drawing ability.
+The ﬁnal drawing made by the participants and the robot
+was scored according to the 14-point scoring system using
+in general an ordinal measurement scale, proposed by Urban
+(2005) [47]. A trained psychologist that underwent TCT-DP
+training scored each drawing. The criteria used to code the
+drawings are the following:
+1) Continuations (Cn) – number of graphic elements used
+among the initial elements proposed.
+2) Completions (Cm) – number of graphic elements used
+in a meaningful way.
+3) New Elements (Ne) – number of new items added to the
+composition.
+4) Connections with lines (Cl) – number of contacts
+established between the initial graphic elements.
+5) Connections made that contribute to a theme (Cth)
+– degree to which the elements were connected themati-
+cally.
+6) Boundary-breaking being fragment-dependent (Bdf)
+– use of the element outside the frame.
+7) Boundary-breaking being fragment-independent (Bﬁ)
+– use of added elements outside the frame.
+8) Perspective (Pe) – use of three-dimensional drawing
+techniques.
+9) Humor, affectivity/emotionality/expressive power of
+the drawing (Hu) – creation of a humorist or emotional
+atmosphere.
+10) Unconventionality B (Uca) – Unconventional manipula-
+tion of the paper. Because we used a tablet for participants
+to draw that had a ﬁxed location on the table to enable
+the robot to simulate its drawing, we have excluded this
+score from our study.
+11) Unconventionality B (Ucb) – use of abstract, surrealistic,
+ﬁctional and/or symbolic themes.
+12) Unconventionality C (Ucc) – use of words, numbers,
+and/or cartoon-like elements.
+13) Unconventionality C (Ucd) – non-stereotypical utiliza-
+tion of fragments of ﬁgures.
+14) Speed (Sp) – Time for completion of the drawing. Since
+we did not limited the time that participants could draw
+with the robot to avoid imposing many restrictions on this
+task, we have excluded this score from our study.
+C. Procedure
+Before starting the experiment, participants were asked
+to read and sign a consent form. After that, the drawing
+task began and the participant sat in front of the tablet
+while listening the instructions that the researchers provided,
+being free to ask any clariﬁcation question. The instruction
+provided to the participants was that they would be “drawing
+with the robot (or the tablet) something they wished.” When
+everything was clear, the wizard-of-oz (WoZ) started. Both the
+robot/tablet and the participant had two turns to contribute to
+the drawing. When the 4 turns were ﬁnished, the participant
+would signal the researchers that the drawing was complete
+and the experiment ﬁnished.
+D. Results
+We analyzed the impact of the robot on the human cre-
+ativity, by using the non-parametric Mann-Whitney U Test
+given that our sample followed a non-normal distribution.
+The between-subject factor was the embodiment (robot or
+tablet) and the within-subject factor was the score computer
+for ﬁgural creativity. There was no signiﬁcant main effect of
+creativity nor a signiﬁcant interaction between the embodi-
+ment and creativity, U = 91.000, p = 0.400. Additionally,
+we explored two additional dimensions of the TCT-DP in-
+troduced by Nogueira (2017), namely conventional and the
+non-conventional thinking [50]. The reliability of the items
+for the non-conventional thinking was poor, p = 0.475, and
+questionable for the conventional thinking p = 0.688. The
+Mann-Whitney U Test did not reveal statistically signiﬁcant
+results in conventional and non conventional thinking, p >.5.
+IV. DISCUSSION
+Creativity is of paramount importance in our current society.
+With this work, we provided a speculative design study
+that aims to explore co-creativity tasks between humans and
+robots. Having robots performing or supporting the creative
+human process is a way to explore the design of robots for
+social good. Indeed, creativity is an ability that is desired in
+developed societies, and that has the potential to be stimulated
+if trained [28], [51]–[54]. Despite our experiment being one
+of the ﬁrst to explore creativity in the ﬁeld of HRI, we were
+not able to support our study hypothesis, as no signiﬁcant
+improvement in creativity was found when drawing with the
+robot. Despite of the desire to include interactive technologies
+in roles that stimulate and foster human abilities, such as of
+being creative, doing so is not a trivial task. In the case of our
+work, designing an experiment with a collaborative drawing
+scenario proposed challenges that need to be addressed in the
+design perspective. Particularly, the choice of the task can
+lead to user frustration (e.g., some said the robot “ruined their
+drawing”), or have higher expectations over robots’ abilities
+(e.g., some participants had higher expectation of the drawing
+ability of the robot).
+The discussion about creativity allow us to reﬂect on edu-
+cation and on what is taught and how. In this perspective, this
+project is critical to reﬂect on traditional learning strategies,
+the roles in education, and the content being delivered. As we
+have highlighted in the related work, creativity is not the mere
+result of learning information, but the use of such information
+to produce something that can combine previous knowledge
+to accomplishment something else – from solving problems of
+different nature, to come up with innovative ideas. Due to this,
+it is interesting to explore the potential opportunities offered
+in the exchange and collaboration with robotic partners, which
+can be an incentive and a guide for the creative process,
+making it more stimulating and effective. Consequentially,
+areas of application for exploring scenarios of co-creation
+with robots can be framed within the notion of robots for
+social good. In this regard, more investigation should be made
+using different methodologies for analyzing the process of co-
+creation with robots, namely behavioral analysis of the creative
+process that can yield exclusive results that are not implicated
+in the ﬁnal creative product. Also, variables related with the
+person, such as the their levels of curiosity and acceptance of
+robots, should be controlled.
+The appearance that a robot should have is another interest-
+ing reﬂection for the design of systems that aims of stimulating
+creativity, by exploring the role of humanoid robots in contrast
+to minimalist appearance of robots 1. Additionally, we should
+consider diversiﬁed contexts, such as school, workplaces and
+other collaborative settings, as well as long-term multi-party
+interactions, to explore this topic and learn more about the
+effective application and use of robots for social good.
+ACKNOWLEDGMENTS
+This work was supported by national funds through Fundac¸˜ao
+para
+a
+Ciˆencia
+e
+a
+Tecnologia
+(FCT)
+with
+reference
+UID/CEC/50021/2019 and by the European Union’s Horizon
+2020 research and innovation program under grant agreement
+No 765955 ANIMATAS project. P. Alves-Oliveira acknowl-
+edges a FCT PhD grant ref. SFRH/BD/110223/2015. We thank
+all the participants of this study for their involvement.
+REFERENCES
+[1] H. Gardner and E. Gardner, Art, mind, and brain: A cognitive approach
+to creativity.
+Basic Books, 2008.
+[2] K. Robinson, Out of our minds: Learning to be creative.
+John Wiley
+& Sons, 2011.
+[3] P. Collard and J. Looney, “Nurturing creativity in education,” European
+Journal of Education, vol. 49, no. 3, pp. 348–364, 2014.
+[4] S. Moran, “The roles of creativity in society,” The Cambridge handbook
+of creativity, pp. 74–90, 2010.
+[5] I. N. Dubina, E. G. Carayannis, and D. F. Campbell, “Creativity econ-
+omy and a crisis of the economy? coevolution of knowledge, innovation,
+and creativity, and of the knowledge economy and knowledge society,”
+Journal of the Knowledge Economy, vol. 3, no. 1, pp. 1–24, 2012.
+[6] D. H. Pink, A whole new mind: Why right-brainers will rule the future.
+Penguin, 2006.
+[7] C. Mellander and R. Florida, “The creative class goes global,” in The
+Creative Class Goes Global.
+Routledge, 2013, pp. 23–30.
+[8] C. A. Burnett and K. P. Haydon, “Do we need a revolutionary approach
+to bring creativity into education?” in Creative Contradictions in Edu-
+cation.
+Springer, 2017, pp. 201–220.
+[9] T. Davies, “Creative teaching and learning in europe: Promoting a new
+paradigm,” The Curriculum Journal, vol. 17, no. 1, pp. 37–57, 2006.
+[10]
+¨O. C¸ okpekin and M. P. Knudsen, “Does organizing for creativity really
+lead to innovation?” Creativity and Innovation Management, vol. 21,
+no. 3, pp. 304–314, 2012.
+[11] J. Kratzer, O. T. A. Leenders, and J. M. v. Engelen, “Stimulating
+the potential: Creative performance and communication in innovation
+teams,” Creativity and Innovation Management, vol. 13, no. 1, pp. 63–
+71, 2004.
+[12] G. R. Oldham, “Stimulating and supporting creativity in organizations,”
+Managing knowledge for sustained competitive advantage, pp. 243–273,
+2003.
+[13] J. Dul and C. Ceylan, “Work environments for employee creativity,”
+Ergonomics, vol. 54, no. 1, pp. 12–20, 2011.
+[14] J. P. Guilford, “The nature of human intelligence.” 1967.
+[15] E. P. Torrance, “The nature of creativity as manifest in its testing,” The
+nature of creativity: Contemporary psychological perspectives, vol. 43,
+1988.
+[16] T. M. Amabile, Creativity in context: Update to the social psychology
+of creativity.
+Hachette UK, 1996.
+[17] R. J. Sternberg and T. I. Lubart, “Investing in creativity.” American
+psychologist, vol. 51, no. 7, p. 677, 1996.
+[18] M. A. Boden, The creative mind: Myths and mechanisms.
+Routledge,
+2004.
+[19] J. Baer and J. C. Kaufman, “Bridging generality and speciﬁcity: The
+amusement park theoretical (apt) model of creativity,” Roeper review,
+vol. 27, no. 3, pp. 158–163, 2005.
+1See the work of Sougwen Chung on the use of non-humanoid robots for
+painting exhibitions: http://sougwen.com/
+[20] K. Sawyer, Group genius: The creative power of collaboration.
+Basic
+Books, 2017.
+[21] M. A. Cronin and J. Loewenstein, The Craft of Creativity.
+Stanford
+University Press, 2018.
+[22] L. W. Anderson, D. R. Krathwohl, P. W. Airasian, K. A. Cruikshank,
+R. E. Mayer, P. R. Pintrich, J. Raths, and M. C. Wittrock, “A taxonomy
+for learning, teaching, and assessing: A revision of blooms taxonomy of
+educational objectives, abridged edition,” White Plains, NY: Longman,
+2001.
+[23] C. W. Taylor, “Various approaches to and deﬁnitions of creativity,” The
+nature of creativity, pp. 99–121, 1988.
+[24] R. E. Mayer, “22 ﬁfty years of creativity research,” Handbook of
+creativity, vol. 449, 1999.
+[25] J. A. Plucker, R. A. Beghetto, and G. T. Dow, “Why isn’t creativity more
+important to educational psychologists? potentials, pitfalls, and future
+directions in creativity research,” Educational psychologist, vol. 39,
+no. 2, pp. 83–96, 2004.
+[26] J. P. Guilford, “Creative abilities in the arts.” Psychological review,
+vol. 64, no. 2, p. 110, 1957.
+[27] M. Rhodes, “An analysis of creativity,” The Phi Delta Kappan, vol. 42,
+no. 7, pp. 305–310, 1961.
+[28] G. Scott, L. E. Leritz, and M. D. Mumford, “The effectiveness of
+creativity training: A quantitative review,” Creativity Research Journal,
+vol. 16, no. 4, pp. 361–388, 2004.
+[29] J. C. Kaufman, J. A. Plucker, and J. Baer, Essentials of creativity
+assessment.
+John Wiley & Sons, 2008, vol. 53.
+[30] J. C. Kaufman, Creativity 101.
+Springer publishing company, 2016.
+[31] N. K. Park, M. Y. Chun, and J. Lee, “Revisiting individual creativity
+assessment: Triangulation in subjective and objective assessment meth-
+ods,” Creativity Research Journal, vol. 28, no. 1, pp. 1–10, 2016.
+[32] E. P. Torrance, “Predictive validity of the torrance tests of creative
+thinking,” The Journal of creative behavior, vol. 6, no. 4, pp. 236–262,
+1972.
+[33] J. F. Pedersen, L. M. Vermeulen, C. Remy, M. M. Biskjaer, and
+P. Dalsgaard, “Mapping the landscape of creativity support tools in hci,”
+in The 2019 ACM CHI Conference on Human Factors in Computing
+Systems (CHI’19) ACM Conference on Human Factors in Computing
+Systems.
+Association for Computing Machinery (ACM), 2019.
+[34] T. Lubart, “How can computers be partners in the creative process: clas-
+siﬁcation and commentary on the special issue,” International Journal
+of Human-Computer Studies, vol. 63, no. 4-5, pp. 365–369, 2005.
+[35] P. Lucas and C. Martinho, “Stay awhile and listen to 3buddy, a co-
+creative level design support tool,” in Eighth International Conference
+on Computational Creativity, ICCC, Atlanta, 2017.
+[36] A. Pires, P. Alves-Oliveira, P. Arriaga, and C. Martinho, “Cubus:
+Autonomous embodied characters to stimulate creative idea generation
+in groups of children,” in International Conference on Intelligent Virtual
+Agents.
+Springer, 2017, pp. 360–373.
+[37] S. Colton, “The painting fool: Stories from building an automated
+painter,” in Computers and creativity.
+Springer, 2012, pp. 3–38.
+[38] P. H. Kahn Jr, T. Kanda, H. Ishiguro, B. T. Gill, S. Shen, J. H.
+Ruckert, and H. E. Gary, “Human creativity can be facilitated through
+interacting with a social robot,” in The Eleventh ACM/IEEE International
+Conference on Human Robot Interaction.
+IEEE Press, 2016, pp. 173–
+180.
+[39] G. Gordon, C. Breazeal, and S. Engel, “Can children catch curiosity from
+a social robot?” in 2015 10th ACM/IEEE International Conference on
+Human-Robot Interaction (HRI).
+IEEE, 2015, pp. 91–98.
+[40] P. Alves-Oliveira, P. Arriaga, A. Paiva, and G. Hoffman, “Yolo, a robot
+for creativity: A co-design study with children,” in Proceedings of the
+2017 Conference on Interaction Design and Children. ACM, 2017, pp.
+423–429.
+[41] P. Alves-Oliveira, A. Chandak, I. Cloutier, P. Kompella, P. Moegenburg,
+and A. E. Bastos Pires, “Yolo-a robot that will make your creativity
+boom,” in Companion of the 2018 ACM/IEEE International Conference
+on Human-Robot Interaction.
+ACM, 2018, pp. 335–336.
+[42] P. Alves-Oliveira, P. Arriaga, G. Hoffman, and A. Paiva, “Boosting
+children’s creativity through creative interactions with social robots,”
+in 2016 11th ACM/IEEE International Conference on Human-Robot
+Interaction (HRI).
+IEEE, 2016, pp. 591–592.
+[43] J. Li, “The beneﬁt of being physically present: A survey of experimental
+works comparing copresent robots, telepresent robots and virtual agents,”
+International Journal of Human-Computer Studies, vol. 77, pp. 23–37,
+2015.
+[44] Y. Pan and A. Steed, “A comparison of avatar-, video-, and robot-
+mediated interaction on users trust in expertise,” Frontiers in Robotics
+and AI, vol. 3, p. 12, 2016.
+[45] Z. Kasap and N. Magnenat-Thalmann, “Building long-term relationships
+with virtual and robotic characters: the role of remembering,” The Visual
+Computer, vol. 28, no. 1, pp. 87–97, 2012.
+[46] H. G. Jellen and K. K. Urban, “The tct-dp (test for creative thinking-
+drawing production): An instrument that can be applied to most age and
+ability groups.” Creative Child & Adult Quarterly, 1986.
+[47] K. K. Urban, “Assessing creativity: The test for creative thinking-
+drawing production (tct-dp).” International Education Journal, vol. 6,
+no. 2, pp. 272–280, 2005.
+[48] H. G. Jellen and K. K. Urban, “Assessing creative potential world-wide:
+The ﬁrst cross-cultural application of the test for creative thinkingdraw-
+ing production (tct-dp),” Gifted Education International, vol. 6, no. 2,
+pp. 78–86, 1989.
+[49] L. Almeida and S. I. Nogueira, “Estudo preliminar do teste test for
+creative thinking-drawing production (tct-dp),” Psychologica, no. 52-I,
+pp. 193–210, 2010.
+[50] S. I. Nogueira, L. S. Almeida, and T. S. Lima, “Two tracks of thought:
+A structural model of the test for creative thinking-drawing production
+(tct-dp),” Creativity Research Journal, vol. 29, no. 2, pp. 206–211, 2017.
+[51] R. S. Mansﬁeld, T. V. Busse, and E. J. Krepelka, “The effectiveness of
+creativity training,” Review of Educational Research, vol. 48, no. 4, pp.
+517–536, 1978.
+[52] L. H. Rose and H.-T. LIN, “A meta-analysis of long-term creativity
+training programs,” The Journal of Creative Behavior, vol. 18, no. 1,
+pp. 11–22, 1984.
+[53] H.-H. Ma, “The effect size of variables associated with creativity: A
+meta-analysis,” Creativity Research Journal, vol. 21, no. 1, pp. 30–42,
+2009.
+[54] K. Birdi, “Creativity training,” in Human Resource Management, Inno-
+vation and Performance.
+Springer, 2016, pp. 298–312.

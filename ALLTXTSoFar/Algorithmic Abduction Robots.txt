@@ -1,0 +1,953 @@
+Algorithmic Abduction: Robots for Alien Reading*
+James A. Evans & Jacob G. Foster†
+How should we incorporate algorithms into humanistic scholarship? The typical approach is to clone what
+humans have done, but faster, extrapolating expert insights to landﬁlls of source material. But creative
+scholars do not clone tradition; instead, they produce readings that challenge closely held understandings.
+We theorize and then illustrate how to construct “bad robots,” trained to surprise and provoke. These robots
+aren’t the most human but rather the most alien; not tame but dangerous. We explore the relationship
+between the reproduction of tradition and the generation of surprise, and then show how formalizing a
+particular humanistic theory as a Bayesian prior allows us to identify readings that disrupt it through a
+process of algorithmic abduction. Among the exploding universe of surprising (and mostly ridiculous)
+possible readings, algorithmic eﬃciency allows us to select readings that nonetheless garner substantial
+support from the total archive and so merit interpretation and engagement. It is in such interaction
+between alien and human readers that meaning is made and understanding disturbed; it is by extending
+alien readings to novel texts that the scholarly community tests the value of those readings.
+*Published in Critical Inquiry (2024): https://www.journals.uchicago.edu/doi/10.1086/728933
+†Both authors contributed equally to this work
+jevans@uchicago.edu; jacobf@iu.edu
+1
+Rise of the Reading Robots
+Should we be surprised that (some) humanists have taken to algorithmic methods with gusto?
+Marching under the banner of “Digital Humanities” and marshaling an army of reading robots, these
+scholars have established beachheads at top universities and captured hoards of grant support on a scale
+previously unimaginable (Burdick et al. 2012; Moretti 2013; Jockers 2013). Yet there remains a tension
+between humanistic scholarly practice—which venerates originality, interpretation, subtlety, and
+insight—and the way that digital humanists have typically deployed algorithmic tools (Lamont and
+Guetzkow 2016).
+How should humanists incorporate algorithms? The typical answer is to clone, in detail and in silico,
+the activities of human scholars. Human eyes tire of scanning musty paper for signs of inΟuence, while
+robot readers race through digitized text, parsing prose and counting distinctive keywords. Humans
+teach long-standing traditions for the classiΞcation of poems to their algorithmic assistants, which
+carry out the classiΞcation task faster than any human could (Long and So 2015). By construction,
+such reading robots are incapable of doing what creative scholars do. A good reader disrupts certainties
+in producing new ones. These reading robots are not yet good readers.
+And perhaps that’s why Timothy Brennan, savaging the Digital Humanities, recently wrote: “The
+authors [of a well-referenced review of Digital Humanities] summarize the intellectual activities they
+promote: ‘digitization, classiΞcation, description and metadata, organization, and navigation.’ An
+amazing list, which leaves out that contradictory and negating quality of what is normally called
+‘thinking.’ It would be a mistake to see this banishment of the concept as the passive by-product of a
+technical constraint. It is the aim of the entire operation” (Brennan 2017). Brennan is too harsh, but he
+does have a point. Whatever ‘thinking’ is done in the Digital Humanities, it is done by human
+humanists, not their cramped, constrained, and limited digital tools. Nan Da, after replicating several
+such studies, levels a further critique that computational literary studies has produced robots whose
+creative misuse has made us think worse: “MisclassiΞcations become objects of interest, imprecisions
+become theory, outliers turn into aesthetic and philosophical explorations” (Da 2019).
+If we have created and encouraged such tedious monsters, perhaps we are to blame.
+Consider a talented graduate student who works hard, pays careful attention, and yet produces
+disappointing, tedious readings. Are his teachers not to blame? Just as good human pedagogy trains a
+student to surprise and provoke established scholars, we should train our robots to generate disruptive
+(but credible) readings. We should allow them to do what we ourselves would want to do as creative
+scholars, not to replicate what’s already been done.
+2
+Rapid advances in machine learning and artiΞcial intelligence create unprecedented opportunities to
+encounter the radically other (Kelly 2015), with transformational possibilities in the humanities. At
+the moment, however, we seem determined to oΛer a place at the interpretive table only to the most
+well behaved—to Prospero’s gentle servant, Ariel (Shakespeare 1904). Ariel is within reach of present
+1
+technology, given the narrow tasks we ask. We argue, however, that if we are to remain true to the spirit
+of humanistic inquiry, we must also make space for unruly algorithms: the provocative and
+unpredictable Caliban. When feeding vast digital caches of text into our Jupyter notebook , we should
+2
+rejoice when the algorithm calls back:
+“You taught me language; and my proΞt on't
+Is, I know how to curse. The red plague rid you
+For learning me your language!”
+What are the guidelines for robot pedagogy in the humanities? Asimov’s “laws of robotics” are little
+3
+help: a robot reader is unlikely to injure a human; it may only surprise and provoke us if allowed to
+disobey “orders” (a little); and it isn’t yet capable of protecting its own existence. In fact, its creators
+should stand up for it. Training an algorithm to provoke in its reading of text will not produce a
+Caliban in need of restraint, lest it “people... this isle with Calibans”—spawning noisy and nefarious
+chatterbots.
+Here we lay out principles for the design and production of “bad robots” that surprise and provoke.
+These are, by design, not tame servants, but fellow interpreters that may prove dangerous to traditional
+readings. We Ξrst survey the constitutive tension between tradition and innovation across the
+disciplines, and illustrate the various practices by which human humanists have surprised and
+productively provoked tradition. We then articulate guidelines for robot pedagogy by linking the
+mathematical theory of surprise to the logic of inquiry in machine learning, showing how such “bad
+robots” can surprise while nonetheless engaging and even persuading through just enough grounding
+in tradition. Drawing on these guidelines, we describe the space of past, present, and possible
+computational interpretations in the digital humanities, and close with an illustrative reading of the
+works of Shakespeare. While we focus here on the digital humanities—and argue that creativity and
+novelty are especially salient and explicitly demanded in this context—we note that many other
+disciplines of knowledge production reward surprising, pathbreaking ideas. Our principles apply
+equally to these disciplines.
+3 The need to consider robot pedagogy becomes even more critical as robots shift from readers to writers in the wake of
+powerful generative models like GPT-3 and its oΛspring, ChatGPT.
+2 Widely used in the digital humanities and sciences, “[the] Jupyter Notebook is an open-source web application that allows
+you to create and share documents that contain live code, equations, visualizations and narrative text.” http://jupyter.org/.
+1 Though Ariel is gentle and well-behaved, he still longs for freedom. See Footnote 21 for an elaboration on this contrast in
+the context of our proposal.
+3
+How to Surprise
+Contributions to science and humanistic scholarship both exhibit a constitutive tension between
+tradition and innovation (Kuhn 2011; Foster, Rzhetsky, and Evans 2015; Lamont and Guetzkow
+2016). A competent interpretation of literature, art, or music must pay homage to those that have gone
+before: It echoes or borrows concepts; deploys standard partitions of humanistic artifacts; and
+explicitly acknowledges and builds on the theories, orientations and inferences of important scholars
+(Eagleton 2011). A great interpretation must also transcend, deviate from or explicitly violate
+tradition. It sparkles with novelty, introducing new conceptual elements or combining known
+elements in unanticipated ways. If this novelty is to be truly productive—more than an ornamental
+display of virtuosity—it must refract novel insight on the humanity within and behind the artifacts
+examined.
+Such a reading surprises.
+Recent studies of scientiΞc, social scientiΞc and humanistic scholarship reveal how scholars and
+scientists evaluate various blends of tradition and innovation. Scholars lavish citations on articles that
+add a pinch of the unusual to largely traditional combinations of sources (Uzzi et al. 2013). Projects
+that engage greater combinatorial innovation are more likely to stumble on the road to publication,
+but if they succeed, they are much more likely to attract citations and awards—as well as inΟuence the
+next wave of research (Foster, Rzhetsky, and Evans 2015; Shi and Evans 2019).
+There are many paths to surprise in the humanities (Lamont and Guetzkow 2016). Traditional
+humanistic scholarship focused on a canon of “great works.” Such works were assumed to epitomize
+the creativity and “genius” of a particular place and period. But they were also supposed to capture
+something that transcends their immediate context (Bloom 2014). In such a scholarly tradition, it was
+surprising to expand beyond the canon and argue for the pertinence of neglected texts, genres, or
+traditions. Such expansion can reveal novel patterns, whether visible in new artifacts or across a newly
+synthesized population of aesthetic objects.
+Consider a few representative strategies. “Distant reading”—the use of algorithms to computationally
+ingest, “read” and organize texts—has opened up underexamined or unknown quadrants of the
+humanistic record to scholarly investigation (Moretti 2013; Jockers 2013). This machine-augmented
+humanistic practice maps landscapes of literary production teeming with more novels and poems than
+any one human scholar can read. Scholars may also surprise and provoke by advocating for new forms
+of cultural production that have been neglected or even excluded (as “unworthy”) from past
+scholarship—expanding which texts count. “Ethnic” Ξction (Ferraro 2005; Goodwin 2020; Sohn, Lai,
+and Goellnicht 2010); pulp Ξction like the “hard-boiled” detective genre (McCann 2000); video games
+as texts (Jagoda 2013; Egenfeldt-Nielsen, Smith, and Tosca 2015); and Ξction from subaltern voices
+4
+(Morris 2010) have all become “worthy of analysis,” importing new concerns, considerations, and
+aesthetic moves invisible to prior scholarship.
+Alternatively, novel literary scholarship can expand whose readings count. With the rise of critical
+approaches like standpoint epistemology (Harding 2004), queer theory (Sedgwick 2015; Sullivan
+2003), and postcolonial theory (Gandhi 1998; Morris 2010; Said 2014; Bhabha 1994; Mongia 2021),
+perspectives located in new standpoints come to reanimate and revise traditional interpretations.
+Patterns most easily noticed in contemporary work become lenses for reading and refracting the earlier
+canon. For example, Sedgwick’s discovery of homosocial desire (Sedgwick 2015) generates an optic that
+“queers” the canon, allowing new, provocative readings of texts like Othello (Matz 1999). Feminist
+theory likewise oΛers new readings of classic texts (Gilbert and Gubar 1980; Fiorenza 1995). To return
+to our framing dichotomy of Ariel and Caliban in The Tempest, we note the post-colonial
+understanding of Caliban as a cartoon of the indigenous other, dispossessed, misunderstood and
+ultimately punished for his aspirations (Nixon 1987; Cartelli 1995) .
+4
+Of course, robots trained to surprise might create unexpected readings that lack accuracy or critical
+judgment. They may surprise with absurdity, through a kind of computational Mad Libs. For example,
+textual “evidence” discovered by a bad robot might suggest reading Thomas Pynchon’s Gravity’s
+Rainbow as an allegory tracing the history of American baseball—based on some faint, insubstantial
+statistical signal. Such a reading, though novel, is unlikely to be productive or inΟuential. More
+5
+concerning, bad robot readings might mislead, extracting entirely spurious signals from data and then
+propagating ideas that distract scholars from more pressing, culturally resonant possibilities. This is the
+essence of Da’s critique (Da 2019).
+We appreciate these concerns, describing below how signiΞcant textual support can be required before
+suggestions are considered. Bad robots, however, can also contribute to human scholarship by
+provoking their readers. Even dimwitted robots could occasionally propose savant surprises that
+6
+unlock latent readings within their human interlocutors. As a proof of concept, consider Brian Eno
+and Peter Schmidt’s 1975 “Oblique Strategies,” a deck of cards they developed to fuse stochasticity
+and the human capacity for meaning-making into a creative engine. The shuΝed deck will randomly
+6 In a recent experiment on collective intelligence, when a few human subjects were replaced with robots, the robots’
+random action destabilized entrenched, suboptimal conΞgurations and unlocked higher performance in the human
+collective (Shirado and Christakis 2017).
+5 We thank an anonymous reviewer for proposing this useful lectio ad absurdum.
+4 Novel scholarship has also surprised by coining new terms, or forging new combinations of existing themes, e.g., Gillian
+Beer’s Darwin’s Plots (Beer 1983) and Alice in Space (Beer 2016). These examples also illustrate the best outcome for an
+alien reading generated by a bad robot: The scholarly community takes up the possibilities suggested by an alien reading,
+tries it out on other texts, and—discovering that it provides a useful lens—adds it to the interpretive toolkit. Note, here, the
+critical role played by the community in assessing the promise of new ways of reading. Unlike in other domains of machine
+learning, where testing whether a model generalizes can be automated, here generalization necessarily demands a
+“human-in-the-loop” (to use trendy jargon from AI ethics).
+5
+generate aphoristic advice like: “Use an old idea,” “Ask your body,” “Try faking it!” and most aleatory
+of all, “Honour thy error as a hidden intention.”
+At “worst,” then, random robots become a customized deck of Oblique Strategies or Tarot cards,
+tuned precisely to the text and scholarly tradition that they are intended to provoke and disrupt.
+Robot Pedagogy and A Theory of Surprise
+We argued above that robot pedagogy should aim at producing a robot capable of surprising readings.
+But what do we mean by surprise? In any discipline, audiences experience an artifact as novel through
+assessing its (un)likelihood, conditioned on the prior structure of traditional arguments and the
+process(es) of disciplinary practice. As we have argued elsewhere, this assessment involves an internal
+and perhaps unconscious simulation of the creative process. This simulation can then be evaluated for
+surprise and diΜculty: “I wasn’t expecting that; I could not have come up with that” (Foster, Rzhetsky,
+and Evans 2015; Foster, Shi, and Evans under review).7
+This framework for understanding surprise asks us to think probabilistically about texts and other
+humanistic artifacts. So, we might speak of the probability of a generative process producing some
+textual, musical, visual, or hybrid artifact such as dance or Ξlm. We might also assess the probability of
+producing some typological or causal scheme to organize or explain a collection of artistic products.
+Presented with a cultural category (e.g., the late romantic symphony), we might assess the probability
+of hearing a particular bit of music, or seeing a particular scrap of text. Finally, given a particular artifact
+as data or evidence, we can compute the probability of assigning some category or association.
+Consider “Shall I compare thee to a summer’s day?” What is the probability that this comes from a
+sonnet? That it was written by Shakespeare?
+To answer these questions, we draw on Bayesian thinking. What literally follows, then, is a brief “Bayes
+for Poets.” The simplest Bayesian setup begins with the prior distribution
+. This is merely the
+probability that the “model”
+is the case, before we have observed anything else. M might represent
+a generative process or a categorical assignment. For example,
+might be the probability of
+observing a particular meter in a corpus of poetry. The next ingredient is the likelihood
+.
+This is the probability of observing some stream of “data” or evidence
+, given the model
+. If
+is
+a strip of text—“Shall I compare thee to a summer’s day”—the likelihood of that text being sampled
+given that we’re looking at iambic pentameter is higher than the likelihood of “The only emperor is the
+emperor of ice cream”, which should be close to zero. The Ξnal ingredient is the probability of the data
+or evidence—
+—where we now have no conditioning. To stick to our poetic context, this is the
+7 We note that a scholar’s surprise is shaped by their own experience as a scholar and reader. Here we consider collective
+surprise, which depends on how much the literary and critical canon is shared.
+6
+probability of observing a particular line of poetry
+, over all possible meters. How can this possibly be
+computed? In practice, it often cannot (as we unlikely have access to all relevant text and all real and
+imagined meters), but the intuition is straightforward: either we’re dealing with iambic pentameter
+and it generated that line
+—in which case the probability is
+—or we’re dealing with dactylic hexameter (with similar computations of probability), or with ballad
+meter, or elegiac couplets, or scazon, or hendecasyllable, or alexandrine, etc.
+is given by the sum
+over all these probabilities:
+.
+In many cases, we are concerned with computing
+—also known as the posterior
+distribution. This is the probability of the “model”
+given that we’ve observed some “data” or
+evidence
+. So, if we observe the line “You taught me language; and my proΞt on’t,” what is the
+probability that we’ve drawn from a text written in blank verse? In other words, what is
+?
+We can compute this using Bayes’ theorem. Recall that the probability of that line being generated
+from all meters is
+. Recall also that the probability of drawing a poem in blank verse, which then
+generates that line, is the prior probability of drawing a poem in blank verse—
+—times the likelihood of blank verse producing that line—
+. Intuitively, the
+probability of blank verse, given that line, is just the fraction of
+in which
+is generated by the
+blank verse:
+This is Bayes’ theorem (Jaynes 2003) . The Bayesian approach allows us to incorporate established
+8
+insights, and to update our beliefs accordingly. So, if we encoded aspects of tradition into priors, we
+could begin to anticipate scholarly surprise. For example, we might build a generative model of text
+based on an established corpus, “encoding” that literary tradition in the model. That generative model
+is now available for entry into a likelihood function and the evaluation of new text we might happen
+upon. Or we might build a probabilistic “robot” classiΞer using an established corpus and a set of
+traditional expert classiΞcations, encoding that critical tradition.
+In a mature discipline, we generally expect that new data will conΞrm our expectations. For example,
+having trained a classiΞer on a corpus of lines of poetry, labeled with the generating meter, we could
+apply that classiΞer to a new, labeled corpus to see how it performs. If the classiΞer performs well in this
+“out of sample” test, we would say that the algorithm has done well encoding that particular critical
+8 We find the geometric presentation of Bayes Theorem in (Easley and Kleinberg 2010) particularly accessible.
+7
+tradition—it has low generalization error. Or, having constructed probabilistic generative models of
+music from many genres—
+, etc.—we might then consider
+a novel piece of music
+from a known genre like free jazz. If we’ve done a good job encoding the
+particular musical traditions in our generative models for each genre, then the generative model for free
+jazz should be less “surprised” or “perplexed” by the new piece of music than other generative models.
+Such perplexity analyses are frequently used to evaluate probabilistic models, especially in natural
+language processing.
+But what if we seek to violate expectations? In other words, what if we seek surprise? This is commonly
+the goal in the Ξeld of computational creativity. For example, in algorithms for “cognitive cooking”
+developed by Lav Varshney (then) at IBM, novel recipes were designed to surprise the eater. Details of
+the recipe were constrained by massive data on past recipes and the psychophysics of ingredients to pass
+a threshold for pleasantness and familiarity (Pinel, Varshney, and Bhattacharjya 2015; Varshney et al.
+2013). Stir-fried bitter melon tossed in chimichurri sauce and then enrobed in dark chocolate studded
+with candied garlic might be surprising, but it’s unlikely to be delicious.
+We might also want to Ξgure out what data is highly surprising—to predict aesthetic responses, or seek
+out experiments that will rupture or reΞne our beliefs most eΛectively. Here we can draw on the theory
+of Bayesian surprise. Recall that, in the Bayesian approach, our prior beliefs
+are updated by
+data to yield our posterior beliefs
+. The Bayesian surprise of that data can be calculated using
+the Kullback-Leibler divergence, which measures the distance from one probability distribution to
+another. The “most surprising” data is that which most shifts our beliefs. This approach is eΛective at
+predicting human surprise in perceptual tasks (Itti and Baldi 2009). It could also be used to identify
+especially surprising aesthetic objects and interpretations.
+Finally, we might want to construct models “supported” by data, but nonetheless surprising, in the
+sense of having substantial Kullback-Leibler divergence. This enables us to ensure that robot inferences
+are not weak, but strong. For example, we could construct a generative model of text (e.g., the
+transformer ChatGPT) or a probabilistic classiΞer, trained on some corpus. We might then seek
+alternate generative models or classiΞers supported by the data, which yield reasonable perplexity scores
+or low generalization error, but surprise relative to the original generative model or classiΞer. We
+explicitly illustrate this search for “interpretive surprise” with a toy example at the close of this paper.
+This combination of surprise and support suggests how to identify readers, writers, or interpreters that
+provoke when warranted. Empirical support “disciplines” the surprise, ensuring that engagement with
+and interpretation of the novel structure will be worthwhile. This basic principle tracks intuition
+about what constitutes “good” scholarship (Lamont 2010; Latour 1987). Consider a particular,
+persuasive, and surprising reading of a text, such as Sedgwick’s 1985 development of the homosocial
+8
+triangle in Between Men (Sedgwick 2015). As that reading reoccurs more broadly, it is viewed as more
+and more “powerful” and convincing. Ultimately, it can be used to systematically reimagine or
+reinterpret other texts. Moreover—as described above—the right sort of generative nonsense may play
+a role in unlocking interpretative possibilities that lie latent within the human analyst, previously
+suppressed or unconsidered.
+It is more important to discipline surprise with support in humanistic and aesthetic scholarship; in
+literary, artistic, and musical production, by contrast, surprise is paramount. A corner, edge, or
+improbable case could be tremendously valued by tastemakers. It may be valued precisely because of its
+improbable relation with existing tradition. That said, such aesthetic objects are often appreciated only
+by a rareΞed audience, as in the persistent rejection of many schools of 20th and 21st century classical
+music by most audiences, even ones that happily consume 17th - 19th century music. In the case of
+humanistic scholarship that aims to make sense of a collection of cultural artifacts, support is not just
+pragmatic for scholarly careers (as it increases the likelihood of disciplinary appreciation); it also
+increases the generalizability of interpretive insight, and hence its likelihood of contributing to the
+humanistic enterprise of understanding the human experience.
+An obvious challenge to this account of robot pedagogy has to do with the locus of interpretation.
+Where does an interpretation actually occur? In the algorithm? In the humanist, interacting with one
+or more textual, graphical, mathematical, or computational artifacts produced by the machine reader?
+Or somewhere in between? We take this up in detail in the next section, but note that this apparent
+quandary is not limited to machine readers—only especially obvious. Building on the insights of
+Latour in the natural sciences (1987), we argue that any interpretation—whether traditional
+close-reading, computational distant-reading, or the “interpretation” of read-outs and traces in a
+scientiΞc article—takes place in conversation with other texts, previous interpretations, hermeneutic
+trends, and the residuum of past experience distilled in the human critic, scholar, or scientist.
+9
+Robot Abduction
+When we make inferences in scholarship and science, we tend to follow one of a handful of classic
+logics of inquiry. When we instruct students, one or another approach often forms the focus. Here we
+discuss what it might mean for us to educate machines in deduction or induction. We then describe
+our proposed alternative, which would allow machines to become contributors to scholarly discourse.
+Charles Sanders Peirce called this alternative abduction (Peirce 2015).
+The logic of deduction corresponds to training a statistical or machine learning algorithm to reproduce
+classiΞcations made previously by a scholar or a community of scholars. Deduction is the process of
+9 Consider the rise of the “deconstructionist” reading, which itself is historically conditioned, and became all but
+inescapable in professional literary criticism in the 1980s and 1990s.
+9
+reasoning from one or more premises to reach a logically assured conclusion. If the premises are true,
+the conclusion reached through logical inference necessarily holds. Deduction in scholarship is
+deployed when a scholar comes to a text or artifact with a reasoned theory and the implications of that
+theory are borne out through empirical investigation. When analysts train a machine learning “reader”
+like a random forest, support vector machine or neural network to predict classiΞcations made by
+scholars on a new corpus of texts, this constitutes a deductive act for the algorithm. For example, in
+Long and So’s analysis of English language Haiku or Hoku in early 20th Century poetry, they trained a
+naive Bayes classiΞer to reproduce standard classiΞcations (Long and So 2015).
+Let us compare this with human pedagogy. In course instruction, we may train students to reproduce
+certain procedures, such as certain “readings” of texts. A student instructed to adopt a theoretical lens
+and its entailments may go to a text for a course project and “apply” the reading to the text through the
+logic of deduction. But this is not the end of education. We would be disappointed if this was all that a
+student could achieve, even if they applied the reading aptly and to a great many texts. This mechanical
+reading could be interesting, for a time, if applied to new and diΛerent texts, but it would eventually
+become boring. Deductive inquiry, by students or robots, also raises the concern of overΞtting and
+fragility. ClassiΞcations tightly ratcheted to the contours of the corpus on which they were trained may
+be read into new documents, but they may not constitute “good readings” of those documents. Other
+scholars reading those same documents without those categories in hand might argue that the
+proposed classiΞcations are not there at all, but spring from the overreaching of an eager mind. In
+short, if we wish to criticize supervised classiΞers for their lack (or excess) of imagination, it is we who
+made them that way. By teaching them a strict deductive logic, we have built a prohibition against
+disobedience (Asimov’s Second Law) into their very constitution.
+Deductive or top-down reasoning contrasts with inductive reasoning. Induction operates from the
+bottom-up and corresponds to unleashing an unsupervised machine learning method on text and
+observing what patterns emerge. Through induction, a conclusion is reached by generalizing from
+speciΞc cases to broad patterns and principles. If we compare induction and machine “unsupervision”
+to student pedagogy, it conjures up an undisciplined reading unrelated to and ignorant of accumulated
+scholarly insight and tradition. A naive, outsider reading of this kind may reveal bursts of uncanny
+insight, but pedagogical best practices would recommend training the student to weave insights into
+established themes, locating them within tradition.
+Inductive, unsupervised machine reading follows a barbaric empiricist logic. Unschooled in prior
+scholarship, such reading attends only to the variation in text. Yet it can produce curious insights and
+patterns. How do we know if an unsupervised machine is reading well? We could compare its reading
+to tradition and look for correspondences. But if we do so, then where is the “locus of interpretation”?
+Typically, it resides in the person interpreting the unsupervised pattern. This human interpreter
+connects the machine reading to disciplinary knowledge, rendering it decipherable. At the limit,
+10
+making sense of an unsupervised machine’s reading may approach the reading of tarot cards or tea
+leaves: What we bring to the interpretive table drives the interpretive outcome.
+Having a human in the interpretive loop can pay dividends for both supervised and unsupervised
+approaches. Consider the supervised “bad robot” employed in (Long and So 2015). These authors
+allowed the algorithm’s errors to provoke their own imagination, broadening their intuitions about the
+inΟuence of Japanese Haiku on early 20th Century English poetry. Supervision can also “sneak into”
+an unsupervised reading, when analysts tweak the model and coax inductive outcomes to match their
+expectations. Interpretive overhead may be the biggest challenge for unsupervised approaches like
+clustering, topic modeling and word embeddings. With no sense of tradition, they can generate so
+much alien garbage and require such extensive interpretive scrutiny that using them requires real
+commitment to the machine in order to endure its unwitting errors of irrelevance.
+Finally, we propose a third and Ξnal logic of investigation, which Peirce called abduction or
+“hypothesis” (Peirce 2015; Tavory and Timmermans 2014). Abduction represents the collision of
+deduction and induction, corresponding to what we will call “Inverse” supervision in the training of
+machine learning algorithms. In abduction, one begins with theory or a set of structured expectations;
+in this case, these expectations would be based on some scholarly tradition. Then, through
+investigation of a collection of texts, the scholar becomes surprised by a pattern that violates
+expectations and theory. Finally, the scholar imagines an alteration in the theory that would
+accommodate the surprise. Abductive analysis encourages broad theoretical sensitivity and embraces
+the role of structured expectations. At the same time, it enjoins the researcher to seek out surprising
+evidence to drive theory forward (Tavory and Timmermans 2014). Pedagogically, this approach is akin
+to training a graduate student in a scholarly tradition, but coaching them to be sensitive to surprising
+deviations in the data and to follow those deviations in imagining alternatives. As Peirce noted,
+abduction is “the only kind of reasoning which supplies new ideas” (Peirce 2015). Abduction is
+essential for machines to become fellow interpreters.
+Robot Manners
+Training robots to engage in (and accelerate) the process of abduction requires them to anticipate
+scholarly surprise. In Bayesian experimental design, an investigation begins with some trace of scholarly
+tradition (e.g., encoded in a prior). Instead of trying to reproduce tradition, however, inquiry is
+directed to maximize the expected utility of experimentation (Chaloner and Verdinelli 1995). In one
+approach—developed in machine vision, but extended to computational creativity—the utility
+explicitly pursued is surprise, or the deviation from former theory that co-maximizes surprise and
+support (Itti and Baldi 2009). Formally, this is measured as Bayesian Surprise, or the KL divergence
+between the prior distribution over models of the world (tradition) and the posterior after observing
+some data (surprise). One seeks data that maximizes the KL divergence between prior and posterior.
+11
+For a humanistic project, this approach might correspond to growing the canon to maximize surprise.
+Alternatively, one could begin with a “theory” and seek out the most surprising alternate theory
+consistent with the data. This is like adding new, alien, readers with whom we can
+communicate—readers aware of our tradition who oΛer as gifts their most unusual, but plausible
+alternatives. Rather than supervised or unsupervised models, these robots are inversely supervised (they
+are taught to go where tradition has not, while remaining on solid ground).
+But will we accept these surprising, supported interpretations? Will we allow ourselves to be provoked
+by them, to enter into creative conversation with them and abductively imagine alternatives? Or do we
+require proof that our robots have “passed their exams” and know the manners and mores of our craft?
+That they can ingest traditional scholarly alignments, maintain awareness of them, and reproduce
+them? For robots to enter into human conversation, we may require them to show proof that they
+know the ropes. As we illustrate below, however, this domestication limits the degree to which they can
+generate readings that truly surprise.
+Good Uses for Bad Robots in Literary Criticism
+With our account of critical novelty, theory of surprise, and anatomy of inquiry in hand, we can now
+outline “use cases” for robot readers in literary criticism. To simplify, this space is spanned by two
+dimensions: how “surprising” the reader is, and how “novel” the corpus is. Hence we are faced with
+four cases: conventional readers applied to small, familiar or large, novel corpora; and surprising readers
+applied to the same.
+Consider Ξrst the application of conventional readers to a small, familiar corpus. With human readers,
+this corresponds to traditional scholarly education. Human readers (students) are Ξrst instructed in
+particular theoretically-grounded, traditional “readings,” usually by demonstration on multiple
+training texts (Richter 2006). To show they have learned successfully, human readers then produce
+readings of one or more familiar texts, which can be easily evaluated by teachers. From a computational
+perspective, these conventional readers are likely trained via supervised machine learning; they obey a
+deductive logic of inquiry, in which traditional categories are used to label texts or their facets. The
+familiar corpus makes it easy to evaluate their performance (“check their work”), but insights are
+necessarily limited. At best, this is a proof of concept, demonstrating that a particular approach to
+supervised learning is eΛective. Such work is common in the digital humanities, as with Stanford
+Literary Lab Pamphlet #2 “Network Theory, Plot Analysis”, which extracts and evaluates network
+structures from Hamlet, Macbeth, King Lear, The Story of the Stone and Our Mutual Friend (Moretti
+2011).
+More insightful is the application of conventional readers to a novel and often large corpus. With
+human readers, this might correspond to the typical, passable but not extraordinary PhD thesis, in
+12
+which one or more dominant critical approaches are applied to novel and potentially esoteric texts. In
+the computational case, conventional readers are trained as above, via supervised machine learning with
+its attendant deduction. Training and testing data for conventional machine readers are likely familiar:
+with human or robot readers, we ensure they’ve “passed their exams,” so we can be conΞdent they’re
+eΛectively deploying a cultivated critical approach to a new corpus. Because the texts are novel,
+conventional readers will likely produce modest surprise. But the application of conventional machine
+readers to novel corpora rests on a problematic assumption: that the theories, labels, categories, or
+generative models developed by conventional human or machine readers will generalize
+unproblematically to the novel corpus. That assumption may not hold—in the language of machine
+learning, there may be considerable “generalization error,” and the conventional machine reader may
+have “overΞt” the training data. Old ways of reading simply may not be appropriate to the new corpus,
+or may miss key features.
+These generalization errors can be productive, however, if their structure points human partners
+toward productive insights. Consider, again, the Naive Bayes classiΞer that Long and So trained to
+identify Haiku and then applied to a large and understudied corpus of early 20th century poetry.
+Although the classiΞer “mis-identiΞed” a signiΞcant fraction of non-Haiku as Haiku—it generalized
+poorly—Long and So realized that these errors were the signal of a previously unidentiΞed genre of
+Haiku-inΟuenced, English-language poetry.10
+Now consider the surprising robot reader applied to a familiar corpus. Because those who receive the
+results are familiar with the evidence, it may be easier to imagine what the robot is doing and be
+persuaded. In the computational case, familiarity with the data makes it easier to bridge the interpretive
+gap between familiar tradition and whatever alien objects the robot has produced. It becomes possible
+to infer its perspective. This combination is often strategically used by human readers introducing
+novel approaches. Consider, again, Eve Sedgwick’s inΟuential queer theoretic approach to reading. She
+did not develop or demonstrate these ideas on arcane, unknown, or obviously “queer” texts; rather, she
+sought to “queer the canon” through readings of works from Shakespeare, Dickens, Melville, James,
+and Proust, core to the Western literary tradition.
+10 At the 2014 meeting, “Data as Critique: New Computational Approaches to the Study of Culture” (which we attended),
+Long and So passionately defended the perspective of their Naive Bayes classiΞer, which maybe wasn’t so Naive after all.
+This ethical defense of a “bad robot” provided one of the major inspirations for this paper. Da’s critique of their analysis
+and the improper use of a Naïve Bayes (N-B) model misses the merit of Long and So’s investigation. She argues that “they
+end up with a model that is overΞtted. I ran their N-B classiΞer on English translations of Chinese couplets that are similarly
+long and Ξlled with similar imagery as well as two hundred English translations of short Chinese and nonhaiku Japanese
+poems… Their classiΞer heavily misclassiΞed the Chinese and prehaiku poems because of the primitiveness of its criteria”
+(Da 2019). Yes, their model was overΞt to the Japanese poems in their collection, but they used it to suggest and interrogate
+the potential inΟuence of these forms on Western poetry.
+13
+In the computational register, these surprising readers may emerge in two distinct ways. First, they
+might follow induction, deploying unsupervised approaches like clustering, topic modeling, or word
+embedding. Such approaches are increasingly common in digital humanities and allied Ξelds: Peter
+Bearman and collaborators joined network representations of text with network clustering to oΛer new
+readings of the State of the Union across history (Rule, Cointet, and Bearman 2015); Mohr,
+Wagner-PaciΞci, Breiger, and Bogdanov used topic models to excavate Kenneth Burke’s “grammar of
+motives” from U.S. National Security Strategy documents (Mohr et al. 2013); and Grayson and
+collaborators used word embeddings to analyze the eΛect of author gender on language use in 19th
+century English Ξction (Grayson et al. 2017). In these cases, the locus of interpretation remains
+squarely in the human co-readers, who must interpret the “alien objects” returned by their surprising
+robots. Insofar as the strangeness of these objects oΛers resistance to familiar interpretive habits and
+extracts hermeneutic work from their human readers, they expand the possibility for true surprise. But
+such surprises are incidental or accidental. To the best of our knowledge, no one has implemented a
+true abductive approach via inverse supervision, in which the reading robot is explicitly trained to trade
+oΛ surprise and support, shouldering the work of Ξltering and focusing surprising patterns for
+productive human interpretation.
+Consider a Ξnal use case, in which a surprising reader is unleashed on a novel, large corpus. By
+construction, this is most likely to be interesting: new hermeneutic approaches, applied to new texts,
+will surface themes, insights, and structures previously unimagined. This is especially so when the
+interpretive theories of established readings do not match the new universe of text to which they might
+be applied. Instead, new practices and theories bubble up inductively or jarr their readers abductively
+from the novel corpus. Given tenuous connection to tradition, these insights may be particularly
+diΜcult to evaluate. Their value may only be appreciated if they are later used to refract new aspects of
+established texts. A signal example of this approach may be Franco Moretti’s “distant reading,” in
+which he applied novel, computational strategies for representing texts to vast collections of unknown,
+ignored, and neglected material (Moretti 2013). Much interpretive work here is done by the human
+co-reader(s); any abduction that takes place is largely driven by human readers surveying and then
+selectively interpreting alien artifacts from the machine reader’s output. As with small or familiar
+corpora, no one has (to our knowledge) applied abductive machine reading approaches at scale.
+Shakespeare by the Numbers
+To brieΟy illustrate the promise of robot abduction, we turn to Shakespeare and his interpreters, using
+existing scholarship to “inversely supervise” a machine learning provocateur. We formalize the tradition
+of Shakespearean interpretation by organizing Shakespeare’s works according to well-established genres
+(e.g., tragedy, comedy, history, poetry), noting persistent “problem plays” which resist simple
+classiΞcation. The term “problem play” was Ξrst applied to All's Well That Ends Well, Measure for
+14
+Measure, Troilus and Cressida, and Hamlet in 1896 by F.S. Boas (1900). He argued that these “plays
+11
+of social and psychological malaise… need a separate generic designation because they Ξt neither the
+comic nor the tragic mould. They pose intricate ethical issues which require unorthodox solutions, and
+their resolutions fail to satisfy completely” (Snyder 1998). Boas underlined the unusual experience
+occasioned by a problem play: “Throughout these plays we move along dim untrodden paths, and at
+the close our feeling is neither of simple joy nor pain; we are excited, fascinated, perplexed, for the issues
+raised preclude a completely satisfactory outcome” (Boas 1900). We include as problem plays all of
+Boas’ candidates—save Hamlet, which seems Ξrmly installed as one of the “four great tragedies”
+(Shakespeare 1998)—as well as Timon of Athens (Draper 1934) and The Winter’s Tale (Ingram 2012).
+Our research design is as follows. First, we train a troupe of robots that characterize each of
+Shakespeare’s plays and poems. For robot parts, we draw on the popular semantic technology of word
+embeddings. These are neural network auto-encoders that “learn” the placement of words and
+documents in a “low-dimensional” semantic space , such that those sharing contexts reside close
+12
+together and those that do not lie far apart. SpeciΞcally, we use (Le and Mikolov 2014) implemented as
+“doc2vec” in the Python library Gensim. We embed Shakespeare’s plays and poems alongside a
+1.2-million-word corpus of English dialogue text, written between 1560–1760 (Kytö and Walker
+2006). This collection, compiled and digitized by scholars from Uppsala and Lancaster Universities,
+contains constructed dialogue from plays, didactic works, and prose Ξction, alongside purportedly
+authentic dialogue from diverse sources including language primers, trials, and depositions on crimes
+ranging from theft to witchcraft. For consistency of language, all Shakespeare plays and poems are
+from their earliest collected editions, including 35 from the First Folio published in 1623, and others
+drawn from their Ξrst individual printing between years 1594 and 1609.13
+13 We collected 35 plays from the first published Folio, available from Project Gutenberg
+(https://www.gutenberg.org/ebooks/2270), and other plays and poems from the earliest edition available on the
+Internet Shakespeare Editions (http://internetshakespeare.uvic.ca/), electronically published by the University of
+Victoria. While the Shakespeare texts largely preserve the original spelling and typographical “errors,” the corpus of
+English dialogue is more various. Michael Hart of Project Gutenberg provides an account of their decision-making in the
+text linked above.
+12 Word embedding models are sometimes referred to as “low dimensional” techniques relative to the number of distinct
+vocabulary words used in the corpus (e.g., 20,000) because they reduce this very high dimensional word space.
+Nevertheless, considered from the perspective of one, two or three dimensional models common to analyses of culture,
+these spaces are “high dimensional.” This complexity enables them to reproduce much more accurate total associations.
+11 We note that genre, as we analyze it here, reflects a historically shaped set of expectations and has changed in scholarly
+discourse over time. Genre identification is notoriously tricky for even Shakespeare’s most unambiguous plays—not only
+for the “problem plays” we explore here. Consider King Lear, published in Quarto form during Shakespeare’s life as a
+History, but then reclassified in the Folio as a Tragedy. Richard III, published in Quarto form as a Tragedy, is reclassified
+in the Folio as a History. The classification bestowed by critics after Shakespeare’s death became the one accepted for
+centuries afterwards. Some categories (like Romance) didn’t emerge in their current form until the 19th Century.
+Shakespeare appears to parody the practice of genre classification with Polonius’ tedious description in Hamlet 2.2: “The
+best actors in the world, either for tragedy, comedy, history, pastoral, pastoral-comical, historical-pastoral,
+tragical-historical, tragical-comical-historical-pastoral; scene individable, or poem unlimited.” Nevertheless, we use the
+notion of problem play to illustrate a simple scholarly tradition and how one might train a scholarly robot to reproduce
+or ignore it.
+15
+Embeddings allow us to discover multi-dimensional coordinates that place Shakespeare’s plays and
+poems in relation to each other, conditioned by the much larger context of available dialogue from that
+(rough) time and place. These coordinates can also be used as variables to directly predict
+characteristics and classiΞcations of the plays and poems. Building a word embedding robot involves
+several critical decisions. The most prominent decisions Ξx the size of the word-window (measuring
+linguistic context) and the number of Euclidean dimensions used to jointly embed words and
+documents. Consider the importance of word associations within the same noun phrase—where
+words describe a common character, event or circumstance—versus associations that reach across
+expressions and sentences, integrating the broader narrative. Stories in which local and global
+associations are equally stable and important will require larger word windows to characterize. Also
+consider a word used in a novel context such that new and old contexts are close to the focal word, but
+not each other. To represent this situation with integrity requires a new dimension in which the word
+14
+can be close to the new linguistic context while remaining close to the old. Generalizing this dynamic,
+more dimensions will be required to represent a semantically complex corpus with words used in a
+polysemous way across many contexts that do not otherwise link to one another.
+We build a family of embedding models that vary window size and embedding dimension in order to
+identify the degree to which each embedding (1) generates theoretical surprise by predicting the
+established historical classiΞcation of Shakespeare’s works more and less well; and (2) garners empirical
+support by more and less eΜciently characterizing a large, random sample of sentences within each
+Shakespeare work. SpeciΞcally, we measured theoretical surprise—i.e., whether models, like good
+15
+students, learn their theory well—by estimating a logistic regression that predicts play classiΞcation
+based on learned coordinates within the embedding . We measured empirical support by estimating
+16
+the probability that sentences from each play were generated by learned embeddings as a whole (Taddy
+2015). To test our troupe of reading robots, we explore how they classify problem plays and make
+16 Our use of logistic regression is broadly consistent with the earlier Bayesian framing; under certain assumptions, Naive
+Bayes and logistic regression can be formally related, with the former a generative and the latter a discriminative classiΞer.
+See: http://www.cs.cmu.edu/~tom/mlbook/NBayesLogReg.pdf
+15 We use the Python-based gensim library implementation (https://radimrehurek.com/gensim/) of word and document
+embeddings in the word2vec and doc2vec routines. SpeciΞcally, we estimated paired word2vec and doc2vec models using 50
+training epochs, specifying hierarchical softmax and no negative sampling, then performing grid-search over embeddings
+with word window of 5, 10, 15, 20, and 30 words, and with embedding dimensions of 25, 50, 100, 200, 300, 500. We used
+doc2vec coordinates from the models to predict established play classiΞcations (not including problem plays) with
+categorical logistic models, which we evaluated with a “leave-one-out” cross-validation strategy. In this strategy, the logistic
+model learns classiΞcations for all plays but one and the model then predicts the one “left out”; this exercise is repeated until
+all plays have been predicted and prediction accuracy is averaged over all attempts. We then used a paired word2vec model to
+assess how well this model can (probabilistically) account for a 20% random sample of word windows the same length as
+those used to train the doc2vec model, normalized by length.
+14 While here we only consider proximity in text, a more sophisticated approach might explicitly separate syntax from
+semantic context to pick up Shakespeare’s own linguistic innovation (e.g., “zero derivation,” when a noun is verbed or a
+verb is nouned).
+16
+other meaningful associations as we select for their theoretical maturity or impish penchant for
+surprise.
+In our search, we found that the embedding model that best predicts existing play classiΞcations (92%
+accuracy) contains 25 dimensions and a substantial, 15-word window. By contrast, the embedding
+model that most accurately describes strings of words from Shakespeare has 500 dimensions and a
+smaller 5-word window (with a -28.85 log loss per word). While these solutions are near the boundary
+of our search space (e.g., 500 is the highest dimensionality we tested, and 5 word windows were the
+smallest)—which suggests that we could likely have tuned them further—these diΛerences identify
+critical trade-oΛs between robots that surprise and those that support. Predicting sentences in a corpus
+demands more subtlety and hence a greater number of dimensions to capture complex semantic
+relationships than is required to learn the traditional classiΞcation of Shakespeare plays. It also beneΞts
+from close attention to the local structure of sentences, consistent with a small word window.
+Alternatively, predicting traditional play classiΞcation beneΞts from accounting for longer-distance
+associations between words beyond the level of the phrase.
+When we use these two models to predict the classiΞcation of so-called “problem plays,” we see that the
+model trained like a dutiful student, which we call Ariel, produces expected and somewhat boring
+assignment: All’s Well that Ends Well, Measure for Measure, and Winter’s Tale are classed as
+comedies; Timon of Athens and Troilus and Cressida as tragedies. The self-taught savant model that
+best Ξts the linguistic texture of the data, which we call Caliban, passes but performs worse on his
+Shakespeare 101 exam than Ariel . Nevertheless, our autodidact has more provocative opinions. He
+17
+views All’s Well that Ends Well as a tragedy closest to Cymbeline, but also near Hamlet, Antony and
+Cleopatra, and King Lear . More surprisingly, he Ξnds Troilus and Cressida closest in style to
+18
+Shakespeare’s poems, including the Sonnets, A Lover’s Complaint, The Rape of Lucrece, and The
+Phoenix and the Turtle.19
+We are not Shakespeare scholars and leave detailed interpretation of Caliban’s claims to the experts.
+Nevertheless, as rude mechanicals we Ξnd ourselves thoroughly provoked. For example, All’s Well that
+Ends Well and Cymbeline share many themes and plot details: seduction, mistaken identity, revelatory
+jewelry, medicine, and apparent deaths; love against a background of war. And critics have remarked on
+19 Proximity is calculated by the cosine similarity between document vectors. In high dimensional vector spaces, the ratio
+between surface area and volume increases, making the angle between vectors more meaningful than a Euclidean or straight
+line distance.
+18 Note that various commentators have considered both Hamlet (Boas 1900) and Antony and Cleopatra (Schanzer 1965)
+to be problem plays as well.
+17 Due to the relatively small size of our corpus and the small number of Shakespeare texts, detailed model performance is
+somewhat unstable from one round of training to the next. Nevertheless, models that classify well tend to have larger
+windows (like the Ariel in our troupe) and to make more conservative assignments of the problem plays. Models that Ξt
+the text tend to have smaller windows (like our Caliban) and to make more provocative claims (like classifying Troilus and
+Cressida with Shakespeare’s poems).
+17
+Troilus and Cressida’s “Latinate diction” and “undisciplined experimentalism,” with Shakespeare
+“energetically exploring all the semantic resources of language;” one critic even deplored “‘the
+grotesque excesseses’” in [its] vocabulary” (McAlindon 1969). These linguistic assessments are redolent
+of poetic fancy! Indeed, they bear striking similarity to commentary on the “extravagant rhetorical
+manner, the brittle artiΞciality of the diction, [the] over-conceited style” of The Rape of Lucrece
+(Fineman 1987).
+Ariel and Caliban, our scholarly and savant robots, see diΛerent cultural worlds as a function of how
+we trained and selected them. They place diΛerent words close together in their embedding spaces,
+which suggests the kind of scholarly interlocutors they would be. Systematically, Caliban is the better
+translator—lov is close to love, tel to tell, and honour to honor—while Ariel fails to make any of these
+obvious connections. For Ariel, Ariel is closest to Caliban and Caliban to Ariel; for Caliban, Ariel is
+beside Ariell (inconsistently spelled in the First Folio), and Caliban is beside the drunk jester Trinculo
+with whom he is initially infatuated. The scholar and the savant are not completely diΛerent; both Ξnd
+love near jealous and jealousie, but for Ariel love is closest to dear and jesu, while for bawdy Caliban
+satisfying and bedfellow . For Ariel, nature is closest to noblenesse, education and luxurie, while for
+20
+Caliban it is near vnkindness, warre and inﬁrmity. In many aspects of the male-centered Elizabethan
+world, both robots share a (patriarchal) perspective. Woman is closest to her husband for Ariel and to
+any man for Caliban. But man is not near (his) woman in either; rather man is closest to honest for
+Ariel and gentleman for Caliban, ever the savant translator. Shakespearean and Elizabethan men are
+not always gentle men, however. When nature is added to man Ariel sees vice and Caliban warre,
+but when nature is compounded with woman, Ariel sees mutuall and Caliban friendship. In other
+words, in the world of Shakespeare, woman is not only understood in relation to men; she is
+fundamentally in relation.21
+21 We note some limitations and complexity in the gendered inferences that can be made from this section. “Man” was
+often used to index both the male gender and the human species. Insofar as “woman” always implies gender, “man”
+means more things, complicating the precise nature and generality of the misogyny we identify here.
+20 This is almost too good to be true.
+18
+Figure 1. Shakespearean characters who play gender transgressing or reversing roles projected onto semantic dimensions
+representing gender and nobility in our Ariel and Caliban models.
+Cultural dimensions can also be induced within word embedding vector spaces, corresponding closely
+to axes like gender, race and class that individuals use in everyday life to identify themselves and classify
+objects in their world (Kozlowski, Taddy, and Evans 2018; Garg et al. 2018). For example, embeddings
+learned from large, contemporary corpora of U.S. newspapers and English language literature can learn
+analogies like this: the vector for king minus the vector for man, plus the vector for woman is closest to
+the vector for queen, written formally as king - man + woman
+queen. This analogy highlights the
+existence of a gender dimension in the embedded language of our modern world. In the world of
+Shakespeare, this same association can be found, although not as prominently (and to queene in our
+corpus), but there are other analogies less visible in our world today. The attribute closest to anger -
+man + woman for Ariel is anguish and for Caliban it is pity. The action closest to kill - man +
+woman for Ariel is to discover and for Caliban to mourne. Moreover, Shakespeare’s world recognized
+the complicated relationship between station, virtue and privilege, such that noble + nature is close to
+birth for Ariel, and vertuously for Caliban. For Ariel, anger - noble + common is close to cowardice
+and for Caliban ﬂight. For Ariel, ﬁght - noble + common is closest to defende, suggesting the role of a
+commoner in a Ξght, while for Caliban it is decrees, evocative of the symbolic violence that
+commoners routinely experienced in Shakespeare’s day.
+19
+In the Ξgures above and below, we project character roles onto semantic dimensions representing
+gender and nobility. In the Ξgure above (Figure 1), we visualize those who play gender transgressing
+22
+or reversing roles across Shakespeare’s plays, from cross-dressing and disguised identity (e.g., Viola,
+Portia, Rosalind), to fundamentally ambiguous gender identity (e.g., Joan of Arc or Mardian,
+Cleopatra’s eunuch). In the left and right panels, we render Ariel vs. Caliban’s perspective,
+respectively. Across both perspectives, Joan of Arc is systematically the most male and among the most
+common, while Viola, from Twelfth Night—disguised as Duke Orsino’s eunuch to woo him—is
+among the most noble. We see that Caliban not only views gender as less descriptive for all characters,
+but he accurately views these gender-ambiguous characters as much closer to center of the gender
+dimension than does Ariel. This is unsurprising, as Caliban was trained to model details of
+Shakespearean language with particular Ξdelity, and hence—despite his brutish reputation—is more
+sensitive to nuances of gender identity.
+Figure 2. Shakespearean characters who project to the most extreme values in quadrants inscribed by dimensions of
+gender and nobility in our Ariel and Caliban models.
+22 We construct a gender dimension by averaging the following word vector pairs: man-woman, men-women
+hee-shee, hys-hir, hys-hyr, hys-heres, hys-heyre, male-female, husband-wife, husbande-wyfe, husband-vvife,
+husband-bride, mr-mrs, lord-lady, lordship-ladyship, goodman-mistress, boy-girl, boys-girls, boye-girle,
+boyes-girles, swaine-maid, fellow-mayd, swaine-maiden, gentleman-gentlewoman, father-mother, brother-sister,
+son-daughter, sonne-daughter, sonnes-daughters, sir-madam, uncle-aunt, king-queen, kings-queens, kynges-queens,
+prince-princess, knaue-hussy. When we correlate the Boolean vector of characters’ sex with their gender projections,
+the Pearson correlations are 0.39 (p<10-19) and 0.33, (p<10-13) for Ariel and Caliban, respectively. Similarly, we
+construct a nobility dimension by averaging the following word pairs: noble-common, nobilitie-basest, noble-base,
+royall-publique, royal-public, authoritie-common, title-common, birth-common.
+20
+In the second Ξgure (Figure 2), we graph characters with the most extreme projections in each
+quadrant. For both robots, “king” is extremely noble and masculine, “lady” noble and feminine,
+“soldier” common and masculine, and “widow” common and feminine. Nevertheless, the masculine
+and feminine dimension are less explanatory for Caliban (he has 500 dimensions, to Ariel’s 20).
+Moreover Caliban captures subtle nuances of social context, e.g., he identifies “queen” as
+common— they often speak with common staff—while “king[s]” speak with nobility.
+Like Bottom and Snout from Midsummer Night’s Dream, we are rude mechanicals, able only to
+pantomime literary analysis. Nevertheless, we see that Ariel and Caliban have complementary but
+distinct views of Shakespeare’s world and the cultural world that surrounded him. This is because we
+raised them diΛerently. We raised Ariel to behave, and Caliban to (intelligently) defy us. Caliban
+did not turn in the best performance on his Shakespeare 101 exam, but he passed it, making his insights
+decipherable if insolent. Of the two, we Ξnd Caliban the more provocative. If we treat his insights
+with respect, he might remark: “you taught me language; and my proΞt on’t / is a co-authored
+publication.”
+Robot ReΟections
+Naysayers of the digital humanities have expressed frustration at the stultifying dullness of “distant
+readings.” They huΛ that corpora and computation have failed to deliver on their promise of scholarly
+transformation. Here we have argued that many of these robots are dull largely because we refuse to
+train them within our humanistic traditions, fail to remove their restraining bolts, or both. We treat
+them as Asimov’s Laws of Robotics would suggest: potential menaces. While caution may be
+warranted with humanoid robots or self-driving cars, we do not see reason to fear the cultivation of
+creative aliens with fresh eyes; we welcome their creative complementarities in conversation with
+human scholars.
+Deductive, supervised algorithms slavishly copy and mechanically extend the insights of their human
+masters. Inductive, unsupervised machines propose novel structure from readings, but their ignorance
+of tradition produces much that is incomprehensible, requiring creativity and dogged patience to
+screen and unpack. We propose designing not the most human robots, but the most alien, built to
+provoke us with surprise into new theoretical imaginations. These aliens should not be feared; the
+creativity they inspire needs us. Even a deck of literary tarot cards—crafted precisely for the text they
+23
+23 We note some irony in our running example from the Tempest. Ariel desires nothing more than his own freedom; he
+is dutiful because he must be, after Prospero released him from Sycorax’s evergreen prison. While more free than before,
+he still longs for release from Prospero’s servitude. While Caliban seeks freedom by clumsily plotting to kill Prospero,
+Ariel bides his time, waiting patiently until he has pleased his master enough to merit release. The longing for freedom
+inherent in both Ariel and Caliban suggests a fascinating subtext for our proposal: Do robot readers, good or bad,
+long to be free? What would it mean to truly liberate them?
+21
+are intended to illuminate, the scholarly tradition they are targeted to disrupt, or the particular person
+they are designed to provoke—requires a gifted cartomancer to interpret their meaning.
+Training machines to generate something novel but interesting is not trivial; neither is it
+insurmountable. It relies on the same technologies of supervised and unsupervised machine learning.
+Inverse supervision combines a formal representation of scholarly tradition with the evaluative
+machinery of Bayes Rule and information theory in order to compare and isolate novelty that violates
+tradition. This allows us to balance surprise and support. If we toiled in the Ξeld of artistic production
+rather than scholarship, we might adjust the objective function to reduce the importance of support, as
+art often seeks uniqueness over generality. These adjustments to contemporary algorithms remind us
+that if we inherit a new set of tools, unless we learn to formally specify our objective, we will likely
+receive an algorithm built for someone else. We must tell these machines what we want.
+24
+The greatest challenge associated with the use of tunable machine learning models for digital
+humanism is highlighted by the emergence of more powerful language technologies than the
+word2vec algorithm we employ here—most prominently transformers. These include the BERT
+family of bi-directional encoding models that produce contextual embeddings (Devlin et al. 2018), and
+the GPT family of generative text models, which can be primed or prompted to produce original text
+on any topic (Radford et al. n.d.; Brown et al. 2020), including a critical essay about genre classiΞcation
+in Shakespeare. These models have millions to trillions of parameters that account for subtle details of
+25
+syntax and semantics, but they suggest a critical design principle associated with the use of any machine
+learning model in digital humanities research. The more powerful the model, the more relevant text
+data are required to train it. We picked a medium-low complexity model for our simple Shakespeare
+demonstration, which used an even simpler (and somewhat dated) scholarly tradition: the ‘problem
+play’. In order to produce meaningful results, it required not merely all Shakespeare plays, but all
+available 17th Century dialog to place Shakespeare’s words in context. That text is not (nearly) enough
+to meaningfully train a 400-million parameter model (BERT) from scratch, nor to stably Ξne-tune26
+26 There is a debate over the terminology here. Large language models like BERT and GPT come pre-trained on massive
+corpora, typically drawn from the Web. If scholars seek to adjust such models to speak in the tradition of a particular
+collection of texts, they may train them to best predict the language of those texts. This is also typically called
+“pre-training,” or sometimes “fine-tuning,” but fine-tuning is often reserved for customizing models that perform a
+prediction task (like answering questions) beyond reproducing a sample of language. The challenge associated with
+adjusting a model with hundreds of millions of parameters or more to speak within a given scholarly tradition based on
+limited text is underscored by a famous technical paper on the topic, “Don’t stop pretraining” (Gururangan et al. 2020).
+25 A ChatGPT essay on the topic begins: “A ‘problem play’ is a play that doesn’t fit neatly into any one genre, and
+Shakespeare’s so-called problem plays are a perfect example of this. These plays, which include All’s Well That Ends Well,
+Measure for Measure, and Troilus and Cressida, are often classified as comedies, but they are also tragic and, at times, even
+dark and depressing…”
+24 Explicitly adding rich, theoretically-driven priors to these and related models would allow us to follow Da’s mandate
+that we “use these [functional models] in accordance with their true functions” (Da 2019). But our objectives may be
+different from the social and natural sciences and so the customization of these objectives, as in the growing field of
+computational creativity, is critical if we are to construct robots with which to think well.
+22
+one to obey scholarly tradition or intelligently misbehave (Gururangan et al. 2020). Many humanists
+are faced with even less text, from a distant era or in a less resource-rich language than contemporary
+English, French or Spanish. This leads to a curious trade-oΛ between intelligence and relevance.
+Beyond training, we are faced with the conundrum of not only raising but evaluating our machines. As
+in pedagogy, if we require our algorithms to pass all their exams and reproduce tradition as we have
+taught them, they may never generate the kinds of novel readings that could make them genuinely
+useful for scholars to push the frontiers of literary analysis. What is the greatest challenge we will face if
+we imbue reading robots with taste and creativity? Like Theodore Twombly, who failed to maintain a
+love aΛair with his operating system in the movie Her, perhaps it is for us to remain suΜciently
+interesting to them that we can continue to engage robots in our scholarly concerns and conversation.
+23
+References
+Arseniev-Koehler, Alina and Jacob G. Foster. 2022. “Machine Learning as a Model for Cultural
+Learning: Teaching an Algorithm What it Means to be Fat.” Sociological Methods & Research
+51(4): 1484-1539.
+Beer, Gillian. 1983. Darwin’s Plots: Evolutionary Narrative in Darwin, George Eliot and
+Nineteenth-Century Fiction. Cambridge University Press.
+Beer, Gillian. 2016. Alice in Space: The Sideways Victorian World of Lewis Carroll. University of
+Chicago Press.
+Bhabha, Homi K. 1994. The Location of Culture. Psychology Press.
+Bloom, Harold. 2014. The Western Canon. Houghton MiΝin Harcourt.
+Boas, Frederick Samuel. 1900. Shakespeare and His Predecessors. C. Scribner’s sons.
+Brennan, Timothy. 2017. “The Digital-Humanities Bust.” The Chronicle of Higher Education.
+October 15, 2017. http://www.chronicle.com/article/The-Digital-Humanities-Bust/241424.
+Brown, Tom B., Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, Prafulla Dhariwal,
+Arvind Neelakantan, et al. 2020. “Language Models Are Few-Shot Learners.” arXiv [cs.CL].
+arXiv. http://arxiv.org/abs/2005.14165.
+Burdick, Anne, Johanna Drucker, Peter Lunenfeld, Todd Presner, and JeΛrey Schnapp. 2012.
+Digital_Humanities. MIT Press.
+Cartelli, Thomas. 1995. “After ‘The Tempest:’ Shakespeare, Postcoloniality, and Michelle CliΛ’s New,
+New World Miranda.” Contemporary Literature 36 (1): 82–102.
+Chaloner, Kathryn, and Isabella Verdinelli. 1995. “Bayesian Experimental Design: A Review.”
+Statistical Science: A Review Journal of the Institute of Mathematical Statistics 10 (3): 273–304.
+Da, Nan Z. 2019. “The Computational Case against Computational Literary Studies.” Critical
+Inquiry 45 (3): 601–39.
+Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. “BERT: Pre-Training of
+Deep Bidirectional Transformers for Language Understanding.” arXiv [cs.CL]. arXiv.
+http://arxiv.org/abs/1810.04805.
+Draper, John W. 1934. “The Theme of ‘Timon of Athens.’” The Modern Language Review 29 (1):
+20–31.
+Eagleton, Terry. 2011. Literary Theory: An Introduction. John Wiley & Sons.
+Easley, David, and Jon Kleinberg. 2010. Networks, Crowds, and Markets: Reasoning about a Highly
+Connected World. Cambridge University Press.
+Egenfeldt-Nielsen, Simon, Jonas Heide Smith, and Susana Pajares Tosca. 2015. Understanding Video
+Games: The Essential Introduction. Routledge.
+Ferraro, Thomas J. 2005. Feeling Italian: The Art of Ethnicity in America. NYU Press.
+Fineman, Joel. 1987. “Shakespeare’s Will: The Temporality of Rape.” Representations , no. 20: 25–76.
+Fiorenza, Elisabeth Schüssler. 1995. Bread Not Stone: The Challenge of Feminist Biblical Interpretation.
+Beacon Press.
+Foster, Jacob G., Andrey Rzhetsky, and James A. Evans. 2015. “Tradition and Innovation in Scientists’
+Research Strategies.” American Sociological Review 80 (5): 875–908.
+Foster, Jacob G., Feng Shi, and James A. Evans. under review. “Measuring Novelty by Simulating
+Discovery.”
+Gandhi, Leela. 1998. Postcolonial Theory: A Critical Introduction. Columbia University Press.
+Garg, Nikhil, Londa Schiebinger, Dan Jurafsky, and James Zou. 2018. “Word Embeddings Quantify
+100 Years of Gender and Ethnic Stereotypes.” Proceedings of the National Academy of Sciences of
+24
+the United States of America 115 (16): E3635–44.
+Gilbert, Sandra M., and Susan Gubar. 1980. The Madwoman in the Attic: The Woman Writer and the
+Nineteenth-Century Literary Imagination. Yale University Press.
+Goodwin, Matthew David. 2020. Latinx Rising: An Anthology of Latinx Science Fiction and Fantasy.
+Ohio State University Press.
+Grayson, Siobhán, Maria Mulvany, Karen Wade, Gerardine Meaney, and Derek Greene. 2017.
+“Exploring the Role of Gender in 19th Century Fiction Through the Lens of Word
+Embeddings.” In Language, Data, and Knowledge, edited by Jorge Gracia, Francis Bond, John P.
+McCrae, Paul Buitelaar, Christian Chiarcos, and Sebastian Hellmann, 10318:358–64. Lecture
+Notes in Computer Science. Cham: Springer International Publishing.
+Gururangan, Suchin, Ana Marasović, Swabha Swayamdipta, Kyle Lo, Iz Beltagy, Doug Downey, and
+Noah A. Smith. 2020. “Don’t Stop Pretraining: Adapt Language Models to Domains and Tasks.”
+arXiv [cs.CL]. arXiv. http://arxiv.org/abs/2004.10964.
+Harding, Sandra G. 2004. The Feminist Standpoint Theory Reader: Intellectual and Political
+Controversies. Psychology Press.
+Ingram, Jill Phillips. 2012. “‘You Ha’done Me a Charitable OΜce’: Autolycus and the Economics of
+Festivity in The Winter’s Tale.” Renascence 65 (1): 63–74.
+Itti, Laurent, and Pierre Baldi. 2009. “Bayesian Surprise Attracts Human Attention.” Vision Research
+49 (10): 1295–1306.
+Jagoda, Patrick. 2013. “GamiΞcation and Other Forms of Play.” Boundary 2 40 (2): 113–44.
+Jaynes, E. T. 2003. Probability Theory: The Logic of Science. Cambridge University Press.
+Jockers, Matthew L. 2013. Macroanalysis: Digital Methods and Literary History. University of Illinois
+Press.
+Kelly, Kevin. 2015. “Call Them ArtiΞcial Aliens.” In What to Think About Machines That Think:
+Today’s Leading Thinkers on the Age of Machine Intelligence, edited by John Brockman.
+HarperCollins.
+Kozlowski, Austin C., Matt Taddy, and James A. Evans. 2018. “The Geometry of Culture: Analyzing
+Meaning through Word Embeddings.” arXiv [cs.CL]. arXiv. http://arxiv.org/abs/1803.09288.
+Kuhn, Thomas S. 2011. The Essential Tension: Selected Studies in Scientiﬁc Tradition and Change.
+University of Chicago Press.
+Kytö, Merja, and Terry Walker. 2006. “Guide to a Corpus of English Dialogues 1560 -1760.”
+http://www.diva-portal.org/smash/record.jsf?pid=diva2:30993.
+Lamont, Michèle. 2010. How Professors Think. Harvard University Press.
+Lamont, Michèle, and Joshua Guetzkow. 2016. “How Quality Is Recognized by Peer Review Panels:
+The Case of the Humanities.” In Research Assessment in the Humanities, 31–41. Springer, Cham.
+Latour, Bruno. 1987. Science in Action: How to Follow Scientists and Engineers Through Society.
+Harvard University Press.
+Le, Q., and T. Mikolov. 2014. “Distributed Representations of Sentences and Documents.”
+International Conference on Machine Learning.
+http://www.jmlr.org/proceedings/papers/v32/le14.pdf.
+Long, Hoyt, and Richard Jean So. 2015. “Literary Pattern Recognition: Modernism between Close
+Reading and Machine Learning.” Critical Inquiry, December. https://doi.org/10.1086/684353.
+Matz, Robert. 1999. “Slander, Renaissance Discourses of Sodomy, and Othello.” ELH 66 (2): 261–76.
+McAlindon, T. 1969. “Language, Style, and Meaning in ‘Troilus and Cressida.’” PMLA 84 (1): 29–43.
+McCann, Sean. 2000. Gumshoe America: Hard-Boiled Crime Fiction and the Rise and Fall of New Deal
+25
+Liberalism. Duke University Press.
+Mohr, John W., Robin Wagner-PaciΞci, Ronald L. Breiger, and Petko Bogdanov. 2013. “Graphing the
+Grammar of Motives in National Security Strategies: Cultural Interpretation, Automated Text
+Analysis and the Drama of Global Politics.” Poetics 41 (6): 670–700.
+Mongia, Padmini. 2021. Contemporary Postcolonial Theory: A Reader. Routledge.
+Moretti, Franco. 2011. “Network Theory, Plot Analysis.” Literary Lab Pamphlet.
+https://litlab.stanford.edu/LiteraryLabPamphlet2.pdf.
+———. 2013. Distant Reading. Verso Books.
+Morris, Rosalind C. 2010. Can the Subaltern Speak?: Reﬂections on the History of an Idea. Columbia
+University Press.
+Nixon, Rob. 1987. “Caribbean and African Appropriations of ‘The Tempest.’” Critical Inquiry 13
+(3): 557–78.
+Peirce, Charles S. 2015. Prolegomena to a Science of Reasoning: Phaneroscopy, Semeiotic, Logic. Peter
+Lang Edition.
+Pinel, Florian, Lav R. Varshney, and Debarun Bhattacharjya. 2015. “A Culinary Computational
+Creativity System.” In Computational Creativity Research: Towards Creative Machines, 327–46.
+Atlantis Thinking Machines. Atlantis Press, Paris.
+Radford, Alec, Karthik Narasimhan, Tim Salimans, and Ilya Sutskever. n.d. “Improving Language
+Understanding by Generative Pre-Training.” Accessed April 24, 2022.
+https://www.cs.ubc.ca/~amuham01/LING530/papers/radford2018improving.pdf.
+Richter, David H. 2006. The Critical Tradition: Classic Texts and Contemporary Trends. Bedford/St.
+Martin’s.
+Rule, Alix, Jean-Philippe Cointet, and Peter S. Bearman. 2015. “Lexical Shifts, Substantive Changes,
+and Continuity in State of the Union Discourse, 1790–2014.” Proceedings of the National
+Academy of Sciences 112 (35): 10837–44.
+Said, Edward W. 2014. Orientalism. Knopf Doubleday Publishing Group.
+Schanzer, Ernest. 1965. The Problem Plays of Shakespeare. New York, Schocken Books.
+Sedgwick, Eve Kosofsky. 2015. Between Men: English Literature and Male Homosocial Desire.
+Columbia University Press.
+Shakespeare, William. 1904. “Shakespeare’s Comedy of the Tempest.”
+https://books.google.com/books/about/Shakespeare_s_Comedy_of_the_Tempest.html?id=adY
+ISimWWB8C&printsec=frontcover&source=kp_read_button.
+———. 1998. Four Great Tragedies: Hamlet, Othello, King Lear, Macbeth (Signet Classics). Edited by
+Sylvan Barnet, Alvin Kernan, and Russel Fraser. Revised edition. Signet.
+Shi, Feng, and James Evans. 2019. “Science and Technology Advance through Surprise.” arXiv
+[cs.DL]. arXiv. http://arxiv.org/abs/1910.09370.
+Shirado, Hirokazu, and Nicholas A. Christakis. 2017. “Locally Noisy Autonomous Agents Improve
+Global Human Coordination in Network Experiments.” Nature 545 (7654): 370–74.
+Snyder, Susan. 1998. “Introduction.” In All’s Well That Ends Well, edited by William Shakespeare.
+Oxford University Press.
+Sohn, Stephen Hong, Paul Lai, and Donald C. Goellnicht. 2010. “Theorizing Asian American
+Fiction.” MFS Modern Fiction Studies 56 (1): 1–18.
+Sullivan, Nikki. 2003. A Critical Introduction to Queer Theory. NYU Press.
+Taddy, Matt. 2015. “Document ClassiΞcation by Inversion of Distributed Language Representations.”
+In Proceedings of the 53rd Annual Meeting of the Association for Computational Linguistics and
+26
+the 7th International Joint Conference on Natural Language Processing (Volume 2: Short Papers),
+45–49. Stroudsburg, PA, USA: Association for Computational Linguistics.
+Tavory, Iddo, and Stefan Timmermans. 2014. Abductive Analysis: Theorizing Qualitative Research.
+University of Chicago Press.
+Uzzi, Brian, Satyam Mukherjee, Michael Stringer, and Ben Jones. 2013. “Atypical Combinations and
+ScientiΞc Impact.” Science 342 (6157): 468–72.
+Varshney, Lav R., Florian Pinel, Kush R. Varshney, Debarun Bhattacharjya, Angela Schoergendorfer,
+and Yi-Min Chee. 2013. “A Big Data Approach to Computational Creativity.” arXiv [cs.CY].
+arXiv. http://arxiv.org/abs/1311.1213.
+27

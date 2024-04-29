@@ -1,0 +1,968 @@
+1 
+Dreams for Digital Spaces Symposium Paper: What Shapes the Worlds of Children, 
+Educators and Researchers? 
+ 
+Organising contributors: Sarah Healy
+1 and Kathryn Coleman1 
+Contributors (named in order of appearance): Aleesha Rodriguez,2 Rebecca Ng,3 Amanda 
+Belton,4 Karen Thomson,4 Jessica Laraine Williams, 1,5 Neda Sajadi,1 Xinyu (Andy) Zhao5 and Rebekah 
+Willett5,6 
+ 
+1 Melbourne Graduate School of Education, The University of Melbourne 
+2 Australian Research Council Centre of Excellence for the Digital Child, Queensland University of Technology 
+3 Australian Research Council Centre of Excellence for the Digital Child, University of Wollongong 
+4 Melbourne Data Analytics Platform, The University of Melbourne 
+5 Australian Research Council Centre of Excellence for the Digital Child, Deakin University 
+6 University of Wisconsin–Madison 
+ 
+ Corresponding author: Sarah Healy, Melbourne Graduate School of Education, The University of Melbourne, Parkville, 
+Victoria 3010, Australia. Email: sarah.healy@unimelb.edu.au 
+ 
+Abstract  
+Dreams for Digital Spaces Symposium explores the array of so-called truths that shape the digital 
+worlds of children, educators, researchers, imaginaries, data, AI, algorithms and more through a 
+series of four interconnected presentations involving research that takes up the digital as a focus 
+and/or mode of inquiry.  Together the presentations demonstrate the power of combining data 
+science with philosophy, artistry, co-design, and educational research through interdisciplinary 
+collaborations – collaborations which have folded in and out of each other as ideas, methods and 
+even people have travelled. The symposium offers the audience an opportunity to consider how 
+digital practices become the stuff of dreams and nightmares, making room for a multiplicity of 
+potentially transformative truths to take place across virtual and physical sites. 
+ 
+Keywords 
+Digital futures, imaginaries, metaverse, digital ecology, data, AI, SF, digital childhoods 
+  
+Our digital play cuts across projects, institutions and immersive spaces. We are building on 
+the concepts of digital play that Plowman (2020) explores through the ways that children can play 
+with, explore, and use digital technologies in much the same way as they do with more traditional 
+play activities. Our play also moves between traditional and non-traditional scholarly research, with 
+our connections drawn across metho-pedagogic spaces (MacDonald et al., 2022). The four 
+presentations comprising the Dreams for Digital Spaces Symposium contribute to scholarship 
+concerned with digital childhoods and digital methods by demonstrating how a selected concept, 
+method, and/or practice has the power to change how both educators and researchers critically and 
+creatively engage with research; making it possible for new, potentially transformative, digital 
+imaginaries to be brought into being.  
+The presentations offer movement between our speculations and future-casting  (Rae & 
+Coleman, 2021) of the dreams we have for digital spaces and what might be, and how this shapes 
+the worlds of children, educators and researchers. The interdisciplinary teams presenting here are 
+2 
+variously composed of researchers, artists, designers and data scientists affiliated with either the 
+Australian Research Council Centre of Excellence for the Digital Child or The University of 
+Melbourne. The presentations are sequenced to convey the interrelationships between the featured 
+research projects while maintaining the narrative arch of the symposium. Each presentation engages 
+with digital practice as either method and/or research focus to draw out its potential for sparking 
+educational transformation by simultaneously proliferating and challenging digital truths. A recurring 
+theme is the way in which empirical material, when explored through the lens of data creativities, 
+illuminates how the various digital dispositions of children, parents, educators and researchers are 
+shaped. 
+This Symposium explores the array of so-called truths that shape the digital worlds of 
+children, educators, researchers, imaginaries, data, AI, algorithms and more. We first presented this 
+‘project’ in Adelaide in 2022 as the heat of summer spread across Australia. The opportunity to re-
+position this work in a different time and context (Chicago 2023) within a new conference theme 
+called for a weaving of speculations across our research. We troubled ‘Interrogating consequential 
+educational research in pursuit of truth’ and how our Australian Association for Research in 
+Education Featured  Symposium ‘Dreams for Digital Spaces’ designed for the theme ‘Transforming 
+the Future of Education: The Role of Research’ could push the boundaries of ideas, methods, and 
+collaborations.  
+Each year The Australian Association for Research in Education (AARE) is invited to send a 
+representative symposium to the British Educational Research Association (BERA) and the American 
+Educational Research Association (AERA). Such symposia are intended to showcase the quality of 
+Australian education research and the selected symposium team should see themselves as 
+ambassadors of AARE. This is the selected symposium, and our teamplay is:  
+● Dr Sarah Healy, Melbourne Postdoctoral Fellow, Melbourne Graduate School of Education 
+The University of Melbourne & Research Fellow (alumnus), Deakin University The Australian 
+Research Council Centre of Excellence for the Digital Child.  
+● Dr Kathryn Coleman, Associate Professor Teacher Education, Melbourne Graduate School of 
+Education The University of Melbourne 
+● Dr Aleesha Rodriguez, Research Fellow, QUT The Australian Research Council Centre of 
+Excellence for the Digital Child.  
+● Dr Rebecca Ng, Research Fellow, University of Wollongong The Australian Research Council 
+Centre of Excellence for the Digital Child.  
+● Amanda Belton, Data Scientist Melbourne Data Analytics Platform, The University of 
+Melbourne 
+● Karen Thompson, Senior Research Data Specialist Melbourne Data Analytics Platform, The 
+University of Melbourne 
+● Jessica L. Williams, Research Fellow, Deakin University The Australian Research Council 
+Centre of Excellence for the Digital Child & Melbourne Graduate School of Education The 
+University of Melbourne 
+● Dr Neda Sajadi, Researcher, Melbourne Graduate School of Education The University of 
+Melbourne 
+● Dr Xinyu (Andy) Zhao, Research Fellow, Deakin University The Australian Research Council 
+Centre of Excellence for the Digital Child.  
+● Dr Rebekah Willett, Professor, Partner Investigator University of Wisconsin–Madison The 
+Australian Research Council Centre of Excellence for the Digital Child.  
+ 
+3 
+The role of imaginaries in (co)creating digital futures with children 
+ 
+ 
+Figure 1: Deep dream generator prompt:  The role of imaginaries in (co)creating digital futures with children.  
+ 
+Imagine a future where young children’s perspectives are thoroughly included in the design of the 
+digital technologies they use. This is the provocation that guides a project that is part of the 
+Australian Research Council Centre of Excellence for the Digital Child, called “Speculating about my 
+Digital Future: Children and practitioners (co)creating design fiction.” The research embodies the 
+principles of the United Nations Convention on the Rights of the Child and specifically, attempts to 
+operationalise General Comment No. 25 (2021) on children’s rights in relation to the digital 
+environment. Namely, the project brings children’s perspectives into dialogue with media and 
+technology practitioners who “should involve all children, listen to their needs and give due weight 
+to their views” when considering the development of their products and services (OHCHR, 2021, 
+para. 17). 
+This research addresses a growing need to engage both children and practitioners, in 
+understanding children’s rights within digital environments, especially following the pandemic 
+where we saw a surge in the use of digital technologies across all sectors (De’ et al., 2020). This 
+three-stage project—which 1) consults young children about future digital technologies, 2) asks 
+practitioners to speculate a future where all technologies are designed from children’s perspectives, 
+and 3) hosts a public exhibition to showcase the children and practitioners’ works—contributes to 
+the transformation of education by proposing a creative and forward-looking way to approach 
+4 
+digital literacy and the take-up of digital technologies in a child’s life. In this paper, we provide an 
+overview of the conceptual frameworks and methodology that underpins this research. 
+The key concepts that underpin this research are imaginaries, and specifically sociotechnical 
+imaginaries. Imaginaries are not mere illusions or fantasies but rich cultural resources that are 
+imbued with implicit understandings of desired futures (Jasanoff & Kim, 2015). Imaginaries are the 
+mental models we employ to think about how the world works as they allow us to consider complex 
+relations by contemplating how different things (ought) to fit together. For example, it is an 
+imaginary to consider that by sending your child to a private school they will get a good education, 
+which will result in better outcomes later in life. While there are many competing socio-political-
+economic factors that may render that imaginary true, what is noteworthy here is that the imaginary 
+comes with a set of normative notions and expectations of how things ought to unfold (Taylor, 
+2003). Imaginaries are something that an individual can employ, as well as something a public can 
+engage with. In 2009, Jasanoff and Kim argued that large-scale and national science and technology 
+projects—like nuclear power—evoked public imaginaries about the future. Known as sociotechnical 
+imaginaries, these are the “reservoir of norms and discourses, metaphors and cultural meanings” 
+that circulate through engaged publics who “articulate feasible futures” obtained through the 
+development of science and technology (Jasanoff & Kim, 2009, p. 123). As such, sociotechnical 
+imaginaries “are powerful cultural resources that help shape social responses to innovation” 
+(Jasanoff & Kim, 2013, p. 190), as “they project visions of what is good and worth attaining” through 
+the advancement of emerging technologies (Sovacool & Hess, 2017, p. 719). 
+Emerging digital technologies—such as the Chat GPT, the Metaverse, Smart Speakers etc—
+conjure particular sociotechnical imaginaries about the future. And these futures often evoke what 
+Goode (2018) calls the “sublime spectacle of inevitability” (p. 204). The ‘spectacle of inevitability’ 
+suggests that, since these technologies are now in motion (that is, they are being widely adopted in 
+industrial, educational, and domestic settings) there is little we can do in terms of how these digital 
+technologies unfold in our lives. Chat GPT will be used in classrooms, or at least there is little point to 
+challenge it otherwise, according to New York Times technology reporter Kevin Roose (2023). These 
+types of imaginaries—the ones that induce inevitable futures—bring about discourse closure 
+(Markham, 2021). They shut down the possibility of, very real, alternative futures. Thus, “it matters 
+what futures we use to cultivate other futures with” (Wilkie, 2017, p. 5) and why the concept and 
+methods of speculative fiction are instrumental in attempting to challenge existing and limiting 
+imaginaries about future digital technologies. 
+The relationship between imaginaries and technological innovation is showcased through 
+the literary genre of speculative- and science- fiction. Literary theorist Lubomír Doležel (1998) argues 
+that “literary fiction is probably the most active experimental laboratory of the world-constructing 
+enterprise” (p. ix). This is because it not only allows us to conceive what the future could look like, 
+but as an artform, also allows us to critically reflect on and engage with current sociotechnical 
+issues, practices, and processes. For example, some scholars argue that science fiction author Arthur 
+C. Clarke foreshadowed satellite communications and the Internet (Robinson, 2017). In this way, 
+speculative fiction—“the ability to literally imagine other worlds and alternatives” (Dunne & Raby, 
+2013, p. 70)—becomes a crucial modality in challenging the spectacle of inevitability. Hence these 
+arguments inspire us to advocate for the imaginaries produced by children about their digital futures 
+be included in discussions by practitioners, as their contributions now may have implications for how 
+technologies of the future are designed. 
+5 
+To operationalise these conceptual frameworks in the research, we draw on Dunne and 
+Raby’s (2013) methodology of speculative design fiction. Speculative design invites participants to 
+write, draw, collage, record, and reflect on what other worlds and alternative possibilities could be. 
+It is a form of “communication and social object [that] creates interactions and dialogues around 
+futures that were missing before” (Scott Smith quoted in, Hary, 2018, para. 4). By creating 
+speculative, provocative, and hypothetical scenarios through creative artifacts (e.g., fictional writing, 
+art, videos etc.), possible futures are made real enough for people to engage in meaningful 
+conversations, which allow the exploration and critique of said futures. Notably within Dunne and 
+Raby’s (2013) approach to speculative design fiction, is that “rather than thinking about architecture, 
+products, and the environment” they suggest “we start with laws, ethics, political systems, social 
+beliefs, values, fears, and hopes” (Dunne & Raby, 2013, p. 70). As such, we begin the research by 
+consulting children about what features, values and ethics they want encoded into the digital 
+technologies they want in the future—asking them how the technology makes them feel and why 
+others might like it, among other questions. This rich information is then presented to the 
+practitioners to ground their speculation—what if all digital technologies were made from the 
+values, fears, and hopes expressed by children? 
+We hope that this research acts as a public provocation, not only in terms of advocating for 
+children’s perspectives to be included in the design of the digital technologies they use, but more 
+broadly, challenge the spectacle of inevitability and remind ourselves that alternative futures are 
+achievable. Of course, there are challenges in conducting this research. As Botturi (2021) points out 
+in their research which asked children to draw the internet: “collecting evidence of children’s 
+conceptualization is not easy” (Botturi, 2021, p. 38). But it is imperative to conduct this type of 
+research to move beyond current understandings and practices with technologies, products, and 
+their environments, and imagine and actualise a digital future where children’s perspectives are 
+championed. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+— Aleesha Rodriguez and Rebecca Ng 
+6 
+Can AI be an ethical collaborator in educational research? 
+ 
+ 
+Figure 2: Deep dream generator prompt:  Can AI be an ethical collaborator in educational research?  
+ 
+In this section we direct attention to the role of affect and emotion in technologically mediated 
+research. The contribution stems from a Data Science X HASS speculative inquiry that started out by 
+asking the question: What can SentiOneTM, an AI-based social listening tool, tell us about children's 
+uptake of digital technologies during COVID-19 related school closures in Australia? We present an 
+outcome of the inquiry, a protocol that was co-designed through a playtest of AI-based social 
+listening tool, SentiOneTM and propose a hybrid computational-human method for working with AI 
+that offers a computational attunement to affect and emotion. 
+The inquiry sits within a larger project that came about in response to the extended 
+lockdowns of 2020 and 2021 in Australia and Hungary.  The lockdowns – and the intensified 
+engagement with networked digital technologies – caused everyday interactions of children, 
+teachers, and parents to gain unexpected visibility, exposing important things about how we usually 
+relate to teaching, learning and technology and drawing attention to the very real ways in which 
+students, parents, teachers, and schools had to rethink their usual relationships, roles and power 
+structures related to children’s digital lifeworlds.  
+Livingstone and Blum-Ross (2020) make the point that parents’ hopes and fears act as a 
+weather vane for what is going on in broader society arguing that "[t]alk or actions that seem to 
+concern children's digital lives are, at heart, rooted in parents’ deeper hopes and fears for family life 
+and their children's futures" (Livingstone & Blum-Ross, 2020, p.2). We share an intrigue with how 
+digital transformations are commonly associated with intense emotion and want to better 
+understand the relationship between emotions, affect, and their role in shaping individual and 
+collective dispositions towards children's adoption of digital technologies. And, the digital 
+7 
+intensification that occurred in the lifeworlds of children during the pandemic presented an 
+opportunity to do so. Our premise was: if the emotion-trails in data can be mapped, then we can 
+form a deeper understanding of the effects of affective forces that shape dispositions (Threadgold, 
+2020) towards children and digital technologies. We thus set out to co-design a computational 
+protocol suitable for mapping affect and emotions across big datasets. Our explorations were 
+underpinned by a desire to know the extent that social listening may be incorporated into such 
+research and how we might story big data while keeping the deeply situated and granular in the 
+picture. To keep small data in view, we conducted this ‘big data inquiry’ in conversation with the 
+Pandemic Parenting project (the final of our four presentations) which gathered qualitative data 
+over the same time-period as this project. 
+Framed by a transindividual philosophy of affect, grounded in the work of Spinoza as taken 
+up by Rosi Braidotti (2020), this inquiry is guided by two key concepts, 1) becoming-with AI and 2) 
+cognitive assemblages; with both being central to the feminist materialist and assemblage thinking 
+which orientates our approach to generating data through digital methods (here social listening). 
+Affect, commonly understood in affect studies as the power to affect and be affected, is key to 
+understanding the agency of non-human things including digital technologies, algorithms and data; 
+all of which have the power to affect (e.g., capacitate / incapacitate) or be affected (e.g. become 
+capacitated / incapacitated) by the people, technologies, ideas and things they come into proximity 
+with. We argue that intentionally ‘becoming-with AI’ fosters ethically affirmative (Braidotti, 2020) 
+data engagements characterised by criticality and creativity. This partially occurs through the 
+acknowledgment of the productive force of SentiOneTM’s algorithms and partially through a 
+commitment to doing the difficult work required to transform negative (e.g., incapacitating) 
+relations when they arise in the research process. 
+The significance of the guiding concept, ‘becoming-with’, is captured by Donna Haraway’s 
+oft cited phrase, “[w]e become-with each other or not at all” (Haraway, 2016, p. 4). A radically 
+relational undertaking, becoming-with aligns with an imperative “to develop different ways of 
+caring, a more transversal, relational ethics that encompasses the non-humans” (Braidotti, 2020, 
+p.466), with the non-humans including the algorithms and artificial intelligences that we increasingly 
+share our lives and knowledge-making. This imperative Braidotti (ibid) speaks of involves a “shared 
+ability to actualize and potentiate different possibilities.” For Amanda, Karen and I, this meant 
+coming to see SentiOneTM as a collaborator (co-labourer). We learnt-with and played-with the social 
+listening tool while avoiding algorithmic colonialism marked by extractive, fixed, normative data 
+practices that position algorithms as “digital workhorses of the economy” (Goodman, 2020, p.50). 
+A second guiding concept it that of ‘cognitive assemblages’. Following the work of Katherine 
+Hayles (2017), we hold the position that cognition is distributed across conscious and non-conscious 
+actors in responsive and adaptable systems or assemblages (e.g., the internet or a financial system 
+or even a smart traffic light system in the CBD). We see affectivity as a crucial element of these 
+assemblages, not only holding the people, things, algorithms, data, ideas and more in relation but 
+also modulating the assemblage and the people, things, algorithms, data and ideas that are involved 
+- either enhancing or constraining the power of cognition and action. These cognitive assemblages 
+can include all forms of life, technical systems and more. The AI of SentiOneTM – which is in effect a 
+bundle of algorithms – participates in cognitive processes through the cognitive assemblages in 
+which they are involved which, in this case, is our social media research. Thinking about cognitive 
+processes through the linked concepts of becoming-with and cognitive assemblages has far-reaching 
+implications for educators because it firmly locates learning outside of individuals and emphasises 
+8 
+the relational, distributed and more-than-human elements of cognition. It also has far-reaching 
+consequences for researchers because it surfaces ethical dimensions related to doing AI-based social 
+research requiring serious consideration of how our interactions with technical systems shape the 
+social-technical-material relations of the research and therefore the knowledge that is made. 
+Data for this inquiry are largely comprised of news articles, reader comments and Twitter 
+posts generated over the height of the pandemic in Australia (2020-22). Our premise was that news 
+articles and affectively charged social media exchanges provide unique insights into children’s 
+changing use of digital technologies and indeed the place of digital technologies in education more 
+generally. The scale of the large dynamic dataset (10,000+ items) was behind our decision to adopt a 
+computational approach for seeking and analysing data from different digital platforms. We chose to 
+work with SentiOneTM because it crawled for the kind of data we were interested in and promised to 
+highlight the affective flows via its sentiment analysis. Also, SentiOneTM has GDPR and Australian 
+Privacy Principles compliance which makes ethical approvals necessary for this type of research in 
+Australia to take place easier to navigate. 
+So, what is SentiOneTM? In short, SentiOneTM (https://sentione.com) is an AI-based social 
+listening ‘tool’ created for commercial purposes.  It builds and sends crawlers out onto social media 
+platforms and specified websites to scrape data then, if asked, performs sentiment analysis. A highly 
+attractive feature of SentiOneTM is that it affords an iterative macro and micro analyses with dynamic 
+datasets through its interface. 
+Our interest in SentiOneTM stemmed from its potential for analysing textual data and 
+interactions over social networks and its alleged ability to do sentiment analysis – however, our 
+expectations of SentiOneTM were much higher than the reality.  It was effective at crawling for and 
+aggregating data from across the internet but did not do what we hoped it would do. Not only did 
+commercial understandings of sentiment not match our philosophical understandings of affect and 
+emotion, a closer look at the way it coded and sorted data showed all sorts of issues, bringing us 
+back to the idea that AI-based tools are not always being ‘truthful’. These mistruths were created in 
+a variety of ways: 
+● some to do with search perimeters and parameters, 
+● some to do with the lack of nuance/complexity in a commercial-grade sentiment analysis 
+which relies on the positive-negative binary, 
+● some to do with the degree to which news companies prevented crawlers from accessing 
+their websites and user comments, 
+● some to do with data instability, the limitations of crawlers and built-in errors in the API. 
+Becoming implicated in what is known as a Gartner hype cycle 
+(https://www.gartner.com/en/research/methodologies/gartner-hype-cycle) we started with inflated 
+expectations of SentiOneTM. This persisted through the trough of disillusionment, and then out the 
+other side as we found a way for the research and researchers to become-with SentiOneTM’s 
+capabilities, relieving us of our frustrations and creating positive affinities with SentiOneTM.  The 
+implications were that we had to rethink how we were working with SentiOneTM and seek work-
+arounds – taking it off-piste – positioning it as collaborator in a more-than-human research team 
+rather than ‘tool’ for us to use. The experience of doing so highlighted our unconscious allegiances 
+to instrumentalism and the challenge of responding to the “need to develop practices for thinking 
+about those forms of activity that are not caught by functionality, those which propose the possible-
+but-not-yet, or that which is not-yet” (Haraway, 2019, n.p.). 
+9 
+If doing research in digital spaces with playmates like SentiOneTM, algorithms will participate 
+in the knowledge-making, producing structuring forces with and in the cognitive assemblage and 
+shaping the research process that generates new knowledge. To avoid algorithmic imperialism 
+involving extractive, fixed, normative data practices - big ‘T’ truth-makers - we orientated ourselves 
+towards capacitating practices characterised by criticality and creativity. And, to further sensitise 
+ourselves to the politics of algorithmic infrastructures of digital AI-based research, we also adopted 
+principles of data feminisms (D’Ignazio & Klein, 2020), noting the scope of this paper only allows us 
+to speak directly to principles 3 and 7: 
+ 
+1. Examine Power 
+2. Challenge Power  
+3. Elevate Emotion & Embodiment 
+4. Rethink Binaries & Hierarchies 
+5. Embrace Pluralism  
+6. Consider Context  
+7. Make Labour Visible 
+ 
+ 
+ 
+Figure 4: Human-AI dataflows 
+ 
+ 
+ 
+10 
+An important aspect of our inquiry involved coming to a full understanding of acknowledging the 
+significant hidden (human) labour in data-intensive, AI-based research, and the realities of Feminist 
+data principle #7: Show your work. The screengrab image above is a diagram of the human-AI 
+dataflows that came out of many months of coming to know the complex relationships between all 
+the actors in the cognitive assemblage of our research collaborative. We will further discuss this in 
+our symposium, however, to understand the data that the SentiOneTM algorithm was bringing to us, 
+we also adopted an approach that data scientist Karen Thompson has begun to formalise as the 
+“press all the buttons” methodology.  Without understanding how data is collected or ascribed value 
+by an algorithm, researchers risk operating with a trust that is unfounded. It is critical to form a solid 
+relationship with data central to the project. We did this work both collectively and privately. 
+Collective work created opportunities to learn from each other and avoided duplicated effort. 
+Private work enabled quieter path tracing and deeper focus. These interrogations were initially quite 
+unstructured, we probed whatever took our attention, then we gradually increased focus on 
+selected lines of inquiry.  Note-taking during these explorations is helpful because it is surprisingly 
+easy to lose your way.  
+Through this phase we began to understand the boundaries (perimeters) of the data 
+landscape – what was transparent and easily understood (e.g. changing dates, search terms, 
+websites to crawl), and what was ‘black-box’ or unavailable to us to change or learn more about (e.g. 
+assignment of sentiment value within SentiOneTM). At the end of this phase, we understood how 
+search terms created data, some of the limitations (we cannot pretend to know all), and we were 
+able to draw a map of how to navigate or become-with SentiOneTM; a map that can be shared with 
+new team members and helps remind future-us of our steps (Figure 4).   
+Once satisfied with our data gathering process we introduced custom-made algorithms into 
+the collaboration, to provide a more nuanced way of mapping affect and emotion in data. What 
+arose was a computational attunement to affect. Figure 5 is a prototype of a hybrid human-AI ‘tool’ 
+for mapping affect that was initially developed from a sample interview transcript, used instead of 
+social media data because it reduced the complexity. The prototype was created by knitting together 
+two python libraries, NRCLex (Mohammad & Turney, 2013) and PyPlutchik (Semeraro et al., 2021), 
+into a computational script that, when run on textual data such as a transcript, forms a playable 
+visualisation of the flow of sentiment together with the to and fro of emotions. These libraries 
+provide a comprehensive lexicon of emotion-words (over 14,000) and are particularly promising 
+because they make it possible to map different combinations of emotions and their intensities, 
+including conflicting emotions, conveying the emotion-trails in the data with a high degree of 
+complexity. The libraries are not problem free however, with documented bias present in the lexicon 
+which reflect the predilections of the crowd who acted as the source (Zad et al., 2021) 
+11 
+ 
+Figure 5: Prototyping of a human-AI approach to mapping affect 
+Much of programming is working with abstractions. Amanda needed to know that NRCLex would 
+translate words into the related emotion or sentiment but was not concerned with analysing the ebb 
+and flow of emotion that occurs as the conversation unfolded. To confirm the visualisations depicted 
+in Figure 5 had an acceptable degree of accuracy, the interviewer who recorded sample interview 
+transcripts cross-checked the visualisations against the computational coding (Figure 6) and their 
+memory of the interview, reporting a surprisingly high degree of accuracy.  
+ 
+Figure 6: Interviewer checks computational coding of transcript 
+12 
+Perhaps our human programmer’s interactions with data in the cognitive assemblage at hand were 
+not dissimilar to our AI collaborator’s interactions, working with an expression of the experience that 
+holds no meaning in and of itself. Amanda (human programmer) made sense of data through the 
+visualisation of affective flows conveyed by petals of diagrammed emotion, and this sense-making 
+was facilitated by the technological transformation of the data.  
+Given the potential of AI-based social listening playmates like SentiOneTM for transforming 
+how data are assembled and analysed, consideration of algorithms and algorithmic infrastructures is 
+crucial. To assist in such endeavours, we offer some pointers to orientate hybrid AI-human research 
+collaborations: 
+ 
+● Keep a human in the loop but not in a way that ascribes to human exceptionalism. Instead, 
+challenge transhumanist alliances with advanced capitalism. 
+● Accept algorithms as entities that are powerful agents in the cognitive assemblages in which 
+they participate but avoid technologically deterministic practices including those that 
+promote techno heroism.  Instead, thinking with the notion of becoming-with, acknowledge 
+the dynamic nature of archives – including Twitter data sets – and working with dataflows 
+that can respond (e.g., response-able). 
+● Approach generative AI as a collaborator or playmate. 
+● Make room for speculative thinking to bring data science and critical inquiry together. 
+● Work in the space between distant and close views of the data, shifting between looking for 
+big data patterns and sense-checking with small data that contribute to these patterns. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+—Sarah Healy, Amanda Belton and Karen Thompson 
+13 
+The metaverse as a virtual site of research 
+ 
+ 
+Figure 7: Deep dream generator prompt: The metaverse as a virtual site of research  
+ 
+This paper ‘The metaverse as a virtual site of research’ is underpinned by following the questions: 
+● How might we think differently with born digital and digitised data? What if we built new 
+dataverses to help us see through data differently while reworlding data from site to cite?  
+● What is important to retain and keep as a source of knowledge for future generations?  
+● If digital data is a new cultural heritage of life, how can we ensure that it is not threatened or 
+undervalued?  
+● How can we leverage digital and virtual technologies to innovatively map and build research 
+publics? 
+● What role do virtual galleries and digital museums of research play in creating new worlds 
+for future audiences? 
+ 
+Creative educational researchers are faced with ongoing shifts in their ways of knowing, being and 
+doing as the impact of COVID-19 continues to make an impact on scholarly processes and practices, 
+as well as research translation and dissemination. Many continue to challenge what constitutes 
+research as they strive for more nuanced understandings of how to co-construct new knowledges 
+with communities. To do this they consider the future of digital data, heritage and curation 
+(Cameron, 2021). As educational researchers seek out new places to present creative research and 
+co-create stories to expand ways of knowing, they have encountered alternative, virtual and 
+14 
+immersive worlds that might be reimagined through advancing products and technologies. The 
+innovative, virtual, and immersive have brought about new forms of dissemination to research 
+teams in education that go beyond traditional academic publishing norms to consider impact in 
+authentic and community-based sites beyond academia. This catalyst for change was spurred on by 
+the extended pandemic lockdown period in Melbourne, Australia, which forced researchers to 
+explore virtual worlds for exhibiting and disseminating their scholarly outputs as “data creativities” 
+Spreadborough et al., 2022). 
+The metho-pedagogies underpinning this research engage us in critical debates and issues 
+regarding educational methodologies. To explore this, we present two research projects:  
+ 
+1. An Arts Education imperative: New directions for sustainability 
+2. Climate, Art and Digital Activisms  
+ 
+As interdisciplinary collaborations of artists, scientists, data workers and digital placemakers, 
+both projects take up a speculative approach to creative research, pushing the boundaries that 
+surround digital methods, post-humanities, and immersive practices in educational research. We 
+present the design and build of a meta-dataverse as research assemblage, constellation and digital 
+research architecture to show what happens when education research goes ‘meta’. This is important 
+because our work seeks to push inter- and transdisciplinary research in education through future-
+casting (Rae & Coleman, 2021). Future-casting being a concept introduced to us by Australian 
+Indigenous philosopher and scholar Claire G. Coleman (Rae & Coleman, 2021) as a form of 
+speculative thinking, powerful because knowing about our future – in as much as it can be known – 
+changes our present. We understand future-casting as an Australian species of SF, with SF being 
+variously defined as Speculative Fabulations, Science Fictions, Speculative Facts, String Figures and 
+So Forth (Haraway, 2016). 
+Originally coined by Neal Stephenson in the 1992 science fiction novel Snow Crash, the term 
+‘metaverse’ described a speculative iteration of the internet, where humans could be fully 
+enmeshed in an online universe. Now a rising phenomenon in contemporary techno cultures and 
+embraced by moviemakers speculating the possibilities, we do not (yet) have an overarching or 
+universal metaverse system that approximates a parallel to the World Wide Web. What we have 
+seen is the rise of the metaverse(s) in our techno-cultural zeitgeist exemplified by the rebranding of 
+social network company formerly known as Facebook to Meta in October 2021, followed by their 
+launch of the Horizon virtual social platforms (‘The Facebook Company Is Now Meta’, 2021). These 
+developments suggest that the metaverse concept is gaining traction in prominence and possibility. 
+Even through there is no singular vision of the metaverse for education, there is an opportunity to 
+create sites for: 
+● Collective encounter 
+● Engaging, immersive exhibition 
+● Repository and dissemination 
+The possibilities we see for the metaverse as ‘a quasi-successor state to the mobile internet’ 
+(Ball, 2021) is a rapidly emerging cultural and technosocial phenomena with deep potential for 
+mobilising the creative act of research and knowledge mobilisation. As the metaverse gains 
+prominence as both place and metaphor – a collaborative tool used to create immersive virtual 
+realities – we argue the metaverse can be transformative, as a multimodal form of engagement and 
+pedagogical site in educational research. 
+15 
+In this paper, we extend the collective theme to imagine how things could be radically 
+different than they are today, and how we speculate on progress toward that imaginary world to 
+activate change (Dunne & Raby, 2013) in educational research. The edu-metaverse of research sites 
+has opened opportunities for these two projects to emerge as game changers in our practices at the 
+Graduate School. As speculative a/r/tographers we work across a range of digital platforms: OMEKA, 
+Figshare, Mozilla Hubs, Miro and more. We propose that these platforms and repositories might be 
+sustainable digital methods for tackling research foci while enriching metho-pedagogical knowledge.  
+With/in the metaverse, the space to practice is unbound by creative research traditions. It is 
+a space for a/r/tists (Coleman, 2017) to play virtually and invite visitors as spectators to experience 
+new ways of seeing, hearing, moving, and connecting with/in art and artist-research. Speculative 
+a/r/tography (MacDonald, et al., 2022) is an innovative, speculative practice-related method that 
+invites a participatory response through its design. As a methodological-pedagogical inquiry model, 
+a/r/tographic mediation (Irwin, 2003) provokes both wondering and wandering in rhizomatic spaces, 
+where non-literal, non-linear, non-verbal signs and meanings are co-created, shared and interpreted.  
+ 
+ 
+Figure 8: Still image from the Metaverse Galleries Walkthrough, YouTube.  
+First shown at ‘Small Data is Beautiful: Analytics, Art and Narrative’ symposium, February 2022. 
+ 
+One way of rethinking the possibilities and opportunities for data work was to invite participants in 
+the research team of ‘An Arts Education imperative: New directions for sustainability’ (Arts 
+Education Imperatives, 2021) to send us a time capsule as creative scholarly output. We extended an 
+invitation that stated 2041 arts education imperatives research: 
+ 
+Congratulations, you are invited to contribute to the creation of an arts education research 
+time capsule to capture an archive of your work. We invite you to send a pre-recorded 7 
+minute time capsule video that tells the story of your research to be opened in 2041.  We 
+asked the team to speculate and to think about what their legacy might be as they 
+considered what people will come to know about their research in 2041.  
+ 
+This project within a project explored the different ways that we might do digital and speculative 
+educational research projects at Melbourne Graduate School of Education. Our speculative metho-
+16 
+pedagogies (Coleman & MacDonald, 2020) are driven by feminist data practices that have helped us 
+reimagine, rethink and explore ways of doing data work differently. We think it is an important time 
+for us to rethink what data is in arts based educational research; who produces data; how data is 
+understood as practice and what practices we seek to explore. It is inherent in our work, as 
+a/r/tographers who come together to engage in shared inquiries, act as critical friends, and present 
+their collective provocative works to others (Irwin, 2003).  
+This led us into thinking about what methods and pedagogies we need post pandemic as we 
+face an endemic future. The video data was the genesis for the data scientist, Amanda Belton and 
+digital artist-in-residence, Jessica Williams to analyse and creatively generate new digital artefacts to 
+be disseminated in the feedback loop of scholarly outputs within the curated exhibition. The model 
+of co-design with a digital artist in residence and data scientist created possibilities for metho-
+pedagogies driven by feminist data practices to shift the project to make new pathways for artists 
+and researchers through a metaverse of virtual spaces.  
+The 3D exhibition was designed on the Mozilla Hubs (see Figure 9) open-source metaverse 
+platform. Whilst Mozilla Hubs is not yet optimized for educational/scholarly purposes, it’s an easy 
+platform to build virtual worlds in without needing coding skills. Hubs is VR headset enabled, but this 
+isn’t mandatory for viewing scenes. Users are able to access the Hubs platform via their web 
+browser and are represented by an avatar once inside the Hubs scene. We set up two scenes in the 
+Mozilla Hubs exhibition. First, visitors enter the Enculturation Lobby that houses a portal (styled like 
+a stargate) that leads to an Indoor Gallery. The Lobby featured a video introduction to the 
+overarching research project and other ephemera, like gifs, posters and illustrations. This space was 
+designed to prime and orient audiences to the virtual world- how to move through the space, how 
+to click and interact with objects. Hubs permitted unexpected encounters with the data. Our visitors 
+were able to upload images, documents or temporarily ‘graffiti’ with drawings in the space. Live chat 
+and live streaming of audiovisuals (with webcam and microphone) made it possible for audiences to 
+interact collectively and spontaneously. For example, one of our contributing research teams chose 
+an avatar that danced relentlessly throughout their visit- an unexpected, but entertaining incident. 
+Against a backdrop of pandemic-related disruption and separation, our team of researchers 
+and creatives found themselves seeking to create an online environment that would allow us to 
+gather to view our research data, collectively, just as if we were getting together at a physical gallery 
+space. We wanted to invite audiences to immerse and interact with our exhibition in a generative 
+way. We wanted to store, disseminate and cite our data by networking a multitude of sites. As a 
+result, we linked other platforms to our 3D environment, including the Figshare open access 
+repository and the Omeka web-publishing platform to design an edu-metaverse.  
+The edu-metaverse helped us reimagine, rethink, and explore ways of doing data work 
+differently. From here we began to consider the implication of project 1 and to co-making in digital 
+sites with participants as co-makers and collaborative curators. We shifted the project to speculate 
+and play with the following questions: 
+1.  What research might we need for this rapidly changing world? 
+2.  What research do we need to contribute to a new ecosystem of learning? 
+3.  What research do we need to do to transform education for our climate futures?’ 
+This next iteration built on our ecology model, via the tools and sites of digital galleries, curation and 
+presentation to further an interlinked, cartographic understanding of the metaverse as an 
+educational research ecology. To achieve this, we proposed new directions for a/r/tography with the 
+‘metaverse as research ecology’.  Connectivist, George Siemens defines an ecology as a dynamic, 
+17 
+rich, and continually evolving system (Siemens, 2005). To explore this, we invited others to create 
+new datasites and build a new metaverse of sites of dissemination within the ecology, so we could 
+all immerse ourselves in searching for knowledge, information and derive meaning collaboratively. 
+We sought to involve opportunities for digital platforms as partners in research, and speculative 
+modes of making into sustainable new systems for educations in The Climate, Art, and Digital 
+Activisms Festival of Ideas (Melbourne/Narrm 21-23 November, 2022). Here we (Healy and 
+Coleman) brought together local community members, interdisciplinary artists, scientists and 
+educators in Melbourne for a unique conversation.  
+The research team decided to flip the script by opening the conversation to local community 
+members, interdisciplinary artists, scientists and educators. The festival program, designed to create 
+meaningful opportunities to contribute, connect and create community to meet the challenges we 
+face. The urgency of the climate crisis connected world media, activists, politicians, policymakers, 
+scientists and educators together for @COP27 in November 2022. Yet many people at home and in 
+the local community didn’t get to participate in these talks. As citizens, we are often told what to 
+think about climate change and the threat of ecological collapse, but don’t often get a chance to 
+explore how we can take shared action for better futures. This research was developed because we 
+think everyone has a role to play in acting on climate change; no single group of people or 
+technological advancement is going to save us. Instead of waiting to be told what to do, the team 
+decided that now, more than ever, they need to have conversations across generations, 
+communities and institutional boundaries to create solutions together. So, we built a new Mozilla 
+Hubs with digital artist in residence, Neda Sajadi following the same model of co-design. This 
+metaverse was designed to operate as a digital site for two-way knowledge exchange and to teach 
+within. This virtual exhibition metaverse space had a different remit, it was developed to house 
+creative artifacts from the programs of research across several sites and ultimately teach within an 
+immersive environment about climate catastrophe and climate crisis.  
+ 
+ 
+Figure 9: “Mozilla Hubs Thumbnail,” digital artist-in-residence Neda Sajadi  
+in the Climate, Art and Digital Activisms Hubs.  
+18 
+ 
+This Hubs space and edu-metaverse that surrounds the artefacts exists as an ongoing exhibition, 
+virtual learning and development of an intercultural climate futures curriculum which allows 
+modifications as the project expands. This practice of “Knowing is a direct material engagement, a 
+practice of intra-acting with the world as part of the world in its dynamic material configuring, its 
+ongoing articulation. The entangled practices of knowing and being are material practices” (Barad, 
+2007, p.379). Within these material practices we enable interaction via avatars, where viewers can 
+engage with the artworks as they share their ideas with one another and add on the works which are 
+present in the space.  
+ 
+ 
+ 
+Figure 10: “Mozilla Hubs Thumbnail,” Artist-in-residence Cassie Truong Exhibition  
+in the Climate, Art and Digital Activisms Hubs.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+—Kathryn Coleman, Amanda Belton, Jessica Laraine Williams, and Neda Sajadi 
+19 
+Pandemic Parenting in the Metaverse 
+ 
+ 
+Figure 11: Deep dream generator prompt: Pandemic Parenting in the Metaverse  
+ 
+Our showcase of Pandemic Parenting in the Metaverse as a virtual site of research demonstrates 
+that educational researchers can expand their capacity to do digital scholarship and successfully 
+extend their research ecology into the metaverse without prior experience of doing so. Our research 
+team achieved this by adopting a digital artist in residence model of co-design. This model, 
+developed by Kathryn Coleman (as discussed above), was adapted for our large collaborative 
+research project which explored children’s and families’ experiences of screen media use across 
+seven countries during the COVID-19 pandemic. 
+This style of work engages the concept of ‘generative digital scholarship’ as “scholarship that 
+builds ongoing, ever-growing digital environments even as it is used” (Ayers 2013, p. 34). The 
+showcase is thus positioned as a type of generative scholarship that, as Ayers (ibid) has put it, “does 
+not claim to have the last word but, rather, to be a way to open scholarship to new ideas from many 
+directions”. Crucially, it makes it possible for researchers to provide an account of the research to 
+participants who may not be interested in reading academic publications. We argue this is significant 
+because it provides a way to democratise research and elicit critical feedback in new spaces that 
+cross geographical and temporal boundaries.  
+Formally known as ‘Children, Media, and Parenting in the COVID-19 Pandemic’ the Pandemic 
+Parenting project grew from a single site into a global study led by Professor Rebekah Willett from 
+the University of Wisconsin-Madison and supported by the Australian Research Council Centre of 
+Excellence for the Digital Child. The study involved 112 parents located in Australia, Canada, China, 
+Colombia, South Korea, UK, and the US. The parents generated digital data through 1) an online pre-
+interview survey, 2) an online interview and, 3) a collaborative search for a digital image that 
+resonated with their experiences of the pandemic. The Mozilla Hub space which houses 'Pandemic 
+Parenting in the Metaverse' Collaborative Research Exhibition, 2022 was created as both a response 
+20 
+to and curation of this empirical material gathered over the course of the Pandemic Parenting 
+project. It was built in collaboration with digital artist in residence, Jessica Williams (Jess), to co-
+create an immersive experience of multimodal data that could be accessed across geographical 
+locations and time zones. Visitors to the metaverse appear to others as avatars and join Jess (artist 
+in residence) and all that comprises the metaverse.  
+Featuring a video walk-through of the exhibit, this showcase reimagines how the form of a 
+research output (e.g., a purpose-built metaverse) interplays with its substance (e.g., the Pandemic 
+Parenting data) to better show how social, technological, material, and affective forces shape the 
+digital ‘truths’ experienced, internalized and negotiated by families, and prompt consideration of the 
+conditions for transformative change to occur across a variety of sites of digitally mediated 
+knowledge-making and truth telling (Table 1). Digital in nature, the video walk-through is not a 
+simple representation of data. Instead, it maintains a materialism that is both affective and bodily, 
+achieved through what Haraway (2019, n.p.) sees as a ‘thickness of worlding’ involved in ‘situated 
+meaning-making’. As Haraway further explains, “It’s not embodied, as if it were stuck in a body. It’s 
+bodily and it’s bodying, it’s worlding.” The following transcript and screenshots come from the video 
+walk-through narrated by Jess. Her narration provides astute insights into both the data and the 
+analytic contribution that a digital artist in residence makes to research. 
+ 
+Table 1: Stills from video walk-through of the exhibit (https://doi.org/10.6084/m9.figshare.22107767.v2) 
+ 
+ 
+When visitors enter the metaverse space, they start 
+from the end of a corridor. We organized three main 
+exhibition rooms that have overarching themes 
+relating to the experiences of parenting during the 
+pandemic. They are bigger spaces with aggregated 
+visual and transcript data shown together in the 
+form of image quilts. These are on the right-hand 
+side of the corridor. On the left-hand side, there are 
+three smaller rooms designed to house focal 
+experiences and showcase more specific themes. 
+This first big room is titled ‘Everything is fine?’  
+ 
+This room is the first of the three main exhibition 
+spaces. In this space, we wanted to convey a sense of 
+ambiguity, ambivalence, and a veneer of having 
+everything under control. In response to the image 
+prompts given at the interview, parents and 
+caregivers fed back to us with a sense of feeling 
+resigned to their situation. There was a sense of 
+doing the very best that they could, but also seeking 
+reassurance that their decisions were ‘okay’, and 
+also acknowledging that for some people, everything 
+was fine. 
+21 
+ 
+Walking down the corridor, we move from this sense 
+that ‘everything is fine’ into what has become the 
+‘new norm’, a brave new world where the pandemic 
+is well and truly part of daily life.  
+ 
+In this room, we wanted to convey a sense of 
+exhaustion and guilt, a loss of control, a lack of 
+surety and how to parent; a sense of feeling trapped 
+by never-ending cycles of isolation and of children, 
+families, and caregivers being forced into a situation 
+that was less than ideal. In this room, we wanted to 
+conjure the menace of claustrophobia: drowning in 
+overwhelming circumstances, with juggling balls 
+that hang in the air, just about to drop, but they 
+never do. The windows open onto blocked-up walls 
+with no exit, and the infinity symbol here suggests a 
+continuous cycle of despair. 
+ 
+The last of the three main rooms suggests frenetic 
+multitasking with a large icon towering over the 
+proceedings. There is administrative detritus, the 
+kitchen and the office setting barely separated from 
+one another. There is no roof and no ceiling to the 
+demands being placed on families, the school 
+seating looming closer than ever, hovering above. 
+22 
+ 
+Now on to the smaller focal rooms. We had a couple 
+that were sealed off - just as many households 
+needed to quarantine within their own domestic 
+settings to contain family members that might need 
+to be isolated from the broader household. The next 
+room is themed around family tension. In this room, 
+we wanted to convey a sense of family tension 
+around household rules, such as sharing limited 
+screen time, or trying to demarcate space away from 
+screens, which tended, of course, to be an imperfect 
+experience in a lot of cases. 
+ 
+For our respondents, some gave up on the rules, 
+some were more unsure of how to move forward, or 
+whether or not their approach was the right one. We 
+wanted to show a sense of things not functioning as 
+one would hope through the glitch created here by 
+installing multiple mirrors in this room.  
+ 
+The second focal room is called ‘it's time’. In this 
+room, you will see and hear multiple clocks ticking in 
+a disorienting fashion, speaking to how time in the 
+home was significantly disrupted during lockdowns 
+in pandemic.  
+ 
+The final focal room is built based on the theme of 
+family togetherness. This room was about 
+productivity, being playful, and having creative 
+uses/outcomes from interacting with technology and 
+screen media. The activities that people did during 
+the pandemic included things like exercising using 
+screens and YouTube videos, seeking out information 
+online about cooking and picking up other hobbies, 
+or finding ways to escape with the family via screen 
+media and play- such as creating videos and using 
+filters. 
+ 
+ 
+ 
+23 
+What are the implications of recent technological interventions, like the ‘metaverse’, for educational 
+research/ers? And, how do digital research ecologies shape how knowledge is made, accessed, and 
+mobilised both within and beyond the life of a research project? Our interest in exploring Pandemic 
+Parenting data ‘in’ the metaverse comes at a time in digital scholarship when a great many research 
+outputs, such as scholarly articles and books, “bear little mark of the digital age in which they are 
+created” (Ayers 2013, p. 26). Yet the relationship between digital research infrastructures and 
+knowledge-making can no longer be ignored (Gogoi, Boro & Das, 2022). Digitally assembling, 
+creating, and curating visual and interview data affords the build of a virtual research site that is 
+orientated by ‘generative scholarship’ and, we would add, generative data analysis and generative 
+research engagement. The creative and designerly affordances of the metaverse intersect with 
+visitors’ encounters with and responses to audio and visual data from the project, making it possible 
+for research engagement and creation to occur as concurrent activities.  The site becomes a method 
+to document and generate new insights (and data) whilst creating a virtual site for engaging diverse 
+publics in the affective and embodied dimensions of data that may otherwise be lost in thematically 
+coded transcripts from the online interviews. It does this by inviting audiences into a virtual world of 
+pandemic parenting marked by a gamut of emotions related to negotiating children’s intensified 
+uptake of screen media while meeting the often unrealistic expectations of schools and workplaces. 
+Within the broader context of the scholarship of digital research and knowledge-making, we 
+also align our practice with the Open Access (OA) movement and its aim of democratising research 
+through principles of integrity, transparency, and accessibility. Such an alignment coupled with FAIR 
+data principles and data feminisms (D’Ignazio & Klein 2020) makes Mozilla Hubs a suitable platform 
+for building an immersive virtual research exhibit but also presents new challenges. Yet, we also 
+invite our audience to critically think about the challenges and potential pitfalls of engaging with 
+digital methods in research. Technological glitches could happen which may compromise the quality 
+of digital scholarship. The platformization of digital (research) infrastructures like the Mozilla Hubs 
+brings into question the persistence of the virtual sites of research, as well as the ethics of data 
+ownership and storage. Who owns the data that are uploaded to the digital platforms and how they 
+are used in the long run? Moreover, the various forms of ‘thresholds’ created by these platforms 
+may exclude people without the digital access and know-how from engaging with the research 
+output. While the purpose of such digital scholarship practices is to bring down the barriers for 
+public audiences, new boundaries might be set up which could impede some people from accessing 
+and benefiting from the research project. 
+The video walk-through of the exhibit described above was created to address some of the 
+above problems. It acts as an easily accessible and persistent digital artifact to be archived in 
+Figshare (an online, open access repository that makes research outputs citable, sharable and 
+discoverable). 
+Pandemic Parenting in the Metaverse reimagines how the form of a research output (e.g., a 
+purpose-built metaverse) interplays with its substance (e.g., the Pandemic Parenting data) to better 
+show how social, technological, material, and affective forces shape the digital ‘truths’ experienced, 
+internalized and negotiated by families, and prompt consideration of the conditions for 
+transformative change to occur across a variety of digitally mediated knowledge-making settings. In 
+this sense the space becomes 1) an analytic strategy, 2) an exhibition of data, 3) a mode of 
+knowledge mobilisation, and 4) more data. 
+ 
+—Jessica Laraine Williams, Xinyu (Andy) Zhao, Sarah Healy, and Rebekah Willett 
+24 
+Together these presentations demonstrate the power of combining data science with philosophy, 
+artistry, co-design, and educational research through interdisciplinary collaborations – collaborations 
+which have folded in and out of each other as ideas, methods and even people have travelled.  
+ 
+ 
+Acknowledgements 
+We acknowledge the Traditional Owners of the stolen land on which we practice, research, teach and learn. We 
+offer respect to all Aboriginal and Torres Strait Elders, past and present. In the spirit of reconciliation we 
+acknowledge the Traditional Custodians of Country throughout Australia and their continuing connections to 
+land, sea, sky and community. 
+This paper is presented as part of the Australian Association for Research in Education (AARE) Representative 
+Symposium at AERA2023. We acknowledge the support of our work by AARE through the Representative 
+Symposium scheme.  
+The Dreams of Digital Spaces Representative Symposium is a collaboration between ARC Centre of Excellence 
+for the Digital Child researchers, Melbourne Data Analytic Platform data scientists and Melbourne Graduate 
+School of Education artists, researchers and teachers. Aleesha Rodriguez, Rebecca Ng, Jessica Laraine Williams, 
+Andy Zhao, Rebekah Willett and Sarah Healy would like to acknowledge the support of this work by the 
+Australian Research Council Centre of Excellence for the Digital Child.  
+Sarah Healy, Kathryn Coleman, Jessica Laraine Williams, Neda Sajadi, Amanda Belton would like to 
+acknowledge the support of this work by the Melbourne Graduate School of Education (MGSE), MGSE An Arts 
+Education imperative: New directions for sustainability Researcher Development Award 2021, Melbourne Data 
+Analytics Platform (MDAP) Collaboration, and The Climate, Art, and Digital Activisms Festival of Ideas 
+University of Melbourne Dyason Fellowship, AARE Joint SIG Funding 2022 and SWISP, an interdisciplinary 
+research collab based in Narrm, Melbourne.  
+ 
+References 
+Anderson, B., Aitken, S., Bacevic, J., Callard, F., Chung, K. D., Coleman, K. S., Hayden Jr, R.F., Healy, S., 
+Irwin, R.L., Jellis, T., Jukes, J., Khan, S., Marotta, S., Seitz,D.K., Snepvangers, K., Staples, A., 
+Turner, C., Tse, J., Watson,  M. & Wilkinson, E. (2022). Encountering Berlant part 1: Concepts 
+otherwise. The Geographical Journal, 181(1), 117-142. https://doi.org/10.1111/geoj.12494 
+Arts Education Imperatives. (2021). Introduction to the new directions in sustainability project. 
+Omeka. https://omeka.cloud.unimelb.edu.au/arts-education-imperatives/  
+Ayers, E. L. (2013). Does digital scholarship have a future? Educause Review, 48(4), 24-26. 
+https://er.educause.edu/articles/2013/8/does-digital-scholarship-have-a-future  
+Ball, M. (2021, June 29). Framework for the metaverse, The Metaverse Primer. 
+https://www.matthewball.vc/all/forwardtothemetaverseprimer  
+Barad, K. (2007). Meeting the Universe Halfway: Quantum Physics and the Entanglement of Matter 
+and Meaning. Duke University Press. 
+Botturi, L. (2021). "Draw the internet": A visual exploration of how children imagine an everyday 
+technology. Journal of Media Literacy Education, 13(3), 35-48. 
+Braidotti, R. (2020). “We” are in this together, but we are not one and the same. Journal of 
+Bioethical Inquiry, 17(4), 465-469. 
+Cameron, F. R. (2021). The future of digital data, heritage and curation in a more-than-human world. 
+Routledge.  
+25 
+Coleman, K.S. (2017). An a/r/tist in wonderland: Exploring identity, creativity and digital portfolios as 
+a/r/tographer. Ph.D. dissertation, Melbourne Graduate School of Education, University of 
+Melbourne, Australia. http://www.artographicexplorations.com  
+Coleman, K. & MacDonald, A. (2020). What are artists and art educators teaching us about how we 
+can conceive and deliver teacher professional learning into the future? In R.E. Ferdig, E. 
+Baumgartner, R. Hartshorne, R. Kaplan-Rakowski and C. Mouza (Eds)., Teaching, Technology, 
+and Teacher Education During the COVID-19 Pandemic: Stories from the Field. Association for 
+the Advancement of Computing in Education.  
+De', R., Pandey, N., & Pal, A. (2020). Impact of digital surge during Covid-19 pandemic: A viewpoint 
+on research and practice. International Journal of Information Management, 55, 102171. 
+https://doi.org/10.1016/j.ijinfomgt.2020.102171 
+D'ignazio, C., & Klein, L. F. (2020). Data feminism. MIT press. 
+Dunne, A., & Raby, F. (2013). Speculative Everything: Design, Fiction, and Social Dreaming. MIT Press.  
+Gogoi, G., Boro, B., & Das, M. (2022). Digital Scholarship in Humanities: The Agile Way. Available at 
+https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4229088  
+Goode, L. (2018). Life, but not as we know it: AI and the popular imagination. Culture Unbound, 
+10(2), 185-207. 
+Goodman, A. (2020). The secret life of algorithms: Speculation on queered futures of neurodiverse 
+analgorithmic feeling and consciousness. Transformations, 34, p. 49-70. 
+https://doi.org/10.26181/5f9fa540aaecd 
+Haraway, D. J. (2016). Staying with the trouble: Making kin in the Chthulucene. Duke University 
+Press. 
+Haraway, D. (2019, July 12). A giant bumptious litter: Donna Haraway on truth, technology, and 
+resisting extinction. Logic Magazine, 9. https://logicmag.io/nature/a-giant-bumptious-litter/ 
+Hary, E. (2018, March 22). Insights: Scott Smith. Medium. https://medium.com/design-
+friction/insights-scott-smith-354d1b6cffd6#.jvxa0vu8c  
+Hayles, N. K. (2017). Unthought. University of Chicago Press. 
+Hood, E. & Kraehe, A. (2017). Creative matter: New materialism in art education research, teaching, 
+and learning. Art Education, 70, 32-38. https://doi-
+org.ezproxy.library.wisc.edu/10.1080/00043125.2017.1274196  
+Irwin, R. L. (2003). Towards an aesthetic of unfolding in/sights through curriculum. Journal of the 
+Canadian Association for Curriculum Studies, 1(2), 63-78. 
+Jasanoff, S., & Kim, S. H. (2009). Containing the atom: Sociotechnical imaginaries and nuclear power 
+in the United States and South Korea. Minerva, 47(2), 119–146. 
+https://doi.org/10.1007/s11024-009-9124-4  
+Jasanoff, S., & Kim, S. H. (2013). Sociotechnical imaginaries and national energy policies. Science as 
+Culture, 22(2), 189-196. 
+Jasanoff, S. & Kim., S. (Eds.) (2015). Dreamscapes of modernity: Sociotechnical imaginaries and the 
+fabrication of power. University of Chicago Press. 
+Livingstone, S., & Blum-Ross, A. (2020). Parenting for a digital future: How hopes and fears about 
+technology shape children’s lives. Oxford University Press. 
+MacDonald, A., Coleman, K., Healy, S. & Diener, M. (2022). How does pedagogical slipperiness 
+enable speculation in/for teacher professional learning? In E. Baumgartner (Ed.), A 
+Retrospective of Teaching, Technology, and Teacher Education During the COVID-19 
+Pandemic (1 ed., pp. 45-49) Association for the Advancement of Computing in Education. 
+26 
+Markham, A. (2021). The limits of the imaginary: Challenges to intervening in future speculations of 
+memory, data, and algorithms. New Media & Society, 23(2), 382–405. 
+https://doi.org/10.1177/1461444820929322  
+Mohammad, S. & Turney, P. (2013). Crowdsourcing a word-emotion association lexicon 
+Computational Intelligence, 29(3), 436-465. 
+OHCHR. (n.d.). General comment No. 25 (2021) on children’s rights in relation to the digital 
+environment. https://www.ohchr.org/en/documents/general-comments-and-
+recommendations/general-comment-no-25-2021-childrens-rights-relation  
+Plowman, L. (2020). Digital Play. https://www.de.ed.ac.uk/project/digital-play  
+Rae, J. & Coleman, C. G. (2021). Refugium. Melbourne: Centre for Reworlding. 
+Robinson, A. (2017). Technology: He wrote the future. Nature, 541, 286–287. 
+https://doi.org/10.1038/541286a 
+Roose, K. (2023, January 13). Don’t ban ChatGPT in cchools. Teach with it. The New York Times. 
+https://www.nytimes.com/2023/01/12/technology/chatgpt-schools-teachers.html  
+Semeraro, A., Vilella, S., & Ruffo, G. (2021). PyPlutchik: Visualising and comparing emotion-
+annotated corpora. PLOS ONE 16(9): e0256503. 
+https://doi.org/10.1371/journal.pone.0256503 
+Sicart, M. A. (2020). Playing software: The role of the ludic in the software society. Information, 
+Communication & Society. https://doi.org/10.1080/1369118X.2020.1764078 
+Siemens, G. (2005, September 2). Designing ecosystems versus designing learning [Msg 28]. Message 
+posted to http://connectivism.ca/blog/ecosystem 
+Sovacool, B. K., & Hess, D. J. (2017). Ordering theories: Typologies and conceptual frameworks for 
+sociotechnical change. Social Studies of Science, 47(5), 703-750. 
+Spreadborough, K., Cochrane, T., Glasser, S., Sweeney, D., Harris, J., Belton, A., Coleman, K., Melzack, 
+G., & Fitzgerald, E. (2022). CO-llaborative VI-rtual D-esign: A collaborative autoethnography 
+on conducting exclusively online, data-Led dollaborations in the creative industries. 
+Qualitative Inquiry, 28(3–4), 403–419. https://doi.org/10.1177/10778004211039165 
+Stephenson, N. (1992). Snowcrash. Bantam Books.  
+Taylor, C. (2003). Modern social imaginaries. Duke University Press. 
+Threadgold, S. (2020). Bourdieu and affect: Towards a theory of affective affinities. Policy Press.  
+Zad, S., Jimenez, J., & Finlayson, M. (2021, August). Hell hath no fury? Correcting bias in the NRC 
+emotion lexicon. In Proceedings of the 5th Workshop on Online Abuse and Harms (WOAH 
+2021), 102–113. https://aclanthology.org/2021.woah-1.11  
+ 

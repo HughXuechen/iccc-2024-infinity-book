@@ -1,0 +1,1439 @@
+Designing with AI 
+A User Study to Explore the Future Role of AI as a Collaborative Tool in Graphics Design 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Iram Fatima 
+ 
+Supervisor: Fatima Jonsson 
+Södertörns University 
+User Experience and Interactive Media design 
+ 
+ 
+ 
+ 
+ 
+ 
+2 
+Designing with AI  
+A User Study to Explore the Future Role of AI as a Collaborative Tool in Graphics Design 
+ 
+ 
+Iram Fatima 
+ User Experience and Interactive 
+Media Technology 
+Södertörns University 
+ 
+ 
+ 
+ 
+ABSTRACT 
+This research article explores the potential of AI as a collaborative 
+tool in graphic design, investigating designers’ perceptions and 
+concerns regarding its integration. A preliminary study identifies 
+current challenges faced by designers, leading to the development 
+of three scenarios envisioning the future of AI-powered tools. A 
+prototype tool called “Desain” with advanced AI features is 
+created. User study and interviews uncover designers’ perspectives 
+and ethical concerns. AI is valued as a collaborative tool, but its 
+limitations in capturing human creativity are emphasized. Ethical 
+concerns include lazy design, accountability, and data privacy. The 
+study 
+emphasizes 
+interdisciplinary 
+collaboration, 
+ethical 
+guidelines, and responsible decision-making for the future of AI in 
+graphic design. 
+KEYWORDS 
+AI in design, Collaborative design, Digital design, Future 
+implications, User study, Designing with AI, AI tools, User-
+centered design, Human-AI collaboration, Design process, AI-
+assistive tools  
+1 Introduction 
+In today’s evolving digital landscape Artificial intelligence (AI) has 
+made significant advancements in recent years, transforming 
+various industries and fields, including the field of graphic design 
+[42]. According to Andrew Ng, a professor at Stanford University 
+and the founder of Coursera and the Google Brain Deep Learning 
+Project, “Artificial intelligence is the new electricity” [3]. AI adapts 
+human skills to machines, enabling them to evolve and using these 
+skills outside the human body [44]. The ability of AI to analyze and 
+interpret extensive amount of data, coupled with its aptitude for 
+learning and adjustment, has resulted in the emergence of novel 
+tools and methodologies that are revolutionizing the creation and 
+perception of graphic design [55].   
+ 
+In the realm of graphic design, AI-powered tools have emerged as 
+valuable assistants, providing designers with new capabilities and 
+enhancing their workflow efficiency, the field of graphic design has 
+witnessed a transformative shift with the integration of AI into 
+various design processes [31]. AI-powered tools have gradually 
+become indispensable, assisting designers in tasks such as 
+generating ideas, enhancing productivity, and improving overall 
+design quality [42].  
+ 
+Generative AI models have the potential to automate content 
+generation, increase the variety of content, and personalize content 
+based on user preferences [29]. The integration of generative AI 
+tools like DALL-E and MidJourney has brought a revolutionary 
+shift in collaborative design processes [29]. These generative AI 
+tools, driven by deep learning and latent diffusion models, tap into 
+existing image databases to generate new and visually compelling 
+content based on text prompts [54]. AI tools increase productivity 
+and offer assistance in several areas like color selection, layout, and 
+composition [42] and save time and effort [2], but they may lack 
+the creativity and uniqueness of human designers [13]. AI-powered 
+graphic design tools have made advancements but are constrained 
+by algorithmic boundaries and originality in visuals [21,17]. 
+However, regardless of the developments in AI technology, there 
+remains a substantial gap between its potential and the current state 
+of AI integration in graphic design [2]. To bridge the gap, this study 
+investigates the perceptions and perspectives of professional 
+designers regarding AI in graphic design, exploring its future 
+implications. The study intends to explore the current limitations, 
+requirements, and concerns of designers when it comes to AI 
+integration.  
+ 
+The research problem addresses the exploration of AI’s potential as 
+a collaborative tool in graphic design. It aims to understand the 
+limited adoption of AI among professional designers and seeks 
+insights into their attitudes and acceptance of AI-driven 
+collaboration. This research problem plays an important role in 
+shaping the subsequent stages of the study and informing the 
+development of solutions that cater to designers’ requirements. 
+ 
+This article presents a literature review, existing software and its 
+shortcomings, pre-study followed by prototype development, user 
+sessions and interviews, and a discussion on the implications of 
+findings. Through the integration of these findings, this research 
+article aims to provide valuable insights into collaborative role of 
+AI in design. 
+1.1 Research Problem 
+The research problem at hand revolves around exploring the 
+potential of AI as a collaborative tool in graphic design. AI 
+technology has made significant advancements. But its practical 
+application and utilization in the design field are still 
+Designing with AI 
+Iram Fatima  
+ 
+ 
+1 
+underexplored. This research problem seeks to investigate the 
+extent to which AI can be effectively employed as a collaborative 
+tool for professional designers. 
+1.2 Research Objective 
+The objective of this study gathers designers’ insights on how they 
+envision AI as a collaborative tool by developing futuristic 
+scenarios and a prototype. The study aims to identify barriers, 
+challenges, and opportunities for effectively integrating AI into the 
+design process and enhancing collaboration between designers and 
+AI systems.  
+1.3 Research Questions 
+RQ1. What are the perceptions and concerns of designers regarding 
+the integration of AI into graphic design considering the future of 
+AI-powered tools. 
+ 
+RQ2. What are the concerns of designers regarding the ethical 
+implications associated with AI in graphic design? 
+2 Background 
+ 
+2.1  Literature Review  
+2.1.1 Generative AI in Graphics Design 
+ 
+The future of graphics design is being reshaped by the integration 
+of generative AI tools [54]. Generative AI refers to AI technologies 
+that automatically generate visual or written content based on text 
+prompts [29]. Tools like DALL-E and MidJourney play a vital role 
+in supporting idea generation, idea expansion, and have gained 
+popularity in graphics design due to their ability to generate 
+realistic images and text by using vast amounts of internet data [54]. 
+These tools offer creative professionals the opportunity to explore 
+new content possibilities and expand their creative horizons. The 
+concept of participatory AI is discussed, emphasizing the 
+involvement of creative professionals in the design and decision-
+making processes [29]. Generative AI has the potential to automate 
+the generation of high-quality content, leading to increased content 
+variety and personalized experiences for users [29]. However, there 
+are some challenges and potential risks associated with generative 
+AI [40]. When trained on a mixture of real and AI-generated data, 
+generative AI tools may exhibit degraded performance, as indicated 
+by simulations using an image-generation AI tool. This raises 
+concerns about the degeneration of generative AI, emphasizing the 
+need for further research. 
+ 
+2.1.2 Collaboration between Humans and AI in Graphic Design: 
+Opportunities and Limitations 
+ 
+The collaboration between humans and AI in graphic design offers 
+both opportunities and limitations. AI’s ability to automate certain 
+design tasks can significantly reduce time-consuming work, 
+allowing designers to allocate more room for the creative process 
+[33]. It can serve as an assistant and complement users’ individual 
+needs and capabilities, resulting in enhanced design outcomes [36]. 
+However, it is crucial to recognize the limitations of AI when it 
+comes to creativity and the ability to generate entirely new designs 
+[42]. Despite their capabilities, machines still lack intention and 
+personal goals, requiring human designers to guide and approve 
+designs [47]. The integration of AI and machine learning in design 
+programs requires designers to have a command of design 
+principles and typography rules. AI can automate certain stages of 
+the design process, but designers need to be more creative and adapt 
+to technological advancements [33]. The collaboration between 
+humans and AI should be approached with an understanding of 
+AI’s function as a tool to help and amplify the creative abilities of 
+designers because the currently available AI-powered co-creative 
+tools primarily focus on idea generation and execution, with limited 
+involvement in the early stages of co-creation [28]. Future tools 
+should harness the unique capabilities of AI to foster a more 
+collaborative and human-centred creative process and leverage 
+AI’s potential in enhancing the creativity of designers [28]. One 
+aspect that can be explored is the use of AI models to evaluate 
+creativity based on factors such as novelty, and value, researchers 
+have discussed the potential of comparing AI-based assessments 
+with human judgments and employing unsupervised machine 
+learning 
+techniques 
+to 
+improve 
+these 
+evaluations 
+[38]. 
+Additionally, the importance of conceptual organization is 
+highlighted as a key factor in enhancing creativity assessments 
+[38]. AI can transform design by determining user preferences and 
+allowing websites to adapt to changing interests. The evolving 
+relationship between AI and graphic design raises important 
+considerations for designers in terms of collaboration and 
+adaptation 
+[22]. 
+Hybrid 
+human-AI 
+systems 
+encourage 
+collaboration between humans and AI, humans can provide 
+guidance, domain expertise, and contextual understanding, while 
+AI systems can process and analyze large datasets, identify 
+patterns, and generate insights. By working together, humans and 
+AI can tackle complex problems that neither could solve 
+independently [41]. By further exploring and integrating these 
+approaches, collaboration between humans and AI in graphic 
+design can be enhanced, opening up new opportunities for more 
+innovative and creative design processes. 
+ 
+2.1.3 Impact of AI on the Graphic Design Industry: 
+Productivity and Creativity 
+ 
+The impact of AI on the graphic design industry is a topic of 
+significant interest. One of the key advantages is increased 
+productivity as it is seen to speed up the whole design process. 
+However, there are chances that AI will impact the overall quality 
+of design by potentially diminishing human creativity and resulting 
+in more predictable and homogenized design [42]. AI may lack 
+creativity in terms of generating entirely new designs, but it can be 
+highly proficient in executing designs created by human designers 
+[8, 9]. Even though AI may not possess the ability to create entirely 
+new designs but it can speed up the design process by automation 
+and save time for designers, meanwhile, designers can have more 
+time on their hands to focus on creativity and innovation [33]. The 
+focus should not be on replacing humans, but on integration of AI 
+systems into design process [52].  
+ 
+2.1.4 Responsible Integration of AI in Design Practices: 
+Guidelines and Challenges 
+ 
+ 
+ 
+ 
+2 
+Ensuring the responsible integration of AI in design practices 
+requires the development and adherence to ethical guidelines. 
+Organizations and practitioners are faced with the challenge of 
+aligning ethical considerations with technological advancements. 
+Early adopters of AI have focused on innovation, positioning 
+themselves for growth and increased employment opportunities [7]. 
+However, it is crucial to navigate these advancements with a deep 
+understanding 
+of 
+ethical 
+principles 
+and 
+considerations. 
+Additionally, integrating ethical behavior into AI through the 
+incorporation of pedagogy, moral psychology development, and 
+computer science has been proposed as one approach [53]. Further 
+research and collaboration are needed to establish guidelines and 
+address the complex ethical challenges that arise in the integration 
+of AI in design practices. 
+ 
+2.1.5 Ethical Considerations in the Integration of AI into 
+Creative Processes 
+ 
+The integration of AI into creative processes has raised significant 
+ethical considerations and fairness implications. This becomes 
+particularly relevant when autonomous systems design themselves, 
+learn, and improve over time [18]. To address potential 
+discrimination and promote equitable outcomes, the concept of fair 
+AI 
+has 
+emerged 
+[23]. 
+However, 
+navigating 
+ethical 
+recommendations alongside technological advancements in AI 
+poses a complex task [53]. One proposed approach is to integrate 
+ethical behaviour into AI by incorporating pedagogy, moral 
+psychology development, and computer science [53]. Moreover, 
+the application of a feminist perspective in AI ethics offers valuable 
+insights into ethical theories, real-world implications, power 
+dynamics, and contextual factors [50]. Such perspectives 
+emphasize self-evaluation and addressing blind spots, providing a 
+roadmap for policymakers and practitioners working on the 
+responsible integration of AI into creative processes. 
+ 
+The literature review provides insights into the current state of AI 
+in design. It emphasizes the importance of addressing ethical 
+considerations, impact of AI and generative AI on the graphic 
+design industry.  
+ 
+2.2  Overview of Some Existing AI Software in 
+Graphic Design 
+ 
+This section provides an overview of some of the AI-powered tools, 
+these selections serve as a solid groundwork for the study at hand, 
+providing valuable insights into the current landscape of graphic 
+design software and identifying areas that require further 
+exploration. 
+ 
+Text to image generation tools 
+DALL-E, Midjourney, and Stable Diffusion are three leading text 
+image generation tools, they employ generative models like 
+Generative Adversarial Networks (GANs) and Variational 
+Autoencoders (VAEs). These models have brought together the 
+domains of Computer Vision (CV) and Natural Language 
+Processing (NLP), enabling the creation of images based on textual 
+descriptions. DALL·E 2 excels in generating human images, 
+Midjourney, on the other hand, produces images with rich colors 
+and a high degree of realism across various attempts. This suggests 
+that the model can capture and incorporate detailed visual attributes 
+into its generated images. In contrast, Stable Diffusion stands out 
+due to its open-source nature and the resulting support from a large 
+community [46].  
+ 
+Looka (logo maker) 
+Looka, formerly known as Logojoy, is a logo maker website 
+founded in 2016. It has assisted over 20 million users across 188 
+countries, generating 10 billion custom logos [35]. With the help of 
+Looka logo designing is just few clicks away but it’s a common 
+perception about Looka, that the logos generated by Looka often 
+lack essential qualities for successful brandings, such as creativity, 
+simplicity, timelessness, and originality. Implementing AI or 
+machine learning may not match the creativity level of a trained 
+graphic designer [33]. 
+ 
+Canva 
+Canva is an online design and visual communication platform 
+launched in 2013. It aims to enable users worldwide to create 
+diverse designs and share them across various mediums [9]. Canva 
+provides photo-editing tools, including a design grid, free icons, 
+stickers, badges, and an interactive color wheel for creating and 
+exploring color schemes [25]. However, some users find limitations 
+in editing designs, as they may not be very flexible and 
+accommodating, sometimes resulting in universal designs [14]. In 
+2019 Canva experienced a huge data breach, but efforts have been 
+made to address the issue [25]. 
+ 
+Adobe  
+Adobes Generative AI tools, Adobe Sensei that uses Adobe's 
+artificial intelligence and machine learning framework, designed to 
+enhance and automate various creative and marketing tasks [1], 
+another Generative AI tool, Adobe Firefly, that is designed to 
+generate images that are safe to use in commercial settings, 
+leveraging licensed images from Adobe Stock and open-source 
+content. This demonstrates the implementation of AI-generated 
+content in a professional context [1]. Adobe Sensei automates 
+tasks, improves editing capabilities, streamlines design workflows, 
+and provides intelligent recommendations. Machine learning 
+algorithms enable features like content-aware fills, image auto-
+tagging, and automatic color and font suggestions. Adobe Sensei 
+enhances productivity, but the level of creativity in design 
+ultimately depends on the skills of the designer [33].  
+ 
+Microsoft's Designer Tool 
+Microsoft's Designer tool uses artificial intelligence, specifically 
+the DALL-E 2 model, to create images based on text descriptions. 
+By entering a few words or a sentence, users can generate an image 
+that matches their description. This highlights the ability of AI to 
+turn textual input into visual output and supports the feasibility of 
+AI-powered design tools [14].  
+Designing with AI 
+Iram Fatima  
+ 
+ 
+3 
+3 Methodology  
+This research process employed Research Through Design (RtD), 
+this approach refers to the integration of research and design 
+activities to create new knowledge, RtD involves using design 
+methods and approaches to generate insights, explore possibilities, 
+and create tangible artifacts or prototypes that contribute to the 
+research process. [51]. Through design thinking principles [12], the 
+research process embraced a human-centered and iterative 
+approach. Research started with a preliminary study to understand 
+the AI tools landscape in design, creating scenarios for exploring 
+innovative design alternatives, developing a prototype using 
+speculative design, and conducting user study and interviews.  This 
+research process allowed to gain a deep understanding of AI 
+integration in design and addressed the research questions 
+effectively. 
+3.1  Pre-Study 
+The preliminary study aimed to gather initial insights into the 
+problem domain and understand the existing landscape of AI tools 
+in design [27], and to explore the perspectives of professional 
+graphic designers, a survey was designed to assess their 
+preferences, attitudes, and opinions regarding AI tools [26]. The 
+survey questions were carefully crafted to gather data on the 
+participants’ backgrounds, qualifications, and alignment with the 
+research topic. It also included questions related to their usage of 
+AI, the frequency of AI tool adoption, the current challenges faced, 
+and their future expectations about AI tools in graphic design.  
+ 
+Before administering the survey to a larger group, a pilot test was 
+conducted with a small group of designers. The pilot test helped 
+identify any issues with the survey design, such as confusing or 
+leading questions, and allowed for necessary adjustments to ensure 
+the reliability and validity of the survey instrument [39]. The 
+feedback received from the pilot participants played a crucial role 
+in refining the survey questionnaire and ensuring its effectiveness 
+in gathering meaningful insights from the larger sample.  
+ 
+A call for participation was posted on LinkedIn, where professional 
+designers were requested to fill out the survey. A total of 11 
+responses were gathered from graphic designers, UX designers, and 
+creative directors who participated in the survey. The results of the 
+survey provided valuable insights into the current use of AI in 
+graphic design, its challenges, and future expectations. To visualize 
+the results gathered from the survey, personas were created, 
+personas are fictional characters that represent a group of users, 
+their goals and characteristics and useful personas represent users’ 
+wants needs, and motivations [39]. Personas help better understand 
+the problem and serve as foundation for subsequent research steps.   
+ 
+3.2  Design Exploration 
+This phase involved envisioning the future of design with 
+advanced AI capabilities and acknowledging the current gaps in 
+the design field and the potential of AI. A speculative design 
+approach was employed that involved designing future products 
+and services not through prediction [37, 20] but by prototyping 
+and exploring the social, cultural, and ethical implications of 
+emerging technologies [43]. Motivated by the needs of designers 
+identified through survey results, three scenarios were developed: 
+collaboration, evaluation, and automation. These scenarios were 
+designed and structured conceptual systems that represented 
+equally plausible future contexts [49]. This approach helped to 
+consider the broader implications and benefits of advanced AI in 
+collaboration, evaluation, and automation scenarios within the 
+design domain. Each scenario offered a distinct perspective on 
+how designers would interact with advanced AI technologies in a 
+highly advanced and established design context. To further 
+explore these scenarios and provoke discussions, an interactive 
+prototype called Desain was created using Figma. This prototype 
+served as a tool for provocation and exploration, encouraging 
+people to imagine and discuss potential future scenarios [48]. 
+Figure 1 shows a basic sketch developed to visualize scenarios 
+and the prototype. 
+ 
+ 
+Figure 1: Initial sketch of visualising scenarios and prototype  
+ 
+3.3  Design Provocation 
+This phase involves exploration of prototype through research 
+study with designers, user studies were conducted with designers 
+in order to gain insights about experience, perspective, and 
+integration of AI in the design process. The study followed a 
+prototype-driven inquiry approach, where the prototype is used to 
+explore and gather feedback, this involved conducting investigative 
+work and exploring new possibilities to gain valuable insights and 
+enhance understanding [45].  
+The study began with recruitment, enlisting 12 participants from 
+various design agencies in Sweden, including graphic designers, 
+UX designers, and creative directors. Participants were identified 
+through LinkedIn, and initial contact was made by sending them 
+personalized emails explaining the study and inviting them to 
+participate. Upon confirmation of their interest and availability, 
+suitable times for user sessions and interviews were scheduled. The 
+participants had varying levels of experience in the design field, 
+ranging from 2 to 20 years. 
+ 
+3.3.1 Study Setup 
+ 
+Following the recruitment phase, user studies were conducted with 
+participants, where participants had the opportunity to attend the 
+session face-to-face in person or remotely through Zoom, Face-
+ 
+ 
+ 
+4 
+moderated sessions involve the researcher and users sitting in the 
+same room, interacting with each other. In contrast, remote 
+moderated sessions occur when the researcher and user are in 
+different places but interact through screen-sharing technology 
+[39]. 
+The first user session began with a total of six participants, four of 
+whom attended in-person sessions, and the remaining two 
+participants participated via Zoom. Each session lasted for 40-45 
+minutes.  This format allowed for flexibility and ensured broader 
+participation.  The session started with a brief about the research 
+and then the participants were introduced to the prototype, Desain, 
+which served as a catalyst for driving inquiry and stimulating 
+discussions. The prototype was thoroughly reviewed, enabling the 
+participants to interact with it. After participants explored the 
+prototype, semi-structured interviews were conducted, with pre-
+established questions but the order was changed according to the 
+participants’ responses [6]. The interview questions covered 
+various aspects, such as the participants’ overall experience with 
+the prototype, their feedback on its design and functionality, and 
+their past experiences with AI in their design practice. Through 
+these interviews, participants had the opportunity to reflect on their 
+own experiences, express their insights, voice concerns, and 
+highlight potential opportunities related to AI in design.  
+ 
+For the second iteration, six new participants were recruited, 
+introducing a better version of the prototype to enrich the research 
+findings. In the final iteration, all 12 participants were sent the 
+prototype via email to gather final feedback. This step allowed for 
+additional insights to emerge after the group discussion, validating 
+the findings and refining the prototype if needed. 
+ 
+The research study progressed through three iterations of 
+prototypes, each involving a different set of participants. Insights 
+were gathered from participants and were incorporated into the 
+prototype. Overall, the structured progression with iterative 
+prototyping, combined with user study and interviews, aimed to 
+provoke thoughtful discussions and gather valuable insights into 
+the potential implications of AI in the design field. 
+3.4  Data Analysis 
+Thematic analysis was employed to systematically identify, 
+organize, and offer insight into patterns of meaning known as 
+themes within the qualitative data collected from user sessions and 
+interviews [5]. To facilitate the analysis process, Mural software 
+was used. First step toward analysis was transcription of data 
+gathered from users’ sessions and interviews. This involved 
+carefully listening to the audio recordings and converting the 
+spoken words into written form. Transcribing the data ensured the 
+comprehensiveness and accuracy of participants’ feedback and 
+insights.  
+ 
+Next, transcribed data was imported into Mural, data was organized 
+into meaningful segments. Within Mural, coding techniques were 
+applied to identify patterns and themes within the data. Data were 
+categorized into codes, which facilitated the organization and 
+further analysis of the data. Sub-themes and overarching themes 
+were identified that emerged from the coded data. According to 
+Braun and Clarke, codes are a building block of analysis, and a 
+theme captures something important from data about research 
+questions [4].  Once the code, sub-themes, and themes were 
+identified, findings were summarised. This involved synthesizing 
+the data and presenting the key insights and patterns that emerged 
+from the thematic analysis. Important quotes were highlighted as 
+examples to support the identified themes, providing a rich and 
+meaningful understanding of participants’ perspectives and 
+experiences.  
+ 
+3.5  Method Critique 
+One of the limitations of the study was that the prototype used for 
+the research did not have any AI functionality. This could have 
+influenced the findings as participants were not interacting with a 
+fully functional AI tool. The lack of AI functionality in the 
+prototype may have limited participants’ ability to provide accurate 
+feedback and insights on the potential benefits and challenges of 
+using AI in design.  
+4 Design Outcome 
+This chapter describes the prototype used as a design provocation 
+in this study. The purpose of this prototype was to stimulate debate 
+and gather thoughts from the audience about the future role of AI 
+in design. The prototype showcased advanced functionalities to 
+gauge perceptions and reactions. It should be noted that the 
+prototype did not incorporate actual AI functionality but was 
+designed to spark discussions and reflections on the potential 
+impact of highly developed AI in design. The proposed 
+functionalities were motivated by the scenarios which were based 
+on the insights gathered from pre-study and existing AI tools.  
+4.1  Desain Prototype Description  
+During the prototype phase, a high-fidelity interactive prototype 
+named Desain was created using Figma. The prototype aimed to 
+provide an engaging and interactive experience for users to shape a 
+successful solution and enhance their understanding Desain 
+combined design and AI potential capabilities to support designers 
+in their creative process. The prototype featured a clean and 
+intuitive user interface with a color scheme consisting of white, teal 
+blue, and yellow accents to highlight important elements. The 
+Desain logo was designed in hand-written lettering to add a 
+personal touch and create an organic and humanistic feel. 
+ 
+4.2  Design Motivation 
+The motivation behind Desain was to create advanced AI design 
+tools that address the limitation of existing tools and empower 
+professional designers to have their creative input. The pre-study 
+revealed the needs, pain points, hopes, and concerns of designers, 
+which served as a foundation for defining the functionalities of 
+Desain. The aim was to develop a tool that goes beyond the 
+Designing with AI 
+Iram Fatima  
+ 
+ 
+5 
+capabilities of current AI tools and allows designers to express their 
+creativity. By incorporating evaluation, collaboration, and 
+automation functionalities, Desain sought to enhance the design 
+experience and provide designers with the tools they need to excel 
+in their creative endeavors. 
+Desain encompasses three main functions aimed at enhancing the 
+design experience: 
+ 
+4.2.1 Evaluation Function  
+Desain's evaluation function empowered designers to assess their 
+work and gather valuable feedback. Users could upload their 
+designs or share online links for evaluation. Desain provides 
+designers with visual and written feedback on various aspects of 
+their work, including design quality, usability, accessibility, and 
+sustainability. This comprehensive evaluation capability filled a 
+gap in existing design tools, providing designers with critical 
+insights to improve their work.  
+Figure 2 shows the main page of Evaluate function, and Figure 
+3shows how this function will provide evaluation written feedback 
+as well as visual feedback. 
+ 
+ 
+ 
+ 
+ 
+Figure 2: Evaluation Function  
+ 
+Figure 3: Evaluation Function Results 
+4.2.2 Collaboration Function 
+The collaboration function in Desain facilitated collaborative 
+design processes by allowing designers to provide and receive 
+creative direction. Designers can provide written feedback, express 
+their ideas, and attach design files such as logos or rough sketches 
+to provide visual references and this tool creates a visual output of 
+written input. Within this function, designers could write prompts 
+or freely express their ideas. They had the option to attach design 
+files, such as logos or rough sketches, to provide visual references. 
+Real-time collaboration allows designers to view and edit designs 
+within the tool itself. Additionally, designers can download their 
+designs in multiple formats and easily share them with 
+stakeholders, promoting seamless collaboration and effective 
+communication. Figure 4 shows the main page of the Collaboration 
+function and Figure 5 shows the prompt to input direction and the 
+results produced from it. 
+ 
+ 
+ 
+ 
+Figure 4: Collaboration Function  
+ 
+ 
+ 
+Figure 5: Subpages of Collaboration Function  
+ 
+4.2.3 Automation Function 
+Desain's automation function enabled designers to automate 
+routine, mundane, and time-consuming design tasks, freeing up 
+their time for more creative aspects of their work. Designers 
+provide a base design and specify desired automation parameters, 
+such as color schemes or layout variations. its versatile automation 
+capabilities allowed designers to generate various design outputs 
+ 
+ 
+ 
+6 
+based on their specific requirements. For example, automation of 
+the generation of different color palettes, layout options, or 
+typography choices. By automating these tasks, Desain aims to free 
+up designers' time and enable them to focus on more creative 
+aspects of their work.  
+Figure 6 shows the main page of the Automation function and 
+Figure 7 provides simulation of the results produced. 
+ 
+ 
+ 
+Figure 6: Automation Function 
+ 
+ 
+ 
+Figure 7: Subpages of Automation  
+ 
+The proposed AI functionalities in Desain align with existing 
+literature and research in the field. There is a wide range of AI 
+systems and functionalities that have been successfully 
+implemented using existing technologies. Research studies have 
+explored the use of AI as image generators, providing visual stimuli 
+for designers to draw inspiration from [11,10, 19,30,34].  
+Facilitators, such as Adobe Sensei, have also been developed as AI 
+systems to streamline and simplify design actions. [1]. AI-concept 
+evaluators can analyze and rank design proposals based on novelty 
+and level of detail [8]. By leveraging advanced AI technologies 
+such as Computer Vision (CV), Natural Language Processing 
+(NLP), and generative models, CV allows computers to interpret 
+and comprehend visual data extracted from images and videos  
+[32], whereas NLP along with Machine learning mimics human 
+behavior and creates interesting and creative solutions [16].  
+suggested capabilities can be realistically achieved within the 
+boundaries of current technological advancements.  
+ 
+5 Findings  
+ 
+The thematic analysis conducted in this design research involved 
+the examination of collected data from user study and post-user 
+study interviews. Throughout the research process, a multitude of 
+ideas and concepts were generated, focusing on the potential role 
+of AI in graphic design.  
+These findings were carefully analyzed to provide valuable data 
+contributing to addressing the research question. “How do graphic 
+designers perceive the role of AI as a collaborative tool in their 
+design process?” The aim was to gain a comprehensive 
+understanding of how AI is perceived and experienced by graphic 
+designers, shedding light on its impact, challenges, and potential 
+benefits in facilitating collaboration. 
+Additionally, an exploration was undertaken to understand “the 
+perspectives of designers regarding the ethical concerns associated 
+with AI in graphic design”. By delving into their viewpoints, this 
+investigation aimed to uncover the ethical considerations raised by 
+the integration of AI in the field of graphic design, providing 
+insights into the designers’ attitudes, concerns, and considerations 
+surrounding these issues.  
+ 
+ 
+5.1  Positive Perception of AI as a design tool 
+ 
+When participants were asked if such a tool to exist (Desain) will 
+they use it or not? One participant expressed, “I would see it as a 
+tool, like something that will help me become more effective in my 
+work. So, I would be generally positive about it because I see the 
+potential.” This participant views AI as a means to enhance their 
+effectiveness and productivity in their design work, emphasizing 
+the potential benefits it can bring. 
+Another participant stated, the sentiment of inevitability 
+surrounding AI’s presence in the design field was also expressed 
+by a participant “I think it’s mandatory and need to get comfortable 
+because it is inevitable and we need to befriend, doesn’t matter if 
+it’s bad or good.” They emphasize the importance of embracing 
+and familiarizing themselves with AI, acknowledging that whether 
+the implications of AI are positive or negative, its integration into 
+the design process is unavoidable. Furthermore, a participant 
+mentioned, “I think it's good especially for new designers because 
+I have quite some experiences so I can sit with a client and ask can 
+ask questions, but it’s gonna be great for new designers so they can 
+use it.” This participant recognizes the potential benefits of AI for 
+new designers, as it provides them with tools and resources to 
+support their design process and client interactions. 
+Overall, the analysis of the data indicates a generally positive 
+outlook on AI as a design tool. Participants perceive AI as a means 
+to enhance effectiveness, fuel creativity, and increase productivity. 
+The sentiment of inevitability suggests an acceptance of AI’s 
+presence in the design field, with participants emphasizing the 
+importance of embracing this technology to stay competitive. 
+Designing with AI 
+Iram Fatima  
+ 
+ 
+7 
+Participants acknowledge the potential benefits of AI for both 
+experienced and new designers, highlighting its role in supporting 
+their design process and client collaborations. 
+ 
+5.2  AI as a Tool for Automation and Idea 
+Generation 
+ 
+Talking about the features of Desain, focusing on the role of AI as 
+a tool for automation and idea generation in the design process. The 
+following quotes illustrate the perspectives of users. One 
+participant expressed the time saving benefits of AI, stating, “I can 
+use it (Desain) to build some foundation for me, I don’t have time 
+to work on things that can be automated.” This suggests that 
+participants appreciate AI’s ability to automate repetitive tasks, 
+allowing them to focus on more creative aspects of their work. 
+Participants also expressed a preference for the automation side of 
+AI, particularly in the production aspects of design. One participant 
+mentioned, “From a personal perspective, I really like the 
+automation side of it (Desain). I find the production side of design 
+really boring.” This indicates that participants find value in AI’s 
+ability to streamline and automate mundane tasks, freeing up time 
+for more engaging and creative work. 
+Additionally, participants mentioned the role of AI in creating 
+concept designs and filling in the gaps. One participant explained, 
+“I like creating concepts and ideas, but when it comes to creating 
+hundreds of screens for an app, I don’t enjoy that. If AI can fill in 
+those blanks, that is going to be a great implication for me.” This 
+reflects the desire to leverage AI to assist in the creation of 
+repetitive or labor-intensive design elements. 
+The data analysis reveals that participants are willing to use AI as 
+a tool for automation and idea generation in the design process. 
+They appreciate AI’s ability to automate tasks, generate a multitude 
+of ideas, and streamline production. Participants seek to leverage 
+AI to optimize their workflow, enhance creativity, and focus on 
+more fulfilling aspects of their design work. 
+ 
+5.3  AI as a Solution to creative blocks and time 
+saving 
+ 
+Participants were asked how they Perceive Desain as a tool and in 
+which ways they find it effective This is how participants 
+responded, the following quotes highlight their perspectives: 
+One participant mentioned using AI to overcome creative blocks, 
+stating, “Well, if I hit a block. I don’t know what to design and what 
+to do and then I probably go into Pinterest, Behance or something 
+that would inspire me to do something new or something 
+efficient….this tool can be useful in such context” This suggests 
+that participants can turn to AI for inspiration and to spark new 
+ideas when they encounter creative obstacles. 
+Another participant expressed the use of AI to facilitate their design 
+process, saying, “I would use it though to help me personally. And 
+to get things moving if I get stuck. I don’t see myself having to rely 
+on it for everything to work.” This indicates that AI is seen as a tool 
+to assist in generating momentum and overcoming design 
+challenges, rather than as a complete dependency. 
+Participants mentioned utilizing AI to combine and generate ideas. 
+One participant explained, “I will probably take a bunch of 
+screenshots and apply them into my design. And then you say, okay, 
+how can I combine these?” This highlights the use of AI to assist 
+in the process of merging different elements and exploring creative 
+combinations. 
+ 
+AI’s role in generating ideas was also emphasized, one participant 
+mentioned, “I will use it to generate ideas or initial prototypes. I 
+see some tasks takes a lot of time but automation can help as filling 
+in the blanks.” This suggests that AI is perceived as a valuable tool 
+for generating initial design concepts and filling in gaps in the 
+creative process. 
+One participant stated, “I think it would be time saving. It’s gonna 
+save us a lot of time.”  Another participant mentioned “it’s 
+definitely gonna speed up my design process” This highlights the 
+perception of AI as a tool that can expedite certain design tasks and 
+streamline the overall design process. 
+Overall, the analysis of the data reveals that participants perceive 
+AI as a valuable source of inspiration and a time saving tool in the 
+design process. Participants express that AI can be a source to 
+overcome creative blocks, generate ideas and prototypes, offer 
+alternative perspectives, and expedite certain design tasks. Their 
+perspectives indicate a willingness to embrace AI as a valuable tool 
+in the future of design. 
+ 
+5.4  The Role of Designers and the Value of 
+Human Expertise in the Era of AI 
+  
+Uniqueness and Human Nuances 
+ 
+The data highlights the importance of designers and the value of 
+human expertise in the context of AI. Participants emphasizes the 
+irreplaceable role of designers, stating, “Designers are still needed 
+because even though the AI is very smart and can do a lot of things, 
+you will never be able to get those nuances that are actually in 
+every person.” This quote underscores the unique insights, 
+creativity, and nuanced understanding that human designers bring 
+to their work. Another participant highlights the significance of 
+human experience, stating, “I have been working for 20 years, and 
+nothing beats human experience but having something intelligent 
+or machine learning would be great.” This suggests that years of 
+experience in the field contribute to a designer’s deep 
+understanding of visual practices, design principles, and the ability 
+to create meaningful and impactful designs.  The participants 
+recognize that AI lacks personal opinions and reasoning beyond 
+what is programmed into it. One participant stated, “AI doesn’t 
+have any personal opinions, they do not have any reasons for 
+creating except for what the code and the data are been telling 
+them.” This highlights the distinction between AI’s algorithmic 
+decision making and the ability of human designers to bring their 
+unique perspectives, insights, and subjective judgment to the design 
+process. The participants acknowledge that AI is a tool, guided by 
+ 
+ 
+ 
+8 
+data and code. One participant comments, “It’s just data and code 
+that gives in whatever they’ve been told to give in.” This 
+underscores the role of AI as a tool to assist designers, rather than 
+a substitute for their expertise and creativity. Overall, the analysis 
+of the data reveals the participants’ recognition of the importance 
+of human designers in the face of AI advancements. They value the 
+nuanced understanding, creativity, and personal insights that 
+designers bring to their work. 
+ 
+Valuing Exclusivity and Rare Work 
+ 
+A participant emphasizes the potential homogeneity that could arise 
+if everyone starts relying solely on AI, stating, “When everybody 
+starts using AI, there will be sameness... people will start valuing 
+exclusivity and will value rare work.” This suggests that human 
+designers can offer a differentiation factor, producing exclusive and 
+distinctive designs that stand out in a landscape saturated with AI-
+generated content. 
+The data also highlights the potential for skilled designers to 
+leverage AI as a tool to enhance their creative output. One 
+participant note, “People who are great at design are going to stay 
+on top of this anyway, and they’re gonna use it as a tool to create 
+even more.” This suggests that skilled designers can harness AI to 
+augment their capabilities and generate high-quality artworks. 
+ Finally, a participant mentions the desirability of exclusivity in the 
+creative field, stating, “Exclusivity is something that’s gonna float 
+your boat.” This indicates that unique and rare designs, crafted by 
+human designers, hold value and appeal in a context where AI-
+generated content becomes more prevalent. Acknowledging the 
+potential benefits of AI as a tool, they emphasize the irreplaceable 
+role of designers in delivering unique, exclusive, and impactful 
+designs. The participants’ perspectives underscore the continued 
+relevance and value of human expertise in the era of AI. 
+ 
+5.5  AI as a Collaborative Tool in Design and 
+Embracing its Potential 
+ 
+The data highlights the potential of AI as a collaborative partner in 
+the design process, addressing concerns and resistance among 
+designers. The following quotes provide insights into the 
+participants’ perspectives: 
+One participant suggests that AI can serve as a smooth transition 
+for designers who are fearful of AI taking over their jobs. They 
+state, “So it would be a really good way to introduce, especially 
+designers that are really scared of AI and AI taking over the jobs. 
+It can be your collaboration partner, basically.” This viewpoint 
+emphasizes the idea of AI as a supportive tool that designers can 
+embrace rather than view as a competitor. 
+The participant further emphasizes that AI doesn’t need to replace 
+human designers but can instead be seen as a collaboration partner. 
+This perspective encourages designers to view AI as a 
+complementary tool that enhances their capabilities and supports 
+their creative process. 
+Drawing a parallel to historical skepticism towards new 
+technologies, another participant references the invention of the 
+computer and the skepticism that arose around whether it could 
+produce art. They state, “So even when the computer was invented, 
+people started saying he is not an artist because he is using the 
+machine.” This quote suggests that skepticism towards AI in design 
+may be reminiscent of past concerns, and highlights the importance 
+of having an open and welcoming attitude towards technological 
+advancements. 
+Overall, the analysis of the data reveals a perspective that positions 
+AI as a collaborative partner rather than a threat to designers. The 
+participants express the potential for AI to support designers, 
+alleviate fears, and enhance the design process. By embracing AI 
+as a tool for collaboration, designers can leverage its capabilities as 
+well as maintaining their creative control and expertise. This 
+viewpoint encourages designers to adopt a positive and receptive 
+attitude towards AI’s role in the design industry. 
+ 
+5.6  AI’s Limitations in Meeting User Goals 
+ 
+When participants were asked if they use this particular tool 
+(Desain) The data reveals the challenges designers face when using 
+AI as a design tool, particularly in meeting their design goals and 
+retaining creative control. Participants express concerns about AI’s 
+ability to fully comprehend and deliver on the objectives they set 
+for their designs. 
+One participant stated, “I can meet the client’s goals with AI, but 
+meeting the user’s goals, I think is not something that you can do 
+with just AI.” This sentiment highlights the distinction between 
+satisfying the requirements set by the client and truly understanding 
+and meeting the needs and desires of the end-users. The participant 
+suggests that AI may fall short in capturing the user’s perspective 
+and delivering a tailored experience. 
+Another participant mentions the limitations of AI in capturing the 
+rawness and emotions that are integral to the design process. They 
+emphasize that “AI can assist in certain aspects; it lacks the human 
+touch and creativity necessary to imbue designs with genuine 
+emotion.” These insights indicate that designers strive to strike a 
+balance between utilizing AI as a tool for efficiency and problem-
+solving while also preserving their creative autonomy. They seek 
+to leverage AI’s capabilities to support their design process but 
+emphasize the importance of their expertise and input in shaping 
+and refining the AI-generated designs to align with their design 
+goals. 
+Overall, the data highlights the ongoing challenges designers face 
+in effectively utilizing AI as a design tool, particularly in achieving 
+their design goals and maintaining creative control. It emphasizes 
+the need for designers to actively steer and guide the AI-powered 
+processes to ensure the desired outcomes are achieved. 
+ 
+5.7  Ethical Concerns and Transparency in AI-
+Driven Design 
+ 
+These conversations emerged when participants were asked about 
+their readiness to use AI in the design process. While expressing 
+their openness to incorporating AI, participants also shared their 
+concerns and reservations regarding its potential impact. The data 
+Designing with AI 
+Iram Fatima  
+ 
+ 
+9 
+revolves around the ethical concerns related to the use of AI in 
+design, specifically highlighting issues such as lazy design 
+practices, data privacy, and the need for ethical guidelines. 
+ 
+Potential for Lazy Design and Ethical Concerns 
+ 
+The data highlights the ethical concerns surrounding AI-driven 
+design and the importance of transparency in addressing these 
+concerns. Participants express apprehension regarding the potential 
+for lazy design practices facilitated by AI, as it may lead to corners 
+being cut and compromise the creative process. One participant 
+remark, “It could make for lazy design for rather than going a 
+pencil sketch some corners are cut, rather AI can join dots, it has 
+some ethical concerns, some managers are concerned about 
+remote working as there staff is having multiple jobs using AI”.  
+This sentiment raises ethical concerns about the level of 
+craftsmanship and originality in AI-generated designs. 
+ 
+Need for Ethical Guidelines and Education 
+ 
+Transparency and accountability emerge as critical components of 
+ethical AI-driven design. While discussing AI, its benefits 
+Participants also expressed worries about the implications of AI-
+generated content and the potential for chaos or unintended 
+consequences. One participant acknowledges, “That’s the scary 
+thing about AI, I think. And also, like, the pictures that it could 
+actually create could also make a big mess.” This highlights the 
+need for responsible design practices and the ability to understand 
+and control the outcomes produced by AI. 
+The discussion also emphasizes the necessity for ethical guidelines 
+and education in AI-driven design. Participants engage in debates 
+surrounding data privacy and the reproduction of user data without 
+consent. One participant raises concerns, stating, “If AI saves your 
+data and reproduces it in some corner of the world, I will not be 
+happy with it, and I think it is immoral.” This viewpoint 
+underscores the importance of clear ethical guidelines and 
+accountability frameworks to protect users’ data and ensure 
+responsible use of AI technologies. Participants stress the 
+importance of developing ethical guidelines to govern AI-driven 
+design practices. They believe that discussions surrounding AI 
+ethics should be promoted and prioritized. One participant 
+mentions “I think we should have clear guidelines as soon as 
+possible. Before we delve into any danger, dangerous situation” 
+One participant acknowledges, “That’s the scary thing about AI, I 
+think. And also, like, the pictures that it could actually create could 
+also make a big mess.” This highlights the need for responsible 
+design practices and the ability to understand and control the 
+outcomes produced by AI. 
+The comparison to social media platforms like Facebook being 
+responsible for data protection highlights the expectation for AI to 
+uphold similar standard, “I think it is immoral. Facebook is 
+responsible for data protection I put on Facebook, so I want such 
+responsibility from AI.” 
+ 
+ 
+Urgency for Transparent and Accountable AI 
+ 
+Participants emphasize the need for transparency in AI systems and 
+processes. They desire a clear understanding of how AI operates, 
+where the data originates, and how it is utilized. The discussion 
+touches on the notion of fairness when AI taps into the creativity 
+and capabilities of others. Participants express reservations about 
+AI potentially using or replicating the work of other artists, 
+questioning the fairness of such practices. One participant remarks, 
+“If it taps into other people’s creativity and their capabilities, then 
+it is not fair.”  
+The participant emphasizes the need for recognition and proper 
+attribution, drawing a parallel with how blogs use images and 
+provide credits to the original owners. “If I use AI to produce 
+something, or something inspired by someone’s design or artwork, 
+so those people needs to get value and credit and so when AI 
+produces my artwork it should also link it back to the person’s just 
+the way blogs uses images and credits to its owner”  One 
+participant mentioned “I am Using AI to produce data I would like 
+to have clear instructions or a clear image of where the data is 
+coming from and how AI is dealing with my data.” Transparent AI 
+practices would enable users to have a better grasp of AI’s impact 
+on their work and the potential implications for privacy and 
+security. Participants advocate for accountability and responsible 
+handling of user data, suggesting that transparency should be a 
+fundamental principle in AI-driven design practices.  
+ 
+Overall, the data reflects concerns about ethical considerations and 
+transparency in AI-driven design. Participants express worries 
+about lazy design practices, potential risks associated with AI-
+generated content, and the responsible handling of user data. They 
+call for the establishment of ethical guidelines, education on AI 
+ethics, and transparent practices to ensure accountability and 
+mitigate potential negative consequences. 
+ 
+6 Discussions and Conclusion 
+ 
+Building upon the literature on collaborative problem-solving and 
+hybrid human-AI systems [41], the study supports the notion that 
+designers recognize AI as a valuable collaborative tool in graphic 
+design. The integration of AI in the design process enables 
+designers to leverage its computational power to augment their 
+creative output and explore new possibilities. This finding aligns 
+with the idea that hybrid human-AI systems focus on augmenting 
+human intelligence rather than replacing it, with AI technologies 
+solutions to enhance designers’ decision-making [41]. automating 
+tasks, providing relevant information, and suggesting 
+ 
+As highlighted by designers in the study, there are concerns about 
+the limitations of AI in capturing the human touch and unique 
+perspectives that contribute to the richness of design. This aligns 
+with literature that has emphasized the importance of human 
+reflection and meaning-making in interpreting the system's 
+responses[52]. It indicates that designers value the subjective input 
+ 
+ 
+ 
+10 
+and creativity they bring to their work, recognizing the enduring 
+significance of human involvement in the design process. 
+Furthermore, the study revealed different perspectives among 
+designers regarding AI's role. Some designers saw AI as a valuable 
+tool for providing feedback and generating ideas, while others 
+viewed it as a means to automate and expedite processes[52]. This 
+finding resonates with the notion that the focus should shift from 
+mimicking or replacing human skills and activities to instead 
+understanding how to effectively integrate system in to co-creation 
+practices while aligning with human values.  
+ 
+The ethical considerations raised by designers aligns with the 
+growing importance of responsible AI practices in graphic design. 
+The integration of AI into the design process necessitates the 
+establishment of clear guidelines and frameworks to address 
+fairness and data privacy concerns [4]. Responsible AI approaches, 
+which prioritize fairness, transparency, and accountability in the 
+implementation of AI methods, have been proposed to address 
+these ethical considerations [4]. This aligns with the notion that 
+integrating ethical behavior into AI through interdisciplinary 
+collaboration between pedagogy, moral psychology development, 
+and computer science is crucial [53]. The future of AI in graphic 
+design will likely require ongoing interdisciplinary collaboration 
+and dialogue among designers, developers, policymakers, and 
+ethicists, as suggested by research findings and the literature. This 
+collaborative effort aims to navigate the evolving landscape of AI-
+driven design, address emerging ethical implications, and shape the 
+responsible development and deployment of AI-powered tools in 
+graphic design [24,4]. By fostering such collaborations, the design 
+community can collectively work towards an AI future that 
+enhances human creativity, supports innovation, and upholds 
+ethical standards. 
+Whilst exploring the potential of AI as a collaborative tool in 
+graphic design, it is essential to acknowledge the wider 
+implications it may have on the industry. One such concern is the 
+potential for job displacement due to the increased integration of 
+AI-powered tools. The primary objective is to shed light on the role 
+of AI as a collaborative tool and examines ethical implications. job 
+displacement is a valid topic of discussion, it falls beyond the scope 
+of this research and should be examined in dedicated studies 
+specifically addressing its impact on employment dynamics within 
+the design industry. 
+ 
+overall, the study contributes to the existing literature on 
+collaborative problem-solving, hybrid human-AI systems, and 
+responsible AI practices in graphic design. Ethical considerations 
+are vital in shaping the responsible development and deployment 
+of AI in graphic design, and ongoing interdisciplinary collaboration 
+will play a crucial role in realizing the potential benefits of AI while 
+upholding ethical standards and preserving the essence of creative 
+expression. 
+ 
+ 
+ 
+ 
+6.1  Conclusion 
+ 
+This research contributes to the understanding of AI’s role in 
+graphic design and presents a positive outlook on its integration. 
+The study highlights the importance of developing AI-powered 
+tools that align with designers’ needs, respecting their creativity, 
+and supporting their unique perspectives. It sheds light on the role 
+of AI as a collaborative tool in graphic design, emphasizing the 
+importance of understanding designers’ perceptions and concerns. 
+While AI offers efficiency and effectiveness in generating ideas 
+and streamlining tasks, designers highlight its limitations in 
+replicating human touch and creativity. Ethical concerns center 
+around maintaining the integrity of the design process and 
+addressing issues of accountability, transparency, and fairness. The 
+future of AI in graphic design requires interdisciplinary 
+collaboration, ethical guidelines, and responsible practices. By 
+navigating these challenges, designers can harness the potential of 
+AI to enhance their creativity, explore new possibilities, and uphold 
+ethical standards in the evolving landscape of AI-driven design. 
+ 
+6.2  Research Ethics 
+ 
+To maintain the confidentiality of participants ethical guidelines 
+were followed. All participants were provided with clear and 
+detailed information about the study its purpose and its objectives. 
+Before recording the user sessions and interview informed consent 
+was obtained from each participant, emphasizing their voluntary 
+participation and their right to withdraw at any point without 
+consequences. To protect privacy anonymity was maintained of 
+their data, any identifying information was removed to ensure 
+anonymity.  
+ 
+6.3  Future Study and Limitations 
+For future studies Desain can be used as a benchmark against other 
+existing AI-powered design tools. By evaluating the strengths and 
+weaknesses of different tools, researchers can identify gaps and 
+opportunities for improvement in AI integration within the graphic 
+design field.  
+One limitation of this study is the difficulty in recruiting a diverse 
+pool of professional designers. Professional designers often have 
+busy schedules and tight deadlines, making it challenging to secure 
+their participation.  
+ 
+By addressing these future study opportunities and recognizing the 
+limitations of the current research, further advancements can be 
+made in understanding and harnessing the potential of AI in graphic 
+design. 
+ 
+ACKNOWLEDGMENTS 
+ 
+I extend a heartfelt thanks to my supervisor, who has been a 
+constant source of guidance and participants, for their invaluable 
+contributions to this study.  
+ 
+ 
+ 
+Designing with AI 
+Iram Fatima  
+ 
+ 
+11 
+       7 References 
+[1] 
+Adobe Business Blog. [Online]. Available at: 
+https://business.adobe.com/blog/basics/amplifying-human-creativity-
+with-artificial-intelligence [Accessed May 9, 2023]. 
+[2] 
+Agarwal, and R. Bali. 2008. Artificial intelligence in graphic design: A 
+review. International Journal of Computer Applications, 2(2), 29-34. 
+[3] 
+Agrawal, Amit. 2018. "Application of Machine Learning to Computer 
+Graphics." In Proceedings of the IEEE Computer Graphics and 
+Applications, published by the IEEE Computer Society. July/August 
+2018, 93-96. https://doi.org/10.1109/MCG.2018.042731662 
+[4] 
+Arrieta, A. B., Díaz-Rodríguez, N., Del Ser, J., et al. 2020. Explainable 
+Artificial Intelligence (XAI): Concepts, taxonomies, opportunities and 
+challenges toward responsible AI. Information Fusion, 58, 82–115. 
+[5] 
+Braun, Virginia and Clarke, Victoria. 2012. "Thematic analysis." In 
+APA handbook of research methods in psychology, Vol. 2. Research 
+designs: Quantitative, qualitative, neuropsychological, and biological, 
+H. Cooper, P. M. Camic, D. L. Long, A. T. Panter, D. Rindskopf, and K. 
+J. Sher (Eds.). American Psychological Association, 57–71. 
+https://doi.org/10.1037/13620-004. 
+[6] 
+Brennen, Benjamin. Qualitative Research Methods for Media Studies. 
+New York: Routledge, 2022. 
+[7] 
+Bughin, J. 2018. Why AI Isn’t the Death of Jobs. MIT Sloan 
+Management Review. Retrieved May 15, 2023, from 
+https://sloanreview.mit.edu/article/why-ai-isnt-the-death-of-jobs/. 
+[8] 
+Camburn, Brian, He, Yuan, Raviselvam, Sujitha, Luo, Jiayi, & Wood, 
+Kristin. 2020. "Machine learning-based design concept evaluation." 
+Journal of Mechanical Design, Transactions of the ASME, 142(3), 1–15. 
+https://doi.org/10.1115/1.4045126. 
+[9] 
+Canva. [Online]. Available at: https://www.canva.com/about/ [Accessed 
+May 9, 2023]. 
+[10] Chai, Chen, Liao, J., Zou, N., & Sun, L. 2018. "A one-to-many 
+conditional generative adversarial network framework for multiple 
+image-to-image translations." Multimedia Tools and Applications, 
+77(17), 22339–22366. https://doi.org/10.1007/s11042-018-5968-7. 
+[11] Chen, L., Wang, P., Dong, H., Shi, F., Han, J., Guo, Y., & Wu, C. 2019. 
+"An artificial intelligence based data-driven approach for design." 
+Journal of Visual Communication and Image Representation, 61, 10–22. 
+https://doi.org/10.1016/j.jvcir.2019.02.009. 
+[12] d.school. 2021. "Design Thinking Bootleg." [Online]. Available at: 
+https://dschool.stanford.edu/resources/design-thinking-bootleg. 
+[Accessed: May 05, 2023]. 
+[13] Debergh, T., Duflou, J. R., and De Meyer, R. 2019. Artificial 
+intelligence in graphic design: a review and implications for design 
+education. Journal of Visual Arts Practice, 18(2), 133-148. 
+[14] DeFord, K. R., Curtis, C. D., Fitzpatrick, D. A., Hill, S. B., & Johnson, 
+H. A. 2017. Canva: A practical, accessible graphic design tool. 
+Marketing Libraries Journal, 1, 26-29 
+[15] Designer. [Online]. Available at: 
+https://designer.microsoft.com/[Accessed June 3, 2023]. 
+[16] DesignGuru. 2023. Is it possible to use AI to create beautiful designs? 
+Published in Bootcamp, Feb 5, 2023. Available at: 
+https://bootcamp.uxdesign.cc/is-it-possible-to-use-ai-to-create-
+beautiful-designs-dfedd4315022. 
+[17] DesignGuru. (n.d.). "The use of Natural Language Processing (NLP) to 
+generate creative designs." Published in Bootcamp. Retrieved from 
+https://bootcamp.uxdesign.cc/the-use-of-natural-language-
+processing-nlp-to-generate-creative-designs-80280a49c128. 
+[18] Dhar, V. 2016. The future of artificial intelligence. Big Data, 4:1, 5–9. 
+https://doi.org/10.1089/big.2016.29004.vda. 
+[19] Dosovitskiy, Alexey, Springenberg, Jost Tobias, Tatarchenko, Maxim, 
+& Brox, Thomas. 2017. "Learning to Generate Chairs, Tables and Cars 
+with Convolutional Networks." IEEE Transactions on Pattern Analysis 
+and Machine Intelligence, 39(4), 692–705. 
+[20] Dunne, A., and Raby, F. 2013. Speculative Everything: Design, Fiction, 
+and Social Dreaming. The MIT Press. ISBN 978-0-262-01984-2. 
+[21] Elgammal, B. Liu, and M. Elhoseiny. 2017. Can computers be creative? 
+IEEE Transactions on Evolutionary Computation, 21(3), 361-376. 
+[22] Engawi, Duha, Gere, Charlie, and Richards, Daniel. 2022. "The Impact 
+of Artificial Intelligence on Graphic Design: Exploring the Challenges 
+and Possibilities of AI-Driven Autonomous Branding." In With Design: 
+Reinventing Design Modes, 3567-3576. 2022. 
+https://doi.org/10.1007/978-981-19-4472-7_238. 
+[23] Feuerriegel, S., Dolata, M., and Schwabe, G. 2020. Fair AI: Challenges 
+and Opportunities. Bus Inf Syst Eng, 62(4), 379–384. 
+https://doi.org/10.1007/s12599-020-00650-3. 
+[24] Figoli, F., Rampino, L., & Mattioli, F. 2022. AI in design idea 
+development: A workshop on creativity and human-AI collaboration. In 
+D. London, S. Lenzi, P. Hekkert, A. Oak, J. Sádaba, & P. Lloyd (Eds.), 
+DRS2022: Bilbao, 25 June - 3 July, Bilbao, Spain. 
+https://doi.org/10.21606/drs.2022.414. 
+[25] Gehred, A. 2020. Canva. Journal of the Medical Library Association, 
+108, 338-340. https://doi.org/10.5195/jmla.2020.940. 
+[26] Gray, C. 2014. "Better User Research Through Surveys." [Online]. 
+Available at: https://uxmastery.com/better-user-research-through-
+surveys/ [Accessed: May 11, 2023]. 
+[27] Harvey, Linda. 2004-23. "Analytic Quality Glossary." Quality Research 
+International. [Online]. Available at: 
+http://www.qualityresearchinternational.com/glossary/. [Accessed: 
+May 21, 2023]. 
+[28] Hwang, A. H-C. 2022. Too Late to be Creative? AI-Empowered Tools 
+in Creative Processes. CHI EA '22: Extended Abstracts of the 2022 CHI 
+Conference on Human Factors in Computing Systems, April 2022, 
+Article No. 38, 1–9. https://doi-
+org.till.biblextern.sh.se/10.1145/3491101.3503549. 
+[29] Inie, N., Falk, J., and Tanimoto, S. 2023. Designing Participatory AI: 
+Creative Professionals’ Worries and Expectations about Generative AI. 
+In Extended Abstracts of the 2023 CHI Conference on Human Factors 
+in Computing Systems (CHI EA’23), April 23–28, 2023, Hamburg, 
+Germany. ACM, New York, NY, USA, 8 pages. 
+https://doi.org/10.1145/3544549.3585657 
+[30] Isgrò, Francesco. 2020. Artificial Intelligence in Design. Politecnico di 
+Milano. 
+[31] Jo, Y., and Lee, J. 2019. The impact of artificial intelligence on graphic 
+design. Korean Journal of Design Studies, 8(2), 105-115. 
+[32] Khan, Asad. 2020, April. "Machine Learning in Computer Vision." 
+Procedia Computer Science, 167. DOI: 10.1016/j.procs.2020.03.355. 
+[33] Karaata, E. 2018. Usage of artificial intelligence in today's graphic 
+design. Online Journal of Art and Design, 6(4), 183-198. 
+[34] Karras, Tero, Laine, Samuli, & Aila, Timo. 2019. "A style-based 
+generator architecture for generative adversarial networks." Proceedings 
+of the IEEE Computer Society Conference on Computer Vision and 
+Pattern Recognition, 2019-June, 4396–4405. 
+https://doi.org/10.1109/CVPR.2019.00453. 
+ 
+ 
+ 
+12 
+[35] Looka. [Online]. Available at: https://looka.com/ [Accessed May 9, 
+2023]. 
+[36] Lubart, T. 2005. How can computers be partners in the creative process: 
+Classification and commentary on the Special Issue. Int. J. Human-
+Computer Studies, 63, (2005), 365–369. 
+https://doi.org/10.1016/j.ijhcs.2005.03.001. 
+[37] Lukens, J., and Disalvo, C. 2011. Speculative Design and Technological 
+Fluency. International Journal of Learning and Media, 3, 23-40. 
+https://doi.org/10.1162/IJLM_a_00080. 
+[38] Maher, M. L., and Fisher, D. H. 2012. Using AI to Evaluate Creative 
+Designs. In DS 73-1 Proceedings of the 2nd International Conference 
+on Design Creativity Volume 1, 45-54. Retrieved from 
+https://www.designsociety.org/publication/32461/Using+AI+to+Evaluat
+e+Creative+Designs. 
+[39] Marsh, S. 2018. User research: A practical guide to designing better 
+products and services. Kogan Page. 
+[40] Martínez, G., Watson, L., Reviriego, P., Hernández, J. A., Juarez, M., 
+and Sarkar, R. 2023. Combining Generative Artificial Intelligence (AI) 
+and the Internet: Heading towards Evolution or Degradation? (March 
+2023), 1-9. https://doi.org/10.48550/arXiv.2303.01255. 
+[41] Monaro, M., Barakova, E., and Navarin, N. 2022. Editorial Special Issue 
+Interaction With Artificial Intelligence Systems: New Human-Centered 
+Perspectives and Challenges. In IEEE Transactions on Human-Machine 
+Systems, 52(3), 326-331, June 2022. DOI: 
+10.1109/THMS.2022.3172516. 
+[42] Mustafa, B. 2023. The Impact of Artificial Intelligence on the Graphic 
+Design Industry. resmilitaris, 13(3), 243–255. Retrieved May 14, 2023 
+from https://resmilitaris.net/menu-
+script/index.php/resmilitaris/article/view/3333. 
+[43] Neeley, J. P., and Montgomery, E. 2016. Speculative Design: Futures 
+Prototyping for Research and Strategy. In Proceedings of the 
+Ethnographic Praxis in Industry Conference (EPIC '16), p. 567-568. 
+ACM, New York, NY, USA. Available at: https://www.epicpeople.org. 
+[44] Neisser, U., Boodoo, G., Bouchard, T. J., Boykin, A. W., Brody, N., 
+Ceci, S. J., et al. 1996. Intelligence: Knowns and Unknowns. American 
+Psychologist, 77-101. 
+[45] Nicewonger, T. E., and Elam, M. 2019. Designs for Experimentation 
+and Inquiry: Approaching Learning and Knowing in Digital 
+Transformation. 1st Edition. Routledge, London. https://doi-
+org.till.biblextern.sh.se/10.4324/9780429489839. 
+[46] Perera, A. S. 2022. DALL·E 2 vs Midjourney vs Stable Diffusion: 
+Comparison between most popular AI art generation tools. Published in 
+MLearning.ai, Oct 2, 2022. Available at: 
+https://medium.com/mlearning-ai/dall-e-2-vs-midjourney-vs-stable-
+diffusion-8eb9eb7d20be. 
+[47] Rezk, S. M. 2022. The Role of Artificial Intelligence in Graphic Design. 
+In Proceedings of ACM Applied Arts, 1-12. 
+https://doi.org/10.55554/2785-9649.1005. 
+[48] Rivera, J., and MacTavish, T. 2017. Research through provocation: a 
+structured prototyping tool using interaction attributes of time, space, 
+and information. The Design Journal: An International Journal for All 
+Aspects of Design, 20, sup1, S3996-S4008. https://doi-
+org.till.biblextern.sh.se/10.1080/14606925.2017.1352902. 
+[49] Schnaars, S. P. 1987. How to develop and use scenarios. Journal of 
+Marketing Management, 20(1), 105-114. https://doi.org/10.1016/0024-
+6301(87)90038-0. 
+[50] Siapka. 2022. Towards a Feminist Metaethics of AI. AIES '22: 
+Proceedings of the 2022 AAAI/ACM Conference on AI, Ethics, and 
+Society, July 2022, 665–674. https://doi-
+org.till.biblextern.sh.se/10.1145/3514094.3534197. 
+[51] Stappers, P. J., & Giaccardi, E. (2017). Research through Design. In M. 
+Soegaard & R. Friis-Dam (Eds.), The Encyclopedia of Human-
+Computer Interaction (2nd ed., pp. 1-94). The Interaction Design 
+Foundation. 
+[52] Tholander, J., and Jonsson, M. 2023. Design Ideation with AI - 
+Sketching, Thinking and Talking with Generative Machine Learning 
+Models. In Designing Interactive Systems Conference (DIS ’23), July 
+10–14, 2023, Pittsburgh, PA, USA. ACM, New York, NY, USA, 11 
+pages. https://doi.org/10.1145/ 3563657.3596014. 
+[53] Vanhée, L. and Borit, M. 2022. View point: Ethical By Designer - How 
+to Grow Ethical Designers of Artificial Intelligence. Journal of Artificial 
+Intelligence Research, 73, 619-631. https://doi.org/10.1613/jair.1.13135. 
+[54] Verheijden, M. P.,and Funk, M. 2023. Collaborative Diffusion: 
+Boosting Designerly Co-Creation with Generative AI. In Extended 
+Abstracts of the 2023 CHI Conference on Human Factors in Computing 
+Systems (CHI EA '23), April 2023, Hamburg, Germany. ACM, New 
+York, NY, USA, 2 pages. DOI: 
+https://doi.org/10.1145/3544549.3585680. 
+[55] Wang, Q., and Li, X. 2020. Artificial intelligence and its applications in 
+graphic design: A review of recent developments and future 
+perspectives. Journal of Intelligent & Fuzzy Systems, 38(3), 4291-4304. 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 

@@ -1,0 +1,564 @@
+Participatory Conceptual Design of Accessible Digital 
+Musical Instruments using Generative AI 
+ 
+ 
+Hugh Aynsley 
+Creative Technologies Lab  
+ University of the West of England   
+Coldharbour Lane 
+Bristol, UK BS16 1QY 
+Hugh2.Aynsley@live.uwe.ac.uk   
+ 
+ 
+Tom Mitchell 
+Creative Technologies Lab  
+University of the West of England  
+Coldharbour Lane 
+Bristol, UK BS16 1QY 
+tom.mitchell@uwe.ac.uk 
+ 
+ 
+Dave Meckin 
+The Royal College of Art  
+ Kensington Gore, South 
+Kensington 
+London SW7 2EU 
+dave.meckin@rca.ac.uk 
+ 
+ 
+ABSTRACT 
+This paper explores the potential of AI text-to-image diffusion models 
+(e.g. DALLE-2 and Midjourney) to support the early phase design of 
+new digital musical instruments in collaboration with Disabled 
+musicians. The paper presents initial findings from two speculative 
+design workshops attended by Disabled participants who are affiliated 
+with the London-based inclusive arts organisation Joy of Sound. The 
+workshops included activities that enabled participants to co-create 
+speculative images of new instruments, drawing on their own 
+contributions. These included the overall appearance of the instrument, 
+constituent materials and other design characteristics. The paper 
+discusses the generated images and examines how diffusion models 
+can be a useful tool to support the conceptual co-design phase of 
+bespoke accessible instruments. The project findings indicate that 
+diffusion models can be useful as a facilitatory tool for idea generation 
+ in the initial stages of instrument design. 
+Author Keywords 
+ ADMI, Accessibility, Participatory Design, AI. 
+CCS Concepts 
+• Human-centered computing → Accessibility→ Accessibility 
+design and evaluation methods; • Human-centered computing→ 
+Interaction design → Interaction design process and methods → 
+Participatory design; 
+ 
+1. INTRODUCTION 
+Creating visual imagery is a critical step in the prototype stage of new 
+technologies as they can give us an insight into the designer’s intension 
+and help to situate ourselves within unknown worlds [28]. There are 
+many ways to involve individual end-users in conceptual design of 
+objects and tools [24] including methods specifically intended to 
+support the participation of Disabled people [6]. This paper contributes 
+a novel approach using AI text-to-image generators to catalyse the 
+participatory co-design process. Participatory and collaborative design 
+methods typically acknowledge that people who are affected by a 
+design decision, event or product should have an opportunity to 
+influence it [1]. This has been previously explored in for Accessible 
+Digital Musical Instrument (ADMI) design by Ward who suggests 
+that the users and those who work closely with them will best know 
+their needs in terms of interacting with an instrument [29]. 
+  The design and development of bespoke ADMIs is often a long 
+process which can use a lot of resources [9]. Due to the bespoke nature 
+of the instruments, designers may go through several revisions before 
+reaching a playable and suitable interface for the end user [16]. 
+Although there are advancements in rapid prototyping technologies 
+such as 3D printing and CNC milling, the design of bespoke 
+instruments remains a process only available to the minority of 
+Disabled musicians that will benefit from bespoke interfaces [10].  
+  The approach presented in this paper invites end-users to shape 
+instrument design from the outset in line with their own stylistic and 
+artistic preferences. In order to explore the potential of new accessible 
+ideation methods for traditional design processes, two workshops were 
+organised with Disabled participants from the inclusive arts 
+organisation Joy of Sound [17]. The workshops explore new ways to 
+co-design musical instruments using text-to-image generative AI, 
+focusing on the use of rapid visualisation tools to encourage 
+participation and interpret and explore participants' instructions. The 
+main objective of this work is to investigate the potential of AI image 
+to text generators and diffusion-based image generation systems in the 
+design of ADMIs for disabled people. 
+  The remainder of the paper sets out the context of ADMIs and 
+generative AI before introducing the key motivation for this work. The 
+workshops are discussed in Section 4 which encouraged workshop 
+participants to develop a speculative design of new musical instrument 
+designs using DALLE-2. The workshop outcomes are shown in 
+Figures 1 and 2 are discussed in initial findings of the paper. The paper 
+closes with concluding remarks and proposals for future development. 
+ 
+2. BACKGROUND 
+The strive to make music and creative arts activities accessible to the 
+greater population has resulted in a wide range of novel approaches 
+and technologies [9]. ADMIs is a term which is gaining popularity, 
+especially within the NIME community as enabling technological 
+tools, used for musical purposes [18] which act as an interface to active 
+participation in the arts. ADMI technologies enable people who cannot 
+play traditional musical instruments to engage in musical activities, 
+without external sources assisting in the music process [11]. 
+  Several systematic literature reviews look at the impact of 
+participatory arts for wellbeing and music and has identified music 
+making as having a positive effect on stress, mental health stigma, 
+social isolation, social capital, autonomy, self-esteem, identity, and a 
+sense of achievement [8]. Bespoke musical instruments have the 
+potential to provide Disabled people with access to music making [14]. 
+O’Donnell’s review shows that music making can provide many 
+benefits for health and wellbeing for Disabled people. By removing 
+barriers to enable full participation in music making, ADMIs can be 
+an interface to social activities and access to the arts for the greater 
+population.  
+  The Inclusive Design methodology emerged in the mid 1990s to 
+challenge misguided but deep-seated assumptions about ageing, 
+disability, and social equality [5]. Inclusive design is aligned with the 
+social model of disability which states that we live in a world 
+increasingly shaped by human intervention where design can enable 
+or disable people [4]. By acknowledging the social model of disability 
+and inclusive design practice, this research seeks to create a 
+collaborative process in which Disabled people are active stakeholders 
+who drive the design process.  
+  Speculative Design is a methodology used within many design 
+practices to envision a future where one is to use design as a means of 
+speculating how things could be [7]. Speculative design has shown 
+great potential as critical approach to dealing with social issues [20] as 
+well as generating new ideas around specific design enquires [7]. 
+Within the field of HCI, speculative design is also a way for making, 
+building, and understanding the nature of our emerging interactions of 
+futures with technology [28]. This paper incorporates several 
+speculative design methods which will be discussed within the 
+workshop plan in Section 4. 
+  Speculative design and AI has been used previously [22] and the 
+collaboration between human-AI interactions and has brought up 
+discussion on the design and social adoption of technologies [25]. 
+Generative AI is a field of AI that creates new content such as images, 
+text, and music based on input data or prompts [30]. It utilises machine 
+learning algorithms and deep neural networks to learn patterns and 
+features in a data set to produce novel and unseen data [23]. This paper 
+explores workshops utilizing DALL-E 2, a generative AI program that 
+generates images from text prompts [3]. 
+  The ethical use of AI image-to-text generators is currently a highly 
+discussed topic. Several articles which question whether text to image 
+generators are taking artist’s jobs [13], replacing programmers [12] as 
+well as highlighting the racial and sexist bias [25] within the resulting 
+images. Whilst acknowledging the problems associated with large 
+data sets and image creation, this paper seeks to focus on the use of 
+these technologies to benefit the underrepresented communities within 
+tech innovation and the arts [14].  The research centres on the people 
+who stand to be adversely affected by the technology with a broad 
+view on the possible ways that technology can benefit minority 
+communities [20]. 
+  Although there are several ADMIs success stories [9], their 
+development can be resource intensive. This can be due to creating 
+new physical prototypes along the design journey, each using new 
+materials and adapting form for each individual user. Bespoke or 
+modular ADMIs customised for individual users may offer more 
+potential creative output. 
+ 
+3. MOTIVATION 
+This collaborative study seeks to trial new image generation 
+algorithms in order to rapidly generate visual media during the 
+conceptual design phase of novel ADMIs. The motivation for trailing 
+this method stems from the authors direct experience designing 
+ADMIs with disabled musicians in circumstances where it was not 
+possible to visualise the user’s preferences within the initial design 
+workshop or meeting. The initial motivation was to question if this 
+technique would engage people in designing instruments and enable a 
+wide range of people access to ideation which is often not accessible 
+for people with disabilities [6]. 
+ 
+4. WORKSHOPS 
+Two workshops were organised with Joy of Sound  (JOS) volunteers 
+and the participants were associates or regular attendees to their events. 
+JOS is an inclusive arts organization who practice and promote social 
+inclusion through music and creative arts in weekly year-round 
+participatory music sessions and regular combined arts projects [17]. 
+70% of JOS participants identify as ethnic minorities and over 30% 
+are wheelchair users [21]. JOS uses a variety of accessible acoustic 
+musical instruments which include some bespoke instruments co-
+designed with participants and associated instrument makers [21]. The 
+first author has volunteered and worked for JOS as a facilitator and 
+instrument maker for several years and have a good working 
+relationship with the core team and volunteers.  
+ 
+The purpose of the pilot workshop was to primarily understand: 
+• 
+The participants’ preferred movements and gestures to play 
+instruments 
+• 
+The participants’ preferred instrument designs and 
+aesthetics 
+• 
+Which topics and preferences do participants want in their 
+designs  
+• 
+The utility of DALL-E 2 in ideation design processes 
+• 
+Identifying actions to advance inclusive participatory 
+techniques and gather expert input from various 
+communities. 
+4.1 Workshop Overview 
+The initial pilot study (Workshop 1) was conducted at a residential care 
+home located in London. Participants were invited to take part in the 
+workshop via a poster which advertised in the care home. The 
+participants included six individuals, four of whom were male and two 
+were female, with multiple learning difficulties and residing full-time 
+at the care home. During the study, the participants were accompanied 
+by five care and support workers, including three female and two male 
+adults who do not identify as disabled. The workshop used a large 
+LED monitor to clearly display the images and workshop materials. 
+DALL-E 2 was displayed on the monitor so that all the participants 
+could see the process of image creation.  
+The second workshop (Workshop 2) was run before a regular JOS 
+workshop in London and it was organised directly with participants 
+and their families. The participants included three individuals, all of 
+whom were male and learning difficulties who regularly attend JOS 
+workshops. One participant (participant 2) was non-verbal and 
+communicated through the iPad app ‘Proloquo2GO AAC’. Both 
+workshops were guided by the same workshop plan and followed the 
+same methods. 
+ 
+4.2 Workshop Description 
+The workshop began by using speculative design techniques to 
+introduce a playful environment and draw the participants’ attention to 
+an imaginary future [7]. The focus was on a factional machine called 
+"Noma" that can create any musical instrument from any material, 
+with customizable playing methods. The goal was to inspire 
+participants to think creatively, unconstrained by practical and 
+technical limitations.  
+  Workshop participants were shown example instruments which 
+were made by “Noma”, and which were discussed by the group. 
+Participants were invited to discuss what the instruments looked like, 
+what they resembled and how they might be played. The prompt 
+words which were used to create the images were then revealed to the 
+group to give an understanding to the participants of how the system 
+worked. An example of this is shown in Figure 1. 
+ 
+ 
+Figure 1 – Workshop introductory image  
+ 
+Workshop participants were then invited to make their own 
+instruments one by one. The workshop gave the opportunity for every 
+participant to design a new instrument and the workshop facilitators 
+incorporated any answer that was given. The aim was to create an 
+inclusive and accepting space with no ‘wrong’ answers and 
+participants were invited to contribute any suggestions into the design 
+of their instruments.  
+  The workshops provided an opportunity for participants to design 
+visual representations of personalised instruments for their own use. 
+The facilitators encouraged attendees to contribute based on their own 
+interests and lead the direction of the instrument's style. Examples of 
+questions asked by the facilitators included:  
+• "If you could have an instrument that looks like anything, what 
+would you like it to look like?" 
+• "What size would it be?" 
+• "Which colour would it be?" 
+• "What would it sound like?" 
+•  "Can you show me which gesture or movement you would use to 
+play the instrument?" 
+                      
+The workshop leader facilitated the process with participants, who had 
+widely varying contributions. The process of instrument creation 
+varied based on the interests and access requirements of the individual. 
+Through the workshops, it became evident that  DALL-E 2 can be a 
+useful tool in quickly interpreting and visualising people's ideas, 
+encouraging imagination, and fostering open contributions in a 
+collaborative space as discussed in detail in Section 6.  
+4.3 Workshop Outcomes 
+The primary goal of the workshop was for every participant to design 
+a visual prototype of their own instrument. The final images of the 
+participant’s instruments are included in Figure 2. The image prompts 
+developed by the participants to create these images were: 
+• 
+“a big blue instrument that look like a wolve from thriller” 
+• 
+“a pink musical instrument with a microphone that looks 
+like a violin” 
+• 
+“a red musical instrument that is made from chicken 
+nuggets that you play with your elbows” 
+• 
+“a big blue musical instrument made from forks and 
+footballs MK Dons” 
+• 
+“a big light blue anything that makes a dit dit dit sound ” 
+• 
+“a kangaroo musical instrument in cartoon style” 
+• 
+“a icicle xylophone ” 
+• 
+“a eye of the tiger instrument ” 
+• 
+“a yellow musical instrument made from snooker balls in 
+the shape of a newton cradle” 
+• 
+“a triangle shaped white guitar that you play with your 
+hands ” 
+• 
+“a musical instrument made from park clothes and holes” 
+ 
+5. INITIAL FINDINGS 
+ The findings of this workshop are preliminary, and a comprehensive 
+thematic analysis will be conducted on the data collected at a later date.  
+ 
+ Preliminary Findings: 
+• 
+Personal preferences and hobbies were significant factors 
+in the design of the instruments as revealed in workshop 
+transcripts. 
+• 
+The most common topic was preference for specific 
+colours, with 7 out of 11 instruments stating a colour 
+preference. 
+• 
+The names of pre-existing instrument designs were the 
+basis for some instruments, yet the participants wanted to 
+re-design or adapt these pre-existing instruments to fit their 
+personal preferences. 
+Several participants expressed a desire to see their instruments 
+generated in the workshop brought to real life. This is demonstrated in 
+a conversation between facilitator (F1) and participant (2) below.  
+F1: “Are you happy with the instruments that you made today?” 
+P2: “Happy, yeah” 
+F1: “Would you like it if the instrument was brought to real life?” 
+P2: “Real life, yeah” 
+F1: “Is there anything that you don’t like about the instruments 
+you made today?” 
+P2: “I don’t like playing guitar or drums, I don’t like it” 
+F1: “Would you prefer to play this?” *points to their instrument* 
+P2: “Yes”  
+F1: “Why?” 
+P2: “Cos I like it.” 
+This conversation states that the participant likes the instrument that 
+they created, and it suggests that it provides something different to pre-
+existing instruments like a guitar or drums. On the other hand, other 
+participants wanted their instruments to resemble pre-existing 
+instruments which is demonstrated in a conversation with another 
+participant:  
+F1 – “…what do you want your instrument to be made from?” 
+P7: – “What shape is the guitar? Is it a triangle?” 
+Figure 2 - A collection of instruments co-designed by Joy 
+of Sound participants and volunteers 
+F1 – “Do you want it to be triangle shape?” 
+P7: – “yeah!”  
+This shows that participant (7) wanted to use a pre-existing instrument 
+design as the basis for their instrument but clearly stated that the shape 
+is an important factor for their instrument design.  
+ 
+6. DICUSSION 
+The initial findings of this study could be of value to other 
+designers and researchers in the field. There were several 
+instances during the workshops where the participants directed 
+the design inquiry, as evident in the example above. This 
+approach has the potential to democratise the design process by 
+allowing for wider participation in the creative aspects of 
+instrument design. This is in line with the literature on inclusive 
+speculative design, as discussed earlier by Larsen [22], which 
+highlights the challenges of designing for inclusiveness. The 
+interaction between the facilitator and the participant was 
+flexible and adaptive, allowing the instrument to accurately 
+reflect the participant's intent whilst developing relationships 
+between the facilitator and participants. This approach allowed 
+for a co-creative design process, where the participant was at the 
+forefront of shaping the outcome whilst in collaboration with the 
+facilitator.  
+   
+This approach also helps designers and participants to 
+share a common understanding of their ideas in a short time 
+frame, ensuring that the direction of travel aligns with the 
+expectations of both stakeholders. This is a key benefit of the 
+technology as it presents an adaptable outcome which can be 
+edited and discussed [28]. The resulting images can be used in 
+prototyping new instruments and the participant’s ideas can be 
+clearly reflected in the next stages of the bespoke design 
+processes.  
+There are also benefits for the organisations in this workshop 
+method as it provides a low cost and quick way to develop ideas 
+with participants with minimal workshop materials. Large LED 
+screens were available on site to use for both workshops 
+described in this paper and the facilitator had to provide a laptop 
+alongside the workshop plan. This results in a very adaptable and 
+affordable workshop which can be run in a variety of venues and 
+has multiple benefits for participants, facilitators and the 
+organisations involved.  
+   
+However, there are also limitations to this technique that 
+must be considered. The findings suggest that several of the 
+participants would like a physical prototype of their instrument 
+designs and the gap between speculation and the actual design 
+outcomes could be substantial. Additionally, the expectations of 
+designers and participants could be higher than what can be 
+produced in an allotted time frame. This will be tested within 
+future iterations of the workshops and the feasibility of the 
+designs will discussed and edited with participants alongside the 
+speculative methods.  
+   
+Finally, we must consider the ethical implications of 
+using AI-generated images in the design process, including 
+issues of bias [25]. As such, it is important to carefully consider 
+the limitations and ethical implications of this technique. 
+ 
+7. ACKNOWLEDGEMENTS  
+Our thanks to all the workshop participants for all their contributions 
+and guidance in the process and to the Joy of Sound volunteers for their 
+ help in the organising and co-facilitating of the workshops.  
+8. FUTURE WORK 
+A subsequent study will be conducted to materialise the 
+prototypes generated from the images produced in the workshop 
+methods. This will provide a physical representation of the 
+designs, enabling a more comprehensive evaluation of the 
+viability and functionality of the proposed designs. The physical 
+prototypes will serve as tangible representations of the results 
+and provide valuable insights into the potential applications of 
+ the design concepts. 
+9. CONCLUSION  
+This paper has explored how AI text-to-image generation can be 
+a useful tool for generating ideas within group design 
+workshops. DALLE-2 was a useful tool due to several attributes 
+including the low entry point, the speed of the image generation 
+and adaptability of the technology.  
+  The workshop demonstrated that AI image generation can be 
+a good starting point for co-design workshops to generate 
+conversations around instrument design, promote movement 
+activities and develop relationships between designer and co-
+designer.  
+Charity 
+The workshop also the charity to offer a new activity to their 
+participants,    
+Despite the absence of physical objects, participants 
+mimicked the way they would play their instruments, indicating 
+which part of their bodies they would use and the range of 
+movement required to play an instrument. The data collected 
+about participants' range of movement can be a crucial attribute 
+for designing ADMIs and learning about participants' hobbies 
+and desires fostered open contributions in a collaborative space. 
+DALLE-2 can be a powerful tool for ideation in the early stages 
+of design, offering many benefits for instrument designers to 
+gain an understanding of their users.  The project has explored 
+ideation with disabled participants and it is crucial that the first 
+steps will go on to be refined, developed, and contextualised into 
+more formal design prototypes. 
+ 
+10. ETHICAL STANDARDS 
+Full ethical approval was received from University of the West 
+of England Research Ethics Committee on the 05/01/2023 for 
+the duration of this project. 
+Ethics Review Application Form: FET-2122-92. 
+11. REFERENCES 
+ 
+[1] S. Bødker, and K. Grønbæk. 1991. Cooperative prototyping: 
+Users and designers in mutual activity. International Journal of 
+Man-Machine Studies 34, 3 (1991), 453–478.  
+[2] S. Bødker. Computer applications as mediators of design and 
+use. DAIMI Report Series 28, 542, 1999. 
+[3] Cho, J., Lu, J., Schwen, D., Hajishirzi, H., Kembhavi, A. 
+(2020). “X-LXMERT: Paint, caption, and answer questions 
+with multi-modal transformers”. EMNLP, 2020. 
+[4] L. Cynthia Bennett, K. Shinohara, B. Blaser, A. Davidson, and 
+K. Steele. Using a design workshop to explore accessible 
+ideation. Proceedings of the 18th International ACM 
+SIGACCESS Conference on Computers and Accessibility, 
+2016.  
+[5] P. John Clarkson and R. Coleman. 2015. History of inclusive 
+design in the UK. Applied Ergonomics 46 (2015), 235–247. 
+2015. 
+[6] P. John Clarkson, R. Coleman, S. Keates, and C. Lebbon. 
+Inclusive design design for the whole population, London: 
+Springer London. 2003  
+[7] A. Dunne, and F. Raby. Speculative everything design, fiction, 
+and Social Dreaming, Cambridge, Massachusetts: MIT Press. 
+2014 
+[8] S. O’Donnell, M. Lohan, J. Oliffe, D. Grant, and K. Galway. 
+The acceptability, effectiveness and gender responsiveness of 
+participatory arts interventions in promoting mental health and 
+wellbeing: A systematic review. Arts & Health 14, 2 (2021), 
+186–203. 2014 
+[9] E. Frid. Accessible digital musical instruments—a review 
+of musical interfaces in inclusive music practice. 
+Multimodal Technologies and Interaction 4, 3 (2020), 34.  
+[10] E. Frid, and A. Ilsar. Reimagining (Accessible) Digital 
+Musical Instruments: A Survey on Electronic Music-
+Making Tools. NIME 2021, 2021. 
+[11] M. Gooding. 2022. Deepmind's alphacode: Is ai ready to 
+replace programmers? (February 2022). Retrieved 
+January 30, 2023 from 
+https://techmonitor.ai/technology/ai-and-
+automation/deepmind-alphacode-ai-software-developer  
+[12] K. Graham-Knight and G. Tzanetakis. Adaptive Music 
+Technology using the Kinect. Proceedings of the 8th ACM 
+International Conference on PErvasive Technologies 
+Related to Assistive Environments (2015).  
+[13] J. Hawksworth. 2018. Is artificial intelligence really 
+replacing jobs? here's the truth. (2018). Retrieved January 
+30, 2023 from 
+https://www.weforum.org/agenda/2018/09/is-artificial-
+intelligence-replacing-jobs-truth/ 
+[14] J. Hammel, S. Magasi, A. Heinemann, G. Whiteneck, J. 
+Bogner, and E. Rodriguez. (2008). What does participation 
+mean? An insider perspective from people with 
+disabilities. Disability and Rehabilitation, 30(19), 1445–
+1460. 
+[15] S. Jang, and K. Nam, K.-Y. (2022). Utilization of 
+speculative design for designing human-ai interactions. 
+Archives of Design Research, 35(2), 57–71.  
+[16] Q. Jarvis-Holland, C. Cortez, N. Gamill, and F. Botello. 
+Expanding access to music technology -- Rapid 
+prototyping accessible instrument solutions for musicians 
+with intellectual disabilities. Proceedings of the 
+International Conference on New Interfaces for Musical 
+Expression, (NIME 2020) (Online, 28 June - 1 July 2022, 
+2020) 
+[17] Joy of Sound. (2022). About JOS, Joy of Sound. Retrieved 
+January 30, 2023 from https://Joyofsound.org/ 
+[18] A. Lucas, M. Ortiz, and F. Schroeder. (2020). The 
+longevity of bespoke, accessible music technology: A case 
+for community. Proceedings of the International 
+Conference on New Interfaces for Musical Expression, 
+(NIME 2020) (21-25 July, 2020) 243-248. 
+[19] [6] Longden, W. E. (2019). Inclusive participatory design 
+of bespoke music instruments and auxiliary access 
+equipment, as emancipatory arts interventions advocating 
+for equality and wellbeing. Doctoral thesis, London 
+Metropolitan University. 
+[20] B. Marenko. FutureCrafting: A Speculative Method for an 
+Imaginative AI. In AAAI Spring Symposium Series, 2018.  
+[21] A. Karpathy. 2020. Generative models. (September 2020). 
+Retrieved January 30, 2023 from 
+https://openai.com/blog/generative-models/  
+[22] H. S. Larsen, and P. Hedvall, 2012. Ideation and ability. 
+Proceedings of the 12th Participatory Design Conference: 
+Exploratory Papers, Workshop Descriptions, Industry 
+Cases - Volume 2 (2012). 2012. 
+[23] Z. Lin, B. Villari, and B. Sevaldson. Towards speculative 
+services for an inclusive society: Understanding the 
+relationships between systemic-, service- and Speculative 
+Design. 2022. 
+[24] M. Steen. 2013. Co-Design as a process of joint inquiry 
+and Imagination. Design Issues 29, 2 (2013), 16–28. 2013. 
+[25] N. Tilmes. Disability, fairness, and algorithmic bias in AI 
+recruitment. Ethics and Information Technology 24, 2 
+(2022). 2022. 
+[26] OpenAI. 2022. Dall·E: Creating images from text. (June 
+2022). Retrieved January 30, 2023 from 
+https://openai.com/blog/dall-e/ 
+[27] S. Nouri. 2022. Council post: The role of bias in Artificial 
+Intelligence. (November 2022). Retrieved January 30, 
+2023 from 
+https://www.forbes.com/sites/forbestechcouncil/2021/02/0
+4/the-role-of-bias-in-artificial-
+intelligence/?sh=555891d579d8 
+[28] M. Sturdee, and J. Lindley. Sketching & Drawing as 
+Future Inquiry in HCI. In HTTF ’19: ACM Symposium, 
+(Nottingham, UK November 19–20, 2018) ACM, New 
+York, NY, USA, 2018. 
+[29] A.Ward, L. Woodbury, and T. Davis. Design 
+Considerations for Instruments for Users with Complex 
+Needs in SEN Settings. 2017. 
+[30] J. Xu, H. Li, and S. Zhou. An overview of deep generative 
+models. IETE Technical Review 32, 2 (2014), 131–139. 
+2014.
+ 

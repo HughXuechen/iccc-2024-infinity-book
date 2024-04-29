@@ -1,0 +1,1270 @@
+1 
+Speculation: Forms and Functions 
+ 
+ 
+Dirk S. Hovorka 
+University of Sydney 
+dirk.hovorka@sydney.edu.au 
+ 
+Benjamin Mueller 
+University of Bremen 
+muellerb@uni-bremen.de 
+ 
+ 
+Abstract 
+Speculation is fundamental to scientific research. 
+Both as an activity and an object, speculations take 
+many forms and function in multiple ways. While 
+speculation that obtains evidentiary support is well 
+established as a source of theoretical contribution, 
+other forms of speculation open pathways for 
+transformation and critique. Digital geographies are 
+proposed as an alternative form of speculation that 
+enables researchers to foray into inhabited futures 
+enabling critique of present research activities that are 
+implicated in possible futures. Quality criteria are 
+offered to enable legitimization of speculative 
+approaches in IS research.  
+Keywords: 
+Speculation, 
+Imagination, 
+Evidence; 
+Futures, Alternate worlds 
+1. Introduction 
+"Bold ideas, unjustified anticipations, and speculative 
+thought, are our only means for interpreting nature: 
+our only organ, our only instrument, for grasping her” 
+(Popper, 1959, p. 280) 
+“I think that only daring speculation can lead us 
+further, and not accumulation of facts” 
+(Albert Einstein, in a letter to Michele Besso in 1952) 
+“At the root of the problem lies […] a peculiarly 
+modern severing of imaginary worlds from the world 
+in real life” 
+(Ingold, 2021, p. xii) 
+It is well understood that knowledge does not come 
+pre-packaged as discrete, self-justifying objects but 
+must be wrestled into existence. There is a large 
+literature and robust debate regarding the role of 
+empirical observation, hypothesis generation and 
+testing, and theory building in both quantitative and 
+qualitative realms. Less discussed is the critical role in 
+scientific progress played by proposition, conjecture, 
+supposition, imagination, hypothetical scenarios, and 
+other forms of speculative thought. While fine 
+distinctions among these terms can be made, in 
+aggregate, these activities provide “the language and 
+conceptualization by which we produce contingent 
+knowledge, ideas, abstractions, risks […] all of which 
+radically shape our individual and collective futures” 
+(Rogers, 2021, p. 3). What these terms have in common 
+is a willingness to seek knowledge in a contingent 
+manner that is speculative and relies upon imagination. 
+While many scientists might not see that epistemic 
+progress must include speculation and imagination, in 
+Popper’s view, speculative thought and bold ideas are 
+a necessary means of grasping nature. From this view, 
+construction of a hypothesis is a speculative account 
+because it does not (yet) entrain evidence. The goal of 
+the researcher is to create strong tests that will refute 
+(falsify) the speculative account and in the absence of 
+such falsification the speculation is held to be true. The 
+justification for speculation is grounded in the 
+researcher’s ability to discover evidence. The quote 
+from Einstein reinforces the idea that speculation is 
+critical to scientific progress. It is through speculation 
+or guessing that new knowledge is formed prior to the 
+facts that are then mustered to support the speculation. 
+In contrast, Ingold’s account presents imaginary 
+worlds as a foundational aspect of living and one that 
+modern science has sought to expunge. From this view 
+imagination “opens up paths in and through the world, 
+rather than fixing endpoints in advance” (Ingold, 2021, 
+p. 36). These three positions reveal that speculation is 
+firmly embedded in scientific thinking and may take 
+many forms and may perform multiple functions. 
+To explore these forms and functions, we assess a 
+broad range of philosophical and scientific literature 
+for the multiple ways speculative accounts appear in 
+science. The empirical emphasis in most sciences, 
+including IS, conceals underlying forms of speculation. 
+For example, every proposition is an educated guess, a 
+speculation for which the researcher believes 
+acceptable evidence can be found. In another form, 
+metaphors (e.g., conceiving of atoms as “miniature 
+solar systems;" Haack, 2019), the generative capacity 
+in problem solving (Schön, 1993), and the use of 
+symbolic metaphor in information system development 
+(Hirschheim & Newman, 1991) are examples of 
+speculations that are not thought to be true but provide 
+a basis for cognition and shared vocabularies (Lakoff 
+& Johnson, 1980). Similarly, myths as “a dramatic 
+narrative of imagined events” (Trice & Beyer, 1984, p. 
+655) are suggested to be a source of creative theorizing 
+(Hassan et al., 2022). These contrasting examples 
+illustrate speculative epistemologies that can be 
+distinguished based on the need (or not) for 
+confirmatory evidence and differentiated by function to 
+reveal the world or to provoke discussion of contingent 
+possibilities and choice.  
+To clarify the meanings and functions of 
+speculation, we first identify a variety of accepted 
+forms of contingent knowledge that are speculative in 
+the sense that they are not (yet) considered to be true. 
+They may be based on the expectation that supporting 
+evidence 
+can 
+be 
+obtained 
+(e.g., 
+hypotheses, 
+Proceedings of the 57th Hawaii International Conference on System Sciences | 2024
+Page 6448
+URI: https://hdl.handle.net/10125/107159
+978-0-9981331-7-1
+(CC BY-NC-ND 4.0)
+2 
+propositions) or they may be accepted, as in in the case 
+of metaphors, but they are not literally considered as 
+truth. We then examine the different functions of 
+speculation that support fruitful research activity and 
+navigating epistemic distance beyond the immediate 
+and observable. Finally, we expand on the potential 
+roles of speculative approaches for identifying 
+alternative futures (Dunne & Raby, 2013; Frank, 2017; 
+Hovorka & Peter, 2021b) as a site for inquiry and 
+present action. Before concluding our discussion, we 
+provide the first steps of a foundational debate toward 
+establishing quality criteria for a scholarly use of 
+speculation. 
+2. Conceptualizing Speculation  
+There is an increasing interest in the role of 
+speculation in the sciences that extends the robust 
+discussion in the philosophy of science regarding the 
+functions 
+of 
+speculation 
+in 
+establishing 
+and 
+maintaining values, epistemic rules, and ontology 
+(Friedman & Hendry, 2019; Ingold, 2021; Lennon, 
+2015; Weick, 2006). A sufficient set of examples of the 
+importance of imagination in the progress of science 
+(see for example: Currie, 2021; Ingold, 2021; Kuhn, 
+1962) shows that the debate is not whether speculation 
+exists in the scholarly discourse, but where it can be 
+productive and how it can be evaluated.  
+Unsurprisingly the roles of imagination in science 
+are addressed from different perspectives with limited 
+consensus regarding what imagination is (Holton, 
+1998; Murphy, 2022). For example, in comparing 
+imagination of experimental procedures, “there are 
+indeed many different uses to which imagination can 
+be put, but when we constrain our imaginings to fit the 
+facts of the world as we know them, we are using an 
+epistemic procedure that is much more akin to 
+scientific experimentation than it is to mere flights of 
+fancy. Although our imaginative experimentation will 
+not be fool proof, neither is scientific experimentation. 
+But in both cases, when we proceed cautiously, the 
+beliefs that we arrive at will usually be justified” (Kind, 
+2018, p. 244). From another perspective, imagination 
+is considered to be the cognitive activity of forming 
+‘images in the mind’ (for a review see: Murphy, 2022). 
+Within this perspective of ‘mental images’ or ‘seeing 
+in the mind’s eye’ there is debate on whether 
+imagination is ‘perception-like’ (Kind, 2018) or a 
+function of the ‘unreal,’ as a process of “deforming 
+images provided by perception; it is above all the 
+faculty of liberating us from first […] representations 
+in perception" (Kaplan, 1972 p 3). Even more radically, 
+Ingold (2021) argues that imagination is the process of 
+“flying ahead of things as to disclose the present, in 
+every moment of its emergence, as the future’s past” 
+(p. 36). 
+ 
+1 Oxford Dictionary, 2017 
+2 https://dictionary.cambridge.org/ 
+Although distinct, the variety of views regarding 
+imagination—from images on the mind, to distorted 
+perceptual images, to making sense of the world by 
+opening “paths in and through the world” (Ingold, 2021 
+p 3)—the literature notes there are numerous real 
+situations where justification for progress in science is 
+grounded in imagination, “that is, in which an 
+imagining can justify our belief in a contingent claim 
+about the world” (Kind, 2018). 
+We now turn attention on a specific type of 
+imagination, speculation, that is well established in 
+scientific studies. The dictionary definition of 
+speculation provides a starting point:  
+a) the forming of a theory or conjecture without firm 
+evidence.1 
+b) the act of guessing possible answers to a question 
+without having enough information to be certain.2 
+It is observed that each of these definitions tie the 
+quality of speculation to the sufficiency of evidence or 
+information certainty. Our goal is to further expand our 
+understanding of speculation and illustrate other 
+functions for scientific speculation. 
+The rationale for this argument lies in the 
+constraints imposed by the IS field’s current research 
+apparatus that limit the phenomena available for 
+disciplinary scrutiny. There are phenomena, for which 
+empirical observation is either difficult or impossible 
+to obtain (Sullivan et al., 2023). These include but are 
+not limited to emerging phenomena, criminal digital 
+activity, highly sensitive or fragile human conditions, 
+and notably, our relationships with the futures 
+implicated in our research.  
+Moreover, our apparatus “[…] tend[s] to organize 
+phenomena bewildering in their layered complexity 
+into clean overviews. They make smooth schemes that 
+are more or less linear, with a demonstrative or an 
+argumentative logic in which each event follows the 
+one that came before. What may originally have been 
+surprising is explained and is therefore no longer 
+surprising or disturbing…” (Mol & Law, 2002). While 
+such attempts at cleaner representations might make 
+originally complex phenomena easier to grasp, 
+simplification sometimes comes at the cost of 
+misrepresentation. For example, Poole et al. (2000) 
+argue that more complex process-based phenomena 
+often get misrepresented as simple, linear processes 
+even though the underlying phenomenon does not 
+progress in such a way.  
+The result of this narrowing is that the messiness of 
+the world is obscured. For example, power relations, 
+images of humanity, spatial distribution, and the 
+epistemic rules of research itself are assumed to be self-
+evident and stable. In IS, it is frequently the technology 
+or socio-technical system that is changed under “all 
+else being equal” conditions. Although a small number 
+of factors or conditions may be altered as a counter-
+ 
+ 
+Page 6449
+3 
+factual (Rubinstein & Good, 2013), these studies are 
+few in number and limited in scope in that they only 
+change a limited set of factors. One alternative to this 
+reductionism is to acknowledge the forms of 
+imagination and speculation in research and to pursue 
+the functions these approaches provide for research 
+progress. 
+3. Forms of Speculation 
+Scientific research has an uneasy relationship with 
+speculation in part because it is haunted by early views 
+of science as rational, value free, and objective. When 
+faced with unknown or emerging phenomena with 
+limited or no data, imagination and speculation of 
+possible explanations or understanding is a necessary 
+process in advancing new concepts or theories. While 
+the literature on speculation is limited, forms of 
+speculation are deeply embedded in scientific practice. 
+When unknown phenomenon are addressed, Popper 
+(1959) states: “The actual procedure of science is to 
+operate with conjectures: to jump to conclusions—
+often after one single observation” (p. 181). During 
+periods of scientific instability (e.g., scientific crises), 
+“the scientist in crisis will constantly try to generate 
+speculative theories that, if successful, may disclose 
+the road to a new paradigm, and if unsuccessful, can be 
+surrendered with relative ease” (Kuhn, 1962, p. 87). 
+Despite these philosophical admonitions, many areas 
+of science employ a deductive approach that seeks 
+epistemic security and demands that propositions, 
+conjectures, hypothesis, and design principles be 
+grounded in conservative, well-supported arguments 
+from 
+past 
+scientific—often 
+empirical—findings 
+(Currie, 2021). This truth-relevant speculation appears 
+in many forms in Information Systems research 
+(Achinstein, 2018; Currie, 2021; Swedberg, 2021). 
+Most common are hypotheses, propositions, and 
+theories. For example Poon and Wagner (2001) make 
+“educated guesses” and speculate regarding meta-
+success factors in development of executive IS. 
+Whether derived deductively (from prior literature) or 
+inductively (from data), the acceptance of these forms 
+of speculation are justified by the assumption that the 
+truth or falsity of the hypothesis, prediction, or future 
+design outcomes can be validated through the 
+collection of suitable evidence. These truth-relevant 
+forms of speculation are a common and well-
+understood feature in social science. Here the question 
+of what constitutes evidence that the speculation is true 
+becomes crucial (Achinstein, 2001, 2018). In-depth 
+discussions of the multiple conceptualizations of 
+evidence are however outside the scope of this work 
+(see for example: Achinstein, 2001, 2018; Chandler et 
+al., 1994). 
+But the demand for epistemic security may well 
+prove to be problematic when facing new phenomena 
+in IS (e.g., generative AI, surveillance capitalism at 
+scale, digital ethics, technology in environmental 
+health) when both problems and solutions have not yet 
+been tamed. In these instances imagination of 
+possibilities and speculation “are important in 
+conceiving new theoretical ideas, in exploring the 
+explanatory resources of those ideas, and in working 
+out how to bring theoretical ideas into contact with 
+empirical constraints” (Levy & Godfrey-Smith, 2019, 
+p. 2). Many layers of scientific arguments are needed 
+to cross epistemic distance (Carolan, 2004) from what 
+is immediately observable to claims regarding 
+unobservable phenomena such as human sentiment, 
+digital objects, or predications of the futures in which 
+our designs, implementations, and processes are 
+implicated but have not yet eventuated. 
+In these instances, truth-irrelevant speculation 
+(Achinstein, 2018) can provides a means of reaching 
+into uncertain and contingent socio-technical worlds 
+both present and future. For example, metaphor—long 
+argued as a foundational aspect of cognition (Lakoff & 
+Johnson, 1980)—is also a substantive part of science 
+(Brown, 2003; Hassan et al., 2022; Hirschheim & 
+Newman, 1991; Leclercq-Vandelannoitte et al., 2014; 
+Schultze & Orlikowski, 2001) and problem solving 
+(Schön, 1993). From this view, metaphors are not mere 
+linguistic embellishments but “are foundations for 
+thought processes and conceptual understandings that 
+function to map meaning from one knowledge and/or 
+perceptual domain to another” (Taylor & Dewsbury, 
+2018, p. 1). With the understanding that “metaphors 
+ask us to imagine the world in a new way” (Cohen, 
+1998, p. 1) we begin to observe that science does not 
+progress through the mere pursuit of facts. The 
+comparison here is not to claim that metaphor is 
+speculative but rather to establish that imagination 
+plays a foundational role in science. No one thinks that 
+an atom is literally a set of ball-like spheres with other 
+spheres in rapid orbit. Visual and linguistic metaphors 
+serve as “fictions useful for explaining, predicting, and 
+unifying certain observable phenomena” (Achinstein, 
+2018 p 8). The metaphor allows people to grasp a 
+shared understanding to work with the concept of an 
+atom, rather than the literally accurate form of an atom. 
+The IS field is rife with metaphors including: the 
+information 
+superhighway, 
+cyberspace, 
+artificial 
+intelligence, and organizations as machines or 
+organisms. These metaphors become reified in use and 
+although common, often pass unnoticed as the 
+imaginative fictions they are. 
+As another example, Maxwell’s imaginary fluid 
+hypothesis was a fiction that represented electricity as 
+a fluid moving through tubes. It was not considered to 
+be true but instead, “its purpose is to provide a fluid 
+analogue of the electromagnetic field that will help 
+others to understand known electrical and magnetic 
+laws by employing an analogy between these laws and 
+ones governing an imaginary fluid” (Achinstein, 2018 
+p 7). Here we can observe that speculating some 
+similarity between electricity and fluids enabled 
+researchers to articulate the problem in a manner that 
+enabled progress. 
+Page 6450
+4 
+In a similar vein, social imaginaries (Jasanoff & 
+Kim, 2015; Taylor, 2004) provide speculative accounts 
+in intersubjective social realms. Fictional imaginaries 
+have long been a prominent feature in the literature 
+(Asimov, 2004; Huxley, 2004; Shelley, 2018, 1818) 
+and as a means to grasp and critique social 
+organization. In the sciences, Marcus (1995) focuses 
+on the roles of scientists in developing “futures and 
+future possibilities but the context is on the imagination 
+in the scientific workplace, and the imagination’s aim 
+and achievements are tied to forms of scientific 
+production” (Jasanoff & Kim, 2015, p. 10). A broader 
+approach, that places a stronger emphasis on a positive, 
+normative stance toward what is desirable, addresses 
+the persistence of multiple aspects of the world that can 
+and should fit and maintain stability over long periods 
+(Jasanoff & Kim, 2015; Taylor, 2004). The underlying 
+ethos is that imaginaries encourage us to refuse to take 
+“any aspect of the world for granted as natural or given, 
+and hence foreclosed to investigation, even those that 
+seem to hold still and do nothing; but instead to look 
+around at all the compass points from which forces 
+originate to make up reality as we see it.” (Jasanoff & 
+Kim, 2015, p. 16). These socio-technical imaginaries 
+are of a different form in that they open-up worlds for 
+consideration rather than propositional statements 
+about specific causal relationships or processes of the 
+world. Moreover, the worldmaking aspects of 
+imaginaries expand the epistemic reach of science 
+beyond the disciplinary conditioning of established 
+methods, theories, and paradigmatic boundaries of 
+science (Kuhn, 1962). While such stabilization of 
+accepted methods and disciplinary bounding is 
+necessary for progress in science (Kuhn, 1963), 
+paradigms also maintain certain choices and exclusions 
+and determine what can be seen and what passes 
+unremarked (Jasanoff & Kim, 2015). Thus, the form is 
+a theoretical framework that brings together both 
+technologically and culturally produced perceptions of 
+the world (e.g., socio-technical; Sarker et al., 2019), 
+and “offers an entry point into the means by which is 
+and ought remain fitted together while our awareness 
+of the world and what to make of it both move” 
+(Jasanoff & Kim, 2015, p. 14). Speculative imaginaries 
+highlight the coproduction of worlds by taking the 
+admonition “nothing comes without its world” 
+seriously. The recognition is that we do not “encounter 
+single individuals, the meeting produces a world, 
+changes the color of things, it diffracts more than it 
+reflects […]. Knowing is not about prediction and 
+control but about remaining ‘attentive to the unknown 
+knocking at our door’ (Deleuze 1989, 193)” (de La 
+Bellacasa, 2011, p. 91). 
+Design is an inherently speculative activity that 
+may be either truth-relevant or truth-irrelevant. In the 
+former, paradigms such as Design Science Research 
+(DSR) seek to create knowledge through the design, 
+construction, and testing of artifacts. Claims about the 
+artifacts are validated through the collection of 
+evidence from a variety of tests (Larsen et al., 2020; 
+Thakurta et al., 2017). Other forms, including 
+speculative design (Drazin, 2012; Dunne & Raby, 
+2013), critical design (Dunne, 2008; Malpass, 2017), 
+and speculative geographies (Hovorka & Peter, 2021a; 
+Peter et al., 2020; Ward, 2011), use design activities 
+and artifacts as a means of entering into future design 
+spaces, rather than creating future designs. These 
+activities are not intended to predict or project what the 
+technology design will become, but rather to gather 
+impressions that may enable better design or to bring a 
+critical view to current design assumptions. In addition, 
+the DSR approach in IS credits Simon (1969) as 
+providing the rationale for learning by creating an 
+artifactual solution to a class of problems by focusing 
+on one class of solutions from within the broader 
+solution space. This has the effect of providing a 
+solution to one specific problem while narrowing the 
+possibilities for future action. Less often articulated are 
+his views on social planning as “designing without 
+final goals”. While paradoxical in comparison to the 
+common perception in DSR as narrowing the design 
+space to an artifactual problem solution, from this 
+perspective on design, the “function is to motivate 
+activity which in turn create new goals […]” (ibid, p. 
+196) and a proliferation of niches and variety. Simon 
+places his argument in the context of concerns with 
+matters remote in time and space in which goals and 
+opportunities evolve. Thus, sociotechnical planning 
+(e.g., computational inter-connections of the world; 
+city planning) require thinking of design and progress 
+with a significant lengthening of our time perspective. 
+In addressing social planning where society is the client 
+being designed with, evolving, not fixed, systems are 
+desirable and the essential task “is simply to keep open 
+the options for the future or perhaps even broaden them 
+a bit by creating new variety and new niches” (ibid, p. 
+191). For example “toward the end of the twentieth 
+century, the pioneers in ubicomp research tried to 
+anticipate the impacts and applications of their 
+technologies decades into the future” (Dourish & Bell, 
+2011, p. 3). While the anticipations of these researchers 
+were accurate in some respects, there were many 
+aspects of the world that were not considered, in part, 
+because they had not yet happened. In this way Dourish 
+and Bell liken aspects of research to “the complex and 
+somewhat mystical process of inquiring into future 
+events […] looking to uncover what lies hidden from 
+immediate sight (ibid, p. 2). 
+This discussion reveals multiple forms of 
+speculation as providing opportunities to expand the 
+epistemic apparatus in different domains in IS research. 
+The two broad forms, distinguished by their 
+relationship to truth claims, each have a productive 
+impact in progressing our knowledge of current and of 
+future phenomenon. We observe that the initial and 
+common definition of speculation are overly reliant on 
+the possibility of evidentiary grounding. This 
+limitation provides the basis of additional distinctions 
+within speculation that emphasizes more imaginative 
+forms which serve different functions.  
+Page 6451
+5 
+4. Functions of Speculation 
+A function-first account of speculation is a starting 
+point for developing quality criteria for activities and 
+outputs of this form of inquiry (Currie, 2021). Rather 
+than characterising speculation in terms of its 
+relationship to evidentiary support, a focus on 
+functions makes visible how imagination is critical in 
+scientific research and opens pathways toward 
+broadening the apparatus through which knowledge is 
+created.  
+ 
+Truth-relevant 
+speculation: 
+Hypotheses, 
+propositions, conjecture, and theories serve primarily 
+epistemic functions (Currie, 2021). These can be 
+briefly listed as: 
+1. Explicating: a speculation makes a theory concrete 
+and 
+amenable 
+to 
+empirical 
+tests. 
+By 
+operationalizing the speculation in the form of a 
+hypothesis, the theory is made intelligible in the 
+context of the assumed background knowledge. 
+2. Scaffolding: through the articulation of hypotheses 
+or propositions, speculation provides a platform—
+a place to stand—in the structuring of empirical 
+work (e.g., experimental design; field data 
+collection; validation of claims regarding a 
+designed artifact).  
+3. Theory Building: speculation that is expressed as 
+propositions and hypotheses provides formalization 
+of theory which can, in turn, lead to deduction of 
+additional hypotheses and testing. 
+4. Linking: speculations can be used in connecting 
+disparate bodies of knowledge. For example inter-
+or transdisciplinary developments such as linkages 
+between chemistry and biology (e.g., Darden & 
+Maull, 1977) have been used to address 
+phenomenon that neither discipline could address 
+on its own.  
+Taken together, we can observe that it is not the 
+evidentiary support that is important to the epistemic 
+functions but rather how these forms improve 
+downstream science by generating (and testing) new 
+ideas, opening new research areas, and bringing 
+disparate bodies of knowledge together.  
+ 
+Truth-irrelevant speculation: Speculations that are 
+not intended to approximate truth can also be 
+functionally beneficial. They provide additional 
+benefits in: 
+5. Staging: Forms such as metaphor “function as 
+invitations from speaker to audience, writer to 
+reader, to explore similarities between two things, 
+phenomena, etc.” (Haack, 2019, p. 2064) and as 
+such provide common language upon which 
+research can be performed, communicated, and 
+evaluated. For instance, user and system metaphors 
+have been found to influence success in information 
+system development (Hirschheim & Newman, 
+1991; Kendall & Kendall, 1993). Maxwell’s 
+imaginary fluid provided a starting point for 
+research to develop the mathematics of electrical 
+and magnetic laws. Evidence for such an imaginary 
+fluid was irrelevant because the truth of the 
+speculation is irrelevant (Achinstein, 2018). 
+6. Critiquing present action: Social imaginaries and 
+digital 
+geographies 
+envision 
+alternative 
+technocultural futures (e.g., Hovorka & Peter, 
+2021a; Jasanoff & Kim, 2015; Mager & 
+Katzenbach, 2021). In the design space, alternative 
+designs (Dunne & Raby, 2013; Malpass, 2017; 
+Rosner, 2018) can open lines of inquiry, scope the 
+design space, and provoke debate on current 
+practice. By making alternative futures legible, they 
+serve to ground new concepts and vocabularies, 
+posit new types of relationships (Frank, 2017, 2021; 
+Hovorka & Peter, 2021b), and provide a framework 
+for understanding and analysing the underlying 
+present-day assumptions, beliefs, and values that 
+shape our sociotechnical society. By uncovering 
+and questioning our assumptions we can better 
+understand the roles of current practices and 
+theorizations in the making of worlds (Schultze, 
+2017). 
+As a final note, all forms of speculation rely on 
+extra-epistemic factors. In addition to the ‘on-stage’ 
+support provided through explicit evidence, there are 
+numerous ‘off-stage’ practices and background 
+knowledge that must be taken for granted (Achinstein, 
+2018; Currie, 2021). These include experimental 
+designs, instruments, methodologies, data-collection 
+and analyses, as well as the institutional features of 
+publication outlets and review practices (Currie, 2021). 
+Thus, the emphasis on truth-relevant evidentiary 
+support—that is, what counts as evidence and its 
+production—reveals that “most scientific results are 
+speculative to some extent” (Currie, 2021, p. 603). This 
+suggests that emphasis on the productive functional 
+accounts of speculation, rather than the reliance on 
+evidentiary support is warranted. 
+To take the socio-technical nexus of IS seriously 
+(Sarker et al., 2019), we need to recognise that our 
+research apparatus and claims about “proper” method 
+have a historical context. That context sets the 
+assumption that “social science tends to work on the 
+assumption that the world is properly to be understood 
+as a set of fairly specific, determinate, and more or less 
+identifiable processes” (Law, 2004, p. 5). The desire to 
+simplify the world, to reduce it to fundamental and 
+graspable simplicity is a characteristic of much of 
+social science that carries numerous implications. For 
+example, taming the complexities that exist in the 
+world-at-large may work well in a laboratory or small 
+case study. But when problems at large scale are 
+considered, the larger set of ongoing influences and 
+relationships do not fit the schemes produced at smaller 
+research scales. (Mol & Law, 2002). Rather than 
+holding the technical as something unique and 
+separate, we need a research apparatus that is capable 
+of recognizing the technical as produced in relation to, 
+Page 6452
+6 
+and along with social, political, environmental, 
+economic, and cultural arrangements. This suggests a 
+need for loosening our grasp on epistemic certainty and 
+for creating a research apparatus that makes worlds 
+visible as “a generative producer of realities” (Law, 
+2004, p. 7).  
+5. Futures: a Site of Speculative Inquiry 
+Reviewing the scientific functions of speculation 
+above leads us to observe that our sixth function—
+critiquing present action—differs from the others in 
+that it seeks to bridge a far greater epistemic distance 
+than the others. In this, it serves a very particular 
+function that we suggest is worthy of expanded 
+development here: that of bringing into view 
+alternative futures on their own terms, not merely as 
+projections of the present/past into the future. This is 
+an endeavour that intends to critically foreground 
+present day commitments, assumptions, and activities 
+by looking backwards in time from a speculative 
+future. It is a form of speculation that provides the 
+function of navigating the epistemic distance between 
+the immediately observable present and as-of-yet 
+unrealized enactments of future worlds and of 
+providing critique of present-day research activity. 
+This approach overcomes the limitations imposed by 
+current language in conceptualizing new phenomenon 
+and 
+recognizes 
+the 
+contingencies 
+of 
+future 
+technocultural enactments—the future could be 
+otherwise (Frank, 2017).  
+We begin our development with the assertion that 
+the future is a contested space. It is viewed through 
+multiple lenses for multiple purposes. Organizations 
+want to manage their place in a largely unknown 
+economic landscape of competition and customers. 
+Technologists want to project technological influence 
+and change what is possible into what is preferable. 
+Policy makers and nation states have wide ranging 
+interests from global-scale climate change and local 
+impacts to economies of conflict to social conditions of 
+a populace. There is a long history of futures studies 
+that reveal current interest in accessing the future is 
+grounded in a wide variety of approaches (Markus & 
+Mentzer, 2014; Slaughter, 2021).  
+A challenge from within the IS domain that 
+provides illustration of this point is the conceptual 
+frontier of “intelligent”, semi-autonomous systems 
+working with humans. As the system itself “learns” 
+from its interactions and has its own agency, it would 
+not appear to be a case of a human worker merely using 
+a system. But we currently lack the empirical basis for 
+conceptualizing the human-machine relation (e.g., as a 
+partnership, delegation, friend, colleague, co-author) 
+(Baird & Maruping, 2021; Demetis & Lee, 2018; 
+Grudin, 2017). Here, alternative worlds in which these 
+possible relationships are explicated would enable 
+discussion of when and where useful conceptual 
+distinctions are made as this phenomena becomes 
+prevalent (Frank, 2017; Hovorka & Peter, 2021b). In a 
+similar fashion, alternative worlds would allow for 
+critique of fashionable trends such as the addition of 
+the label digital to traditional aspects of IS research—
+such as, for example, “digital transformation” rather 
+than just “IS-enabled organizational transformation.” 
+Increasingly, arguments arise that question whether 
+marking phenomena as digital is a distinction that will 
+cease to make sense as more of the world is underlain 
+with digital foundations. For example, Mueller et al. 
+(2021) argue that many phenomena heralded as digital 
+today will soon become mundane and everyday, such 
+that any study of, for example, corporate digital 
+responsibility as distinct from any other form of 
+responsibility might no longer make sense (Mueller, 
+2022). 
+The plurality and uncertainty of post-digital futures 
+is highlighted by Parmiggiani et al. (2020) who suggest 
+that many such futures are likely not mere 
+extrapolations or projection based on today. We cannot 
+take the trajectories of the past decades for granted, 
+especially when post-digital futures will not be merely 
+technological landscapes, but will be lived worlds with 
+social, political, cultural, and environmental facets too. 
+In light of challenges like this, the function of 
+speculation is to enable critique because “we are 
+concerned with the future because securing a 
+satisfactory future may require actions in the present” 
+(Simon, 1969, p. 184). For instance, and in contrast to 
+projections or predictions of futures that are focused on 
+specific technological enactments, an alternative 
+epistemic approach such as speculative geographies 
+enable forays into futures as a site of critical inquiry 
+(Hovorka & Peter, 2021a). A key characteristic of 
+speculative geographies is that they speculate inhabited 
+worlds (Hovorka & Peter, 2021a). In many existing 
+types of futures-studies (e.g., Markus & Mentzer, 
+2014), the technological landscape is projected to 
+change but social aspects are ceteris paribus. The 
+futures implied in these academic narratives tend to 
+focus on technological or industry aspects and do not 
+disclose the lived-experience of human or more-than-
+human inhabitants of those futures. The result is often 
+a paradoxical illusion of infinite technological 
+expansion while simultaneously narrowing cultural 
+visions of futures (Appadurai, 2019). For example, 
+power relations and structures of employment, what it 
+is to be human working with artificial intelligence 
+machines, environmental conditions or what counts as 
+knowledge are assumed as self-evident and are thus not 
+problematic. Yet our interest in technological change is 
+not for its own sake but the betterment of human and 
+environmental conditions. What is needed here are new 
+approaches that make visible the technocultural 
+elements—how our present research will bequeath 
+politics, economies, cultures, social relations, and 
+environmental concerns onto our descendants. 
+There are two specific characteristics of such forays 
+that have not been previously articulated but which are 
+important if they seek to meaningfully critique present 
+action; that is, serve their epistemic function. First, 
+Page 6453
+7 
+forays into richly inhabited future(s) position 
+imagination as organized work within research 
+practices (Jasanoff & Kim, 2015) rather than as an 
+opposition to ‘scientific approaches’, unserious or 
+unproductive (Currie, 2021). In this way imagination, 
+expectations, and imaginaries are revealed as 
+legitimate approaches to connecting technology with 
+the production of social order, distributions of power, 
+environmental concerns, and a shared sense of ethics 
+(Jasanoff & Kim, 2015). Second, by refuting the 
+narrative that phenomena are simple and that epistemic 
+simplicity and certainty is a virtue (Achinstein, 2018; 
+Mol & Law, 2002), speculating alternative futures 
+expands phenomena to scale, includes spatial 
+differentiation (Haj-bolouri et al., forthcoming), and 
+provides an approach to overcoming epistemic 
+distance (Carolan, 2004). By foregrounding the messy 
+complexity of inhabited worlds, we make visible the 
+contingent commitments of present action. The 
+dichotomous prioritization of the technological over 
+the social, and the digital as a substitute for the real 
+obscures the tightly integrated coproduction of 
+present/future 
+worlds. 
+These 
+forays 
+focus 
+on 
+developing the categories with which to think worlds. 
+6. Quality Criteria for Speculation  
+Although the term speculation infrequently appears 
+in the scientific literature, we have demonstrated that 
+imaginative speculations are common in the sciences. 
+Moving forward, we propose that establishing an 
+approach to assessing the quality of speculations is 
+critical if we are to add it to the epistemic apparatus in 
+IS research.  
+A first step to quality assessment is attending to its 
+epistemic function. As noted, speculation may be 
+mobilized to develop new research studies, expand 
+conceptual machinery (e.g., theories, new conceptual 
+language, alternative worlds) or hypotheses, or to 
+provide linages among existing bodies of knowledge. 
+Speculation can explicate theories and provide 
+possibility proofs. These are very different epistemic 
+situations that require crafting the speculation to meet 
+the intended situation. A speculation regarding a new 
+theory would take a form different from the explication 
+of an existing theory. A speculative digital geography 
+of futures addresses a very different epistemic distance 
+from a speculative explication of specific hypotheses 
+of an existing phenomenon. Each of these examples 
+could be evaluated as fruitful or productive of new 
+thinking that advances research but would do so on a 
+very different basis. 
+Secondly, the specific domain of research will 
+guide quality evaluations. For example in a design 
+context where a new phenomenon is being created, a 
+design speculation can be assessed in relation to what 
+it reveals about the taken-for-granted assumptions of 
+both the designer and of the person participating in the 
+design process (Dunne & Raby, 2013; Rosner, 2018). 
+Setting industrial design (e.g., commercially oriented 
+and produced with a market orientation) as the contrast 
+class, a knowledge-creation design orientation “acts as 
+a form of critique and argument […] established 
+through the design of objects and the communication 
+of an objects narratives of use” (Malpass, 2017, p. 1). 
+There are many ways in which speculation can be 
+legitimately criticized. For example, hypotheses may 
+be presented in the wrong functional context (e.g., if it 
+is incorrectly inferred that it is truth-relevant and thus 
+subjected to evidentiary support when it should be 
+understood on the basis of a productive linking of 
+research domains). To strengthen the concept of 
+productive speculation will require that the IS field 
+relinquishes its grip on empiricism and is willing to 
+acknowledge informed, critical engagement. A deeper 
+understanding of the forms and functions of 
+speculation will reduce the tendency to confuse 
+scientific speculation with statements of fact (Currie, 
+2021). 
+We have established that speculation is a key aspect 
+of knowledge creation, and we acknowledge that 
+relinquishing the reassuring assumptions of empiricism 
+will not be easy. A key ingredient in this process of 
+establishing the legitimacy of speculation in our 
+scholarly debate will be a discourse on establishing 
+quality criteria. As a start to this discourse, we propose 
+three quality criteria for scientific speculation: 
+1. Identify epistemic function: for differing epistemic 
+situations, speculations may be supported by 
+evidence. In other situations, they expand research 
+studies, enable new conceptual machinery, or link 
+disparate bodies of knowledge. Accordingly, 
+researchers employing speculation should seek to 
+identify the specific epistemic function of their 
+speculation. Our earlier discussion provides a first 
+list of relevant functions and can thus help to 
+explicate a speculation’s specific purpose it must be 
+evaluated against. 
+2. Establish fit in domain of research: suitability of 
+the speculation for the intended purpose in the 
+research domain. These include but are not limited 
+to, for example, assessing a truth-claim regarding a 
+theory or hypothesis or foregrounding taken-for-
+granted assumptions in design. Similar to the first 
+quality criterion we suggest above, this second 
+criterion serves as a form of discursive signpost that 
+helps readers and reviewers to appropriately 
+interpret the speculation vis-à-vis the current 
+discourse. 
+3. Provide critique: the ability of speculations to 
+foreground the genealogy of knowledge, power 
+structures, images of humanity, spatial and 
+temporal distribution, and the epistemic rules of 
+research itself enable surfacing the assumptions 
+underlying the way knowledge is produced, 
+maintained and distributed. This third criterion help 
+to highlight the value of a speculation a researcher 
+engages in, specifically in contrast to other, more 
+conventional methods of inquiry. This criterion 
+should also be seen as an encouragement to 
+Page 6454
+8 
+critically engage not only with the subject matter of 
+the speculation, but of the research apparatus itself. 
+That is, speculating researchers should reflect on 
+why speculation as a tool is needed and why more 
+conventional approaches cannot yield the insights 
+their present study contributes. 
+Clearly, the three criteria we propose here are but 
+an initial impulse for the discussion how speculation is 
+evaluated as a step towards greater recognition and 
+inclusion as an addition to the research apparatus in IS 
+research. The development of a full set of such criteria 
+and their gradual refinement, however, are beyond the 
+scope of our work here for two reasons. First, 
+especially the refinement of these criteria is an activity 
+for which we, as a discipline, will need a richer set of 
+contributions that rely on speculation to assess their 
+quality. Second, quality of studies is not an absolute, 
+objective fact easily measured with some instrument, 
+but must be seen as a function of a discourse process in 
+science (see Hovorka in Bichler et al., 2016). 
+In the long run, we envision that further engaging 
+with the forms and function of speculation in our 
+research will help the IS community to better grasp 
+what Weick (1989) described as “disciplined 
+imagination.” Specifically, a debate on quality criteria 
+for speculation as a form of such disciplined 
+imagination will play a crucial role—similar to what 
+Lee (1991) has done for qualitative research or what 
+Hevner et al. (2004) have done for design science 
+research—in our discipline’s progress toward a richer 
+research apparatus. 
+7. Conclusions  
+In this work, we have argued that speculation is a 
+fundamental activity and productive object in scientific 
+research. The IS field’s focus on empirical research, on 
+theory development, and on theory testing obscures 
+and diminishes the forms and functions imagination 
+and speculation have in research. By identifying these 
+forms, we seek to legitimize and strengthen 
+imagination and speculation as a fruitful activity and as 
+an object of scrutiny in IS research. 
+This is not to suggest that speculation is always 
+needed, or productive. But multiple forms of 
+speculation provide valuable functions to a greater 
+degree than derogatory accounts of speculation 
+acknowledge. In offering a broader conception of 
+speculation than is commonly recognized, we seek to 
+expand the epistemic apparatus available in IS. In its 
+common forms, researchers speculate prior to seeking 
+evidentiary support. But the functions of speculation 
+are not limited to the relation of speculation to 
+evidence. In the case of design, speculation can enable 
+transformation through the refinement of designed 
+artifacts and systems. Through the use of alternative 
+worlds, such as digital geographies, researchers can 
+return inhabitants of futures to the concerns our present 
+day activities should have for them. In doing so we can 
+develop new relationships to futures and create new 
+epistemic and axiological ways for futures to be 
+accepted, produced, or performed. In the future, by 
+legitimizing speculation and imagination in IS 
+research, we seek to open a pathway to new forms of 
+speculative research apparatuses. Specifically, we offer 
+imaginative alternative futures not as a prediction or 
+articulation 
+of 
+desirable 
+futures 
+but 
+as 
+acknowledgement of the messiness and multiplicity of 
+lived worlds and as an approach for critically 
+appraising current research activities. Just as future 
+worlds are contingent, our current research activities, 
+discursive spaces, conceptualizations, and theories are 
+also contingent. Our current research apparatus and 
+research foci could be otherwise. In this way, the future 
+is disclosed as “a profoundly vital component of the 
+present (however defined) or, more fundamentally, a 
+principle of present action” (Slaughter, 1998, p. 372). 
+As a foray into alternative futures, speculative 
+approaches such as digital geographies begin a process 
+of laying out spaces that function as critique as we walk 
+through them. These possible critiques reveal a 
+multiplicity in the way futures are ordered, the logics 
+from which they emerge and the material and 
+discursive practices through which the future is 
+intimately connected to present action. 
+8. References 
+Achinstein, P. (2001). The book of evidence. Oxford 
+University Press.  
+Achinstein, P. (2018). Speculation: Within and about 
+Science. Oxford University Press.  
+Appadurai, A. (2019). The Scarcity of Social Futures 
+in the Digital Era. In Futures.  
+Asimov, I. (2004). I, Robot [1950]. Bantam Dell, New 
+York. 
+Baird, A., & Maruping, L. M. (2021). The next 
+Generation of Research on IS Use: a Theoretical 
+Framework of Delegation to and from Agentic IS 
+Artifacts. MIS Quarterly, 45(1), 315-341. 
+Bichler, M., Frank, U., Avison, D., Malaurent, J., 
+Fettke, P., Hovorka, D., Krämer, J., Schnurr, D., 
+Mueller, B., Suhl, L., & Thalheim, B. (2016). 
+Theories in Business and Information Systems 
+Engineering. Business & Information Systems 
+Engineering, 58(4), 291-319. 
+Brown, T. L. (2003). Making Truth: Metaphor In 
+Science. University of Chicago Press.  
+Carolan, M. S. (2004). Ontological politics: mapping a 
+complex environmental problem. Environmental 
+values, 497-522. 
+Chandler, J. K., Davidson, A. I., & Harootunian, H. D. 
+(1994). Questions of evidence: Proof, practice, and 
+persuasion across the disciplines. 
+Cohen, D. H. (1998). If, what-if, and so-what: Mixing 
+metaphors, conditionals, and philosophy. The 
+Paideia Archive: Twentieth World Congress of 
+Philosophy,  
+Currie, A. (2021). Science & speculation. Erkenntnis, 
+1-23. 
+Page 6455
+9 
+Darden, L., & Maull, N. (1977). Interfield Theories. 
+Philosophy of science, 44, 43-64. 
+de La Bellacasa, M. P. (2011). Matters of care in 
+technoscience: Assembling neglected things. Social 
+studies of science, 41(1), 85-106. 
+Demetis, D., & Lee, A. S. (2018). When humans using 
+the IT artifact becomes IT using the human artifact. 
+Journal of the Association for Information Systems, 
+19(10), 5. 
+Dourish, P., & Bell, G. (2011). Divining a digital 
+future: Mess and mythology in ubiquitous 
+computing. Mit Press.  
+Drazin, A. (2012). Design anthropology: Working on, 
+with 
+and 
+for 
+digital 
+technologies. 
+Digital 
+Anthropology, 245-265. 
+Dunne, A. (2008). Hertzian tales: Electronic products, 
+aesthetic experience, and critical design Royal 
+College of Art].  
+Dunne, A., & Raby, F. (2013). Speculative everything: 
+design, fiction, and social dreaming. MIT Press.  
+Frank, U. (2017). Theories in the light of contingency 
+and change: possible future worlds and well-
+grounded hope as a supplement to truth. 
+Proceedings of the 50th Hawaii International 
+Conference on System Sciences,  
+Frank, U. (2021). Language, Change, and Possible 
+Worlds. Crisis and Critique: Philosophical Analysis 
+and Current Events: Proceedings of the 42nd 
+International Ludwig Wittgenstein Symposium,  
+Friedman, B., & Hendry, D. G. (2019). Value sensitive 
+design: 
+Shaping 
+technology 
+with 
+moral 
+imagination. Mit Press.  
+Grudin, J. (2017). From tool to partner: The evolution 
+of human-computer interaction. Synthesis Lectures 
+on Human-Centered Interaction, 10(1), i-183. 
+Haack, S. (2019). The art of scientific metaphors. 
+Revista portuguesa de filosofia, 75(Fasc. 4), 2049-
+2066. 
+Haj-bolouri, 
+A., 
+Conboy, 
+K., 
+& 
+Gregor, 
+S. 
+(forthcoming). An Encompassing Framework for 
+Conceptualizing Space in Information Systems: 
+Philosophical Perspectives, Themes, and Concepts. 
+Journal of the Association of Information Systems. 
+Hassan, N. R., Lowry, P. B., & Mathiassen, L. (2022). 
+Useful 
+Products 
+in 
+Information 
+Systems 
+Theorizing: A Discursive Formation Perspective. 
+Journal of the Association for Information Systems, 
+23(2), 418-446. 
+Hevner, A. R., March, S. T., Park, J., & Ram, S. (2004). 
+Design Science in Information Systems Research. 
+MIS Quarterly, 28(1), 75-105. 
+Hirschheim, R., & Newman, M. (1991). Symbolism 
+and Information Systems Development: Myth, 
+Metaphor 
+and 
+Magic. 
+Information 
+Systems 
+Research, 2(1), 29-62. 
+Holton, G. J. (1998). The scientific imagination: with a 
+new introduction. Harvard University Press.  
+Hovorka, D. S., & Peter, S. (2021a). Research 
+Perspectives: From Other Worlds: Speculative 
+Engagement Through Digital Geographies. Journal 
+of the Association for Information Systems, 22(6), 
+1736-1752. 
+Hovorka, D. S., & Peter, S. (2021b). Speculatively 
+Engaging Future(s): Four Theses. Management 
+Information Systems Quarterly, 45(1), 461-466. 
+Huxley, A. (2004). A Brave New World: Revisted. 
+Vintage Books.  
+Ingold, T. (2021). Imagining for Real: Essays on 
+Creation, 
+Attention 
+and 
+Correspondence. 
+Routledge.  
+Jasanoff, S., & Kim, S. H. (2015). Dreamscapes of 
+modernity: Sociotechnical imaginaries and the 
+fabrication of power. University of Chicago Press.  
+Kaplan, E. K. (1972). Gaston Bachelard's philosophy 
+of imagination: An introduction. Philosophy and 
+phenomenological research, 33(1), 1-24. 
+Kendall, J. E., & Kendall, K. E. (1993). Metaphors and 
+methodologies: 
+Living 
+beyond 
+the 
+systems 
+machine. MIS quarterly, 149-171. 
+Kind, A. (Ed.). (2018). How imagination gives rise to 
+knowledge. Oxford University Press.  
+Kuhn, T. S. (1962). The Structure of Scientific 
+Revolutions (3rd ed.). University of Chicago Press.  
+Kuhn, T. S. (1963). The function of dogma in scientific 
+research. In A. C. Crombie (Ed.), Scientific Change 
+Historical Studies in the Intellectual, Social and 
+Technical Conditions for Scientific Discovery and 
+Technical Invention, From Antiquity to the Present: 
+Symposium on the History of Science, University of 
+Oxford, 9-15 July 1961.". Heineman Educational 
+Books.  
+Lakoff, G., & Johnson, M. (1980). Metaphors We Live 
+By. University of Chicago Press.  
+Larsen, K. R., Lukyanenko, R., Mueller, R. M., Storey, 
+V. C., VanderMeer, D., Parsons, J., & Hovorka, D. 
+S. (2020). Validity in design science research. 
+International Conference on Design Science 
+Research in Information Systems and Technology,  
+Law, J. (2004). After method: Mess in social science 
+research. Routledge.  
+Leclercq-Vandelannoitte, A., Isaac, H., & Kalika, M. 
+(2014). 
+Mobile 
+information 
+systems 
+and 
+organisational control: beyond the panopticon 
+metaphor? European Journal of Information 
+Systems, 23(5), 543-557. 
+Lee, A. S. (1991). INTEGRATING POSITIVIST AND 
+INTERPRETIVE 
+APPROACHES 
+TO 
+ORGANIZATIONAL RESEARCH. Organization 
+Science, 2(4), 342-365. 
+Lennon, K. (2015). Imagination and the Imaginary. 
+Routledge.  
+Levy, A., & Godfrey-Smith, P. (2019). The scientific 
+imagination. Oxford University Press.  
+Mager, A., & Katzenbach, C. (2021). Future 
+imaginaries in the making and governing of digital 
+technology: Multiple, contested, commodified. 
+New Media & Society, 23(2), 223-236. 
+Malpass, M. (2017). Critical design in context: 
+History, theory, and practices. Bloomsbury 
+Publishing.  
+Page 6456
+10 
+Marcus, G. E. (1995). Technoscientific imaginaries: 
+Conversations, profiles, and memoirs (Vol. 2). 
+University of Chicago Press.  
+Markus, M. L., & Mentzer, K. (2014). Foresight for a 
+responsible future with ICT. Information Systems 
+Frontiers, 16(3), 353-368. 
+Mol, A., & Law, J. (2002). Complexities: an 
+introduction. In Complexities (pp. 1-23). Duke 
+University Press.  
+Mueller, B. (2022). Corporate Digital Responsibility. 
+Business and Information Systems Engineering, 
+64(5), 689-700. 
+Mueller, B., Diefenbach, S., Dobusch, L., & Baer, K. 
+(2021). From Becoming to Being Digital: The 
+Emergence and Nature of the Post-Digital. i-com, 
+20(3), 319-328. 
+Murphy, A. (2022). Imagination in science. Philosophy 
+Compass, 17(6), e12836. 
+Parmiggiani, E., Teracino, E. A., Huysman, M., Jones, 
+M., Mueller, B., & Mikalsen, M. (2020). OASIS 
+2019 Panel Report: A Glimpse at the ‘Post-Digital’. 
+Communications of the Association for Information 
+Systems, 47, 583-596. 
+Peter, S., Riemer, K., & Hovorka, D. S. (2020). 
+Artefacts from the Future - Engaging Audiences in 
+Possible Futures with Emerging Technologies for 
+Better 
+Outcomes 
+Twenty-Eighth 
+European 
+Conference on Information Systems, Marrakesh, 
+Morocco. 
+Poole, M. S., Van de Ven, A. H., Dooley, K. J., & 
+Holmes, M. (2000). A Typology of Process 
+Theories. In M. S. Poole, A. H. Van de Ven, K. J. 
+Dooley, & M. Holmes (Eds.), Organizational 
+Change and Innovation Processes: Theory and 
+Methods for Research (pp. 56-88). Oxford, UK.  
+Poon, P., & Wagner, C. (2001). Critical success factors 
+revisited: success and failure cases of information 
+systems for senior executives. Decision Support 
+Systems, 30(4), 393-418. 
+Popper, K. (1959). The Logic of Scientific Discovery. 
+Routledge.  
+Rogers, G. (2021). Speculation: A Cultural History 
+from Aristotle to AI. Columbia University Press.  
+Rosner, D. K. (2018). Critical fabulations: Reworking 
+the methods and margins of design. MIT Press.  
+Rubinstein, I. S., & Good, N. (2013). Privacy by 
+design: A counterfactual analysis of Google and 
+Facebook privacy incidents. Berkeley Tech. LJ, 28, 
+1333. 
+Sarker, S., Chatterjee, S., Xiao, X., & Elbanna, A. 
+(2019). The Sociotechnical Axis of Cohesion for 
+the IS Discipline: Its Historical Legacy and its 
+Continued Relevance. MIS quarterly, 43(3), 695-
+719. 
+Schön, D. A. (1993). Generative metaphor: A 
+perspective on problem-setting in social policy. 
+Schultze, U. (2017). What kind of world do we want to 
+help make with our theories? Information and 
+Organization, 27(1), 60-66. 
+Schultze, U., & Orlikowski, W. J. (2001). Metaphors 
+of virtuality: shaping an emergent reality. 
+Information and Organization, 11(1), 45-77. 
+Shelley, M. (2018, 1818). Frankenstein: The 1818 
+Text. Penguin Classics.  
+Simon, H. A. (1969). Social planning: Designing the 
+evolving artifact. In The Sciences of the Artifical 
+(pp. 139-167). MIT Press.  
+Slaughter, R. A. (1998). Futures studies as an 
+intellectual and applied discipline. American 
+Behavioral Scientist, 42(3), 372-385. 
+Slaughter, R. A. (2021). Stumbling towards the light: 
+Four decades of a life in futures. Futures, 132, 
+102794. 
+Sullivan, R., Hannon, O., & Hovorka, D. S. (2023). 
+Embracing Absence: Researching What is Not 
+There International Conference on Information 
+Systems, Hyderabad, India. 
+Swedberg, R. (2021). Does speculation belong in social 
+science 
+research? 
+Sociological 
+Methods 
+& 
+Research, 50(1), 45-74. 
+Taylor, C. (2004). Modern social imaginaries. Duke 
+University Press.  
+Taylor, C., & Dewsbury, B. M. (2018). On the problem 
+and promise of metaphor use in science and science 
+communication. Journal of microbiology & biology 
+education, 19(1), 19.11. 40. 
+Thakurta, R., Mueller, B., Ahlemann, F., & Hoffman, 
+D. (2017, January 4-7). The State of Design – A 
+Comprehensive Literature Review to Chart the 
+Design Science Research Discourse 50. Hawaii 
+International Conference on System Science 
+(HICSS 2017), Waikoloa, HI, USA. 
+Trice, H. M., & Beyer, J. M. (1984). Studying 
+Organizational Cultures Through Rites and 
+Ceremonials. Academy of Management Review, 
+9(4), 653-669. 
+Ward, M. (2011). Souvenirs from the Future: The Role 
+of Image Making in Speculative and Critical 
+Design. 
+Weick, K. E. (1989). Theory construction as 
+disciplined imagination. Academy of Management 
+Review, 14(4), 516-531. 
+Weick, K. E. (2006). The role of imagination in the 
+organizing of knowledge. European Journal of 
+Information Systems, 15, 446-452. 
+ 
+Page 6457

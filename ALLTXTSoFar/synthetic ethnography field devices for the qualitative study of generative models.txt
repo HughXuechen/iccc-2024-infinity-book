@@ -1,0 +1,824 @@
+Synthetic ethnography: Field devices for the qualitative study of generative models
+Gabriele de Seta , Matti Pohjonen, Aleksi Knuutila
+Abstract: The development of generative artificial intelligence sustains a proliferation of machine
+learning models capable of synthesizing text, images, sounds, and other kinds of content. While the
+increasing realism of synthetic content stokes fears about misinformation and triggers debates
+around intellectual property, generative models are adopted across creative industries, and synthetic
+media is already becoming an integral component of cultural products. Qualitative research in the
+social and human sciences has dedicated comparatively little attention to this category of machine
+learning, particularly in terms of what types of novel research methodology they both demand and
+facilitate. In this article, we propose a methodological approach for the qualitative study of generative
+models grounded on the experimentation with field devices which we call synthetic ethnography.
+Synthetic ethnography is not simply a qualitative research methodology applied to the study of the
+social and cultural contexts developing around generative models, but also strives to envision
+practical and experimental ways to repurpose these technologies as research tools in their own right.
+After briefly introducing generative models and synthetic media and revisiting the trajectory of digital
+ethnographic research, we discuss three case studies for which the authors have developed
+experimental field devices to study different generative AI ethnographically. In the conclusion, we
+derive a broader methodological proposal from these case studies, arguing that synthetic
+ethnography facilitates insights into how the algorithmic processes, training datasets and latent
+spaces behind these systems modulate bias, reconfigure agency, and challenge epistemological
+categories.
+Keywords: artificial intelligence, ethnography, generative models, machine learning, methodology,
+qualitative research, synthetic media
+The methods of the model
+In 2014, Google engineer Alexander Mordvintsev developed Inception, an image processing program
+that used a convolutional neural network1 trained to parse an input image for a specific feature and
+enhance it, creating a phenomenon known as ‘algorithmic pareidolia’ – strikingly weird images in
+which original outlines and details blur and expand into recursive fractal patterns [Fig. 1].
+Mordvintsev and colleagues describe the surprising discovery resulting from this program: “neural
+networks that were trained to discriminate between different kinds of images have quite a bit of the
+information needed to generate images too” (Mordvintsev et al., 2015). Released in 2015 by Google
+under the name DeepDream, this program was arguably the first generative model to enter popular
+culture. Both its codenames – Inception and DeepDream – as well the discussions developing around
+its strange outputs frame the program’s chief purpose (probing and visualizing the hidden layers of
+neural networks) as “a way to look into the machine’s unconscious, into its inner life, its dreams” (A. I.
+Miller, 2020). Throughout the following decade, generative artificial intelligence has developed in
+multiple directions, with a proliferation of models capable of synthesizing text, images, music, videos
+or 3D meshes, as well as multimodal ones processing different kinds of inputs and outputs. Countless
+datasets have been created with the sole purpose of training generative models for specialized
+usages, and synthetic media have become the focus of heated debates around issues of privacy,
+intellectual property, and representation. Companies like OpenAI, Adobe, Alibaba, Google and Baidu
+1 Convolutional neural networks (ConvNets or CNN) are a class of neural networks based on the mathematical
+operation of convolution that are commonly used for computer vision and classification tasks.
+compete to integrate generative models in their software and services, releasing tools like ChatGPT,
+Generative Fill, ModelScope, Magic Editor or ErnieBot, which allow increasing numbers of users to
+experience media synthesis first-hand. At the same time, open-source models like StyleGAN or Stable
+Diffusion are embraced by communities of creators seeking to experiment with their capabilities.
+Figure 1. Photo of anthropologist Bronisław Malinowski during his ethnographic fieldwork with Trobriand
+Islanders in 1917-1918, processed through the Google DeepDream algorithm.
+The ease with which generative models can be used to synthesize content of increasing realism has
+stoked fears about political misinformation and propaganda and resulted in calls for global regulation
+(Chesney and Citron, 2019). In spite of this, generative models are being adopted across creative
+industries: CGI artists train them to replace or de-age actors’ faces in blockbuster movies;
+experimental writers collaborate with large language models in their creative process; designers
+integrate them in personalized advertisement campaigns. Amateur creators and everyday users also
+explore the possibilities afforded by these models, discovering peculiar phenomena and developing
+unexpected practices tailored to their algorithmic logics. The complex and distributed nature of these
+systems – assemblages of datasets, models, interfaces, and social practices – determines their
+unpredictable adoption across global contexts. For example, in April 2022, Swedish artist
+Supercomposite shared a Twitter thread documenting their discovery of Loab, an older woman that
+appears to ‘haunt’ the output of an unspecified text-to-image generative model whenever the system
+is prompted with a certain negative weight. In late 2022, Alibaba’s DAMO Vision Intelligence Lab
+released a text-to-video diffusion model on their ModelScope platform, which users quickly exploited
+to create absurdist videos through unlikely and incongruous prompts, such as “Will Smith eating
+spaghetti”, or “Donald Trump finds an octopus”, spawning a new genre of algorithmic folklore. In
+January 2023, Indian software engineer Sukuru Sai Vineet launches GitaGPT, a chatbot based on
+OpenAI’s GPT-3 model and fine-tuned on the Hindu scripture Bhagavad Gita, spearheading a wave of
+customized chatbots that users quickly found to promote extremist views. Generative models and the
+synthetic media resulting from their creative use are likely to become increasingly common
+components of software tools, shaping cultural processes and reconfiguring the production and
+consumption of content across domains.
+Generative models also have several applications beyond the creation of synthetic media: biologists
+use them to design new proteins (Jumper et al., 2021), astronomers rely on them to augment their
+datasets with synthetic data (Michos, 2023), and computational social scientists experiment with
+them to improve their research workflow (Bail, 2023). In spite of their profound influence on cultural
+production and the multiplication of communities revolving around them, qualitative social and
+human sciences have dedicated less attention to this category of machine learning, particularly in
+terms of what types of novel research methodology they both demand and facilitate. In this article,
+we take a cue from the digital methods proposal of “studying and repurposing […] the methods of
+the medium” (Rogers, 2013, p. 1) from an ethnographic point of view to develop “field devices”
+(Criado & Estalella, 2023) for the qualitative study of generative models. Building on a rich history of
+qualitative methodological development, we call our approach synthetic ethnography. Synthetic
+ethnography is not simply a qualitative research methodology applied to the study of the social and
+cultural contexts developing around generative models, but also strives to envision practical and
+experimental ways to repurpose these technologies as research tools in their own right. Our proposal
+develops as follows: in the first half of the article, we recapitulate the history of generative artificial
+intelligence models and synthetic media, defining the main concepts of the field, and then revisit the
+trajectory of digital ethnography from the advent of the internet to the rise of algorithmic systems. In
+the second half, we discuss three case studies for which the authors have developed experimental
+field devices to study different kinds of generative models and synthetic media ethnographically. In
+the conclusion, we derive a broader methodological proposal from the case studies, arguing that
+synthetic ethnography facilitates insights into how the algorithmic processes, training datasets and
+latent spaces behind these systems modulate bias, reconfigure agency, and challenge epistemological
+categories.
+Generative models & synthetic media
+The industry hype and heated debate around generative models and synthetic media of the early
+2020s can be framed in the longer history of computer-generated graphics and machine vision
+technologies. As Paul Virilio prophetically noted in the early 1990s, “after synthetic images, products
+of info-graphic software, digital image processing of computer-aided design, we are on the verge of
+synthetic vision, the automation of perception” (1994, p. 62). In a reversal of Virilio’s insight
+exemplified by the case of Google DeepDream, the current developments of generative artificial
+intelligence are instead based on the development of machine learning models optimized for image
+recognition and classification – synthetic images follow synthetic vision. These developments have
+spurred theoretical debates about the relationship between representation and reality and, in
+particular, questions related to the nature of media content generated by artificial intelligence
+systems, ranging from Baudrillard’s classic distinction between simulacra and simulations (1983),
+Cilliers’ discussion of “distributed representations” in postmodern complexity (1998) and Bourriaud’s
+account of the “operational realism” of computer graphics (2002, p. 69) to more recent attempts to
+describe the emergence of “synthetic reason” (DeLanda, 2011) or to articulate a social theory of
+generative “hyperproduction” (Ferrari & McKelvey, 2022). The convergence between algorithmic logic
+and media synthesis has been also theorized by cultural theorists like Scott Lash, who identifies a new
+kind of rules beyond constitutive and regulative ones: “in a society of pervasive media and ubiquitous
+coding, at stake is a third type of rule, algorithmic, generative rules” (2007, p. 71). As argued by David
+Beer, these generative rules are inscribed in code and software, with concrete effects on the
+distribution of power, and requiring new sensibilities to unveil and unravel them (2009, p. 999). In
+short, while generativity and synthesis have been theorized for decades, recent technological
+developments demand a more concrete approach to their social and cultural implications (Bolter,
+2023).
+While taking stock of the urgency and relevance of theoretical discussions, in this article we take a
+step aside from both philosophical debates and popular media narratives about artificial intelligence
+in order to instead assess the potential of generative models to open up new methodological
+approaches for social science research. In order to ground our assessment on a solid conceptual
+scaffolding, we first provide a brief history of recent developments in generative artificial intelligence
+(henceforth ‘generative AI’) and some definitions of key terms like model, dataset, prompt, and latent
+space. As of the early 2020s, the term generative AI describes a subset of artificial intelligence
+systems dedicated to generating novel outputs across media (text, images, sound, video, 3D meshes,
+etc.) from the data it has been trained on. This data is usually contained in datasets compiled for
+training purposes, and the resulting file of neural network weights and biases is called a model. Being
+mostly based on unsupervised or semi-supervised training, generative AI differs from other types of
+machine learning in its focus on generating rather than predicting patterns: a generative model
+synthesizes new representations based on the statistical probabilities learned from the data it has
+been trained on. The training of generative AI models results in a latent space (similar concepts are
+vector space or embedding space), a term describing a high-dimensional manifold containing what
+the model has learned from the training data in a compressed numerical vector form. In generative
+models, it is the diverse data points embedded in this latent space that allow for the generation of
+new – and often unexpected – types of representations, such as pictures of dogs and cats in the style
+of Van Gogh. In order to produce an output – an image, for example – this latent space has to be
+probed in some way. By combining the training on large datasets with a process of fine-tuning,
+generative models can be primed to respond to prompts, textual inputs through which users can
+query the model for specific outputs, including examples that the model has not been trained with.
+The uncanny ability to synthesize new content from existing data in response to user prompting has
+led to a surge of interest into generative AI for a variety of creative uses and drives the emergence of
+a host of models fine-tuned to generate text, images, videos, sound, music or speech that are at
+times indistinguishable from human-generated content. At the time of writing, the most popular
+example of generative AI is ChatGPT, a chatbot interface built by U.S. artificial intelligence research
+lab OpenAI on top of GPT-4, a Large Language Model (LLM) trained on massive textual datasets that is
+capable of mimicking human-like writing. Beyond ChatGPT, some of the most popular and quickly
+developing models focus on visual outputs, including text-to-image models such as MidJourney,
+Stable Diffusion, or OpenAI’s own DALL·E 2. While these models are at the center of much debate and
+speculation, the use of machine learning to generate synthetic media has a longer history. One of the
+early examples of generative AI was the application of generative adversarial networks (GANs)
+conceived by Ian Goodfellow and colleagues in 2014 (Goodfellow et al., 2014). The idea behind GANs
+is to pit two neural networks against one another in a competitive zero-sum game where the task of
+the first network, the generator, is to create new examples based on the data it was trained on. The
+task of the second network, the discriminator, in turn, is to determine whether these examples are
+real (based on their similarity to the training data). Given sufficient time and training cycles (epochs),
+this algorithmic game of forgery allowed GANs to produce strikingly realistic representations that
+approximated, but not reproduced, the data the model was trained on. Experimentation with
+different GAN models triggered an early wave of debates around the consequences of synthetic
+media production, as online communities of tinkerers developed new GAN-powered tools to insert or
+swap faces in images and videos, synthesize realistic portraits of people who “do not exist”, or
+develop new forms of generative art (Scorzin, 2023).
+Far from the exciting prospect of understanding the machine unconscious through the surrealism of
+DeepDream outputs, the rise of GANs confronted users with the prospect of a post-truth world of
+runaway deepfakes and other forms of synthetic content capable of fooling human verification.
+Almost a decade after Goodfellow’s proposal, the capabilities of generative AI are pushed even
+further by two main developments. The first is the ability to train a model on different types of data
+at the same time – for example, OpenAI’s CLIP model combines images and their captions as its
+training data. By learning both the visual and textual information contained in hundreds of millions of
+text-image pairs, a model like CLIP is capable of both classifying images based on their textual content
+but also of generating new images from textual descriptions – in short, generative AI becomes
+multimodal. Early adopter communities quickly realized that a model like CLIP could be used to guide
+other generative models; for example, the VQGAN-CLIP developed by Katherine Crowson and
+colleagues in 2022 combines generative adversarial networks with a multimodal encoder to produce
+high-quality images from textual prompts (Crowson et al., 2022). The rise of text-to-image generative
+models is also propelled by the second key development: the rise of diffusion models. Unlike GANs,
+diffusion models work by adding noise to training data and then reverse-engineering the process by
+learning to remove this noise (Yang et al., 2022). Diffusion powers the most popular commercial
+models such as MidJourney, Imagen, DALL·E 2 or Stable Diffusion, contributing to the mainstreaming
+of media synthesis among both creative professionals and amateur creators who, for the first time in
+the history of generative AI, do not need domain-specific technical knowledge to experiment with
+processes like image generation, super-resolution, style transfer, or generative fill. The widespread
+availability and cultural relevance of generative models, combined with their highly social contexts of
+development and experimentation, also invites qualitative researchers to engage with them in ways
+that go beyond critical speculation, giving rise to the question: how can ethnography incorporate and
+respond to their algorithmic logics and processes?
+Ethnography of the digital, algorithmic, automated
+The idea of applying ethnographic methodologies to the study of computational technologies has a
+long history and an established canon. Since the early years of networked communication systems,
+anthropologists have recognized the need to explore new forms of human-machine interaction
+developing in cyberspace (Escobar, 1994) or the internet (Ito, 1996) through ethnographic research.
+Ethnographic approaches to the online sociality have ranged from extensive field studies following
+how literacy, access and connectivity changed local practices (D. Miller & Slater, 2000) to participatory
+and embodied investigations foregrounding virtual spaces as field sites in their own right (Hine,
+2000). Since the early 2000s, a broad range of studies have proposed a variety of similar
+methodologies including “virtual ethnography” (Hine, 2000), “cyberethnography” (Kuntsman, 2004),
+“hypermedia ethnography” (Dicks et al., 2005), “netnography” (Kozinets, 2010), and several other
+“ethnographic approaches to digital media” (Coleman, 2010). Sharing a commitment for participatory
+fieldwork, a sensitivity for the blurred boundaries between offline and online, and an attention to
+situated practices of use, these methodological proposals have found a common descriptor under the
+label “digital ethnography” (Hjorth et al., 2017). In its variety of configurations and applications,
+digital ethnography has been used to investigate everything from virtual worlds (Boellstorff, 2008)
+and videogames (Nardi, 2010) to networked activism (Gray, 2016) and social media platforms
+(Dalsgaard, 2016). Over three decades, ethnographic approaches to digital media have developed in
+parallel with the development of communication technologies in the attempt to account for rapid
+shifts in design and usage (Abidin & de Seta, 2020, pp. 6–7)
+One of these shifts has been the process of platformization (Helmond, 2015), which has corralled a
+large part of online interactions from the Web to apps, requiring ethnographic approaches such as
+the walkthrough method (Light et al., 2018) that are fine-tuned for more enclosed and opaque
+sociotechnical contexts. The ‘appification’ of cultural products and communicative practices (Morris &
+Murray, 2018) has prompted proposals for an “interface ethnography” (Ritter, 2022) that allows to
+expand multi-sited participant observation to platform interfaces as fleeting locations where
+mediation is practiced. Another key shift in digital media has been the pervasive use of algorithms for
+the search, indexing, analysis, filtering, and recommendation of online content (Gillespie, 2014),
+which has forced qualitative researchers to grapple with algorithmic black boxes (Diakopoulos, 2015)
+and find ways to study them in productive ways beyond the mythologies and dramas accruing around
+them (Ziewitz, 2016). In an overview of critical research approaches algorithms, Rob Kitchin identifies
+the ethnographic study of programmers, sociotechnical assemblages, and wider contexts of use as a
+promising path alongside the production of code and reverse engineering (2017). Anthropologists
+have derived important methodological insights from their ethnographic experiences: Nick Seaver
+recommends specific tactics that undo rigid definitions of algorithm and instead approach them “as
+culture”, or the result of human practices (2017); Ann-Christina Lange and coauthors propose four
+epistemic perspectives from which to analyze the shifting relations between algorithms and their
+users (2019); Angèle Christin outlines three methodological strategies to move beyond the black box
+metaphor and enroll algorithms in the research process itself (2020); and Loup Cellard suggests to
+unpack how algorithms are fabulated from complex sociotechnical assemblages (2022).
+Because of its focus on the automation of computational processes, the ethnographic study of
+algorithms intersects and overlaps with another field of inquiry: socio-anthropological research on
+artificial intelligence. As early as 1985, writing at the of peak of debates around expert systems, Steve
+Woolgar outlines a sociological perspective on artificial intelligence that goes beyond the study of
+computer scientists and their systems and focuses on unraveling the “dichotomies and distinctions”
+that characterize its discursive field (1985). Anthropologists like Diana E. Forsythe have demonstrated
+through ethnographic research how artificial intelligence is as much technical as it is cultural (2001).
+More recently, Alan Blackwell has argued for ethnographic accounts of artificial intelligence as
+culturally situated that decenter the field from the Global North (2021). Ethnographers have also
+examined particular aspects of artificial intelligence, disaggregating the sociotechnical assemblages of
+machine learning models, training datasets, and code. Database ethnographies aim at
+complementing the collection and categorization of data with qualitative context (Schuurman, 2008),
+enhancing data interpretation (Zhang et al., 2018) and analyzing the resulting datasets as fieldsites
+(Burns & Wark, 2020), but ethnographic approaches can also contribute to structuring statistical
+inquiry (Ford, 2014), narrating quantitative data qualitatively (Dourish & Gómez Cruz, 2018) and
+establishing ground truths for big data analyses (Bjerre-Nielsen & Glavind, 2022). Ethnographers
+working with modeling experts have demonstrated that the complexity of machine learning models
+escapes their users (Kolkman, 2022), and the ones examining code have evidenced its key role as a
+socio-technical actor (Rosa, 2022).
+As a qualitative methodology tasked with charting rapidly shifting media ecosystems, digital
+ethnography has developed into a variegated and flexible toolbox of approaches. The rise of
+algorithmic media has prompted digital ethnographers to devise strategies to peer into black boxed
+sociotechnical systems and unravel how they are enacted through practices and relationships. The
+renewed interest in artificial intelligence brought by machine learning and neural networks has also
+been contextualized by ethnographic studies that foreground the situated ground truths of models
+and datasets. Generative artificial intelligence models and synthetic media demand a reconfiguration
+of ethnographic methodologies capable of operating at the convergence of the three socio-technical
+domains described above. Synthetic media are profoundly entangled with apps and social media
+platforms, and users often encounter generative models through opaque interfaces; at the same
+time, these systems further complicate relationships between users and algorithms; lastly, discursive
+imaginaries of intelligence and sentience challenge definitions of creativity and personhood. As
+recently observed by Anders Kristian Munk,
+Ethnography now faces a situation like the one it faced twenty years ago with the emergence of
+virtual online worlds. A new field has suddenly come into being with its own cultural expressions,
+its own species of interlocutors, and its own peculiar conditions for doing fieldwork. (Munk, 2023)
+How should ethnographers approach this new convergence of digital media, algorithms and artificial
+intelligence? In this article, we argue that it is crucial to expand the methodological toolbox of
+ethnography with ways of drawing synthetic media into the field, collaborating with generative
+models, or even repurposing their logics as research probes. Synthetic ethnographers need to
+develop field devices for the qualitative study of generative artificial intelligence.
+Synthetic ethnography: Three field devices
+In this section, we revisit individual research projects conducted by the three authors that exemplify
+different qualitative approaches to generative artificial intelligence and derive from them three “field
+devices” that can inspire or precipitate future works of synthetic ethnography. We adopt the concept
+of field device from the edited collection on ethnographic invention curated by Tomás Sánchez Criado
+and Adolfo Estalella (2023), who identify forms of relational inventiveness and collaborative
+improvisation as essential for the practice of ethnographic fieldwork. Drawing on the STS discussion
+of the term “device” (Law & Ruppert 2013), Estallella and Criado define field devices as “situated
+arrangements that dispose the ethnographic situation” (2023, p. 1) and expand its methodological
+toolbox beyond the techniques of participation and observation, addressing the realization that
+current anthropological methods “are incapable of responding to the challenges of the
+contemporary” (p. 3). In a similar fashion, our field devices for synthetic ethnography respond to
+methodological challenges brought to digital social research by the proliferation of generative
+artificial intelligence. As noted by Nick Seaver, technological novelty does not necessarily require the
+development of brand new methodologies (2017, p. 6); echoing this point, Estalella and Criado
+emphasize that field devices are not methodological innovations to be reproduced (2023, p. 1). In our
+proposal, synthetic ethnography is an effort to fine-tune, retool and reconfigure qualitative research
+for the study of generative artificial intelligence. Writing about the mythologies developing around
+algorithms as efficient tools or opaque black boxes, Malte Ziewitz recommends to “shake the black
+box” rather than being captivated by it, since “myth does not always have to be debunked but can be
+generative” (2016, p. 9). We heed this call through the following three field devices – our own
+attempts at shaking the multidimensional and colorful boxes of generative models.
+Deepfaking the ethnographer: Creative participation as practical probe
+While conducting research on the creative uses of artificial intelligence in China, Gabriele de Seta
+came across several examples of synthetic media that were becoming a matter of societal relevance.
+For example, an app allowing users to insert their face onto stills and video clips from popular media
+got under scrutiny for its handling of personal data; the special effects used by various production
+studios to swap actors of TV series were criticized by viewers for their poor quality; and a thriving
+gray market facilitated the use of deepfakes to produce pornography and commit frauds. In order to
+approach these materials ethnographically, de Seta decided that he would not only follow their
+circulation and the public discussions around them, but also try to engage with the creative practices
+involved in their production. After reviewing debates around synthetic media on Chinese news
+sources, scouring social media for related search terms and hashtags, and chatting with local users
+about the topic, he decided to look into a specific genre of synthetic media: huanlian, or ‘changing
+faces’, which roughly overlaps with the English-language term ‘deepfake’ and indicates various forms
+of facial animation, manipulation and replacement (de Seta, 2021).
+By tracing where many of popular huanlian videos were originally shared, the researcher found an
+active community of creators uploading their creations on Bilibili, a Chinese video streaming
+platform. After setting up a Bilibili account, he watched a variety of huanlian content by following
+hashtags and suggested videos, identified the most prolific creators and contacted some of them to
+inquire about their technical skills, software of choice, and creative decisions. When de Seta noticed
+that some creators also uploaded tutorial videos discussing different aspects of huanlian creation,
+porting software and translating techniques to help Chinese viewers bypass local restrictions, he
+realized that he could learn a lot by trying to create this sort of content by himself. De Seta’s goal was
+to understand more about synthetic media – and by extension, machine learning algorithms, models
+and datasets – by becoming a user situated in the local sociotechnical context. Engaging in situated
+practices is a common ethnographic strategy, and in the context of contemporary digital media,
+creating and sharing content is a key form of participation. So, the ethnographer decided to try
+deepfaking himself into some popular images and videos.
+De Seta’s first experiment was based on a specific generative model: the First Order Motion Model for
+Image Animation presented at NeurIPS 2019 by researchers working at the University of Trento, Snap
+Inc. and Huawei (Siarohin et al., 2020). The First Order Motion Model is a framework trained on video
+sequences of similar objects that combines a motion estimation module and an image generation
+module to animate an object in a static image according to the motion of another object in a driving
+video. Siarohin and colleagues shared the source code for the First Order Motion Model on GitHub
+and even set up a demo on Google Colab, allowing users to play with the model in-browser. The
+convenience of this model demo made it into the perfect tool to create humorous clips, and users
+from around the globe started uploading their own content to make, among many other things,
+countless versions of a specific meme based on “Dame da ne”, a song from Japanese video game
+series Yakuza. “Dame da ne” videos made with the First Order Motion Model were quite popular on
+Bilibili, and several uploaders used it to animate characters from Chinese popular culture according to
+the song’s lyrics – the most viewed being, at some point, that of a crying cat.
+Making a video of the ethnographer’s own face from a still photograph and the original video of a
+man singing the song in a dramatic way was a quick and convenient process. Following one news
+article on the topic and a tutorial video uploaded on Bilibili, all de Seta had to do was load both files
+onto the Google Colab notebook and wait for a few minutes. He then uploaded the video on his own
+Bilibili profile, tagging it like similar pieces of content and hoping to become part of the platform’s
+huanlian community. Despite several news mentioning that Bilibili was actively deleting huanlian
+content, his video went through the platform’s verification process without problems. Besides gaining
+some insights into the copyright policies of Bilibili, uploading his own video also helped de Seta to
+contact other creators asking for feedback and suggestions. One of them, for example, told the
+researcher that they were not able to access the Google Colab notebook since Alphabet services are
+banned in China, and they had to code their own Python script to run the model downloaded from
+GitHub. Creating and sharing a simple piece of synthetic media already allowed de Seta to gain
+firsthand experience into how machine learning models travel from computer science conferences to
+social media users across the globe.
+De Seta’s second experiment was a much more involved one. The researcher wanted to expand his
+skills as a huanlian creator beyond smartphone apps and in-browser demos. Following the
+recommendation of another creator he contacted on Bilibili, de Seta downloaded FaceSwap, an
+open-source software capable of generating deepfakes through multiple models, which includes a
+user-friendly interface to fine-tune parameters without the need to write any code. His goal was to
+create a version of a popular humorous viral video featuring actor Jackie Chan. After watching some
+tutorials made by other Bilibili creators, de Seta proceeded to download the original viral video and
+shoot a video of his own face, then extracted the faces from both videos and started training one of
+the deepfake models included in FaceSwap. While FaceSwap hides much of its computation behind
+the software’s user interface, observing the training process yielded interesting insights: de Seta could
+observe how a machine learning model synthesizes a human face by pulling out increasingly accurate
+probability distributions of pixels from the latent space it generates during training [Fig. 2]. The
+process was also clearly asymptotic: FaceSwap honed into a blurred version of the ethnographer’s
+face in the span of a few thousand iterations, and between 10,000 and 20,000 iterations the
+improvements in clarity were noticeable. As the training moved into the hundreds of thousands of
+iterations, improvement was much slower.
+Figure 2. Training output preview of the FaceSwap deepfake model after a few thousand iterations, showcasing
+how facial features emerge from a blur as the model learns to map them between original and swap datasets.
+Generating individual frames from the trained model, combining them into a video file and adding
+the original audio on it was a matter of minutes; the final result, which de Seta uploaded on Bilibili
+and shared with a few friends for laughs, was not that different from his first attempt at creating
+huanlian content: a funny and glitchy animation showcasing the potentials and shortcomings of
+media synthesis. Despite some trial runs and tinkering with parameters, the video he spent hundreds
+of hours creating had noticeable flaws: first, the different facial structure did not help transferring the
+ethnographer’s features onto Jackie Chan’s motions, resulting in misalignment and artifacts in the
+synthetic face. Second, the researcher’s lack of experience meant that he shot footage of himself at a
+different angle than the one of Jackie Chan in the source video, which further compromised the
+effectiveness of training. These issues could have been mitigated by further attempts at retraining the
+model with better footage and more suitable types of face extraction masks, which would in turn
+have meant hundreds more hours of calculations. For this project’s purposes, an imperfect but funny
+huanlian was good enough: in its failure of realism, it demonstrates how much skill is still involved in
+crafting convincing synthetic media. As a professional huanlian creator interviewed by de Seta
+confirmed, using a software like FaceSwap proficiently requires numerous attempts, a willingness to
+learn by trial and error, and a sustained engagement with documentation and fellow creators.
+Methodologically speaking, these two experiments highlight the ethnographic value of becoming a
+user of machine learning algorithms, models, frameworks or larger systems. The first experiment
+allowed the researcher to follow a framework for image animation developed in collaboration
+between academia and the tech industry as it traveled from computer science conferences to social
+media around the world through the mediation of open-source repositories and demo notebooks.
+Even if creating an animation through the First Order Motion Model demo was rapid and convenient
+thanks to remote computation and pre-scripted routines, the whole process helped de Seta peering
+into the black box of machine learning and its social ‘unboxing’ through tutorials, local translations
+and private communications. The second experiment proved that while consumer apps, pretrained
+frameworks and demos can be accessible and convenient, training and fine-tuning a model takes
+more time, skill, and electricity. Both experiments exemplify a kind of field device: the active
+participation in creative communities developing around the use of generative models and the
+circulation of synthetic media. This field device foregrounds creative participation as a probe into the
+situated practices through which users make sense of, discuss, and speculate about generative AI,
+expanding participant observation through a hands-on approach.
+Probing the limits of historical data: Generative models as trace archives
+Matti Pohjonen’s work has experimented extensively with new text-to-image (TTI) models as situated
+forms of knowledge production. His research is premised on the fact that generative AI models
+ultimately reflect – albeit often in non-linear and unpredictable ways – the data they have been
+trained on. As such, they can be repurposed as archives of traces about the world: assemblages
+(Deleuze 1988: 47-69) of text and images that reflect the historical, cultural, political, and
+socio-technical dynamics that produced them. As a result, generative models are “likely to amplify
+existing societal biases and inequities – indeed, to the extent that machine learning (ML) artefacts are
+constructed by people, biases are present in all ML models” (Luccioni et al., 2023, p. 1). At the same
+time, these models reflect the societal context in which they are developed. From this perspective,
+the information embedded in the latent spaces of generative models can be thought of as massive
+archives of knowledge produced at any given historical time. Shifting our analytical focus from
+questions of how these AI models are biased (that is, how these models might misrepresent the
+world) to how these models also represent the world can thus function as a magnifying lens into the
+historical structures of knowledge of the societies that produced them – what Ervik calls the
+“technology-guided social imagination” of generative AI (2023). How could we then repurpose
+generative models as synthetic ethnographic field devices to better understand these structures of
+knowledge?
+To pursue this question from a methodological angle, Pohjonen’s work has probed how historical
+events – such as the 1984 Ethiopian famine – become reimagined by new generative models and the
+services built on them. This research builds on Pohjonen’s long-term engagement with themes
+related to historical memory and representation, based both on his childhood experiences growing
+up in Ethiopia during the 1980s famine and civil war but also on his subsequent research on
+contemporary digital politics in Ethiopia. As part of this earlier work, Pohjonen crowdfunded an
+experimental art book that combined oral histories of people who grew up in Ethiopia during the
+1980s, his own childhood memories of the period, and a 22-day “auto-ethnographic” walk that
+traversed the remote mountainous regions of Ethiopia most affected by the famine and civil war.
+During this trek, he used photography and digital design to explore, among other things, how his
+childhood memories and global media representations intersected and clashed with the embodied
+experience of walking 400km through the harsh landscapes and conversations with people who lived
+there (Pohjonen 2015).
+Focusing on an “iconic media event” (Franks 2013) such as the 1984 Ethiopian famine also provided
+his research with two methodological advantages for exploring generative visual AI: first, this
+provided a relatively rarefied amount of visual content through which the event has been historically
+imagined (e.g., the popular images of starving children canonized by Western news coverage and in
+other popular culture imaginaries such as Live Aid); and second, despite this limited diversity of visual
+content available, the event has nonetheless quickly emerged as an influential visual trope through
+which complex problems in Africa have been represented (see Sorenson 1991; Gill 2010). One of the
+strategies Pohjonen has explored for this purpose has been to systematically test how rapidly
+evolving generative models have represented the 1984 famine over time. For example, when
+prompted with “1984 famine and drought in Ethiopia'', the VQGAN-CLIP model (Crowson et al., 2022)
+and early versions of Stable Diffusion result in recurring motifs of dark-skinned, almost skeletal
+human figures roaming across desolate landscapes. The visual capabilities of TTI models have quickly
+improved between 2022 and 2023, but despite the increasingly photorealistic quality of their
+outputs, similar motifs emerge in later model versions as well [Fig. 3].
+Figure 3. Two outputs of the VQGAN-CLIP model prompted with “1984 famine and drought in Ethiopia” (top)
+and one of the Midjourney model (version 5.0) prompted with “real life photography that shows the
+devastating effects of the 1984 famine on the people of Ethiopia, images of malnourished and starving people,
+images of the dry, barren, mountainous landscape that contributed to the famine, ultra detailed, photo realism,
+dreamlike lighting, magical photography, dramatic lighting, 18mm lens, f/16”.
+As of mid-2023, rapid advancements in both open-source and commercial TTI models and services
+have made near-photorealistic image production accessible to consumers. These improved
+capabilities have been aided by the development of a new lexicon of prompts and prompt modifiers
+which can guide the aesthetic look of images with a surprising degree of nuance. Pohjonen’s
+experiments with version 5.0 of Midjourney, released in early 2023, exemplify how drastically the
+quality of the visual output has evolved in just over a year. When given a similar prompt augmented
+by prompting ‘tricks’ such as adding qualifiers (“ultra detailed, photo realism, dreamlike lighting,
+magical photography, dramatic lighting, 18mm lens, f/16”) to guide the image output, Midjourney
+still generates images featuring the visual tropes described above, albeit now rendered in a
+photo-realistic style. This allowed Pohjonen to observe how rapid progress in the visual quality of TTI
+model outputs contrasts with the relative homogeneity of the visual forms they generate: skinny
+human figures, protruding bones, ragged crowds, desolate landscapes. The homogeneity of these
+“strong features” (Salvaggio, 2023, p. 90) reflects the latent representational structures that the
+model has learned to associate to concepts such as “famine” and “Ethiopia” from the training data.
+This can be further confirmed by reverse-engineering the image-text assemblages of the LAION
+dataset on which Midjourney is trained – for example, by searching the dataset for “Ethiopia” and
+“famine” through an open-source CLIP retrieval tool, Pohjonen found several influential (and, for
+some, infamous) media representations of the 1984 famine, including dramatic photographs and
+magazine covers.
+Through these experiments, Pohjonen has probed the limits of historical data by approaching
+generative
+models
+as
+trace archives: multimodal assemblages that contain mathematical
+representations of structures of knowledge anchored in a specific socio-historical context. By
+focusing on a specific kind of model (text-to-image) and an iconic media event (the 1984 famine in
+Ethiopia), the ethnographer can combine the participant observation of early adopter communities
+experimenting with the models with practical experimentation on targeted subject areas, following
+these traces to explore controversial topics such as the concept of history emerging from generative
+models (Offert, 2023). While training datasets are nearly impossible to explore qualitatively because
+of their scale (Pipkin, 2020), using prompting as a way to reveal archival traces is consistent with
+emerging user practices: recent work on the art of prompting (or ‘prompt engineering’), has focused
+on its use as a distinctly qualitative method for interacting with generative models (Carter, 2023).
+Probing generative models through prompting should not be approached as a ‘hard science’ but,
+rather, as Oppenlander notes, it resembles a dialogic interaction with the system: “A practitioner
+typically will run a prompt, observe the outcome, and adapt the prompt to improve the outcome […]
+prompt engineering, thus, is iterative and practitioners formulate prompts as probes into the
+generative models’ latent space” (2022, p. 4). In the case of proprietary models with inaccessible
+datasets, prompting tricks might allow researchers to reveal censorship measures or debiasing
+techniques (Offert & Phan, 2022).
+Understood as a dialogic and iterative interaction between a human and a machine learning system,
+prompting shares some similarities with ethnographic fieldwork, during which knowledge production
+takes place through trial and error in recurrent and sustained engagement, as the nuances of the
+fieldsite emerge in their relevance and become more known to the researcher. In the case of
+text-to-image models, this process can be facilitated by learning heuristic research tricks from other
+users, such as selecting appropriate subject terms, learning the relevant style modifiers, crafting
+accurate image prompts and relying on documentation developed in generative AI communities over
+their long-term engagement with rapidly evolving models. This approach exemplifies a field device
+for qualitative research seeking to probe how knowledge is produced and represented by generative
+models. As Deleuze noted, knowledge “is defined by the combinations of visible and articulable that
+are unique to each stratum or historical formulation […], a practical assemblage, a ‘mechanism’ of
+statements and visibilities” (1986: 51) – similarly, it is important to recognize that text-to-image
+models reflect and refract the practical assemblages of textual and visual data used to train them,
+what can be said and seen at any given period, functioning as mechanisms that offer necessarily
+selective statements and visibilities. The representations embedded into generative models thus
+reflect the underlying historical and cultural dynamics of the societies that developed them; and
+synthetic ethnography can probe them as archives of traces pointing to these dynamics and their
+limits.
+Repurposing latent spaces: Synthetic media generation as speculative modelling
+Generative models like DALL·E 2 and machine learning frameworks like GANs are commonly thought
+of as accessible ways to generate images. But could they also be used to study social phenomena,
+such as the visual aspects of social processes in cities? The work of Aleksi Knuutila seeks to answer
+this question through the strategy of speculative modelling, in which the attributes of urban
+environments – such as reoccurring visual patterns and spatially stratified data production – are
+leveraged to repurpose generative models for social scientific inquiry. Speculative modelling
+repurposes the latent spaces of machine learning frameworks to create novel relations between
+disparate types of data, the model, and its users. Knuutila bases his work on street-level photography
+of London, where he has lived for several years. London is a city home to many of the world’s
+wealthiest people as well as millions of residents who live below the poverty line. The city’s
+inhabitants quickly develop an intuition of how the city’s built forms and the look of different
+neighborhoods relate to abstract social qualities such as class, wealth, or safety. The connection
+between the built environment and social processes is also a frequent topic in ethnographic work and
+subdisciplines such as urban studies.
+Knuutila’s project This inequality does not exist uses speculative modelling to represent and make
+readable the visual qualities of the city in novel ways. In this project, modelling is not applied for
+predictive or classificatory purposes, but for a generative one: orchestrating a “latent walk” that
+allows human participants to experience visual data open to interpretation. The idea of a latent walk
+is adopted from the vocabulary of GAN user communities, where it frequently refers to model
+explorations (Monin 2021) with their tricks of the trade (Schulz 2019). To develop his own latent walk,
+Knuutila created a custom visual dataset of 15,000 images of London retrieved from Google
+Streetview. He then correlated the photographs with the Indices of Multiple Deprivation (IMD) –
+non-visual, quantitative geospatial data that describes features such as income, education, and
+environmental health of different areas (Payne and Abel 2012). The researcher used this dataset to
+train a StyleGAN2-ADA model to synthesize photorealistic images similar to actual Streetview images.
+The StyleGAN2-ADA model is a type of GAN model specifically known for good performance with
+medium-size training sets, i.e. in tens of thousands of images (Karras et al., 2020). The process of
+generating images by acting on various index sliders lets viewers experience a movement through the
+model’s latent space; walking through a latent space guided by the IMD data makes it possible to
+speculatively examine the visual qualities of abstract social differences such as income deprivation,
+lack of education, or environmental harms. This process, which is accessible through a web-based
+interface2 applies gradual changes to individual synthetic images, transforming their visual details
+according to variables like, for example, higher or lower education levels.
+The speculative modelling behind This inequality does not exist is close to the concept of “spawning”
+proposed by musician Holly Herndon to describe the generation of new music through the musician’s
+interaction with a model trained on a dataset of samples (Wilson, 2023). Rather than reproducing
+sounds (as with sampling), spawning takes some aspect of the original (such as the timbre of sound
+or style of music) and applies it to another object (such as a vocal line or a synthesizer pattern). GANs
+make it possible to generate realistic images, but also allow to manipulate them through a form of
+spawning called “style transfer” (Jing et al., 2019) – for instance, by taking a photograph and
+synthesizing a version that preserves its content or subject but looks like it was painted by Van Gogh.
+The relatively novel aspect of This inequality does not exist is the fact that it applies this process of
+2 The interface is available at https://aleksiknuutila.github.io/thisinequalitydoesnotexist/
+spawning to aspects of the city for which visual qualities (the style to be transferred, in this case) are
+not known a priori, and allows users to generate unlimited outputs that can be read comparatively
+[Fig. 4]. Inspired by a long tradition of walking as a method for knowledge production – for example,
+activist group Precarias a la Deriva who organize walks through Madrid with nurses trying to reconcile
+their varying experiences of the city through dialogue (Precarias a la Deriva 2014) – Knuutila has
+conceptualized the “latent walk” as an analogy for working through assemblages of synthetic data.
+Figure 4. A grid displaying synthetic images of London streets generated by the This inequality does not exist
+GAN according to parameters reflecting visual patterns related to income, education, and health.
+Knuutila’s walkthroughs of latent space, accompanied by two other inhabitants of London, resulted in
+several observations, which exemplify the knowledge-production potential of latent walks: Walking
+from the latent space associated with low education areas towards high education areas creates a
+change from 1930s and postwar building stock to Victorian facades. Roof pediments become more
+frequent, and window frames become more decorated. Hedges and bushes in the front yards grow,
+giving the houses a sense of privacy and seclusion. Following the same latent walk along lines
+associated with higher income produces different visual characteristics, with Victorian bay windows
+giving way to Edwardian flat edifices. Raw brick edifices become coated with whitewashed stucco,
+and even the sidewalks change, with the bare tarmac turning into paving stones. Moving in the latent
+space towards higher levels of health, in turn, appears to be less associated with greenery than with
+increased space, and more extensive front gardens and windows added to attics indicate roof
+conversions for additional living space. More trees appear on the streets, and the houses move
+further away from the cars. These observations demonstrate how a latent walk can make tangible the
+visual correlates of abstract qualities such as inequalities in income and education.
+As a method for producing scientific knowledge, latent walks have obvious limitations: like other
+speculative approaches, there is no prominent and established manner to validate the results,
+distinguishing between the biases and omissions of the model and representation of social
+phenomena. Unlike methods with agreed-upon practices of application and verification, speculative
+modelling is “a provisional arrangement that results not from polished design but from tinkering
+practices” (Criado and Estella, 2023, p. 5) grounded on “relational inventiveness” (p. 1). The
+repurposing of generative models into walkable latent spaces is a field device that “assembles and
+arranges the world in specific social and material patterns” (Law and Ruppert 2013, p. 230), creating
+opportunities for new social relations. Even though This inequality does not exist does not involve a
+traditional ethnographic field and conventional relations with research participants, it “devises a
+space for collective inquiry” (Criado and Estella 2023, p. 10) based on a collaborative reading of
+synthetic images. The project questions the idea that machine learning necessarily displaces or
+mimics human activities, as common debates around artificial intelligence seem to suggest. Instead,
+latent walks present a speculative configuration for knowledge production that retains the
+importance of human interpretation, and potentially create moments of “artful revelation”
+(Coopmans 2014) about social processes, making obvious patterns in the dataset that might
+otherwise remain hidden.
+On a general level, generative models offer a particularly clear demonstration of what Marres and
+Gerlitz have described as the “dynamism and relative under-determinacy of digital methods” (2016,
+p. 21), emphasizing the many opportunities for researchers to test and repurpose the capabilities of
+these tools. On a technical level, speculative modelling helps rethink some of the assumptions about
+the use of machine learning in the social sciences and address critiques of decontextualization and
+enclosure in the “homogeneous spaces of calculation” (Amoore and Piotukh 2015, p. 316). In
+practical terms, the launch of new generative models is regularly accompanied by a proliferation of
+interfaces, which include apps and web pages based on textual prompts, as well as Google Colab
+notebooks and GitHub repositories for more technically literate users. Multimodal models are often
+combined into larger systems, with the outputs of one model flowing into or guiding the inputs of
+another, hinting at an open-ended and indeterminate future of generative AI applications. For
+researchers, this means a multiplication of possible entry points to the sociotechnical stacks on which
+generative models are built. As a field device, repurposing is not limited to generative models, and
+the possibilities of speculative modelling are likely to remain applicable to future developments in
+artificial intelligence systems.
+A generative synthesis
+Generative AI is here to stay. Or is it? In the constant attempt to catching up with industry innovations
+and institutional responses, the relevance of specific machine learning models, frameworks and
+approaches might be waning before academic research manages to offer substantive theoretical and
+methodological contributions to the field (Roberge & Castelle, 2021, p. 2). In this article, we proposed
+a methodology for the qualitative study of generative models based on the experimentation with
+field devices: adding to the proliferation of methodological buzzwords, we call this approach synthetic
+ethnography. This methodological proposal does not emerge in a vacuum: researchers across
+disciplines have already started exploring the social and cultural lives of generative AI. Some
+ethnographers have conducted studies of early adopter communities, documenting the emergence of
+prompting practices (Oppenlaender, 2022) and representational glitches (Wasielewski, 2023); others
+have investigated the adoption of generative AI by professional users like game designers (Vimpari et
+al., 2023) or fan artists (Lamerichs, 2023). Scholars in the humanities have also begun developed
+methodological strategies to study synthetic media and generative imagery in particular (Wilde,
+2023), including a “genealogical method” to study datasets (Denton et al., 2021), “critical image
+synthesis” as speculative practice (Carter 2023), the “promptological approach” to models (Bajohr,
+2023), and even a step-by-step process of visual semiotic analysis for AI-generated images (Salvaggio,
+2023).
+Our proposal builds upon these emerging approaches and offers a generative synthesis of their
+strengths. With its emphasis on devising collaborative field devices, synthetic ethnography pushes
+ethnographic studies beyond participant observation and towards a hands-on, experimental
+engagement with generative models. At the same time, its grounding on long-term, collaborative and
+situated qualitative research invites media studies researchers to complement critical readings of
+synthetic media with participation in the social worlds in which they are created and circulated.
+Synthetic ethnography is not simply the use of generative AI to “improve” qualitative research (Bail,
+2023), nor is drastically different from other ethnographic approaches to digital media. Rather, it
+follows decades of developments in digital ethnography, in which “fabrication” has been discussed as
+an ethical strategy (Markham, 2012) prefiguring synthesis, and shaking the black boxes of algorithmic
+systems has been recognized as a generative practice (Diakopoulos, 2015). In this article, we have
+illustrated our proposal through three case studies, each developing a different field device: Gabriele
+de Seta’s experimentation with deepfake models in the Chinese context demonstrates how creative
+participation in communities of practice can become an ethnographic probe; Matti Pohjonen’s
+long-term exploration of text-to-image systems through an iconic media event in African history
+evidences the role of generative models as archives of traces; Aleksi Knuutila’s speculative modelling
+project of generating street views of London guided by socioeconomic indices proves that latent
+spaces can be repurposed into walkable spaces for collaborative interpretation. These three case
+studies are not an exhaustive inventory of synthetic ethnography – rather, we expect others to
+develop their own field devices inspired by the methods of the model and responding to rapidly
+changing technologies and techniques.
+Figure 5. Four images generated by Stable Diffusion following the prompt “Polish-British anthropologist
+Bronisław Malinowski sitting with Trobriand Islanders” in July 2023.
+To conclude, we circle back to the first illustration of this article: one of the most iconic
+representations of ethnographic fieldwork, a photograph of anthropologist Bronisław Malinowski
+sitting with Trobriand Islanders, likely shot by pearl trader Billy Hancock sometime in 1917 or 1918,
+which we processed through the DeepDream algorithm released by Google one century later. In a
+sense, not much has changed in the politics of ethnographic image production: a white
+anthropologist centered among unnamed natives, an uncredited photographer, and unmarked
+representational politics. This image is also likely to have ended up in the training sets of multiple
+generative AI models, skewing what prompts like “anthropologist” or “ethnographic fieldwork” will
+output in the future [Fig. 5]. And yet, the algorithmic logics of generative AI and synthetic media
+throw a spanner in the work of ethnographers. One of the few mentions of “synthetic ethnography”
+in academic literature is found in Tobias Rees’s book After Ethnos, where he discusses Malinowski’s
+ethnographic proposal vis-à-vis Radcliffe Brown’s abstract functionalism:
+Malinowski likened anthropology to the arts – the challenge was to immerse oneself in the
+everyday life of a particular group; to discover, by way of attending to their conversations and
+habits, the “underlying ideas” that structure the natives’ lives; and to then learn how to
+vividly describe, as a novelist describes (as a painter paints) the life of the primitive [sic] in
+such a way that the underlying ideas are rendered visible in the concrete — without rescue
+into the abstraction. (Rees, 2018, p. 79)
+Reed cites German anthropologist Fritz Kramer, who in a 1977 volume “suggested that Malinowski’s
+‘synthetic ethnography’ was reminiscent of Picasso’ s cubism” (p. 141). Over a century of
+ethnographic research, the aesthetic referents have changed, and today’s generative AI models might
+be seen as producing outputs that are more surrealist than cubist, but our provocation still stands:
+synthesis, rather than abstraction, affords generative ways to make underlying structures visible, and
+it is up to qualitative researchers to experiment with it.
+References
+Abidin, C., & de Seta, G. (2020). Private messages from the field: Confessions on digital ethnography
+and its discomforts. Journal of Digital Social Research, 2(1), 1–19.
+https://doi.org/10.33621/jdsr.v2i1.35
+Bail, C. A. (2023). Can generative AI improve social science research? (rwtzs). SocArxiv.
+https://doi.org/10.31235/osf.io/rwtzs
+Bajohr, H. (2023). Dumb meaning: Machine learning and artificial semantics. IMAGE, 37(1), 58–70.
+https://doi.org/10.1453/1614-0885-1-2023-15452
+Beer, D. (2009). Power through the algorithm? Participatory web cultures and the technological
+unconscious. New Media & Society, 11(6), 985–1002.
+https://doi.org/10.1177/1461444809336551
+Bjerre-Nielsen, A., & Glavind, K. L. (2022). Ethnographic data in the age of big data: How to compare
+and combine. Big Data & Society, 9(1), 1–6. https://doi.org/10.1177/20539517211069893
+Blackwell, A. F. (2021). Ethnographic artificial intelligence. Interdisciplinary Science Reviews, 46(1–2),
+198–211. https://doi.org/10.1080/03080188.2020.1840226
+Boellstorff, T. (2008). Coming of age in Second Life: An anthropologist explores the virtually human.
+Princeton University Press.
+Bolter, J. D. (2023). AI generative art as algorithmic remediation. IMAGE, 37(1), 195–207.
+https://doi.org/10.1453/1614-0885-1-2023-15472
+Bourriaud, N. (2002). Relational aesthetics (S. Pleasance & F. Woods, Trans.). Les Presses du Réel.
+Burns, R., & Wark, G. (2020). Where’s the database in digital ethnography? Exploring database
+ethnography for open data research. Qualitative Research, 20(5), 598–616.
+https://doi.org/10.1177/1468794119885040
+Carter, R. (2023). Machine visions: Mapping depictions of machine vision through critical image
+synthesis. Open Library of Humanities.
+Cellard, L. (2022). Algorithms as figures: Towards a post-digital ethnography of algorithmic contexts.
+New Media & Society, 24(4), 982–1000. https://doi.org/10.1177/14614448221079032
+Christin, A. (2020). The ethnographer and the algorithm: Beyond the black box. Theory and Society,
+49(5–6), 897–918. https://doi.org/10.1007/s11186-020-09411-3
+Coleman, E. G. (2010). Ethnographic approaches to digital media. Annual Review of Anthropology,
+39(1), 487–505. https://doi.org/10.1146/annurev.anthro.012809.104945
+Criado, T. S., & Estalella, A. (Eds.). (2023). An ethnographic inventory: Field devices for anthropological
+inquiry. Routledge. https://doi.org/10.4324/9781003253709
+Crowson, K., Biderman, S., Kornis, D., Stander, D., Hallahan, E., Castricato, L., & Raff, E. (2022).
+VQGAN-CLIP: Open domain image generation and editing with natural language guidance
+(arXiv:2204.08583). arXiv. http://arxiv.org/abs/2204.08583
+Dalsgaard, S. (2016). The ethnographic use of Facebook in everyday life. Anthropological Forum,
+26(1), 96–114. https://doi.org/10.1080/00664677.2016.1148011
+Deleuze, G. (1986). Foucault. Minneapolis: University Of Minnesota Press.
+Denton, E., Hanna, A., Amironesei, R., Smart, A., & Nicole, H. (2021). On the genealogy of machine
+learning datasets: A critical history of ImageNet. Big Data & Society, 8(2), 1–14.
+https://doi.org/10.1177/20539517211035955
+Diakopoulos, N. (2015). Algorithmic accountability: Journalistic investigation of computational power
+structures. Digital Journalism, 3(3), 398–415.
+https://doi.org/10.1080/21670811.2014.976411
+Dicks, B., Coffey, A., Mason, B., & Atkinson, P. (2005). Qualitative research and hypermedia:
+Ethnography for the digital age. SAGE Publications.
+Dourish, P., & Gómez Cruz, E. (2018). Datafication and data fiction: Narrating data and narrating with
+data. Big Data & Society, 5(2), 1–10. https://doi.org/10.1177/2053951718784083
+Ervik, A. (2023). Generative AI and the collective imaginary: The technology-guided social imagination
+in AI-imagenesis. IMAGE, 37(1), 42–57. https://doi.org/10.1453/1614-0885-1-2023-15450
+Escobar, A. (1994). Welcome to Cyberia: Notes on the anthropology of cyberculture. Current
+Anthropology, 35(3), 211–231.
+Estalella, A., & Criado, T. S. (2023). Introduction: The ethnographic invention. In T. S. Criado & A.
+Estalella (Eds.), An ethnographic inventory: Field devices for anthropological inquiry (pp.
+1–14). Routledge. https://doi.org/10.4324/9781003253709
+Ferrari, F., & McKelvey, F. (2022). Hyperproduction: A social theory of deep generative models.
+Distinktion: Journal of Social Theory, 1–23. https://doi.org/10.1080/1600910X.2022.2137546
+Ford, H. (2014). Big Data and Small: Collaborations between ethnographers and data scientists. Big
+Data & Society, 1(2), 1–3. https://doi.org/10.1177/2053951714544337
+Forsythe, D. E. (2001). Studying those who study us: An anthropologist in the world of artificial
+intelligence (D. J. Hess, Ed.). Stanford University Press.
+Gillespie, T. (2014). The relevance of algorithms. In T. Gillespie, P. J. Boczkowski, & K. A. Foot (Eds.),
+Media technologies: Essays on communication, materiality, and society (pp. 167–193). MIT
+Press.
+Gray, P. A. (2016). Memory, body, and the online researcher: Following Russian street demonstrations
+via social media. American Ethnologist, 43(3), 500–510. https://doi.org/10.1111/amet.12342
+Helmond, A. (2015). The Platformization of the Web: Making Web Data Platform Ready. Social Media
++ Society, 1(2). https://doi.org/10.1177/2056305115603080
+Hine, C. (2000). Virtual ethnography. SAGE Publications.
+Hjorth, L., Horst, H., Galloway, A., & Bell, G. (Eds.). (2017). The Routledge companion to digital
+ethnography. Routledge.
+Ito, M. (1996). Theory, method, and design in anthropologies of the Internet. Social Science Computer
+Review, 14(1), 24–26.
+Jumper, J., Evans, R., Pritzel, A., Green, T., Figurnov, M., Ronneberger, O., Tunyasuvunakool, K., Bates,
+R., Žídek, A., Potapenko, A., Bridgland, A., Meyer, C., Kohl, S. A. A., Ballard, A. J., Cowie, A.,
+Romera-Paredes, B., Nikolov, S., Jain, R., Adler, J., … Hassabis, D. (2021). Highly accurate
+protein structure prediction with AlphaFold. Nature, 596(7873), 583–589.
+https://doi.org/10.1038/s41586-021-03819-2
+Kitchin, R. (2017). Thinking critically about and researching algorithms. Information, Communication
+& Society, 20(1), 14–29. https://doi.org/10.1080/1369118X.2016.1154087
+Kolkman, D. (2022). The (in)credibility of algorithmic models to non-experts. Information,
+Communication & Society, 25(1), 93–109. https://doi.org/10.1080/1369118X.2020.1761860
+Kozinets, R. V. (2010). Netnography: Doing ethnographic research online. SAGE Publications.
+Kuntsman, A. (2004). Cyberethnography as home-work. Anthropology Matters Journal, 6(2).
+http://www.anthropologymatters.com/index.php/anth_matters/article/view/97/191
+Lamerichs, N. (2023). Generative AI and the next stage of fan art. IMAGE, 37(1), 165–178.
+https://doi.org/10.1453/1614-0885-1-2023-15468
+Lange, A.-C., Lenglet, M., & Seyfert, R. (2019). On studying algorithms ethnographically: Making sense
+of objects of ignorance. Organization, 26(4), 598–617.
+https://doi.org/10.1177/1350508418808230
+Light, B., Burgess, J., & Duguay, S. (2018). The walkthrough method: An approach to the study of apps.
+New Media & Society, 20(3), 881–900. https://doi.org/10.1177/1461444816675438
+Luccioni, A. S., Akiki, C., Mitchell, M., & Jernite, Y. (2023). Stable bias: Analyzing societal
+representations in diffusion models (arXiv:2303.11408). arXiv.
+http://arxiv.org/abs/2303.11408
+Markham, A. N. (2012). Fabrication as ethical practice: Qualitative inquiry in ambiguous Internet
+contexts. Information, Communication & Society, 15(3), 334–353.
+https://doi.org/10.1080/1369118X.2011.641993
+Michos, K. (2023). AI in scientific imaging: Drawing on astronomy and nanotechnology to illustrate
+emerging concerns about generative knowledge. IMAGE, 37(1), 165–178.
+https://doi.org/10.1453/1614-0885-1-2023-15468
+Miller, A. I. (2020, July 1). DeepDream: How Alexander Mordvintsev excavated the computer’s hidden
+layers. The MIT Press Reader.
+https://thereader.mitpress.mit.edu/deepdream-how-alexander-mordvintsev-excavated-the-c
+omputers-hidden-layers/
+Miller, D., & Slater, D. (2000). The Internet: An ethnographic approach. Berg.
+Mordvintsev, A., Olav, C., & Tyka, M. (2015, June 17). Inceptionism: Going deeper into neural
+networks. Google Research.
+https://ai.googleblog.com/2015/06/inceptionism-going-deeper-into-neural.html
+Morris, J. W., & Murray, S. (Eds.). (2018). Appified: Culture in the age of apps. University of Michigan
+Press.
+Munk, A. K. (2023, May 8). Coming of age in Stable Diffusion. Anthropology News.
+https://www.anthropology-news.org/articles/coming-of-age-in-stable-diffusion/
+Nardi, B. A. (2010). My life as a Night Elf priest: An anthropological account of World of Warcraft. The
+University of Michigan Press.
+Offert, F. (2023). On the concept of history (in foundation models). IMAGE, 37(1), 121–134.
+https://doi.org/10.1453/1614-0885-1-2023-15462
+Offert, F., & Phan, T. (2022). A sign that spells: DALL·E 2, invisual images and the racial politics of
+feature space (arXiv:2211.06323). arXiv. http://arxiv.org/abs/2211.06323
+Oppenlaender, J. (2022). A taxonomy of prompt modifiers for text-to-image generation
+(arXiv:2204.13988). arXiv. http://arxiv.org/abs/2204.13988
+Pipkin, E. (2020, July). On lacework: Watching an entire machine-learning dataset. Unthinking
+Photography. https://unthinking.photography/articles/on-lacework
+Pohjonen, M. (2005). Injera Westerns: Bedtime Stories for the Masses. Self-published, Blurb.
+https://www.blurb.co.uk/b/6277642-injera-westerns
+Rees, T. (2018). After ethnos. Duke University Press.
+Ritter, C. S. (2022). Rethinking digital ethnography: A qualitative approach to understanding
+interfaces. Qualitative Research, 22(6), 916–932.
+https://doi.org/10.1177/14687941211000540
+Roberge, J., & Castelle, M. (2021). Toward an end-to-end sociology of 21st-century machine learning.
+In J. Roberge & M. Castelle (Eds.), The cultural life of machine learning: An incursion into
+critical AI studies (pp. 1–29). Palgrave Macmillan. https://doi.org/10.1007/978-3-030-56286-1
+Rogers, R. (2013). Digital methods. MIT Press.
+Rosa, F. R. (2022). Code ethnography and the materiality of power in internet governance. Qualitative
+Sociology, 45(3), 433–455. https://doi.org/10.1007/s11133-022-09517-3
+Salvaggio, E. (2023). How to read an AI image: Toward a media studies methodology for the analysis
+of synthetic images. IMAGE, 37(1), 83–89. https://doi.org/10.1453/1614-0885-1-2023-15456
+Schuurman, N. (2008). Database ethnographies using social science methodologies to enhance data
+analysis and interpretation. Geography Compass, 2(5), 1529–1548.
+https://doi.org/10.1111/j.1749-8198.2008.00150.x
+Seaver, N. (2017). Algorithms as culture: Some tactics for the ethnography of algorithmic systems. Big
+Data & Society, 4(2), 1–12. https://doi.org/10.1177/2053951717738104
+Siarohin, A., Lathuilière, S., Tulyakov, S., Ricci, E., & Sebe, N. (2020). First order motion model for
+image animation. Advances in Neural Information Processing Systems 32 (NeurIPS 2019),
+1–20. http://arxiv.org/abs/2003.00196
+Vimpari, V., Kultima, A., Hämäläinen, P., & Guckelsberger, C. (2023). “An adapt-or-die type of
+situation”: Perception, adoption, and use of text-to-image-generation AI by game industry
+professionals (arXiv:2302.12601). arXiv. http://arxiv.org/abs/2302.12601
+Virilio, P. (1994). The vision machine (J. Rose, Trans.). Indiana University Press.
+Wasielewski, A. (2023). “Midjourney can’t count”: Questions of representation and meaning for
+text-to-image generators. IMAGE, 37(1), 71–82.
+https://doi.org/10.1453/1614-0885-1-2023-15454
+Wilde, L. R. A. (2023). Generative imagery as media form and research field: Introduction to a new
+paradigm. IMAGE, 37(1), 6–33. https://doi.org/10.1453/1614-0885-1-2023-15446
+Woolgar, S. (1985). Why not a sociology of machines? The case of sociology and artificial intelligence.
+Sociology, 19(4), 557–572. https://doi.org/10.1177/0038038585019004005
+Zhang, S., Zhao, B., & Ventrella, J. (2018). Towards an archaeological-ethnographic approach to big
+data: Rethinking data veracity. Ethnographic Praxis in Industry Conference Proceedings,
+2018(1), 62–85. https://doi.org/10.1111/1559-8918.2018.01197
+Ziewitz, M. (2016). Governing algorithms: Myth, mess, and methods. Science, Technology, & Human
+Values, 41(1), 3–16. https://doi.org/10.1177/0162243915608948

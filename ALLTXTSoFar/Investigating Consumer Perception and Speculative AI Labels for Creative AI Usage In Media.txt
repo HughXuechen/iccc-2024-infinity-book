@@ -1,0 +1,2413 @@
+Degree Project in the Field of Technology and the Main Field of Study Media Management
+Second cycle, 30 credits
+Investigating Consumer
+Perception and Speculative AI
+Labels for Creative AI Usage In
+Media
+ASWATH SIVAKUMARAN
+Stockholm, Sweden, 2023
+Investigating Consumer Perception and Speculative AI Labels
+for Creative AI Usage In Media
+ASWATH SIVAKUMARAN
+Master’s Programme, Media Management, 120 credits
+Date: October 24, 2023
+Supervisor: Petra Jääskeläinen
+Examiner: Anders Hedman
+School of Electrical Engineering and Computer Science
+Swedish title: Undersökning av konsumentuppfattning och spekulativa AI-märkningar för kreativ
+AI-användning i media.
+Investigating Consumer Perception and Speculative AI Labels for Creative
+AI Usage In Media
+ASWATH SIVAKUMARAN
+The growing importance of Creative AI and its uncertain impact on people necessitates more research. Current
+studies mainly focus on technical aspects, neglecting consumer perspectives. This study seeks to explore consumer
+perceptions of Creative AI in consumer media and introduces speculative labeling as a potential solution to empower
+consumer choice. Through Content Analysis of 32 Creative AI tools and a survey of 40 respondents, insights on
+AI’s value, potential job displacement, and the need for AI usage disclosure emerged. These findings informed a
+workshop with 7 participants using the newly proposed N-Speculation method and uncovered consumers’ bias against
+AI but indifference toward creators. Factors like cost, quality, and the creator (AI or Human) affect purchase decisions.
+Consumers favor labeling with clear pictograms and detailed AI usage information. These findings advance our
+understanding of consumer preferences and highlight the need for more consumer-centric Creative AI research. This
+research underscores the importance of education, addressing bias, and supporting the growth of Creative AI for all
+stakeholders.
+SAMMANFATTNING
+Den ökande betydelsen av Kreativ AI och dess osäkra inverkan på människor kräver ytterligare forskning. Nuvarande
+studier fokuserar främst på tekniska aspekter och försummar konsumentperspektivet. Denna studie syftar till att utforska
+konsumentens uppfattning av Kreativ AI i konsumentmedier och presenterar spekulativa märkningar som en potentiell
+lösning för att stärka konsumentens val. Genom innehållsanalys av 32 Kreativ AI-verktyg och en enkät bland 40
+respondenter framkom insikter om Kreativ AI:s värde, potentiell arbetsdislokation och behovet av information om
+AI-användning. Dessa resultat utgjorde grunden för en workshop med 7 deltagare som använde den nyligen föreslagna
+N-Speculation-metoden och avslöjade konsumentens fördomar mot AI men likgiltighet gentemot skapare. Faktorer
+som kostnad, kvalitet och skapare (AI eller människa) påverkar köpbesluten. Konsumenten föredrar märkningar
+med tydliga piktogram och detaljerad information om AI-användningen. Dessa resultat fördjupar vår förståelse av
+konsumentpreferenser och understryker behovet av mer konsumentcentrerad forskning om Kreativ AI. Denna forskning
+betonar betydelsen av utbildning, att hantera fördomar och att stödja tillväxten av Kreativ AI för alla intressenter.
+CCS Concepts: • Computing methodologies → Artificial intelligence; • Human-centered computing → Empirical studies in
+HCI; HCI theory, concepts and models.
+Keywords: Creative AI, Speculative Design Thinking, Consumer Perception, Consumer Choice, Consumer Labeling, Near-future
+Speculation
+Nyckelord: Kreativ AI, Spekulativt Designtänkande, Konsumentuppfattning, Konsumentval, Konsumentmärkning, Spekulation om
+nära framtiden
+Author’s address: Aswath Sivakumaran, aswaths@kth.se, KTH Royal Institute of Technology, School of Electrical Engineering and Computer Science,
+Stockholm, Sweden, SE 100 44.
+Document date: October 24, 2023
+Swedish title: Undersökning av konsumentuppfattning och spekulativa AI-märkningar för kreativ AI-användning i media.
+© 2023 Copyright held by the author.
+1
+Aswath Sivakumaran
+1
+INTRODUCTION
+There are a few different positions on the spectrum of how Creative AI v. human creatives will play out: On the more
+technocentric end of the spectrum AI takes over and creativity is no longer an activity exclusive to humanity; on the
+more anthropocentric end, Creative AI is seen as just a fad, creativity is innately human [59], and any attempts to
+sever such a bond is a foolish endeavor1. However, more realistically, the future of creativity and AI lies somewhere in
+between: AI becomes the next big tool that enhances human creativity through disruptive technological means, where
+AI acts as more of a tool or colleague for co-creation rather than a full-out replacement of their human alternative.
+Early examples of this can already be seen in a multitude of areas and content types where Creative AI has been
+used in Hollywood productions [74], high budget TV shows [42, 60], a Netflix short-film [6], magazine covers for
+Cosmopolitan [49] and The Economist [80], large scale marketing campaigns [13, 19], imitating the song style of
+well-known music artists [2, 52], reading the news in place of newscasters on live TV [65], published academic papers
+[58, 61, 67], and comic books [40] (to name a few). While these uses of Creative AI may either be assistive to human
+creators or have unmatured outputs while used in isolation, it is important to note that this is only the beginning of
+such a technology, or in other words, this is the least technologically capable Creative AI will ever be. While none
+of the above uses of Creative AI have had any substantial social backlash, the use of Creative AI is a mixed bag. For
+example, in February of 2023, Clarkesworld2 had to stop accepting submissions due to a large influx of AI-created
+stories [3, 43]. Similarly, multiple online art community websites have completely banned AI-generated art from being
+hosted on their platforms after artists dissented against the presence of AI-created art [8, 87]; However, there has been
+no widely reported uproar among consumers of such media that has used Creative AI.
+Further, despite the plethora of studies surrounding the more technical aspects of Creative AI, research has seldom
+focused on consumerist aspects of Creative AI. The few studies surrounding people (let alone consumers) are often
+focused on the broader studies of perception, creating art with AI, or the legal/ethical/moral or similar aspects. As seen
+above, there are already various areas where AI has been used in mainstream media, from web articles to high-budget
+TV shows. This means that consumers are now going to be thrust into an era of products that they would spend their
+money on without knowing or even understanding the implications they might bring. Similar to consumers choosing
+organic food, produce that treats farmers ethically, or high energy efficiency electronics, consumers are often big
+decision makers that can move and demand that companies follow policies that are in line with their values (such as
+eco-friendly or pro-LGBTQ). However, it is currently unknown what might these values be, or in other words, what do
+consumers think about Creative AI? However, simply knowing these perceptions is only half as good if we do not know
+what to do with this data and how it could be used to positively affect the stakeholders targeted by this study. Thus, this
+thesis seeks to be a preliminary study on the perception of Creative AI on consumers and, using those understandings,
+aims to provide a route towards furthering consumer choice and education through AI labels.
+This thesis attempts to fulfill the above research goals by first reviewing the relevant literature. The background
+section sets up definitions of important keywords: Creativity, Artificial Intelligence, Creative AI, and Consumers,
+and also reviews the existing literature surrounding consumers within the context of Creative AI. As this thesis looks
+to AI labels as a possible solution, the background section also investigates consumer labeling more broadly and uses
+those generalized insights to establish AI labels as an appropriate solution and inform their designs used during later
+methods of data collection. Three methods were followed to collect data and validate hypotheses; A content analysis of
+32 widely available Creative AI tools was performed to understand the capabilities and relevant properties of existing
+1The terms "dystopia" and "utopia" were initially considered. However, the use of these terms has been rescinded as they view Creative AI from a lens of
+extreme desirability/undesirability. This paper seeks to serve as, and recommends future studies to be, an unbiased work of academia aimed at furthering
+research rather than tilting the scales of acceptance.
+2A science-fiction magazine that publishes short stories. Anyone can submit stories through their website and receive payments for accepted submissions.
+2
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+AI tools. This content analysis provided insights into how AI could change the creative landscape, such as establishing
+if Creative AI can only be assistive or full replacements or replace only some jobs/tasks usually allocated to humans.
+The content analysis was used to design a survey questionnaire that was used to collect information about consumer
+perceptions. General consumer perceptions and attitudes were established and revealed a mostly confused yet curious
+population. Further, the survey also established the usage of labels (or declarations in general) for media that uses
+Creative AI (both digital and physical) as not only a viable but an essential request by consumers. In the second phase
+of this study, an N-Speculative workshop will be used (1) to validate the perceptions and attitudes obtained during
+the survey and obtain more qualitative data, and (2) to generate label designs through co-speculation to understand
+what elements consumers would like to find in such label designs. The data obtained from the workshop was analyzed
+using thematic analysis (for the discussions) and content analysis (for the label designs). The workshop provided
+further understanding (and validation) of the survey data and dove deeper into the fears, indifference, and curiosities of
+the participants; the co-speculation activity provided label designs that showed that above all else, consumers want
+pictograms for easy understanding, and want to be provided information on how Creative AI was used, to understand
+how the media consumed would align with their [still developing] morals and personal ethics.
+2
+BACKGROUND
+This section of the thesis reviews existing and relevant literature and sets up definitions that will set the scope and
+delimitations of this study. A review of the background literature shows that most studies currently are focused on the
+technical aspects of Creative AI and not so much on how it affects people. The background section also covers the
+two important definitions of this paper: Creative AI and Consumer. These definitions are not built out of thin air but
+are derived from logically assembling ideas and definitions from various literature. This section also introduces the
+relevant literature on speculative design that will be used to establish the newly proposed method of N-Speculation in
+the next section (sec. 3).
+2.1
+Definitions
+Across scientific literature, there exists vast disputes and postulations of definitions. Such semantic dissonance often
+leads to disagreements, not over the actual subject matter, but over misunderstandings [53]. Thus, key terms are defined
+prior to the discussion of the subject matter.
+2.1.1
+Artificial Intelligence. There exist a plethora of definitions for what constitutes AI [25, 47]. The most widely
+accepted (or recognized) definition of these is often attributed to Marvin Minsky3 [23]:
+The performance of tasks, which, if performed by a human, would be deemed to require intelligence.
+This definition is chosen as the basis for defining AI in this project due to (i) it’s non-reliance on the technical aspects
+of AI, (ii) being broadly accommodating of various ideas, (iii) wide acceptance in the academic community [23], (iv)
+it’s suitable congruence with Creative AI, and (v) it’s congruence with the definition of creativity used in this project
+(2.1.2).
+2.1.2
+Creativity. Just as with AI, the definition of creativity has eluded a general consensus, altering its perspective
+to suit the relevant study [85]. Taking a similar approach to locating a definition of AI, the most common definitions of
+creativity and their respective uses were studied [12, 85]. From these, the most widely accepted and suitable definition
+[15] was identified:
+3Though this definition is widely attributed to Marvin Minsky, the source of this definition is unclear [86].
+3
+Aswath Sivakumaran
+Creativity is the ability to come up with ideas or artifacts that are new, surprising, and valuable. ‘Ideas’
+here include concepts, poems, musical compositions, [...] and so on. ‘Artefacts’ include paintings,
+sculptures, steam engines, [...] – and many other things you can name.
+This definition is highly suitable due to its characteristics of (i) not specifying a particular creator viz. the creator
+does not have to be human, (ii) not imposing strict criteria on who or what is creative, and (iii) approaching creativity
+from the angle of ideas and products (cf. "Artefacts"), i.e., outputs. These outputs can also more broadly include the
+outputs of generative AI such as AI art, AI generated textual content, AI video scenes, etc. Further, this definition also
+provides appropriate criteria for what constitutes creativity: new, surprising, and valuable; "New" here can seem to
+mean anything that was not previously created, "Surprising" here means that the artifact is in some way surprising, for
+example, due to the way it was created, how it was created, or due to an abstract and non-discernible reason; "Valuable"
+here means that the artifact has some value. This "value" can be financial, sentimental, culturally important, or any
+other such value.
+2.1.3
+Creative AI. Using the definitions of AI and Creativity listed in sections 2.1.1 and 2.1.2 respectively, we
+may appropriately splice them together to generate a usable definition of Creative AI. Looking at the definition of AI,
+the word "tasks" can conveniently be assumed to include (as a subset) "creative tasks" and replace intelligence with
+"Creativity"4 to better suit the needs of this project. Now, the keyword "Creative" can be defined using the selected
+definition of creativity, and organically arrive at a definition of Creative AI:
+The performance of tasks to generate outputs which, if performed by a human, would be deemed to require
+Creativity5, where Creativity is defined as the ability to come up with or generate, ideas or artifacts that
+are new, surprising, and valuable e.g. concepts, poems, musical compositions, art, film, or computer
+code.
+2.1.4
+Who Is A Consumer? Just as with the previous definitions, this core term also requires some definitions to
+be set up. Unlike the above terms though, there does not appear to be much discussion on the attempting to define
+what consumer means or encompasses. In a dictionary, "consumer" is defined simply as "one that consumes" [57]. A
+similar sentiment is reflected in the literature [88] where the lack of definition (s) often lands on authors settling for a
+general definition based on the wider literature [36] or one that is specific to the respective paper or study. This study
+takes the latter approach as the semantics of the word are outside the study scope, while the need for a definition is
+necessary for providing the required context to successfully study the subject matter and successfully interpret the
+results. Thus, in this paper consumer is defined as:
+An individual who consumes media content (simply media hereon) by paying for media through a
+monetary-based transaction (money for media), including but not limited to, purchasing physical/digital
+media through a one-time purchase, paying a monthly subscription, or using an ad-supported service
+where the individual is presented with an advertisement that temporarily halts consumption.
+From the above definition, it can be questioned what "consumption" refers to. Hence, the opportunity is taken to also
+define consumption as:
+4While it is still widely debated if creativity and intelligence are in any way correlated [12, 26], such an exploration is outside the scope and requirements
+of this project. Additionally, since "Artificial" and "Intelligence" are not being discussed in isolation but rather as a singular term, creativity and
+intelligence can be interchanged.
+5Creativity (and by extension Creative, Creation) has been used with an uppercase "C" to indicate that this refers to the definition provided in the paper
+and differentiate it from the dictionary noun which has also been used in relevant places. The use of the uppercase "C" also subscribes to the notation of
+artificial intelligence as AI (in uppercase letters).
+4
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+The act of experiencing media either, actively or passively, including but not limited to, listening to vinyl
+actively, listening to music in the background while performing a different main task, streaming a movie,
+reading a book, playing a video game, reading an article, etc.
+2.1.5
+Critical Reflection On Definitions’ Impact On Study Framing. While the various advantages of these
+definitions are provided in the terms’ respective sections, this section provides some critical perspectives and limitations
+on the use of these definitions, to complement and complete the construction of these terms. Similar to any definitions
+found across literature, these definitions will also be subject to interpretation, introspection, and criticism. For example,
+it might be argued that using Minsky’s definition of AI might be too simplistic since there is no measurement of
+what constitutes intelligence, which leads to a situation where the study does not take a clear stance on the nature
+of intelligence; it may then be argued by some that, by their own definitions of intelligence, Creative AI cannot be
+intelligent (or creative). Beyond an acknowledgement, this study is not concerned in exploring of these potential
+drawbacks since the provided definitions provide enough context for the study activities to be performed and the results
+to be interpreted. However, these arguments are welcomed as they advance not just the Creative AI research, but also
+adjoining areas such as creativity research and semantics.
+2.2
+Consumerism And Creative AI
+Creative AI has been around for almost a decade [18], though it entered into the mainstream public discourse only
+around 2022 [31] and sparked major discussions about art [7], creativity [7, 45], and its impact on creatives [7, 24].
+While these discussions are far from conclusive, the academic literature has been lacking in the context of the impact
+that such technology creates on people. Outside of technical studies, most people-focused literature centers around
+perception of AI generated art [29, 34, 39, 59, 62, 69], the enhancement of creative efforts using AI [5, 41, 48, 50, 51],
+or explorations of legal areas such as copyright or ownership [32, 54]. The sparsity of literature that persists indicates
+that efforts have seldom taken place to understand the direct impact of this emerging technology on the various
+stakeholders. While some stakeholders have received some research recognition, for example, Twitter users [38],
+various creative professionals [51, 62] and non-creative professionals [30, 89], research around some stakeholders,
+such as consumers, is largely absent. Consumers are an extremely vital part of not just free markets, but also of the
+same creative industries that are being affected by creative AI: consumer demand and choice dictate, the price, quality,
+quantity, type, etc. of various creative products and endeavors. Given the lack of research surrounding Creative AI and
+consumerism, this study attempts to provide preliminary insights on the subject matter. Further, with "consumerism"
+being a wide field of study, focus is placed on consumer choice, specifically an explorative overview of the attitudes of
+consumers on the use of Creative AI in the products or content they purchase or consume.
+2.3
+AI And The Need For Informed Consumer Choice
+Current research shows a clear perception bias against AI-generated content: people are more likely to favor works
+created by humans [34, 69]. However, research also shows that humans cannot tell apart AI-generated content from
+human-made content [29, 34, 73]. Based on this dichotomy it is fair to assume that consumers might want to know
+if AI was used in the products they purchased. Providing consumers with information that enables them to make
+choices is not new. Labeling has been chosen for this project as labels, such as eco-labeling, have shown to significantly
+affect consumer choice [14, 78]. Nutrition labels, eco-labels, ingredient lists, country of origin, parental ratings, and
+region numbers for DVDs, are just some of the kinds of information provided to consumers for them to make informed
+purchase decisions. Similarly, "AI labels" would provide consumers a say in choosing to purchase AI created works
+since AI has similarly massive effects, such as for example, affecting livelihoods [30]. In fact, 2023 the EU commission
+5
+Aswath Sivakumaran
+has also floated to tech companies the idea of labeling AI-produced content [46]. It is fair to hypothesize that consumers
+might also want to be informed about AI usage. Once such speculation is accepted, questions such as the following arise:
+Would consumers have to be provided with information on whether Creative AI tools were used in the creation of a
+painting, a blog post, a YouTube video, or even clothing? What information, if any, would they like to be provided with?
+It can be seen certain organizations have already begun to take an active step to provide this kind of information; Wired
+Magazine has declared that it will disclose the use of AI-generated tools [64], CNET has created the "AI Assisted"
+declaration [37], and DeviantArt tags artwork made using generative AI [77]. While no study exists yet to determine
+if people would like to be informed about the use of Creative AI technology, the subject matter it is certainly worth
+exploring.
+2.4
+Exploring Consumer Choice Information Enhancement Through Speculative Workshops
+Speculative design aims to utilize current understandings to imagine preferable futures [27]. Speculative design has
+often been (rightly) criticized for its lack of public/stakeholder inclusion and producing showpieces meant to be
+exhibited [44]. However, this speculative design approach can be a useful to study and understand future possibilities
+when used as a tool for prediction rather than imagination and serves as a vital method for exploration, examination, or
+a reflection of these future possibilities. The power, capability, and future prominence of AI have been established
+throughout the background section; however, this study bases itself on scarce literature, and as a result, needs to obtain
+data to make these predictions as accurate as possible. Unlike other speculative studies, this study does not aim to be
+critical or produce thought experiments [11], but rather (preliminarily) provide a seamlessly continuous ’current’ and
+’future’ picture. With speculative design on one end and more traditional research-driven design on the other, there
+does not appear to be a design research method that serves a more temporally immediate purpose, viz. covering only
+probable futures rather than a range of probable to possible futures (ref. fig. 1)[21]. Thus, this study proposes a new
+design research method called Near-future Speculation (or N-Speculation) that builds on the existing foundational idea
+of speculative design [27] but is less critical, less aesthetic focused, research-oriented, employs the participatory aspect
+of co-speculation, and is more temporally immediate. Further, this speculative method seeks to anchor the outcomes in
+a more near and probable future, thereby aiming to bridge the gap between traditional design research and speculative
+design research by providing the wider scientific body with literature that can be used as traditional scientific reference
+and as design inspiration. The need for this new type of speculative design method arises because traditional speculative
+design methods are not very suited for scientific study, while traditional design research is too grounded in existing
+theory and data. N-Speculation thus provides a middle ground where speculative design allows users the freedom to
+venture beyond the problem-solution model of traditional design research, while also anchoring them to theory and data
+rather than the fantastical lands created by traditional speculation; this combination allows researchers the flexibility
+to test concepts that are not fully understood or well-studied, such as in this case consumers choice empowerment
+through AI labels. Through N-Speculation, researchers no longer need to wait for concrete scientific studies to test
+concepts and hypotheses that feel like they could work but there exists a lack of existing literature.
+While the type of approach has been critically evaluated to be N-Speculation design, a delivery method must also be
+chosen. Workshops as the method of choice for prospective and ’unstructured’ domains have been well documented
+and studied, including their use in participatory design [91]. Consumers are central to the results and future use of this
+study and are also the core stakeholders to any applications of this research; As a result, a collaborative workshop must
+be conducted where, though the researcher is in control, participants ’drive’ the workshop [20].
+6
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+Figure 1: Futures cone indicating a a range of potential futures [21].
+3
+METHODOLOGY
+This section will describe the methods in detail. Three methods were chosen, each serving as a chaining link between
+each other: Content Analysis, Survey, and N-Speculative Design Workshop. First, a brief content analysis of some
+widely available Creative AI tools will be conducted; this is done to understand the current capabilities of these AI
+tools, such as if they could replace any jobs entirely/partially. The information obtained from this will also aid in
+designing the types of labels that will be used in the survey and the design workshop. Next, a survey will be conducted
+to understand the perceptions of consumers on various aspects of Creative AI. The data from this will also be used to
+inform the creation of the speculative discussion prompts that will be used during phase 1 of the N-Speculative design
+workshop, and the questionnaires prior to the start and at the end of the workshop. Finally, the workshop will serve to
+collect data on consumer perceptions (phase 1) that can be cross-checked with the survey data and provide insights
+into the design of speculative consumer labels for AI usage.
+3.1
+Content Analysis And Survey Informing Label And Workshop Design
+The survey and content analysis both provided insights into two different perspectives on the core issues of the study,
+consumers, and AI tools (respectively). The data acquired from these two methods informed the design of the labels
+and the speculative discussion prompts to be used in the workshop. There are two sides to this study: AI and People.
+To look at each side, first, a content analysis of some well-known Creative AI tools and technology is carried out
+to understand their present capabilities and their potential future uses; then a survey was conducted based on these
+potential future capabilities to get a picture of how humans would react to these and understand how they perceived the
+various aspects of these technologies and their implied consumer use.
+3.1.1
+Content Analysis. A content analysis was performed due to its flexibility in interpreting largely unstructured
+and varied qualitative data. The following criteria were applied to select which tools would be analyzed:
+7
+Aswath Sivakumaran
+(1) Must be available to the general public either as a deployed tool, or compliable source code. Thus, tools that are, for example,
+available only to enterprise customers are not included in the analysis.
+(2) Must have been publicly and openly available (incl. no waitlists) before August 1, 2023. The excludes tools that are "coming
+soon", "closed beta", "invite only", or "early access" as these tools are still in the very early stages of development and can be
+buggy, leaving their capabilities to become improperly evaluated.
+(3) Tools must utilize Creative AI, as defined in 2.1.1. This means that AI tools such as Photoshop’s content-aware fill, automation
+tools, or tools that utilize more generic AI do not qualify.
+(4) "Embedded versions" of the same tool are counted as one tool. For example, Adobe Firefly has been integrated into Photoshop,
+so Photoshop is not counted as a separate tool. However, this does not include implementations of the underlying technology
+such as OpenAI’s GPT models.
+Understanding the capabilities of these tools will also aid in understanding how AI could change the creative
+landscape; for example, if Creative AI can only be assistive today rather than a full human replacement, or which media
+(books, music, video games, etc.) can be impacted by Creative AI in the near future and those that cannot. Such data
+from the content analysis informed the questions of the survey.
+3.1.2
+Survey Questionnaire. An online survey was conducted using an online survey tool6 to understand how
+AI Usage labels in Consumer Items influenced consumers, and the importance that they place on various parameters.
+The survey consists of 14 questions7, 8 primary questions aimed at addressing the survey goals, and 6 additional
+demographic questions to better inform the survey findings due to use of convenience sampling. The survey included a
+question where the three viable combinations discovered from the Content Analysis (ref. section 3.1.1) were included
+as types of declarations that consumers might want to see (ref. table 8 in Appendix C.2):
+∙ 100% Human Creation and AI-Free: This option indicates that no AI was used. Though presented as different
+options, they are effectively two sides of the same coin.
+∙ AI Assisted: AI has in some way helped in the creative process but not fully produced it.
+∙ AI Produced: AI has fully produced the Creation.
+Everybody can be a consumer of some creation that has, is, or going to, use Creative AI technology. This may
+include (but is not limited to) books, music, art, film, etc. Using our definition of Creativity, we can say that any work
+that satisfies that definition can be considered "Creative Work". Hence the population of such a survey will include any
+person who can consume Creative work, where consumption is in a manner appropriate to that particular work (ex.
+Watching a film is appropriate but listening to a painting may not be). Since the population of this survey is non-specific,
+non-random convenience sampling is both suitable and advantageous for being quick and open to a wide array of
+respondents [35]. The survey was distributed primarily via social media channels (LinkedIn, Instagram), online forums,
+and personal IM platforms.
+3.2
+N-Speculation Design Workshop
+A two-hour N-Speculation Design workshop was conducted to (1) determine current attitudes and perceptions of
+consumers towards Creative AI, and (2) Understand what aspects of AI Use consumers would like to be informed
+about through labels. Participants did not need to meet any specific criteria as anyone can be a consumer. Participants’
+demographics (ref. table 2) were collected to better inform the results of the workshops. The workshop consisted of 4
+phases:
+(1) Pre-Workshop Quantitative Perception Measurement: Participants were provided a 9-item questionnaire containing
+multiple choice questions that evaluated various aspects of their perception or attitude towards Creative AI. This data is
+6The tool used was QuestionPro.
+7Survey respondents reported not understanding what Question 7 meant, thus this data was discarded.
+8
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+Figure 2: Pre-Designed AI labels indicating the various states of ’AI usage’.
+collected to evaluate and compare these various aspects before and after receiving more information on the subject matter to
+see if, upon learning more, user perceptions and attitudes are altered. The questionnaire can be found in table 11 in Appendix
+D.3.
+(2) Familiarization through discussions: In this phase participants discussed their feelings, thoughts, attitudes, and perceptions
+toward various aspects of Creative AI. Participants were given a speculative discussion prompt (ref. table 10 in Appendix D.1)
+each consisting of a unique scenario that would trigger various feelings, ethical quandaries, thought experiments, etc. Prompts
+were changed when discussions died down. This phase got participants acquainted with as many viewpoints as possible to (i)
+broaden their informed decision-making for phase 3, and (ii) check if their perceptions had changed during phase 4.
+(3) Co-Speculative Label Design: During this phase participants were provided with a worksheet and the following speculative
+scenario:
+"In the year 2035 Generative8 AI use has become mainstream in all forms of media production. This has led to some
+debate in society on consumer choice. You are all designers of an organization that is tasked with designing a label
+that seeks to promote consumer choice, in a manner similar to how eco-labels empowered consumers to choose more
+eco-friendly alternatives in the 2020s."
+The above scenario is used by participants to design labels for a future where the use of Creative AI requires to be declared
+in some way. Participants were provided with 15 minutes to design their labels. Post this, participants would discuss in the
+larger group the thought process behind their label designs, and either ask/answer questions, or provide feedback to other
+participants. At the end of these discussions, participants place their worksheets at the center of the table and use the green
+voting dots to vote for the design they like the most (one vote per participant).
+(4) Post-Workshop Quantitative Perception Measurement: Participants are provided with an identical questionnaire to the
+pre-workshop session to measure any changes (if at all) in their perception of the various aspects measured in phase 1.
+3.2.1
+Label Design. Using the results from the Content Analysis and Survey Questionnaires, five labels are designed
+to be used on mockups of physical and digital media. The types of these labels were determined from the content
+analysis of the 32 AI tools. The messaging for each of the labels was based on the data from the survey, such as for
+example, the label "100% Human Creation" contained the tagline "Human creativity was valued" as a reflection of
+the sentiments echoed in the qualitative survey data. All labels were designed to primarily showcase the variety in
+aesthetics, information design, content structure, and target applications. The icons and layout used are arbitrary and
+only serve the purpose of presenting the label concepts clearly to the workshop participant. Color was purposefully
+avoided to reduce the number of variables being studied.
+8Generative AI was used here as it was more readily understood by participants in comparison to the term "Creative", though the results were still in line
+with the study definition of Creative AI.
+9
+Aswath Sivakumaran
+Label
+Short Description
+Long Description
+AI Free
+No AI was used.
+The label is circular (like a seal) with the words "AI Free" written in the
+center and the text "No AI was used" in the boundaries. No icons were
+used in this label. This label is the same as the next one below, though
+informing the consumer from a technological standpoint
+100%
+Human
+Creation
+No AI was used.
+The label is a box with the words "100% Human Creation" written in
+the top left with the icon of a human head with a heart in it. A tagline
+at the very bottom of the label reads "Human Creativity was valued"
+to indicate that this label is specifically geared towards promoting the
+ethical production of creative items and is against the replacement of
+humans by AI. This label is the same as the one above, though informing
+the consumer from a human standpoint.
+100% AI Cre-
+ation
+No
+Humans
+In-
+volved
+This label is similar to a stamp in containment and consists of a large
+robot icon in the top two-thirds of the label with the words "100% AI
+Creation" in the lower third. This label is the opposite of the previous
+two above.
+AI Produced
+Only AI has created
+this product
+The label is a box divided into two parts. The top two-thirds contain
+the title "AI Produced" and the descriptive tagline "The product was
+produced by an AI". The bottom third contains information on the AI
+"Tools" used. The label consists of no icons and has perforated edges
+simply to create aesthetic variety when presented to the workshop par-
+ticipants.
+AI-Assisted
+Both human beings
+and AI have created
+this product
+The label consists of a box divided into three parts. A full-height and
+one-fifth-width box contains an icon of a human and AI hand one above
+the other to signify a Human-AI connection. The remaining width is
+divided into two almost equal parts. The top half consists of the label title
+"AI-Assisted" and a descriptive tagline: "The creation of this product
+was assisted by AI". The remaining bottom half is dynamic and changing
+depending on the application. It consists of two lines placed vertically,
+the first indicates the "Assisted Areas" to signify what part of the product
+utilized AI, and the bottom text lists the AI "Tools" used.
+Table 1: Labels that were designed for the workshop and their descriptions.
+10
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+P.ID
+Age
+Gender
+Nationality
+Job or Profession
+Used Creative AI
+Tool
+P1
+DND1
+Female
+Sweden
+Journalist2
+Yes (ChatGPT)
+P2
+24
+Male
+India
+PhD Student
+Yes (Github
+CoPilot, ChatGPT,
+Mid Journey)
+P3
+24
+Male
+India
+Student
+Yes (ChatGPT,
+Quillbot)
+P4
+36
+Female
+Iran
+UX Researcher
+Yes (ChatGPT,
+Bing)
+P5
+27
+Male
+India
+Student
+Yes (no specifics
+provided)
+P6
+27
+Male
+India
+Student
+Yes (ChatGPT)
+P7
+36
+F
+Pakistan
+Marketing
+Automation
+Specialist
+Yes (ChatGPT,
+DALL·E)
+1 DND — Did Not Disclose
+2 This participant did not disclose their profession on the demographics sheet, but stated this during the discussion stage of the
+workshop.
+Table 2: Participants Table
+3.2.2
+Analysis Of N-Speculative Workshop Data. The data collected from the workshop was analyzed using two
+methods:
+Thematic Analysis. Qualitative data gathered during the discussion phases was analyzed using thematic analysis
+[16]. Here, the captured audio data was transcribed using Microsoft Word Online’s built-in transcription feature.
+This text was then be checked against the recordings for any errors. The transcripts were then be imported into QDA
+Miner Lite coding software. The coding process took place in two phases; first broad coding was performed to simply
+highlight important or interesting parts of the data without worrying if they fit with other codes. After this, codes were
+amalgamated to better fit into more encompassing yet well-defined codes, which were then categorized into themes.
+The textual data was revisited to ensure that all the relevant data was coded and categorized.
+Content analysis. Content analysis was performed on the labels designed by the participants. While this is less
+well-defined than thematic analysis, this analysis looked at which design elements were used, the reasonings behind
+them, the kind of information depicted, etc. to discover emerging themes.
+4
+RESULTS AND ANALYSIS
+In this section, the results obtained from (1) Content analysis of various Creative AI tools (sec. 4.1.1 - 4.1.2), (2)
+Survey of consumer perception and attitudes towards Creative AI (sec. 4.1.3 - 4.1.6), and (3) Workshop containing
+discussions to assess consumer attitudes and behavior (sec. 4.2 - 4.2.4), co-speculative activity aimed at understanding
+11
+Aswath Sivakumaran
+what consumers would like to see in AI labels (sec. 4.3), and the pre and post workshop perception comparison (sec.
+4.4), is presented.
+4.1
+Content Analysis And Survey Informing Label And Workshop Designs
+A content analysis of 32 Creative AI tools was performed. These tools were categorized according to the media
+they output, transparency, and pricing model. A list of these tools and their classifications can be found in table 5 in
+Appendix B. Post this, an online survey collected data from 40 respondents (𝑛 = 40). The demographic data of the
+participants can be found in table 6 in Appendix C.2. Questions 1-5 used a 5-point Likert scale (0-4) to measure the
+importance of various aspects. While referring to this data, negative terms are utilized for data reported as "Not at all
+important" and "Slightly important", positive terms are utilized for data reported as "Very important" and "Extremely
+important", and neutral/undecided terminologies are utilized for data reported as "Moderately important".
+4.1.1
+AI Tools Offer Capabilities In A Broad Variety Of Mediums Though In Varying Capacities. Analyzing
+the 32 chosen AI tools it can be seen that they are capable of generating images9 (𝑛𝐼 = 12), code (𝑛𝐶 = 5), text
+(𝑛𝑇 = 4), speech audio (𝑛𝑆 = 4), music (𝑛𝑀 = 3), video (𝑛𝑉 = 4), and game assets (𝑛𝐺 = 2). Looking at the tools
+it can also be seen that most tools will be used in collaboration with human creatives, though some tools, particularly
+image generators, can be used standalone and entirely replace certain creative professions (such as junior illustrators);
+Of course not using any of these tools automatically results in the work being 100% Human Creation or AI-Free.
+4.1.2
+Paid And Proprietary, Free And Open Source. Various pricing models are employed by various tools
+with the large majority (𝑛𝑃 𝑃 𝑈+𝑃 𝑇 𝑈+𝐹 𝑚 = 19) charging for use in some manner. The most widely employed pricing
+model is the freemium pricing model (𝑛𝐹 𝑚 = 10). For tools that cannot be used as a limited free version, most tools
+interestingly employed a Pay-Per-Use model instead of a Pay-To-Use model, where in the former, users are charged for
+the usage amount which may be measured by the number of "compute units", time of usage, power usage, etc. This result
+might be used to infer that the cost of development or setting up the model/tool is negligible, thus potentially making
+wide scale use of Creative AI models a feasible alternative. From table 5 (Appendix B) it can also be seen that most
+tools are closed source (𝑛𝐶𝑙 = 27) with only a small minority of tools being open source (𝑛𝑂 = 5). Comparing the
+pricing model and transparency, it can be seen that all paid tools are closed source (𝑛𝑃 𝑃 𝑈 ∪𝑛𝑃 𝑇 𝑈 ∪𝑛𝐹 𝑚 ∩𝑛𝐶𝑙 = 19).
+While this is bad for consumer transparency, it makes sense for the tools developers who would want to protect their
+market position, business, and the cost of development; however, there does not seem to be a reason why some free
+tools are closed source (𝑛𝐹 ∩ 𝑛𝐶𝑙 = 6). Information on how these tools operate is important (though not vital) to
+consumer awareness. On the flip side, the presence of free and open-source tools means that businesses can implement
+Creative AI tools in any manner they wish to see fit to their organization which, perhaps, might bring down costs
+further when compared to the already reduced cost of developing proprietary AI tools over using human creatives
+in the long term. Due to a combination of the unviability or business unsustainability of companies disclosing trade
+secrets of how their AI models operate, and how easy it is to implement these models at scale for low cost, the proposal
+of consumer labels for AI is a convenient compromise that allows companies to not disclose trade secrets while the
+consumers still receiving information that helps them make choices based on their personal choices and morals.
+4.1.3
+Consumers View Physical And Digital Media In The Same Light In The Context Of AI Usage. There
+does not appear to be much overall difference between the need for consumers to know AI use information in physical
+and digital media with a ∆¯𝑥 = 0.13 (¯𝑥𝑝ℎ𝑦𝑠𝑖𝑐𝑎𝑙 = 2.8, ¯𝑥𝑑𝑖𝑔𝑖𝑡𝑎𝑙 = 2.93) slightly in favor of digital media. This lack of
+difference was also noted during the workshop though some participants noted that they would pay less for digital art
+9Images here also refers to vectors, photographs, drawings, and similar outputs.
+12
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+created by AI such as, for example, 𝑃5: "If it’s a real painting, you can see the texture. That I’ll pay more [for]." Looking
+at the individual scores however, we can see that consumers would like to be informed about what AI tools were used
+for creation and if AI has either produced or assisted in those creations more so in digital media as when compared to
+physical media products. Interestingly when it came to finding out compensation information, on average consumers
+did not want to know this information for digital media; though the exact reason is not clear (discussed in more detail
+in 4.1.4). Further, looking at the average scores for each area investigated (Figure 4 and table 7 in Appendices C.3 and
+C.4 respectively) we can see that on average it is moderately important for consumers to know if the details of AI used
+in the creation of the media they consume/purchase. Overall, though there is some variation in what they would like to
+see and where they would like to see it, from figure 5 in Appendix C.5 it can also be seen that on average consumers
+would like to see labels in fairly equal measure on both digital and physical media.
+4.1.4
+Less Than Half Of Consumers Want To See Compensations For Loss Of Livelihoods. The survey data
+indicates that most respondents either cannot say or do not agree that livelihoods lost to AI should be compensated. In
+the survey, only 35% (𝑛𝑌 𝑒𝑠 = 14) agreed that people replaced by Creative AI systems should be compensated. While
+only 3 of the 14 respondents provided a reason (and thus nothing significant can be concluded from it), all 3 responses
+talk about the ethics/morality of the situation:
+(1) "A lot of AI is already producing materials based on humans’ work."
+(2) "People need jobs. Just something to set them up to find another job or provide training to reach new areas".
+(3) "I don’t think people should be replaced by AI at all to begin with unless it is for something that betters the planet & is overseen
+ethically by humans."
+In contrast, 20% (𝑛𝑁𝑜 = 8 responded that they would not be in favor of such compensations. When asked why,
+one respondent compared humans being replaced by Creative AI systems to painters being replaced by the invention
+of photography, or postal works to email: "Technology will always be changing the job market, why is AI different
+here?". Another respondent, who interestingly reported to be a graphic designer and was well aware of the possibility
+of being replaced by AI, also disagreed with compensations stating: "... its our responsibility to find ways to be useful
+with advancements of technology ..." adding that market conditions will cchange,and people need to adapt. Another
+respondent had a rather blunt take about the validity of impacted jobs: "If the job can be easily replaced by a few
+algorithms, then did the job really need to exist? Sounds like a people cribbing about calculators stealing jobs". However,
+the vast majority of respondents (45% or 𝑛𝐼𝐷𝐾 = 18) reported that they "don’t know". Of these 18, 10 had provided
+reasons to back up their choices. These choices can be placed into 3 groups10:
+(1) Borderline Yes: The singular response in this category indicates that though the respondent is in favor of
+compensations, they are unsure of how it would work.
+"Carbon offsetting doesn’t really work well, and I think here you also bring in the issue of proving you
+need to have lost livelihood, which is tricky. But we should not make it impossible for people to do certain
+professions that they could have done otherwise."
+(2) Borderline No:, As opposed to the previous item, the responses from this group, indicate that the respondents
+might not be in favor of compensation. While one respondent in this category reported that Creative AI systems
+are currently incapable of replacing [a significant] number of people and thus there is no need to think of
+such compensations, all 4 other respondents state that changing market conditions are a fact of technological
+advancement and AI is simply the next advancement.
+"I’m not sure how other people who get laid off due to similar circumstances would feel about only one
+genre of laid-off employees being compensated and why others are not".
+10The group counts are: 𝑛𝐵𝑜𝑟𝑑𝑒𝑟𝑙𝑖𝑛𝑒𝑌 𝑒𝑠 = 1, 𝑛𝐵𝑜𝑟𝑑𝑒𝑟𝑙𝑖𝑛𝑒𝑁𝑜 = 5, 𝑛𝐽𝑢𝑠𝑡𝑑𝑜𝑛′𝑡𝑘𝑛𝑜𝑤 = 4
+13
+Aswath Sivakumaran
+(3) Just don’t know: The remaining 4 respondents stated the complex nature of this problem and their lack of
+understanding as the reasons for choosing this option, or in other words, they really "don’t know".
+"I am not really sure of how it should work really. Ai has a lot of potential to do tasks specifically those that
+involve a linear and repetitive nature (ex accounting, reading documents). It is justified by the employer as
+it saves team sizes and costs. While an entire field of work getting obsolete for people working in it is also
+not seems right."
+Overall, there appears to be mostly negative outlook by consumers on livelihoods lost by AI, though there does not
+appear to be any conclusive evidence as to why.
+4.1.5
+Factual Transparency And Personal Connection To Media Stated As Primary Reasons For Requiring
+The Provision Of AI-Information. Question 6 asked respondents which specific content they would like to be informed
+about the use of Creative AI about; In combination with Q1 and Q2, we can get some interesting insights into future
+labeling.
+Among the largest count were sources of information, viz. Scientific literature (𝑛𝑠𝑐𝑖𝑒𝑛𝑡𝑖𝑓𝑖𝑐𝐿𝑖𝑡 = 27) and News
+articles (𝑛𝑛𝑒𝑤𝑠𝐴𝑟𝑡𝑖𝑐𝑙𝑒𝑠 = 23). It could also be argued that YouTube Videos might also qualify as sources of information
+for a lot of people and hence also might explain why it ranks the 2nd highest (𝑛𝑦𝑜𝑢𝑡𝑢𝑏𝑒 = 24); this contrasts with
+less consequential items of Review Articles (𝑛𝑟𝑒𝑣𝑖𝑒𝑤𝐴𝑟𝑡𝑖𝑐𝑙𝑒𝑠 = 21) and Blog Posts (𝑛𝑏𝑙𝑜𝑔𝑃 𝑜𝑠𝑡𝑠 = 19) as sources of
+information. With the exception of Blog Posts, Comics, Physical Art Pieces, Software Products, and Video Games,
+for every other media category at least 50% of all respondents agreed that information on Creative AI use should be
+required (ref. table 9 and figure 6 in Appendix C.4). Interestingly video games scored the lowest with only 9 respondents
+suggesting that video games be labeled with Creative AI use information, though the reason for this is not clear. The
+subjective data (10 of the 15 participants that reported) to these questions reveals that there are two main reasons why
+respondents would like to see labels:
+(1) Transparency of factual reporting/sources: The primary reason (reflected by both the count and subjective
+answers to Q6, and the workshop discussions) was to evaluate the credibility and potential biases of the content
+that they are reading. In addition, it appears that consumers are uncomfortable with the potential capabilities
+and power of AI.
+"For anything non-fiction (news article, youtube, or scientific paper) it would be useful to know if video
+footage or photographs are real or not. For art/entertainment I don’t care if its AI generated."
+(2) Personal connections: The remaining 5 respondents stated some personal reason or connection with the media
+as a reason to be informed of the use of Creative AI.
+"As a graphic designer each one of these things either i use directly in my work, or would be interesting
+enough to use myself for future opportunity..."
+These patterns were also seen during the workshop discussion where participants stated that they would not be
+comfortable with Creative AI used in sensitive areas of writing such as (in this case) media coverage of the war in
+Ukraine (ref. 4.2.1).
+4.1.6
+Labeling. When it came to what kinds of labeling consumers would like to see, a significant number of
+respondents indicated that the type of label did not matter as long as a declaration was made (𝑛𝑝ℎ𝑦𝑠𝑖𝑐𝑎𝑙 = 13, (32.5%)
+and 𝑛𝑑𝑖𝑔𝑖𝑡𝑎𝑙 = 15, (35%)). On the flip side, a very small minority of respondents reported to not care about such
+labels (𝑛𝐼𝐷𝐶(𝑝ℎ𝑦𝑠𝑖𝑐𝑎𝑙) = 9, (22.5%) and 𝑛𝐼𝐷𝐶(𝑑𝑖𝑔𝑖𝑡𝑎𝑙) = 4, (10%)).
+However, looking at the qualitative explanations, we can see that the reasons behind the respondents’ choices differed
+(overall) between physical and digital media. 21 respondents provided qualitative explanations for their choices for
+14
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+physical media, while 16 provided qualitative explanations for their choices for digital media. Of these 19 responses
+provide usable data for physical media, and 12 for digital media. Each of these responses can be grouped into categories
+(discussed below). Figure 6 and table 9 in Appendix C.4 provide the counts for each of the choices. While there were no
+discernible patterns between responses and choices made, taking a look at table 8 in Appendix C.4 it can be seen that
+while "AI Free" was the lowest picked labeling copy in both media types, when the option of "100% Human Creation"
+was provided. This could indicate that consumers value the "human spirit" higher than the lack of AI (evidenced by the
+discussion below under "The Human Aspect").
+Reasons Respondents Wanted To See Labels On Physical Media. Participants responses can be grouped into 4 major
+reasons for wanting to see physical media labeled with AI-related declarations: Monetary Factors, Curiosity, The
+Human Aspect, and Consumer Choice. A majority of responses (7 of 19), indicated curiosity where respondents
+were more interested in finding out how the media was produced, what tools contributed to their making, or just a
+general interest in AI.
+"I’m interested in AI, and seeing such labels would possibly make me more interested in product."
+4 of the 19 responses indicated that labeling was important as they would like to understand what happens to the human
+being replaced by AI. Their responses were thus either empathetic towards human workers and/or negatively directed
+towards corporations.
+"It is important that people use their brains & hand to eye coordination skills. It is also important we
+have ethics around the use of AI. People are becoming more greedy & less empathetic, the over use of AI
+does not help this, People need jobs."
+3 out of 19 responses indicated that they would like labels to be provided as it would enable transparency and empower
+their decision-making as consumers while purchasing physical media.
+"Creates a sense of trust and transparency about what I am being offered".
+Though only a singular respondent provided money as a factor for their choice, it is interesting to see that consumers
+might base their spending choices on whether a product was made by AI or a human being. This finding could perhaps
+be related to the handmade effect discussed in 4.2.3.
+"If its AI made then I would expect it to be a bit cheaper".
+Reasons Respondents Wanted To See Labels On Digital Media. Participants responses can be grouped into 3 major
+reasons for wanting to see digital media labeled with AI-related declarations: Curiosity, The Human Aspect, and
+Trustworthiness. Similar to physical media above, curiosity was the most provided reason (5 of 12) with similar
+reasons of knowledge and interest.
+"Interesting to see how much AI been used in digital content".
+While The Human Aspect is a category just as with physical media, the reasons, however, differ. With physical media
+the reasons were more empathetic towards the conditions of human workers, in digital media the responses indicated
+empathy towards the work (media) instead, viz. towards the soul of the creation. A similar reason was heard during the
+workshop discussions discussed in 4.2.3.
+"Depends on the content being consumed but imo, in most cases the involvement of a human imparts
+certain value to the final content through their experiences and stuff... which is not necessarily true for ai
+stuff which can only try and emulate it. The additional context of who the creator is, holds value to me."
+"I want to know if content is original human thought or a compilation of data that may have questionable
+sources".
+15
+Aswath Sivakumaran
+Reasons Respondents Did Not Care About Such Labels. It is also of interest to look at the reasons provided by
+respondents (1 for digital, 4 for physical) for why they did not care about such labels. One respondent said that
+they were against "any kind of mandatory labeling system" for both digital and physical media. They stated that:
+"Existing certifications like UL and FCC already pose a large financial barrier for small companies and independent
+developers...Adding additional mandators certifications only makes that problem worse."; However, the same respondent
+was "in favor of regulations that define what labels like AI-Free and AI-Produced actually mean so that the labels can
+be useful to consumers if the manufacturer chooses to put them on a product." Taken at face value then, this statement
+can be interpreted as the respondent in favor of labeling from a consumer choice point of view, but not a regulations
+point of view, viz. optional labeling.
+While no other reasons were provided against labeling of digital media, physical media had 3 more distinct comments
+(rather than reasons). One respondent reported that they "...don’t really care who created the physical product." "As
+long as it is not a product whose manufacturing requires quality checks/regulation (medicines, building materials,
+etc)...". This response is interesting as the respondent seems to be thinking about Creative AI used in more futuristic
+contexts such as medicine (though however, it is also possible that they have considered Creative AI and AI more
+generally as the same). Another respondent commented that though they were unsure about how to feel about AI they
+felt that "...it would be nice if it is disclosed when ai is being used...due to their potential". While these two respondents
+appear to be at least a little bit open to accepting the usefulness of labeling, one respondent outright stated that they
+"do not think it is that important as this era is extremely digital" indicating that some consumers might just see AI as
+an expansion of technological progress.
+4.2
+Results From N-Speculation Workshop Discussions
+Two workshop sessions were conducted, one with 3 participants and another with 4. Participant11 demographics are
+provided in table 2. A reflexive thematic analysis was carried out and the resulting codes and themes generated are
+provided in table 3. The workshop consisted of two parts: (1) A discussion phase where participants discussed their
+thoughts and feelings surrounding speculative prompts which investigated various aspects of the use of Creative AI in
+consumer media; (2) A co-speculation activity where participants designed labels that would inform future consumers
+on media that have used Creative AI in their production. The first phase of the workshop which focused on feelings
+and perception featured three key takeaways: (1) consumers are willing to buy AI created works of art if the price and
+quality match their perceptions of how much effort went into the work created, for example, a printed painting mimicing
+watercolor will be percieved at lesser cost than a large canvas oil painting (ref. 4.2.1 and 4.2.2); (2) consumers are
+heavily biased against AI, for example, they will pay less for a painting created by an AI compared to a similar work by
+a human as they prefer the former to be of lower effort (𝑃5: "If the content is good, I’ll still accept it. But I wouldn’t pay
+as much as I would for something [made by AI]."), or perciving AI produced works as inferior (𝐷𝑃2: "I would pay less
+than the other parts of that series." on book written by a human vs an AI), though the origin of this bias is unknown
+(ref. table 3); and (3) consumers are still trying to figure out where they stand on this situation and are grappling with
+the ethics, morality, and power of AI, such as for example not knowing if they would accept AI replacing writers of
+journalistic publications, or more broadly if AI creating media would align with their morals and what those morals
+even are (ref. 4.2.4). The second phase which focused on speculative label design also provided 3 key takeaways: (1)
+Consumers want to see AI usage Information for the media they consume (ref. 4.3.2), (2) participants preferred labels
+that contained more information as opposed to simpler/minimal labels, (3) Consumers are influenced by existing labels
+11Participants are referred to as ’𝑃𝑋’ from hereon where X refers to the participant’s number which can be found from table 2.
+16
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+that they have seen causing them to expect similar designs for the AI labels.
+Themes
+Codes
+Coding Frequency
+What do consumers value?
+Quality "Content" 1
+18
+Money
+6
+Consumer Perception of Art
+AI created art is inferior or not art at all
+16
+There’s a human element to art
+6
+Will purchase AI-created media
+12
+Attitude towards AI
+Biased towards humans
+3
+Biased against humans
+3
+Biased against AI
+12
+Does not trust AI
+7
+Does not care if AI creates art
+11
+Biased towards AI
+6
+Ethics and Morality
+Grappling with the ethics and morality of AI created art
+15
+Uncomfortable or concerned with the power and influence
+of AI
+14
+1 Here content refers to the contents of any kind of media being consumed.
+Table 3: Themes and codes from thematic analysis on Workshop discussions
+4.2.1
+Consumers Claim To Not Care But Show Bias Towards AI. All participants expressed, in various manners,
+the same sentiment, i.e., they do not care if what they are consuming was created by an AI or a Human, as long as it has
+good content and/or is worth the price being paid for it (this has been discussed in details in section 4.2.2). However,
+during the discussions, it was also observed that participants are in various stages of assessment over the implications
+of using AI to create art and how they would react to it. 𝑃4 stated that they would not make a decision on this subject
+without thinking about it, and after a week of deliberation was OK with consuming works that were created by AI,
+stating further that unless they were looking for works by a specific person, they would not care if it was created by an
+AI. 𝑃1 and 𝑃2 shared that they would buy various works created by AI, though 𝑃1 suggested that the contributions (in
+this specific case of a deceased author) should go to the author’s estate (a sentiment agreed by 𝑃7 though they had a
+stronger response), while 𝑃2 stated: "I seem to not care about the legal aspect because I do not know how to attribute
+creative stuff....I do not understand the model...". Stronger responses in a similar sentiment included those from 𝑃7: "I
+probably wouldn’t care too much...", 𝑃3 : "If I like something I don’t care whether it’s done by artist or it’s done by AI."
+However, despite this "don’t care" attitude, participants were very much grappling with the reality of the situation that
+AI is disrupting activities that could once solely be attributed as an innate human quality. 𝑃5 stated: "I would buy it. If
+it’s not a real person.", a sentiment that was echoed in a significant amount of responses, stating that the fact that AI
+could just create human faces and likenesses out of thin air did not sit right with them, although they responded with
+"... not creepy..." when asked if such behavior creeped them out, which indicates that the participant is still thinking
+about this aspect but cannot nail down what they find unsettling. The same participant, though certain that they would
+not have a problem buying a painting during 𝐷𝑃1, said "Now I have a problem!" the moment the floor to discuss 𝐷𝑃2
+was opened. 𝑃1 was still trying to process and thinking for an answer out loud stating: "... I haven’t really ... wrapped
+my mind.... Would I OK with it or not?" while discussing 𝐷𝑃3, thinking specifically from the angle of their profession
+(journalist) and something personal to them (viz. a hypothetical reporting of the war in Ukraine where AI was used to
+17
+Aswath Sivakumaran
+write the articles). These responses indicate that participants are still grappling with the ethical and moral aspects of
+the use of Creative AI, possibly with a large portion of their dilemmas sprouting from their sentiments, biases, beliefs,
+and the like. The results from this section show that what consumers say and what they do (including in the real world
+with real stakes) are different and might be contradictory and circumstantial. Hence these behaviors and attitudes must
+be studied in detail in the real world if there is an aim to understand customer (or more broadly societal) behavior and
+attitudes and how it might affect the markets, industries, and businesses that use or implement Creative AI.
+4.2.2
+Quality Of The Content And Money Together Power Consumer Decision Making. All participants
+across various discussion points indicated that they would purchase/pay for media works if the quality of the content or
+its monetary worth makes sense to them. When participants discussed the monetary aspects, their responses came from
+a personal sense of their attitudes towards purchase behavior in general. For example, 𝑃1 and 𝑃4 talked about how
+they could relate to the ’broke student’ trope, with 𝑃1 stating that they would buy something that is "really nice" and
+"affordable", and 𝑃1 saying "... I will probably buy it if I like it." during 𝐷𝑃1. Similarly, 𝑃2 said "...since it says it’s
+considerably low. I would consider buying it." 𝑃3 said they would buy a painting if it was "very cheap and affordable"
+during the discussion prompt. 𝑃7 stated "If it’s good looking and I feel like it’s going to really look good in my bedroom,
+I have to put it. I am not going to care if it’s generated by AI or if it’s from a very famous artist.", seemingly the only
+statement to equate the quality of AI art and human-made art. Participants also suggested that if using AI could bring
+down the prices of the works, such as lowering the price of a painting or a lower subscription cost, participants would
+very much be in favor for the use of AI in creating media works. For example, while discussing 𝐷𝑃4, 𝑃5 stated that
+if the show was just mediocre it would make no difference to him if AI was used or even if it replaced some human
+creatives and further saw it as a cost-saving measure that the studio could implement to continue production, as opposed
+to if the show was an "acclaimed series before it [AI] was introduced". A further bias towards the content can be
+seen by the fact that all participants wanted to purchase the final AI-assisted book in 𝐷𝑃2, with 𝑃7 saying "Since you
+mentioned Harry Potter, I’m still gonna go for it" saying that if they are a fan and would have to wait for the next Harry
+Potter book then they wouldn’t even think about it, a statement that is consistent with what they said about purchasing
+an AI created painting mentioned previously. Similarly, 𝑃6 said "If you are truly a fan of some series you never even
+[think] whether it’s been written by someone or some robot or something." It is interesting to note that though the
+medium changed from paintings to books to YouTube videos, this behavior towards money and content quality did
+not change. For example, while discussing 𝐷𝑃5, 𝑃6 said they would continue watching AI-produced videos and that
+it "doesn’t matter." Similarly, 𝑃7 stated that as long as it was still the same quality and worth their time, they would
+continue watching those videos, the purpose of those videos was "entertainment" and if that purpose was fulfilled
+"I’m not gonna dig into too many details". 𝑃2 also agreed with the consensus and would continue watching the videos,
+going further and adding that the use of AI is still ultimately based on the creator’s creativity. However, this content
+bias also includes a bias towards AI. For example, 𝑃3 said "I think I want to know what’s going to happen.... if there is
+some climax going to be there I don’t mind AI writing it...", however following it up with "If I read the book first and
+like it then I will leave it ... But if it’s not nice then I’ll be blaming that book", agreeing with 𝑃5 who stated: "If it’s not
+good then you’re like, yeah, it’s all because of AI."
+4.2.3
+The Human Touch. Throughout the discussions, it was apparent that participants valued AI-created works
+as inferior to human-created works. This was very apparent during the discussions of 𝐷𝑃1 and 𝐷𝑃2. 𝑃4 said "...
+randomly looking for something to decorate, yeah you can buy it." referring to the fact that unless you are looking for
+something special, the creator of the art does not make a difference. 𝑃5 contrasted humans and AI creating artworks by
+stating that in the case of AI "... it’s not a skill." because the AI is "basing it on already people who have done it." The
+inferiority factor continues into purchase behavior where participants remarked that they would pay less for work that
+18
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+has been created by AI. 𝑃5 stated: "If the content is good, I’ll still accept it. But I wouldn’t pay as much as I would for
+something [made by AI]." during 𝐷𝑃2. Similarly, 𝑃7 remarked that they agreed that there are some costs and human
+labor involved in generating and perhaps making prints but wouldn’t pay too much money for something they could
+do at home, in reference to AI-generated artworks during 𝐷𝑃1. During the same discussion, 𝑃2 remarked that they
+would not pay a lot [for the AI paintings] and would consider buying "since it’s considerably low". 𝑃2 also held onto
+this purchase behavior during 𝐷𝑃2 stating "I would pay less than the other parts of that series." when referring to
+purchasing the final book written by an AI, even though it was 70% and not the whole book. 𝑃4 also stated that "I
+prefer not to know it before reading the book..." since they felt that they would judge it more negatively if the content
+was written by an AI and did not meet their expectations. This discussion also gives rise to the understanding that
+consumers perceive AI-created works as inferior to human-created art. This kind of inferiority of AI art (or superiority
+of human creations) could be attributed to the handmade effect [33] and consumers could perceive human-made
+creations of higher quality, taking more time, and would be willing to pay more. However, another factor that attributes
+to this kind of perception could also be due to the "human" creators themselves. During the discussion of 𝐷𝑃2, 𝑃5
+stated that the series was based on the reputation of the author and "... what the author initially did..." and if an AI were
+to take over the work of the author "... it doesn’t give that entire feel [and] connection to the artist." 𝑃1 stated "... if I
+was a millionaire and the price wasn’t an issue, pretty sure I would go for fine art ... and that would be a painting by an
+artist with a history." 𝑃7 said of AI completed works "... there no human aspect in that, so they [the fans] will have that
+emotion and sentiment." when talking about Schubert’s AI completed symphony [72].
+4.2.4
+Discomfort From AI’s Power And Capabilities. From the discussions, it was also evident that participants
+were uncomfortable with the power and capabilities of AI. Throughout the workshop, 𝑃5 was constantly emphasizing
+how they were put off by (and did not want) AI creating human figures, further stating multiple times that they wanted
+to be informed by "... some disclaimer saying this is created by AI", a request shared by 𝑃2 in a different session stating
+"... there should be some kind of attribution..." when asked if they considered use of AI to produce art as stealing or
+inspiration. 𝑃5 also stated, while discussing 𝐷𝑃4, that they were not comfortable with AI-created biases which could
+"... sway populations with AI, if it’s not regulated..." and that if articles created were not neutral "It can go way out
+of control."; following which 𝑃4 agreed saying "... as long as it is informative, then I can trust AI." recalling using
+ChatGPT had only been trained with information up to a certain year and some information was thus misleading. 𝑃4
+also stated that it would be nice if "They clearly show the database that the AI has been trained on so in that way you can
+kind of get closer to this. Maybe it’s the database itself that is biased?" 𝑃5 also compared the pre and post-eras of Elon
+Musk’s Twitter acquisition [22] to the behavior of AI in the context of censoring certain views based on what a group
+of people determines, and said "But if you completely take away that option of agreeing or disagreeing from the people,
+then you’re getting into the territory of imposing structures where you cannot see information beyond this point.",
+suggesting that though humans are all biased, if AI enforces such biases, it would obfuscate opposing information and
+provide preference to select narratives over others. 𝑃1 while not directly stating their discomfort had stated "Right now
+I would not like to read an article written by an AI..." for sensitive subjects such as the war in Ukraine.
+4.3
+Co-Speculative Label Design
+The second stage of the workshop saw participants create speculative future labels to distinguish AI-generated content.
+Scanned worksheets can be found in Appendix D.2. Below are the findings after performing content analysis on the
+combined data of the worksheet and participant statements during the discussions of co-speculation.
+4.3.1
+Target Groups For AI Labels. All participants stated their labels were targeted at consumers, while some
+participants included additional target audiences such as artists (𝑃3, 𝑃5 and 𝑃6), stores (𝑃6), industries (𝑃3), or anyone
+19
+Aswath Sivakumaran
+Figure 3: figure
+Snippets of Pictograms from the labels designed by participants.
+providing media content or services (𝑃5). 4 of 7 participants stated their labels intended to provide information to
+consumers on AI use; an additional 𝑃5 stated that their label was intended for "software creation attribution". 𝑃1 did
+not provide any data, and data provided by 𝑃3 was extremely vague and thus unusable. It is interesting to see that,
+although artists and software developers are consumers, these ’creators’ are those whose professions are directly being
+affected by Creative AI. Perhaps this could imply that consumers might be empathetic towards them unconsciously
+(in opposition to what was stated by both the survey respondents and the workshop participants). Targeting labels at
+entities other than consumers or creators, though an interesting take by participants, does not fit the scope of this study;
+However, it is interesting for the broader research in label design to study how labels might be targeted towards, for
+example, industries and stores, and what implications they might bring.
+4.3.2
+Analysis of Key Design Elements in Speculative Labels. Analyzing the labels designed by participants we
+can understand the three parts of the labels that participants thought were important: Pictograms, ’AI Usage Amount’,
+and Colors. Additionally, the ’layouts’ of these labels were also analyzed, though they were not discussed by the
+participants themselves. These four particulars are described below in the order that they were deemed important from
+participant drawings and statements.
+Usage of Pictograms. All 7 participants used some kind(s) graphical elements (such as pictograms and icons) in
+their label designs (ref. fig. 3). Five used some kind of robot drawing to symbolize AI, while 𝑃5 used a spanner and
+gear to symbolize AI. On the other hand, only 3 of the 6 labels used some pictographic representation for human
+being. It could be understood then that consumers would more readily understand a label denoting Creative AI use if it
+contained a pictogram of a robot or something similar to denote ’AI Use’. Graphical elements were also the largest
+(by area) and most visually directed part of the entire label. 𝑃2 used the node similar to those used to describe neural
+networks. The design from 𝑃3 was an outlier where the entire label was a singular pictogram, further indicating that
+pictograms were considered to be the most important aspect of a label’s design to the participants.
+AI Usage Amount Information (AIuAI). 6 out of 7 participants indicated AI Usage Amount on their label designs.
+This term includes both numerical values (such as percentage of product created by AI), and blanket terms such as
+"AI-assisted", "Fully AI Produced", etc. Participants chose different manners in which to convey these terms; two
+20
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+participants used only graphical elements to convey this information, while the remaining 4 participants used both
+graphical elements and texts (with 𝑃5 using color as well). All 6 participants also indicated that their scale of AI
+usage would range from "No AI Used" (or similar text) to "100% AI Produced" or (similar text). Except for 𝑃5, no
+participants designed labels that had "Human Created" or similar text, though multiple participants included labels that
+contained human figures. 3 out of the 6 participants included percentage rating and letter grade ratings to signify how
+much AI was used, with one other participant using only percentage and no letter grade. The remaining participants
+who did not include any text chose three forms of labels: Fully AI produced, AI Assisted, and No AI Used. While they
+chose the same 3 forms of labeling, they used different words to indicate what their labels meant. 𝑃1 used the phrases
+"Entirely Man Made", "AI + Man Made", and "Entirely Made By AI"; 𝑃2 used the phrases "No conscious help from
+LLM", "AI Assisted", and "Fully AI Created".
+Color. Though color was not provided in the reference labels, some participants attempted to include color in their
+designs. 𝑃5 and 𝑃7 used gradation-based color12 labels to depict the amount of AI used in their label designs, similar
+to the use of color in the EU energy label13. 𝑃5 used colors to provide a visual indication on how much of the product
+used AI. The design utilized a green-to-red gradient, where (generally) green is highest good and red is highest bad
+[71], though interestingly 𝑃5 used green to represent 100% AI use, possibly indicating that they saw AI use as a net
+positive.
+Label Layout And Structure. As stated before, the graphical element was the centerpiece of all 7 label designs
+taking up the most space. 4 of 7 participants placed their label elements inside rectangular boxes. 2 of the 4 had
+placed the label at the top of their designs, while the other 2 had placed them in the center. AIuAI headings (such as
+percentage and/or grades) were the second largest aspects of the labels, though their placements about the graphical
+elements varied greatly. There were also two particularly interesting layouts: 𝑃6 included information on the types of
+AI tools/technologies used and audience information in the border, and 𝑃4 included a version of the label that could
+be used in digital environments where the label could display more information when expanded. Hence future label
+designs should include large and easy-to-understand pictograms with AIuAI information as the most prominent parts
+of their label designs, while also looking into the areas of application.
+4.4
+Changes In Perception
+Prior to the start of the workshop, participants were made to fill out a nine-item questionnaire that corresponded to their
+attitudes and perceptions on topics surrounding Creative AI. An identical questionnaire was provided to the participants
+at the end of the workshop to evaluate if their attitudes and perceptions changed after learning new information. Overall,
+there is an average improvement of 0.06 points (or 1.95%) positively towards Creative AI. Looking at the individual
+per-question scores, however, we can see that a majority of attitudes remain unchanged. Table 4 below shows how the
+averages for each question changed between the pre and post workshop sessions. Tables 8 and 12 in appendix D.3
+contain the question codes and full overview of the answers changed at a participant level.
+12The drawings are still in black and white as no color drawing materials were provided to participants.
+13A reference image of the EU energy label can be found here.
+21
+Aswath Sivakumaran
+Question
+Pre Workshop
+Post Workshop
+A
+B
+C
+D
+E
+F
+G
+H
+I
+A
+B
+C
+D
+E
+F
+G
+H
+I
+Average
+2.57
+3.57
+2.57
+2.71
+3.86
+2.57
+3.29
+3.43
+3.14
+3.00
+3.57
+2.57
+2.57
+3.86
+2.43
+3.29
+3.43
+3.57
+Table 4: Comparison table of question averages pre and post workshop
+Question A asked if consumer choice labels affected their purchase decisions in the past and increased by 0.43 points
+(16.73%). There doesn’t appear to be a concrete reason for this, but perhaps might be due to participants realizing
+that labels did unconsciously affect their decisions. Question B evaluated if consumers would like to be informed
+of Creative AI use for media they pay for and remained unchanged with a score of 3.57 indicating moderately high
+importance. Question C evaluated consumer spending habits around content that is fully produced by Creative AI and
+remained unchanged with a score of 2.57 indicating that on average consumers would pay less for content produced
+in such a way. Question D evaluated consumer spending habits around content that is partially produced/assisted by
+Creative AI reduced by 0.14 points (or 5.17%) indicating that consumers would now more decisively pay less for
+’AI-assisted’ media. Question E evaluated if consumers thought they would see Creative AI used more in the media
+they consume, remained unchanged with a score of 3.86 indicating that a majority of consumers are cautiously positive
+about this trend. Question F evaluated if consumers saw Creative AI as a threat to human creativity, and decreased by
+0.14 points (or 5.44%) indicating that fewer participants saw AI as a threat to human creativity with only somewhat
+average agreement. Question G evaluated if consumers saw Creative AI as a threat to creative professions/professionals,
+and also remained unchanged with an average score of 3.29 indicating that consumers are mostly unsure. Question H
+evaluated if consumers saw some creative jobs being at least majorly replaced by Creative AI, and remained unchanged
+with a score of 3.43 indicating that most consumers believed (to a fair degree) this to be true. Question I asked
+participants if they would be okay with some creative jobs being replaced by Creative AI, and increased by 0.43 points
+(or 13.69%) indicating that more participants agreed that they would be fine with more creative jobs going away.
+Since the reasons for these questions were not directly requested, it is unknown why the specific responses to questions
+changed. However, it can be understood from the workshop discussions that overall participants are (1) unsure of where
+they stand concerning the ethical and moral quandaries of Creative AI, and (2) are open to changing their opinions
+when they learn more.
+4.5
+Recommendations For Consumer Labeling Based On Workshop Insights
+From the initial discussions phase of the workshop, it can be seen that consumers are willing to spend money on
+AI-created media, though there exists a dichotomy of bias against AI and AI-created works; another way to phrase this
+dichotomy would be ’indecision’. Consumers are indecisive and still attempting to understand where they stand on the
+whole issue of AI (Creative or otherwise) and the effect it has on people (ref. 4.2.1). How consumers react in the long
+term once media using Creative AI becomes far more mainstream than it is right now to be seen, though from the
+results of the workshop it is apparent that providing consumers with information related to AI usage can enable them
+to make better and more informed decisions. The label designs have indicated that for the most part, consumers would
+like to see AI Usage Information. The reason for this ranges from simple reasons such as curiosity or consumer choice
+empowerment to more sensitive reasons such as personal connection to the media/content/material (such as AI writing
+news articles about war), fear of AI’s power and misinformation, and preventing AI from influencing their biases and
+22
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+world views. The workshop suggests that this information be presented as either quantitative (percentage or grades) or
+qualitative (Human Produced, AI Produced, etc.) measures. These measures can be depicted or aided by pictographic
+elements, primarily that of robots or other such pictograms that depict AI, and perhaps also using figures that depict
+people. These pictograms (or similar graphical elements) are the centerpieces of the label designs and the most visually
+prominent part of the designs. Apart from this, color might also be an important aspect of future label designs, though
+the workshops only yielded preliminary evidence of this. Comparing the labels with each other, we can see by the
+voting dots that participants preferred more informative labels, viz. labels that provided more information about AI
+usage. Participants also seemed to prefer labels that had well-represented pictograms where it was obvious to know
+who the creator was (AI, Human, or collaboration) by looking at the label. The label designs designed by participants
+also bear some resemblances or are inspired by certain pre-existing labels (such as the EU energy label discussed
+previously), which means that more familiar label designs can be studied not just to design the labels themselves but,
+for example, localize the labels to different markets, medium (physical or digital), or media type. Though these results
+have provided vital information on the recommended routes to take while designing such AI labels for consumers,
+these results must be studied or worked upon further due to certain drawbacks and limitations discussed in the next
+section.
+4.6
+Meta Analysis of N-Speculation Workshop
+To provide a complete picture of the results above it is important to also address the possible drawbacks and biases
+that might have affected the study results. First, all the workshop participants were pursuing higher education at a
+technical university and would thus have more insights about Creative AI than the average consumer, possibly resulting
+in volunteer bias. However, the fact that the results from the survey, which saw respondents from all over the world
+and from various educational backgrounds, still concurred with some of the workshop results provides validity to the
+workshop results. When it came to label designs, pre-existing labels might have caused participants to unconsciously
+draw inspiration from or mimic existing designs. Further, since some examples of AI labels (ref. fig. 9 in Appendix
+D.4) were shown, this could have caused participants to narrow their thinking and be influenced on what these label
+designs should look like. Further, the 15-minute time limit on designing the labels might have caused participants to
+depend on the existing label designs shown. Additionally, these pre-conceived examples in combination with the fact
+that participants had to design labels could have caused framing bias where labeling might have been presented in a
+favorable light; while the survey does provide major confirmation of the validity of this data, the option to dismiss
+labels as anything necessary was simply not provided during the workshop and, as can be seen by the survey, was
+an option that was chosen by not an insignificant number of respondents. However, seeing the usage of color and
+variations of other kinds of graphical elements in label designs that highly differ from those presented means that
+though participants might have been influenced by the designs presented, they were not heavily biased to creating
+designs that copied those presented. Apart from bias, it can also be seen that the scope of these label designs was
+limited due to the constraints of time and limited variables being studied during the study. For example, two participants
+indicated their intentions to use color in their label designs; it is thus possible that this number could have been higher
+given (1) more time, and (2) coloring tools (colored pencils, crayons, etc.) to implement color in their designs. This
+could affect how label designs using or not using color could be perceived and how the factors discussed above could
+have their order of importance rearranged. The scope of these labels is also limited to the medium (paper) that was
+used during the workshop; perhaps holographic labels, labels with texture, or even video labels might have greater or
+lesser effects on consumers in physical or digital spaces. There are plenty of possible factors that could enhance these
+AI labels, however, it is in the nature of studies to be delimited and provide directions for future research work to be
+carried out (vide 5.5).
+23
+Aswath Sivakumaran
+5
+DISCUSSION
+The results of this study provide preliminary insights into the perceptions and attitudes of consumers surrounding the
+use of Creative AI in media, and positively studied a viable solution to the problems related to consumer choice that
+will arise. Through the content analysis of 32 Creative AI tools, it was discovered that Creative AI, though capable, is
+not a replacement for human professionals anytime soon, though some jobs/tasks will be replaced. The survey helped
+assess the various attitudes and perceptions of consumers on various aspects relating to the use of Creative AI in
+media. The survey showed that less than half of consumers wanted to see any kind of compensation for the loss of
+livelihoods due to Creative AI though interestingly 45% of respondents either did not know enough to be definitive or
+did not want to admit what they really thought. The survey also showed that consumers care about the state of the
+information they receive and are aware of the impact that Creative AI could have on factual accuracy and reporting.
+Finally, the survey showed positive preliminary evidence of the need for labeling AI use in consumer media. The
+N-Speculative Workshop expanded on the results of the survey and provided insights into the design for future AI
+labels. The N-Speculative workshop showed that though consumers claim to not care about AI-created works they also
+have underlying biases towards AI. Further, it also showed that consumers do not completely trust AI, especially with
+content that is personal to them or content that requires high factual accuracy. Similar to what was seen in the survey,
+the N-Speculative workshop also showed that consumers are aware of and concerned with the power that AI possesses
+when used in media. The N-Speculative workshop also brought up new revelations; consumers would highly take into
+consideration the price, quality, and creator (Human or AI) to evaluate if and how much they would pay for certain
+work, valuing AI work as inferior to human work. The N-Speculative workshop also provided preliminary insights
+into the design of AI labels. Prominent pictograms and detailed AI usage information topped the list of requirements
+for consumers. It was also interesting to see that consumers are influenced by other pre-existing labels (ex. 𝑃5 and
+𝑃7 drew inspiration from the EU energy label) and future label designs should take those into account. Finally, the
+N-Speculative workshop also showed that there is a need to empower consumers with more information for them to
+make more informed choices in the era of Creative AI.
+5.1
+Advancements In Creative AI Is Dependent On Educating The Consumer
+Looking at sections 4.2.4 and the responses in the Survey Results (4.1) we can see that people have a variety of
+different understandings of the way AI works or will affect them. Such confusion also creates hindrances to the
+implementation and acceptance of AI in mainstream creative uses. Further, once AI-created works become mainstream,
+they may reorganize the consumer purchase market, where AI-created works might take over the ’fast-markets’, while
+human-produced works would take up the higher-end or luxury markets; analogous to the consumer perception of
+mass-produced fast fashion such as H&M or Zara and luxury brands such as Armani or Gucci that pride themselves on
+their handmade craftmanship [66, 90]. We must venture into a reality where AI-created media becomes a significant
+role in our lives along with consumers. It is thus important for a variety of reasons that there be a dissemination of
+information related to Creative AI in the hopes of alleviating some of the concerns that scare consumers.
+5.2
+The Future Of AI Labeling
+Prior to commencing the study, it was unknown if consumers would be positive towards AI labels. However, given
+the undecided or mid-point responses from both the survey respondents as well as the "still thinking" nature of the
+workshop participants, we can see that labels might help give them more information about their purchases or where
+and how they spend their money. It is currently not possible to predict if in the future there will be a requirement for AI
+labeling without any large-scale and long-term studies into consumer behavior surrounding Creative AI and its uses.
+24
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+However, these studies will also have to wait until Creative AI becomes more mainstream in media. Thus, this thesis,
+presents a preliminary window into a mansion of studies that is Creative AI and consumerism, and more specifically
+into AI labels. The current results of this study indicate that consumers are still unsure about Creative AI (mostly) due
+to the information gap that exists between consumer perception and reality, which leads to bias, uncertainty, and fear.
+However, the study results also indicate that with education on Creative AI, a change in such perception and attitudes
+including purchase behaviors is positively witnessed. Further, the results of the N-Speculative workshop present AI
+labels as a solution in a favorable light and provide indications of the potential characteristics that these future AI
+labels should have to be effective.
+5.3
+Ethical Discussions Surrounding Of Creative AI And Consumer Choice
+There has been quite a lot of discussion surrounding the ethics of using Creative AI. These questions have not only been
+reserved for philosophers or academics but also the laypeople (consumers) who, though lacking any specializations in
+these areas, are pondering these moral and ethical quandaries. While nobody has the definite answers to these questions
+yet, it is important to have discussions of the ethics that surround Creative AI to ensure responsible implementation and
+research, free from hasty decisions such as calling for a pause of AI development [63], replacing human works with AI
+tools [84], or outright predicting the downfall of companies that embrace AI [75]. Hence this section surrounding the
+ethics of the subject matter is centered around the following premise: "What are the ethicalities of allowing consumers
+to steer the course of Creative AI technology, whether it be mainstream adoption, regulation, or its demise?"
+5.3.1
+AI Labels As A Counter To AI Bias. Bias in AI systems has been well documented and reported for a long
+time; Google Photos labeled a black couple as gorillas [55], Meta’s Galactica started writing racist and inaccurate
+scientific literature [28], and an image generator providing racist and sexist images [4] are just some of the recently
+reported incidents of AI producing biased results. This concern of bias was also shared by the workshop participants
+(ref. sec. 4.2) and the survey respondents (ref. sec. 4.1). AI labels might serve as a way to at least restrict the amount of
+damage caused. For example, labeling sensitive content, such as coverage of war or ongoing societal protest, that has
+been written by Creative AI and providing the warning of possible bias or information of the relevant weights used by
+the model could be a solution of ensuring that consumers are well informed about any potential biases that may have
+crept in, rather than being (or believing that they are) misled and blame Creative AI.
+5.3.2
+Consumer Perception Of Artistic Identity. Both the survey responses and the workshop discussions saw
+consumers state that more than the work itself, the name of the artist/author held meaning to them. Before the explosion
+of Creative AI, artistic creations were always tied to a human creator and the styles reflected in these works became
+trademarks, or a way to recognize the artist from the art: This could be, for example, Wes Anderson’s use of symmetry,
+Salvador Dalí’s surrealist painting style, Pablo Picasso’s Cubism, Andy Warhol’s Pop Art prints, or ad-libs found in
+rap music. Since Creative AI generates works based on an amalgamation of its learnings, it does not have a distinct
+style of its own. Thus, the question arises: Is it still art when the "artist" element of a work is stripped away? Does the
+art now become superficial? People purchase paintings, go to concerts, or buy a creator’s merchandise because of the
+name(s) that are attached to it; would consumers buy "A painting by Mid Journey", or watch a movie "Written and
+Directed by RunwayML"? Further, if consumers no longer care about the identity of the artists, would it spell the same
+fate for the artists as it did for carpenters and artisans who had their artistic identities and livelihoods diminished by
+the first industrial revolution? How many names of famous artisans and carpenters do we know today as compared to
+famous musicians and painters? These questions become more difficult when applied to forms of art (such as acting)
+where the art and the artists ’cannot be separated’; How much of their likeness does a person own, is it only their face,
+25
+Aswath Sivakumaran
+their whole body, their voice [81], or some combination of these? Do people lose copyrights to their likeness after their
+death similar to other copyrighted works [83]?
+5.3.3
+Consumers And Deciding Ethics Around Use Of Creative AI. The results of this study clearly show that
+consumers are still attempting to understand where their morals lie on the use of Creative AI, in media or otherwise.
+However, is it ethical for consumers to be deciding the ethicality of Creative AI? What would happen if consumers
+decided that all Creative AI is bad? Should technological evolution be halted simply because a large number of people
+deem it to be unethical in manners that resemble those of the first industrial revolution? Is it ethical for businesses and
+organizations to force consumers to accept Creative AI-produced work as the new status quo? Consumerism is a highly
+social phenomenon and consumer perceptions might be affected by societal acceptances or common social attitudes.
+For example, wide-scale adoption of smart glasses was impeded due to social factors such as rudely referring to the
+wearers as "glassholes" [70]. The reverse can also be seen with, for example, the wide adoption of ChatGPT among
+students [82]. Consumers’ perceptions can be significantly influenced by information that is readily available and easily
+understood, such as social media, mainstream journalistic media, or social discussions. Hence it is not out of left field
+to suggest that these perceptions or understandings might be flawed or biased in comparison to scientific literature,
+though given that these sources are far more accessible to the everyday consumer, they are often the go-to sources of
+information. This statement then loops back into the core ethical question of this paper: "What are the ethicalities of
+allowing consumers to steer the course of Creative AI technology, whether it be mainstream adoption, regulation, or its
+demise?" It must be made a priority for all stakeholders, academics, creators, businesses, and consumers, to approach
+the subject of Creative AI with an open mind and educate themselves and others with unbiased and high-quality
+information that, in an ideal world, the era of Creative AI shaped by clear thinking individuals and organizations
+without crude and misguided regulations, rather than agenda driven corporations and interest groups or misinformed
+consumers.
+5.4
+Reflections On Sustainability In The Creative AI Era
+Creative AI is set to change the landscape of not just Creative work, but also our relationships with business, our
+impact on the environment, livelihoods, inequality, education landscapes, and landmark legal decisions surrounding
+our usage of technology, art, and copyright...to name a few. Most obvious among these, is that Creative AI provides a
+lot of (mostly monetary) incentives: Compared to human workers, AI costs less [56], requires far shorter downtime as
+AI does not need to sleep or rest, and is (on average) faster than humans; AI is also not governed by the same laws that
+human workers are, such as maximum working hours or mandatory leaves, meaning that companies can use their AI
+systems as they please without the ’hassles’ that come with human workers. Such advancements are very likely (cf.
+sec. 1) and would start with mass unemployment in some professions, snowballing into greater implications on social
+sustainability. Social sustainability can be defined as managing the positive and negative impacts of systems, processes,
+organizations, and activities on people and society [9]. Extrapolating from the above situation of mass Creative AI
+adoption, we can see that mass unemployment will eventually lead to some professions being "AItomated". This will
+lead to mass protests, similar to those seen during the 2023 Hollywood writers [10] and actors [76] strikes, though the
+outcome might not be similarly favorable. Such volatility of some careers will result in mass shifts to more in-demand
+professions such as AI or ML, resulting in some academic streams seeing greater competition and importance, while
+others such as creative arts or design will see a decline. Such shifts might also result in widening inequalities, as fields
+of AI/ML are often white, and male dominated [17]. Such changing paradigms will affect people en-mass and might
+see regulations being made to compensate for these ’human losses’, which might stifle advancements of Creative AI
+especially if business bottom-lines are hit. Mass adoption of AI does not only affect social sustainability but also has
+26
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+significant environmental impacts. One estimate suggests that simply the creation of GPT-3 is estimated to have emitted
+as much carbon as a hundred gas cars in a year [68, 79]; AI, from training to active deployment and use, is very energy
+intensive and will require the setting up of new green energy infrastructure (which will against have financial and
+social impacts) to meet the energy demands sustainably.
+5.5
+Limitations And Future Work
+Creative AI is a very broad field. Not only is the scope of research extremely wide, but the lack of a concrete definition
+also means that there is going to be a large grey area for tools and technologies that sit on the fence of being classified
+as Creative AI. For example, AI used to perform content-aware fill in Adobe Photoshop or After Effects could be
+considered to be Creative AI, if the replacement and removal procedures are considered to be Creative. Further, the
+new AI tools are rapidly being created and the capabilities of the old ones are also being expanded. For example, during
+the time of this study, ChatGPT was expanded by using GPT-4 and even got plugin support. It is of course without
+doubt that the expansion of this definition and taking another look at these Creative AI tools will lead to changes
+in this study’s results, for example, by including Creative AI tools that do not have easily accessible versions. The
+N-Speculation method, despite its advantages over traditional design speculation, also possesses certain drawbacks.
+At its core, N-Speculation is still a type of speculative design approach and as a result, comes with some uncertainty
+Further, N-Speculation aims to act as a bridge between traditional design research and speculative design research, the
+consequence of this placement means that the results obtained are not as conclusive, however provides preliminary (or
+even actionable) insights to inform future studies around the subject matter (unlike traditional speculative design). This
+same lack of conclusiveness is also applied to workshops, where it can safely be predicted that there will be differences
+in what people say (or do) during the workshop and what they end up doing in real life, such as for example, when
+their own money is at stake. Further, the workshop consisted of only 7 participants who all have similar insights on the
+subject matter based on their educational qualifications and future studies must expand on the number of participants
+as well as the diversity of the study group.
+6
+CONCLUSION
+This study has provided initial scientific insights into consumer perception of Creative AI use in media and has also
+provided insights into the possible solution of AI labels to empower consumer choice in this new frontier. The results
+from the content analysis show that Creative AI tools are highly capable of replacing certain professions entirely,
+though the implementation of this in professional settings remains to be seen. The content analysis also tells us that
+current Creative AI tools are highly capable in image, text, and code areas, while other areas such as music and video
+continue to be developed and will only get better with time. The survey and workshop discussion results show a mostly
+ambivalent consumer that is unlikely to stay away from or boycott media simply because they are ’made by Creative
+AI’. However, the study also shows that consumers are curious and want information that allows them to make more
+informed choices. Further, consumers are, like any other kind of spending, going to put money and quality above
+most other factors. When it came to labeling the study discovered that consumers are also, for the most part, in favor
+of labeling media that has used Creative AI. Further, the workshop also provided insights into the important design
+elements of such labels: Pictograms/Graphical Elements, AI Usage Information, well-structured layouts of AIuAI and
+pictogram(s), and possibly color. Given the prominence and unprecedented speed of development of Creative AI and
+its impact on society, there a significant need to study consumer choice, bias, and misinformation, and be actively
+involved in some way towards the synergetic development of Creative AI for societal good.
+27
+Aswath Sivakumaran
+ACKNOWLEDGMENTS
+First and foremost I would like to thank my supervisor Petra Jääskeläinen for her continued support and guidance
+from start to finish, without whom this thesis would not have shaped up the way it has. I would also like to thank my
+examiner Anders Hedman for providing valuable directions that helped elvate this study. I would also like to thank the
+workshop participants and survey respondents for their time and contribution to this study and the wider academic
+body. I would also like to thank my opponent for her input, which helped improve my final paper. Lastly, I am also
+grateful to my university for providing me with the education and resources I always longed for.
+REFERENCES
+[1] 2023. Russian invasion of Ukraine. https://en.wikipedia.org/w/index.php?title=Russian_invasion_of_Ukraine&oldid=1179751632 Page Version
+ID: 1179751632.
+[2] 20syl. 2023. AllttA - Savages. https://www.youtube.com/watch?v=y7r6PAkFRfU
+[3] Vincent Acovino, Mary Louise Kelly, and Halimah Abdullah. 2023. A sci-fi magazine has cut off submissions after a flood of AI-generated stories.
+NPR (Feb. 2023). https://www.npr.org/2023/02/24/1159286436/ai-chatbot-chatgpt-magazine-clarkesworld-artificial-intelligence
+[4] Noor Al-Sibai and Jon Christian. 2022. That AI Image Generator Is Spitting Out Some Awfully Racist Stuff. https://futurism.com/dall-e-mini-racist
+[5] Nantheera Anantrasirichai and David Bull. 2022. Artificial intelligence in the creative industries: a review. Artificial Intelligence Review 55, 1 (Jan.
+2022), 589–656. https://doi.org/10.1007/s10462-021-10039-7
+[6] Andrew Deck. 2023. Anime artists are panicking over Netflix’s AI experiment. https://restofworld.org/2023/netflix-anime-ai-artists/
+[7] Ploin Anne, Eynon Rebecca, Hjorth Isis, and Osborne Michael A. [n. d.]. AI and the Arts: How Machine Learning is Changing Creative Work.
+Report from the Creative Algorithmic Intelligence Research Project. Oxford Internet Institute, University of Oxford, Oxford, United Kingdom.
+https://www.oii.ox.ac.uk/wp-content/uploads/2022/03/040222-AI-and-the-Arts_FINAL.pdf
+[8] Andy Baio. 2022. Online Art Communities Begin Banning AI-Generated Images. https://waxy.org/2022/09/online-art-communities-begin-
+banning-ai-generated-images/
+[9] Şebnem Yılmaz Balaman. 2019. Chapter 4 - Sustainability Issues in Biomass-Based Production Chains. In Decision-Making for Biomass-Based
+Production Chains, Şebnem Yılmaz Balaman (Ed.). Academic Press, 77–112. https://doi.org/10.1016/B978-0-12-814278-3.00004-2
+[10] Mandalit del Barco. 2023. Striking Hollywood scribes ponder AI in the writer’s room. NPR (May 2023). https://www.npr.org/2023/05/18/
+1176876301/striking-hollywood-writers-contemplate-ai
+[11] Laura Barendregt and Nora S. Vaage. 2021. Speculative Design as Thought Experiment. She Ji: The Journal of Design, Economics, and Innovation
+7, 3 (2021), 374–402. https://doi.org/10.1016/j.sheji.2021.06.001
+[12] Mark Batey and Adrian Furnham. 2006. Creativity, Intelligence, and Personality: A Critical Review of the Scattered Literature. Genetic, Social,
+and General Psychology Monographs 132, 4 (Nov. 2006), 355–429. https://doi.org/10.3200/MONO.132.4.355-430 Publisher: Routledge _eprint:
+https://doi.org/10.3200/MONO.132.4.355-430.
+[13] Jeff Beer. 2022. Dove deepfakes moms to illustrate the impact of toxic influencers on teens.
+https://www.fastcompany.com/90746539/dove-
+deepfakes-moms-to-illustrate-the-impact-of-toxic-influencers-on-teens
+[14] Thomas Bue Bjørner, Lars Gårn Hansen, and Clifford S. Russell. 2004. Environmental labeling and consumers’ choice—an empirical analysis of
+the effect of the Nordic Swan. Journal of Environmental Economics and Management 47, 3 (May 2004), 411–434. https://doi.org/10.1016/j.jeem.
+2003.06.002
+[15] Margaret A. Boden. 2003. The Creative Mind: Myths and Mechanisms (2 ed.). Routledge, London. https://doi.org/10.4324/9780203508527
+[16] Virginia Braun and Victoria Clarke. 2022. Thematic analysis: a practical guide. SAGE, London ; Thousand Oaks, California.
+OCLC:
+on1247204005.
+[17] Celine Caira, Lucia Russo, and Luis Aranda. 2023. Artificially Inequitable? AI and closing the gender gap - OECD.AI. https://oecd.ai/en/wonk/
+closing-the-gender-gap
+[18] Eva Cetinic and James She. 2022. Understanding and Creating Art with AI: Review and Outlook. ACM Transactions on Multimedia Computing,
+Communications, and Applications 18, 2 (Feb. 2022), 66:1–66:22. https://doi.org/10.1145/3475799
+[19] The Coca-Cola Company. [n. d.]. Coca-Cola Invites Digital Artists to ‘Create Real Magic’ Using New AI Platform – News & Articles. https:
+//www.coca-colacompany.com/news/coca-cola-invites-digital-artists-to-create-real-magic-using-new-ai-platform
+[20] Andrea Cornwall and Rachel Jewkes. 1995. What is participatory research? Social Science & Medicine 41, 12 (Dec. 1995), 1667–1676.
+https://doi.org/10.1016/0277-9536(95)00127-S
+[21] Paul Coulton, Dan Burnett, and Adrian Gradinar. 2016. Games as Speculative Design: Allowing Players to Consider Alternate Presents and Plausible
+Features. DRS Biennial Conference Series (June 2016). https://dl.designresearchsociety.org/drs-conference-papers/drs2016/researchpapers/2
+[22] Sheila Dang and Greg Roumeliotis. 2022. Musk begins his Twitter ownership with firings, declares the ’bird is freed’. Reuters (Oct. 2022).
+https://www.reuters.com/markets/deals/elon-musk-completes-44-bln-acquisition-twitter-2022-10-28/
+[23] Antonio Daniele and Yi-Zhe Song. 2019. AI + Art = Human. In Proceedings of the 2019 AAAI/ACM Conference on AI, Ethics, and Society (AIES
+’19). Association for Computing Machinery, New York, NY, USA, 155–161. https://doi.org/10.1145/3306618.3314233
+28
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+[24] Thomas H. Davenport and Nitin Mittal. 2022.
+How Generative AI Is Changing Creative Work.
+Harvard Business Review (Nov. 2022).
+https://hbr.org/2022/11/how-generative-ai-is-changing-creative-work
+[25] Dimiter Dobrev. 2012. A Definition of Artificial Intelligence. https://doi.org/10.48550/arXiv.1210.1568 arXiv:1210.1568 [cs].
+[26] Marcus Du Sautoy. 2019. Can AI ever be truly creative? New Scientist 242, 3229 (May 2019), 38–41.
+https://doi.org/10.1016/S0262-
+4079(19)30840-1
+[27] Anthony Dunne and Fiona Raby. 2013. Speculative everything: design, fiction, and social dreaming. The MIT Press, Cambridge, Massachusetts ;
+London.
+[28] Benj Edwards. 2022. New Meta AI demo writes racist and inaccurate scientific literature, gets pulled.
+https://arstechnica.com/information-
+technology/2022/11/after-controversy-meta-pulls-demo-of-ai-model-that-writes-scientific-papers/
+[29] Ahmed Elgammal, Bingchen Liu, Mohamed Elhoseiny, and Marian Mazzone. 2017. CAN: Creative Adversarial Networks, Generating "Art" by
+Learning About Styles and Deviating from Style Norms. http://arxiv.org/abs/1706.07068 arXiv:1706.07068 [cs].
+[30] Tyna Eloundou, Sam Manning, Pamela Mishkin, and Daniel Rock. 2023. GPTs are GPTs: An Early Look at the Labor Market Impact Potential of
+Large Language Models. (2023). https://doi.org/10.48550/ARXIV.2303.10130
+[31] Enjellina, Eleonora Vilgia Putri Beyan, and Anastasya Gisela Cinintya Rossy. 2023. A Review of AI Image Generator: Influences, Challenges, and
+Future Prospects for Architectural Field. Journal of Artificial Intelligence in Architecture 2, 1 (Feb. 2023), 53–65. https://doi.org/10.24002/jarina.
+v2i1.6662 Number: 1.
+[32] Ziv Epstein, Sydney Levine, David G. Rand, and Iyad Rahwan. 2020. Who Gets Credit for AI-Generated Art? iScience 23, 9 (Sept. 2020), 101515.
+https://doi.org/10.1016/j.isci.2020.101515
+[33] Christoph Fuchs, Martin Schreier, and Stijn M.J. Van Osselaer. 2015. The Handmade Effect: What’s Love Got to Do with It? Journal of Marketing
+79, 2 (March 2015), 98–110. https://doi.org/10.1509/jm.14.0018
+[34] Harsha Gangadharbatla. 2022. The Role of AI Attribution Knowledge in the Evaluation of Artwork. Empirical Studies of the Arts 40, 2 (July
+2022), 125–142. https://doi.org/10.1177/0276237421994697
+[35] Lior Gideon (Ed.). 2012. Handbook of Survey Methodology for the Social Sciences. Springer New York, New York, NY. https://doi.org/10.1007/978-
+1-4614-3876-2
+[36] Joan Giese and Joseph Cote. 2000. Defining Consumer Satisfaction. Academy of Marketing Science Review 4 (Jan. 2000), 1–24.
+[37] Connie Guglielmo. 2023. CNET Is Experimenting With an AI Assist. Here’s Why. https://www.cnet.com/tech/cnet-is-experimenting-with-an-
+ai-assist-heres-why/
+[38] Mubin Ul Haque, Isuru Dharmadasa, Zarrin Tasnim Sworna, Roshan Namal Rajapakse, and Hussain Ahmad. 2022. "I think this is the most
+disruptive technology": Exploring Sentiments of ChatGPT Early Adopters using Twitter Data. http://arxiv.org/abs/2212.05856 arXiv:2212.05856
+[cs].
+[39] Joo-Wha Hong and Nathaniel Ming Curran. 2019. Artificial Intelligence, Artists, and Art: Attitudes Toward Artwork Produced by Humans
+vs. Artificial Intelligence. ACM Transactions on Multimedia Computing, Communications, and Applications 15, 2s (April 2019), 1–16. https:
+//doi.org/10.1145/3326337
+[40] James Hookway. 2023. AI Generated Art for a Comic Book. Human Artists Are Having a Fit. Wall Street Journal (Jan. 2023).
+https:
+//www.wsj.com/articles/ai-generator-art-midjourney-zarya-11674856712
+[41] Angel Hsing-Chi Hwang. 2022. Too Late to be Creative? AI-Empowered Tools in Creative Processes. In Extended Abstracts of the 2022
+CHI Conference on Human Factors in Computing Systems (CHI EA ’22). Association for Computing Machinery, New York, NY, USA, 1–9.
+https://doi.org/10.1145/3491101.3503549
+[42] Industrial Light & Magic. 2022. Behind the Magic: The Visual Effects of The Book of Boba Fett. https://www.youtube.com/watch?v=M74Jb8iggew
+[43] Internet Archive. 2023.
+Submission Guidelines : Clarkesworld Magazine – Science Fiction & Fantasy.
+https://web.archive.org/web/
+20230314172749/https://clarkesworldmagazine.com/submissions/
+[44] Masafumi Kawachi. 2020. Enabling citizens’ speculation: The method of co-speculation for collectively imagining possible futures of ‘ikigai’ in
+an aging society. (2020). https://aaltodoc.aalto.fi:443/handle/123456789/44781
+[45] Kevin Kelly. [n. d.]. What AI-Generated Art Really Means for Human Creativity. Wired ([n. d.]). https://www.wired.com/story/picture-limitless-
+creativity-ai-image-generators/ Section: tags.
+[46] Kelvin Chan. 2023. Is it real or made by AI? Europe wants a label for that as it fights disinformation.
+https://apnews.com/article/artificial-
+intelligence-disinformation-europe-58a61973645ee0c36dddd1cbea81a42e Section: Artificial intelligence.
+[47] Shane Legg and Marcus Hutter. 2007. A Collection of Definitions of Intelligence. https://doi.org/10.48550/arXiv.0706.3639 arXiv:0706.3639
+[cs].
+[48] Yueen Li, Jin Gu, and Liyang Wang. 2020. Research on Artificial Intelligence Ethics in the Field of Art Design. Journal of Physics: Conference
+Series 1673, 1 (Nov. 2020), 012052. https://doi.org/10.1088/1742-6596/1673/1/012052
+[49] Gloria Liu. 2022. DALL-E 2 Made Its First Magazine Cover. https://www.cosmopolitan.com/lifestyle/a40314356/dall-e-2-artificial-intelligence-
+cover/ Section: Lifestyle.
+[50] Todd Lubart. 2005. How can computers be partners in the creative process: Classification and commentary on the Special Issue. International
+Journal of Human-Computer Studies 63, 4 (Oct. 2005), 365–369. https://doi.org/10.1016/j.ijhcs.2005.04.002
+[51] Angus Main and Mick Grierson. 2020. Guru, Partner, or Pencil Sharpener? Understanding Designers’ Attitudes Towards Intelligent Creativity
+Support Tools. http://arxiv.org/abs/2007.04848 arXiv:2007.04848 [cs].
+[52] Marques Brownlee. 2023. This Voice is Entirely AI... https://www.youtube.com/watch?v=AFthdsIcOxw
+29
+Aswath Sivakumaran
+[53] Louis Marti, Shengyi Wu, Steven T. Piantadosi, and Celeste Kidd. 2023. Latent Diversity in Human Concepts. Open Mind 7 (March 2023), 79–92.
+https://doi.org/10.1162/opmi_a_00072
+[54] Jon McCormack, Toby Gifford, and Patrick Hutchings. 2019. Autonomy, Authenticity, Authorship and Intention in Computer Generated Art. In
+Computational Intelligence in Music, Sound, Art and Design (Lecture Notes in Computer Science), Anikó Ekárt, Antonios Liapis, and María Luz
+Castro Pena (Eds.). Springer International Publishing, Cham, 35–50. https://doi.org/10.1007/978-3-030-16667-0_3
+[55] Sean McGregor. 2015. Incident Number 16. https://incidentdatabase.ai/cite/16 Publication Title: Responsible AI Collaborative.
+[56] Mckinsey. 2021. Global survey: The state of AI in 2021 | McKinsey. https://www.mckinsey.com/capabilities/quantumblack/our-insights/global-
+survey-the-state-of-ai-in-2021
+[57] Merriam-Webster. [n. d.]. Consumer. https://www.merriam-webster.com/dictionary/consumer
+[58] Maad Mijwil, Mohammad Aljanabi, and ChatGPT. 2023. Towards Artificial Intelligence-Based Cybersecurity: The Practices and ChatGPT
+Generated Ways to Combat Cybercrime. Iraqi Journal for Computer Science and Mathematics (Jan. 2023), 65–70. https://doi.org/10.52866/
+ijcsm.2023.01.01.0019
+[59] Kobe Millet, Florian Buehler, Guanzhong Du, and Michail D. Kokkoris. 2023. Defending humankind: Anthropocentric bias in the appreciation of
+AI art. Computers in Human Behavior 143 (June 2023), 107707. https://doi.org/10.1016/j.chb.2023.107707
+[60] Zosha Millman. 2023. Yes, Secret Invasion’s opening credits scene is AI-made — here’s why. https://www.polygon.com/23767640/ai-mcu-
+secret-invasion-opening-credits
+[61] Aljanabi Mohammad, Mohanad Ghazi, Ahmed Hussein Ali, Saad Abas Abed, and ChatGpt. 2023. ChatGpt: Open Possibilities. Iraqi Journal for
+Computer Science and Mathematics (Jan. 2023), 62–64. https://doi.org/10.52866/20ijcsm.2023.01.01.0018
+[62] Caterina Moruzzi. 2020. Should Human Artists Fear AI? A Report on the Perception of Creative AI.
+[63] Jyoti Narayan, Krystal Hu, Martin Coulter, Supantha Mukherjee, Krystal Hu, and Supantha Mukherjee. 2023. Elon Musk and others urge AI
+pause, citing ’risks to society’. Reuters (April 2023). https://www.reuters.com/technology/musk-experts-urge-pause-training-ai-systems-that-
+can-outperform-gpt-4-2023-03-29/
+[64] Condé Nast. [n. d.]. How WIRED Will Use Generative AI Tools. https://www.wired.com/about/generative-ai-policy/ Section: tags.
+[65] N. Newman. 2023. Journalism, media, and technology trends and predictions 2023. Reuters Insitute for the Study of Journalism.
+https:
+//ora.ox.ac.uk/objects/uuid:38c0393f-3634-459a-a505-c53f2eb637a3
+[66] Malin Nässel and Linnéa Persson. 2011. Characteristics of and how to maintain a luxury brand. University of Borås/Swedish School of Textiles.
+https://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-20674
+[67] Siobhan O’Connor and ChatGPT. 2023. Open artificial intelligence platforms in nursing education: Tools for academic progress or abuse? Nurse
+Education in Practice 66 (Jan. 2023), 103537. https://doi.org/10.1016/j.nepr.2022.103537
+[68] David Patterson, Joseph Gonzalez, Quoc Le, Chen Liang, Lluis-Miquel Munguia, Daniel Rothchild, David So, Maud Texier, and Jeff Dean. 2021.
+Carbon Emissions and Large Neural Network Training. (2021). https://doi.org/10.48550/ARXIV.2104.10350
+[69] Martin Ragot, Nicolas Martin, and Salomé Cojean. 2020. AI-Generated vs. Human Artworks. A Perception Bias Towards Artificial Intelligence?.
+In Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing Systems (CHI EA ’20). Association for Computing Machinery,
+New York, NY, USA, 1–10. https://doi.org/10.1145/3334480.3382892 event-place: Honolulu, HI, USA.
+[70] Philipp A. Rauschnabel and Young K. Ro. 2016. Augmented reality smart glasses: an investigation of technology acceptance drivers. International
+Journal of Technology Marketing 11, 2 (2016), 123. https://doi.org/10.1504/IJTMKT.2016.075690
+[71] Yuanyang Ren, Aswath Sivakumaran, Emma Niemelä, and Petra Jääskeläinen. 2023. How to Make AI Artists Feel Guilty in a Good Way? :
+Designing Integrated Sustainability Reflection Tools (SRTs) for Visual Generative AI. https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-327918
+[72] Goetz Richter. 2019. Composers are under no threat from AI, if Huawei’s finished Schubert symphony is a guide. https://www.sydney.edu.au/
+music/news-and-events/2019/02/18/composers-are-under-no-threat-from-ai--if-huawei-s-finished-schu.html
+[73] Kevin Roose. 2022. An A.I.-Generated Picture Won an Art Prize. Artists Aren’t Happy. The New York Times (Sept. 2022). https://www.nytimes.
+com/2022/09/02/technology/ai-artificial-intelligence-artists.html
+[74] Todd Spangler. 2022. Lionsgate’s ‘Fall’ Used Deepfake-Style Tech to Change 30-Plus F-Bombs, Bringing Movie From R to PG-13 Rating.
+https://variety.com/2022/digital/news/lionsgate-fall-deepfake-f-bombs-rating-1235337017/
+[75] Behnam Tabrizi and Babak Pahlavan. 2023. Companies That Replace People with AI Will Get Left Behind. Harvard Business Review (June
+2023). https://hbr.org/2023/06/companies-that-replace-people-with-ai-will-get-left-behind
+[76] Victor Tangermann. 2023. Studios Want to Replace Background Actors With AI After Paying Them for Only One Day. https://futurism.com/studios-
+ai-replace-background-actors
+[77] team. 2022. Create AI-Generated Art Fairly with DreamUp by team on DeviantArt.
+https://www.deviantart.com/team/journal/Create-AI-
+Generated-Art-Fairly-with-DreamUp-933537821
+[78] Mario F. Teisl, Brian Roe, and Robert L. Hicks. 2002. Can Eco-Labels Tune a Market? Evidence from Dolphin-Safe Labeling. Journal of
+Environmental Economics and Management 43, 3 (May 2002), 339–359. https://doi.org/10.1006/jeem.2000.1186
+[79] Kate Saenko The ConversationUS. 2023. A Computer Scientist Breaks Down Generative AI&rsquo;s Hefty Carbon Footprint. https://www.
+scientificamerican.com/article/a-computer-scientist-breaks-down-generative-ais-hefty-carbon-footprint/
+[80] The Economist. 2022. How a computer designed this week’s cover. The Economist (June 2022). https://www.economist.com/news/2022/06/11/how-
+a-computer-designed-this-weeks-cover
+[81] Genevieve Thorpe. 2022. The ’dark side’ of the growing AI voice industry. https://thenewdaily.com.au/entertainment/2022/09/28/james-earl-
+jones-darth-vader/
+30
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+[82] Chandan Kumar Tiwari, Mohd. Abass Bhat, Shagufta Tariq Khan, Rajaswaminathan Subramaniam, and Mohammad Atif Irshad Khan. 2023.
+What drives students toward ChatGPT? An investigation of the factors influencing adoption and usage of ChatGPT. Interactive Technology and
+Smart Education ahead-of-print, ahead-of-print (Jan. 2023). https://doi.org/10.1108/ITSE-04-2023-0061
+[83] S. J. Velasquez. 2023. How AI is bringing film stars back from the dead. https://www.bbc.com/future/article/20230718-how-ai-is-bringing-film-
+stars-back-from-the-dead
+[84] Pranshu Verma and Gerrit De Vynck. 2023. ChatGPT took their jobs. Now they walk dogs and fix air conditioners. Washington Post (June 2023).
+https://www.washingtonpost.com/technology/2023/06/02/ai-taking-jobs/
+[85] Chetan Walia. 2019. A Dynamic Definition of Creativity. Creativity Research Journal 31, 3 (July 2019), 237–247. https://doi.org/10.1080/
+10400419.2019.1641787 Publisher: Routledge _eprint: https://doi.org/10.1080/10400419.2019.1641787.
+[86] Geraint A. Wiggins. 2006. A preliminary framework for description, analysis and comparison of creative systems. Knowledge-Based Systems 19, 7
+(Nov. 2006), 449–458. https://doi.org/10.1016/j.knosys.2006.04.009
+[87] Chloe Xiang. 2022. Artists Are Revolting Against AI Art on ArtStation. https://www.vice.com/en/article/ake9me/artists-are-revolt-against-ai-
+art-on-artstation
+[88] Jing Jian Xiao. 2015. Consumer Economic Wellbeing. Springer New York, New York, NY. https://doi.org/10.1007/978-1-4939-2821-7
+[89] Ali Zarifhonarvar. 2023. Economics of ChatGPT: A Labor Market View on the Occupational Impact of Artificial Intelligence. SSRN Electronic
+Journal (2023). https://doi.org/10.2139/ssrn.4350925
+[90] Irina Zirke and Bentalhoda Atashi. 2011. Branding strategies of Swedish &apos;new-luxury&apos; fashion brands. https://urn.kb.se/resolve?
+urn=urn:nbn:se:lnu:diva-17796
+[91] Rikke Ørngreen and Karin Levinsen. 2017. Workshops as a Research Methodology. Electronic Journal of e-Learning 15, 1 (2017), 70–81.
+https://eric.ed.gov/?id=EJ1140102 ERIC Number: EJ1140102.
+A
+DECLARATION OF AI USAGE
+ChatGPT was used to generate tables in LATEX code, and assist in Swedish translations.
+B
+TABLES OF AI TOOLS AND COUNTS
+S.No
+Tool
+Category
+Transparency
+Pricing Model
+1
+Stable Diffusion1
+I
+O
+F
+2
+ChatGPT
+C, T
+Cl
+Fm
+3
+DALL-E
+I
+Cl
+PPU
+4
+Runway Gen 2
+V
+Cl
+PPU
+5
+Descript Overdub
+S
+Cl
+PPU
+6
+Synthesia
+V2, S
+Cl
+PTU
+7
+Jukebox
+M
+O
+F
+8
+MusicLM
+M
+O
+F
+9
+Mubert
+S
+Cl
+Fm
+10
+AutoDraw
+I
+Cl
+F
+11
+MidJourney
+I
+Cl
+PTU
+12
+NVIDIA Canvas
+I
+Cl
+F3
+13
+Jenni
+T
+Cl
+PPU
+14
+AI Poem Generator
+T
+Cl
+F
+15
+GitHub Copilot
+C
+Cl
+PTU
+16
+Cody by Sourcegraph
+C
+Cl
+Fm
+17
+Amazon CodeWhisperer
+C
+Cl
+Fm
+18
+Mintlify Writer
+C
+Cl
+Fm
+31
+Aswath Sivakumaran
+19
+AI2SQL
+C
+Cl
+PTU
+20
+HourOne
+V2, S4
+Cl
+PTU
+21
+PrometheanAI
+G
+Cl
+Fm
+22
+Scenario
+G5
+Cl
+Fm
+23
+Runway Infinite Image
+I
+Cl
+PPU
+24
+Adobe Firefly
+I
+Cl
+F
+25
+vizcom
+I
+Cl
+Fm
+26
+Maket
+I
+Cl
+Fm
+27
+Poly
+I
+Cl
+Fm
+28
+DeepFaceLab
+V
+O
+F
+29
+Riffusion
+M
+O
+F
+30
+Jasper
+T, I
+Cl
+PTU
+31
+Bard
+T
+Cl
+F
+32
+BingAI
+T
+Cl
+F
+Table 5: AI tools analyzed for content analysis.
+Key
+Identifier
+Type
+Count
+I
+Image
+11
+C
+Code
+6
+T
+Text
+6
+S
+Speech Audio
+4
+V
+Video
+4
+M
+Music
+3
+G
+Game Assets
+2
+O
+Open Source
+5
+Cl
+Closed Source
+27
+F
+Free To Use
+11
+Fm
+Freemium
+10
+PPU
+Pay Per Use
+5
+PTU
+Pay To Use
+4
+1 Various versions of Stable Diffusion exist. It was tested through Lexica art and through a local install.
+2 Generates videos with AI-generated photoreal avatars.
+3 Requires the purchase of a compatible GPU.
+4 Can also use AI audio voice cloning, though this could not be evaluated.
+5 Specialized Image creation for 2D game sprites.
+Table 5: Counts and identifiers for table 5.
+32
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+C
+SURVEY QUESTIONS, DEMOGRAPHICS AND FIGURES
+C.1
+Survey Questions
+∙ Questions 1 and 2 asked respondents to rate the importance of various information related to AI use in their
+products/services on a scale of 1 (Not at all important) to 5 (Extremely important), for digital content and
+physical products respectively.
+∙ Questions 3 and 4 asked respondents which kinds of declarative labels they would like to see, if any at all, on
+physical products and digital content respectively.
+∙ Question 5 asked respondents if lost livelihoods due to AI should be compensated.
+∙ Question 6 asked respondents which specific content would they like to see information regarding AI use.
+∙ Question 8 asked respondents if they had heard of Generative AI before to get a better understanding if respondents
+understood fully what was being talked about in the survey.
+∙ Questions 9 through 14 are demographic questions aimed at providing a better understanding of the survey
+results.
+C.2
+Survey Demographics
+Response ID
+Nationality
+Gender
+Age Group
+Job / Profession
+Highest Educational Qualifica-
+tion
+105915980
+India
+Male
+18-24
+Graduate Student
+Bachelors
+105922236
+Finland
+Male
+25-34
+Cloud Specialist
+Bachelors
+105983206
+India
+Male
+18-24
+UX Designer
+Bachelors
+105984650
+Sweden
+Female
+35-44
+Phd candidate
+Masters
+105989097
+Netherlands
+Non-binary
+25-34
+Doctoral Researcher
+Masters
+106003131
+25-34
+Doctoral student in Computer Science
+Masters
+106167566
+India
+Male
+25-34
+Researcher
+Masters
+106196947
+India
+Female
+18-24
+Designer
+Bachelors
+106268604
+Greece
+Female
+25-34
+PhD student
+Masters
+107867465
+United
+King-
+dom
+Female
+35-44
+Retail
+Masters
+107883789
+107937855
+India
+Male
+18-24
+UX Designer
+Bachelors
+107940390
+Finland
+Women
+25-34
+Student
+Masters
+107963000
+Armenia
+Female
+25-34
+Media Manager
+Masters
+107976691
+Turkey
+Academician
+Masters
+108047246
+Finland
+Male
+25-34
+Software developer
+33
+Aswath Sivakumaran
+108182889
+Finland
+Male
+25-34
+Sales
+Some college
+108226404
+India
+Male
+35-44
+Masters
+108260980
+Italy
+Female
+25-34
+Academic researcher
+Doctorate
+108261938
+Netherlands
+Female
+18-24
+Student
+Trade/vocational/technical
+108699788
+108725433
+108847032
+Austria
+Female
+18-24
+Student
+Bachelors
+108867010
+New Zealand
+Female
+45-54
+Design/photography/music/business
+owner
+Trade/vocational/technical
+108873510
+Algeria
+Female
+18-24
+graphic designer
+Bachelors
+108961556
+Nigeria
+Female
+18-24
+Student
+High school
+109004560
+United
+King-
+dom
+Female
+18-24
+Student
+Bachelors
+109091070
+United States
+Female
+55-64
+student
+Masters
+109110178
+109152700
+Australia
+Female
+45-54
+Business owner
+Bachelors
+109242535
+United
+King-
+dom
+Female
+18-24
+Bar associate
+Bachelors
+109388034
+Albania
+Female
+25-34
+Bachelors
+109388123
+Croatia
+Agender
+25-34
+Masters
+109458094
+Australia
+Female
+18-24
+research assistant
+Bachelors
+109498070
+Pakistan
+Female
+25-34
+student
+Doctorate
+109504640
+Japan
+Female
+18-24
+Student
+Bachelors
+109726613
+China
+Female
+25-34
+music
+Other
+109727414
+Ireland
+Male
+25-34
+Teacher
+Masters
+109928125
+China
+Female
+25-34
+psychological studies
+Masters
+110203501
+United States
+Male
+35-44
+Engineering
+Bachelors
+Table 6: Survey Demographics
+34
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+C.3
+Likert scores for Q1 and Q2
+Medium −→
+Physical
+Digital
+Codes
+Item
+Score
+Standard
+Error
+Score
+Standard
+Error
+A
+To know if what I am consuming/purchasing has been produced by
+AI as a whole.
+2.7
+0.215
+2.95
+0.209
+B
+To know if AI has assisted in the creation of my content/purchase.
+2.75
+0.217
+2.92
+0.197
+C
+Which AI tools/technologies has been used.
+2.65
+0.216
+2.7
+0.227
+D
+To know where AI has been used in my content/product
+2.92
+0.204
+3.23
+0.198
+E
+To know if the humans replaced by AI, were compensated for their
+lost work.
+3.00
+0.238
+2.83
+0.226
+Table 7: Likert scores of items from Q1 and Q2
+Figure 4: Visual comparison of Table 7
+35
+Aswath Sivakumaran
+C.4
+Prefered Declarations of survey participants
+Codes
+Item
+Physical
+Digital
+A
+AI Produced
+6
+11
+B
+AI-Free
+5
+6
+C
+100% Human Creation
+9
+9
+D
+AI Assisted
+11
+15
+E
+Does not matter, but a declaration is required
+13
+14
+F
+I don’t care about such labels
+9
+4
+G
+Something else
+1
+0
+Table 8: Votes for the respective AI declarations made by survey participants.
+Figure 5: Chart of comparing votes for each AI declaration from table 8
+36
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+C.5
+Media specific AI declaration preferences
+Figure 6: Sub media categories and how many survey respondents would like to be informed about generative
+AI use.
+37
+Aswath Sivakumaran
+Codes
+Item
+Count
+A
+YouTube Videos
+24
+B
+Music
+21
+C
+Movies
+22
+D
+TV Shows
+22
+E
+eBooks
+24
+F
+Physical Books
+20
+G
+Comics
+17
+H
+Video Games
+9
+I
+Software Products
+15
+J
+News Articles
+23
+K
+Review Articles
+21
+L
+Scientific Papers/Articles
+27
+M
+Blog Posts
+19
+N
+Celebrity/Influencer Social Media Posts
+20
+O
+Digital Art Pieces
+24
+P
+Physical Art Pieces
+17
+Standard Error
+0.263
+Table 9: Codes with count of subcategories with counts
+and standard error for data in Figure 6.
+D
+WORKSHOP SUPPLEMENTRIES
+D.1
+Table of Prompts
+ID
+Prompt Title
+Prompt Description
+𝐷𝑃1
+How does cost affect consumer
+choice?
+You want to buy decorations for your new house, so you go shop-
+ping. You come across a painting that you think will look good on
+your wall. You check the price tag and can’t believe how affordable
+it is! It looks like a mistake! Paintings don’t cost this much?! You
+check with the store employee. They inform you that the store sells
+paintings generated by AI and that is how they can sell them for
+such a low price and high quality.
+38
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+ID
+Prompt Title
+Prompt Description
+𝐷𝑃2
+Ethics, Fandom, and what do peo-
+ple look for in art?
+The 7th and final book of a series that you like has been released
+after nearly a decade! You have been waiting so long for the
+cliffhanger from the 6th book to resolve, so you immediately go
+online and order it! After ordering you wonder why there has been
+such a delay, so you look it up only to find that the author had
+passed away after completing about 30% of the final installment
+(book). Turns out an AI had been trained on her older works and
+has completed the remaining 70% of her book.
+𝐷𝑃3
+Artist or Information
+You like to stay on top of the latest information in your area of
+interest (technology, fashion, gaming, entertainment, etc.). You
+pull up an article on an online publication (a blog or type of non-
+traditional news) website you frequent due to their high editorial
+standards. However, you notice there is something off about the
+article’s style and language. You check to see who the author is and
+to your surprise instead of a name you find a label "AI Produced.
+Click to learn more." You click and learn that to stay in business,
+they have switched to using AI to write articles instead of humans.
+𝐷𝑃4
+What if nothing changed?
+You enjoy binge-watching a soap opera (formulaic TV shows that
+go on for years and may have daily episodes) on lazy days as a com-
+fort show. It has a very predictable plot line, mediocre acting, and
+a template-esque editing and screenplay structure across episodes.
+During an episode you notice that the credits are much shorter than
+usual, a trend which continues through all the following episodes.
+You take a closer look to realize that no writer or editor are men-
+tioned. You look it up to realize that the show is now fully written
+and edited by AI, though you have never noticed this change while
+watching an episode.
+𝐷𝑃5
+Art or Artist
+A YouTube Content Creator that you have been following for years
+has suddenly started uploading daily instead of weekly and the
+content quality is still as high as you would expect from them. You
+then find a video where the channel addresses that they will be
+producing some videos using AI. This includes writing, editing,
+and even the likeness of your YouTube creator! You can’t seem to
+tell the difference between which is made by an AI, and which is
+made by the creator themselves.
+Table 10: Prompts Table
+39
+Aswath Sivakumaran
+D.2
+Co-Speculative label creation worksheets
+Figure 7: Co-Speculative label design worksheets Of participants.
+40
+Investigating Consumer Perception and Speculative AI Labels for Creative AI Usage In Media
+D.3
+Pre and Post Workshop Questionnaire Data
+Code
+Question
+A
+Consumer choice labels (such as FairTrade, Energy Star, 80Plus, etc.) have affected my purchase decisions in the past
+B
+It is important for me as a consumer, to be informed about the use of generative or Creative AI in the media I buy (or
+pay for)
+C
+When it comes to paying for media that has been completely/fully/wholly produced by AI.
+D
+When it comes to paying for media that has been produced partially (or been assisted) by AI
+E
+I will see more generative AI use in the media I can buy or consume.
+F
+I see generative AI as a threat to human creativity.
+G
+I see generative AI as a threat to the livelihoods/jobs/professions of some creative professionals
+H
+I can see some creative jobs being fully or majorly replaced by generative AI.
+I
+I am ok with some creative jobs being replaced by generative AI.
+Table 11: Questionaire questions with codes.
+PID
+Pre Workshop
+Post Workshop
+A
+B
+C
+D
+E
+F
+G
+H
+I
+P.Avg
+A
+B
+C
+D
+E
+F
+G
+H
+I
+P.Avg
+P1
+3
+4
+3
+3
+4
+3
+4
+4
+4
+3.56
+3
+4
+3
+3
+4
+3
+4
+4
+4
+3.56
+P2
+3
+3
+2
+3
+5
+2
+4
+3
+4
+3.22
+2
+3
+2
+3
+4
+1
+4
+2
+3
+2.67
+P3
+3
+4
+4
+3
+4
+3
+3
+4
+2
+3.33
+3
+4
+4
+3
+3
+3
+4
+4
+3
+3.44
+P4
+1
+5
+2
+2
+3
+2
+2
+3
+4
+2.67
+2
+5
+3
+2
+5
+1
+1
+4
+5
+3.11
+P5
+2
+3
+2
+2
+4
+2
+2
+3
+3
+2.56
+2
+3
+2
+2
+4
+2
+3
+2
+4
+2.67
+P6
+4
+4
+3
+3
+4
+2
+4
+4
+3
+3.44
+5
+4
+2
+3
+4
+3
+3
+4
+4
+3.56
+P7
+2
+2
+2
+3
+3
+4
+4
+3
+2
+2.78
+4
+2
+2
+2
+3
+4
+4
+4
+2
+3.00
+Q.Avg
+2.57
+3.57
+2.57
+2.71
+3.86
+2.57
+3.29
+3.43
+3.14
+3.081
+3.00
+3.57
+2.57
+2.57
+3.86
+2.43
+3.29
+3.43
+3.57
+3.141
+1 These values refer to the Q.Avg values, i.e., the average of the rows to the left of it in either the pre or post-workshop columns.
+Table 12: Comparison table of participant and question averages
+41
+Aswath Sivakumaran
+Figure 8: Comparison of question averages pre and post-workshop.
+D.4
+Sample Label Applications
+Figure 9: Sample label applications of pre-designed labels presented to participants.
+E
+ENDNOTES
+(1) The pronouns "they" and "their" are used as gender-neutral pronouns to refer to all participants/respondents in
+the third person out of respect for their gender identities as these were never asked or clarified.
+(2) Workshop participant quotes and paraphrasing can be distinguished by the use of ("xyz") or lack of (xyz)
+quotation marks respectively.
+(3) Quotes from workshop participants are provided after removing fillers such as "uh", "um", "like", or after
+removing parts of the quote that may contain personal information. Further, the quotes have been edited to suit
+the written format, as people speak differently from writing. This also accounts for participants who did not
+speak English as a first language and had trouble communicating certain sentences. Overall, care has been taken
+to ensure that the meanings of the statements are not altered.
+(4) "War in Ukraine" refers to the 2022 Russian invasion of Ukraine [1].
+(5) Decimal values are truncated to the nearest 2 decimal places after rounding using the rule of rounding up if the
+face value of the decimal place is equal to or greater than 5.
+(6) The word "products" has been used in multiple places and still refers to artistic creations or other creative outputs,
+and is used simply due to direct quotations or semantic reasons.
+F
+ATTRIBUTIONS OF ICONS USED
+The following icons were sourced from The Noun Project: (1) human and robot hands by Berkah Icon, (2) Human in
+Love by NeueDeutsche, (3) AI by James Fok
+42
+TRITA-EECS-EX-2023:820
+www.kth.se 

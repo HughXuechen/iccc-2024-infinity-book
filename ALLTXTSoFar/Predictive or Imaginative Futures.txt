@@ -1,0 +1,1875 @@
+S P E C I A L I S S U E A R T I C L E
+Predictive or imaginative futures? Experimenting with
+alternative future-making approaches
+Ilaria Durante
+|
+Claudio Dell'Era
+|
+Stefano Magistretti
+|
+Cristina Tu Anh Pham
+School of Management, Politecnico di Milano,
+Milan, Italy
+Correspondence
+Ilaria Durante, School of Management,
+Politecnico di Milano, Milan, Italy.
+Email: ilaria.durante@polimi.it
+Funding information
+Italian Ministry of University and Research
+(MUR)
+Future-making, the act of imagining and producing the future, is becoming increas-
+ingly relevant in scholarly and practitioner debates. In a constantly evolving society
+where the future is difficult to navigate, there is an urgent need to explore new and
+innovative ways of imagining plausible futures that are more desirable to people. The
+future-making literature proposes different practices, tools, options and possibilities
+for envisioning futures and advancing the debate on issues that affect society. To
+explore how different future-making approaches influence the generation of future
+scenarios, we conducted an experiment in which we asked 64 practitioners partici-
+pating in teams to anticipate and imagine futures using two different future-making
+approaches: predictive and imaginative. The resulting future scenarios were then
+evaluated by 227 practitioners in a postexperiment survey measuring their plausibil-
+ity and desirability, as well as their similarities and differences in terms of future sce-
+nario generation. Our study contributes to both theory and practice. In particular, we
+contribute to the future-making debate and enrich current understanding of the dif-
+ferent processes and tools adopted in predictive and imaginative future-making using
+an experimental approach. Our study also supports practitioners in unpacking the
+potential
+of
+adopting
+different
+types
+of
+future-making,
+from
+predictive
+to
+imaginative.
+K E Y W O R D S
+design, experiment, foresight, future-making, imagination, innovation
+1
+|
+INTRODUCTION
+In recent years, the scholarly and practitioner communities have
+shown increasing interest in innovative approaches to future-making
+(Gümüsay & Reinecke, 2022; Wenzel, 2022). In an ever-evolving soci-
+ety where predicting the future is difficult, organizations struggle to
+make decisions about what to implement and where to invest
+resources (Vettorello et al., 2022). Unpredictable market conditions
+and geopolitical instability leave organizations ill-equipped to make
+informed decisions (Hölzle et al., 2022). As a result, mastering future-
+making skills is more important than ever. In this context, organiza-
+tions need to develop future thinking capabilities to proactively design
+strategies to respond to change and remain competitive (Bühring &
+Liedtka,
+2018).
+As
+Rindova
+and
+Martins
+(2021)
+emphasize,
+organizations must not only consider existing alternatives but also
+imagine future possibilities when engaging in the process of develop-
+ing novel strategies. The act of future-making has been defined as
+how
+organizational
+actors
+produce
+and
+enact
+the
+future
+(Wenzel, 2022), and thus a new set of organizational capabilities, prac-
+tices, and routines is required to construct and give sense to the envi-
+sioned future (Thompson & Byrne, 2022).
+The future-making literature at the intersection of innovation,
+strategy, design, and organization studies is broad and informed by
+numerous perspectives (Comi & Whyte, 2018; Fergnani, 2022a;
+Wenzel, 2022). While many scholars have focused on predictive
+approaches to explore existing alternatives to increase future pre-
+paredness and gain competitive advantage (Marinkovic et al., 2022),
+recent research has emphasized the importance of imaginative
+Received: 26 September 2023
+Revised: 12 January 2024
+Accepted: 5 February 2024
+DOI: 10.1111/caim.12603
+Creat Innov Manag. 2024;1–22.
+wileyonlinelibrary.com/journal/caim
+© 2024 John Wiley & Sons Ltd.
+1
+approaches to reflect on alternatives that do not yet exist in order to
+design the future (Gümüsay & Reinecke, 2022). While some scholars
+underscore the potential of corporate foresight as a formalized way to
+help organizations anticipate the future (Fergnani, 2022a), others
+emphasize the potential of other imaginative and practice-based
+methodologies to design the future (Rindova & Martins, 2021;
+Simeone & D'Ippolito, 2022). Wenzel et al. (2020) urge scholars to
+study the under investigated phenomenon of future-making practices
+in organizations. Responding to Wenzel (2022), Fergnani (2022b) sug-
+gests that scholars should also study the established practices of cor-
+porate
+foresight
+scholarship
+as
+a
+future-making
+phenomenon.
+Gümüsay and Reinecke (2022) invite scholars to delve deeper into
+methodologies to imagine not only plausible and probable but also
+desirable futures, stimulating methodological and theoretical innova-
+tion while maintaining scientific rigor. Although Rindova and Martins
+(2022) focus on ways to resolve the tension between plausibility and
+desirability in the generation of futures scenarios, in practice no
+research has investigated the levels of plausibility and desirability of
+future scenarios generated by different future-making approaches.
+Thus, to fill this relevant gap, this study explores the differences in
+plausibility and desirability of scenarios created through predictive and
+imaginative future-making.
+To do so, we conducted a future-making experiment with 64 prac-
+titioners participating in teams. We designed the experiment to com-
+pare the characteristics of imaginative and predictive future-making
+following the classification adapted from Augustine et al. (2019), orga-
+nized as an experiment according to the guidelines of Podsakoff and
+Podsakoff (2019). Participants in the predictive future-making cluster
+started with signals of change and future forces as insights to begin to
+predict the future (Rohrbeck & Kum, 2018; Vecchiato, 2012). Partici-
+pants in the imaginative future-making cluster started from provoca-
+tive future values (Tharp & Tharp, 2022) to negotiate the future
+through reflection and discussion (Rindova & Martins, 2021). Using
+the two different future-making approaches, participants generated
+12 different scenarios, which were then evaluated by 227 practitioners
+in a postexperiment survey. After collecting the survey responses, we
+analysed the results and triangulated the information from the experi-
+ment to explore the differences in plausibility and desirability of the
+scenarios generated.
+This study contributes relevant insights to both theory and prac-
+tice. First, we contribute to the debate on the differences between
+future-making
+approaches
+and
+the
+resulting
+future
+scenarios
+(Fergnani, 2022a; Gümüsay & Reinecke, 2022; Wenzel, 2022). Previ-
+ous research has framed future scenarios derived from predictive and
+imaginative
+future-making
+approaches
+as
+inherently
+different
+(Augustine et al., 2019). For this reason, studies have primarily
+focused on the differences between the characteristics of the
+approaches (Fergnani, 2022a; Wenzel et al., 2020) rather than
+the future scenarios generated (Augustine et al., 2019). However, our
+results suggest that the future scenarios generated by the two
+approaches are not inherently different, as they also share similarities.
+Specifically,
+our
+study
+suggests
+that
+while
+the
+future-making
+approaches differ in terms of desirability, they are similar in terms of
+plausibility.
+Moreover,
+we
+contribute
+to
+a
+more
+nuanced
+understanding of the differences between the desirability of predic-
+tive
+future-making
+scenarios
+(Rohrbeck
+&
+Kum,
+2018;
+Vecchiato, 2012) and imaginative future-making scenarios (Rindova &
+Martins, 2021; Tharp & Tharp, 2022) by showing that the true differ-
+ences in desirability are due to differences in the framing of the
+benefiting actors and their attitudes toward temporal events. While
+predictive future-making scenarios frame the benefiting actors as indi-
+viduals or organizations with a diagnostic approach (Furnari, 2018) to
+temporal events, imaginative future-making scenarios frame the
+benefiting
+actors
+as
+a
+collective
+with
+a
+prognostic
+approach
+(Furnari, 2018) to temporal events. This nuance enriches our under-
+standing of the different approaches, and provides managers with
+practical guidance on how to adopt each. Second, we contribute to
+the future-making literature (Wenzel, 2022) by reinforcing the view
+that desirability, not as fantasy (Augustine et al., 2019) but as an indi-
+vidual and organizational aspiration (Gümüsay & Reinecke, 2022), is a
+crucial dimension to consider in the future-making process. By pro-
+posing a dichotomous approach (i.e., predictive and imaginative), the
+experiment we conducted (Podsakoff & Podsakoff, 2019) responds to
+the call for scholars to stimulate methodological advances in how to
+study future-making in practice (Gümüsay & Reinecke, 2022). Finally,
+our study supports practitioners in identifying the characteristics and
+potentials of adopting different future-making approaches in terms of
+the process to be followed and the performance achieved.
+2
+|
+THEORETICAL BACKGROUND
+Future-making encompasses a range of formalized practices for pre-
+dicting alternative futures, such as corporate foresight practices, and
+less formalized practices, such as everyday activities that organiza-
+tional actors engage in to look at the future (Wenzel, 2022). According
+to Beckert (2021), management tools such as strategic planning and
+technology forecasting should be studied as future-making because
+they use images of the future to help organizations cope with uncer-
+tainty. Small-scale projects and experiments on alternative ways of
+organizing are also interesting examples of future-making (Gümüsay &
+Reinecke, 2022; Schmidt & Brinks, 2017). The futures generated by
+future-making approaches range from possible and probable to desir-
+able (Whyte et al., 2022).
+Given the lack of a clear definition of future-making approaches,
+we defined predictive and imaginative future-making approaches
+according to four key dimensions extracted from Augustine et al.'s
+(2019) classification of futures (Table 1). The first dimension (concep-
+tion) describes the future-making process followed to generate future
+scenarios. The second dimension (evaluation) refers to the set of
+options considered in the construction of futures. The third dimension
+(knowledge) describes the type of knowledge involved in future-
+making. The fourth dimension (temporal representation) refers to the
+way in which the future is related to present and past.
+The predictive future-making approach focuses on plausibility as
+an important variable to evaluate future scenarios generated through
+2
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+foresight practices such as scenario planning (Amer et al., 2013;
+Bradfield et al., 2005). However, it is crucial to not only evaluate the
+plausibility of the future scenarios generated but also reflect on their
+desirability to people and society (Gümüsay & Reinecke, 2022). Few
+studies (Rindova & Martins, 2022; Thompson & Byrne, 2022) have
+focused on plausibility and desirability as crucial variables of future
+scenarios generated through different future-making approaches,
+because desirable futures might be challenging in terms of plausibility
+and vice versa. Still, it is needed to explore in practice the differences
+in plausibility and desirability of scenarios created through predictive and
+imaginative future-making.
+2.1
+|
+Predictive future-making
+The predictive future-making approach is conceived through a process
+that is predictive in the direction of future speculation, that is, from
+the present into the future. Among the predictive future-making prac-
+tices in organizations, corporate foresight is defined as the application
+of futures and foresight practices to fulfil the organization's purpose
+and achieve success (Gordon et al., 2020). In fact, the foresight pro-
+cess follows three steps: observing what is happening in the present
+(perceiving), projecting current drivers of change into the future (pro-
+specting), and exploring to identify the most promising future scenario
+(probing) (Rohrbeck & Kum, 2018). In the perceiving phase, organiza-
+tions scan the business environment to identify future forces
+(i.e., established drivers of change) and detect weak signals of change
+(i.e., single events that could become established future forces)
+(Rohrbeck et al., 2015). The data collected in this phase help
+organizations gain competitive advantage by anticipating emerging
+customer needs and technological shifts (Fergnani, 2022a). In the pro-
+specting phase, organizations analyse the data gathered and derive
+their implications for the organization by generating a set of future
+scenarios through a variety of foresight techniques, such as scenario
+planning (Schoemaker, 1995) and roadmaps (Carvalho et al., 2013). In
+the probing phase, the organization translates the insights emerged
+from the perceiving and prospecting phases into strategic actions,
+such as reconfiguring internal resources or acquiring external ones
+(Rohrbeck & Kum, 2018).
+The evaluation of predictive future-making is based on the proba-
+bility1 of occurrence of the drivers of change projected into the
+future, such as the trends shaping the business environment in which
+the organization currently operates (Wenzel et al., 2020). In fact, dif-
+ferent future scenarios are constructed based on the different proba-
+bility of occurrence of the drivers of change, useful to analyse their
+“state uncertainty” (Vecchiato & Roveda, 2010). For example, quanti-
+tative scenario planning approaches, such as trend impact analyses,
+consist in evaluating the perceived probability of occurrence of the
+drivers of change that shape a future scenario (Bradfield et al., 2005).
+Instead, qualitative scenario planning methods, such as scenario
+archetypes, consist in generating future scenarios in narrative form,
+each characterized by the same probability of occurrence (Amer
+et al., 2013).
+The type of knowledge that characterizes predictive future-
+making is concrete, as the horizon-scanning practices of corporate
+foresight increase the learning capabilities of firms in terms of antici-
+pation and adaptation to cope with uncertain futures (Marinkovic
+et al., 2022). On the one hand, anticipation means identifying future
+TABLE 1
+Characteristics of predictive and imaginative future-making.
+Characteristics (adapted
+from Augustine
+et al., 2019)
+Predictive future-making
+Key references
+Imaginative
+future-making
+Key references
+Conceptualization
+Extrapolation based on current
+future forces and signals of
+change
+Rohrbeck & Kum, 2018;
+Rohrbeck et al., 2015;
+Fergnani, 2022a
+Imagination
+based on
+future values
+Beckert, 2021; Rindova &
+Martins, 2021; Whyte
+et al., 2022; Bühring &
+Liedtka, 2018; Tharp &
+Tharp, 2022; Comi &
+Whyte, 2018
+Evaluation
+Probability of current future
+forces and signals of change
+Wenzel et al., 2020; Vecchiato
+& Roveda, 2010; Bradfield
+et al., 2005; Amer
+et al., 2013
+Possibility of
+future values
+Rindova & Martins, 2021;
+Dunne & Raby, 2013;
+Polvora &
+Nascimento, 2021; Merrie
+et al., 2018; Candy &
+Dunagan, 2017
+Knowledge
+Concreteness of current future
+forces and signals of change
+Marinkovic et al., 2022;
+Vecchiato, 2012; Vecchiato
+& Roveda, 2010
+Ambiguity of
+future
+scenarios
+Comi & Whyte, 2018; Bühring
+& Bishop, 2020; Lehtonen
+et al., 2022; Simeone &
+D'Ippolito, 2022; Thompson
+& Byrne, 2022
+Temporal representation
+Extend current future forces
+and signals of change to the
+future
+Rindova & Martins, 2022;
+Wenzel et al., 2020;
+Flyverbom & Garsten, 2021
+Reflect on future
+values
+Augustine et al., 2019;
+Rindova & Martins, 2022;
+Wenzel et al., 2020;
+Flyverbom & Garsten, 2021
+DURANTE ET AL.
+3
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+technological and social forces in advance in order to understand the
+differences with current customer needs and exploit them to the
+firm's advantage. In this vein, the “planning” school of corporate fore-
+sight (Vecchiato, 2012) emphasizes the importance of enhancing man-
+agers' ability to detect and recognize opportunities and threats in
+advance and reconfigure the value chain. On the other hand, adapta-
+tion means increasing the firm's flexibility to change its strategy by
+responding quickly to signals of change as soon as they emerge. In this
+stream, the “adaptive” school of corporate foresight (Vecchiato, 2012)
+emphasizes the importance of enhancing managers' ability to respond
+quickly to change. In this way, firms manage the “effect uncertainty”
+of the drivers of change by either anticipating future forces or adapt-
+ing to signals of change as soon as they emerge (Vecchiato &
+Roveda, 2010).
+The temporal representation of predictive future-making is
+rooted in the continuation of current knowledge from the past and
+present into the future (Rindova & Martins, 2022). This is based on
+the assumption, typical of the period of “organized modernity”
+(early 20th century to the 1970s), that the future can not only be
+made but also be controlled through planning practices (Wenzel
+et al., 2020). Thus, the projection of data about the past and the
+present (e.g., statistics and narratives) is fundamental to extracting
+actionable
+insights
+for
+governing
+the
+future
+(Flyverbom
+&
+Garsten, 2021).
+2.2
+|
+Imaginative future-making
+The imaginative future-making approach is conceived through a pro-
+cess that is imaginative, as imagining (Beckert, 2021) the future begins
+with
+the
+generation
+of
+fictional
+future
+options
+(Rindova
+&
+Martins, 2021). In this stream, future-making is conceptualized as “a
+form
+of
+inquiry”
+that
+is
+reflective
+and
+participatory
+(Whyte
+et al., 2022). Among the emerging future-making practices aimed at
+imagining futures, design-driven practices (Bühring & Liedtka, 2018;
+Simeone & D'Ippolito, 2022) highlight the crucial role that design can
+play in supporting organizational actors in proactively engaging in
+future-making practices. For instance, discursive design is used as an
+intellectual, communicative tool to stimulate debate about the future
+(Dunne & Raby, 2013; Tharp & Tharp, 2022). To reflect on future sce-
+narios not only at the individual level but also among a broader group
+of stakeholders (Magistretti et al., 2023), organizations can follow two
+steps: variation and selection (Rindova & Martins, 2021). In the varia-
+tion phase, imaginaries of alternative future scenarios are generated
+and made tangible through visual artefacts (e.g., sketches and draw-
+ings) (Comi & Whyte, 2018). The materiality of visual artefacts makes
+it possible to concretize the understanding of possible future scenar-
+ios, translating tacit knowledge into explicit knowledge (e.g., aligning
+participants with different backgrounds on possible available future
+options) (Simeone & D'Ippolito, 2022). In the problem-solution match-
+ing of the selection phase, actors collectively reflect on the available
+future options (Rindova & Martins, 2021), while in the creative syn-
+thesis of the selection phase, they negotiate and converge on the
+values and beliefs that should characterize a shared possible future
+scenario (Whyte et al., 2022).
+The evaluation of imaginative future-making relies on the possi-
+bility2
+of
+the
+fictional
+future
+options
+generated
+(Rindova
+&
+Martins,
+2021).
+For
+instance,
+speculative
+design
+(Dunne
+&
+Raby, 2013) uses provocative artefacts to spark the imagination and
+open up new possibilities to reflect on wicked problems and stimulate
+debate about different ways of living. In this stream, design fiction
+uses fictional objects to suspend preconceptions about the future
+(Polvora & Nascimento, 2021), science fiction prototyping describes
+future scenarios in a narrative fictional form (Merrie et al., 2018), and
+experiential futures (Candy & Dunagan, 2017) recreate an immersive
+environment that engages all the senses.
+The type of knowledge that characterizes imaginative future-
+making is ambiguous because it emerges iteratively from the interac-
+tion of individuals with artefacts (Comi & Whyte, 2018). By applying
+the aforementioned imaginative future-making practices, firms recog-
+nize that employing planning methods in the right way is not always
+adequate for addressing uncertain futures (Bühring & Bishop, 2020).
+Thus, by reframing the wicked problems (Bellis et al., 2023; Pham
+et al., 2023) that organizations are required to confront with
+(Lehtonen et al., 2022), imaginative future-making practices align
+stakeholders with different backgrounds around a shared vision of the
+future, facilitating knowledge translation mechanisms (Simeone &
+D'Ippolito, 2022). As a result, organizations enhance their experiential
+learning
+capabilities
+to
+thrive
+in
+uncertain
+business
+contexts
+(Thompson & Byrne, 2022).
+The temporal representation of imaginative future-making is
+rooted in a leap from current knowledge (Augustine et al., 2019).
+Indeed, the values and beliefs elicited in audiences by the strategic
+narratives of future scenarios may be radically different from the
+established cultural norms that individuals experience in the present
+(Rindova & Martins, 2022). In this stream, fictional narratives that
+embed anxieties and hopes promote speculation as a form of future
+governance (Flyverbom & Garsten, 2021). This stems from the view
+of the future as a “problematic temporal category” typical of “late
+modernity” (from the 1980s), which is unknown and cannot be fully
+controlled by planning practices alone (Wenzel et al., 2020).
+2.3
+|
+Hypotheses development
+Due to their different characteristics, the literature has considered
+future scenarios generated by predictive and imaginative future-
+making as inherently different (Augustine et al., 2019). Some studies
+focus on plausibility and desirability as variables that characterize
+future
+scenarios
+(Rindova
+&
+Martins,
+2022;
+Thompson
+&
+Byrne, 2022). Although a recent study (Rindova & Martins, 2022) has
+focused on ways to resolve the tension between the plausibility and
+desirability of future scenario generation, to our best knowledge, no
+studies have examined in practice the levels of plausibility and desir-
+ability of future scenarios generated by different future-making
+approaches.
+4
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+2.3.1
+|
+Differences between future-making
+approaches in terms of future scenario plausibility
+Predictive future-making practices are undertaken by organizations
+with the aim of anticipating the future in order to respond in a timely
+manner to changes in the business context and increase strategic pre-
+paredness (Marinkovic et al., 2022). In fact, “extrapolating the value
+chain” is fundamental to readapt the firm's existing resources and
+capabilities to the driver of change, where “putting the driver first” is
+crucial to innovate and gain a first-mover competitive advantage
+(Vecchiato & Roveda, 2010, p. 1532). Therefore, it is important to
+scan the business environment to identify the drivers of change and
+generate alternative future scenarios in scenario planning activities.
+Given the focus on prediction starting from horizon scanning, less
+emphasis is placed on imagining unconventional and less probable
+future possibilities (Derbyshire & Wright, 2017). In fact, emphasis is
+placed on generating plausible future scenarios in scenario planning
+methodologies (Amer et al., 2013). According to Rindova and Martins
+(2022), the plausibility of a strategic narrative is higher the more the
+future scenario is similar to reality and can be achieved in a continu-
+ous way from the present to the future. Thus, plausibility is expected
+to be higher in future scenarios generated by predictive future-making
+practices.
+H1. Plausibility is higher in future scenarios generated
+by predictive future-making than by imaginative future-
+making.
+2.3.2
+|
+Differences between future-making
+approaches in terms of future scenario desirability
+Imaginative future-making practices are undertaken by firms and
+other types of organizations, such as “future labs” (Gümüsay &
+Reinecke, 2022), with the aim of imagining and reflecting on alterna-
+tive futures. In fact, the role of imagination is crucial in aligning organi-
+zational actors toward their desired future state (Beckert, 2021).
+According to Rindova and Martins (2022), the desirability of a strate-
+gic narrative is higher the more the future scenario embeds fictional
+elements that stimulate reflection on values and are discontinuous
+with current reality. By concretizing future representations through
+visual form, participants can actively engage with the future and try to
+shape their desirable version of it (Whyte et al., 2022). This stream
+emphasizes the potential of design to support organizational actors in
+imagining futures that are more desirable to people. Indeed, design
+science has the potential to focus strategists' efforts on developing
+innovative strategies that start not only from existing empirical reality
+but also from “what could be” (Rindova & Martins, 2021). Design
+practices,
+such
+as
+prototyping
+and
+storytelling
+(Bühring
+&
+Liedtka, 2018), have the potential to support the imagination of more
+desirable
+futures.
+For
+instance,
+speculative
+props
+(Dunne
+&
+Raby, 2013) and design fictions (Lee, 2021) present provocative
+glimpses of future scenarios, while experiential futures (Candy &
+Dunagan, 2017) recreate immersive environments that engage the
+five senses and make the future more tangible. Thus, desirability is
+expected to be higher in future scenarios generated by imaginative
+future-making practices.
+H2. Desirability is higher in future scenarios generated
+by imaginative future-making than by predictive future-
+making.
+2.3.3
+|
+Research model
+Our research model is built on two hypotheses to explore the differ-
+ences in plausibility and desirability of scenarios created through pre-
+dictive and imaginative future-making. Figure 1 illustrates our model,
+showing the dependent and independent variables and the two HP
+previously presented.
+3
+|
+METHODS
+We designed an experiment to test our two hypotheses. The experi-
+ment design followed the guidelines of Podsakoff and Podsakoff
+(2019) and Harrison and List (2004). In particular, our study can be
+classified as an experiment (Podsakoff & Podsakoff, 2019) given that
+the independent variable (i.e., future-making approach) was manipu-
+lated qualitatively (i.e., predictive and imaginative process) and that
+participants were randomly assigned to the experimental conditions
+(with only the firm they belonged to controlled as a confounding vari-
+able). Furthermore, the experiment involved a nonstandard subject
+pool (practitioners) (Harrison & List, 2004). The participants (male
+42%, female 58%) were Italian practitioners working in the design unit
+of a consultancy or design agency (48%) or in the innovation and stra-
+tegic design unit of a product company (52%). Two months after the
+experiment, we distributed a survey to assess the plausibility and
+desirability of the future scenarios generated in the experiment. The
+data collection yielded a total 227 future scenario evaluations.
+The evaluators (male 57%, female 43%, 95% aged 25–64) were Italian
+practitioners working in the design unit of a consultancy or design
+agency (42%) or in the innovation and strategic design unit of a prod-
+uct company (58%) mainly in the fields of strategy and marketing
+(43%), design (37%), and information technology (11%). Table 2
+reports the data collected in the experiment and postexperiment
+survey.
+3.1
+|
+Designing the experiment
+We designed the experiment with the goal of operationalizing the
+two future-making approaches (predictive and imaginative) based on
+their characteristics (conception, evaluation, knowledge, and temporal
+representation) identified as relevant dimensions in Augustine et al.'s
+(2019) classification. On the one hand, the conceptualization of
+DURANTE ET AL.
+5
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+predictive future-making occurs through a future-making process that
+emphasizes the importance of scanning the environment as a starting
+point to identify current future forces and signals of change to extrap-
+olate future scenarios (Rohrbeck & Kum, 2018). Thus, the predictive
+future-making cluster of participants received future forces and sig-
+nals of change as inspirational input to generate a future scenario. On
+the other hand, the conceptualization of the imaginative future-
+making process emphasizes reflection (Whyte et al., 2022) and
+imagination (Beckert, 2021) based on identifying fictional future
+options (Rindova & Martins, 2021). Thus, the imaginative future-
+making
+cluster
+of
+participants
+extracted
+nonnegotiable
+values
+(e.g., those they personally believe must be present in the future sce-
+nario) and up-for-discussion values (e.g., those whose presence in the
+future scenario is left to team discussion) from provocative inspira-
+tional videos about the future as inspirational input.
+Whereas predictive future-making evaluates drivers of change
+based on their probability of occurrence (Vecchiato & Roveda, 2010),
+imaginative future-making evaluates fictional future options based on
+their possibility (Rindova & Martins, 2022). Thus, participants in the
+predictive future-making cluster were asked to evaluate the probabil-
+ity of occurrence of future forces and signals of change, while partici-
+pants in the imaginative future-making cluster were asked to evaluate
+the relevance of nonnegotiable and up-for-discussion values.
+Predictive future-making relies on concrete knowledge derived
+from reality (Marinkovic et al., 2022), so participants in this cluster
+were asked to start from current facts (e.g., future forces and signals
+of change) to generate future scenarios. Imaginative future-making
+instead relies on knowledge that is ambiguous because it emerges
+from individuals' interactions with artefacts (Comi & Whyte, 2018), so
+participants in this cluster were asked to rely on inspirational videos
+as ambiguous artefacts representing fictional future scenarios.
+Finally, as the temporal representation characterizing predictive
+future-making is continuous (Rindova & Martins, 2022), participants in
+the predictive future-making cluster were asked to extend a combina-
+tion of current future forces and signals of change to generate the
+future scenario. As imaginative futures entail a leap from current real-
+ity into the future (Augustine et al., 2019), participants in the imagina-
+tive
+future-making
+cluster
+were
+asked
+to
+reflect
+on
+future
+nonnegotiable and up-for-discussion values extracted from inspira-
+tional videos.
+3.2
+|
+Organizing the experiment
+The 4-h experiment was conducted virtually and involved 64 practi-
+tioners randomly divided into 12 teams and equally divided into the
+FIGURE 1
+Research model.
+TABLE 2
+Data collection
+Phase of the
+study
+Data collected
+Purpose of data
+collected
+Experiment
+•
+12 complete Miro
+boards, including
+the templates used
+by all 12 teams (64
+practitioners from
+21 companies)
+•
+12 complete future
+scenarios, including
+12 scenario
+descriptions, 18
+future forces, 18
+signals of change,
+18 nonnegotiable
+values, 18 up-for-
+discussion values,
+38 scenario images,
+61 keywords, 90
+key topics
+•
+More than 19 h of
+recordings of
+teamworking
+activities of all 12
+teams
+•
+Analyse similarities
+and differences
+between future-
+making approaches
+in terms of
+plausibility and
+desirability of
+future scenarios
+generated
+•
+Ensure that all 12
+teams followed the
+instructions in
+order to generate
+the future
+scenarios,
+according to the
+experiment cluster
+(i.e., predictive or
+imaginative)
+Postexperiment
+survey
+•
+223 future
+scenarios
+evaluations (113 of
+scenarios generated
+through predictive
+and 110 generated
+through imaginative
+future-making)
+•
+Measure plausibility
+and desirability of
+future scenarios
+generated
+6
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+two predictive and imaginative clusters. Although the teams followed
+different methodologies according to their cluster—predictive future-
+making (Rohrbeck & Kum, 2018) and imaginative future-making
+(Rindova & Martins, 2021)—each methodological substep of the pro-
+cess was homogeneous in terms of the time range and the type of
+tasks performed to ensure procedural equivalence in the experiment
+(Podsakoff & Podsakoff, 2019).
+Both clusters were given the same challenge as input, namely, to
+make alternative futures of the food and beverage industry in 2030
+from the perspective of a food corporation such as PepsiCo or Unile-
+ver. The first task of the experiment was designed to operationalize
+the perceiving phase of the predictive future-making process and the
+variation phase of the imaginative future-making process. Partici-
+pants in the predictive future-making cluster individually read the
+future forces and signals of change and individually selected three of
+each kind. Participants in the imaginative future-making cluster
+autonomously watched provocative inspirational videos about alter-
+native future scenarios of the food and beverage industry from which
+they extracted nonnegotiable and up-for-discussion values. The sec-
+ond task of the experiment resembled the prospecting phase of the
+predictive future-making process and the problem-solution matching
+of the selection phase of the imaginative future-making process. Each
+group in the predictive future-making cluster converged on the selec-
+tion of three future forces and three signals of change and voted on
+their probability of occurrence on a 1–5 Likert-type scale. First, each
+group identified the most-voted signals of change and future forces
+and shared their understanding of those that were unclear. For
+instance, a team clarified the meaning of the signal of change of
+farming as a service (producing just what the demand is asking for),
+providing an example (ordering boxes with fresh seasonal vegetables
+at a farm). Second, following a team discussion, the team assigned a
+probability of occurrence to each selected driver of change. For
+instance, a team assigned a high probability of occurrence to the
+weak signal of robotic kitchen, given that a participant heard that
+Elon Musk would like to create automatic cooking assistants with
+robotic arms.
+Each group in the imaginative future-making cluster selected
+three nonnegotiable values and three up-for-discussion values, and
+voted on their relevance on a 1–5 Likert-type scale. First, participants
+in each group explained to each other which nonnegotiable and up-
+for-discussion values they individually extracted from the provocative
+inspirational videos and why. For example, a participant extracted eat-
+ing healthy, flavourful, and high-quality food as a nonnegotiable value,
+given his need to avoid tomatoes grown in a greenhouse that have no
+flavour. While another participant extracted vertical farming as an up-
+for-discussion value, given the increasing pollution of cities. Second,
+each group started a discussion to negotiate and converge on the final
+nonnegotiable and up-for-discussion values and rate their relevance
+on a 1–5 Likert-type scale. For example, a group agreed that people
+would not be psychologically ready to become vegetarians in 2030,
+thus assigning a low relevance to the up-to-discussion value of restric-
+tion of meat consumption.
+The third task of the experiment corresponded to the probing
+phase of the predictive future-making process and the creative syn-
+thesis of the selection phase of the imaginative future-making
+process. All groups converged on a future scenario of the food and
+beverage industry in 2030, providing a short description and associat-
+ing it with an image produced by a generative AI tool (e.g., Dall-E and
+Mesopotamia) through keyword insertion. Figure 2 reports a summary
+of the phases of the experiment for both the predictive and imagina-
+tive future-making cluster.
+A total 12 future scenarios, one per team, were generated at the
+end of the experiment. An example of a future scenario generated
+through predictive future-making (P.1) and imaginative future-making
+(I.1) respectively is reported in Figure 3, while the descriptions of all
+the future scenarios generated are reported in the Appendix.
+FIGURE 2
+Phases of the experiment.
+DURANTE ET AL.
+7
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+3.3
+|
+Measuring plausibility and desirability
+Prior to commencing the measurement of future scenarios, our initial
+step involved the thorough reading and coding of all 12 obtained sce-
+narios. Following the axial coding process (Strauss & Corbin, 1990),
+the authors independently coded the 12 future scenarios, aiming to
+identify shared elements and the language employed to describe the
+future. Subsequently, the authors performed a triangulation of
+the findings to verify the validity of both the emerged themes and the
+coded structure. This process has allowed us to conduct an initial
+analysis of the 12 future scenarios that were generated and extract
+qualitative insights from them. To obtain a balanced evaluation of the
+future scenarios in terms of plausibility and desirability for each of
+the 12 future scenarios generated, different versions of the survey
+FIGURE 3
+A future scenario generated through predictive future-making (P.1) and imaginative future-making (I.1). [Colour figure can be
+viewed at wileyonlinelibrary.com]
+8
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+were evenly distributed among the respondents. Respondents' agree-
+ment was measured using 12 items on a 7-point Likert-type scale
+(1 = strongly disagree; 7 = strongly agree). Because we found no exist-
+ing scale to measure the plausibility and desirability of future scenar-
+ios, we built a scale based on the definitions of plausibility and
+desirability derived from the literature. The six plausibility items were
+constructed with reference to a range of future states that are the
+result of a series of events that could occur according to our current
+knowledge of physical laws, processes, and cause-effect relations
+(Artusi & Bellini, 2022; Dunne & Raby, 2013; Voros, 2001; Wenzel
+et al., 2020). Building on Peirce's view of desire (Hawkins, 2007;
+Pape, 1997), and Zurlo et al.'s (2020) view of desirability as an act of
+critique and a reaction to the status quo (Cuhls et al., 2022), the six
+desirability items represent the degree to which the future scenario is
+an expression of individuals' intentions and desires (Table 3).
+We received 227 complete evaluations. After removing four that
+were outliers according to Mahalanobis distance, the final dataset
+counted 223 scenario evaluations (113 future scenarios generated
+through predictive future-making, and 110 generated through imagi-
+native future-making). To test the reliability of the scale, we per-
+formed a principal component analysis on the 12 items using the
+SPSS software, which confirmed the emergence of two components,
+namely plausibility and desirability. Because the first and fifth items of
+the plausibility component loaded on both the plausibility and desir-
+ability components, they were discarded. Finally, we calculated Cron-
+bach's alpha for plausibility (α = .73) and desirability (α = .92) to
+check the internal consistency of the survey (Table 4).
+4
+|
+RESULTS
+In this section, we report on whether there are differences between
+the future scenarios generated by predictive and imaginative future-
+making in terms of plausibility and desirability. We present the results
+of the qualitative and quantitative analysis of all the future scenarios
+generated for both dependent variables.
+4.1
+|
+Plausibility of future scenarios
+In this section, we investigate whether plausibility is higher in future
+scenarios generated by predictive future-making than those generated
+by imaginative future-making.
+TABLE 3
+Plausibility and desirability items and references.
+Items
+References
+Compared to reality as it is today, the future
+scenario described above …
+Plausibility
+… can be reached through a believable series of
+events
+Voros, 2001
+… is likely to happen because it is coherent with a
+combination of current trends
+… could happen according to our current
+knowledge of physical laws, processes, causation
+… represents one of the possible futures that could
+happen
+Dunne &
+Raby, 2013
+… can support in being prepared to face a future
+that can likely happen
+Wenzel
+et al., 2020
+… can represent a statistical prediction of the
+future
+Desirability
+… represents a purpose that triggers my thoughts
+and actions
+Pape, 1997
+… allows me to visualize an experience of the
+world coherent with my desires
+Hawkins, 2007
+… represents a future that I could make my own
+Zurlo
+et al., 2020
+… represents not only my desires but also the ones
+of other individuals
+… indicates a change that I consider necessary in
+reaction to the status quo
+Cuhls
+et al., 2022
+… represents a future that I would like to happen
+TABLE 4
+Principal component analysis loadings.
+Items
+Plausibility
+Desirability
+Compared to reality as it is today, the
+future scenario described above …
+… can be reached through a believable
+series of events
+… is likely to happen because it is
+coherent with a combination of
+current trends
+.71
+… could happen according to our
+current knowledge of physical laws,
+processes, causation
+.61
+… represents one of the possible
+futures that could happen
+.76
+… can support in being prepared to face
+a future that can likely happen
+… can represent a statistical prediction
+of the future
+.75
+… represents a purpose that triggers my
+thoughts and actions
+.75
+… allows me to visualize an experience
+of the world coherent with my
+desires
+.88
+… represents a future that I could make
+my own
+.81
+… represents not only my desires but
+also the ones of other individuals
+.81
+… indicates a change that I consider
+necessary in reaction to the status
+quo
+.76
+… represents a future that I would like
+to happen
+.87
+Cronbach's alpha
+.73
+.92
+DURANTE ET AL.
+9
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+After conducting a qualitative analysis of the way in which the
+future scenarios were written, we found no differences in terms of
+verb tenses and jargon used, regardless of the process used to gener-
+ate the scenarios. Interestingly, the simple future is the most used
+tense in all scenario descriptions. This tense is used in English to make
+predictions or state facts about the future. Thus, a scenario descrip-
+tion composed of sentences using the simple future tense communi-
+cates to the reader a sense of certainty on the fact that the described
+situation will occur in the future. Similarly, the simple present tense is
+used less frequently as a narrative device to tell the story of what
+is happening in the scenario. Second, we found no differences in the
+level of technological advancement of the future scenario descrip-
+tions. In fact, all scenarios generated by the predictive and imaginative
+future-making described a future in which technology enables food
+production, distribution, and consumption in a pervasive way. The
+production of synthetic food in the laboratory and the introduction of
+new methods to produce less traditional food complement the reduc-
+tion in natural meat consumption. The distribution of food throughout
+the supply chain is transparent and tracked by new technologies.
+Food consumption is controlled by customers who are able to check
+the nutritional composition of food through smart devices. Table 5
+provides examples of scenario descriptions generated by predictive
+and imaginative future-making, both in terms of verb tenses and levels
+of technological advancement.
+We conducted a multivariate analysis of variance (MANOVA)
+using SPSS software to evaluate whether there was a statistically sig-
+nificant difference between the average values of plausibility of the
+future scenarios generated by predictive and imaginative future-
+making (F value (2,220) = 9.46, p < .001, Wilk's Λ = .92, partial
+η2 = .08). The results show that there are no statistically significant
+differences in average plausibility between the scenarios generated by
+predictive future-making and those generated by imaginative future-
+making (F value (1,221) = 1.00, p = .318). In fact, the scenarios gener-
+ated by predictive future-making (M = 4.94; SD = 0.94) had a similar
+average plausibility to those generated by imaginative future-making
+(M = 5.07; SD = 0.97) (Figure 4). This means that future scenarios do
+not differ significantly in terms of plausibility, regardless of the future-
+making approach used. Therefore, H1 is rejected.
+4.2
+|
+Desirability of future scenarios
+In this section, we investigate whether the desirability of future sce-
+narios generated by imaginative future-making is higher than that of
+predictive future-making.
+On the one hand, the qualitative analysis of the scenario descrip-
+tions generated by predictive future-making highlights two recurring
+themes. The first theme highlights a future scenario characterized by
+a sense of threat and constraint caused by a business context that has
+become difficult to navigate due to the impact of future environmen-
+tal forces such as climate change and world overpopulation. The sec-
+ond theme describes a future in which the unsustainable behaviours
+of the past, such as excessive food waste and exploitation of scarce
+resources, must be curtailed in order to reduce the environmental
+impact of the food supply chain. On the other hand, the qualitative
+analysis of the scenario descriptions generated by imaginative futures
+highlights five recurring themes. The first theme describes a future
+TABLE 5
+Verb tenses and technological advancement of
+predictive and imaginative future-making scenario descriptions.
+Predictive
+future-making
+Imaginative
+future-making
+Verb tenses and
+jargon
+Scenario 1: “In 2030,
+people will be able
+to verify the origin
+and quality of a
+product before
+buying it.”
+Scenario 3: “To
+maximize cost, land,
+and resource
+efficiency for food
+production, a
+breakthrough in
+synthetic food
+production is
+needed.”
+Scenario 5: “Some
+vegetables for
+“sporadic” or
+“immediate”
+consumption, such
+as herbs, will be
+more available at
+home compared to
+retailers.”
+Scenario 1: “People
+will create small and
+self-sustaining
+communities to
+restore vegetation
+and marine life.”
+Scenario 4: “In 2030,
+Matilda will be
+13 years old and
+will live in a world
+characterized by
+centralized and
+rationed water
+management […].”
+Scenario 5: “Large
+companies will
+carefully measure
+their impact on the
+environment in
+order to remain
+competitive and
+strong in the
+marketplace.”
+Level of
+technological
+advancement
+Scenario 1: “In homes
+instead, people will
+be able to create
+their own delicious
+synthetic meal using
+a food robot.”
+Scenario 2: “To
+reduce significant
+food and resource
+waste, new
+technologies, such as
+indoor farming,
+synthetic food
+production, and 3D
+printing will be
+developed.”
+Scenario 5: “Emerging
+technologies, such as
+blockchain and Web
+3.0, will make it
+possible to track the
+entire food supply
+chain, ensuring
+product quality and
+sustainability, with
+the highest level of
+transparency for
+consumers.”
+Scenario 2: “There will
+be a debate focused
+on the search for
+new and real
+production solutions
+(no greenwashing)
+related to the
+creation of food in
+the laboratory (e.g.,
+lab-grown meat) as
+a possible solution.”
+Scenario 3: “In 2030,
+there will be more
+autonomy in
+sourcing or creating
+food at home
+through new
+technologies that
+allow consumers to
+be autonomous and
+independent.”
+Scenario 5: “In
+addition, incentive
+policies will ensure
+the development of
+new technologies in
+the environment
+and food sectors.”
+10
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+scenario in which societies have drastically changed the way they
+organize themselves, restoring traditional food production and con-
+sumption such as local fishing and cultural food rituals. The second
+and third themes describe a society in which respect for the environ-
+ment is a core value and in which nutrition education plays a crucial
+role from an early age. Finally, the last two themes highlight the
+importance of working at a collective level to mitigate climate change
+through policy-making and fostering stakeholder collaboration and
+dialogue on possible solutions (see Appendix A for a list of the key
+themes that characterize each future scenario).
+Thus, the descriptions of the scenarios generated by predictive
+future-making differ in several ways from those generated by imagina-
+tive future-making. First, compared to the descriptions of scenarios
+generated by predictive future-making, the descriptions of imaginative
+future-making focus on the interaction between actors (e.g., local
+communities and policymakers), transcending the individual and firm
+levels. Second, the imaginative future-making scenario descriptions
+depict a future in which collective debate and action take place to
+proactively anticipate and manage climate change, rather than pas-
+sively react after climate change has occurred. In fact, education about
+the food supply chain and environmental ecosystems plays a critical
+role in mitigating climate change (Table 6). Thus, the scenario descrip-
+tions generated by predictive futures represent a diagnostic attitude
+to temporal events, aimed at identifying the underlying causes of the
+problem, while those generated by imaginative futures are prognostic,
+aimed at identifying and implementing solutions.
+The results also show that there are statistically significant
+differences in average desirability between the scenarios generated
+by predictive future-making and those generated by imaginative
+future-making (F value (1,221) = 16.19, p < .001, partial η2 = .07). In
+particular, average desirability is higher for future scenarios generated
+by imaginative future-making (M = 4.90; SD = 1.31) than for future
+scenarios
+generated
+by
+predictive
+future-making
+(M = 4.17;
+SD = 1.39) (Figure 5). This means that future scenarios significantly
+differ in terms of desirability based on the future-making approach
+used. Thus, H2 is supported.
+FIGURE 4
+Comparing the future-
+making approaches: plausibility. [Colour
+figure can be viewed at wileyonlinelibrary.
+com]
+TABLE 6
+Benefiting actors and attitude to temporal events of the
+predictive and imaginative future-making scenario descriptions.
+Predictive fut
+ure-making
+Imaginative
+future-making
+Benefiting
+actors
+Scenario 1: “In 2030,
+people will be able to
+verify the origin and
+quality of a product
+before buying it.”
+Scenario 3: “As
+customers become
+increasingly aware of
+the production chain
+and processes that
+deliver food ‘to their
+table’, awareness of
+the origin of the food
+and the sustainability
+of the production
+process will become
+the main determinant
+of choice.”
+Scenario 3: “Small local
+communities will
+coexist with
+corporations whose
+environmental impact
+will be regulated by
+the government.”
+Scenario 5: “The most
+virtuous nations
+collaborate and share
+experiences,
+expertise and
+technologies by
+creating a database
+of use cases with the
+results obtained.”
+Attitude to
+temporal
+events
+Scenario 2: “Imagine a
+world in which the
+scarcity of resources
+and the effects of
+climate change are
+widely recognized by
+the year 2030.”
+Scenario 3: “It will be
+critical to leverage
+IoT and big data to
+make the best use of
+limited resources for
+agriculture, which
+must be used as
+efficiently as possible
+due to resource
+scarcity, climate
+change, and
+overpopulation of the
+globe.”
+Scenario 1: “Imagine a
+world in which,
+through the
+participation of
+stakeholders, people
+can take action.”
+Scenario 5: “The
+cultural change
+started in schools
+where food and
+respect for the
+environment have
+become a subject
+that teaches how to
+eat right and respect
+local ecosystems.”
+DURANTE ET AL.
+11
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+5
+|
+DISCUSSION
+The experiment provides insights into the relationship between pre-
+dictive and imaginative future-making and the plausibility and desir-
+ability of the scenarios generated. In particular, our study contributes
+to the underexplored field of empirical studies on future-making by
+disentangling how two dichotomous approaches to future-making
+generate scenarios that differ in terms of plausibility and desirability.
+Specifically, our findings (i) frame the differences and similarities of
+predictive and imaginative future-making approaches (Augustine
+et al., 2019), showing that the resulting future scenarios of the two
+approaches are not inherently different because they also share simi-
+larities and (ii) respond to calls urging scholars to stimulate methodo-
+logical advances in the empirical study of future-making (Gümüsay &
+Reinecke, 2022) by proposing a dichotomous approach (i.e., predictive
+and imaginative), reinforcing that desirability is not considered a fan-
+tasy (Augustine et al., 2019) but an individual and organizational aspi-
+ration (Gümüsay & Reinecke, 2022) and a crucial dimension to
+consider in the future-making process.
+We next discuss the main contributions of our study. First, by
+exploring the differences in terms of the plausibility and desirability of
+scenarios created by predictive and imaginative future-making, we
+contribute to the debate by examining in practice an understudied
+organizational phenomenon, namely, future-making (Wenzel, 2022;
+Wenzel et al., 2020). Indeed, through our experiment (Harrison &
+List, 2004; Podsakoff & Podsakoff, 2019), we were able to test how
+two types of future-making differ in terms of the plausibility and
+desirability of future scenario generation, discussing how organiza-
+tions “actually and ideally engage with the future” (Fergnani, 2022b,
+p. 8). Furthermore, given the challenges that organizations face in bal-
+ancing reality and imagination when looking at the future (Rindova &
+Martins, 2022; Thompson & Byrne, 2022), these findings inform
+scholars about how future-making approaches differ in terms of the
+plausibility and desirability of future scenario generation. In addition,
+our
+study
+explores
+the
+potential
+of
+not
+only
+predictive
+(Fergnani, 2022b) but also imaginative future-making to support orga-
+nizational actors in future-making (Gümüsay & Reinecke, 2022;
+Rindova & Martins, 2022; Wenzel et al., 2020). Given the recent inter-
+est
+in
+the
+role
+of
+imagination
+in
+future-making
+practices
+(Beckert, 2021), scholars propose theoretical processes (Rindova &
+Martins, 2021) that leave ample space for experimentation in practice.
+Thus, our empirical study sheds light on the actual application and
+performance of an imaginative future-making process (Rindova &
+Martins, 2021). Second, our study responds to the call to investigate
+future-making approaches in practice (Gümüsay & Reinecke, 2022). In
+fact, by involving practitioners, we reveal how an experiment
+(Podsakoff & Podsakoff, 2019) on future-making approaches can help
+investigate different aspects (e.g., triggers, processes, and interactions)
+(Gümüsay & Reinecke, 2022) of future-making research and mitigate
+the drawbacks of traditional laboratory experiments involving stu-
+dents (Podsakoff & Podsakoff, 2019).
+5.1
+|
+Theoretical implications
+Our study has implications for advancing the theoretical understand-
+ing of future-making studies (Wenzel, 2022). Indeed, to our knowl-
+edge, this study is one of the first (Thompson & Byrne, 2022) to
+empirically test the relationship between future-making approaches
+and the scenarios generated. One of the most important implications
+of our experiment is that the future-making approach used does not
+affect the plausibility of the scenario created but does affect its desir-
+ability. Previous research has considered future scenarios generated
+by predictive and imaginative future-making as inherently different
+(Augustine et al., 2019). Our study advances theoretical understanding
+that scenarios are influenced in their outcomes by the future-making
+approach
+adopted.
+By
+framing
+two
+different
+theoretical
+perspectives—predictive future-making (Fergnani, 2022a; Marinkovic
+et al., 2022; Vecchiato, 2012) versus imaginative future-making
+(Beckert, 2021; Simeone & D'Ippolito, 2022; Tharp & Tharp, 2022),
+FIGURE 5
+Comparing predictive and
+imaginative future-making: desirability.
+[Colour figure can be viewed at
+wileyonlinelibrary.com]
+12
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+we compared the important phases of both approaches and experi-
+mented their impact in terms of plausibility and desirability of future
+scenarios generated. In fact, we compared a predictive future-making
+process
+(Rohrbeck
+&
+Kum,
+2018)
+and
+the
+tools
+involved
+(e.g., horizon scanning) with an imaginative future-making process
+(Rindova & Martins, 2021) and the tools adopted (e.g., designed arte-
+facts).
+This
+enriches
+the
+current
+debate
+on
+future-making
+(Fergnani, 2022b; Wenzel, 2022), contributing in practice to the theo-
+retical debate on the essence and value of future-making (Gümüsay &
+Reinecke, 2022).
+In addition, our research contributes to the academic debate on
+future-making by proposing a potentially replicable way to conduct
+empirical studies (Gümüsay & Reinecke, 2022) on future-making. As
+future-making research tends to be more theoretical and conceptual
+(Rindova & Martins, 2021), our study contributes by proposing a tan-
+gible and empirical way to test constructs and relationships in future-
+making endeavours. The experiment we designed and conducted
+informs on the relevance of considering plausibility and desirability as
+key constructs in future-making scenario generation.
+5.2
+|
+Managerial implications
+In terms of managerial implications, our study reveals to practitioners
+the characteristics and potentialities of adopting different future-
+making approaches in terms of the plausibility and desirability of
+future scenario generation from an organizational perspective. In fact,
+it exemplifies predictive and imaginative future-making by distinguish-
+ing between input, process, and output. In particular, it shows man-
+agers that different predictive (future forces and signals of change)
+and imaginative (nonnegotiable and debatable values) inputs shape
+different future-making processes. While predictive future-making
+processes and tools (e.g., scenario planning) are established ways
+adopted by organizations to increase future preparedness, imaginative
+ones (e.g., the use of designed artefacts) are less known and aim at
+sparking reflection on the future. Thus, by comparing two different
+future-making approaches, we underline the existence of less conven-
+tional future-making practices, such as imaginative ones. In fact, we
+inform practitioners of the potential of imaginative future-making in
+designing futures that are more desirable to people, highlighting that
+not only prediction is relevant but also reflection and imagination of
+what might be the future is crucial. Indeed, the research shows to
+managers the power of imaginative future-making that is rooted in
+envisioning and crafting scenarios that are not only plausible but also
+desirable. This is achieved through a series of design activities wherein
+various stakeholders are engaged to reflect on and debate over possi-
+bilities, rather than solely predicting them. Finally, our study informs
+practitioners about how to manage future-making processes by show-
+ing that different approaches differently affect the properties of the
+future scenarios generated. Therefore, our study supports practi-
+tioners in managing complexity by unpacking the future-making
+approaches in terms of the resulting scenarios generated.
+6
+|
+CONCLUSIONS, LIMITATIONS AND
+FUTURE RESEARCH AVENUES
+We conducted an experiment (Podsakoff & Podsakoff, 2019) to exam-
+ine the differences in the plausibility and desirability of scenarios cre-
+ated
+by
+predictive
+and
+imaginative
+future-making.
+Our
+study
+contributes to theory (Augustine et al., 2019) by first providing a more
+nuanced understanding of the differences between the desirability of
+predictive (Rohrbeck & Kum, 2018; Vecchiato, 2012) and imaginative
+future-making
+scenarios
+(Rindova
+&
+Martins,
+2021;
+Tharp
+&
+Tharp, 2022), suggesting that while the future-making approaches dif-
+fer in terms of desirability, they are similar in terms of plausibility. Sec-
+ond, by conducting an empirical study, we highlight desirability as a
+crucial dimension to consider in future-making while stimulating
+methodological advances in how to study future-making (Gümüsay &
+Reinecke, 2022). Finally, our study helps practitioners identify the
+potentials of adopting different future-making approaches in terms of
+the inputs, processes, tools, and performance of future scenario gen-
+eration. First, we reinforce to practitioners the potential of imagina-
+tive future-making in generating futures desirable to people. Second,
+we inform practitioners that not only predictive but also imaginative
+future-making can support practitioners in generating plausible future
+scenarios.
+Despite the theoretical and practical contributions, the experi-
+mental setting and the nationality of participants may be a limitation
+of the study. Thus, further research could focus on exploring future-
+making in a less controlled environment and involving international
+participants. Given the use of generative AI tools to support the sce-
+nario generation phase of the experiment, future research could focus
+on their role in influencing the plausibility and desirability of future
+scenario generation.
+ACKNOWLEDGEMENTS
+This research is part of the HumanTech Project, which is supported
+by the Italian Ministry of University and Research (MUR) for the
+2023-2027 period as part of the ministerial initiative “Departments of
+Excellence” (L. 232/2016).
+DATA AVAILABILITY STATEMENT
+The data that support the findings of this study are available from the
+corresponding author upon reasonable request.
+ORCID
+Ilaria Durante
+https://orcid.org/0009-0007-3836-3965
+Claudio Dell'Era
+https://orcid.org/0000-0002-4930-2208
+Stefano Magistretti
+https://orcid.org/0000-0001-9968-7030
+Cristina Tu Anh Pham
+https://orcid.org/0000-0002-1639-4142
+ENDNOTES
+1 Probability consists in recognizing existing alternatives emerging from
+the past and present, namely “what is” (Rindova & Martins, 2021,
+p. 801).
+DURANTE ET AL.
+13
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+2 Possibility consists in imagining future options, namely “what could be”,
+thus
+enlarging
+the
+range
+of
+existing
+alternatives
+(Rindova
+&
+Martins, 2021, p. 801).
+REFERENCES
+Amer, M., Daim, T. U., & Jetter, A. (2013). A review of scenario planning.
+Futures, 46, 23–40. https://doi.org/10.1016/j.futures.2012.10.003
+Artusi, F., & Bellini, E. (2022). From vision to innovation: New service
+development through front-line employee engagement. Innovations,
+24(3), 433–458. https://doi.org/10.1080/14479338.2021.1979986
+Augustine, G., Soderstrom, S., Milner, D., & Weber, K. (2019). Constructing
+a distant future: Imaginaries in geoengineering. Academy of Manage-
+ment Journal, 62(6), 1930–1960. https://doi.org/10.5465/amj.2018.
+0059
+Beckert, J. (2021). The firm as an engine of imagination: Organizational
+prospection and the making of economic futures. Organization Theory,
+2,
+263178772110057.
+https://doi.org/10.1177/
+26317877211005773
+Bellis, P., Magnanini, S., & Verganti, R. (2023). Dialogue for strategy imple-
+mentation: How framing processes enable the evolution of new
+opportunities. Journal of Knowledge Management. https://doi.org/10.
+1108/JKM-01-2023-0064
+Bradfield, R., Wright, G., Burt, G., Cairns, G., & Van Der Heijden, K. (2005).
+The origins and evolution of scenario techniques in long range busi-
+ness planning. Futures, 37(8), 795–812. https://doi.org/10.1016/j.
+futures.2005.01.003
+Bühring, J., & Bishop, P. C. (2020). Foresight and design: New support for
+strategic decision making. She Ji: the Journal of Design, Economics, and
+Innovation,
+6(3),
+408–432.
+https://doi.org/10.1016/j.sheji.2020.
+07.002
+Bühring, J., & Liedtka, J. (2018). Embracing systematic futures thinking at
+the intersection of strategic planning, foresight and design. Journal of
+Innovation Management, 6(3), 134–152. https://doi.org/10.24840/
+2183-0606_006-003_0006
+Candy, S., & Dunagan, J. (2017). Designing an experiential scenario: The
+people who vanished. Futures, 86, 136–153. https://doi.org/10.1016/
+j.futures.2016.05.006
+Carvalho, M. M., Fleury, A., & Lopes, A. P. (2013). An overview of the liter-
+ature on technology roadmapping (TRM): Contributions and trends.
+Technological
+Forecasting
+and
+Social
+Change,
+80(7),
+1418–1437.
+https://doi.org/10.1016/j.techfore.2012.11.008
+Comi, A., & Whyte, J. (2018). Future making and visual artefacts: An eth-
+nographic study of a design project. Organization Studies, 39(8), 1055–
+1083. https://doi.org/10.1177/0170840617717094
+Cuhls, K., Dragomir, B., Gheorghiu, R., Rosa, A., & Curaj, A. (2022). Proba-
+bility and desirability of future developments—Results of a large-scale
+Argumentative Delphi in support of Horizon Europe preparation.
+Futures, 138, 102918. https://doi.org/10.1016/j.futures.2022.102918
+Derbyshire, J., & Wright, G. (2017). Augmenting the intuitive logics sce-
+nario planning method for a more comprehensive analysis of causa-
+tion. International Journal of Forecasting, 33(1), 254–266. https://doi.
+org/10.1016/j.ijforecast.2016.01.004
+Dunne, A., & Raby, F. (2013). Speculative everything: Design, fiction, and
+social dreaming. MIT Press.
+Fergnani, A. (2022a). Corporate foresight: A new frontier for strategy and
+management. Academy of Management Perspectives, 36(2), 820–844.
+https://doi.org/10.5465/amp.2018.0178
+Fergnani, A. (2022b). Corporate foresight: Real or ideal? Academy of Man-
+agement Perspectives, 36(2), 851–856. https://doi.org/10.5465/amp.
+2021.0049
+Flyverbom, M., & Garsten, C. (2021). Anticipation and organization: Seeing,
+knowing
+and
+governing
+futures.
+Organization
+Theory,
+2,
+263178772110203. https://doi.org/10.1177/26317877211020325
+Furnari, S. (2018). When does an issue trigger change in a field? A compar-
+ative approach to issue frames, field structures and types of field
+change. Human Relations, 71(3), 321–348. https://doi.org/10.1177/
+0018726717726861
+Gordon, A. V., Ramic, M., Rohrbeck, R., & Spaniol, M. J. (2020). 50 years of
+corporate and organizational foresight: Looking back and going for-
+ward. Technological Forecasting and Social Change, 154, 119966.
+https://doi.org/10.1016/j.techfore.2020.119966
+Gümüsay, A. A., & Reinecke, J. (2022). Researching for desirable futures:
+From real utopias to imagining alternatives. Journal of Management
+Studies, 59(1), 236–242. https://doi.org/10.1111/joms.12709
+Harrison, G. W., & List, J. A. (2004). Field experiments. Journal of Economic
+Literature,
+42(4),
+1009–1055.
+https://doi.org/10.1257/
+0022051043004577
+Hawkins, S. B. (2007). Desire and natural classification: Aristotle and
+Peirce on final cause. Transactions of the Charles S. Peirce Society, 43(3),
+521–541.
+Hölzle, K., Björk, J., Boer, H., & Goduscheit, R. C. (2022). The future is well
+hidden—It is to us to uncover it. Creativity and Innovation Management,
+31(1), 3–4. https://doi.org/10.1111/caim.12487
+Lee, T. (2021). Beyond archetypes: Advancing the knowledge of narrative
+fiction in future scenarios. Futures, 132, 102779. https://doi.org/10.
+1016/j.futures.2021.102779
+Lehtonen, M. J., Yeow, P., & Chew, J. (2022). Empowering change for
+future-making:
+Developing
+agency by framing wicked
+problems
+through design. Futures, 139, 102952. https://doi.org/10.1016/j.
+futures.2022.102952
+Magistretti, S., Dell'Era, C., Cautela, C., & Kotlar, J. (2023). Design
+thinking for organizational innovation at PepsiCo. California Manage-
+ment
+Review,
+65,
+5–26.
+https://doi.org/10.1177/00081256231
+170421
+Marinkovic, M., Al-Tabbaa, O., Khan, Z., & Wu, J. (2022). Corporate fore-
+sight: A systematic literature review and future research trajectories.
+Journal of Business Research, 144, 289–311. https://doi.org/10.1016/j.
+jbusres.2022.01.097
+Merrie, A., Keys, P., Metian, M., & Österblom, H. (2018). Radical Ocean
+futures-scenario
+development
+using
+science
+fiction
+prototyping.
+Futures, 95, 22–32. https://doi.org/10.1016/j.futures.2017.09.005
+Pape, H. (1997). Love's power and the causality of mind: C. S. Peirce on
+the place of mind and culture in evolution. Transactions of the Charles
+S. Peirce Society, 33(1), 59–90.
+Pham, C. T. A., Magistretti, S., & Dell'Era, C. (2023). How do you frame ill-
+defined problems? A study on creative logics in action. Creativity and
+Innovation Management, 32(3), 493–516. https://doi.org/10.1111/
+caim.12543
+Podsakoff, P. M., & Podsakoff, N. P. (2019). Experimental designs in man-
+agement and leadership research: Strengths, limitations, and recom-
+mendations for improving publishability. The Leadership Quarterly,
+30(1), 11–33. https://doi.org/10.1016/j.leaqua.2018.11.002
+Polvora, A., & Nascimento, S. (2021). Foresight and design fictions meet
+at a policy lab: An experimentation approach in public sector innova-
+tion. Futures, 128, 102709. https://doi.org/10.1016/j.futures.2021.
+102709
+Rindova, V. P., & Martins, L. L. (2021). Shaping possibilities: A design sci-
+ence approach to developing novel strategies. Academy of Manage-
+ment Review, 46, 800–822. https://doi.org/10.5465/amr.2019.0289
+Rindova, V. P., & Martins, L. L. (2022). Futurescapes: Imagination and tem-
+poral reorganization in the design of strategic narratives. Strategic
+Organization,
+20(1),
+200–224.
+https://doi.org/10.1177/
+1476127021989787
+Rohrbeck, R., & Kum, M. E. (2018). Corporate foresight and its impact on
+firm performance: A longitudinal analysis. Technological Forecasting
+and Social Change, 129, 105–116. https://doi.org/10.1016/j.techfore.
+2017.12.013
+14
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+Rohrbeck, R., Thom, N., & Arnold, H. (2015). IT tools for foresight:
+The
+integrated
+insight
+and
+response
+system
+of
+Deutsche
+Telekom Innovation Laboratories. Technological Forecasting and Social
+Change,
+97,
+115–126.
+https://doi.org/10.1016/j.techfore.2013.
+09.015
+Schmidt, S., & Brinks, V. (2017). Open creative labs: Spatial settings at the
+intersection of communities and organizations. Creativity and Innova-
+tion
+Management,
+26(3),
+291–299.
+https://doi.org/10.1111/caim.
+12220
+Schoemaker, P. J. H. (1995). Scenario planning: A tool for strategic think-
+ing. MIT Sloan Management Review, https://sloanreview.mit.edu/
+article/scenario-planning-a-tool-for-strategic-thinking/
+Simeone, L., & D'Ippolito, B. (2022). The potential of design-driven fore-
+sight to support strategy articulation through experiential learning.
+Long Range Planning, 55(6), 102181. https://doi.org/10.1016/j.lrp.
+2021.102181
+Strauss, A., & Corbin, J. (1990). Basics of qualitative research. Sage
+Publications.
+Tharp, B. M., & Tharp, S. M. (2022). Discursive design. Critical, speculative,
+and alternative things. MIT Press.
+Thompson, N. A., & Byrne, O. (2022). Imagining futures: Theorizing the
+practical knowledge of future-making. Organization Studies, 43(2),
+247–268. https://doi.org/10.1177/01708406211053222
+Vecchiato, R. (2012). Environmental uncertainty, foresight and strategic
+decision making: An integrated study. Technological Forecasting and
+Social Change, 79(3), 436–447. https://doi.org/10.1016/j.techfore.
+2011.07.010
+Vecchiato, R., & Roveda, C. (2010). Strategic foresight in corporate organi-
+zations: Handling the effect and response uncertainty of technology
+and social drivers of change. Technological Forecasting and Social
+Change, 77(9), 1527–1539. https://doi.org/10.1016/j.techfore.2009.
+12.003
+Vettorello, M., Eisenbart, B., & Ranscombe, C. (2022). The Innovation Sys-
+tem Roadmap: A novel approach to instil futures-oriented reasoning in
+strategic decision making. Creativity and Innovation Management, 31(1),
+5–18. https://doi.org/10.1111/caim.12472
+Voros, J. (2001). A primer on futures studies, foresight and the use of sce-
+narios. Prospect: The Foresight Bulletin, 6(1), 1–8.
+Wenzel,
+M.
+(2022).
+Taking
+the
+future
+more
+seriously:
+From
+corporate foresight to “future-making”. Academy of Management
+Perspectives,
+36(2),
+845–850.
+https://doi.org/10.5465/amp.2020.
+0126
+Wenzel, M., Krämer, H., Koch, J., & Reckwitz, A. (2020). Future and organi-
+zation studies: On the rediscovery of a problematic temporal category
+in organizations. Organization Studies, 41(10), 1441–1455. https://doi.
+org/10.1177/0170840620912977
+Whyte, J., Comi, A., & Mosca, L. (2022). Making futures that matter:
+Future making, online working and organizing remotely. Organization
+Theory, 3, 263178772110691. https://doi.org/10.1177/26317877
+211069138
+Zurlo, F., Maurer, D., & Pei, X. (2020). Home Bridges the World. Promising
+domestic scenarios in response to the Covid crisis. Creative Industries
+lab, Politecnico di Milano.
+AUTHOR BIOGRAPHIES
+Ilaria Durante is a PhD candidate and researcher of the LEADIN'
+Lab, the Laboratory of LEAdership, Design and INnovation of the
+School of Management, Politecnico di Milano. She is also Senior
+Researcher at the Observatories “FUTURES.
+Claudio Dell'Era is a professor of Design Thinking for Business at
+the School of Management, Politecnico di Milano, where he
+serves also as a co-founder of LEADIN' Lab, the Laboratory of
+LEAdership, Design and INnovation. He is also the director of the
+Observatories “Design Thinking for Business” and “FUTURES.
+Stefano Magistretti is an assistant professor in agile innovation
+and design management at the School of Management, Politec-
+nico di Milano. He also holds a senior research position in the
+LEADIN' Lab, the Laboratory of Leadership, Design, and Innova-
+tion. Within the School of Management, he serves as the co-direc-
+tor for the Observatory Design Thinking for Business and
+Futures: Sense Making by System Thinking. His research is situ-
+ated at the intersection of design thinking and digital technolo-
+gies, with a focus on the expanding role of design and design
+thinking in entrepreneurship and strategy.
+Cristina Tu Anh Pham holds a PhD in Management Engineering,
+with a research focus on problem framing, creativity, and innova-
+tion. She currently serves as a Lecturer of Design Thinking, Design
+Sprint Execution, and Innovation of Meaning at Polimi-Graduate
+School of Management. Additionally, she holds the position of
+Senior Researcher at the LEADIN' Lab, the Laboratory of LEAder-
+ship, Design, and Innovation, and she is a member of the Senior
+Research team of the Observatory Design Thinking for Business.
+Cristina has contributed to various academic journals, including
+Industrial Marketing Management, Innovation: Organization &
+Management,
+Creativity
+and
+Innovation
+Management,
+and
+Research-Technology Management.
+How to cite this article: Durante, I., Dell'Era, C., Magistretti, S.,
+& Pham, C. T. A. (2024). Predictive or imaginative futures?
+Experimenting with alternative future-making approaches.
+Creativity and Innovation Management, 1–22. https://doi.org/
+10.1111/caim.12603
+DURANTE ET AL.
+15
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+APPENDIX A
+16
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+DURANTE ET AL.
+17
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+18
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+DURANTE ET AL.
+19
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+20
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+DURANTE ET AL.
+21
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License
+22
+DURANTE ET AL.
+ 14678691, 0, Downloaded from https://onlinelibrary.wiley.com/doi/10.1111/caim.12603 by <shibboleth>-member@chalmers.se, Wiley Online Library on [09/03/2024]. See the Terms and Conditions (https://onlinelibrary.wiley.com/terms-and-conditions) on Wiley Online Library for rules of use; OA articles are governed by the applicable Creative Commons License

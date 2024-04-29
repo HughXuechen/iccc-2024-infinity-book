@@ -1,0 +1,1086 @@
+Design Ideation with AI - Sketching, Thinking and Talking with 
+Generative Machine Learning Models 
+Jakob Tholander 
+Martin Jonsson 
+jakobth@dsv.su.se 
+martin.jonsson@sh.se 
+Stockholm University 
+Södertörn University 
+Stockholm, Sweden 
+Huddinge, Sweden 
+ABSTRACT 
+Generative machine learning models provide opportunities to sup-
+port design work in various parts of the design process. This study 
+investigates how generative machine learning and large language 
+models may play a part in creative design processes of ideation, 
+early prototyping and sketching. A workshop was conducted in 
+which design practitioners and design researchers developed design 
+concepts for a provided design case, with the help of GPT-3. The 
+fndings point to three main themes, including i) the practical use-
+fulness and limitations of the system in design ideation processes, ii) 
+how the form of user interaction shapes users’ expectations of the 
+system’s capabilities and potentials, and iii), how the broader dis-
+course around AI both limits and enables how co-creative processes 
+involving human and AI unfolds. The discussion outlines design 
+implications and alternative framings of this kind of co-creative 
+design practices based on post-human perspectives on design and 
+technology use. 
+CCS CONCEPTS 
+• Human-centered computing → Interaction design process and 
+methods; Natural language interfaces. 
+KEYWORDS 
+GPT-3, ChatGPT, Large Language Models, LLM, generative ma-
+chine learning, co-creation, post-human design, ideation, computer 
+supported ideation 
+ACM Reference Format: 
+Jakob Tholander and Martin Jonsson. 2023. Design Ideation with AI - Sketch-
+ing, Thinking and Talking with Generative Machine Learning Models . In 
+Designing Interactive Systems Conference (DIS ’23), July 10–14, 2023, Pitts-
+burgh, PA, USA. ACM, New York, NY, USA, 11 pages. https://doi.org/10.1145/ 
+3563657.3596014 
+1 INTRODUCTION 
+In digitally mediated creative practices, such as interaction design 
+and various forms of digital fabrication, smart or intelligent tools 
+are becoming increasingly common to support or in various ways 
+augment the design process. We are seeing technologies that display 
+capabilities that were previously ascribed solely to human actors, 
+This work is licensed under a Creative Commons Attribution International 
+4.0 License. 
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA 
+© 2023 Copyright held by the owner/author(s). 
+ACM ISBN 978-1-4503-9893-0/23/07. 
+https://doi.org/10.1145/3563657.3596014 
+such as design ideation, sketching, and creativity. As a consequence, 
+we need to open up for conversations around what role we should 
+ascribe to these technologies in design-oriented practices and how 
+to integrate them with human values and skills in a co-participative 
+fashion. In this paper, we investigate opportunities and concerns 
+in co-creative design activities with the use of generative AI sys-
+tems, based on large language models (LLMs), and in particular how 
+these may be entangled in co-creative design ideation and rapid 
+sketching activities. The rapid development of AI and generative 
+machine learning technologies [7], such as GPT-3 [5] and most re-
+cently ChatGPT, has made it critical to investigate what new forms 
+of co-creativity such tools may enable and how it can be shaped to 
+align with human values, especially as several of these technologies 
+are explicitly designed to act as or resemble intelligent human ac-
+tors, being able to produce various forms of original text, images, or 
+programming code of a quality in a style that may be indistinguish-
+able from content created by human actors. This brings to the table 
+questions regarding how to practically integrate such non-domain 
+specifc large-scale language models in interaction design practices, 
+and how the interactions and analyses that they are capable of, 
+difer from existing, more specialized AI-based tools aimed at sup-
+porting creative design practices. Notably, these technologies have 
+received substantial public and media attention for their impressive 
+capabilities in engaging in human-like conversation on a diversity 
+of topics, as well as responding to human queries in seemingly 
+intelligent and refective ways. However, we argue that there is a 
+need to study and refect on how to integrate these kinds of systems 
+in interaction design practices without getting stuck in conversa-
+tions on the degree to which they are able to mimic or replace 
+human skills and activities. Conceptually, this development coin-
+cides with theoretical explorations in interaction design research 
+around notions such as post-anthropocentric [8] and post-human 
+design [34], co-performance [16], more-than-human design [11], 
+and machine agency [22], which all suggest a reconsideration of 
+the view that humans should be viewed as the only source of cre-
+ative agency, to instead see various forms of interactive and digital 
+technologies as co-participants and co-creators in the processes of 
+generating ideas or in the forming of creative expressions. Most 
+fundamentally, by shifting the focus of viewing the human actor as 
+the sole locus of creative agency, a number of challenges are raised 
+in respect to what it means to do design with these tools, and how 
+these emerging practices can be understood in terms of co-creation. 
+In this study, we investigated these issues through a workshop in 
+which professional and academic interaction designers used GPT-3 
+as a resource to develop and sketch out design ideas for a given 
+use scenario targeting the emergency waiting room experience 
+for families. The practical design exercises were intertwined with 
+1930
+DIS ’23, July 10–14, 2023, Pitsburgh, PA, USA 
+Jakob Tholander and Martin Jonsson 
+Figure 1: Participants engaged in ideation using generative 
+AI 
+refections on the experience of the activities at hand, and on more 
+general issues relating to co-designing with AI. The analysis of 
+the collected materials resulted in three broader contributions pre-
+sented in this paper: a) An outline of opportunities and challenges 
+for the use of generative AI systems in interaction design ideation 
+activities, b) A discussion of implications for the development of 
+novel interfaces and metaphors for the use of AI-based ideation 
+system, and c) refections on conceptual aspects of co-creativity in 
+the context of interaction design practice and AI 
+2 BACKGROUND 
+2.1 Computer-supported creativity 
+There is substantial interaction design research into ways of sup-
+porting the early stages of design processes, such as ideation and 
+sketching [10, 12, 14, 36]. Design ideation is commonly conducted 
+through group work in more or less structured approaches often 
+using well-organised methods. Examples of ways to support such 
+processes include various brainstorming approaches, role-play and 
+embodied [36] sketching techniques, as well as card-based methods 
+[26]. The card-based approaches exist in many variants and aim 
+to support designers in actions such as generating design alterna-
+tives, team building and collaboration, opening up design spaces, 
+reconsidering design problems from new viewpoints, and provid-
+ing checklists or refective tools for consideration of values, norms, 
+risks, and challenges. Card-based approaches are typically designed 
+to be open-endedly used in design exercises and a key aspect of most 
+card decks is that designers can easily vary the way they use them 
+depending on the user and the context of the particular task at hand. 
+The static character of card decks is also what makes them fexible 
+and easily shifted between context and settings [26]. There is also a 
+range of digital tools and systems developed to support the creative 
+processes of designers [10], providing for example generation of 
+design alternatives in visual and graphic design, tools for narration 
+and storytelling, game-design tools, and support for programming. 
+Bernal et al. [4] account for diferent ways computational aids may 
+support design, particularly pointing to specifc designer activities 
+such as the generation, evaluation, and selection of design solutions. 
+They further categorize the resulting designer-computer actions 
+as either; a) computer aided actions, providing feedback or facilitat-
+ing tasks, b) computer based actions, automating processes, and d) 
+computer augmented actions - extending the designer’s capabilities 
+to potentially improve the design quality. What becomes apparent 
+in this overview, is that a majority of existing support tools for 
+designers are highly specialized, potentially providing specifc re-
+sponses to the users in ways that may efectively tie on to what the 
+user is trying to achieve. This signifcantly difers from the general 
+purpose, large language models, that are in focus in this paper. 
+Computer-supported creativity could also be discussed in terms 
+of co-creation, highlighting tools that also produce actual design 
+content through the automation of certain design tasks. The concept 
+of computer-aided design (CAD) and the implementation of CAD 
+software tools emerged in the 1960s as a means to streamline the de-
+sign process and reduce the amount of time and expertise required. 
+According to Albaugh et al. [1], CAD systems can be classifed as 
+"time-saving systems" that delegate repetitive or time-consuming 
+work to the computer, freeing up the designer to focus on the cre-
+ative aspects of design. An advancement of CAD is the feld of 
+generative design [21], which involves the use of algorithms to gen-
+erate design variations and optimize existing solutions, particularly 
+in 3D models for industrial design and architecture. A subcategory 
+of generative design is grammar-based techniques, which enable 
+the automatic creation of complex forms and patterns from simple 
+textual specifcations [6]. In general, these computer-aided design 
+tools support design and creativity by reducing participation bar-
+riers through the automation of complex tasks. Additionally, they 
+also facilitate the exploration of design spaces by presenting vari-
+ations of potential solutions, which can serve as inspiration for 
+design [20]. 
+2.2 Prompt engineering and natural language 
+interaction 
+A key characteristic of the kind of AI systems used in this study is 
+that they rely on natural language interaction, allowing the user 
+to interact with them in an open-ended chat-based dialogue, to 
+some extent resembling that of human-to-human interaction. Fur-
+thermore, there are no clear limitations on the kind of topics that 
+the system may interact around. It provides potentially relevant 
+responses to user input no matter if it concerns cooking, space tech-
+nology, or 15th-century history. This type of open-ended black-box 
+system introduces a number of challenges for the user in the inter-
+action. Studies on voice-based conversational agents such as Alexa 
+and Siri, highlight how natural language interfaces do not commu-
+nicate their capabilities in the same way as traditional graphical 
+user interfaces. Instead, users bring expectations of using natural 
+language from other settings, most commonly from interaction with 
+other natural language speakers, and adapt their interpretation of 
+the system’s response accordingly. [18, 23] 
+A diferent perspective on the natural language interaction with 
+the large language models such as GPT-3, is in terms of prompt pro-
+gramming or prompt engineering, where the focus is not so much on 
+mimicking human-to-human conversation, but rather on learning 
+how to instruct the system to get appropriate and useful responses. 
+1931
+Design Ideation with AI - Sketching, Thinking and Talking with Generative Machine Learning Models 
+DIS ’23, July 10–14, 2023, Pitsburgh, PA, USA 
+As noted in previous studies, such as [15], interaction with large 
+language models often becomes an issue of struggling with syntax, 
+and "cracking the code" for how to talk to the system. Reynolds and 
+McDonell [25] note that interaction with a language model that 
+draws on natural language interaction can be understood as a form 
+of programming in natural language: "Prompt programming is pro-
+gramming in natural language, which avails us of an inexhaustible 
+number of functions we know intimately but don’t have names 
+for. We need to learn a new methodology, but conveniently, we’ve 
+already learned the most difcult foundations. The art of prompt 
+programming consists in adapting our existing knowledge to the 
+peculiarities of interacting with an autoregressive language model" 
+(p.3). This highlights how natural language is indeterministic and 
+thereby much more complex than traditional programming lan-
+guages, potentially making design for natural language interaction 
+more challenging. 
+2.3 Co-creativity and post-human interaction 
+design 
+The anthropomorphic and human-like character of the interaction 
+with generative AI and large language models challenges existing 
+paradigms on the interplay between human and machine in the 
+context of creative design and ideation. Contemporary theories 
+on post-humanism and post-human design [8, 35], may contribute 
+with useful conceptualizations for characterizing activities of co-
+creation between humans and artifcial intelligence. This connects 
+to the broader conceptual conversation in HCI on material and 
+machine agency [2, 3, 11, 22, 29, 32] as being shared, or distributed, 
+among humans, machines, and artefacts, and the reconsiderations 
+of processes of design and interactivity that these imply. At its 
+core, post-human perspectives on design reject the traditional di-
+chotomies between humans and machines in favour of a perspective 
+on design in which humans and machines are considered to be co-
+participants in processes of ideation, design and making. These 
+theories put to the fore how human agency must be understood as 
+entangled with agencies that stem from non-human entities, e.g. as 
+extensively elaborated in notions such as agential realism [3] and 
+machine agency [22]. Of particular relevance for the present work 
+are studies that question traditional categorizations of design and 
+creativity as relying on step-by-step models as going from design 
+ideas - to digital representations - to machine execution, and instead 
+view humans, materials, and machines as entangled in co-creative 
+and co-performative ways [15]. 
+We argue that novel artifcial intelligence systems are particu-
+larly interesting to explore as a form of non-human co-performer 
+as they display properties that resemble those that would be as-
+cribed to - or expected by - human actors, such as problem-solving 
+and natural language interpretation. An important strand in post-
+human and post-anthropocentric interaction design has challenged 
+common expectations of AI systems to work as rational predictable 
+actors, for instance through notions such as uncertainty [19], im-
+perfection [13, 31, 33], and under-determination [1], and the conse-
+quences these have on the way we conceptualize and design tools 
+and methods for these practices. 
+3 STUDY SETUP 
+The study was organised as a half-day workshop with eight partici-
+pants. The participants consisted of fve professional designers (two 
+industrial designers, two organizational designers, and one user ex-
+perience designer), and three researchers in interaction design and 
+HCI. Before the workshop, the participants were informed about 
+the overall goal and the activities that would be conducted. The 
+workshop was divided into three phases; a rapid design exercise 
+with the support of AI tools for ideation, visualisation and sketching, 
+a design refection exercise, and fnally, speculative design activity 
+to envision novel usages of AI tools for interaction design. The 
+participants were divided into three groups so that each group had 
+one participant with prior experience in using the AI system. For 
+the initial design exercise, the participants were provided with the 
+following design challenge: "You have been asked to radically im-
+prove the experience of families with children visiting the emergency 
+room, with a particular focus on the waiting room experience." The 
+design challenge was created based on the research and outcomes 
+from a prior design project. The provided material consisted of a 
+brief general description and three more detailed user personas, 
+with Figure 2 showing one of the personas as it appeared in the 
+material. The design exercise was set up using commonly used 
+Figure 2: One of the three personas that were provided to the 
+participants as part of the design challenge, and that were 
+also incorporated in some template prompts to the AI 
+design methods in interaction design and consisted of ten separate 
+design activities, as outlined in Table 1. For each of the activities, 
+the participants were asked to integrate the use of the AI tool into 
+their activities. The setup of the design exercises should not be 
+understood as an attempt to create a realistic design situation, since 
+the activity was moderated and time-boxed, restricting the design-
+ers’ control of the design process. Each activity however resembles 
+commonly appearing activities in design, creating opportunities 
+for the participants to relate their experiences to experiences from 
+their professional practices. 
+The AI tools that were used were the GPT-3 model (davinci-
+003) from OpenAI [5], used in the "playground"-mode, through 
+OpenAI:s webpage (see Figure 3), and the DALL-E 2 model, also 
+from OpenAI, for image generation. For each design activity, a 
+number of preset templates were generated, with suggestions for 
+prompts to use as input to the AI system. Some of the presets were 
+more extensive, such as the prompts used for ideation, in which 
+the three predefned personas were incorporated into input to the 
+1932
+DIS ’23, July 10–14, 2023, Pitsburgh, PA, USA 
+Jakob Tholander and Martin Jonsson 
+Table 1: Design Activities performed during the workshop 
+Design activities 
+1. Group ideation (without AI) 
+6. Choose one concept (without AI) 
+2. Ideation with GPT-3, using three diferent presets 
+7. Create concept visualisations using Dall-E 
+3. Select three concepts (without AI) 
+8. Create a mood-board using Dall-E 
+4. Design critique on concepts with GPT-3 
+9. Create an implementation and testing plan using GPT-3 
+5. Create design alternatives with GPT-3 
+10. Create a scenario using GPT-3 
+system (see Figure 3), and the scenario activity, in which an example 
+scenario was provided. The ideation presets were also confgured to 
+result in a chat-like interaction, whereas other presets were shorter, 
+providing examples of how to ask for variations of a concept or 
+to identify problems in a suggested concept. In each activity, the 
+participants had to modify the presets, to include their own ideas, 
+or to articulate specifc instructions to the AI system. The following 
+quotes depict a few example presets that were used: 
+Perform a design critique and identify ten problems 
+with the proposed design concept: (Add your concept 
+here) 
+Provide ten alternative design variations and elabora-
+tions of the following design concept: (Add your concept 
+here) 
+Provide details on how the following concept could be 
+realized using both technological and organizational 
+means. Also detail an implementation and testing pro-
+cess. (Add your concept here) 
+The entire session was flmed, and design ideas and sketches from 
+the participants were collected. The participants also wrote two 
+rounds of individual written refections concerning their experi-
+ences and ideas around the use of the AI tools in the design activities. 
+The workshop also involved discussions in groups on more general 
+questions regarding the use of generative AI in design, such as 
+discussing its overall usefulness in design practice, possible novel 
+forms of interaction, and how to perceive of unpredictable or unex-
+pected behaviour of the system. This part generated both written 
+refections from the groups and video recordings of their discus-
+sions. The video recordings and written refections were transcribed 
+and added to a spreadsheet used for analysis. The fndings were 
+then analysed using thematic analysis and open coding. 
+4 FINDINGS 
+The design phase of the workshop was carried out at a high pace, 
+where the three groups worked in parallel with the given challenge, 
+through the ten design activities. A majority of the activities re-
+quired that the participants interacted with the AI system, but there 
+were also activities where the groups worked without a computer, 
+such as an initial brainstorming session, and activities in which 
+the groups had to narrow down frst to three, and then select one 
+design concept to move forward with. As depicted in Figure 1, the 
+activities were not fully centred around the computer., often one 
+person in a group took responsibility for interacting with the com-
+puter, whereas the others took notes on post-its, and organized 
+them on a whiteboard. The activities shifted from moments when 
+all three group members were engaged with the interactions on 
+Figure 3: The playground user interface including parts of 
+one of the presets that were used for ideation 
+the screen, to activities where they shifted focus from the screen to 
+instead interact with each other around the table or standing by the 
+whiteboard. Throughout the workshop, a large number of data was 
+generated by the AI tools, including concept ideas, concept varia-
+tions, lists of potential problems, scenarios, concept art, and mood 
+boards. Much of the generated data was quickly discarded by the 
+groups, but they were asked to save particularly interesting ones in 
+a separate document. The participants were also encouraged to use 
+the AI-generated output as inspiration, but they could also come 
+up with their own ideas or rewrite AI-generated suggestions in 
+any way they liked. Some examples of AI-generated ideas that the 
+participants saved include: 
+An autonomous AI-sanitizing system with an attached 
+camera that can detect dirt and other contaminants on 
+the toys in the emergency waiting room 
+Waiting room furniture is designed as a labyrinth. With 
+see-through glass so separated families can communi-
+cate with each other 
+An interactive personal augmented reality playmate for 
+kids that guide, support and provide comfort for the kid 
+during a visit to the hospital 
+The examples also included problems identifed by the AI-tool in 
+relation to the suggested concepts, e.g.: 
+Interacting with the AI toy may not be engaging enough 
+to keep children occupied for long periods of time 
+1933
+Design Ideation with AI - Sketching, Thinking and Talking with Generative Machine Learning Models 
+DIS ’23, July 10–14, 2023, Pitsburgh, PA, USA 
+There is no mention of how the platform will handle 
+emergency cases where a patient may require immedi-
+ate attention 
+Some of the generated concept art generated using the AI-based 
+image generator (DALL-E 2) are illustrated in Figure 4. 
+The core of the analysis of the study is based on the participants’ 
+refections and conversations around the design activities and can 
+be structured into two main categories. The frst concerns the op-
+portunities and challenges that the participants experienced from 
+using the AI tool in the design exercises. These bring to the fore 
+how they experienced that the AI worked to support certain design 
+actions while getting in the way of others. The second category 
+concerns the interactional challenges that users faced when using 
+the tools and the consequences of these for engaging in meaningful 
+and productive design actions. 
+4.1 Rapid generation of design alternatives 
+The participants identifed a range of diferent practical usages of 
+the system such as rapidly generating design alternatives, identi-
+fying design problems or creating short scenarios of use around 
+various design challenges. Other useful usages the participants 
+identifed included things such as creating various forms of check-
+lists for things to keep track of in a design project, getting a frst 
+set of ideas to start out from, or getting hard-started or inexperi-
+enced groups going at an ideation session. Each of these activities 
+is time-consuming, but not experienced as particularly complex 
+or advanced, refecting what [15] denoted as a way that tools may 
+lower friction in design work by simplifying or speeding up the 
+process. The possibilities for rapid generation of design ideas that 
+the system allowed for, and the large number of potential ideas that 
+this could result in was one of the most refected themes among the 
+participants. The way we had set up the presets in the system sup-
+posedly reinforced this, but due to how easily new queries could be 
+posed to the system, it allows for getting immediate responses with-
+out any practical limitations. The participants identifed a range 
+of diferent strengths and weaknesses in the fact that the 20-30 
+new design ideas could be generated in only a few minutes. Several 
+participants did not fnd the ideas that were generated to be particu-
+larly novel or creative. They were described as being "simplistic" or 
+"too straightforward", thereby not providing any value beyond what 
+the participants could quickly create on their own. A contrasting 
+point of view of several participants regarded a criticism of the 
+system for being "too good" at what it does. By generating a large 
+number of quite similar ideas, it was claimed that the system would 
+run the risk of narrowing the designers’ perspective on a particular 
+problem rather than opening up a design space and helping to see 
+novel opportunities. 
+Despite such scepticism, in the written refections, many partici-
+pants discussed the variety of more constructive usages that they 
+could envision from the possibilities to rapidly generate a large 
+number of design alternatives. Several participants suggested that 
+the system could be valuable in order to get rid of "the obvious" or 
+"less creative" design ideas, allowing the designers themselves to 
+spend less time on design ideas that would not lead in any creative 
+directions. This type of interaction is similar to that of specialized 
+tools for algorithmic or generative design, which efectively produce 
+variants of design concepts by rule-based or random manipulation 
+of diferent parameters of a design. As noted by [4], generative 
+design can lead to apparently creative outcomes since every new 
+combination brings opportunities to look for new emergent prop-
+erties or afordances. In refecting on how the rapid and immediate 
+generation of new design ideas may infuence a design process, 
+some participants discussed how the more slow-paced, refective 
+elements of a design process might get lost with the introduction 
+and use of tools that instantly can be used to regenerate new ideas 
+and propose alternatives design. One participant framed this as a 
+need to address the risk that AI tools may counteract how human 
+designers often need the time to "slowly and achingly" arrive at the 
+key aspects of a design idea and how ideas often grow and change 
+overnight, and furthermore, how such slow, refective, refnement 
+and articulation of a design idea happen when you move to unusual 
+settings, juxtapose ideas with other alternatives, or experiment with 
+how an idea would be manifested and experienced in alternative 
+design materials [28]. 
+4.2 Lack of context and memory 
+In contrast to the usefulness of the rapid generation of ideas, an-
+other theme that emerged in the refections of the participants 
+around the use of the system in the design activities concerned 1) 
+the system’s lack of understanding about the context of the design 
+problem being worked on, and 2) the system’s lack of memory 
+of the unfolding interaction and emerging design concept. As dis-
+cussed above, several of the participants found the ideas and issues 
+generated by the system to be useful and relevant for the ongoing 
+design exercise. However, a number of more critical refections 
+pointed to how experiences of the "system’s lack of context" was 
+problematic and that ideas and issues identifed about the design 
+ideas that were generated "lacked depth". This was formulated in a 
+number of ways such as that the system had "no reality check!" or 
+that the system was only useful for "going wider, not deeper". Hence, 
+the system was experienced as working well to produce quick ideas 
+on a topic but not to elaborate or unpack it to any further extent. In 
+a related fashion, one participant described this as a "lack of holism" 
+in the responses from the system. As the participants used the sys-
+tem to explore and dig deeper into one specifc design scenario, 
+several participants refected on how the system did not develop 
+an understanding of the design idea in a manner that aligned with 
+how their own thinking about the idea developed. One participant 
+phrased this as experiencing that it was "unclear what it [the system] 
+remembers" regarding the ongoing interaction and the design idea 
+being developed. While the system often generated design ideas 
+in a fashion that one would expect required an understanding of 
+the design problem, the participants refected on that there was 
+no actual way of knowing if the system repeatedly created new 
+ideas from scratch or if these were generated in relation to what 
+had been proposed earlier. 
+Despite this, several participants talked about how they noted a 
+"high understanding from the AI" in its interpretation of the queries 
+and the design ideas and problems that it generated. However, in 
+order to explore a design space it is critical for designers to know 
+the direction of their design process, where they are currently at, 
+1934
+DIS ’23, July 10–14, 2023, Pitsburgh, PA, USA 
+Jakob Tholander and Martin Jonsson 
+Figure 4: AI-generated concept illustrations, illustrating, a) A game for children where projected bubbles on the foor help 
+children to keep distance to avoid spreading germs, b) Toys for the waiting room that uses UV-light to disinfect the toys after 
+usage, c) and d), a personal digital assistant targeting children and parents, that can answer questions about the hospital record 
+where they have been, and where they are headed. This was experi-
+enced as problematic by several of the participants that expressed 
+that they found the system to be most useful in "searching for ideas" 
+or to "generate and probe a variety of diferent perspectives". Clearly, 
+at the core of any design efort is to have an understanding of the 
+circumstances in which the design work is conducted and to re-
+member how the diferent considerations and design choices relate 
+to one another. As noted by [4], it becomes hard for computational 
+design support to integrate seamlessly with an ongoing design pro-
+cess as "designers are able to rapidly identify relevant aspects of a 
+problem and constantly shift the direction of design development 
+through reformulation, analogy, or co-evolution but receive little or 
+no computational support for such behaviour". This also ties into 
+the well-established discussion in HCI on the situated nature of hu-
+man interaction [30], and the challenges for intelligent systems to 
+cope with the contextual nuances and complexities that are always 
+at stake in social human activities [23]. 
+The participants experienced the lack of contextual understand-
+ing and memory as a weakness of the system. However, this prop-
+erty was also discussed as a potential resource in the design process, 
+in that it would resemble "unrealistic humans" that would propose 
+ideas without being limited by what was possible. In a similar vein, 
+it was proposed that ."humans should do realism" and that an AI 
+system could instead be used to go beyond the expected. 
+4.3 Talking to the machine 
+Several of the participants highlighted the work of articulating 
+instructions to the system as a core part of the design activities. 
+Similarly, [15] pointed out how users in natural language interac-
+tion with generative machine learning systems experienced that 
+they had to develop an understanding of an undefned syntax that 
+the system would understand in interacting with it. Our fndings 
+suggest how users needed to pay signifcant attention in articu-
+lating queries to the system in order to work out ways to get the 
+system to respond as they wished or expected. While some experi-
+enced that the system required them to spend too much attention 
+on the details of formulating such queries, others felt claimed that 
+the process helped them "fgure out and fne-tune" their design idea 
+within the group. Thus, the interaction had the dual purpose of 
+getting the most out of the capabilities of the machine, and at the 
+same time to develop and refne defne ideas between the designers 
+working together, independently of the responses that the system 
+actually provided. 
+Furthermore, the participants refected on how the seemingly 
+endless number of ideas and alternatives that the system could 
+generate after some time of using the system was experienced as 
+becoming "similar to googling". One participant mentioned that 
+even though the style of interaction was quite diferent to most 
+search engines. the activity resembled that of browsing through an 
+almost endless number of alternatives in an archive or resembling 
+that of traversing similar style video clips on social media platforms. 
+As discussed above, the participants got engaged in an ongoing 
+refnement process of articulating queries that would result in use-
+ful and interesting responses. This involved experimenting with 
+various phrasings, and making choices of certain terms or words 
+in order to get the system to "understand" what they were aiming 
+for. One participant compared this to articulating search terms to 
+a database and using flters to delimit between a large number 
+of options. The key diference is that the AI system used in this 
+study has no predefned syntax or a given set of parameters, but the 
+articulation has to be made using natural language. This refects 
+Reynolds and McDonell’s [25] discussion of how successful prompt 
+programming for large language models instead "entails high-level, 
+mentalistic concepts like tone, implication, association, meme, style, 
+plausibility, and ambiguity". Furthermore, the participants refected 
+on how the reframing of design ideas through a metaphor of search 
+would infuence how a designer would understand, interpret and 
+make use of the system’s responses to various interactions. Viewing 
+the interaction as a form of browsing and searching for ideas in 
+a space of available resources, it was suggested, would provide a 
+diferent experience of the system than interacting through the 
+articulation of open-ended natural language queries, or being in a 
+conversation with the system would. Thus, the experience of how 
+the system could be used in an interaction design process is shaped 
+not only by how well it performs particular tasks such as ideation or 
+generating design alternatives, but also by the particular metaphor 
+of interaction that the system builds upon. 
+1935
+Design Ideation with AI - Sketching, Thinking and Talking with Generative Machine Learning Models 
+DIS ’23, July 10–14, 2023, Pitsburgh, PA, USA 
+4.4 Sketching with text and visuals 
+Most of the activities in the design exercise relied on text-based 
+interaction with the GTP-3 model. One part of the design task, 
+required the use of DALL-E 2 image-generation model to generate 
+concept illustrations and mood boards for the project. A recur-
+ring conversation among the participants concerned the diference 
+between text-based and visual interactions. In refecting on the char-
+acter of the visualisations and illustrations created by the system, 
+several participants pointed to how the seemingly "well-polished" 
+character of the visualisation would make it challenging to generate 
+alternative designs, as there were no glitches, defects or sketchiness 
+that a designer could pick up on to question or challenge various 
+aspects of an idea. "I think a problem with the AI generating a vi-
+sualization so easily is that you straight away get a narrow view of 
+what the solution will look". Some participants however expressed 
+a contrasting view in discussions about the diference between a 
+visually generated concept idea, vs. a text-based one, where the 
+participants argued that the generated images were still more am-
+biguous and open for interpretation compared with the, sometimes 
+detailed, textual concept suggestions. 
+The role played by the particular modality in which the interac-
+tion is carried out ties into conversations on the practices of sketch-
+ing in ideation and design activities. Sketching has often been put to 
+the fore as a foundational activity in all design practices, as a form 
+of dialogue where externalizing ideas in written or visual forms 
+becomes an integral part of thinking and doing design [9, 14, 17, 27]. 
+In a study on the tools that designers use for ideation, Jonson [14] 
+shows that most designers use a mix of language-based and visual 
+tools, suggesting that design ideation emerges in interaction or 
+in conversations between visualisation (non-verbal) and language 
+(verbal). That textual interaction is central in the use of large lan-
+guage models such as GPT-3 is not surprising, since language and 
+text-based modalities are the foundational elements that they are 
+built and trained on. In addition, AI models for image generation, 
+like DALL-E, are very much dependent on language, and textual 
+forms of interaction. During the workshop, some participants ex-
+pressed that they would have liked a system that combine text and 
+image generation capabilities in one interface. This dependence on 
+text and natural language highlights some of the limitations that 
+the participants experienced seamlessly shifting between verbal 
+and non-verbal forms of sketching. In addition, the participants’ 
+accounts on the impact of the "fnishedness" of both visual and tex-
+tual outputs from the AI models, point to a tension with sketching 
+as a process of engaging with the open-endedness and unfnished 
+character of design ideas in the early stages of a design process. 
+This refects early studies on the impact of CAD tools on creativity, 
+where Lawson and Loke [17] note that "inability of conventional 
+CAD drawing tools to sustain ambiguity, uncertainty and parallel 
+lines of thought makes them very diferent from manual sketching". 
+How large language models and generative image models may 
+support various aspects of sketching will thus have to be explored 
+further. 
+5 DISCUSSION 
+Our fndings highlighted both opportunities and challenges for 
+integrating large language models in creative design and ideation. 
+Here we will focus on three particular issues that we argue are of 
+central importance for future developments of AI-based tools to 
+support creativity in interaction design processes: Firstly, we discuss 
+the characteristics of this kind of computer-supported ideation, in 
+comparison with other tools. Secondly, we highlight diferent ways 
+of understanding interactions with the system in terms of four kinds 
+of interaction metaphors, and why that framing matter. Finally, 
+we propose a conceptualization of the interactions with the AI-
+tools based perspectives from co-creativity and more-than-human 
+design. 
+5.1 Design ideation with AI 
+Our study shows that the participants saw a range of potentially 
+useful ways for integrating and making use of this kind of system in 
+design work. This included both speeding up the design process to 
+avoid unnecessary time-consuming humps along the way, as well 
+as engaging designers in refections and articulations of their ideas, 
+helping them see new perspectives and opportunities. Importantly, 
+the participants did not fnd the responses from the system to be 
+"good" design in itself, but became meaningful in relation to the 
+participants’ interpretation of the design task. Not surprisingly, 
+no matter how the participants interpreted the intelligibility and 
+usefulness of the system, the necessity and importance of human 
+refection in these processes were deemed critical. One aspect that 
+recurred throughout the workshop was an emphasis on situating 
+the actions of the system within a certain context or practice within 
+which the participants’ interpretation and sense-making would take 
+place. Whatever response the system provided, "human refection" 
+and meaning-making were always deemed critical in order for the 
+system’s responses to be interpreted as meaningful design actions. 
+On several occasions, however, the design ideas that the system 
+proposed were described as being "hollow", by lacking reference to 
+the intentions and rationales behind the queries articulated by the 
+participants. 
+This raises a number of concerns regarding how to position these 
+kinds of tools in interaction design processes, and how they relate to 
+other existing tools and methods designed to support creativity and 
+ideation. One issue regards how important the seemingly intelligent 
+interaction and human-like communication is for the usefulness of 
+such a system. Does the design ideas or design problems that the 
+system generates contribute to any substantial degree beyond what, 
+for instance, various types of design cards that support designers in 
+rapidly envisioning diferent alternatives, perspectives or values? 
+While this is a question that needs further empirical work to be 
+answered, it highlights the need to further unpack how the various 
+actions of an AI tool may play a role in emerging design processes. 
+As has been previously noted, existing tools to support creativity 
+and ideation are in most cases highly specialized, targeting either 
+particular design practices, such as generative CAD tools for in-
+dustrial designers, or support for particular design domains. Large 
+language models difer through their generic capabilities, while at 
+the same time being able to contribute with domain-specifc knowl-
+edge. This can be contrasted to card-based approaches, which are 
+often generic across settings and contexts, and lack domain-specifc 
+knowledge [26]. What became apparent in our fndings was that 
+the participants appreciated the more generic reasoning capabilities 
+1936
+DIS ’23, July 10–14, 2023, Pitsburgh, PA, USA 
+Jakob Tholander and Martin Jonsson 
+more than the domain-based knowledge support. The system’s abil-
+ity to generate design variations or identify problems or challenges 
+to a concept solution was considered more useful than the genera-
+tion of unique design ideas. Actions and activities involving the AI 
+tool that provided a space for interpretation and meaning-making 
+were appreciated by the designers, while more "precise" program-
+ming style actions, as studied by [15], were more challenging to 
+see a use for. 
+Another issue that recurred throughout our fndings concerned 
+how working with the AI tool on a particular task compared to 
+working with another person on the same task. One participant in 
+the study argued that the AI system would be most useful when 
+working alone, providing a means to engage in an interaction, get-
+ting feedback on ideas, and developing them further. The AI system 
+would essentially fll the role of another human co-worker. Other 
+accounts from the participants, instead lifted that the strengths of 
+the AI system lie in its capabilities to go beyond what is possible 
+for a human designer, such as generating a large number of ideas 
+or variations in a very short time, mirroring what Bernal et al. [4] 
+categorize as computer-based actions, aimed at automating and 
+speeding up processes. One participant argued that humans should 
+"do realism", whereas the AI should contribute with ideas and input 
+that are out of reach of the human designers. This type of support, 
+Bernal et al. [4] would categorize as computer-augmented actions 
+that aim to improve the design quality. Along these lines, the ability 
+to provide odd, random or unexpected contributions might cause 
+confusion, as well as encourage refection and spur new directions 
+of creativity. Albaugh et al [1] argue that this is a particular type 
+of support that difers from the time-saving approaches that were 
+discussed previously, and instead provides a "time deepening" func-
+tion, disrupting the process, and opening up for new avenues of 
+thought. 
+5.2 Interaction metaphors 
+The interaction with the GPT-3 system in this study made use of 
+the "Playground" interface, provided by OpenAI. This interface is 
+a graphical user interface, where the main interaction element is 
+a large text feld, where the user can input text, and where also 
+the text generated by the AI appears line by line, and a "Submit" 
+button that will initiate the response from the model (see Figure 3). 
+This fairly plain interface opens up for several possible interaction 
+metaphors, depending on the system’s behaviour. In comparison, 
+the more recent ChatGPT interface has a similar design but is 
+explicitly presented as a form of chat, based on an interaction 
+metaphor most commonly used in human-human communication 
+systems, such as text messaging and chatting. In the participants’ 
+accounts in our study, they explicitly and implicitly described the 
+interactions with the system in relation to other interactive systems 
+and forms of interaction, which refect not only diferent ways of 
+understanding how the system works, but it also suggests how 
+diferent framings of the overall structure of the activity shape 
+how the interaction unfolds. In the following, we will discuss four 
+diferent interaction metaphors, that could be identifed in our 
+data; a) conversation-based metaphor, b) command-based, c) search-
+based, and d) chance-based interaction metaphors. Next, we further 
+refect on how they infuence the relations and interactions between 
+human and technology in interaction design ideation. 
+A conversation-based interaction metaphor suggests a conversa-
+tion between human and technology, mirroring human-to-human 
+dialogues. A signifcant part of the accounts in our fndings refect 
+this perspective, attributing subjective characteristics to the AI 
+model, for example talking about what it "understands" in the con-
+versation, and that "getting to know the AI" was common ways that 
+the participants described their ways of interpreting the actions 
+of the AI. This refects studies of conversational interfaces [18] 
+that point to how users commonly bring expectations on how such 
+interaction would be similar to human conversational structures 
+[23, 24], and that people (as well as designers) often expect that 
+interactions with a machine would unfold in a similar manner as 
+human social interaction would, mirroring the assumption that 
+a speaker produces meaningful and intelligible utterances in re-
+sponse to someone’s actions. Importantly, this has been identifed 
+as one of the reasons for the interactional troubles that reoccur in 
+interactive systems that attempt to imitate human conversations, 
+since the machine inevitably lacks some of the contextual cues that 
+human interlocutors typically rely upon in human-to-human inter-
+action [30] . This kind of asymmetrical relation to the context of 
+the conversation and memory of how it has unfolded was explicitly 
+refected in our participants’ conversations around how well the 
+system perceived their actions. As pointed out by [23], one reason 
+why these troubles arise is that conversational interfaces are sel-
+dom designed to allow users to engage in the kind of repair work 
+that is at the core of how human conversations unfold. Further, 
+our fndings showed how the conversational style of interaction 
+shaped the way users interpreted and made sense of the responses 
+that the system generated concerning the design exercises, and 
+often created a frame of expectations that went beyond what the 
+system was actually capable of, illustrated, for instance, by remarks 
+from the participants regarding how well the system understood 
+the design problem or its interpretation of their queries. 
+A more prominent interaction metaphor that can be identifed in 
+our data, is an understanding of the AI system as command-based, 
+suggesting that you provide a particular instruction to the system 
+in order to get a particular response. As has been discussed earlier, 
+the users’ work of fguring out a working syntax is a non-trivial 
+task in the context of the open natural language interaction with 
+large language models, and has been described in terms of prompt 
+engineering or prompt programming [25]. Co-creating ideas with 
+the AI system in the design exercise was often based on instruc-
+tions such as "Propose fve concept ideas on...". Notably, this type 
+of interaction is distinctly diferent from the type of direct manipu-
+lation interfaces used in most tools designed for sketching and lo-f 
+prototyping. The shift from command-based systems with complex 
+syntax (e.g. the Emacs text editor), to systems based on physical 
+manipulations of graphical elements, was largely driven by the de-
+velopment of tools to support creative work such as programming 
+and design. 
+A related analogy of use that was explicitly brought up by the 
+participants, was that the interaction of generating new concept 
+ideas resembled that of searching or browsing the internet using 
+search engines. The participants highlighted similarities such as 
+the natural language interface, through which users may become 
+1937
+Design Ideation with AI - Sketching, Thinking and Talking with Generative Machine Learning Models 
+DIS ’23, July 10–14, 2023, Pitsburgh, PA, USA 
+increasingly skilled in formulating search queries, and gets a well-
+defned output in response. Furthermore, the participants high-
+lighted that the ideation process using the AI system extensively 
+involved browsing and sifting among large numbers of more or 
+less relevant idea suggestions, which in a sense became a way of 
+defning the boundaries of the design space. Framing the activity 
+through this kind of use of the large language model mirrors that 
+of using systems for generative design of 3D models [21], which 
+uses rule-based algorithms to generate design variations, serving 
+as inspiration for design [20]. A fnal example of how the system 
+was interpreted by the participants, is based on accounts saying 
+that they felt that the system responses would sometimes not at 
+all correspond to their intentions, providing more or less random 
+output, refecting a chance-based interaction. As has been shown in 
+earlier studies [15], giving the users something else than what they 
+asked for, may actually support creativity, by introducing a form 
+of creative friction that encourages refection in action, and open-
+ing up for unexpected turns in the design process. Chance-based 
+interaction is also foundational in most card-based approaches for 
+ideation and creative design in that there is always an element of 
+randomness and surprise in the cards someone receives. 
+The four interaction metaphors presented above do not form 
+an extensive list of all possible ways in which interaction with AI 
+could be understood, but the discussion highlights that the common 
+conversational interaction metaphor need to be challenged, in order 
+to frame and reconfgure what users’ expect from the system in 
+relation to what it is actually capable of, as well as how they would 
+interpret and understand the actions and responses of the system. 
+Conversational or command-based approaches might not be ideal 
+interaction forms to support sketching activities, while being better 
+suited for design activities that aim at opening up design spaces or 
+rethinking problems. 
+5.3 Designing with - perspectives on co-creation 
+A preceding study [15] on co-creation with AI in creative program-
+ming, highlighted how the presentation or "framing" of the tool in 
+relation to the activity infuenced the users’ expectations of the sys-
+tem’s action and how they valued and interpreted the meaning of 
+its responses. In particular, the distinction between understanding 
+the AI system as either a tool or as a co-creator was emphasised as 
+two alternative ways of framing the interaction in relation to the 
+users, and which would foster diferent ways of interpreting its ac-
+tions. This aligns with how perspectives such as more-than-human 
+design and co-creativity in the last decade have been concerned 
+with re-conceptualising the ways novel interactive technologies can 
+hold various forms of agency in interactive settings. Notions such 
+as material- and machine agency have been introduced in order 
+to rethink the actions and relations that emerge when these tech-
+nologies become entangled with human users. Importantly, in HCI, 
+the notion of machine agency is not about ways of understanding 
+how human agency and intelligence is manifested in technology, 
+but about how novel forms of agency may expand and co-exist 
+with human agency. Such questions of the agential capacities of 
+the system were also an overarching issue that appeared through-
+out the present study, most prominently through the participants’ 
+engagement with the system’s potential to understand various as-
+pects of the user’s actions, such as queries to create certain kinds 
+of design alternatives, or how imaginative, or creative the system 
+was in the responses that were generated. A typical comment from 
+the participants was that there was "generally high understanding 
+from the AI" or sometimes the opposite "it was not very creative", 
+but also in more difuse ways "Sometimes it does whatever it wants, 
+but often it feels like it understood things in approximate ways, and 
+that it after its best abilities did what it should". 
+The users expectations regarding the AI’s capacity for under-
+standing and creativity are certainly relevant ways to refect on the 
+qualities of a system such as this, but to consider the AI system 
+as a co-creative design partner does not require that it displays 
+human thinking skills, or that we draw on conceptions such as 
+understanding or intelligence in interpreting the value of the sys-
+tem’s actions. We fnd that this runs the risk of overshadowing 
+more pragmatically oriented considerations of how the qualities of 
+the system may be used in design processes, no matter how well 
+they refect what we would perceive as human cognitive traits. We 
+believe that our fndings challenge several existing conceptualiza-
+tions relating to the agential capabilities of interactive systems; 
+both the tool perspective, referring to an entirely passive system 
+that only carries out the user’s instructions, as well as a perspective 
+of intelligent agents, as discussed above. This ties into the con-
+versations around any alternative conceptualisations that could 
+capture the nuances and complexities involved in the "dance of 
+agency" [22] of co-creative settings involving both humans and 
+AI tools.. Wakkary’s [35] notion of more-than-human design, and 
+specifcally the notion of "designing with" suggests one perspective 
+that serves to reconfgure the dichotomous ways of perceiving the 
+relations between users and systems, to instead consider design as 
+a joint achievement among diferent actors and artefacts. We argue 
+that such a perspective on design with general-purpose AI tools, 
+provides an opportunity to reframe our perception of the system 
+behaviour, in a way that purposefully helps designers to draw on 
+and integrate its capabilities in design practices, no matter how 
+similar they are to human design skills. This challenge as we see it, 
+lies in reframing the space in-between the user and the technology 
+in a fashion that helps designers to perceive the tool as able to do 
+the things that they cannot do. In other words, this entails framing 
+the use and interaction with this kind of system, not as diferent 
+ways of seeing how the human and technology can engage in co-
+creativity by doing almost the same things, to instead seeing them 
+as doing diferent things diferently. 
+6 FINAL REMARKS 
+In this paper, we have accounted for a small scale study of how large 
+language models and generative AI can support creative design and 
+ideation. The analysis of the participants’ refections, highlights 
+both opportunities and challenges in the interaction and use of 
+the system for purposes of design . The opportunities that were 
+most clearly identifed, concerned saving time, by quickly map-
+ping out a design space, and identifying the most obvious ideas, as 
+well as fnding potential faws in various design challenges. The 
+participants also saw a potential for generating complementary 
+working materials such as scenarios and personas. The participants 
+1938
+DIS ’23, July 10–14, 2023, Pitsburgh, PA, USA 
+Jakob Tholander and Martin Jonsson 
+however did not trust the AI to be able to generate high-quality 
+and innovative solutions on its own, pointing to that the system is 
+lacking an in-depth contextual understanding of the design case 
+and also, the fact that the AI system was perceived as being very 
+fast resulted in a view that the system was more useful for going 
+wide when exploring a design space, rather than going deep. 
+The analysis highlights how the experience of using the system 
+was infuenced by the interaction metaphor that the system are 
+based upon, and a kind of conversational style of interaction that 
+mimic human-to-human communication may work as a resource, 
+as well as a hindrance in the design process. The participants ex-
+perienced similarities in the interaction with the AI system to that 
+of using a search engine. In addition, our fndings suggest that the 
+users’ expectations of the systems as being humanly intelligent and 
+creative, brings in human-like traits that potentially gets in the way 
+of alternative conceptions for design of interfaces and interaction 
+for co-creation with AI. To open up for novel alternatives, we have 
+argued that post-humanist and more-than-human perspectives on 
+design allow for a consideration of machine generated design ac-
+tions as creating opportunities to design co-creative settings that 
+make better use of the diferent capabilities and characteristics of 
+human and machine. 
+REFERENCES 
+[1] Lea Albaugh, Scott E. Hudson, Lining Yao, and Laura Devendorf. 2020. Investi-
+gating Underdetermination Through Interactive Computational Handweaving. 
+In Proceedings of the 2020 ACM Designing Interactive Systems Conference (DIS 
+’20). Association for Computing Machinery, New York, NY, USA, 1033–1046. 
+https://doi.org/10.1145/3357236.3395538 
+[2] Kristina Andersen, Ron Wakkary, Laura Devendorf, and Alex McLean. 2019. 
+Digital crafts-machine-ship: creative collaborations with machines. interactions 
+27, 1 (Dec. 2019), 30–35. https://doi.org/10.1145/3373644 
+[3] Karen Barad. 2007. Meeting the Universe Halfway: Quantum Physics and the 
+Entanglement of Matter and Meaning. Duke University Press. 
+[4] Marcelo Bernal, John R. Haymaker, and Charles Eastman. 2015. On the role of 
+computational support for designers in action. Design Studies 41 (Nov. 2015), 
+163–182. https://doi.org/10.1016/j.destud.2015.08.001 
+[5] Tom B. Brown, Benjamin Mann, Nick Ryder, Melanie Subbiah, Jared Kaplan, 
+Prafulla Dhariwal, Arvind Neelakantan, Pranav Shyam, Girish Sastry, Amanda 
+Askell, Sandhini Agarwal, Ariel Herbert-Voss, Gretchen Krueger, Tom Henighan, 
+Rewon Child, Aditya Ramesh, Daniel M. Ziegler, Jefrey Wu, Clemens Winter, 
+Christopher Hesse, Mark Chen, Eric Sigler, Mateusz Litwin, Scott Gray, Ben-
+jamin Chess, Jack Clark, Christopher Berner, Sam McCandlish, Alec Radford, 
+Ilya Sutskever, and Dario Amodei. 2020. Language Models are Few-Shot Learn-
+ers. arXiv:2005.14165 [cs] (July 2020). http://arxiv.org/abs/2005.14165 arXiv: 
+2005.14165. 
+[6] Scott C. Chase. 2005. Generative design tools for novice designers: Issues for 
+selection. Automation in Construction 14, 6 (Dec. 2005), 689–698. https://doi.org/ 
+10.1016/j.autcon.2004.12.004 
+[7] Antonia Creswell, Tom White, Vincent Dumoulin, Kai Arulkumaran, Biswa 
+Sengupta, and Anil A. Bharath. 2018. Generative Adversarial Networks: An 
+Overview. IEEE Signal Processing Magazine 35, 1 (Jan. 2018), 53–65. https: 
+//doi.org/10.1109/MSP.2017.2765202 Conference Name: IEEE Signal Processing 
+Magazine. 
+[8] Laura Devendorf, Abigail De Kosnik, Kate Mattingly, and Kimiko Ryokai. 2016. 
+Probing the Potential of Post-Anthropocentric 3D Printing. In Proceedings of the 
+2016 ACM Conference on Designing Interactive Systems (DIS ’16). Association for 
+Computing Machinery, New York, NY, USA, 170–181. https://doi.org/10.1145/ 
+2901790.2901879 
+[9] Daniel Fallman. 2003. Design-oriented human-computer interaction. In Pro-
+ceedings of the SIGCHI Conference on Human Factors in Computing Systems 
+(CHI ’03). Association for Computing Machinery, New York, NY, USA, 225–232. 
+https://doi.org/10.1145/642611.642652 
+[10] Jonas Frich, Lindsay MacDonald Vermeulen, Christian Remy, Michael Mose 
+Biskjaer, and Peter Dalsgaard. 2019. Mapping the Landscape of Creativity Support 
+Tools in HCI. In Proceedings of the 2019 CHI Conference on Human Factors in 
+Computing Systems (CHI ’19). Association for Computing Machinery, New York, 
+NY, USA, 1–18. https://doi.org/10.1145/3290605.3300619 
+[11] Elisa Giaccardi and Johan Redström. 2020. Technology and More-Than-Human 
+Design. Design Issues 36, 4 (Sept. 2020), 33–44. https://doi.org/10.1162/desi_a_ 
+00612 
+[12] Noe Vargas Hernandez, Jami J. Shah, and Steven M. Smith. 2010. Understanding 
+design ideation mechanisms through multilevel aligned empirical studies. Design 
+Studies 31, 4 (July 2010), 382–410. https://doi.org/10.1016/j.destud.2010.04.001 
+[13] Miwa Ikemiya and Daniela K. Rosner. 2014. Broken probes: toward the design of 
+worn media. Pers Ubiquit Comput 18, 3 (March 2014), 671–683. https://doi.org/ 
+10.1007/s00779-013-0690-y 
+[14] Ben Jonson. 2005. Design ideation: the conceptual sketch in the digital age. Design 
+Studies 26, 6 (Nov. 2005), 613–624. https://doi.org/10.1016/j.destud.2005.03.001 
+[15] Martin Jonsson and Jakob Tholander. 2022. Cracking the code: Co-coding with 
+AI in creative programming education. In Creativity and Cognition (C&amp;C 
+’22). Association for Computing Machinery, New York, NY, USA, 5–14. https: 
+//doi.org/10.1145/3527927.3532801 
+[16] Lenneke Kuijer and Elisa Giaccardi. 2018. Co-performance: Conceptualizing 
+the Role of Artifcial Agency in the Design of Everyday Life. In Proceedings of 
+the 2018 CHI Conference on Human Factors in Computing Systems. Association 
+for Computing Machinery, New York, NY, USA, 1–13. https://doi.org/10.1145/ 
+3173574.3173699 
+[17] Bryan Lawson and Shee Ming Loke. 1997. Computers, words and pictures. Design 
+Studies 18, 2 (April 1997), 171–183. https://doi.org/10.1016/S0142-694X(97)85459-
+2 
+[18] Ewa Luger and Abigail Sellen. 2016. "Like Having a Really Bad PA": The Gulf 
+between User Expectation and Experience of Conversational Agents. In Pro-
+ceedings of the 2016 CHI Conference on Human Factors in Computing Systems 
+(CHI ’16). Association for Computing Machinery, New York, NY, USA, 5286–5297. 
+https://doi.org/10.1145/2858036.2858288 
+[19] Betti Marenko and Philip van Allen. 2016. Animistic design: how to reimagine 
+digital interaction between the human and the nonhuman. Digital Creativity 27, 
+1 (Jan. 2016), 52–70. https://doi.org/10.1080/14626268.2016.1145127 Publisher: 
+Routledge _eprint: https://doi.org/10.1080/14626268.2016.1145127. 
+[20] Jon McCormack, Alan Dorin, and Troy Innocent. 2004. Generative Design: A 
+Paradigm for Design Research.. In DRS Biennial Conference Series. https://dl. 
+designresearchsociety.org/drs-conference-papers/drs2004/researchpapers/171 
+[21] James Mountstephens and Jason Teo. 2020. Progress and Challenges in Generative 
+Product Design: A Review of Systems. Computers 9, 4 (Dec. 2020), 80. https: 
+//doi.org/10.3390/computers9040080 Number: 4 Publisher: Multidisciplinary 
+Digital Publishing Institute. 
+[22] J. Brian Pickering, Vegard Engen, and Paul Walland. 2017. The Interplay Between 
+Human and Machine Agency. In Human-Computer Interaction. User Interface 
+Design, Development and Multimodality (Lecture Notes in Computer Science), 
+Masaaki Kurosu (Ed.). Springer International Publishing, Cham, 47–59. https: 
+//doi.org/10.1007/978-3-319-58071-5_4 
+[23] Martin Porcheron, Joel E. Fischer, Moira McGregor, Barry Brown, Ewa Luger, 
+Heloisa Candello, and Kenton O’Hara. 2017. Talking with Conversational Agents 
+in Collaborative Action. In Companion of the 2017 ACM Conference on Computer 
+Supported Cooperative Work and Social Computing. ACM, Portland Oregon USA, 
+431–436. https://doi.org/10.1145/3022198.3022666 
+[24] Martin Porcheron, Joel E. Fischer, and Sarah Sharples. 2017. "Do Animals Have 
+Accents?": Talking with Agents in Multi-Party Conversation. In Proceedings of 
+the 2017 ACM Conference on Computer Supported Cooperative Work and Social 
+Computing (CSCW ’17). Association for Computing Machinery, New York, NY, 
+USA, 207–219. https://doi.org/10.1145/2998181.2998298 
+[25] Laria Reynolds and Kyle McDonell. 2021. Prompt Programming for Large 
+Language Models: Beyond the Few-Shot Paradigm. In Extended Abstracts of 
+the 2021 CHI Conference on Human Factors in Computing Systems (CHI EA 
+’21). Association for Computing Machinery, New York, NY, USA, 1–7. https: 
+//doi.org/10.1145/3411763.3451760 
+[26] Robin Roy and James P. Warren. 2019. Card-based design tools: a review and 
+analysis of 155 card decks for designers and designing. Design Studies 63 (July 
+2019), 125–154. https://doi.org/10.1016/j.destud.2019.04.002 
+[27] Donald A. Schön. 1987. Educating the refective practitioner: Toward a new design 
+for teaching and learning in the professions. Jossey-Bass, San Francisco, CA, US. 
+Pages: xvii, 355. 
+[28] Anna Ståhl, Jakob Tholander, Jarmo Laaksolahti, and Elsa Kosmack-Vaara. 
+2017. Being, Bringing and Bridging: Three Aspects of Sketching with Na-
+ture. In Proceedings of the 2017 Conference on Designing Interactive Systems (DIS 
+’17). Association for Computing Machinery, New York, NY, USA, 1309–1320. 
+https://doi.org/10.1145/3064663.3064764 
+[29] Lucy Suchman. 2017. Agencies in Technology Design: Feminist Reconfgurations*. 
+In Machine Ethics and Robot Ethics. Routledge. Num Pages: 15. 
+[30] Lucy A. Suchman. 1987. Plans and Situated Actions: The Problem of Human-
+Machine Communication. Cambridge University Press. 
+Google-Books-ID: 
+AJ_eBJtHxmsC. 
+[31] Jakob Tholander and Maria Normark. 2020. Crafting Personal Information -
+Resistance, Imperfection, and Self-Creation in Bullet Journaling. In Proceedings 
+of the 2020 CHI Conference on Human Factors in Computing Systems. Association 
+1939
+Design Ideation with AI - Sketching, Thinking and Talking with Generative Machine Learning Models 
+DIS ’23, July 10–14, 2023, Pitsburgh, PA, USA 
+for Computing Machinery, New York, NY, USA, 1–13. https://doi.org/10.1145/ 
+NY, USA, 5970–5983. https://doi.org/10.1145/2858036.2858459 
+3313831.3376410 
+[34] Ron Wakkary. 2020. Nomadic Practices: A Posthuman Theory for Knowing 
+[32] Jakob Tholander, Maria Normark, and Chiara Rossitto. 2012. Understanding 
+Design. International Journal of Design 14 (Dec. 2020), 117–128. 
+agency in interaction design materials. In Proceedings of the SIGCHI Conference 
+[35] Ron Wakkary. 2021. Things We Could Design: For More Than Human-Centered 
+on Human Factors in Computing Systems (CHI ’12). Association for Computing 
+Worlds. MIT Press. 
+Machinery, New York, NY, USA, 2499–2508. https://doi.org/10.1145/2207676. 
+[36] Danielle Wilde, Anna Vallgårda, and Oscar Tomico. 2017. Embodied Design 
+2208417 
+Ideation Methods: Analysing the Power of Estrangement. In Proceedings of the 
+[33] Vasiliki Tsaknaki and Ylva Fernaeus. 2016. Expanding on Wabi-Sabi as a Design 
+2017 CHI Conference on Human Factors in Computing Systems (CHI ’17). As-
+Resource in HCI. In Proceedings of the 2016 CHI Conference on Human Factors in 
+sociation for Computing Machinery, New York, NY, USA, 5158–5170. https: 
+Computing Systems (CHI ’16). Association for Computing Machinery, New York, 
+//doi.org/10.1145/3025453.3025873 
+1940

@@ -1,0 +1,360 @@
+Topic,1
+human factor computing,0.1646
+conference human factor,0.15902
+factor computing systems,0.14188
+chi conference human,0.11273
+designing interactive systems,0.044578
+sigchi conference human,0.032148
+factor computing system,0.021004
+abstract chi conference,0.018861
+extended abstract chi,0.018432
+international conference intelligent,0.018003
+-,-
+Topic,2
+social medium platform,0.10044
+large language model,0.085156
+machine learning model,0.061139
+new medium society,0.050222
+natural language processing,0.045855
+artificial intelligence machine,0.045855
+generative artificial intelligence,0.043672
+big datum society,0.041488
+new york times,0.039305
+natural language process,0.034938
+-,-
+Topic,3
+raby speculative everything,0.057796
+human machine communication,0.054294
+fiction social dreaming,0.047288
+speculative everything design,0.047288
+everything design fiction,0.042034
+design fiction social,0.042034
+social dreaming mit,0.03678
+dreaming mit press,0.03678
+dunne raby speculative,0.031526
+new york new,0.029775
+-,-
+Topic,4
+new york usa,0.21696
+association computing machinery,0.17676
+machinery new york,0.17511
+computing machinery new,0.16795
+chi association computing,0.073789
+computing systems chi,0.037446
+interactive systems conference,0.022578
+dis association computing,0.020375
+york usa https,0.014318
+usa article page,0.013767
+-,-
+Topic,5
+speculative critical design,0.10853
+speculative design craft,0.07365
+design craft speculation,0.069774
+auger speculative design,0.065898
+craft speculation digital,0.065898
+speculation digital creativity,0.065898
+design speculative design,0.062022
+generative adversarial network,0.058146
+human computer interaction,0.046518
+latent dirichlet allocation,0.046518
+-,-
+Topic,6
+arxiv preprint arxiv,0.17785
+international conference computational,0.13995
+conference computational creativity,0.13703
+creativity support tool,0.055398
+computational creativity iccc,0.049567
+https :// doi.org/./,0.049567
+new interfaces musical,0.046652
+interfaces musical expression,0.043736
+conference new interfaces,0.040821
+international conference new,0.037906
+-,-
+Topic,7
+virtual event usa,0.084837
+june virtual event,0.077125
+charles patrick martin,0.05913
+generative model dance,0.056559
+conference movement computing,0.046277
+advance neural information,0.043706
+dance movement ideation,0.043706
+sarah fdili alaoui,0.041135
+conference creativity cognition,0.041135
+neural information processing,0.038565
+-,-
+Topic,8
+november taipei twn,0.039373
+cscw november taipei,0.037798
+permission make digital,0.026774
+make digital hard,0.026774
+digital hard copy,0.026774
+hard copy part,0.026774
+copy part work,0.026774
+part work personal,0.026774
+work personal classroom,0.026774
+personal classroom grant,0.026774
+-,-
+Topic,9
+entoptic field camera,0.14974
+april hamburg germany,0.14802
+chi april hamburg,0.1463
+computing systems chi,0.10672
+systems chi association,0.080898
+systems conference dis,0.048196
+interactive systems conference,0.044753
+dis july pittsburgh,0.037869
+july pittsburgh usa,0.036147
+companion association computing,0.020657
+-,-
+Topic,10
+creativity robots figure,0.13208
+international conference humanrobot,0.083562
+conference humanrobot interaction,0.083562
+human robot interaction,0.056608
+arriaga hoffman paiva,0.056608
+doi boost creativity,0.045826
+humanrobot interaction hri,0.043131
+design social robot,0.03774
+design process robot,0.035045
+new york cambridge,0.035045
+-,-
+Topic,11
+systems chi association,0.12
+york usa article,0.10118
+proc hum comput,0.049416
+hum comput interact,0.049416
+comput interact cscw,0.040004
+interact cscw article,0.040004
+user interface iui,0.037651
+springerverlag berlin heidelberg,0.037651
+humancentered artifcial intelligence,0.037651
+conference fairness accountability,0.035298
+-,-
+Topic,12
+effect conversational system,0.16394
+convergence international journal,0.087441
+international journal research,0.087441
+journal research new,0.087441
+research new media,0.087441
+new media technologies,0.087441
+cui july eindhoven,0.065583
+july eindhoven netherlands,0.065583
+online available access,0.065583
+critical technical practice,0.065583
+-,-
+Topic,13
+boost creativity robots,0.3987
+creativity research journal,0.048054
+alvesoliveira arriaga paiva,0.038963
+arriaga paiva hoffman,0.038963
+research journal doi,0.028574
+torrance test creative,0.028574
+journal creative behavior,0.025976
+creativity robots table,0.024677
+humanrobot interaction doi,0.024677
+boosting creativity robots,0.023379
+-,-
+Topic,14
+international journal design,0.11225
+journal design vol,0.086743
+chi honolulu usa,0.081641
+learn medium technology,0.071437
+visionbased design education,0.066335
+experiential speculation visionbased,0.061233
+speculation visionbased design,0.061233
+future hcipolicy collaboration,0.056131
+hci researcher practitioner,0.056131
+huang wensveen funk,0.056131
+-,-
+Topic,15
+doi url page,0.086297
+issn doi url,0.049072
+new york usa,0.045688
+plunge among big,0.042304
+among big pine,0.042304
+big pine tree,0.042304
+pine tree trail,0.042304
+tree trail well,0.042304
+trail well mark,0.042304
+association computing machinery,0.03892
+-,-
+Topic,16
+psiv testing dsiv,0.15861
+design fiction scenario,0.11291
+cogeneration dsii psiia,0.09409
+dsii psiia psiib,0.09409
+psiia psiib psiii,0.09409
+filtering iteration dsiii,0.08065
+ideas filtering iteration,0.069897
+user testing session,0.059144
+conclusion future work,0.056456
+appendix iii user,0.037639
+-,-
+Topic,17
+investigating consumer perception,0.099574
+consumer perception speculative,0.099574
+perception speculative labels,0.099574
+speculative labels creative,0.099574
+labels creative usage,0.099574
+creative usage medium,0.082258
+future creative tool,0.069271
+add centered rightaligned,0.047626
+centered rightaligned session,0.047626
+rightaligned session title,0.047626
+-,-
+Topic,18
+motion capture datum,0.11975
+recurrent neural network,0.10357
+density recurrent neural,0.071203
+mixture density network,0.071203
+mixture density recurrent,0.067966
+international conference movement,0.058258
+embody interactive dance,0.058258
+interactive dance movement,0.055021
+motion capture recording,0.051785
+kristian nymoen jim,0.045313
+-,-
+Topic,19
+life abstract holographic,0.14839
+jul online available,0.13549
+access jul online,0.12904
+figure figure figure,0.093554
+abstract holographic dalle,0.05807
+abstract holographic stable,0.051618
+access dec online,0.051618
+dec online available,0.051618
+usa association computing,0.048392
+york usa association,0.045167
+-,-
+Topic,20
+relational thing talk,0.10503
+perlocutionary effect conversational,0.04262
+discursive design strategy,0.039576
+figure infinite guide,0.038054
+discursive design approach,0.031966
+practicebased research inquiry,0.030444
+thing talk discursive,0.0274
+talk discursive design,0.0274
+ethical design framework,0.0274
+plymouth school creative,0.0274
+-,-
+Topic,21
+icer august chicago,0.21521
+august chicago usa,0.21521
+computer science education,0.17724
+large language model,0.15192
+sigcse association computing,0.13926
+arxiv preprint arxiv,0.088628
+creativity support tool,2.0449e-05
+human computer interaction,2.0449e-05
+international conference computational,2.0449e-05
+conference computational creativity,2.0449e-05
+-,-
+Topic,22
+dis june virtual,0.064004
+june virtual event,0.061338
+virtual event australia,0.061338
+meme creator ownership,0.061338
+future meme creator,0.042671
+domain experts value,0.040004
+design fction concept,0.040004
+journalist legal expert,0.040004
+like value system,0.037338
+value system loop,0.037338
+-,-
+Topic,23
+prototype design psiv,0.13108
+design psiv testing,0.12474
+idea cogeneration dsii,0.073999
+appendix online questionnaire,0.065543
+online questionnaire appendix,0.048629
+exploratory study dsi,0.044401
+questionnaire appendix online,0.044401
+enact cybernetics doi,0.042287
+study dsi psi,0.042287
+koering enact cybernetics,0.040173
+-,-
+Topic,24
+participatory speculative design,0.1586
+metaverse perspectives japan,0.10573
+perspectives japan participatory,0.10573
+japan participatory speculative,0.10573
+speculative design case,0.10573
+design case study,0.10573
+centre excellence digital,0.061681
+excellence digital child,0.061681
+research council centre,0.057276
+council centre excellence,0.057276
+-,-
+Topic,25
+future scenario generate,0.070139
+creative commons license,0.047515
+durante download shibboleth,0.047515
+download shibboleth online,0.047515
+shibboleth online library,0.047515
+online library term,0.047515
+library term condition,0.047515
+term condition online,0.047515
+condition online library,0.047515
+online library rule,0.047515
+-,-
+Topic,26
+creative commons license,0.059183
+chapter creative commons,0.036421
+series cultural computing,0.030351
+art design technology,0.025799
+term creative common,0.021247
+common attribution international,0.021247
+attribution international license,0.021247
+original author source,0.021247
+liggett creativity art,0.021247
+license permit share,0.019729
+-,-
+Topic,27
+brazilian creative industries,0.12144
+creative industries journal,0.12144
+industries journal novo,0.1143
+journal novo hamburgo,0.1143
+novo hamburgo jul,0.1143
+hamburgo jul dez,0.1143
+jul dez issn,0.1143
+generative machinic exploration,0.085726
+available access june,0.050012
+conference fairness accountability,0.014297
+-,-
+Topic,28
+include chapter creative,0.073851
+springer series cultural,0.061543
+creativity art design,0.052313
+creative common attribution,0.043082
+license term creative,0.040005
+international license permit,0.040005
+medium format long,0.040005
+long give appropriate,0.040005
+give appropriate credit,0.040005
+appropriate credit original,0.040005
+-,-
+Topic,29
+generative deep learning,0.21337
+respiratory care expert,0.1671
+deep generative model,0.074554
+human breathing waveform,0.069413
+respiratory care generative,0.048847
+care generative deep,0.048847
+breathe waveform generate,0.048847
+waveform generate ganspire,0.041135
+group respiratory care,0.041135
+generate breathing waveform,0.041135
+-,-
+Topic,30
+access march available,0.4091
+accessed march available,0.33335
+figure machine living,0.12122
+lynn hershman leeson,0.037891
+new york new,0.02274
+music information retrieval,0.02274
+cooperative work social,0.015164
+work social computing,0.015164
+new york times,0.007588
+bias artificial intelligence,0.007588
+-,-

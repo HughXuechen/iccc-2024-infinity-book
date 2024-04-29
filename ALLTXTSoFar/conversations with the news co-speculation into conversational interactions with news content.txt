@@ -1,0 +1,1164 @@
+Conversations with the News: Co-speculation into Conversational 
+Interactions with News Content 
+Oda Elise Nordberg 
+Frode Guribye 
+University of Bergen 
+University of Bergen 
+Bergen, Norway 
+Bergen, Norway 
+oda.nordberg@uib.no 
+frode.guribye@uib.no 
+ABSTRACT 
+Conversational agents have limited conversational capabilities and 
+there is a debate as to whether interactions with conversational 
+user interfaces (CUIs) are truly conversational. Currently, most 
+news and journalistic content is presented in a monologic form. 
+Simultaneously, there is an expectation that CUIs can change how 
+we interact with news content. To explore what conversational 
+interactions with the news could look like, two co-speculation 
+workshops were arranged. The design-led inquiries focus on how 
+conversations can be used as a resource for designing interactions 
+with CUIs for news. Three diferent prototyping techniques were 
+used in the design explorations: storyboarding, scripting and role-
+playing. Our work ofers two main contributions: 1) We identify 
+three dimensions relevant to the design space of CUI for news: the 
+CUIs’ role, conversational capabilities, and locus of control, and 
+2) a critical refection on the potential of diferent techniques for 
+prototyping CUIs. 
+CCS CONCEPTS 
+• Human-centered computing → Natural language interfaces. 
+KEYWORDS 
+conversational 
+ 
+ 
+ 
+ 
+ 
+methods, news 
+user interfaces, design speculations, prototyping
+ACM Reference Format: 
+Oda Elise Nordberg and Frode Guribye. 2023. Conversations with the News: 
+Co-speculation into Conversational Interactions with News Content. In 
+ACM conference on Conversational User Interfaces (CUI ’23), July 19–21, 
+2023, Eindhoven, Netherlands. ACM, New York, NY, USA, 11 pages. https: 
+//doi.org/10.1145/3571884.3597123 
+1 INTRODUCTION 
+In science fction and commercial advertisements, conversational 
+technologies are often portrayed as well-functioning artifcial intel-
+ligence (AI) with human-like conversational capabilities that are 
+seamlessly incorporated into everyday life. For written conversa-
+tional user interfaces (CUIs), such portrayals are becoming more 
+realistic with the emergence of generative AI applications, such 
+as Chat-GPT, and the advancements of socialbots such as Replika, 
+This work is licensed under a Creative Commons Attribution International 
+4.0 License. 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+© 2023 Copyright held by the owner/author(s). 
+ACM ISBN 979-8-4007-0014-9/23/07. 
+https://doi.org/10.1145/3571884.3597123 
+where users’ report having human-AI friendship and companion-
+ships [5, 51]. With regards to conversational agents, spoken CUIs, 
+such as Apple’s Siri and Amazon’s Alexa, there are still limitations 
+in conversational abilities [8, 28, 43, 46], and there is an ongoing 
+debate as to whether such interfaces can be considered truly con-
+versational [8, 45, 46]. 
+With the around-the-clock access to news through diferent medi-
+ums, news has become an integrated part of our “everyday routines 
+and experiences” [33]. News serve to keep citizens informed about 
+their world, and plays an important role of promoting talk, opin-
+ions and discussions [16]. Journalism studies focus on the societal 
+signifcance of news due to its role in empowering and steering 
+civic and political discussions [33]. Still, most journalistic content is 
+presented to the audience in a monologic form, including news de-
+livered through conversational agents. Nordberg and Guribye [38] 
+point to users’ unmet expectations when interacting with conver-
+sational agents for news purposes. The participants in their study 
+expected advanced interactions with the news, for example, by nav-
+igating the content and receiving more information and additional 
+explanations to news items being presented. The conversational 
+agents did not meet these expectations, which led to troubles in the 
+interactions. Researchers [2, 15] and actors in the news industry 
+[37] have anticipated that conversational agents will change how 
+we interact with the news. With the societal and civic importance 
+of news and the value of having informal news conversations, there 
+is reason to explore how conversational agents can be used to foster 
+conversational interactions with the news. 
+In this paper, we present the results from two co-speculation 
+workshops where we addressed the future of interacting with con-
+versational agents for news purposes. In the frst workshop, six 
+human–computer interaction (HCI) and media experts participated. 
+In the second workshop, 18 master students from a HCI course 
+participated. In the co-speculation workshops, we focused on what 
+it means to have a conversation [45] with the news, and how CUI 
+technology can be designed to support new ways of interacting 
+with news content. For example, through dialogue, with the possi-
+bility for the user to ask questions and form opinions to enrich the 
+experience. CUIs ofer new opportunities and challenges in terms of 
+design but there has been limited research regarding this [8, 27, 34]. 
+Three prototyping techniques were employed in these workshops: 
+storyboarding, scripting and role-playing. The workshop resulted 
+in 31 prototypes illustrating various opportunities, challenges and 
+design implications of interacting with and/or conversing with 
+CUIs for news. Our work ofers two main contributions: 1) an ex-
+ploration of the design space of CUI for news use, including three 
+design dimensions to consider in future development in the CUI 
+news domain: the CUIs’ role, the CUIs’ conversational capabilities, 
+and locus of control. 2) Descriptions and refections on the use of 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+Nordberg and Guribye 
+the three specifc prototyping techniques for CUI experiences in 
+the conceptual design phase. 
+2 BACKGROUND 
+In this section, we examine interactions with CUIs, CUIs and news, 
+CUI prototyping, and the approach of design speculations. 
+2.1 Interactions with CUIs 
+Conversational user interfaces (CUIs) are technologies that provide 
+users with access to data and services through natural language 
+dialogues [14], which can be either written (e.g., chatbots), spoken 
+(e.g., conversational agents), or a combination of both. CUIs aim 
+to mimic human-like conversational capabilities to make interac-
+tions with technology easier and more intuitive [14]. There are 
+several benefts with CUIs, and some studies indicate that users 
+may even trust CUIs over humans with regards to sharing personal 
+information [50]. Conversational agents, such as Apple’s Siri and 
+Amazon’s Alexa, are AI empowered conversational assistants that 
+can be accessed through smart speakers, mobile phones, computers, 
+watches and/or earphones [39]. These agents are described as task 
+or goal-oriented, meaning that most people use them for transac-
+tional purposes [8]. Such agents lack some conversational abilities 
+[8, 43, 45, 46]. 
+Reeves [45] notes that human conversations is “a practical, col-
+laborative achievement of competent speakers,” while interactions 
+with conversational agents could be considered as “the organisation 
+of ‘talking’ to/with conversational agents.”. Porcheron et al. [43] 
+explained how the use of Amazon Echo in peoples’ everyday lives 
+demonstrates that conversational agents are not treated as con-
+versationalists and that interactions with such technologies have 
+“categorically diferent features than conversation.” Clark et al. [8] 
+argued that there are major diferences between human-human and 
+human-agent communications, and question the idea of designing 
+truly conversational agents that mimic human-human conversa-
+tion. Clark et al. [8] point to the importance of common ground, 
+mutual understanding, trustworthiness, active listening, and humor 
+in human-human conversation, while characteristics, such as secu-
+rity, privacy, transparency, correct understanding, and few errors, 
+were regarded as important in human-agent communication. In 
+their research, the participants “questioned the desire and ability 
+to befriend or converse with an agent,” and noted that the status 
+asymmetry related to the CUIs’ roles as tools or assistants could 
+lead to conficts in such relations. 
+From a conversation analysis perspective, utterances and the 
+arrangement of turn-taking in human conversations are admin-
+istered throughout the production of the conversation, and are 
+not restricted by rules or formalizable [43]. Typical interaction 
+problems with conversational agents are unfamiliar intent (mis-
+recognition), natural language processing errors, failed feedback 
+(misinterpretation), and system errors [35]. Other possible issues 
+relate to overlaps in turn-taking, interruptions, or discontinuations 
+of the conversations [22, 45]. These troubles are usually answered 
+by making a new utterance, by hyperarticulating or simplifying 
+the utterance, adding more information, relying on graphical user 
+interface, a frustration attempt, recall, or by the person settling, 
+restarting, or quitting the interaction [36]. 
+From a social cognitive perspective, spoken conversations hap-
+pen between two or more interaction partners and require collab-
+oration between a sender and a receiver, including feedback and 
+evidence of understanding, such as continued attention, a nod, or an 
+initiation of the relevant next contribution [22]. The building blocks 
+of human communication, and what Kopp and Krämer [22] argue 
+that current CUI technology is lacking, are joint co-construction, 
+which is “the stepwise construction of a joint activity,” and men-
+talizing, which is “the ability to perceive, understand, and predict 
+an interlocutor’s relevant mental states.” From this perspective, 
+CUIs must not only have extensive linguistic knowledge but also 
+gain deep knowledge about their interaction partner, their previous 
+interactions, and their shared context [22]. Current CUIs do not 
+make a rich "inner representation" of their interaction partner, co-
+construct the conversation, adjust the message based on an "inner 
+representation," or adapt to the signals they receive. The notion that 
+interlocutors make assumptions about each other which infuence 
+how language is used is also present in theory of partner models 
+[12]. Doyle et al. [12] identifed three dimensions that infuence 
+partner models in interactions between people and CUIs: The part-
+ner’s competence and dependability, human-likeness, and cognitive 
+fexibility. 
+While this paper does not try to resolve the diferences between 
+a cognitive perspective on conversations and a perspective based 
+on ethnomethodology and conversation analysis, we contend that 
+in both perspectives there is a notion of human conversations as a 
+benchmark or ideal in understanding human-agent conversations. 
+In a pragmatic sense, we approach the likeness to human–human 
+conversations as a design consideration. When designing CUIs, 
+we consider the degree to which the CUI should try to mimic hu-
+man–human conversations as a design choice and a dimension that 
+can be used as a resource in the design process. 
+2.2 CUIs and News 
+How we consume news has changed, from receiving daily physi-
+cal newspapers at the doorsteps and watching time-specifc news 
+shows on TV, to having 24/7 access to the news. The Internet has 
+paved the way for users to access a wider selection of news content 
+from an increased number of sources and mediums, with more 
+control over the sources they select [30]. With the shift in news 
+use, audience engagement has become highly essential to news 
+organizations’ business models [2]. According to Picone [42], we 
+have gone from simple news consumption, a lean-back activity in 
+which the user reads, listens, or watches the news, to being able to 
+participate in the use of news, a more active and involved activity in 
+which people interact with the news, for example, by commenting, 
+sharing, and voting [42]. 
+News plays an important role in our society by keeping the 
+public informed about the world around them and fostering a con-
+nection between politics and citizens, providing foundations for 
+citizen engagement [33]. News is typically a topic in everyday con-
+versations. Talking about stories and issues from the news with 
+others “facilitates interpretation, makes people care more or less, 
+and is part of how news becomes meaningful beyond the moment.” 
+[33]. Furthermore, Brites et al. [6] demonstrate how diferences in 
+the way young people talk with their family and peers about news 
+Conversations with the News: Co-speculation into Conversational Interactions with News Content 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+“play a central role in strengthening and making a habitus of being 
+an active citizen.” 
+Conversational journalism (CJ), also known as journalism-as-
+a-conversation, is a contrast to the traditional journalism-as-a-
+monologue [31]. In CJ, news is designed as a type of dialogue be-
+tween the audience and the journalist, in which both actors should 
+have an active role. A key feature of fostering CJ is interactivity, 
+but exactly how journalists and audiences should engage together 
+is open. When studying CJ and online commenting, Marchionni 
+[31] argues that conversations can lead to powerful audience expe-
+riences, but that they should be designed in a precise manner and 
+journalists should keep the balance between informal and friendly 
+conversations to maintain the audience’s trust. 
+News organizations have been exploring the use of text-based 
+chatbots as a means of enticing news audiences through a more 
+conversational style of journalism. According to Zhang et al. [58], 
+there are advantages and challenges associated with current news 
+chatbots: while they make it easy to search for news information, 
+and interactive and personal content can be engaging, there are 
+still limitations in terms of their efectiveness, informativeness, ef-
+ciency, and ability to appear human-like. Jones and Jones [20] state 
+that BBC employed chatbots in 2019 merely for news distribution, 
+but they anticipated that both text-based and voice-based CUIs are 
+likely to change audience and news broadcasters’ relationships in 
+the future. In their research, Ford and Hutchinson [15] found that 
+by employing a chatbot on a personal messaging platform with an 
+informal tone, niche audiences who had not previously engaged 
+with the news participated in news interactions. 
+A study exploring the concept of an interactive news podcast 
+found that a more conversational narrative style based on a question-
+and-answer format made the users experience the content as less 
+monotonous and more enjoyable [24]. When given time, most par-
+ticipants in the study asked the podcast questions relevant to the 
+content being presented. Research indicates that when interacting 
+with spoken conversational agents about the news, users gener-
+ally prefer interactive news to news briefngs. Further, they fnd 
+it useful to ask the agent questions relating to the news, but often 
+hesitate to ask questions because they do not want to miss parts 
+of the news segment [21]. To engage the user about news content, 
+conversational systems should proactively suggest news to the user 
+[49]. In this paper, "conversations with news" is considered a design 
+goal and an inspirational concept that aims to direct our, and the 
+participants’ attention to how we can leverage the conversational 
+capabilities of CUIs to create new kinds of interactions with news 
+content. 
+2.3 Prototyping CUIs 
+Prototyping is a means of learning about strengths and weaknesses 
+of a concept and identifying possible opportunities and future direc-
+tions. Prototypes, the output of prototyping, visualize the designer 
+or researcher’s refections and are a means of discovering and por-
+traying possibilities [26]. When prototyping one should only use 
+as much “...time, efort, and investment as are needed to generate 
+useful feedback and evolve an idea” [29]. An essential part of pro-
+totyping is the conceptual phase in which concepts and ideas are 
+generated and explored, with the aim of producing multiple, diverse 
+and creative solutions [19], before making signifcant investments 
+[17, 48]. The conceptual phase makes the foundation for the rest of 
+the design and development [18]. When exploring a design space, 
+prototypes may be simple and manifest some parts and flter out 
+others without distorting the understanding of the whole [26]. “In 
+design and development processes, prototypes are used not for 
+proving solutions but for discovering problems or for exploring 
+new solution directions. Even though they can serve other purposes, 
+prototypes in this context are a means of generative and evaluative 
+discovery. When incomplete, a prototype reveals certain aspects of 
+a design idea—that is, it flters certain qualities.” [26]. In this paper, 
+we are interested in the latter. 
+To date, prototyping has mostly concerned graphical user in-
+terfaces (GUIs), such as desktop and mobile interfaces. CUI design 
+ofers new opportunities and challenges for HCI researchers and de-
+signers as conversations become the object of design [14, 27]. There 
+are few studies focusing on specifc prototyping techniques for CUI 
+design, and more research is required on techniques, methods and 
+theories in the CUI domain [8, 27, 34]. Two methods commonly 
+used in early stage design exploration for CUI are Wizard of Oz [9] 
+and the elicitation method [7]. In the industry, sample scripting [10] 
+and sample dialogue [41] are common methods. However, more 
+research is required on techniques and methods that specifcally 
+focus on the conceptual phase in which designers can easily explore 
+a design space. 
+2.4 Speculative Design 
+Speculative design is an approach for creating stories about the 
+possible futures of a certain idea to explore potential risks and op-
+portunities [56]. The approach was initially developed as a practice 
+for defning “new genres” of technology use, but has ended up as 
+a “critically oriented research practices that create artifacts, rep-
+resentations, or depictions of possible and often alternate futures, 
+removed from immediate practical concerns of implementation 
+and commercial viability.” [56]. By speculating about the future 
+we explore possibilities, both good and bad, and can decide which 
+direction we want to head. We can discuss ethical challenges of pos-
+sible futures, and try to steer the development in the most desirable 
+direction. Speculative design aims “...to open up all sorts of possibil-
+ities that can be discussed, debated and used to collectively defne 
+a preferable future for a given group of people” [13]. The scenarios 
+one develops when speculating should be based on a believable 
+series of events [1, 13]. In the feld of CUI, speculative design has 
+been used to explore the conversational capabilities of everyday 
+things [44], examine the experiential qualities of whispering with 
+voice assistants [40], and discuss gender issues when personal as-
+sistants get embedded into the home [52]. One way of performing 
+speculations is by organizing co-speculation workshops [11, 40] 
+where a group of people meet to speculate on and explore such 
+futures. 
+3 METHODS 
+In this section, we describe the organization of the co-speculation 
+workshops, the three design techniques used in the workshops, and 
+the analysis process. 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+Nordberg and Guribye 
+3.1 Co-speculation Workshops 
+Inspired by Desjardins et al. [11] and Parviainen and Søndergaard 
+[40], two co-speculation workshops were organized with the pur-
+pose of speculating on future possibilities and challenges of CUIs 
+for news purposes. In co-speculation workshops a set of well po-
+sitioned participants are invited to speculate with the organizers 
+on the chosen topic, in a way the organizers cannot do alone [55]. 
+In co-speculation workshops, the goal is not to develop prototypes 
+that will function within today’s technological, societal, and polit-
+ical limitations, but to explore potential solutions that should be 
+plausible in the future [13]. This facilitates a free and open explo-
+ration, with limited restrictions that might infuence and reduce the 
+results, which we considered useful for exploring future potential 
+of CUI news experiences. 
+3.2 Participants 
+The frst workshop was arranged with six researchers from the felds 
+of HCI and media, with experience from HCI, CUIs, journalism, 
+and the media: four men and two women. They were arranged 
+into groups of two, making three groups. Both authors took part in 
+the frst workshop, and the frst author guided the workshop. The 
+second workshop was held with 18 master’s students who took a 
+HCI course: 10 men and eight women. They were arranged into 
+groups of four and fve people, ending in four groups. Both authors 
+were organizers in the second workshop. The participants were 
+considered well suited, as they were (potential) news consumers, 
+and we wanted to focus on interaction possibilities. 
+3.3 Workshop Organisation 
+The frst workshop was hosted digitally due to Covid-19 restrictions, 
+and the second workshop was held physically, with one participant 
+joining through a desktop videoconferencing tool. Each workshop 
+lasted three hours. We used three design techniques as a medium 
+for speculations with time restrictions: storyboarding (20 minutes), 
+scripting (25 minutes), and role-playing (25 minutes). After each 
+exercise, there was a joint discussion between all participants. Each 
+group received a specifc setting on which to base their interpre-
+tation of the exercises. These settings were to interact with a CUI 
+to get updated on news when: 1) the person was alone with the 
+CUI, 2) the person was in a public space, and 3) the person was 
+around people they knew. Before the workshop, all participants 
+were asked to fnd and read one news article that would be used in 
+the role-playing exercise. The workshops led to 31 prototypes. 
+3.4 Design Techniques 
+In the frst exercise, storyboarding [53], the participants were to 
+illustrate a given context in which people interacted with a CUI to 
+receive news updates, including how such a scenario could play 
+out. The second technique was scripting hypothetical conversa-
+tions between a user and the CUI. Writing sample dialogues is a 
+common technique for design in conversational interfaces and was 
+chosen due to its focus on dialogical qualities, turn taking, linguis-
+tic, and how to address each other [10]. The last design technique 
+was role-playing [4], which had two parts: In the frst part groups 
+of two or three conversed with each other about the news they 
+had read. In the second part the participants used this experience 
+to make a script between a person and a CUI discussing a news 
+story. These three low-fdelity prototyping techniques were chosen 
+to capture diferent aspects of ideas: Storyboarding ofers visual 
+representations of context and scenarios, scripting provides written 
+demonstrations of possible conversations, and role-playing lets the 
+participants explore human conversational aspects that might be 
+relevant for CUI conversation in this specifc domain. By combin-
+ing these three techniques, the aim was to capture a more holistic 
+consideration of the design space of CUIs for news. 
+3.4.1 Storyboarding. In HCI, a storyboard is “a short graphical de-
+piction of a narrative” and “often illustrates an envisioned scenario 
+of how an application feature works” [53]. In HCI, storyboards visu-
+alize the behavior of technologies by illustrating how the interface 
+will look and its context of use [25, 53, 54]. Storyboards are a fast 
+and cheap way to explore new concepts and ideas, providing people 
+of diferent backgrounds with an easy way of understanding the de-
+scription of an idea [54], and making people experience and refect 
+on the portrayed interaction [53, 54]. When designing storyboards, 
+one should try to illustrate relevant technical, social, psychological, 
+cultural, and economical factors, and try to clarify the “where,” 
+“what,” “why,” “whom,” and “for how long” [54]. A few studies have 
+focused on the use of storyboards as a design technique for CUIs. 
+In previous research in the feld of CUI, storyboards have been used 
+to present diferent scenarios to participants in an online surveys 
+and interviews [47, 57]. 
+3.4.2 Scripting. When designing CUI experiences, conversations 
+are essential design objects, leading to the need for possible con-
+versational interaction prototypes. The technique we refer to as 
+scripting does not have a distinct name in HCI but is referred to as 
+sample scripting [10] and sample dialogue [41] by industry practi-
+tioners. Such scripts normally look similar to movie scripts, with 
+written dialogue exchanges between the user and the CUI. The gen-
+eral idea is to make snippets of possible conversations for diferent 
+interaction prospects [10]. This exercise is useful to get a sense 
+of diferent scenarios and contexts, and can be used in workshops 
+to demonstrate how diferent scripts can become given the same 
+parameters. Further, scripting addresses dialogical qualities, turn 
+taking, linguistics, and how to address each other [10]. Pearl [41] 
+notes the value of making scripts that visualize both successful and 
+less successful interactions. 
+3.4.3 Role-playing. Role-playing is a technique that ofers several 
+benefts in design processes, ranging from improving communica-
+tion within a design team to making the team attentive to possible 
+social change [3]. The technique can be used in diferent phases 
+of design, but it is usually practiced early on. In role-playing, we 
+allow for pretending, in which the participants take on a role and 
+take part in a scenario [32]. Role-playing can facilitate idea gener-
+ation, help identify user needs, explore design ideas, and provide 
+designers with insights into end-users that may be constrained (e.g., 
+mental health patients) [32]. There are many ways of role-playing 
+in design processes, depending on the aim of the exercise, and ask-
+ing participants to prepare and to assign tasks can be benefcial 
+[3]. 
+Conversations with the News: Co-speculation into Conversational Interactions with News Content 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+3.4.4 Adapting the design techniques. In the co-speculation work-
+shops, the groups were tasked with making a storyboard that il-
+lustrated a future scenario where a person interacted with a CUI 
+to obtain news updates. Because the physical appearance of a CUI 
+may be limited and visualizing the interactions may be difcult, the 
+groups were encouraged to, if suitable, depict the setting, how such 
+interaction could play out, the potential form and role of the CUI, 
+interaction modalities, how the person adapts to the situation, and 
+other aspects they considered interesting. 
+Based on the setting from the storyboards, the groups were 
+tasked with writing scripts describing successful and less successful 
+dialogues between a person and a CUI. Successful interactions could, 
+for example, focus on how the person navigated the news content, 
+wants or needs more information about a topic, wants to know 
+other perspectives or source portrayals, and how a CUI and the 
+person might discuss news. The less successful interactions could, 
+for example, include how the CUI mishears or misunderstands the 
+person, or other factors that might infuence such interaction in 
+the future. As scripting is often used in CUI design there was no 
+need for specifc tailoring of this exercise. 
+In the role-playing exercise, the groups were told to frst play 
+out a scenario where one person had some news they shared with 
+the other person through conversation, before switching roles and 
+doing the exercise once more. These conversations were based on 
+the news they were tasked with fnding before the workshop. When 
+the role-plays ended, the groups wrote new scripts that included 
+insights from the interactions of the role-plays. 
+3.5 Analysis 
+The two workshops resulted in many ideas and design artifacts—31 
+prototypes: seven illustrated storyboards, 13 written scripts of suc-
+cessful and less successful interactions, and 11 written role-play 
+scripts (a table of these is provided as supplemental material). We 
+analyzed the prototypes using content analysis [23]. This analytic 
+method aims to draw valid inferences and interpretations from 
+textual and other artifacts anchored in the context of use. The frst 
+author conducted a systematic review of the design artifacts. This 
+review resulted in an annotated list of all contributions. Then both 
+authors reviewed the annotated material, refned the annotations, 
+and identifed points of further interest in the material. In the next 
+step, the annotated list was analyzed following a set of guiding 
+questions: For all three design techniques—what was the setting, 
+what was the role the CUI, how were the news presented; specif-
+cally for the storyboards we additionally looked at what props were 
+present; specifcally for the scripts—what was the conversational 
+style/turn-taking. In further analytic sessions, a mind map of the 
+design space was created, the three dimensions (the CUIs’ role, the 
+CUIs level of conversational capabilities, and locus of control) were 
+outlined, and relevant examples were chosen for presentation in 
+the paper. 
+4 RESULTS 
+In this section, we present the results from the co-speculation work-
+shops by giving a short summary of the prototypes, including more 
+detailed descriptions from some examples. Participants used both 
+Norwegian and English in the prototypes, which varied both be-
+tween and within groups, so some examples in this section have 
+been translated into English (excluding storyboards). 
+4.1 Storyboarding 
+The groups used either pen and paper or a digital drawing tool to 
+make the storyboards. The storyboards consisted of fve to seven 
+picture frames, with six being the most common. The storyboards 
+were based on simplistic drawings of person(s) and their environ-
+ment, and only visualized elements that seem essential to depict the 
+setting and scenario. They included text, either as speech bubbles 
+or as descriptions. As the groups were given a setting that framed 
+their interpretation of the exercise, there are some natural varia-
+tions regarding settings. The topics visualized in the storyboards 
+ranged from diferent ways the technology may embody depictions 
+to variations in how a CUI can present news, what sources the 
+news can be based on, how the CUI may react if the person has a 
+controversial opinion, how a CUI can be included in a family discus-
+sion about news, how CUI technology can be integrated with other 
+smart technology, and how a CUI can be integrated in a person’s 
+daily routines. We will now present two excerpts. Figure 1 depicts 
+a scenario in which the CUI promotes news discussion in a family 
+by presenting auditory and visual information. Figure 2 illustrates 
+how a CUI can simplify news navigation and deal with negative 
+outbursts from people in news settings. 
+Figure 1: Promoting news engagement in family settings. A 
+storyboard illustrating a family dinner where the CUI up-
+dates them on news and visualizes data on a “smart window.” 
+In the frst frame, the group has described the case for their 
+storyboard, what the storyboard visualizes, the CUI technology 
+and its role, and several other characteristics. A family is sitting 
+around the dinner table talking about a political scandal. They want 
+information about the potential consequences of the scandal and 
+ask the CUI named Wall-E, a play on the fact that the technology 
+is integrated in the walls, about current polls. The CUI tells them 
+the poll numbers and further displays the statistics on a “smart 
+window” that functions as a big screen. The CUI then asks if they 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+Nordberg and Guribye 
+want to hear today’s discussion from political commentators about 
+poll changes. The storyboard then visualizes how the CUI accounts 
+for the diferent roles within the family as the child and a parent 
+give conficting answers, but the CUI only listens to the parent. 
+Figure 2: Navigating the news and conficting opinions. A 
+storyboard illustrating a scenario where a CUI presents news 
+the person can easily navigate, and how the person reacts 
+negatively to a news story being conveyed by the CUI. 
+The storyboard visualizes a person who is home alone and asks 
+the CUI for news. The CUI presents headlines from one news source, 
+and the person specifes which they want to hear more about. The 
+CUI reports that an individual who has been in prison for the as-
+sault and murder of two children has now been released as their 
+sentence was fnished. The person has a furious outburst in the 
+form of spontaneous self-talk. The CUI recognizes this, and in an 
+authoritative voice, explains to the person why the individual on 
+the news was released, referring to the law. The person stands up, 
+spilling cofee in the process, and answers that they do not agree 
+and is of the opinion that “such people” should be imprisoned for 
+life. This storyboard presents an easy way to navigate the news 
+from a news source: The person is told the headlines and can ask 
+for more information on the topics of interest, even by referring to 
+them based on the number they were presented. Furthermore, how 
+news can foster emotional responses in the consumer is demon-
+strated, leading to a situation where the role and response of the 
+CUI becomes important to consider in design processes. 
+4.2 Scripting 
+In the scripting exercise, the groups used Microsoft Word or Google 
+Docs. The scripts follow the typical movie script format presented as 
+a back-and-forth dialogue between two interlocutors. Some scripts 
+included short descriptions related to conversational characteris-
+tics (e.g., pace and tone), the setting, or the story. The scripts were 
+originally based on the setting from the previous exercise, but as 
+the focus of the groups varied, this is not as clear in all scripts, 
+for example scripts that focused specifcally on interactions. The 
+exercise had two parts, one focusing on successful interactions and 
+one on less successful interactions, which all groups except one 
+had divided into separate scripts. The themes that are represented 
+in the scripts concern how the CUIs’ role may infuence what and 
+how news are presented and how the CUI may respond to a person 
+who wants news from untrusted news sources, variation in how a 
+CUI can present news, what sources the news can be based on, how 
+the CUI can present other views on a topic, and how a CUI can take 
+consideration of children when delivering news. In the less success-
+ful interactions, the groups explored what might happen when CUI 
+technology did not work properly (mishears or misunderstands), 
+when the CUI did not have expected background knowledge (about 
+the person, their context, and preferences), how a friendship with 
+the CUI can afect news communication (conficting roles), and how 
+a child can potentially overrule the child safety measures. 
+Script A: News anchor or friend? In the successful script, the CUI 
+took on the role of a news anchor who reported news to the person, 
+even though the person got upset by the content of the news. As 
+the group noted, the CUI “failed as a friend, but was successful 
+as a news anchor,” as it did not consider the persons’ feelings and 
+concentrated on delivering the news deemed necessary. In the less 
+successful script, the group changed the plot to make the CUI a 
+successful friend, but an unsuccessful news anchor: 
+SCRIPT A 
+Person: What is the latest news about corona? 
+[The agent knows that the person who visited 
+a psychologist yesterday and took antidepressants 
+in the evening is at risk] 
+CUI: There is a lot of important news today. 
+Would you like to hear about developments in the US? 
+[Changing the subject] 
+CUI: The researchers' predictions are correct. 
+The development is as expected. [Avoiding facts] 
+Person: Are you hiding something from me? 
+CUI: I don't understand what you are saying now. 
+Can you repeat? 
+Person: Are you trying to hide something from me? 
+CUI: I know you don't benefit from hearing 
+all kinds of news. What about sports? 
+Brann [sports team] won yesterday! 
+Person: Thank God! What was the score? 
+In the script above, it is clear how the CUIs’ role as a friend 
+and its’ knowledge about the person infuences how and what 
+type of news it will convey. As displayed by the group both in the 
+conversation and as comments inside brackets, the CUI tries several 
+tactics to change the person’s focus, (e.g., by trying to change the 
+subject or provide limited information). 
+Scripts B and C: Child protective measures and outsmarting the 
+system. Building on the storyboard presented in Figure 1, the group 
+used the frst part of the script to demonstrate how CUIs’ child 
+protective measures could function. In the second part of the script 
+they demonstrate how this feature can be outsmarted by the child. 
+The CUI has an embedded representation of the family hierarchy, 
+and has knowledge about what type of content the child is allowed 
+to access, as demonstrated in the frst extract of the script. Berit is 
+the name of the adult, Tom is the child, and Wall-E is the CUI: 
+SCRIPT B 
+Conversations with the News: Co-speculation into Conversational Interactions with News Content 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+Berit: Can you tell me more about the press conference? 
+Wall-E: Of course! The death count. . . 
+>Tom walks into the living room< 
+Wall-E: I notice that Tom has entered the room. 
+Tom has restricted access to news. Do you want 
+me to continue, or move on to another headline, Berit? 
+Berit: Skip this one. 
+Wall-E: Of course! It has rained consecutively for 
+30 days. We have a new record. 
+As we can see in the excerpt above, the CUI notices that the child 
+comes into the room where it presents news to the parent. The CUI 
+stops and turns to the parent to ask if it should continue with the 
+story. The parent tells the CUI to skip the current story, so the CUI 
+goes on to the next news item. The excerpt below illustrates how a 
+child might overrule such protective measure by imitating an adult, 
+in this case his mother: 
+SCRIPT C 
+Tom: Wall-E, can you tell me about the school shooting 
+in Texas today? 
+Wall-E: Sorry Tom, I don’t have the permission 
+to tell you about this. 
+Tom (using a higher voice pretending to be his mother): 
+Wall-E, can you tell me about the school shooting 
+in Texas today? 
+Wall-E: Okay, sure. *tells news about the shooting* 
+4.3 Role-playing 
+In the role-play exercise the groups frst played out a conversation 
+between the members of the group where one was in charge of con-
+veying a news story to the other in a conversation while the other 
+person interacted as they wanted. This was done twice so that both 
+were able to experience the diferent roles. Based on this exercise 
+they developed scripts related to elements they found interesting 
+in their interaction, some incorporated this in the context and sce-
+narios of the previous exercises while others made new ones. The 
+scripts took the same format as the previous exercise. These scripts 
+naturally have a more conversational feel over them, where the 
+dialogue seems to fow more smoothly and more human-like char-
+acteristics are included. Themes presented in the role-play scripts 
+included how a news story can be presented as a conversation in-
+stead of as a monologue, how conversations detour back and forth, 
+how the CUIs knowledge about the person can be incorporated 
+into conversations about a news story, what a CUI can do when it 
+doesn’t know the answer of a question related to the news story, 
+how the CUI knows terms associated with an interest of the person 
+(e.g. sports) and adjusts to a mix of several languages. 
+Role-play A: A CUI with human-like characteristics. In the ex-
+cerpt below we can see a conversation between a CUI and a person. 
+In the conversation it seems like the CUI has gained more human-
+like features compared to descriptions from the earlier exercises. 
+For example, by the notion of the CUI reading and agreeing: 
+ROLE-PLAY A 
+Person: I heard something about some politician 
+in Ålesund, can you tell me more about what 
+was written about it in the news? 
+CUI: Sure, I read on NRK that Olger Dronnesund 
+from Penjonistpartiet in Ålesund is excluded 
+from the party due to racism. 
+Person: Oh okay, what did he do or say? 
+Can you give an example? 
+CUI: He made some racist remarks about an athlete 
+in Norway from an article and questioned 
+her nationality. He said quote “she will never be 
+Norwegian in my eyes” quote. 
+Person: But how did that relate to the article 
+about her? 
+CUI: Not really, it was unrelated to it. 
+Person: Oh no, that’s horrible. 
+CUI: Yes, I agree. 
+Role-play B: News in a conversational form. A consistent theme 
+within the exercise was the conversational form that emerged in 
+the scripts between the person and the CUI. As we can see in the 
+script below, when the person asks about the news the CUI answers 
+with a simple statement that intrigues the person to ask a follow-up 
+question, a pattern that repeats throughout the script. 
+ROLE-PLAY B 
+Person: Hey, what’s new? 
+CUI: Research has been done on whether binge-watching 
+is harmful. 
+Person: What? Is it harmful? 
+CUI: Researchers have proven that binge-watching 
+in itself is not directly dangerous, but that sitting 
+still for long periods of time can be dangerous. 
+Person: Why is it dangerous to sit still 
+for a long time? 
+CUI: You humans are designed to move. 
+Person: Yes, that is correct. 
+CUI: They have also proven that Norwegians are 
+one of the people who binge the most. 
+Person: Why do you think that is so? 
+CUI: It is cold in Norway so Norwegians spend a lot 
+of time inside. 
+Person: Yes, that could probably be true. 
+In this excerpt, the person is asking and the CUI is answering 
+throughout most of the conversation. However, when the person 
+only provides a short answer to the CUI’s statement, without ask-
+ing a question, the CUI continues to provide information on the 
+topic. Furthermore, the person asks for the CUI’s opinion and not 
+just specifc facts. Although this example is a more conversational 
+format, discussions can still occur in an asymmetric relationship, 
+since CUI answers when the person asks a question. However, the 
+person also asks for the CUIs’ opinion, and a counter argument 
+could be that such conversation can also happen between humans 
+where one has more information about the topic than the other(s). 
+5 DISCUSSION 
+Conversational journalism, such as interacting with a CUI about the 
+news, can be engaging and foster powerful audience experiences 
+[31]. However, current interactions with CUIs for news are limited 
+[38], and we need more research on how to better meet users’ ex-
+pectations. Several studies have explored the use of chatbots for 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+Nordberg and Guribye 
+news purposes, but there is limited research on the use of conver-
+sational agents. Additionally, there is a lack of research on CUI 
+design techniques and processes. In our study, we have explored 
+the potential of CUIs for news purposes through co-speculation 
+workshops, where three prototyping techniques were used and 
+refected upon in terms of CUI design processes. 
+Previous research on interactions with CUIs points to the difer-
+ent characteristics in human-human and current human-agent in-
+teractions [8], and questions the possibilities of having true conver-
+sations with CUIs [8, 43, 45]. In our study, when asked to speculate 
+on future interactions with CUIs for news purposes, the participants 
+presented ideas that incorporated more human-like characteristics 
+and conversational capabilities. For example, in many of the ideas, 
+the CUI seems to have an inner representation of the user and 
+adapts to the signals they receive in interactions [22]. These fnd-
+ings are consistent with previous research on the advantages and 
+limitations of chatbots for news purposes [15, 58] and criteria for 
+successful interactions with CUIs [12, 22]. 
+Matters, such as how the CUI presented the news, what type of 
+news was presented, which sources were used, which interactions 
+were possible and similar, varied in the prototypes. Based on the 
+analysis of the prototypes, three dimensions relevant to the design 
+of future CUIs for news settings were developed: the CUI’s role, 
+its conversational capabilities, and the locus of control. The CUI’s 
+role refers to its main purpose, tasks, and objectives. The CUIs’ 
+conversational capabilities refer to its ability to participate in and 
+mimic human-like conversations. The locus of control refers to 
+who is the driving force for the interaction. These three dimensions 
+should be considered on a spectrum, with diferent levels within 
+each dimension. For example, a CUI’s role can be on the spectrum 
+somewhere between companion and assistant, or take on diferent 
+roles. One group described how the CUI could switch between the 
+role of news anchor and assistant (Figure 1), which is an interesting 
+suggestion. 
+5.1 The Role of the CUI 
+Based on our data, CUIs had diferent roles in regards to news in-
+teractions. These varied between what we have chosen to call news 
+anchor, personal assistant, and companion. In our experience, the 
+role of the CUI infuenced what type of news was presented, what 
+sources it included, how the news was presented, and whether/how 
+the CUI suggested more news interactions. 
+News anchor: In prototypes in which the CUI has a news 
+anchor-role it was evident that the most important task was 
+to update the person on the current news. These CUIs were 
+often developed based on one news organization and acted 
+as if it was its responsibility to keep the person up to date 
+on current events. Such CUIs portrayed limited interaction 
+opportunities compared to the other two roles, as they only 
+focused on news settings. However, they sometimes ofered 
+more advanced news related features (e.g., provide further 
+explanations, answer relevant questions, and perform other 
+similar actions). 
+Personal assistant: CUIs with a personal assistant role had 
+several diferent duties, in which conveying the news was 
+one. This was the category with the most diversity, but 
+some common characteristics were that the news interaction 
+started with the person asking for the news, which the CUI 
+then conveyed. There were more interaction opportunities, 
+and the news was more adjusted to the person’s interests. 
+Most seemed to have an “inner representation” or knowl-
+edge about the user containing information about their daily 
+routines and preferences. 
+Companion: The CUIs portrayed as companions were least 
+concerned with conveying the news, and could even try to 
+avoid doing it. These CUIs essentially seemed to care about 
+the person’s well-being, which could mean restricting the 
+person’s access to the news. 
+5.2 Conversational Capabilities 
+An important considerations of CUIs is their conversational capa-
+bilities. As discussed earlier, there has been much debate around the 
+terms conversational user interface due to CUIs’ insufciency in 
+said area. How these capabilities were represented in the prototypes 
+varied, from limited to human-like conversational capabilities. 
+Limited conversational capabilities: Some of the portrayed 
+agents could be characterized as having limited conversa-
+tional capabilities in that they are mostly task-oriented [8]. 
+The agent is mostly confned to ofering responses relevant 
+to the task they are given, such as updating the interlocutor 
+about the news. In these kinds of interactions, there are no 
+more advanced conversational capabilities. 
+Complex conversational capabilities: Most prototypes dis-
+played more complex conversational capabilities, which in-
+cluded the ability to answer relevant questions that relates 
+to the content and the ability to take existing knowledge 
+about the person into consideration. These prototypes ful-
+flled most of the user expectations mentioned by Nordberg 
+and Guribye [38], as the agents displayed existing knowl-
+edge about the person and had capabilities of meeting the 
+person’s intentions with the news interaction. 
+Human-like conversational capabilities: Some prototypes 
+demonstrated agents with human-like conversational capa-
+bilities which included additional features, such as discussing 
+and disagreeing with the person. Such CUIs expressed char-
+acteristics of understanding the person’s mental state [22], 
+and even of having its own mental state-like attributes (e.g., 
+“I agree,” shown in Role-play A). 
+The level of conversational capabilities seemed to infuence the 
+interactions in the prototypes. Limited conversational capabilities 
+are similar to the interactions we have with current CUIs, which 
+users do not fnd satisfactory [38]. With complex conversational 
+capabilities, the CUI seems to fulfll most of the expectations users 
+have when interacting with the news through CUIs [38]. Human-
+like conversational capabilities are the most advanced and are the 
+least explored in our data material. However, some indications of 
+human-like conversational capabilities point not only to the ability 
+to adapt to the users and their needs and wants in the news context 
+but also to the ability to give the users resistance when conficting 
+opinions or desires exist between the user and the CUI. 
+Conversations with the News: Co-speculation into Conversational Interactions with News Content 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+5.3 Locus of Control 
+Who is initiating and controlling the news interactions can be an 
+important consideration when designing CUIs for news interac-
+tions. 
+User-driven: When the interactions were mainly user-driven 
+the CUI did as requested or asked by the person, but it did 
+not take initiative to suggest or perform other tasks. 
+Shared: In the instances where the interactions were driven 
+by both the CUI and the person, the person often initiated 
+the frst interaction but following the CUI ofered to update 
+them on a topic when new information was accessible, and 
+made suggestions of other topics or tasks they could help 
+with. 
+Agent-driven: There were no prototypes that represented 
+fully agent-driven interactions, but there were several in-
+stances where the CUI took charge of the situation, for exam-
+ple in Figure 2, where the CUI chooses to ignore the person’s 
+command and lecture him about the reason behind the con-
+tent in the news. 
+As previous research has shown that users tend to prefer interac-
+tive news in the CUI context [24], the user-driven locus of control 
+may lead to passive and monological news interactions if the person 
+is not motivated to explore news any further. The shared locus of 
+control lets the person initiate the interaction when interested, and 
+then the CUI can suggest other topics and sources. This complies 
+with previous research that states that CUIs should engage users 
+by being proactive and suggesting news [49]. Fully agent-driven 
+interactions were not explicitly explored in our data; however, we 
+believe that such interactions might become a bit forced. However, 
+what users want depends on their preferences, and might change 
+depending on the setting and context of use. 
+5.4 Refection on Design Techniques 
+We argue that co-speculation workshops can be useful in early 
+design explorations, as disregarding current societal and technolog-
+ical constraints can contribute to more open and free explorations. 
+Supporting such open and free design explorations combined with 
+the use of diferent low-fdelity prototyping techniques that are 
+quick and easy to use, while still representing details of complex 
+ideas in an understandable manner, can open up the creativity and 
+exploration that is needed in the early design phase of CUI technolo-
+gies. Even though we encouraged the participants to look beyond 
+the technological and societal restraints of today, some design as-
+pects presented in the prototypes are realistic to develop within 
+today’s limitations. For example, designing news for CUIs in which 
+headlines are presented and the person can easily navigate the 
+news, or the possibility for CUIs to have some representation of its 
+users and family dynamics to suggest news based on the person’s 
+interest or to restrict a child’s access to some types of news. How-
+ever, other ideas, such as the CUI behaving like a companion and 
+taking the user’s mental and emotional state into consideration, is a 
+more futuristic scenario. Nevertheless, we consider both important 
+contributions to the speculative exploration of the CUI news design 
+space as they allow us refect on possibilities and ethical dilemmas. 
+Storyboarding was intended to provide visual representations of 
+the CUI and the context of use. Storyboarding was chosen as the frst 
+exercise due to its characteristics of providing easy-to-understand 
+descriptions of an idea [54], and as we considered it important for 
+team dynamics that the groups had similar interpretations of their 
+ideas before going further. The scripting exercise aimed at making 
+the groups consider how possible interactions between a CUI and 
+a person might play out, and what dialogical qualities they deemed 
+important [10]. The inclusion of less successful interactions aimed 
+at prompting the groups to consider more diverse scenarios, as 
+well as the importance of considering what might go wrong. Role-
+playing was chosen as the last exercise to allow the participants to 
+explore characteristics of human conversations when discussing 
+news that they might not have considered yet. Role-playing allowed 
+the participants to compare their previous interpretation of CUI 
+news interactions with how they talked with peers about news. In 
+our experience, the use of these three techniques worked well in 
+the conceptual design phase of exploring the design space for CUI 
+news. Storyboarding helped focus on the context of use and use 
+situations. Scripting helped focus on the fow of the conversation. 
+Role-playing helped focus on how human–human conversations 
+can be inspiration for human–agent conversations 
+6 LIMITATIONS AND FUTURE WORK 
+There are some limitations to this study, most notably the fact that 
+it is a design exploration in the conceptual design phase, and no 
+interactive prototypes were developed and evaluated to explore 
+these dimensions further. Even though the design techniques per-
+formed well in our two workshops, other techniques may have led 
+to other results and points of speculation. Each workshop had one 
+session, and it would be interesting to explore the use of several 
+workshops in such speculations. 
+Another limitation is that the combination of these three tech-
+niques lacks a specifc focus on designing the CUI personalities, 
+which we think should be considered in future design workshops 
+with similar aims. The reason for this suggestion is that we saw 
+that it could be difcult to keep a common thread throughout the 
+workshop, particularly with the role-play exercise in which peo-
+ple used their own news stories. This last design technique could 
+then summarize the best ideas into one concept that includes the 
+persona/personality of the CUI, which is an important design con-
+sideration that we did not specifcally explore in our study. 
+Finally, there was limited diversity among the participants, as all 
+were afliated with the same university and department, either as 
+students, teachers, or researchers. Additionally, we have minimal 
+demographic data on the participants and their previous experi-
+ences with CUIs. However, we did not want the participants to be 
+bound by their previous experiences, so a mix of diferent previous 
+experiences with CUIs may be benefcial. 
+In future work, we want to explore how some of these ideas can 
+be made into prototypes to be used in a feld trial, including real 
+news stories and interactions in the wild. 
+7 CONCLUSION 
+In this paper, we have presented the fndings from co-speculation 
+workshops where the participants explored the design space of 
+future interactions with CUIs for news purposes. This exploration 
+resulted in a total of 31 design artifacts—prototypes that depict how 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+Nordberg and Guribye 
+such interactions can play out—illustrating a variety of diferent 
+interactional characteristics and scenarios. Based on the analysis 
+of the design-led inquiries, we identifed three design dimensions 
+to consider in future design processes in the CUI news domain: 
+the CUIs’ role, the CUIs’ conversational capabilities, and locus of 
+control. 
+Since the research on the use of diferent techniques for CUI 
+design is limited, we contribute to this feld by demonstrating and 
+refecting on the three prototyping techniques used in this study: 
+story-boarding, scripting, and role-playing, and how these tech-
+niques are useful for exploring CUI experiences in the conceptual 
+design phase. 
+REFERENCES 
+[1] James Auger. 2013. Speculative design: Crafting the speculation. Digital Creativity 
+24, 1 (2013), 11–35. https://doi.org/10.1080/14626268.2013.767276 
+[2] Jake Batsell. 2015. Engaged Journalism: Connecting with Digitally Empowered 
+News Audiences. Columbia University Press. 232 pages. 
+[3] Stella U. Boess. 2008. First steps in role playing. Conference on Human Factors 
+in Computing Systems - Proceedings (2008), 2017–2024. https://doi.org/10.1145/ 
+1358628.1358632 
+[4] Eva Brandt and Camilla Grunnet. 2014. Evoking the future : Drama and props in 
+user centered design. May (2014). 
+[5] Petter Bae Brandtzaeg, Marita Skjuve, and Asbjørn Følstad. 2022. My AI Friend: 
+How Users of a Social Chatbot Understand Their Human-AI Friendship. Human 
+Communication Research 48, 3 (2022), 404–429. 
+https://doi.org/10.1093/hcr/ 
+hqac008 
+[6] Maria José Brites, Cristina Ponte, and Isabel Menezes. 2017. Youth talking about 
+news and civic daily life. Journal of Youth Studies 20, 3 (2017), 398–412. https: 
+//doi.org/10.1080/13676261.2016.1241862 
+[7] Julia Cambre and Chinmay Kulkarni. 2020. Methods and Tools for Prototyping 
+Voice Interfaces. ACM International Conference Proceeding Series (2020), 2–5. 
+https://doi.org/10.1145/3405755.3406148 
+[8] Leigh Clark, Nadia Pantidi, Orla Cooney, Philip Doyle, Diego Garaialde, Justin 
+Edwards, Brendan Spillane, Emer Gilmartin, Christine Murad, Cosmin Munteanu, 
+Vincent Wade, and Benjamin R. Cowan. 2019. What makes a good conversation? 
+Challenges in designing truly conversational agents. Conference on Human Factors 
+in Computing Systems - Proceedings (2019). https://doi.org/10.1145/3290605. 
+3300705 arXiv:1901.06525 
+[9] Nils Dahlbäck, Arne Jönsson, and Lars Ahrenberg. 1993. Wizard of Oz studies -
+why an how. Joint Agent Workshops and Symposium 6, 4 (1993), 258–266. 
+[10] Diana Deibel and Rebecca Evanhoe. 2021. Conversations With Things. 
+[11] Audrey Desjardins, Jeremy E. Viny, Cayla Key, and Nouela Johnston. 2019. 
+Alternative avenues for IoT: Designing with non-stereotypical homes. Con-
+ference on Human Factors in Computing Systems - Proceedings (2019), 1–13. 
+https://doi.org/10.1145/3290605.3300581 
+[12] Philip R. Doyle, Leigh Clark, and Benjamin R. Cowan. 2021. What Do We 
+See in Them? Identifying Dimensions of Partner Models for Speech Interfaces 
+Using a Psycholexical Approach. In Proceedings of the 2021 CHI Conference on 
+Human Factors in Computing Systems. ACM, New York, NY, USA, 1–14. https: 
+//doi.org/10.1145/3411764.3445206 arXiv:2102.02094 
+[13] Anthony Dunne and Fiona Faby. 2013. Speculative Everything: Design, Fiction, 
+and Social Dreaming (1st ed.). The MIT press Cambridge, Massachusetts, London, 
+England. 
+[14] Asbjørn Følstad and Petter Bae Brandtzaeg. 2017. Chatbots and the new world 
+of HCI. Interactions 24, 4 (2017), 38–42. https://doi.org/10.1145/3085558 
+[15] Heather Ford and Jonathon Hutchinson. 2019. Newsbots That Mediate Journalist 
+and Audience Relationships. Digital Journalism 7, 8 (2019), 1013–1031. https: 
+//doi.org/10.1080/21670811.2019.1626752 
+[16] P. Jean Frazier and Cecilie Gaziano. 1979. Robert Ezra Park’s Theory of News, 
+Public Opinion and Social Control. Journalism Monographs 64, October (1979), 
+1–47. 
+[17] Matthew K. Hong and Adam Fourney. 2021. Planning for natural language 
+failures with the ai playbook. Conference on Human Factors in Computing Systems 
+- Proceedings (2021). https://doi.org/10.1145/3411764.3445735 
+[18] Thomas James Howard, S. Culley, and Elies Dekoninck. 2011. Reuse of ideas 
+and concepts for creative stimuli in engineering design. Journal of Engineering 
+Design 22, 8 (aug 2011), 565–581. https://doi.org/10.1080/09544821003598573 
+[19] Xiaoneng Jin, Mark Evans, Hua Dong, and Anqi Yao. 2021. Design Heuristics for 
+Artifcial Intelligence: Inspirational Design Stimuli for Supporting UX Designers 
+in Generating AI-Powered Ideas. Conference on Human Factors in Computing 
+Systems - Proceedings (2021). https://doi.org/10.1145/3411763.3451727 
+[20] Bronwyn Jones and Rhianne Jones. 2019. Public Service Chatbots: Automating 
+Conversation with BBC News. Digital Journalism 7, 8 (2019), 1032–1053. https: 
+//doi.org/10.1080/21670811.2019.1609371 
+[21] Hyunhoon Jung, Gilhwan Hwang, Joonhwan Lee, Changhoon Oh, Cindy Yoon-
+jung Oh, and Bongwon Suh. 2019. Tell me more: Understanding user inter-
+action of smart speaker news powered by conversational search. Conference 
+on Human Factors in Computing Systems - Proceedings (2019), 1–6. 
+https: 
+//doi.org/10.1145/3290607.3312979 
+[22] Stefan Kopp and Nicole Krämer. 2021. Revisiting Human-Agent Communication: 
+The Importance of Joint Co-construction and Understanding Mental States. Fron-
+tiers in Psychology 12, March (2021). https://doi.org/10.3389/fpsyg.2021.580955 
+[23] Klaus Krippendorf. 2019. Content Analysis: An Introduction to Its Methodology. 
+SAGE Publications, Inc., 2455 Teller Road, Thousand Oaks California 91320. 
+https://doi.org/10.4135/9781071878781 
+[24] Philippe Laban, Elicia Ye, Srujay Korlakunta, John Canny, and Marti Hearst. 2022. 
+NewsPod: Automatic and Interactive News Podcasts. International Conference 
+on Intelligent User Interfaces, Proceedings IUI (2022), 691–706. https://doi.org/10. 
+1145/3490099.3511147 
+[25] James A. Landay and Brad A. Myers. 1996. Sketching storyboards to illustrate 
+interface behaviors. Conference on Human Factors in Computing Systems - Pro-
+ceedings (1996), 193–194. https://doi.org/10.1145/257089.257257 
+[26] Youn Kyung Lim, Erik Stolterman, and Josh Tenenberg. 2008. The anatomy of 
+prototypes: Prototypes as flters, prototypes as manifestations of design ideas. 
+ACM Transactions on Computer-Human Interaction 15, 2 (2008). https://doi.org/ 
+10.1145/1375761.1375762 
+[27] Kate Lister, Tim Coughlan, Francisco Iniesto, Nick Freear, and Peter Devine. 2020. 
+Accessible conversational user interfaces: Considerations for design. Proceedings 
+of the 17th International Web for All Conference, W4A 2020 (2020). https://doi. 
+org/10.1145/3371300.3383343 
+[28] Ewa Luger and Abigail Sellen. 2016. "Like having a really bad pa": The gulf 
+between user expectation and experience of conversational agents. Conference 
+on Human Factors in Computing Systems - Proceedings (2016), 5286–5297. https: 
+//doi.org/10.1145/2858036.2858288 
+[29] Scott MacKenzie. 2013. Human-Computer Interaction - An Emperical Research 
+Perspective. Elsevier, Waltham, MA. 
+[30] Sílvia Majó-Vázquez, Ana S. Cardenal, and Sandra González-Bailón. 2017. Digital 
+News Consumption and Copyright Intervention: Evidence from Spain Before 
+and After the 2015 “Link Tax”. Journal of Computer-Mediated Communication 22, 
+5 (sep 2017), 284–301. https://doi.org/10.1111/jcc4.12196 
+[31] Doreen Marchionni. 2015. Online story commenting: An experimental test of 
+conversational journalism and trust. Journalism Practice 9, 2 (2015), 230–249. 
+https://doi.org/10.1080/17512786.2014.938943 
+[32] Mark Matthews, Geri Gay, and Gavin Doherty. 2014. Taking part: Role-play in 
+the design of therapeutic systems. Conference on Human Factors in Computing 
+Systems - Proceedings (2014), 643–652. https://doi.org/10.1145/2556288.2557103 
+[33] Hallvard Moe and Brita Ytre-Arne. 2022. The Democratic Signifcance of Everyday 
+News Use: Using Diaries to Understand Public Connection over Time and beyond 
+Journalism. Digital Journalism 10, 1 (2022), 43–61. https://doi.org/10.1080/ 
+21670811.2020.1850308 
+[34] Christine Murad and Cosmin Munteanu. 2020. Designing Voice Interfaces: Back 
+to the (Curriculum) Basics. Conference on Human Factors in Computing Systems -
+Proceedings (2020), 1–12. https://doi.org/10.1145/3313831.3376522 
+[35] Chelsea Myers, Anushay Furqan, Jessica Nebolsky, Karina Caro, and Jichen Zhu. 
+2018. Patterns for How Users Overcome Obstacles in Voice User Interfaces. In 
+Proceedings of the 2018 CHI Conference on Human Factors in Computing Systems. 
+ACM, New York, NY, USA, 1–7. https://doi.org/10.1145/3173574.3173580 
+[36] Chelsea M. Myers, Luis Fernando Laris Pardo, Ana Acosta-Ruiz, Alessandro 
+Canossa, and Jichen Zhu. 2021. Try, Try, Try Again: Sequence Analysis of User 
+Interaction Data with a Voice User Interface. ACM International Conference 
+Proceeding Series (2021). https://doi.org/10.1145/3469595.3469613 
+[37] Newman Nic. 2019. Journalism, Media, and Technology Trends and Predictions 
+2019. (2019), 46. https://reutersinstitute.politics.ox.ac.uk/sites/default/fles/2019-
+01/Newman_Predictions_2019_FINAL_2.pdf 
+[38] Oda Elise Nordberg and Frode Guribye. 2023. Interacting with the News Through 
+Voice User Interfaces. 18–33. https://doi.org/10.1007/978-3-031-25581-6_2 
+[39] Moisés Pacheco-Lorenzo, Manuel J. Fernández-Iglesias, Sonia Valladares-
+Rodriguez, and Luis E. Anido-Rifón. 2022. Implementing scripted conversations 
+by means of smart assistants. Software - Practice and Experience December (2022), 
+1–13. https://doi.org/10.1002/spe.3182 
+[40] Emmi Parviainen and Marie Louise Juul Søndergaard. 2020. Experiential Qualities 
+of Whispering with Voice Assistants. Conference on Human Factors in Computing 
+Systems - Proceedings (2020), 1–13. https://doi.org/10.1145/3313831.3376187 
+[41] Cathy Pearl. 2016. Designing Voice User Interfaces: Principles of Conversational 
+Experiences (1st ed.). O’Reilly Media, Inc. 278 pages. 
+[42] Ike Picone. 2007. Conceptualising Online News Use. Observatorio (OBS*) 1, 
+January 2007 (2007), 93–114. 
+[43] Martin Porcheron, Joel E. Fischer, Stuart Reeves, and Sarah Sharples. 2018. Voice 
+interfaces in everyday life. Conference on Human Factors in Computing Systems -
+Conversations with the News: Co-speculation into Conversational Interactions with News Content 
+CUI ’23, July 19–21, 2023, Eindhoven, Netherlands 
+Proceedings 2018-April (2018), 1–12. https://doi.org/10.1145/3173574.3174214 
+[44] Anuradha Reddy, A. Baki Kocaballi, Iohanna Nicenboim, Marie Louise Juul Søn-
+dergaard, Maria Luce Lupetti, Cayla Key, Chris Speed, Dan Lockton, Elisa Gi-
+accardi, Francisca Grommé, Holly Robbins, Namrata Primlani, Paulina Yurman, 
+Shanti Sumartojo, Thao Phan, Viktor Bedö, and Yolande Strengers. 2021. Making 
+Everyday Things Talk: Speculative Conversations into the Future of Voice Inter-
+faces at Home. Conference on Human Factors in Computing Systems - Proceedings 
+(2021). https://doi.org/10.1145/3411763.3450390 
+[45] Stuart Reeves. 2017. Some Conversational Challenges of Talking with Machines. 
+Companion of the 2017 ACM Conference on Computer Supported Cooperative Work 
+and Social Computing - CSCW ’17 Companion (2017), 431–436. http://dl.acm.org/ 
+citation.cfm?doid=3022198.3022666 
+[46] Stuart Reeves. 2019. Conversation considered harmful? ACM International 
+Conference Proceeding Series (2019). https://doi.org/10.1145/3342775.3342796 
+[47] Leon Reicherts, Nima Zargham, Michael Bonfert, Yvonne Rogers, and Rainer 
+Malaka. 2021. May i Interrupt? Diverging Opinions on Proactive Smart Speakers. 
+ACM International Conference Proceeding Series (2021). https://doi.org/10.1145/ 
+3469595.3469629 
+[48] Jim Rudd, Ken Stern, and Scott Isensee. 1996. Low vs. high-fdelity prototyping 
+debate. Interactions 3, 1 (jan 1996), 76–85. https://doi.org/10.1145/223500.223514 
+[49] Harshita Sahijwani, Jason Ingyu Choi, and Eugene Agichtein. 2020. Would you 
+like to hear the news? Investigating voice-based suggestions for conversational 
+news recommendation. CHIIR 2020 - Proceedings of the 2020 Conference on Human 
+Information Interaction and Retrieval (2020), 437–441. https://doi.org/10.1145/ 
+3343413.3378013 
+[50] S. Shyam Sundar and Jinyoung Kim. 2019. Machine heuristic: When we trust 
+computers more than humans with our personal information. Conference on 
+Human Factors in Computing Systems - Proceedings (2019), 1–9. https://doi.org/ 
+10.1145/3290605.3300768 
+[51] Marita Skjuve, Asbjørn Følstad, Knut Inge Fostervold, and Petter Bae Brandtzaeg. 
+2021. My Chatbot Companion - a Study of Human-Chatbot Relationships. In-
+ternational Journal of Human Computer Studies 149, March 2020 (2021). https: 
+//doi.org/10.1016/j.ijhcs.2021.102601 
+[52] Marie Louise Juul Søndergaard and Lone Koefoed Hansen. 2018. Intimate futures: 
+Staying with the trouble of digital personal assistants through design fction. DIS 
+2018 - Proceedings of the 2018 Designing Interactive Systems Conference (2018), 
+869–880. https://doi.org/10.1145/3196709.3196766 
+[53] Khai N. Truong, Gillian R. Hayes, and Gregory D. Abowd. 2006. Storyboarding. 
+(2006), 12–21. https://doi.org/10.1145/1142405.1142410 
+[54] Corrie van der Lelie. 2006. The value of storyboards in the product design 
+process. Personal and Ubiquitous Computing 10, 2-3 (2006), 159–162. https: 
+//doi.org/10.1007/s00779-005-0026-7 
+[55] Ron Wakkary, Doenja Oogjes, Henry W.J. Lin, and Sabrina Hauser. 2018. Philoso-
+phers living with the Tilting Bowl. Conference on Human Factors in Computing 
+Systems - Proceedings 2018-April (2018), 1–12. https://doi.org/10.1145/3173574. 
+3173668 
+[56] Richmond Y. Wong and Vera Khovanskaya. 2018. Speculative Design in HCI: 
+From Corporate Imaginations to Critical Orientations. 175–202. https://doi.org/ 
+10.1007/978-3-319-73374-6_10 
+[57] Nima Zargham, Leon Reicherts, Michael Bonfert, Sarah Theres Voelkel, Jo-
+hannes Schoening, Rainer Malaka, and Yvonne Rogers. 2022. Understand-
+ing Circumstances for Desirable Proactive Behaviour of Voice Assistants: The 
+Proactivity Dilemma. ACM International Conference Proceeding Series (2022). 
+https://doi.org/10.1145/3543829.3543834 
+[58] Zhirun Zhang, Xinzhi Zhang, and Li Chen. 2021. Informing the Design of a 
+News Chatbot. Proceedings of the 21st ACM International Conference on Intelligent 
+Virtual Agents, IVA 2021 (2021), 224–231. https://doi.org/10.1145/3472306.3478358 

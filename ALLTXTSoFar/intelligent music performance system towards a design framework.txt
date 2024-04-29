@@ -1,0 +1,761 @@
+Årgang 49, nr. 1-2023, s. 28–44
+ISSN online: 1504-2960
+DOI: https://doi.org/10.18261/smn.49.1.3
+VITENSKAPELIG PUBLIKASJON
+Studia Musicologica Norvegica 
+Norwegian Journal of Musicology
+Copyright © 2023 Author(s). This is an open access article distributed under the terms of the Creative Commons CC-BY-NC 4.0
+License (https://creativecommons.org/licenses/by-nc/4.0/).
+Intelligent Music Performance Systems: 
+Towards a Design Framework
+Matthias Jung
+Department of Popular Music, Faculty of Fine Arts, University of Agder, Kristiansand (Norway)
+Matthias holds a Bachelor from Paderborn University in Popular Music and Media and a Master in Electronic Media 
+from Stuttgart Media University. Before joining the Ph.D. program Popular Music Performance at UiA in Norway, he 
+worked at Berlin’s state academy as music production specialist and headed the program team of Most Wanted: Music 
+conference. His recent research focuses on bio-inspired coding and creative symbioses within music performance 
+systems, some of which he carried out lately at Georgia Tech University in Atlanta as a visiting scholar.
+matthias.jung@uia.no
+Abstract
+This article attempts to define and typologize the main principles for the design of Intelligent Music Performance 
+Systems (IMPS). It presents a three-dimensional framework based on studies of proxemics combined with findings 
+from AI design research. Each of these dimensions – embodiment, participation, and autonomy – is presented 
+together with existing taxonomies, then integrated into an analytical framework. This framework informs the 
+discussion of nine historical cases of IMPS from the 1950s to the present, to gain a refined understanding of their 
+interactive design. The discussion leads back to three main tendencies in IMPS design – instruments, systems, 
+and agents – and the article concludes by combining the proposed framework with ideas from Speculative Design 
+Research.
+Keywords
+Intelligent Music Performance Systems, Musical Proxemics, Interactive Composition, Speculative Design Research
+1 Introduction
+Intelligent Music Performance Systems (IMPS) are performance systems which involve 
+artificially intelligent components in the generation of their creative result. These systems 
+make use of computers or other creative technology to create musical performances and 
+represent a subclass of Interactive Digital Musical Instruments or Interactive Music Systems 
+(to emphasize their systemic approach; Rowe 1992, 43). Those latter classes, in turn, belong 
+to the family of Digital Musical Instruments (DMI) and, more generally, to New Interfaces 
+for Musical Expression (NIME) – terms coined in the last 30 years or so (see Figure 1). In 
+the 1990s and 2000s, the term Interactive Performance System also appears in the literature 
+(Pressing 1990, 12) to point to an early form of IMPS. Note that not all IMPS necessarily 
+make use of digital technology; their intelligence can also stem from non-digital concepts, 
+as is indicated in  Figure 1. Most of today’s IMPS, however, are in fact digital systems.
+IMPS typically work with a combination of sensors and digital media to enable real-
+time interactions among performers, instruments, and environments. Interaction models 
+include a human input layer and an output layer generated, in most cases, by a computer 
+(Winkler 1998 as cited in Drummond 2009, 126). The generated output can be fed back 
+into the system and similarly serves as an input for the human performer, resulting in a 
+circular process also referred to as a human–machine interaction loop in the larger field 
+STUDIA MUSICOLOGICA NORVEGICA | ÅRGANG 49 | 1-2023
+29
+of sonic interaction design (Visell 2013). Collins labels those sounds which can be adapted 
+by players of computer games as interactive diegetic sounds and those interactive processes 
+which implement a form of bodily involvement as kinetic gestural interaction (Collins 2008, 
+125–127). Likewise, DMI which incorporate haptic elements can be understood to provide 
+a twofold feedback (auditory and haptic), as proposed by Miranda and Wanderley (2006, 
+71–83). Researchers have assigned DMI, including AI components, a computational mem-
+ory and cognition layer as well (Bongers 2007). Figure 2 is adapted from Drummond (2009, 
+131) and attempts to integrate the aforementioned models of human–computer interaction 
+into the interaction between human performers and IMPS. The literature typically refers to 
+the artificially intelligent components of IMPS as (autonomous) musical agents.1
+IMPS have been developed for a multitude of musical genres, from classical music (for 
+example, Open Symphony [Wu et al. 2017]) to experimental electronic music (for exam-
+ple, Autopia [Lowray et al. 2021]). Many systems may be used independent of their native 
+musical culture, though the development of IMPS is always subject to cultural context and 
+should be recognized as such in the analytical process. Much analytical work has been tar-
+geted towards considerations of system design, and many articles conclude with design 
+recommendations of value to the community of creators of those systems. A word search 
+for design goals, design considerations, design principles and design guidelines in two main 
+1 For a general introduction to the concept of agent systems, see Woolridge (2009).
+Figure 1. Delimitation of IMPS.
+Figure 2. Performer–system interaction loop.
+MATTHIAS JUNG
+30
+publication venues for IMPS, the NIME proceedings and the ICCC proceedings,2 produced 
+50 results for articles with these words in their titles since 2010. The results were based 
+on 1,330 papers (NIME) and 400 papers (ICCC) within the timeframe 2010–2022, and 
+demonstrate a growing need for orientation in a field which is becoming much more com-
+plex. Regarding the current state of research, Tatar and Pasquier (2019) analyzed 78 musical 
+agents using 13 design criteria, but their work was directed towards autonomous agents and 
+not limited to real-time contexts. Gifford et al. (2018) analyzed 23 real-time systems and 
+suggested a taxonomy focused on computational co-improvisation with human performers 
+(Gifford et al. 2018, 33). This recent work is recommended for readers who are not familiar 
+with the general field of IMPS.  
+The present article reviews the existing research through the lens of performance sys-
+tems by applying a proxemic perspective as proposed by Hall (1966) which is connected to 
+models for autonomous musical agents. This approach suggests three dimensions for IMPS 
+design (section 2). A derived framework (section 3) is then applied to a small number of 
+historical cases from the 1950s to the present time (section 4). Section 5 then introduces the 
+concept of Speculative Design Research and applies it to the proposed IMPS design model. 
+Section 6 summarizes the article’s contributions.
+2 Three design dimensions for IMPS
+In The Hidden Dimension, Hall proposes a perception-based model for interpersonal dis-
+tance including four proxemic zones: intimate, personal, social, and public (Hall 1966, 
+121–129). Since the 1960s, this model has offered a relevant perspective on how physical 
+distance affects the behavior of animals and humans. Though it was not initially intended 
+for the analysis of creative practice, it has also been applied to music listening by Collins 
+and Dockwray (2015) and Dockwray (2016). In this section, it will be used to structure the 
+physical distance between human and non-human agents in the interests of adapting it to 
+the design of IMPS, as illustrated in Figure 3.
+2.1 Embodied instrument design
+The first design dimension relates to both the intimate and the personal zones of Hall’s 
+model (the two inner zones in the graph). They are the proxemic zones within which a 
+performer would typically interact with an instrument. Tactile interaction is part of the inti-
+mate zone, given the immediate contact between instruments, controllers or sensors and 
+the human body. The space within which an individual performer acts is the personal zone. 
+Technological trends have also introduced the potential for merged devices and bodies, 
+including physically implanted instruments. Regarding this realm of (musical) wearables 
+and implants, Mueller et al. (2020) conclude that the most imminent application might 
+involve what they call ‘integrated’ devices, which are neither separate from nor implanted 
+into the body, but instead overlap with it and its senses. Ultimately, this initial IMPS design 
+dimension evokes Leman’s (2008) understanding of embodied instruments and digital 
+technology as central design components for distributed systems.
+Regarding the design for these two proxemic zones, Cook proposed 22 principles at the 
+first NIME conference (Cook 2001), encompassing aspects such as respect for the band-
+width of the performer; an operative guideline that the instrument should generate music 
+2 NIME proceedings stands for the Proceedings of the International Conference on New Interfaces for Musical 
+Expression (accessible online via https://www.nime.org), and ICCC proceedings stands for the Proceedings 
+of the International Conference of Computational Creativity (accessible online via https://computationalcre-
+ativity.net).
+STUDIA MUSICOLOGICA NORVEGICA | ÅRGANG 49 | 1-2023
+31
+right away (and offer subtlety for interaction later); and the insight to think in terms of 
+pieces rather than controllers when designing NIME (Cook 2001). When designing DMI, 
+in turn, it is critical to consider the mapping of the embodied gestures and the output of the 
+system. West et al. (2021) recently conducted a study that explored design criteria accord-
+ing to the themes of control, legibility, and sound among DMI users. They position such 
+mapping at the heart of most forms of electronic artistic practice and argue that elaborate 
+mappings must inform fully integrated musical instruments.
+Regarding the analysis of NIME, Birnbaum et al. (2005, 194) suggest a seven-dimen-
+sional model accounting for what expertise is required to play the instrument, how the 
+instrument is controlled, how many degrees of freedom it offers, what feedback modalities 
+it uses for its output, how many players can interact with it, how it is distributed in space, 
+and what role sound plays. 
+2.2 Designing for social interactivity
+The following section engages with the two outer proxemic zones of Hall’s model, the social 
+(at a distance of 1.2 to 3.7 meters) and the public (any distance beyond 3.7 meters). These 
+zones typically engage the affordances of a performance system for interpersonal communi-
+cation and collective creation. For systems which assume a performative center (stage), the 
+social zone might involve the interaction among the stage performers or among the audience 
+members, given that members of these groups are usually positioned near one another. The 
+public zone, on the other hand, might involve the interaction between these groups.
+Distributed creativity is the subject of many studies of IMPS and approached from vari-
+ous perspectives. Glăveanu (2014) proposes a separation between the creative material and 
+the social dimension of distributed systems, one which was picked up by Kantosalo and 
+Takala (2020) while theorizing the creative behavior of a collective. Placing the creative 
+contribution at the center of their model, they specified ‘five Cs’ in play during a collective 
+Figure 3. Hall’s proxemic model applied to the IMPS design space.
+MATTHIAS JUNG
+32
+creative act – context, collective, collaboration, community, and contributions – all of which 
+are connected to each other as well. Regarding the aesthetic dimensions of relational art, 
+one should begin with Bourriaud (2002).
+On a more concrete design level, Weinberg suggests a theoretical framework consisting 
+of ‘Interconnected Musical Networks’ for the field of music composition and performance 
+(Weinberg 2005, 31–37). He recognizes a series of typologies and architectures which he 
+separates into systems for smaller groups of up to ten participants and those for groups 
+above ten participants. Similar typologies appear in the work of Renwick (2017, 117–138) 
+and Matuszewski (2019, 4), the latter of whom developed six different graphs for interac-
+tive music performance systems: disconnected, unidirectional, bi-directional, centrifugal star, 
+centripetal star and forest graph.
+Systems intended to accommodate larger groups of audience members are typically 
+referred to as participatory compositions or systems for audience participation. Earlier 
+examples of real-time systems in the pre-smartphone era include Reflective Paddles 
+(Carpenter 1991), Dialtones (Levin 2001) and Glimmer (Freeman, 2005), whereas smart-
+phone-centered systems include Echobo (Lee and Freeman 2013), Open Symphony (Wu 
+et al. 2017) and The Singularity (York 2019). Regarding aspects of design for participatory 
+systems, Lee and Freeman suggest five criteria: accessibility, musical safety, initiation, attrac-
+tiveness and transparency (Lee & Freeman 2013, 451–452). Hoedl proposes 16 key design 
+issues based on an audience survey (Hoedl 2017, 31–33),3 and Xambó and Roma detail 13 
+compositional dimensions which account for performer and audience roles, location, and 
+feedback types, among other things (Xambó & Roma 2020, 56–57). Mazzanti et al. present 
+a six-dimensional model for the categorization of compositional designs which includes 
+audience interaction within the following categories: control design freedom, system versa-
+tility, audience interaction transparency, audience interaction, focus and active/passive audi-
+ence affinity (Mazzanti et al. 2014, 30).
+2.3 Designing for autonomy
+Certain aspects of artificially intelligent implementations, sometimes also referred to as 
+artificially or computationally creative systems, have gained momentum in recent decades. 
+Advances in computational power have been especially impactful on the field of real-time 
+performance systems, given that AI processes typically involve heavy computation loads. 
+Regarding aspects of design, McCormack et al. propose the so-called AI design circle 
+(McCormack et al. 2020, 3) to argue that creative practice and AI system design work best 
+when they mutually inform each other during both coding and performance.
+Designing AI systems for musical creation involves different levels of non-human auton-
+omy. Eigenfeldt et al. (2013, section ‘A Taxonomy of Musical Metacreation’) specify eight 
+levels of metacreative paradigm for creative AI systems, where 0 involves no metacreativity 
+and 7 describes the design of a musical agent which demonstrates volition (Table 1).4 Note, 
+however, that this definition does not accommodate interactivity as such, and feedback 
+between human and machine agents is not included in the theoretical model.
+3 These 16 design issues fall within five categories in Hoedl (2017, 33): music-related information (skilfulness, 
+masterfulness), motivation (distinctiveness, obtrusiveness, expressiveness, sociability, exposure), behaviour 
+(mood, diversity, objects, communication), mobile technologies (readiness, openness), and opinion (appro-
+priateness, contradiction, creativity).
+4 The term metacreativity is used for systems which generate creative artefacts without human contribution. 
+A full explanation can be found Pasquier et al. (2016).
+STUDIA MUSICOLOGICA NORVEGICA | ÅRGANG 49 | 1-2023
+33
+Designing for autonomy can affect all proxemic zones. On an intimate and personal 
+level, for example, autonomy might involve a gesture recognition system trained by user 
+data or algorithms which draw upon some form of external knowledge database for inter-
+active purposes. At a social or public level, autonomy might involve humanoids or other 
+interactive social bots with which performers and audiences interact. (For an extensive dis-
+cussion of musical dialogue, see King and Gritten [2017]; for a focus on musical interaction 
+with AI-based systems, see Llano et al. [2020]. For a discussion of non-human agency with 
+a focus on human aspects, see Dahlstedt [2021, 882–887], whose findings are based on 
+Latour’s more general theory of non-human agents [Latour 2005, 63–86].)
+3 Towards a model of IMPS design
+Figure 4 is a visual representation of the proposed model for IMPS design. The x-axis 
+refers to the first two proxemic zones, that is, the degree to which a system implements an 
+embodied approach. Traditionally, this represents the instrument design level, including 
+the ways in which a performer might interact with the system on a haptic and individual 
+level, including such gestures as pressing keys, plucking strings, waving the arms, touching 
+screens, or conveying body gestures to a camera system. All of these gestures fall within the 
+first two proxemic zones and relate to the individual body of a system user, which is why 
+this is referred to as the dimension of embodiment design. The axis uses a five-step quanti-
+zation for categorizing IMPS, where 0 indicates no embodied design, and 5 indicates a high 
+degree of embodiment in the system. 
+The second design dimension, participation design, is visualized along the y-axis and 
+relates to the two outer proxemic zones of Hall’s model, that is, the social and public zones 
+which concern the interactions between performers in the system. This could be, for example, 
+the affordances of a system concerning each performer’s sonic contributions or the integration 
+of audience contributions within the public zone. Like the embodiment axis, the participation 
+axis makes use of a 5-point scale with a 0 point. Note that the placement on the x and y-axes 
+does not always translate to a literal distance from a system’s physical interface. It can also 
+involve a virtual impression of closeness, or a perceived distance from one’s co-performers. 
+Lastly, the third design dimension, autonomy design, is represented by the z-axis of 
+the model. This axis describes the extent to which non-human agents are integrated into 
+a system, and, more specifically, the extent of design development of the autonomous 
+contributions within a system. This axis implements Eigenfeldt et al.’s seven-level model 
+Table 1. Levels of autonomy in metacreative musical systems, as proposed by Eigenfeldt et al. 
+(2013)
+Level
+Autonomy paradigm
+Definition
+0
+No metacreativity involved
+1
+Independence
+The use of any process on a musical gesture that is beyond the control of the 
+composer.
+2
+Compositionality
+The use of any process to determine the relationships between pre-defined 
+musical gestures.
+3
+Generativity
+The generation of musical gestures.
+4
+Proactivity
+Systems/agents that are able to initiate their own musical gestures.
+5
+Adaptability
+a)  Agents behave in different ways over time due to their own internal evolution;
+b) agents interact and influence one another.
+6
+Versatility
+Agents determine their own content without predefined stylistic limits.
+7
+Volition
+Agents exhibit volition, deciding when, what and how to compose/perform.
+MATTHIAS JUNG
+34
+for musical artificial creativity (Eigenfeldt et al. 2013, section ‘A Taxonomy of Musical  
+Metacreation’).
+4 Case studies
+This section investigates nine cases of IMPS, and categorizes them with the help of the pro-
+posed model described above. The selection of cases was influenced by the author’s review 
+process, access to and experience with IMPS, and does not claim to encompass the many 
+systems out there. Instead, the selection reflects a diversity of systems in terms of historical 
+genesis, technology, and cultural performance context. It is intended to be a prototypical 
+test for the model which could be extended in future work to offer more validity to the 
+model. Table 2 presents an overview of the selected IMPS cases. 
+Table 2. Overview of analyzed cases
+No.
+System
+Year
+Creator
+Embodiment
+Participation
+Autonomy
+1
+EIS
+1950s
+Oliveros, Pauline
+0 
+0
+0
+2
+Voyager
+1986
+Lewis, George E.
+0 
+2
+2
+3
+Cypher
+1992
+Rowe, Robert
+0 
+0
+2
+4
+Reactable
+2005
+Jordà, Sergi
+4 
+5
+2
+5
+GREIS
+2010
+Van Nort, Doug
+3 
+0
+3
+6
+FILTER
+2013
+Van Nort, Doug
+3 
+0
+4
+7
+Echobo
+2013
+Lee, Sang W. & Freeman, Jason
+0 
+5
+2 
+8
+DYCI2
+2018
+Nika, Jérôme et al.
+2 
+2
+5
+9
+MHWA 
+2020
+Turchet, Luca et al.
+5 
+3
+2
+Figure 4. Visualization of the proposed model for IMPS design.
+STUDIA MUSICOLOGICA NORVEGICA | ÅRGANG 49 | 1-2023
+35
+4.1 EIS, GREIS and FILTER 
+The Expanded Instrument System (EIS) was developed by Pauline Oliveros, starting in the 
+late 1950s, via the creative use of tape delay (the latency between the playback and record 
+head of a tape recorder), and continuing through her lifetime, as technology advanced 
+(Oliveros 2008). The first versions of EIS do not utilize digital technology so cannot be 
+considered DMIs as such. In 1967, instruments were introduced to the system as sound 
+sources, and in 1983, the tape delay was replaced by digital delay. This design was further 
+developed in the 1990s and 2000s, with the help of more refined digital spatialization mod-
+els (Van Nort et al. 2013, 306). From the early 2000s onwards, the system, which Oliveros 
+often used with a foot pedal, allowed for the real-time control of up to 40 delay times, 
+ranging from milliseconds to one minute, acting as a ‘time machine’ and an ‘improvising 
+partner, with a history of pushing the performer to make instantaneous decisions and to 
+deal with the consequences musically which long predates the rich work in interactive per-
+formance systems being done today (…) [T]he result is a fluctuating mix of live instrumen-
+tal input with machine feedback that has the feel of human partnering, mirroring his/her 
+own sounds interactively’ (Van Nort et al. 2013, 306). The development of EIS should be 
+framed in tandem with Oliveros’s compositional and performative concept of deep listen-
+ing, wherein individuals enter a meditative state and closely listen to musical events of both 
+human and machine nature (Oliveros 1979, 2005). 
+In the later 2000s, EIS inspired the Granular-Feedback Expanded Instrument System 
+(GREIS), which was developed by Doug Van Nort, one of Oliveros’s musical co-performers 
+in the trio Triple Point. While Oliveros used EIS mainly to achieve longer delay lines in the 
+range of 20 to 60 seconds via a foot pedal while playing the accordion, Van Nort performed 
+GREIS via hand-gestures with a stylus on a tablet to achieve time delays in the range of 
+milliseconds to a few seconds (Van Nort 2013, 306). These gestures impacted the timbre of 
+the trio’s samples by breaking them down into grains, allowing the performers to use their 
+voices as navigators of the timbre space (Van Nort 2013). Through the performers’ interac-
+tions with GREIS, the system builds what Van Nort calls episodic and semantic memory – 
+the former relating to audio and control parameters, the latter to gestures – which then 
+can be used to control other parts of the system (Van Nort 2013, 311). A full description of 
+GREIS can be found in Van Nort (2010).   
+While EIS and GREIS are both used by a performer, the FILTER system serves as an 
+actively improvising co-performer or partner rather than an instrument, in this way 
+expanding Oliveros and Van Nort’s trio into a quartet (Triple Point + FILTER, Van Nort 
+2013, 322). FILTER stands for Freely Improvising, Learning and Transforming Evolutionary 
+Recombination, and its major contributions reside in the field of machine listening – it is, in 
+short, an attempt to implement Oliveros’s deep listening in a non-human performer with the 
+help of advanced computational methods. FILTER is intended to move towards ‘a system that 
+learns “action” – in the sense of intention – that is embedded in the low-level structure of the 
+audio stream of its improvising partner’ (Van Nort 2013, 314). This listening agent uses two 
+different modes: gestural listening and textural listening. Gestural listening happens mainly 
+on three different time scales, from the note level to the phrase level, and in the absence of 
+recognized gestures, the system turns towards textural listening (Van Nort 2013, 317). The 
+results of these listening processes inform the system’s semantic and episodic memories; it 
+then uses a genetic algorithm to generate its active behavior (Van Nort 2013, 319).
+Comparing EIS, GREIS and FILTER, it is clear that EIS is the least technologically 
+developed system – it is, after all, restricted to effect generation and does not demonstrate 
+intelligent behavior. Although it is often used with a foot pedal, the system itself does not 
+MATTHIAS JUNG
+36
+implement embodied components per se, nor is it designed for interactions among per-
+formers or audience members. This is why EIS appears in the lower areas of the model 
+along all three axes (see Figure 5). GREIS, however, introduces notions of semantic mem-
+ory generated by hand and voice gestures that navigate timbral qualities of the system’s 
+output, which is why it is seen to demonstrate a higher level of embodied design. Finally, the 
+FILTER system uses sophisticated analytical machine-listening models, as well as genetic 
+algorithms to generate its improvisational memory, so it is categorized as level 4 with regard 
+to its autonomy.
+4.2 Cypher
+The Cypher system was developed by Robert Rowe, and described as a ‘real-time system with 
+two major components: a player and a listener’ (Rowe 1992, 43). Its listening module analy-
+ses musical features such as speed, density, dynamic, harmony and rhythm. These analytical 
+capacities are considered single agents in a multi-agent architecture which then report to the 
+player module, which uses ‘various algorithmic techniques to produce musical output’ (Rowe 
+1992, 43). The input for the system is a single stream of MIDI data, and the techniques used 
+are mainly rule-based. The output of the player module is then fed into another system stage, 
+called the ‘compositional critic’, which is there to ‘monitor the output of the Cypher player 
+and apply modification to the material generated by the composition methods before they are 
+actually sent to the sound-making devices’ (Rowe 1992, 46). Alongside its use with real-time 
+MIDI data as its input, Cypher also represents a stand-alone generative system.
+In their typology of metacreative music systems, Tatar and Pasquier describe Cypher as 
+a symbolic, rule-based reactive musical agent (Tatar and Pasquier 2019, 70). Yet Rowe bases 
+his analytical model for harmonies, which he calls ‘Chordnet’, on a neural network initially 
+presented by Scarboroughet, Miller and Jones (1989, as cited in Rowe 1992, 51), implying 
+that this system is not purely rule-based but implements some early notions of artificial 
+intelligence. When discussing representation in interactive music systems in a recent arti-
+cle, Rowe concludes that the most promising approach to this design might reside in a 
+combination of symbolic representation and the exposure of raw data to AI systems. He 
+then cites Marcus for support: ‘The right move today may be to integrate deep learning, 
+which excels at perceptual classification, with symbolic systems, which excel at inference 
+and abstraction’ (Marcus 2018 as cited in Rowe 2021, 7).
+4.3 Voyager 
+The Voyager system was developed by trombone player George Lewis in the 1990s, and is 
+described in his article, ‘Too Many Notes: Computers, Complexity and Culture in “Voyager”’ 
+(Lewis 2000). It was constructed to be a ‘virtual improvising orchestra’ (Lewis 2000, 33) that 
+reacts to MIDI input data. However, Lewis used the system mainly with real-time micro-
+phone signals from his analogue trombone and other instruments which were then trans-
+ferred to MIDI data. Voyager has 64 voices which react to the input data in a rule-based 
+manner which follows the notion of ‘Multidominance’, which Lewis encountered in Douglas’s 
+analysis of Afro-American music. Douglas describes Multidominance in contrast to Western 
+classical music as an aesthetic which involves ‘the multiple use of colors in intense degrees, 
+or the multiple use of textures, design patterns, or shapes’ (Douglas 1991 as cited in Lewis 
+2000, 33). Lewis refracted this notion through his Voyager system so that it would return 
+many parallel voices at the same time, often without the clear center of attention one expects 
+in Western classical compositional practice. Lewis’s cultural perspective is also clear in his 
+1999 article ‘Interacting with Latter-Day Musical Automata’, where he explores the historical 
+STUDIA MUSICOLOGICA NORVEGICA | ÅRGANG 49 | 1-2023
+37
+and aesthetic notions of performance with non-human agents. In the light of this article, it is 
+clear that Lewis intended Voyager to be as autonomous as possible within the technological 
+constraints of the late 1990s. Still, it is now considered a single-user, rule-based, and reactive 
+multi-agent system which does not demonstrate advanced techniques from the field of artifi-
+cial intelligence; see, for example, the analysis of Tatar and Pasquier (2019, 57).
+4.4 Reactable 
+The Reactable was developed as a multi-user instrument by Sergi Jordà, to explore shared 
+collective control (Jordà 2005). It is a tabletop instrument with wooden dice-like objects 
+which represent different musical threads, and their movement and rotation inform musi-
+cal functions such as filters or generators. The instrument can be played by one to six people 
+who are free to pick up and adjust the objects of their choice interchangeably. It is also pos-
+sible to use multiple Reactables in different locations, resulting in a distributed, virtual live 
+performance (ibid.). Xambó explored the affordances of tabletop interfaces in a number of 
+studies with both expert players and beginners and concludes that this instrument group 
+can facilitate the users’ ‘understanding of contemporary representations of music and pro-
+vide them with tools and techniques for collaborative music creation’ (Xambó 2014, 256). 
+The tabletop instrument implies both an embodied and a participatory approach. 
+Players use their hands to replace and turn the objects, and they interact with the other 
+players standing next to them in both their intimate and personal zones. In addition, the 
+instrument accommodates both social and public zones, given that it is possible to connect 
+more than one Reactable in the same space or even in separate venues via a digital network. 
+However, the system does not create its own gestures but rather responds with predefined 
+ones, which places it at the level of compositionality (level 2) on the autonomy scale.
+4.5 Echobo
+Echobo was developed by Sang Won Lee and Jason Freeman as a performance system which 
+invites audience members to participate via their personal smartphones. The instrument 
+features two interfaces, one for a so-called master musician who controls chord progres-
+sions and one for audience members which provides a keyboard whose tones change based 
+on the progressions selected in the master interface (Lee & Freeman 2013, 452). Echobo’s 
+performance concept also involves an acoustic instrumentalist who improvises while the 
+performance is underway. Because the individual contributions of the audience members 
+are all played at the same time, the result of this system’s work is a sequence of advancing 
+chord textures accompanied, in turn, by the instrumentalist. From a design point of view, 
+the system is highly interactive and participatory, and it also takes an embodied approach, 
+since all of its interactions are directly tied to audience members tapping on their smart-
+phones. Still, the system only demonstrates a low level of autonomy, given that all the 
+interactions go directly to a sound-producing module, and the system itself is only used to 
+communicate these interactions.
+4.6 DYCI2
+DYCI2 (Creative Dynamics of Improvised Interaction) is a collaborative research and devel-
+opment project, funded by the French National Research Agency, which explores the cre-
+ative dynamics of improvised interactions between human and artificial agents to inform 
+the ‘design of listening mechanisms, learning schemes and music generation processes of the 
+creative agents’ (Nika et al. 2017, paragraph 2). As a real-time co-improvising agent, DYCI2 
+takes a twofold approach by proposing ‘reactive listening’ and ‘planning’ processes which 
+MATTHIAS JUNG
+38
+are balanced according to the musical context and goals (Nika et al. 2017). The reactive lis-
+tening is built on Somax, an offspring of OMax, which has been widely used for short-term 
+listening and generation tasks in improvisational player agents (Bonnasse-Gahot 2014). In 
+terms of the planning process, the system can be trained on stylistic responses with the 
+use of musical materials in both audio and MIDI formats. The system has been extensively 
+explored through co-play with expert musical performers, and has been able to initiate its 
+own meaningful musical gestures in real-time improvisational scenarios, so it is considered 
+a highly autonomous system. However, it does not use embodied gestures as inputs or use 
+any input other than representational music data. It is also intended not as an interactive or 
+participatory system but as a reactive companion, usually in use with one or a few acoustic 
+human instrumentalists.
+4.7 MHWA
+Turchet et al. have developed a system for musical haptic wearables for audiences (MHWA), 
+alongside Turchet’s work on tactile interaction technology and the use of wearable devices 
+as additional displays for the audience (Turchet et al. 2020). The system has been used for 
+two performances: an electronic live music performance with two DJs, and a solo mando-
+lin performance. In both cases, audience members wore haptic devices around the upper 
+torso which carry multiple vibro-tactile motors to synthesize the musical gestures of the 
+performers into haptic stimuli via a rule-based methodology. Results of their studies show 
+that participants were interested and reported that the augmentation of the musical expe-
+rience via the haptic devices slightly enhanced their felt connection to the performers and 
+their musical engagement, but, as the authors state, the system is prototypical in nature 
+and requires further validation before a more meaningful implementation (Turchet et al. 
+2020). In addition, the system does not engage autonomous parts when displaying tactile 
+stimuli to the listeners, but instead executes a set of hard-coded gesture-mappings. Still, the 
+mandolin used in one of the cases introduces a certain level of autonomy when generating 
+sound via the embedded sonic generative methods connected to the sensor placed on this 
+acoustic instrument, which is why MHWA is assigned autonomy level 2. Lastly, the system 
+is not participatory in the sense of allowing one player’s gestures to impact another’s, so it 
+fails to afford any social interaction or co-creation beyond those of a traditional music per-
+formance in front of an audience. Ultimately, MHWA expands the listening experience for 
+ 
+Figure 5. Analyzed cases in the IMPS design space.
+STUDIA MUSICOLOGICA NORVEGICA | ÅRGANG 49 | 1-2023
+39
+audience members to the haptic domain and by doing so enables a more embodied expe-
+rience. Certainly, the system impacts the intimate domain of the listeners, sometimes to an 
+unpleasant degree, as some audience members reported (Turchet et al. 2020).
+5 IMPS design as speculative design 
+This analysis of nine IMPS indicates a clear distribution of qualities across the IMPS model 
+space. Earlier systems appear at the lower ends of the axes, as would be expected given 
+that the technology was less advanced, and most IMPS are highly dependent on the tech-
+nological affordances of their time. On the proxemic plane, a wide spread of combina-
+tions appears, but only a few systems (including Reactable and MHWA) offer both a high 
+degree of embodied design and a high degree of interpersonal co-creation affordance. The 
+highest degree of autonomy appeared in DYCI2, which implements highly refined models 
+for machine listening and reactive behavior. Apparently, levels 6 and 7 of the taxonomy of 
+Eigenfeldt et al. remain out of reach among the currently published IMPS. In all, the analy-
+sis of IMPS indicates that most of the cases were positioned towards the end of at least one 
+of the three axes. This points to the fact that most systems focus their implementation on 
+one of these three aspects and tend towards one of these categories: instruments, systems or 
+agents (see Figure 6).
+The proposed model and analysis are both limited in several ways. First, the model itself 
+is somewhat reductive, given that it does not consider aspects of IMPS such as architecture, 
+public availability, or system-code details, among others. In addition, the model’s proxemic 
+zones tend to confuse the issue of literal versus virtual ‘space’. The design categories embod-
+iment and participation refer to how people might interact with the systems both individu-
+ally and together, and the model is intended to frame qualities of the systems which relate to 
+these dimensions. The numerical quantization of these axes into six steps (0–5) is arranged 
+to enable comparison with the autonomy axis, which uses eight levels (though only six of 
+them are currently possible). Moreover, the proposed taxonomy for autonomous musical 
+Figure 6. Main tendencies of IMPS shown in the model space.
+MATTHIAS JUNG
+40
+agents is limited by Eigenfeldt et al.’s model. Lastly, the analysis itself is confined to only a 
+small number of IMPS known and accessible to the author as a means of testing the model.
+IMPS design is an exploding field of development usefully viewed through the lens of 
+speculative design. Auger suggests that ‘speculative design serves two distinct purposes: first, 
+to enable us to think about the future; second, to critique current practice’ (Auger 2013, 11). 
+He continues, ‘to shift the discussion on technology beyond the fields of experts to a broad 
+popular audience, the choice of “speculative” is preferable as it suggests a direct correlation 
+between “here and now” and existence of the design concept’ (Auger 2013, 12). This approach 
+to the field of IMPS is particularly relevant regarding users of the systems who are not the cre-
+ators, including general audiences in IMPS. Auger also introduces the concept of a ‘percep-
+tual bridge’, which he describes as a ‘careful management of the speculation; if it strays too far 
+into the future to present implausible concepts or alien technological habitats, the audience 
+will not relate to the proposal, resulting in a lack of engagement or connection. In effect, a 
+design speculation requires a bridge to exist between the audience’s perception of their world 
+and the fictional element of the concept’ (Auger 2013, 12). Lastly, his pledge to develop an 
+‘ecological approach to speculative design’ (Auger 2013, 13) resonates with the affordances of 
+music technology, in turn recalling Gibson’s ideas of perception (Gibson 1979).
+Elsden takes the idea of speculative design a step further and suggests ‘speculation as a 
+form of Research through Design’, arguing that ‘Speculative Enactments constitute an effort 
+to meaningfully enact elements of possible futures with participants’ (Elsden et al. 2017, 
+5387). Grunwald draws upon a similar framework when discussing the prognostic, sce-
+nario-based and hermeneutic modes of orientation towards possible futures which emerge 
+under the influence of or are induced by technology (Grunwald 2015, free translation by 
+the author). Finally, Dunne and Raby diagram their notion of speculative design in their 
+book Speculative Everything, and Figure 7 is adapted from their work, which was initially 
+based on a lecture by Stuart Candy (as cited in Dunne and Raby 2013). The idea of possible 
+Figure 7. Speculative design, adapted from Dunne and Raby (2013, 5).
+STUDIA MUSICOLOGICA NORVEGICA | ÅRGANG 49 | 1-2023
+41
+futures stems from the conviction that many of the challenges we face today are not fix-
+able through design solutions alone but only ‘by changing our values, beliefs, attitudes, 
+and behavior’ (Dunne and Raby 2013, 2). These futures include the possible, the plausi-
+ble, the probable and the preferable. The probable, or what is likely to happen, is most 
+closely aligned to common practice in design, whereas the plausible, or what could happen, 
+informs current viable alternatives to design practice. The possible, on the other hand, tries 
+to link today’s world to a speculative one by following already understood or at least imag-
+inable paths (Dunne and Raby 2013, 4). Preferable futures are the most desirable outcomes 
+to be reached by a discursive, collective approach (Dunne and Raby 2013, 6).
+Possible futures in the context of the IMPS design model appear in the space of the 
+maximum values along the three axes. Referring to the autonomy axis, for example, levels 
+6 and 7 already transcend current practice and invite design speculation. Probable designs 
+reside towards the ends of the individual axes, since current practice dictates that IMPS are 
+designed as either instruments, systems, or agents. Plausible designs reside at the intersec-
+tions of these three tendencies, designating areas which are not widely used and therefore 
+present alternatives to current design solutions. Preferable designs, then, might emerge at 
+the center of the model, that is, the intersection of all three dimensions. The ongoing debate 
+in this intersectional space is likely the most fruitful avenue for the design of preferable 
+IMPS futures, and Figure 8 renders the idea visually. In this sense, the possible refers to the 
+area inside of all the circles, and the ‘impossible’ to the white surrounding area, which might 
+be explored by future IMPS designers.
+6 Conclusion
+After delimiting Intelligent Music Performance Systems (IMPS), this article integrated Hall’s 
+theory of proxemics and Eigenfeldt et al.’s taxonomy of musical metacreation into a three- 
+dimensional model of the main design aspects embodiment, participation, and autonomy. 
+Nine cases of IMPS ranging from the 1950s to the present were reviewed with the help of the 
+model to reveal that most systems tend towards one of these categories: instruments, systems, 
+or agents. The article then introduced ideas from Speculative Design to demonstrate that pref-
+erable future cases of IMPS will arise at the intersection of these three categories.
+Figure 8. Speculative design applied to the tendencies of the model for IMPS design.
+MATTHIAS JUNG
+42
+References
+Auger, James. 2013. ‘Speculative Design: Crafting the Speculation’. Digital Creativity 24, no. 1: 11–35. https://
+doi.org/10.1080/14626268.2013.767276
+Birnbaum, David, Rebecca Fiebrink, Joseph Malloch and Marcelo M. Wanderley. 2005. ‘Towards a Dimension 
+Space for Musical Devices’. Proceedings of the International Conference on New Interfaces for Musical 
+Expression (NIME05). Vancouver, BC, Canada. https://doi.org/10.1007/978-3-319-47214-0_14
+Bongers, Bert. 2007. ‘Electronic Musical Instruments: Experiences of a New Luthier’. Leonardo Music Journal 
+17: 9–16. https://doi.org/10.1162/lmj.2007.17.9
+Bonnasse-Gahot, Laurent. 2014. An Update on the SOMax Project. IRCAM – STMS, Tech. Rep., Post-doctoral 
+report. http://architexte.ircam.fr/textes/BonnasseGahot14a/index.pdf
+Bourriaud, Nicolas. 2002. Relational Aesthetics. Les presses du réel.
+Bown, Oliver, and Andrew R. Brown. 2018. ‘Interaction Design for Metacreative Systems’. In New Directions in 
+Third Wave Human–Computer Interaction: Volume 1 – Technologies, edited by Michael Filimowicz and 
+Veronika Tzankova, 67–87. Springer. https://doi.org/10.1007/978-3-319-73356-2_5
+Collins, Karen 2008. Game Sound: An Introduction to the History, Theory, and Practice of Video Game Music 
+and Sound Design. MIT Press. https://doi.org/10.7551/mitpress/7909.001.0001
+Collins, Karen, and Ruth Dockwray. 2015. ‘Sonic Proxemics and the Art of Persuasion: An Analytical 
+Framework’. Leonardo Music Journal 25: 53–56. https://doi.org/10.1162/lmj_a_00935
+Cook, Perry. 2001. ‘Principles for Designing Computer Music Controllers’. Proceedings of CHI 2001, Extended 
+Abstracts: 491–492. ACM.
+Dahlstedt, Palle. 2021. ‘Musicking with Algorithms: Thoughts on Artificial Intelligence, Creativity, and Agency’. 
+In Handbook of Artificial Intelligence for Music: Foundations, Advanced Approaches, and Developments for 
+Creativity, edited by Eduardo R. Miranda, 873–914. Springer.
+Dockwray, Ruth. 2016. ‘Proxemic Interaction in Popular Music Recordings’. In Mixing Music, edited by Russ 
+Hepworth-Sawyer and Jay Hodgson, 73–81. Routledge. https://doi.org/10.4324/9781315646602-14
+Douglas, Robert L. 1991. ‘Formalizing an Afro-American Aesthetic’. New Art Examiner (June/Summer): 18–24.
+Drummond, Jon. 2009. ‘Understanding Interactive Systems’. Organised Sound 14, no. 2: 124–133. https://doi.
+org/10.1017/s1355771809000235
+Dunne, Anthony, and Fiona Raby. 2013. Speculative Everything. MIT Press.
+Eigenfeldt, Arne, Oliver Bown, Philippe Pasquier, and Aengus Martin. 2013. ‘Towards a Taxonomy of Musical 
+Metacreation: Reflections on the First Musical Metacreation Weekend’. Ninth Artificial Intelligence and 
+Interactive Digital Entertainment Conference. Sydney, Australia. https://doi.org/10.1609/aiide.v9i5.12647
+Elsden, Chris, David Chatting, Abigail C. Durrant, Andrew Garbett, Bettina Nissen, John Vines and David S. 
+Kirk. 2017. ‘On Speculative Enactments’. Proceedings of the 2017 CHI Conference on Human Factors in 
+Computing Systems, 5386–5399. https://doi.org/10.1145/3025453.3025503
+Freeman, J. 2005. ‘Glimmer: For Chamber Orchestra and Audience’. PhD diss., Columbia University.
+Gibson, James J. 1979. The Ecological Approach to Visual Perception. Lawrence Erlbaum Associates.
+Gifford, Toby, Shelly Knotts, Jon McCormack, Stefano Kalonaris, Mathew Yee-King and Mark d’Inverno. 2018. 
+‘Computational Systems for Music Improvisation’. Digital Creativity 29, no. 1: 19–36. https://doi.org/10.
+1080/14626268.2018.1426613
+Glăveanu, Vlad P. 2014. Distributed Creativity: Thinking Outside the Box of the Creative Individual. Springer 
+International Publishing. https://doi.org/10.1007/978-3-319-05434-6
+Grunwald, Armin. 2015. ‘Die hermeneutische Erweiterung der Technikfolgenabschätzung. Technikfolgenab-
+schätzung’. Zeitschrift für Technikfolgenabschaetzung in Theorie und Praxis 24, no. 2: 65–69. https://doi.
+org/10.14512/tatup.24.2.65
+Hall, Edward T. 1966. The Hidden Dimension. Doubleday.
+Hoedl, Oliver, Christoph Bartmann, Fares Kayali, Christoph Loew, and Peter Purgathofer. 2020. ‘Large-Scale 
+Audience Participation in Live Music Using Smartphones’. Journal of New Music Research. https://doi.org/ 
+10.1080/09298215.2020.1722181
+STUDIA MUSICOLOGICA NORVEGICA | ÅRGANG 49 | 1-2023
+43
+Hoedl, Oliver, Geraldine   Fitzpatrick, Fares Kayali and Simon Holland 2017. ‘Design Implications for 
+Technology-Mediated Audience Participation in Live Music’. 14th Sound and Music Computing 
+Conference SMC 2017.
+Kantosalo, Anna, and Tapio Takala. 2020. ‘Five C’s for Human-Computer Co-Creativity: An Update on 
+Classical Creativity Perspectives’. Proceedings of the 11th International Conference on Computational 
+Creativity, 17–24. Association for Computational Creativity.
+King, Elaine, and Anthony Gritten. 2017. ‘Dialogue and Beyond’. In Musicians in the Making: Pathways to 
+Creative Performance, edited by J. S. Rink, H. Gaunt and A. Williamon, 306–321. Oxford University Press. 
+https://doi.org/10.1093/acprof:oso/9780199346677.003.0022
+Latour, Bruno. 2005. Reassembling the Social: An Introduction to Actor-Network Theory. Oxford University 
+Press. 
+Lee, Sang Won, and Jason Freeman. 2013. ‘Echobo: A Mobile Music Instrument Designed for Audience to 
+Play’. Proceedings of the International Conference on New Interfaces for Musical Expressio: 450–455.
+Leman, Marc. 2008. Embodied Music Cognition and Mediation Technology. MIT Press. https://doi.org/10.7551/
+mitpress/7476.001.0001
+Levin, Golan, Scott Gibbons, Gregory Shakar, Yasmin Sohrawardy, Joris Gruber, Joerg Lehner, Gunther 
+Schmidl, and Erich Semlak. 2001. Dialtones (A Telesymphony): Final Report. http://www.flong.com/stor-
+age/pdf/reports/dialtones_report.pdf
+Lewis, George E. 2000. ‘Too Many Notes: Computers, Complexity and Culture in Voyager’. Leonardo Music 
+Journal 10: 33–39. https://doi.org/10.1162/096112100570585
+Llano, Maria T., Mark d’Inverno, Matthew Yee-King, Jon McCormack, Alon Ilsar, Alison Pease and Simon 
+Colton. 2020. ‘Explainable Computational Creativity’. Proceedings of the Eleventh International Conference 
+on Computational Creativity. ICCC.
+Lorway, Norah, Edward Powley, and Arthur Wilson. 2021. ‘Autopia: An AI Collaborator for Live Networked 
+Computer Music Performance’. Proceedings of the 2nd Conference on AI Music Creativity. http://reposi-
+tory.falmouth.ac.uk/4307
+Marcus, Gary. 2018. Deep Learning: A Critical Appraisal. arXiv 2018, arXiv:1801.00631. 
+Matuszewski, Benjamin, Norbert Schnell, and Frederic Bevilacqua. 2019. ‘Interaction Topologies in Mobile-
+Based Situated Networked Music Systems’. Wireless Communications and Mobile Computing: 1–9. https://
+doi.org/10.1155/2019/9142490
+Mazzanti, Dario, Victor Zappi, Darwin G. Caldwell, and Andrea Brogni. 2014. ‘Augmented Stage for 
+Participatory Performances’. Proceedings of the International Conference on New Interfaces for Musical 
+Expression: 29–34. 
+McCormack, Jon, Patrick Hutchings, Toby Gifford, Matthew Yee-King, Maria T. Llano, and Mark d’Inverno. 
+2020. ‘Design Considerations for Real-Time Collaboration with Creative Artificial Intelligence’. Organised 
+Sound 25, no. 1: 41–52. https://doi.org/10.1017/s1355771819000451
+Miranda, Eduardo R., and Marcelo M. Wanderley. 2006. New Digital Musical Instruments: Control and 
+Interaction Beyond the Keyboard. The Computer Music and Digital Audio Series, vol. 21. A-R Editions. 
+Mueller, Florian F., Pedro Lopes, Paul Strohmeier, Wendy Ju, Caitlyn Seim, Martin Weigel, Suranga Nanayakkara, 
+Marianna Obrist, Zhuying Li and Joseph Delfa et al. 2020. ‘Next Steps for Human–Computer Integration’. 
+In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems: 1–15. ACM. https://
+doi.org/10.1145/3313831.3376242
+Nika, Jérôme, Ken Déguernel, Axel Chemla, Emmanuel Vincent, and Gérard Assayag. 2017. ‘DYCI2 Agents: 
+Merging the “Free”, “Reactive”, and “Scenario-Based” Music Generation Paradigms’. International 
+Computer Music Conference (Oct. 2017). hal-01583089.
+Oliveros, Pauline (1979). Software for People. Center for Music Experiment and Related Research, University 
+of California at San Diego. 
+Oliveros, Pauline (2005). Deep Listening: A Composer’s Sound Practice. IUniverse.
+MATTHIAS JUNG
+44
+Oliveros, Pauline (2008). ‘The Expanded Instrument System: Introduction and Brief History’. In The Future of 
+Creative Technologies, edited by Andrew Hugill and Tracey Harwood, 21–23. Journal of the Institute of 
+Creative Technologies, De Montfort University. 
+Pasquier, Philippe, Arne Eigenfeldt, Oliver Bown and Shlomo Dubnov. 2016. ‘An Introduction to Musical 
+Metacreation’. Computers in Entertainment 14, no. 2: 1–14. https://doi.org/10.1145/2930672
+Pressing, Jeff. 1990. ‘Cybernetic Issues in Interactive Performance Systems’. Computer Music Journal 14, no. 1, 
+New Performance Interfaces 1 (Spring): 12–25. https://doi.org/10.2307/3680113
+Renwick, Robin C. 2017. ‘Topologies for Network Music’. PhD diss., Queen’s University Belfast.
+Rowe, Robert. 1992. ‘Machine Listening and Composing with Cypher’. Computer Music Journal 16, no. 1: 
+43–63. https://doi.org/10.2307/3680494
+Rowe, Robert. 1993. Interactive Music Systems: Machine Listening and Composing. MIT Press.
+Rowe, Robert. 2021. ‘Representations, Affordances, and Interactive Systems’. In Multimodal Technologies and 
+Interaction 5, no. 23. https://doi.org/10.3390/mti5050023
+Scarborough, Don L., Ben O. Miller and Jacqueline A. Jones. 1989. ‘Connectionist Models for Tonal Analysis’. 
+Computer Music Journal 13, no. 3: 49–55. https://doi.org/10.2307/3680011
+Tatar, Kıvanç, and Philippe Pasquier. 2019. ‘Musical Agents: A Typology and State of the Art Towards Musical 
+Metacreation’. Journal of New Music Research 48, no. 1: 56–105. Routledge. https://doi.org/10.1080/0929
+8215.2018.1511736
+Turchet, Luca, Travis West, and Marcelo M. Wanderley. 2020. ‘Touching the Audience: Musical Haptic Wearables 
+for Augmented and Participatory Live Music Performances’. Personal and Ubiquitous Computing 25,  
+no. 4: 749–769. https://doi.org/10.1007/s00779-020-01395-2
+Van Nort, Doug, Pauline Oliveros and Jonas Braasch. 2013. ‘Electro/Acoustic Improvisation and Deeply 
+Listening Machines’. Journal of New Music Research 42, no. 4: 303–324. https://doi.org/10.1080/0929821
+5.2013.860465
+Visell, Yon, Roderick Murray-Smith, Stephen A. Brewster, and John Williamson. 2013. ‘Continuous Auditory 
+and Tactile Interaction Design’. In Sonic Interaction Design, edited by Karmen Franinović and Stefania 
+Serafin. MIT Press. https://doi.org/10.7551/mitpress/8555.001.0001
+Weinberg, Gil. 2005. ‘Interconnected Musical Networks: Toward a Theoretical Framework’. Computer Music 
+Journal 29, no. 2: 23–39. https://doi.org/10.1162/0148926054094350
+West, Travis, Baptiste Caramiaux, Stéphane Huot and Marcelo M. Wanderley. 2021. ‘Making Mappings: Design 
+Criteria for Live Performance’. Proceedings of the International Conference on New Interfaces for Musical 
+Expression. https://doi.org/10.21428/92fbeb44.04f0fc35
+Winkler, Todd. 1998. Composing Interactive Music: Techniques and Ideas Using Max. MIT Press. 
+Wooldridge, Michael. 2009. An Introduction to Multiagent Systems. John Wiley and Sons.
+Wu, Yongmeng, Leshao Zhang, Nick Bryan-Kinns and Mathieu Barthet. 2017. ‘Open Symphony: Creative 
+Participation for Audiences of Live Music Performances’. IEEE MultiMedia 24, no. 1: 48–62. https://doi.
+org/10.1109/mmul.2017.19
+Xambó, Anna. 2014. ‘Tabletop Tangible Interfaces for Music Performance: Design and Evaluation’. PhD diss., 
+The Open University, UK.
+Xambó, Anna, and Gerard Roma. 2020. ‘Performing Audiences: Composition Strategies for Network Music 
+using Mobile Phones’. Proceedings of the International Conference on New Interfaces for Musical Expression: 
+55–60. Birmingham City University. http://doi.org/10.5281/zenodo.4813192
+York, Adrian. 2019. ‘Transforming Musical Performance: The Audience as Performer’. In Innovation in Music: 
+Performance, Production, Technology, and Business, edited by R. Hepworth-Sawyer, Jay Hodgson, Justin 
+Paterson, and Rob Toulson, 3–23. Routledge. https://doi.org/10.4324/9781351016711-1

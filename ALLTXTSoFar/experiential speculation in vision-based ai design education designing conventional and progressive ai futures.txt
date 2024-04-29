@@ -1,0 +1,1628 @@
+ 
+Experiential Speculation in Vision-Based AI Design Education
+Citation for published version (APA):
+Huang, Y.-C. J., Wensveen, S. A. G., & Funk, M. (2023). Experiential Speculation in Vision-Based AI Design
+Education: Designing Conventional and Progressive AI Futures. International Journal of Design, 17(2), 1-17.
+https://doi.org/10.57698/v17i2.01
+Document license:
+CC BY
+DOI:
+10.57698/v17i2.01
+Document status and date:
+Published: 01/08/2023
+Document Version:
+Publisher’s PDF, also known as Version of Record (includes final page, issue and volume numbers)
+Please check the document version of this publication:
+• A submitted manuscript is the version of the article upon submission and before peer-review. There can be
+important differences between the submitted version and the official published version of record. People
+interested in the research are advised to contact the author for the final version of the publication, or visit the
+DOI to the publisher's website.
+• The final author version and the galley proof are versions of the publication after peer review.
+• The final published version features the final layout of the paper including the volume, issue and page
+numbers.
+Link to publication
+General rights
+Copyright and moral rights for the publications made accessible in the public portal are retained by the authors and/or other copyright owners
+and it is a condition of accessing publications that users recognise and abide by the legal requirements associated with these rights.
+            • Users may download and print one copy of any publication from the public portal for the purpose of private study or research.
+            • You may not further distribute the material or use it for any profit-making activity or commercial gain
+            • You may freely distribute the URL identifying the publication in the public portal.
+If the publication is distributed under the terms of Article 25fa of the Dutch Copyright Act, indicated by the “Taverne” license above, please
+follow below link for the End User Agreement:
+www.tue.nl/taverne
+Take down policy
+If you believe that this document breaches copyright please contact us at:
+openaccess@tue.nl
+providing details and we will investigate your claim.
+Download date: 09. Mar. 2024
+www.ijdesign.org 
+1 
+International Journal of Design Vol. 17 No. 2 2023
+Introduction
+The advancement of new technologies always had an influence 
+on the practices and perspectives in design. The influence of 
+Artificial Intelligence (AI) on design already dates back to the 
+1970s when one of the founding parents of Artificial Intelligence 
+in the 1950s, Herb Simon made his first contributions to the 
+principles of Design Thinking (Simon, 1969). However, the 
+recent advancements and availability of data, computation, and 
+AI technologies and tools have broader and deeper implications 
+for design. AI is now increasingly embedded in various products 
+and systems, and services to support our everyday activities. AI 
+will continue to change how designers work, what they design, 
+and why they design. 
+While prior literature has argued that computers or advanced 
+technology can offer new modes of exploration and experimentation, 
+they can be limiting in terms of the types of forms and designs they 
+can generate (Steenson, 2017). When it comes to AI, designers are 
+facing similar situations but great challenges here: first, examples of 
+novel and interesting applications of a combination of AI and design 
+are missing. Current AI-infused applications (e.g., self-driving 
+cars, smart thermostats, etc.) focus on an improved performance, 
+efficiency, usability, or user experience of conventional product 
+categories. What we miss are critical perspectives on design that 
+are beyond what we have known so far. Second, current design 
+education struggles to teach accessible AI to designers (Dove et 
+al., 2017), or is only recently progressing. Moreover, there is little 
+consensus about what designers should know about AI and how to 
+combine this knowledge with the design competences in creativity 
+and aesthetics. 
+The current design education and on-the-job training has no 
+place for extensive AI components due to curricula being tightly 
+packed with other topics. While there is progress on easy-to-
+understand resources for novice learners (Hebron, 2016a, 2016b), 
+relevant materials or courses to educate designers what they 
+should know about AI and how they could envision AI futures 
+in a diverse way are lacking. We use AI here synonymously 
+with a broader definition of machine intelligence, including 
+data, machine learning algorithms (ML), and other modern AI 
+ORIGINAL ARTICLE
+Experiential Speculation in Vision-Based AI Design 
+Education: Designing Conventional and Progressive 
+AI Futures
+Yi-Ching (Janet) Huang *, Stephan Wensveen, and Mathias Funk
+Department of Industrial Design, Eindhoven University of Technology, Eindhoven, The Netherlands
+Artificial Intelligence (AI) will change how designers design, what they design, and why they design. Recent efforts have extended 
+design education with AI and related machine learning (ML) concepts and technologies. Often, these courses are grounded in other fields 
+such as Computer Science, Electrical and Mechanical Engineering, and Social Sciences. However, few courses teach AI concepts and 
+technologies in combination with creativity, aesthetics, and speculation to leverage the expertise of design. We explored this combination 
+to allow students to creatively design AI exemplars. In a nine-week design activity, students envision and prototype AI exemplars that 
+are based on their personal vision and aesthetic values. This paper reports on our vision, course design, educational context, and learning 
+activities with a focus on developing and integrating different areas of design expertise with AI technology. We contribute insights into 1) 
+what was designed: six design cases, resulting in design speculations, prototypes, and critical reflections as well as our design critiques of 
+these AI exemplars. Then, 2) how to design with a vision-based approach to AI design education in comparison to other approaches, and 
+3) a futuring landscape with three horizons unpacking why to design with AI.
+Keywords – Vision-Based Design Education, AI Design Education, Experiential Speculation, AI-based Scenarios, Vision-Based Futuring 
+Landscape.  
+Relevance to Design Practice – This work contributes an alternative perspective on AI education in design, including a vision-based 
+futuring landscape aligned with six exemplars and design critiques as well as an analysis of different approaches for AI design education. 
+These insights will open a new design space for designers to envision possible futures from various angles.
+Citation: Huang, Y.-C. J., Wensveen, S., & Funk, M. (2023). Experiential speculation in vision-based AI design education: Designing conventional and progressive AI futures. 
+International Journal of Design, 17(2), 1-17. https://doi.org/10.57698/v17i2.01
+Received December 23, 2022; Accepted June 16, 2023; Published August 31, 2023.
+Copyright: © 2023 Huang, Wensveen, & Funk. Copyright for this article is retained 
+by the authors, with first publication rights granted to the International Journal of 
+Design. All journal content is open-accessed and allowed to be shared and adapted 
+in accordance with the Creative Commons Attribution 4.0 International (CC BY 
+4.0) License.
+*Corresponding Author: y.c.huang@tue.nl
+www.ijdesign.org 
+2 
+International Journal of Design Vol. 17 No. 2 2023
+Experiential Speculation in Vision-Based AI Design Education: Designing Conventional and Progressive AI Futures
+technology (e.g., generative models). What we currently see in 
+Design and AI education is mostly playing-with, designing-
+around, or designing-for, but not designing-with1. We propose 
+experiential speculation, an amalgam of speculative, vision-based 
+conceptual design and experiential making, as a way to educate 
+design students about the essential characteristics of designing 
+with AI/ML technology.
+Teaching AI in Design
+In the last years, trailing the beginning of the current AI hype 
+by a few years, various design (engineering) programs in higher 
+education have incorporated elements of AI and ML into their 
+curriculum. Some institutions even have created new AI-centric 
+courses. As much as this captures a technology trend and inspires 
+education innovation, this also presents considerable challenges. 
+Teaching AI at technical depth in design is mostly unfeasible 
+due to the broad scope of the domain, its rapid progression, and 
+the substantial complexity of required background knowledge. 
+AI and ML technologies are deeply rooted in various academic 
+fields, each carrying its own legacy of knowledge, methods, and 
+paradigms. 
+First, there are courses that focus on teaching design 
+students to gain knowledge and skills regarding a variety of 
+AI techniques or algorithms (e.g., classifications, clustering, 
+reinforcement learning, neural networks, etc.), essentially a 
+radically lightened form of a conventional computer science or 
+data science curriculum. This approach has its merits for a design 
+education program: it establishes a solid working vocabulary for 
+future multi-disciplinary collaboration with engineers and data 
+scientists. There is by now an abundance of teaching material 
+and the structure is compatible with external resources that can 
+be accessed online by students. Common results of this teaching 
+approach as applied to design are technology-driven design 
+projects that start with a dataset or model and restructure, reframe, 
+and repurpose it towards a new application area. In this way, 
+designers take the role of the junior technologist designing with 
+AI techniques, yet mostly not reaching a stage of actual design. 
+The high pace of development remains a threat to this approach.
+Second, another strategy for incorporating AI and ML into 
+design programs is to let design students take a more disciplinary 
+stance and design with the special properties of AI/ML 
+applications. Here, educators focus on user interface (UI) and user 
+experience (UX) challenges that emerge with the uncertainty and 
+probabilistic nature of ML applications, essentially framing and 
+packaging an unstable core of sought-after functionality (Dove 
+et al., 2017). This approach also has merits in terms of hands-on 
+skills and understanding of specific new properties, strong links to 
+commercial or industrial use-cases, future employment prospects, 
+and multi-disciplinary team skills. The drawback is that this 
+designing-around will unlikely lead to entirely new applications 
+and use-cases. The learning experience is tailored to mediating 
+and improving raw technology, targeting a contemporary user 
+base. This, ultimately, reinforces a conventional view of design as 
+giving form to what has been engineered.
+Lastly, the third approach emphasizes creating new 
+experiences that involve data and AI, and that embrace the inherent 
+uncertainty and openness of AI and ML technologies. We see that 
+this approach can be operationalized in two ways: (1) working with 
+a fixed set of exemplary tools in the computational creativity space 
+(Artistic design with ML tools, see Table 1), or (2) following a vision 
+and value-based journey that touches on both speculative design or 
+design futuring, and experiential making (Experiential ML-based 
+speculation, see Table 1). The former has its merits in artistically 
+exploring a design space spanned by the employed tooling 
+(playing-with), which is attractive and inspiring to design students 
+at different levels. The potential downside lies in the conceptual and 
+technical limitations of specific tools. The latter, more open-ended 
+approach can help realize broader visions of designing for AI, with 
+the potential caveat of limits in how far AI-based prototyping can 
+be pushed in the given time and with the available background 
+knowledge. A common implementation of this perspective is 
+largely conceptual with traces of low-fi making. In the following, 
+we deal with these two operationalizations separately.
+A Vision of AI Education in Design
+Taking the last approach further into experiential speculation, we 
+envision design education dealing with AI knowledge and skills 
+in a constructive way, resulting in experiential future scenarios 
+that are supported, but not dominated by designing with AI. This, 
+facilitated by a course design that allows students to explore the 
+opportunities of combining creativity and aesthetics with AI, 
+and specific challenges in design education where, so far, (1) 
+examples of meaningful (near-future) applications are missing, 
+(2) AI as a new design material is difficult for designers to access 
+due to technicality and depth needed, (3) a balance between 
+Janet Huang has been an Assistant Professor in the department of Industrial 
+Design at Eindhoven University of Technology since 2020. She earned her PhD 
+in Computer Science at National Taiwan University in 2018, where her research 
+focused on designing intelligent systems that support people to accomplish 
+creative tasks. Currently, her research aims to explore human-AI co-learning 
+for facilitating new ways of creativity and productivity. More specifically, she 
+strives to design and develop novel toolkits that empower designers to become 
+proficient with AI as design materials. These toolkits enable designers to harness 
+the power of data, computation, and AI techniques to tackle diverse and intricate 
+problems across various contexts.
+Stephan Wensveen is full professor of ‘Constructive Design Research in 
+Smart Products, Services and Systems’ at Industrial Design (TU/e Eindhoven 
+University of Technology). He studied Industrial Design Engineering (MSc, 
+PhD) at TUDelft. In 2002 he joined ID (TU/e). In 2011 he expanded his horizon 
+on multi-disciplinary design and Participatory Innovation in Southern Denmark. 
+Since 2013 he is back in Eindhoven. He has always been interested in using 
+the power of design to integrate research, education and innovation. He is 
+co-responsible for canonical examples and approaches to Research through 
+Design and ‘aesthetics of interaction’. Many of his papers are part of the standard 
+curricula in interaction design schools and he is co-author of the book ‘Design 
+Research through Practice’. His most recent interest is in the development of 
+designers’ competence towards an ‘aesthetics of intelligence’.
+Mathias Funk is an Associate Professor in the Future Everyday group in the 
+Department of Industrial Design at Eindhoven University of Technology (TU/e). 
+He has a background in Computer Science and a PhD in Electrical Engineering 
+(from TU/e). His research interests include methods and tools for designing with 
+data, designing systems of smart things, and interfaces for musical expression. 
+In the past, he has researched at ATR (Japan), RWTH Aachen, Philips Consumer 
+Lifestyle and Philips Experience Design, Intel Labs (Santa Clara), National 
+Taiwan University of Science and Technology, and National Taiwan University. 
+He is also the co-founder of UXsuite, a high-tech spin-off from TU/e.
+www.ijdesign.org 
+3 
+International Journal of Design Vol. 17 No. 2 2023
+Y.-C. J. Huang, S. Wensveen, and M. Funk
+technology push, designerly pull, and user needs is difficult to 
+operationalize, and (4) process stages, design activities, and tools 
+might be missing or might not fit this new type of ideation. Our 
+vision on design and AI education is indeed along the lines of 
+three horizons: new perspectives on sensory experiences, new 
+conceptual designs for products and services, and new discourse 
+on ways of living. Design cases in this vision borrow from all 
+three horizons, emphasizing one of them.
+Contributions
+This paper presents experiential speculation, an alternative 
+perspective on vision-based AI education in design, using a 
+course design that operationalizes this vision in a university-level 
+Industrial Design Master program. This course resulted in six 
+projects created by student teams who explored diverse topics 
+with the given design brief and visionary foci, including two 
+conventional design cases, two progressive design cases, and two 
+in-between cases. We use these cases to (1) exemplify the diverse 
+directions that the teams took and (2) analyze and interpret the 
+design space for the AI education in design. The six design cases 
+serve as a portfolio of exemplars, along with our design critiques. 
+Furthermore, we present our analysis of the cases based on identified 
+design qualities and the aforementioned vision-based directions: 
+new perspectives on sensory experiences, new conceptual designs 
+for products and services, and new discourse on ways of living. 
+Finally, we reflect on our approach and discuss key challenges and 
+struggles from both teacher and student perspectives. Concluding, 
+we return to our vision for AI education in design, which combines 
+AI technologies with creativity and aesthetics.
+Related Work
+Challenges of Designing with AI 
+With the rapid advancement of AI technology, designers face 
+immense challenges when it comes to designing AI-infused 
+systems. Oftentimes, designers overlook the potential design 
+opportunities that ML presents and struggle to envision novel uses 
+of ML (Dove et al., 2017). While designers may have a broad 
+understanding of how ML works, they still lack a clear grasp of 
+what it takes to design with it. Moreover, design-led innovation 
+of ML remains uncommon in the current practice (Yang, 2018). 
+Thus, design researchers are not exploring ways to empower 
+designers to work with AI/ML as a new design material (Dove et 
+al., 2017; Holmquist, 2017; Yang et al., 2018).
+To tackle these challenges, recent work proposes new 
+approaches and tools aimed at supporting designers to understand 
+ML as a creative material (Yang et al., 2020). Moreover, there is 
+a growing need to educate future designers in ways that enable 
+them not only to acquire fundamental knowledge and skills for 
+prototyping with AI, but also to collaborate effectively with 
+engineers or data scientists while maintaining an open-ended 
+mindset and creative approach to this complex technology in 
+various contexts. Recent work has investigated the current 
+practices and experiences of experienced UX designers who 
+closely worked with AI practitioners in industry (Yang et al., 
+2018). This work argues that designers do not necessarily 
+require an in-depth practical understanding of AI/ML to create 
+AI prototypes or systems, but rather need to focus on grasping 
+the abstract capabilities of the technology. Therefore, suggestions 
+have been put forth regarding the development of design-oriented 
+abstractions of ML’s technological capabilities, the use of 
+exemplars and sensitizing concepts of ML-enhanced designs, 
+and the creation of boundary objects that bridge the domains of 
+UX and ML expertise. However, these suggestions conflict with 
+other lines of education, with emphasis on teaching designers the 
+statistical knowledge of ML (Hebron, 2016a, 2016b). 
+While the prevailing approach focuses on understanding 
+particular ML capabilities and promoting collaboration within 
+multidisciplinary teams, we adopt a different perspective that 
+embraces openness and freedom when dealing with the challenge 
+of designing with AI. Rather than attempting to teach how to 
+design or implement AI-infused systems in a course context, we 
+encourage students to design entire propositions with AI. This 
+approach fosters an open exploration of how to live with AI and 
+what the opportunities of AI can be. Our goal is not to strive for 
+incremental improvements, but rather to inspire ground-breaking 
+leaps in what we can think of and design.
+Challenges for AI Design Education
+There are two distinct approaches to educating designers on how 
+to design with data and AI (Yang et al., 2018). The first approach 
+argues that designers cannot effectively work with a material 
+they do not fully understand. As such, it places emphasis on 
+teaching designers about the statistical knowledge and process 
+of ML products (Cartwright, 2016; Treseler, 2017). Numerous 
+books, courses, and online resources have been developed to 
+assist designers in gaining a fundamental understanding of AI/
+ML (Hebron, 2016a, 2016b). For example, the book Machine 
+Learning for Designers provides a brief introduction to essential 
+concepts of various learning algorithms, including supervised 
+learning, unsupervised learning, semi-supervised learning, and 
+reinforcement learning (Hebron, 2016a). The second approach 
+aligns with the argument that designers do not necessarily 
+need a full understanding of AI/ML technologies to use them 
+in their designs. This highlights the importance of grasping the 
+abstractions of ML’s capabilities and employing exemplars to 
+help designers envision how these technologies can be applied 
+in their work. In line with this suggestion, researchers have 
+developed design patterns and boundary objects to facilitate 
+effective communication between designers, data scientist, and 
+AI engineers within multidisciplinary teams (Yang et al., 2018). 
+In response to the emerging challenges of AI design education, 
+several courses have recently emerged. One notable course, 
+developed by Zimmerman and Pangaro, aims to guide design 
+students in acquiring a foundational understanding of various 
+types of AI/ML systems and teaches them how to apply AI in 
+today’s commercial products through in-class discussion, design 
+sprint, and a series of mini design projects (Yang, 2020). Instead 
+of technology realization and software development, the focus is 
+www.ijdesign.org 
+4 
+International Journal of Design Vol. 17 No. 2 2023
+Experiential Speculation in Vision-Based AI Design Education: Designing Conventional and Progressive AI Futures
+on engaging students in gaining hands-on experience and having 
+a conversation with AI as a design material through reflection-in 
+and on-action. Through this process, students envision AI-infused 
+products and services addressing user needs. 
+Kaspersen (2023), inspired by the three key dimensions of 
+Computational Thinking (Brennan & Resnick, 2012), proposes 
+a framework for Machine Learning (ML) education for K-12 
+children with ML concepts (knowledge about, e.g., data, models), 
+practices (skills in, e.g., data gathering, training, evaluation), 
+and ML perspectives (attitudes towards life and society, e.g., 
+transparency, fairness). Whereas the first approach seems to 
+focus primarily on the knowledge concepts around AI, the 
+second approach focusses more on the design practices to work 
+with AI engineers. The recent courses try to combine concepts 
+and practices. Kaspersen (2023) also points out that educational 
+tools and activities that address concepts and practices rarely 
+address the perspectives and implication of ML and vice versa. 
+In our course, we aim to combine AI concepts and practices with 
+perspectives. We encourage students to explore the ideas that not 
+only align with personal vision and societal value (perspectives) 
+but also match the intersection of AI technology and aesthetics. 
+We encourage students to build (practice) experiential prototypes 
+that demonstrate qualities of integrating AI concepts into products 
+or services.
+Apart from the connection of AI to computer science, 
+engineering, or UX, there is a line of ML education for artists, 
+musicians, and other creatives. Fiebrink et al. (2019) describe 
+courses and tools for ML education that can lead to new creative 
+outputs, means for self-expression, and economic impact from 
+ML in creative technologies. This work singles out supervised 
+machine learning and interactive machine learning as the primary 
+ML techniques and promotes the Wekinator software as the 
+primary ML tool.
+Like our course, one course designed by van Allen and 
+Hooker aims for an open-ended exploration for the design of 
+AI and ML. This course investigates how AI impacts urban, 
+human-scale environment. In the course, students create a useless 
+AI product and engage in making sense of AI through open 
+experimentation (van Allen & Hooker, 2017). Our approach 
+aligns with such aims to create an open space for designers to 
+envision how AI could be embedded in a context: designers use 
+their creativity to speculate diverse, visionary applications. These 
+applications can be speculative, strange, and experimental, but 
+engaged with real issues in the field.
+Creativity & Aesthetics as Driver for Data and AI
+Creativity and aesthetics have always been the essential 
+competences of designers. Both depend on technology, as every 
+advancement in technology offers new opportunities for the 
+creative process. Industrial designers have, for decades, explored 
+the relationship between the latest production technologies 
+and the appearance of products. In the early 2000s, however, 
+industrial designers started a paradigmatic shift from aesthetics of 
+appearance, primarily visual, towards an aesthetics of interaction 
+with different underlying qualities and principles (Djajadiningrat 
+et al., 2000; Petersen et al., 2004). This shift was made possible 
+and even necessary with the advancements in technology, from 
+physical materials and production technologies towards digital 
+materials, computation, and information technologies. Where 
+before the 2000s, metal, textiles, and plastics were the primary 
+design materials, after, interactivity and computation became 
+the primary design materials. Artificial intelligence and data are 
+the next emerging technologies and materials for design, and 
+future design tools will seamlessly include data and intelligence. 
+Designs embedded with AI-technologies have the potential for 
+novel aesthetic experiences beyond appearance and interaction, 
+with yet to explore underlying qualities and principles. This can 
+lead to the next paradigmatic shift for design aesthetics, which 
+Wensveen (2018, p. 26) refers to as the aesthetics of intelligence. 
+In our course, we explore how these new AI technologies 
+and data will influence the aesthetics of intelligent products, 
+services, and systems and how the aesthetic values of designers 
+will influence the use of intelligence. 
+While aesthetics has its origins in the philosophy of art, 
+we provide our design students with a more general introduction, 
+and frame aesthetics both as a set of underlying qualities and 
+principles for a design, and as a critical reflection of how people 
+create, use, enjoy, or dislike design. These reflections can treat 
+design on three different levels (Folkmann, 2013), the sensual, the 
+conceptual, and the discursive level. On the sensual level, design 
+aesthetics emphasizes how design creates novel kinds of sensorial 
+experiences and has innovative effects on the look, feel, or 
+sound of the designed experience. This sensual level is generally 
+understood as the meaning of design aesthetics. However, our 
+interest goes beyond the purely sensorial experience that new AI 
+technologies may provide for design. On the next level of design 
+aesthetics, the conceptual level, the critical reflection happens on 
+how the designs themselves become carriers of new concepts and 
+the designed technology allows for new everyday experiences. 
+On the discursive level of design aesthetics, the design provides 
+critical reflections and perspectives on current society or 
+speculations on future ways of living with technologies.
+In alignment with our vision, we want students to critically 
+engage with the diverse possibilities of AI technologies and 
+explore the sensual, conceptual, and discursive aesthetics of these 
+technologies and deviate from the conventional trends surrounding 
+AI. We want them to imagine and design new aesthetic experiences 
+and perspectives of understanding and engaging with the current 
+world through AI, or design with AI technologies to debate entire 
+new worlds made possible. The focus on aesthetics supports the 
+experiential speculation, as it foregrounds both the experiential 
+and sensual qualities of design, and the critical exploration of 
+novel perspectives.
+From a creativity perspective we expect our students 
+to stretch their imagination, take risks in exploring novel and 
+uncertain areas, and make decisions based on little information. To 
+kick-start the creative design exploration, we ask the students to 
+make explicit combinations between aspects of design aesthetics, 
+their personal values, and aspects of AI technologies, making use 
+of a common creative strategy of combining seemingly unrelated 
+topics into new ideas.
+www.ijdesign.org 
+5 
+International Journal of Design Vol. 17 No. 2 2023
+Y.-C. J. Huang, S. Wensveen, and M. Funk
+Course Design
+This section introduces the educational context in which design 
+students explore the alternative perspective. We describe the 
+overall course structure, the educational activities, and the 
+deliverables. The learning objective of the course is to allow design 
+students to explore the interplay between data and intelligence, 
+creativity and aesthetics, and their personal inspiration and vision.
+Design Education Philosophy
+Our design education philosophy is largely inspired by Schön to 
+appreciate learning through doing and reflection in action. Similar 
+to Schön, we focus more on the role of intuition, creativity, 
+and improvisation in design practice and explore new ways of 
+adequately dealing with the messiness and ambiguity of real-
+world design problems (Schön, 1983). We also emphasize the 
+importance of reflection-in-action, a process in which designers 
+actively reflect on and adapt their designs as they are working on 
+them. We strive for a more collaborative and iterative approach 
+to design, in which designers work closely with users and other 
+stakeholders to co-create solutions to complex problems. What 
+makes our approach in the course unique is to incorporate personal 
+visions as a drive for encouraging students to take bold steps to 
+experiment with wild ideas by combining two distinct disciplines.  
+Similar to our approach, Dubberly Design Office (Dubberly 
+& Pangaro, 2015) has been actively involved in design education 
+and has contributed to the development of design curricula. They 
+endorse a holistic approach to design education that goes beyond 
+traditional design disciplines and emphasize the importance of 
+interdisciplinary collaboration, system thinking, and understanding 
+the broader context in which design operates. They further encourage 
+designers to think critically, explore multiple perspectives, and 
+embrace complexity. Where they differ from us, however, lies in 
+their major focus on human-centered design approach. We, on the 
+other hand, maintain an openness to exploring new methodologies 
+and looking into the opportunities of a more-than-human centered 
+design approach. We urge design students to be more curious, 
+adaptable, and open to continuous learning.
+Educational Context
+Each school of design is unique in its own context and in the 
+specific ways it educates designers.  The key elements of our 
+educational context are competence-centered education, and 
+self-directed and vision-based learning allowing students to 
+develop their unique professional identity. Our Industrial Design 
+Master program at Eindhoven University of Technology is a 
+two-year program where students with prior background in design 
+or engineering specialize in their self-chosen direction. Students 
+choose projects and courses to develop their own competence 
+aligned with the Attitude, Skills, Knowledge (ASK) model 
+(Bakarman, 2005) (see also Discussion for how we adapt ASK 
+in the design education context). In addition, students develop a 
+personal design vision that reflects their ideas and beliefs about 
+the future of society and technology, and their role as designer 
+in bridging the two and making an impact. The vision provides 
+guidance to their professional specialization and gives personal 
+meaning and motivation to their learning. 
+In 2020, we introduced the Master course Creativity and 
+Aesthetics of Data and AI (DCM210) with three goals in mind: 
+1) to broaden our (students, staff, and the wider design research 
+community) existing competency in AI beyond technology and 
+user focus, 2) to introduce AI to students with an interest in 
+creativity and aesthetics, but not (yet) in data and computational 
+technologies, 3) to allow students to explore AI technologies in 
+relation to their personal vision on society and technology. 
+While all students in the course have a prior background 
+in design (BDes, BSc) or engineering (BSc), their proficiency 
+in technology, hands-on prototyping skills, and theoretical 
+knowledge differs in level and specifics. In a sense, students’ prior 
+baggage and specific interest for why they chose the course differ. 
+Overall Structure and Course Design
+The course is structured along three lines: 1) Creativity and 
+Aesthetics, 2) Math, Data, and Computing and 3) Interplay 
+between the two. Lines 1 and 2 have the same structure and 
+learning activities: Introductory lectures and individual readings 
+that introduce knowledge concepts, plenary discussions on their 
+mutual relevance, and synthesis and communication of their 
+personal insights into an annotated poster (Miro board, teams 
+of two students), which is inspired by annotated portfolios 
+(Bowers, 2012), as sensitizing concepts to open a space for design 
+exploration and innovations. For the creation of a poster, students 
+need to make use of their aesthetic and creative skills and explore 
+the sensorial aspect of a graphical poster with a composition that 
+balances the variety of visual elements, while the annotations 
+require their analytical and argumentative skills. All posters are 
+aggregated in one overview of all concepts for all students to share.
+Creativity & Aesthetics (CA): For the knowledge concepts 
+in Creativity & Aesthetics we choose a diversity of philosophies, 
+theories, and design frameworks with their exemplary design 
+cases. They range from well-established, e.g., Aesthetics of 
+Interaction (Ross & Wensveen, 2010) to more recent topics, e.g., 
+Post-humanism (Forlano, 2017). Concepts also range in their 
+backgrounds, coming from a more academic, e.g., Perceptual 
+Crossing (Deckers et al., 2012) or more artistic context, e.g., 
+New Aesthetics (Bridle, 2011). All concepts are introduced with 
+visuals and design exemplars for inspiration in an opening lecture.
+Math, Data & Computing (MDC): Our choice for 
+knowledge concepts in Math, Data & Computing is based on 
+technological diversity, ranging from data, e.g., Collective 
+Intelligence & Crowdsourcing (Kittur et al., 2013; Vaughan, 
+2018), Data Programming and Data Augmentation (Ratner et 
+al., 2016), algorithmic models, e.g., Reinforcement Learning 
+(Ramesh et al., 2020), Generative Models (Foster, 2019), to 
+recent trending topics, e.g., Interactive Machine Learning 
+(Amershi et al., 2014), Human-AI Collaboration (Bansal et al., 
+2021), Explainable AI (Abdul et al., 2018; Wang et al., 2019). The 
+concepts are not mutual exclusive and might have some degrees 
+of overlap. Also, they are making-focused; that is, each concept 
+www.ijdesign.org 
+6 
+International Journal of Design Vol. 17 No. 2 2023
+Experiential Speculation in Vision-Based AI Design Education: Designing Conventional and Progressive AI Futures
+covers several techniques or algorithms to be implemented. We 
+provide visual and conceptual design exemplars for inspiration in 
+an introductory-level lecture around the knowledge concepts for 
+Math, Data, and AI.
+For each CA and MDC concept, we select one or two 
+academic papers as seed papers for students to start with. They need 
+to use the design exemplars and those seed papers to further develop 
+their knowledge and understandings around the chosen topics.
+When we talk about technology in this paper, we express 
+that the student teams select concrete technology for their cases 
+from three overlapping areas of technology accessible to them: 
+creative computing, physical computing (e.g., sensors and signal 
+process, tangible interaction, etc.), and AI and ML technology 
+(e.g., generative models, reinforcement learning, interactive 
+machine learning, etc.). In the remainder of the paper, we will 
+refer to this as technology as opposed to creativity and aesthetic 
+aspects of the design cases.
+Personal and professional inspiration and vision: In 
+the first week, students also explore and frame their personal and 
+professional inspiration and their vision. We ask them to create a 
+digital (e.g., Miro) annotated poster (images plus keywords, short 
+pieces of text) that communicates their inspirational subjects. Our 
+suggested list of potential subjects is inspired by the History of 
+Beauty (Eco & McEwen, 2004): Beauty in ...nature (e.g., your 
+love for out-door activities, flora, and fauna) ...cultural, moral 
+values (interest in philosophy, religion, ethics) ...the arts, ...the 
+everyday, ...technology and machines (e.g., mathematics, kinetic 
+art, science fiction) ...functionality, ...the material (e.g., crafting 
+soft materials, ceramics, wood) ...the provocation (e.g., critical 
+design, dark scenarios). The poster needs to be a visual and textual 
+communication of their personal and/or professional interest, their 
+personal and socio-cultural values, and their vision on technology, 
+society, and design.
+The third line combines and integrates the knowledge of 
+the first two lines to give form, beauty, expression, and meaning 
+to user experiences as they are shaped by data and artificial 
+intelligence (teams of 2 × 2). The activities in the third line are: 
+envisioning, designing, prototyping, and design critiques. This 
+line starts with a creative session combining all posters. The 
+goal of the creative session is finding and deciding on the most 
+inspiring triptych (combination of three posters) which will be 
+worked out further during the design process. 
+The suggested design process for the course follows a 
+rough double diamond structure (Tschimmel, 2012); Discover the 
+topics, combine them, and generate ideas, Define a first concept 
+and receive mid-term design critique, Develop the concept and 
+technology, Deliver the demonstrator in a plenary design critique 
+and write the pictorial to communicate your academic argument. 
+Each stage takes about two weeks.
+The final deliverables include a visionary and experiential 
+demonstrator, i.e., a high-quality artifact, prototype, movie, 
+intervention, or performance, a pictorial, and a personal 
+reflection. The demonstrator should provide a convincing 
+aesthetic experience or discursive argument. We communicate 
+the following criteria for this: Engages the audience into the 
+underlying concepts and topics; has aesthetic quality of materials, 
+interactions, and intelligence that showcases the values and 
+perspectives of the design team; shows the computational and 
+making-related competence of the design team.
+For the pictorial we ask each team for a written and 
+illustrated dissemination (rough draft, 4-10 pages) of the aesthetic 
+experience and/or academic argument (article, pictorial) with a 
+critical reflection or discussion. Appendices are added with short 
+backgrounds of the different authors and their main roles in the 
+research process, and additional information to give depth and 
+detail to the specific design decisions.
+The personal reflection (4 pages maximum: 2 pages of 
+text, 2 pages of images) describes what they have learned, and 
+the (un)expected insights they have gained from doing the course. 
+Individual reflections are on three levels: 1) Knowledge: What 
+do you know now about the different topics?; 2) Skills: Which 
+skills did you acquire, what did you struggle with, what did you 
+overcome, and how?; and 3) Attitude: What does this mean for the 
+development of your professional identity and your vision?
+Course Outcomes: Six Design Cases
+This section presents six design cases from a single iteration 
+of the course. We selected the cases from a single course to be 
+comparable in terms of initial briefing, support, and collective 
+sense-making of the design challenge. We order the cases on a 
+scale ranging from being close to the status quo to approaching a 
+near-future scenario. Each case is also discussed and reflected on 
+the qualities we defined, which supports a constructive discussion 
+of strengths and weaknesses.
+Educational Qualities
+We assess the six cases in terms of disciplinary-aligned 
+dimensions. The dimensions are derived from the course setup as 
+a novel combination of designerly (creativity and aesthetics) and 
+technical topics (AI/ML technology use) within design education. 
+In this context, we find it important to look at both designerly 
+and technical topics also in integration, i.e., how well are the 
+teams able to find and develop links between them and express 
+those in their designs (consistency/coherence of design). Finally, 
+as part of our Master’s program, we want student teams to take 
+an academic approach to designing with creativity and AI. That 
+means, we assess their design and research process in terms of a 
+balance between intuitive and enthusiastic pushing-forward, and 
+a reflective and even critical approach to making sense of their 
+design iterations, investigating starting points, development of 
+momentum, pivots and turning points, and how the final design 
+case emerges in the end. The detailed items are derived from 
+the course rubrics, in essence, what we find important to teach 
+our students–both to keep it open and sustainable in the light 
+of technology development, and to direct and guide students in 
+their development around a complex technology. The increasing 
+numbering scheme does not imply order, it is merely a means to 
+reference different aspects in an unambiguous way.
+www.ijdesign.org 
+7 
+International Journal of Design Vol. 17 No. 2 2023
+Y.-C. J. Huang, S. Wensveen, and M. Funk
+The first dimension, creativity and aesthetics (CAx), deals 
+with qualities of creativity and aesthetics that appear in a case. For 
+creativity, we look at how novel a case is for the (CA1) intended 
+context of use and (CA2) in conceptual focus. Further, we look 
+at (CA3) diversity and contrast in combining different ideas in 
+a case. Finally, (CA4) risk-taking based on personal inspiration 
+and acquired knowledge of AI technology contributes to creativity. 
+For aesthetic qualities, we look at (CA5) sensual quality, (CA6) 
+new aesthetics, the (CA7) exploratory experience, and (CA8) 
+how the designed experience augments the Everyday or how far 
+it sketches a new world.
+The second dimension, technology use (TUx), deals with 
+(TU1) technological feasibility and practicality, but also (TU2) 
+depth, i.e., whether AI/ML technology is basically applied or 
+more deeply understood and incorporated, or even changed. In this 
+context, we also look for how AI/ML technology is integrated into 
+a larger technical ecosystem (TU3), which can take considerable 
+resources and skills to accomplish, but also facilitates a better, 
+more high-fidelity integrated experience in the end. Further, we 
+are interested in (TU4) how student teams explore technologies, 
+whether they settle quickly on a single solution or take the time 
+to research, evaluate, and discuss alternatives. Finally, we look at 
+(TU5) how appropriate the technology use is in the context of the 
+design case, (TU6) how deep the conceptual need is for advanced 
+technology, and (TU7) how the implementation corresponds to that, 
+including how well ethical concerns are discussed.
+The third dimension, consistency/coherence of design 
+(CDx), focuses on (CD1) the interplay of creativity, aesthetics, 
+and technology in the design case, considering whether there 
+are clear connections between creativity and aesthetics, AI/ML 
+technology, and whether this is reflected in (CD2) conceptual and 
+(CD3) discursive qualities.
+Finally, the fourth dimension, design and research 
+process (DRPx), deals with explorative aspects, such as (DRP1) 
+how far beyond user-centered design the case is, (DRP2) 
+whether post-human interaction is explored, and (DRP3) 
+whether multiple perspectives are explored and presented, next 
+to (DRP4) the degree of curiosity that inspires and drives the 
+exploration. Another quality is risk-taking in the process, (DRP5) 
+breaking the fourth wall or (DRP6) permitting meta-level 
+aspects in the work, and (DRP7) whether there is an account of 
+interacting with unpredictable actors (possible in relation to 
+post-human interaction). Further, we are interested in how far the 
+student teams (DRP8) explore by making and then deploy their 
+demonstrators into a real-life context (as far as possible given the 
+degree of futurism). This is complemented by a final focus on 
+the process, (DRP9) whether the team primarily pays attention to 
+process or final outcomes. With these qualities and structuring 
+dimensions as a background, we present six design cases and 
+use the qualities to pinpoint highlights in the students’ work. The 
+cases are presented in pairs of two, ordered by their conceptual 
+being-removed-from the status quo.
+Two Cases Indicating Conventional AI Futures
+Conventional AI Futures deal with a modest extrapolation of the 
+current Everyday, in which AI products or services are integrated. 
+This category essentially takes the world as we know it and focuses 
+on enhancing it with AI, which is a conceptually low-risk approach. 
+However, it invites more scrutiny in terms of conceptual consistency 
+and coherence. Conventional AI futures stay close to the modus 
+operandi of designing products and services, just with AI.
+Case 1: Robby: Conversational Agent as a 
+Language Teacher
+The first case is Robby, a conversational agent with a physical 
+embodiment that supports people in learning a foreign language 
+through conversational interactions. To engage people in a 
+conversation, this work incorporates emotional feedback 
+and provides corresponding responses, and facial and body 
+expressions while people make distinct types of errors (e.g., 
+grammar errors, wrong context, wrong pronunciation, etc.). 
+This project found inspiration in the combination of the topics 
+Human-AI Collaboration and Aesthetics of Interaction.
+Figure 1. Sequence of different scenarios of Robby giving emotional feedback to a user.
+www.ijdesign.org 
+8 
+International Journal of Design Vol. 17 No. 2 2023
+Experiential Speculation in Vision-Based AI Design Education: Designing Conventional and Progressive AI Futures
+The concept shows qualities of being a sensible application, 
+being useful for supporting a difficult activity (CD2, CD3), yet 
+implementing new ways to do so (CA8). Although the team did 
+not advance far into making and realizing a working prototype 
+(TU1, TU2), they consistently focused on embodiment besides 
+a computer or smart phone (DRP8), and on embedding machine 
+learning technology in a tight interaction loop (TU3, CD1). They 
+used emotional expressions as a feedback modality (CA7, CA7), 
+engaging the user in a fluent interaction sequence with little 
+processing-related friction. The concept also allows for extension 
+into more useful applications (CD2), in which the embodiment 
+would become a sidecar to a conversation with another human 
+or application, while providing continuous feedback. This already 
+hints at the critique that this case did not make large conceptual 
+jumps in the process (CA1, CA2, CA4), the focus was and 
+remained on solving a particular problem (DRP1, DRP3), and 
+thus did not open to creative influence (CA3). A second critical 
+point is that the technological grounding is not convincing: while 
+speech to text technology exists, understanding and providing 
+constructive feedback on contextual errors or dealing with heavy 
+pronunciation issues is currently not solved in the state of the art of 
+machine learning (TU1, TU2). A final point of critique is that the 
+emotional responses are rather crude and follow a very reductive 
+model of human emotion expression (TU6), which might not even 
+be appropriate for an artificial agent to peruse (TU7).
+Case 2: CAENA: Enchant the Dining Experience 
+using Spatial AR and AI
+The second case, CAENA, aims to create an enchanting dining 
+experience using spatial Augmented Reality and Artificial 
+Intelligence. The final concept is a system that enhances a dining 
+experience with personalized projections by leveraging users’ 
+personal and environment data before, during, and after the dining 
+event. This project combines Everyday aesthetics and  Interactive 
+Machine Learning technology to create AI-generated elements 
+that visually complement the dining experience. A mobile app 
+is used to set personal preferences before dining and for giving 
+feedback to the system throughout and after the experience.
+The concept is realized as a combination of different 
+technologies, including hardware, software, and interface and 
+smart phone application (TU1, TU3). The team chose appropriate 
+technology (TU5) and found a conceptually consistent form of 
+enhancing the physical dining experience through projections 
+(CA5, CA8, CD1). Critical points for this case are around the 
+lack of depth in the engagement with AI/ML technology (TU2, 
+TU6), and how the interplay between creativity, aesthetics, and 
+technology (CD1, CD2) contributes to a rather unsurprising 
+experience (CA5, CA6). A second point is that the role of 
+augmented reality in this concept is not well-accentuated and could 
+have been designed with more curiosity and risk-taking (CA3, 
+CA4, DRP7). Finally, the concept stays at a problem-solving 
+user-centered developmental stage (DRP1) forgoing more 
+interesting opportunities (DRP3, DRP4, DRP9) in enhancing a 
+dinner experience with unpredictability (DRP7) or meta-level 
+engagements (DRP6).
+In summary, the two conventional AI futures cases show 
+that more attention to the design and research process was needed. 
+This way, more diversity and curiosity create bigger leaps in 
+conceptual development combining creativity, aesthetics, and 
+technology in more surprising ways.
+Two Cases Indicating AI Future In Between
+The next two cases indicate an in-between stage between 
+conventional AI futures and progressive, visionary views of what 
+else we could design. Like the first two cases, we see cases that 
+can in principle be realized in the current Everyday, however, 
+noting that the following two cases take steps into a different, 
+future affirming, conceptual framing of the Everyday.
+Figure 2. CAENA creates a visually augmented dining experience by using an integrated system. 
+www.ijdesign.org 
+9 
+International Journal of Design Vol. 17 No. 2 2023
+Y.-C. J. Huang, S. Wensveen, and M. Funk
+Case 3: Breakfast Soundscape: Exploring Aesthetics 
+of the Auditory Environment
+The third case, Breakfast Soundscape2, aims to combine the 
+insights of everyday aesthetics, extended reality, and generative 
+models for sound exploration. This work presents a prototype that 
+augments everyday food consumption practices with a unique 
+soundscape that is experienced, e.g., while eating breakfast. 
+Tableware and cutlery are digitally enhanced to record movements 
+and translate them into fitting soundscapes. This potentially 
+creates an unusual experience to de-familiarize the user from 
+the mundane, familiar Everyday. While this case resembles the 
+enhanced dining experience in case 2, the core sensual practice 
+of consuming food is changed through the soundscape in rather 
+disruptive ways.
+The concept capitalizes on the unusual interplay between 
+natural acoustic and artificial digital sounds produced in the 
+process of preparing and consuming food, as well as the mixing 
+of physical and digital realm, creating a new, focused experience 
+(CA1, CA2). The design realizes sensual qualities and new 
+aesthetics (CA5, CA6), and potentially leads to exploratory 
+experiences, especially on first encounters of this experience 
+augmentation (CA7, CA8). The project was technically feasible 
+and resulted in working prototypes (TU1, TU2), but it was not 
+further integrated into a larger ecosystem of applications. The 
+use of technology was appropriate and in accordance with a 
+conceptual need (TU5, TU6). While the team focused on the 
+interplay between creativity, aesthetics, and technology (CD1), 
+and this is reflected in the concept (CD2), there was little 
+discourse and reflection on the implications for the future. The 
+design process emphasizes working with curiosity (DRP4) and a 
+focus on making (DRP8), especially using intermediate internal 
+tools to make sense of interaction and use. There was also a focus 
+on early, physical prototypes and on the final outcomes (DRP9), 
+yet little self-reflection.
+Case 4: Transire, an Exploration to Ease up the 
+Grieving Process
+The fourth project, Transire3, explores a tangible artefact that 
+allows people in mourning to maintain a connection with the lost 
+one and ease through the grieving process. The project features 
+a multi-modal, partly visual, partly tactile, experience that 
+embodies a contemporary interpretation of self, soul, and being. 
+The designers outlined a connected service around the experience 
+that would facilitate data collection from social media and use 
+machine learning to predict the personality of the deceased. Based 
+on the personality, the aesthetics of interaction through light, 
+color, and movement would change accordingly. The concept 
+found inspiration in the topics perceptual-crossing, aesthetic 
+interaction, data programming, and machine learning all with a 
+strong emphasis on physical visualization.
+This project touches on the complexity of letting go and 
+grasping at what it is that we (think we) let go. This has been 
+explored before in contemporary artworks (Houser, 2020), but 
+not deeply in the design context (CA1). The team took risks in 
+engaging with the difficult topic of death and grief (CA4) through 
+a sensual experience with the artefact (CA5). While following 
+a making approach (DRP8), the technology choices regarding 
+the content acquisition and generative AI are less clearly 
+articulated, especially when dealing with arbitrary data sources 
+that are meant to provide all information needed to generate a 
+truthful, recognizable representation of the deceased (TU3). The 
+appropriateness of a technological solution is questionable, and 
+the work does not fully correspond to the many ethical concerns 
+that could be raised about the chosen topic (TU5, TU7). The 
+design shows an interplay between creativity, aesthetics, and 
+technology (CD1) and this is followed through in the concept 
+to some extent (CD2). While focusing on individual end-users, 
+there is a notion of post-human interaction present (DRP2) with 
+possible implications on “breaking the fourth wall” and facilitating 
+metalevel reflection (DRP5, DRP6).
+In summary, the two intermediate AI futures cases show 
+more focus on personal experiences and depth in empathizing 
+with the Everyday or a special life situation like mourning. The 
+two projects demonstrate very different forms of impact, also at 
+the emotional level, and how the interplay between AI technology 
+and creativity and aesthetics can enhance different situations. 
+They also show that more attention to the design and research 
+process in terms of proactive reflection and critical engagement 
+with their concepts could have helped realize more coherent 
+concepts–and that a grounding of speculative design in ethics is 
+and should be a paramount concern in design education.
+Figure 3. Breakfast Soundscape augments breakfast eating experience with a unique soundscape in everyday practice. 
+www.ijdesign.org 
+10 
+International Journal of Design Vol. 17 No. 2 2023
+Experiential Speculation in Vision-Based AI Design Education: Designing Conventional and Progressive AI Futures
+Two Cases Detailing Progressive Visions
+The final two cases are firmly rooted in the future; they are 
+progressive in terms of reframing the way people view their 
+identity in public spaces or fostering personal relationships with 
+non-human entities. Yet, they are neutral about the future context, 
+utopia or dystopia.
+Case 5: Iden: Using Generative Models for Public 
+Privacy in the Hybrid Space
+The fifth project, Iden4, aims to address public privacy issues in 
+a hybrid space. This work presents a concept of an independent 
+company that protects people’s identity from being revealed in 
+unwanted situations. This company would search online for 
+uploaded videos to identify clients who wear their identifiers 
+and then replace their client’s identity in the online video with 
+the client’s self-selected anonymized version. This work invites 
+participants to experience a what-if imaginary scenario by using 
+visionary videos highlighting the socio-cultural values of the 
+characters in the video and their reasons for privacy and identity. 
+The videos were accompanied by a website for the imaginary 
+company and used interviews to understand the perception of 
+participants on this speculative future. The project also touches 
+on sensitive issues around the generative model being used for 
+the hybrid identity creation. This concept was inspired by the 
+combination of topics Human values and Generative models.
+The concept is scoped larger than previous projects, as a company 
+instead of a single product or application. There is strong emphasis 
+on novelty in context and conceptual focus (CA1, CA2) as well 
+as elements of diversity and risk-taking (CA3, CA4) by boldly 
+Figure 4. Transire explores a tangible artefact that enables people to interact with the deceased one.
+Figure 5. Iden discusses sensitive issues around a hybrid identity generated by a future company.
+www.ijdesign.org 
+11 
+International Journal of Design Vol. 17 No. 2 2023
+Y.-C. J. Huang, S. Wensveen, and M. Funk
+projecting a future scenario that might be entirely invalidated by 
+future developments. The visual qualities of the concept video 
+are particularly striking in how the team explores new aesthetics 
+of worn identities (CA5, CA6). The concept challenges us with 
+a new perspective on the future identity-augmented Everyday 
+(CA8, CA9). As far as explored, technology use is appropriate 
+and requires broad integration (TU3, TU5). The technology 
+directly responds to an ethical issue at the heart of the project 
+(TU7). The team explored multiple perspectives (DRP3), worked 
+with curiosity, and attempted to break the fourth wall for the 
+co-speculator (DRP4, DRP5). We also see traces of engaging 
+with uncertainty and unpredictable actors in this work (DRP7). 
+As a speculative project, there is much less focus on feasibility, 
+scalability, integration with other technologies, and technological 
+depth compared to the projects presented above. Also, the 
+interplay between creativity, aesthetics, and technology was less 
+developed. Conceptually, the design team focused on provocation 
+and facilitating a discourse around identity (CD3), identifiability, 
+and the (future) state of privacy in the public.
+Case 6: Bird Whisperer
+The sixth project, Bird Whisperer5, takes a more-than-human 
+approach and targets interrelations between people and birds. 
+The team designed a research artefact, an object that outputs bird 
+songs produced by a generative algorithm (e.g., WaveGAN6) 
+with the objective to explore new ways of living and investigate 
+relationships between humans, artificial objects, and non-human 
+entities (i.e., birds). This concept was inspired by the combination 
+of topics Post-humanism and Generative models.
+The concept played with the novelty of human-bird 
+communication (DRP2) both for the target context and as a concept 
+(CA1, CA2). The team took risks in their deployment (CA4, DRP7) 
+and in how the concept augments the experience of the Everyday 
+with new aesthetics (CA6, CA8). Unlike the previous speculative 
+project, this project was realized as a working prototype and 
+deployed in the wild (TU1, TU2). The team capitalized on their 
+strong making skills and actively sought expert help throughout 
+the process (DRP8), exploring different appropriate technologies 
+(TU4, TU5). The project shows an interesting animal interaction 
+approach, yet the team missed opportunities for deeper reflection 
+on how the AI aspects, specifically the GAN, relate to and have 
+shaped the post-human design approach.
+In summary, the two progressive AI futures cases show 
+diversity in how a team could approach speculative futures in 
+this learning context. Both projects are conceptually deep, self-
+contained, and consistent, while taking liberties in assuming 
+the world around the direct conceptual scope. It is interesting to 
+note the differences in using AI technology in either speculation 
+or making. The projects share commonalities like a strongly 
+connected team, active reflection in teamwork, and following 
+through on an initial ambitious idea instead of relying on 
+intermediate pivots.
+Discussion
+We first reflect on our approach and compare the course design with 
+other education approaches. Then, we discuss the implementation 
+of the course and the limitations of our approach.
+Figure 6. Bird Whisperer explores a novel interrelation between people and birds.
+www.ijdesign.org 
+12 
+International Journal of Design Vol. 17 No. 2 2023
+Experiential Speculation in Vision-Based AI Design Education: Designing Conventional and Progressive AI Futures
+Reflection on the Approach
+To our knowledge, we are pioneering a vision-first design exploration 
+approach in an elective Master course in a design program. The AI 
+context and related expectations of students and staff on experiential 
+artefacts made this a challenge after all: first, we had only few 
+education resources to consult. Second, we leave the learning 
+environment open-ended, which enables not only students but also 
+teachers to embrace uncertainty during the process. Third, it is a 
+fundamentally challenging approach to allow students to bring their 
+own baggage into the course. Instead of viewing students as blank 
+slates that need to be filled with knowledge, we value and build upon 
+students’ diverse strengths, skills, and perspectives. Therefore, we 
+created multi-disciplinary teams to guide the student teams towards 
+interesting results and satisfying learning experiences.
+Figure 7 shows the evolution of the course design process. 
+The course started with exploring the inspiration of the disciplinary 
+overlap between Data & Intelligence and Creativity & Aesthetics 
+and kept the visionary focus as an implicit criterion (Figure 7, left 
+side). We specified 12 topics, which are indicated as blue or pink 
+circles in each discipline. Each topic has sufficient depth to set the 
+student teams on a strongly conceptual process with experiential 
+results. Later, the exploration moved toward further development 
+and vision-based design with selected disciplinary components. In 
+the end, design discussions and decisions became more explicitly 
+informed by Personal Inspiration & Vision (Figure 7, right side). 
+While our approach at the highest level aligns with the Attitude, 
+Skills, Knowledge (ASK) model, we argue for a translation for 
+research-based design education, tailored to advanced students 
+facing a complex socio-technical problem space: we translate 
+attitude to perspectives, skills to practices, and knowledge to 
+concepts (PPC). The resulting PPC model can be traced in our 
+design decisions on the course content, execution, and assessment. 
+For instance, we aim to provide our students with perspectives on 
+AI in a future society that link to a strong expression of values. We 
+assign practice-based learning activities to develop essential skills 
+in prototyping with AI technologies, in which we want students 
+not only to align their directions of deepening to their own learning 
+goals, but also to steer the depth to which they navigate as teams. 
+Finally, we provide our students with central knowledge concepts 
+on creativity and aesthetics, and AI/ML technology use, to allow 
+them to navigate the design space confidently. Students can then 
+decide to go further in a particular direction to build expertise that 
+is intentionally beyond the curriculum.
+In addition, our post-course findings showed that our 
+approach was successful beyond case analysis. Students’ self-
+reflections revealed that this course and process have broadened 
+their perspectives and equipped them with the ability to engage 
+in meaningful discussion on relevant topics. As one student 
+indicated, “...this course has broadened my sense of the multitude of 
+perspectives...I now am able to take part in discussions surrounding 
+the topic in a more meaningful manner.” Another student reported 
+that the approach has transformed their way of managing complexity, 
+“...This process has been enlightening to my own approach on 
+working with complexity...” Moreover, students found that our 
+approach, particularly in relation to the poster-making activities, 
+facilitated them to explore new concepts and technologies. It also 
+enhanced their comprehension of theoretical concepts from both 
+philosophical and technical aspects. They then were able to apply the 
+newly acquired knowledge in practice, as reflected in the comment, 
+“...In the short duration of this course, ...we were able to quickly 
+explore, and get a sense of theoretical concepts (both philosophical 
+and technical), and therefore utilize GAN models despite the fact 
+that most of us do not have any prior knowledge on this subject...” 
+These evidences showed the successful aspects of this approach.
+Comparison of Different Approaches to Teaching 
+Design with AI
+We compare our approach to existing AI design education 
+approaches, which are divided into four categories based on nine 
+dimensions (see Table 1, our approach in highlighted cells). The 
+first category, adapted CS/ML programs, focuses on education 
+approaches that are grounded in computer science or artificial 
+intelligence curricula, and that let design students approach AI/ML 
+methods and tools in a simplified and narrowed-down way, e.g., 
+by using Python as a comparatively easy-to-learn programming 
+language with readymade datasets, models, and example cases for 
+classification or clustering: 
+While designers probably won’t become machine learning 
+engineers after taking one course, it gives them the opportunity 
+to get comfortable with using data, learn how to set and improve 
+algorithms, and understand the output enough to be able to evaluate 
+any performance problems. (Andersen, 2019, para. 9)
+Such programs aim to teach fundamentals of AI/ML and often follow 
+the traditional structure of technical artificial intelligence programs, 
+certainly taking short-cuts, but with the objective to provide designers 
+Figure 7. The course started from the disciplinary overlap toward vision-based design with selected disciplinary components.
+www.ijdesign.org 
+13 
+International Journal of Design Vol. 17 No. 2 2023
+Y.-C. J. Huang, S. Wensveen, and M. Funk
+with a mechanistic understanding of the technology, where it can be 
+applied, where not, and facing which risks. A second category, user-
+centered with UI/UX focus, is grounded in UI/UX design curricula 
+addressing AI/ML application as a levelled-up challenge from 
+existing digital applications to design for. This category may follow 
+industrial trends of gradually involving and integrating machine 
+learning in consumer and business application across sectors. On 
+the one hand, design guidelines for AI/ML cater to the perspective 
+of extending existing design briefs with AI, and to some extent can 
+help with the decision making. On the other hand, education in this 
+category focuses comparatively much on data visualization, dataful 
+interfaces, and UI-mediated decision-making based on uncertain 
+information. Third, the artistic design with AI/ML tools category 
+focuses most on the creative industry and deals with art and design 
+education in the sense of “those who get hands-on experience with 
+AI while in school will have a better understanding of its creative 
+possibilities as well as its ethical implications on culture and society” 
+(Andersen, 2019). Educators in this space 
+[…] feel it’s important for artists, designers, and other creative 
+people to have a seat at the table and figure out what AI systems 
+can do, what risks they entail, and have the willingness to express 
+the possibilities they afford and predict the future by starting to use 
+them as early as we can. (Andersen, 2019)
+This education puts students’ creativity and vision first, supplying 
+them with a curated set of tools for expression: students “[…] 
+will survey the history and theories behind today’s creative AI, 
+analyze the unorthodox approaches that have advanced the field, 
+and experience cutting-edge creative AI tools” (Lim, 2022). AI/ML 
+technology is explored in making and more in what it can produce 
+than what it is and how it works. Deconstruction of AI/ML tools 
+and black box technology is accepted when it serves concrete 
+individual expression, not for knowledge gain as such. Fourth, the 
+category of experiential ML-based speculation takes an entirely 
+different creative approach to AI/ML design education: here, design 
+education takes a technology-speculative turn towards the general 
+capabilities of currently emerging or near-future AI/ML technology. 
+In this approach, design activities not necessarily engage with 
+AI/ML technology in making, but in consideration, speculation, 
+critique, and reflection with a strong societal and ethical focus.
+Based on the above overview, we have visualized our own 
+approach as a combination of highlighted cells in Table 1. For instance, 
+we combined a creativity first, design for expression approach with 
+open-ended ideation and speculation, followed by experiential 
+making; for the employed AI/ML technology, we provided a broad 
+introduction, then converging to specific models and algorithms. In 
+other words, our approach introduced a broad spectrum of available 
+techniques, and design students selected and deepened on their own. 
+The envisioned outcomes can be artistic results of creative making 
+with AI/ML technology or more descriptive artefacts; audience 
+experience and engagement are key to high quality outcomes. 
+Moreover, design students focused on selected target users or 
+societal actors, drawing from personal inspiration or related research. 
+We employed selected data science and ML tools, open-source/
+academic, self-built at the beginning and allowed for self-directed 
+tool choice and presentation approach depending on the design 
+direction: ideation tools, conceptual design tools, low-fi prototyping, 
+anything-goes. We also valued the expression of design qualities 
+and creativity more than applicability or algorithmic innovation or 
+originality. The AI/ML technology and concrete making techniques 
+were present throughout the design process, including frequent 
+(moderated) moments of reflection and critique.
+Table 1. Comparison between four approaches. Our approach is provided in the highlighted cells. 
+Adapted CS / ML programs
+User-centered, UI/UX focus
+Artistic design with ML tools
+Experiential ML-based 
+speculation
+Approach
+Model/algorithm first, design 
+for application
+Application first, design for 
+users
+Creativity first, design for 
+expression
+Open-ended ideation and 
+speculation, followed by 
+experiential making
+AI/ML  
+Technology
+Broad introduction, then 
+converging to specific 
+models and algorithms
+Specific to application, limited
+Specific to tools, limited
+Unspecified, open, or does not 
+matter
+Outcomes
+Computational notebooks, 
+Python, limited interactive 
+prototypes
+GUI wireframes and 
+prototypes, mobile apps
+Artistic designs, art-works, 
+installations
+Descriptive, non-interactive 
+artifacts, movies, scenarios
+Design focus
+Technology
+User
+Artistic directions
+Personal inspiration
+Clients
+Research
+Commercial
+Personal/Societal
+Societal
+Education 
+tools
+Selected data science and  
+ML tools, open-source/
+academic, self-built
+UI/UX design tools, prototyping 
+applications, commercial
+Generative and creativity 
+support tools, open-source/
+academic
+Ideation tools, conceptual 
+design tools, low-fi 
+prototyping, anything-goes
+Education 
+style
+Lecture-based, content-driven
+Coaching-based,  
+application-driven
+Show and tell, open-ended, 
+explorative
+Self-directed, open-ended, 
+explorative
+Assessment 
+criteria
+AI knowledge and skills
+Design qualities
+Creativity
+Applicability
+Creativity and 
+Aesthetics 
+Limited, not a focus
+Yes, beginning of process
+Yes, various parts of process
+Yes, entire process
+www.ijdesign.org 
+14 
+International Journal of Design Vol. 17 No. 2 2023
+Experiential Speculation in Vision-Based AI Design Education: Designing Conventional and Progressive AI Futures
+Returning to our education vision, it is important to note that 
+we are not teaching AI, but teaching with AI. We use AI as a carrier 
+to understand what students learned from this course, arriving at 
+a new understanding of AI embedded in design education: We 
+propose to extend the educational design space with respect to AI 
+and ML. As we have explained in the beginning and also in Table 1, 
+design educators have by now several options to build a “Design + 
+AI” curriculum, from following the rationale of Computer Science 
+education to more conceptual education to tools-based education. 
+Each of these options projects underlying concepts, educational 
+needs, and educational techniques into the curriculum. While we 
+acknowledge the merits of building onto established foundations 
+or using ready-made tools and materials, we embrace openness 
+for outcome, invite complexity of AI technology, appreciate 
+technology depth, and define dimensions for teaching with AI. Our 
+vision-first approach has shown that creativity can happen as a 
+diverse form at different stages in the process.
+Vision-Based Futuring Landscape
+The six design cases have been assessed separately on the 
+four dimensions (i.e., creativity and aesthetics, technology 
+use, consistency/coherence of design, and design & research 
+process) in a previous section of this paper. When we now plot 
+the six concepts in relation to each other on the three levels of 
+aesthetic value (low to high) and along a time axis that runs from 
+conventional futures towards more progressive futures, we see a 
+landscape with different horizons (see Figure 8).
+This landscape can help to answer our question: “How will the 
+new AI technologies and data influence the aesthetics of intelligent 
+products, services, and systems?” It shows three visions: 
+• Creating new sensory experiences: for example, a 
+conversational agent that detects language mistakes and 
+generates emotional reactions to smoothen the language learning 
+experience, or an enchantment of a dining experience using spatial 
+augmented reality and generating personalized projections. 
+• Beyond creating a sensory experience: the use of AI 
+technology can lead to new conceptual designs for everyday 
+experiences. For example, Breakfast Soundscape creates 
+a new auditory experience for the user. Beyond that, it can 
+also be viewed as a new conceptual framing of the everyday 
+life of non-human agents, i.e., breakfast objects, such as a 
+knife, plate, and cup, that have a certain independence of 
+their user and of physical reality. Transire is a new concept 
+for the grieving experience; a digital service that collects 
+social media data about a deceased person and uses machine 
+learning to generate a synthetic personality. This personality 
+is embodied in a new conceptual product, exhibiting an 
+enhanced experience of grief.
+• Critical reflections and a new discourse on ways of living: 
+this vision is beyond showing new concepts and sensory 
+experiences. Iden is designed as more than a new concept, 
+but as an example of a product-service system within a 
+larger system including a commercial company, multiple 
+creators-consumers with conflicting values, and operating 
+both in the physical and virtual domain. The project critically 
+reflects on the commercialization of public-virtual privacy 
+and personal identity in hybrid space made possible through 
+different AI technologies. The Bird Whisperer project explores 
+the sensory experience of AI-generated bird songs and 
+proposes a new design concept for an everyday experience 
+of relating to local birds. However, the real aesthetic value 
+Figure 8. Vision-based futuring landscape maps out six design cases, from conventional concepts to progressive concepts. 
+www.ijdesign.org 
+15 
+International Journal of Design Vol. 17 No. 2 2023
+Y.-C. J. Huang, S. Wensveen, and M. Funk
+of the project is in avoiding human-centered design and 
+instead discussing the interrelations between human agents, 
+artificial agents, and biological agents (i.e., birds) and in the 
+exploration of post-human issues around nature-cultures, 
+uncertainty, and care.
+The question of “How will the aesthetic values of designers 
+influence the use of intelligence?” is harder to answer. From the 
+annotated posters and the written reflections, we do see that most 
+students’ personal aesthetics and values have influenced (elements 
+of) the final design and the use of intelligence. But, as each team 
+consisted of four designers, it is hard to see clear relations on 
+how their values had an influence. The relations that are clear are 
+perhaps also obvious: those with an interest in speculative design, 
+science fiction, and post-human design explore the third horizon, 
+those with more conventional or less defined values tend to stay 
+closer to the first horizon. 
+Reflection on the Implementation
+We have found several challenges on the implementation of 
+this course, including uncertainty, timing of introducing new 
+knowledge, and coaching direction. Due to the novelty of this 
+approach, we faced challenges in dealing with uncertainty about 
+choosing and preparing learning materials, deciding on open-ended 
+target outcomes, and how to achieve the best outcomes through 
+the deliverables. More importantly, which assessment criteria and 
+methods would guide students towards the best outcomes. We do 
+not know the answer yet and we, as teachers, are still learning 
+from the courses over time.
+The timing and the format of introducing new knowledge 
+are difficult to determine. To cover diverse topics, ranging from 
+well-known topics to new ones, we selected several topics with 
+corresponding papers from both CA and MDC disciplines. If 
+introduced too early, students might not be able to relate topics 
+and their own ideas. If too late, the new knowledge might not fit 
+the progress of the design process or delay it.
+While we provided extensive materials, support, coaching, 
+and facilities, students could not always translate this into a 
+process of expected intensity. We observed gaps between the 
+complexity of their concepts and the feasibility of the state-of-the-
+art technology: students struggled in finding a balance between 
+creativity and feasibility towards a convincing futuring story. In 
+the future, we expect to see more creativity to fill this gap and 
+students deepening critical aspects of their concepts to envision 
+progressive visions. 
+In this course, we chose 10-12 diverse knowledge concepts 
+for the two distinct areas. For instance, we focused on a broader 
+range of MDC topics than only machine learning, looking at data 
+collection, crowdsourcing, data augmentation, and symbolic AI. 
+Ultimately, however, students converged to machine learning 
+related topics (e.g., generative models, or interactive machine 
+learning) driven by their interests and a strong sense of relevance. 
+In terms of CA topics, students converged on established and 
+easy-to-grasp topics of Everyday Aesthetics and Aesthetics of 
+Interaction. These topics were used for integration and reflection 
+for Case 1, 2, 3, and 4 (Horizon 1 and 2). The more fundamental 
+topic of Human Values and contemporary topic of Post-Human 
+Design were used in Case 5 and 6 (Horizon 3) respectively. 
+Overall, it appears that CA topics strongly influenced the horizon 
+of the final design. 
+Limitations
+This paper presents a case study with six exemplars of an 
+education design and course structure supporting experiential 
+speculation with AI. While this approach works well in the 
+context of our educational system, it might not work well in 
+other educational contexts. In our program, design students 
+have developed knowledge and skills from both CA and MDC 
+areas. Moreover, challenge-based learning is a common mode 
+of education, which suits a self-directed learning style for open-
+ended societal problems. To apply this course design in other 
+contexts, operational modifications and programmatic adaptations 
+might be needed to integrate well with prior learning activities.
+We want to acknowledge the heterogeneous student 
+population with diverse skills, backgrounds, and learning goals. 
+The course catered to this particular population, and at the 
+same time relied on it setting the bar relatively high regarding 
+conceptual design skills, experiential making, technological 
+learning ability, and research mindset. Similarly, the lecturer team 
+had different backgrounds in design, engineering, and computer 
+science, and essentially never taught together in this setup. It is 
+fair to say that the mixed backgrounds of students and teachers 
+were very important to the success of the course. 
+We could expect a reasonable chance of success for the 
+chosen approach because the targeted student population is 
+heterogeneous and consists of students with various interests, from 
+AI and ML technology or user-focused design, to storytelling and 
+futuring approaches. This, and our nudges towards mixed, diverse, 
+and inclusive teams led us to expect successful operationalizations 
+of the approach in education: students would formulate and follow 
+their own learning goals in their team’s context and contribute a 
+variety of skills and knowledge to the design cases. This, however, 
+cannot be expected as a given in other design education contexts. 
+Other design programs might deal with a far more homogeneous 
+population, with less interests in getting the machine-learning 
+components to work, with exploring and creatively realizing an 
+initially vague vision. 
+We have recognized that students lacking knowledge, 
+design experience, and attitudes were struggling with this 
+approach. These students got a conceptual understanding of how 
+AI works in theory and know the limitations of AI in general 
+but could not translate this to a conceptual design of AI concrete 
+enough to be implemented in practice. To resolve this issue in 
+the future, enrolment prerequisites for the course and explicitly 
+guiding the development of narrative design concepts and their 
+practical implementation might be appropriate measures. Also, 
+we could investigate diverse ways of introducing designers to 
+emerging design materials, facilitating more in-depth discussion 
+and learning around topics, and restricting the cope of technology 
+to prevent student teams from getting lost in exploring the 
+complex technology.
+www.ijdesign.org 
+16 
+International Journal of Design Vol. 17 No. 2 2023
+Experiential Speculation in Vision-Based AI Design Education: Designing Conventional and Progressive AI Futures
+Conclusion and Future Work
+Artificial Intelligence will change how designers design, what 
+they design, and why they design. This paper presents two 
+primary contributions. 
+First, we contribute an alternative approach to extend AI 
+education in design beyond teaching AI concepts and AI practices 
+by integrating personal and societal perspectives, and focus on 
+the creativity and aesthetics of designing-with AI. We discuss the 
+design opportunities of our approach compared to other education 
+approaches. We invite design educators to consider the existing and 
+our alternative approach (Table 1) for AI design education and draw 
+inspiration from our implementation and the exemplary outcomes.
+What does this consideration mean for AI education 
+integration in a design program? The breadth and depth, and rapid 
+development of AI and ML technologies can be challenging to 
+keep abreast of in technical education. Much less so, in a design 
+program. As responsible design educators, our role is to distill the 
+essential AI/ML concepts and practices for design, contextualizing 
+them in a societal and personal perspective. This takes time and 
+multiple iterations. We present our choice for AI concepts and 
+practices, and invite other design educators to explore and share 
+their own iterations and alternatives of teaching AI in design. 
+Second, we contribute a novel futuring landscape with a 
+first set of AI design exemplars that could be used to facilitate 
+designers in envisioning possible scenarios from conventional 
+futures toward progressive futures and discussing the aesthetic 
+values of these concepts at various levels. We invite design 
+researchers to further populate the futuring landscape with their 
+exemplars, and jointly explore values and visions for the future.
+In this paper, we showcase examples of what designers 
+design relating to why they design, and we discuss how the 
+futuring landscape could be used to support the exploration of 
+the possible design scenarios with data and AI technologies. 
+However, we consider the complex topic of how designers design 
+when using data and AI as design materials to be outside the scope 
+of this paper. Further research is needed to delve into the methods 
+or tools that facilitate designing with AI with the integration of 
+creativity and aesthetics, and to shed more light on the underlying 
+qualities and principles of aesthetics of intelligence.
+Acknowledgments
+We would like to thank all the students who have contributed 
+to the Creativity and Aesthetics of Data and AI (DCM210) 
+course, especially the 1st generation (Spring 2021) whose work 
+we are showing in this paper. We would also like to express our 
+appreciation to the Department of Industrial Design at Eindhoven 
+University of Technology for providing us with the environment 
+to realize our education vision in practice.
+Endnotes
+1. In the paper, when we use ‘designing-with AI’ we refer to AI 
+in the broad sense including its technologies, tools, and the 
+related concepts.
+2. Video of Case 3: Breakfast Soundscape. https://youtu.be/
+xTHDVC10j4Y
+3. Video of Case 4: Transire. https://youtu.be/Hn0resIjdVU
+4. Video of Case 5: Iden. https://www.iden-ai.nl/
+5. Video of Case 6: Bird Whisperer. https://vimeo.com/530194266
+6. WaveGAN. https://github.com/chrisdonahue/wavegan
+References 
+1. Abdul, A., Vermeulen, J., Wang, D., Lim, B. Y., & 
+Kankanhalli, M. (2018). Trends and trajectories for 
+explainable, accountable and intelligible systems: An HCI 
+research agenda. In Proceedings of the CHI conference 
+on human factors in computing systems (Article No. 582). 
+ACM. https://doi.org/10.1145/3173574.3174156
+2. Amershi, S., Cakmak, M., Knox, W. B., & Kulesza, T. 
+(2014, Dec. 22). Power to the people: The role of humans 
+in interactive machine learning. AI Magazine. https://doi.
+org/10.1609/aimag.v35i4.2513
+3. Andersen, M. (2019, Oct. 17). How design schools are keeping 
+up with AI and machine learning. https://xd.adobe.com/ideas/
+principles/emerging-technology/ai-education-in-design/
+4. Bansal, G., Wu, T., Zhou, J., Fok, R., Nushi, B., Kamar, E., 
+Ribeiro, M. T., & Weld, D. (2021). Does the whole exceed 
+its parts? The effect of AI explanations on complementary 
+team performance. In Proceedings of the CHI conference 
+on human factors in computing systems (pp. 1-16). ACM. 
+https://doi.org/10.1145/3411764.3445717
+5. Bakarman, A. A. (2005). Attitude, skill and knowledge: (Ask) a 
+new model for design education. In Proceedings of the 2nd CDEN 
+design conference on design education, innovation, and practice 
+(pp. 1-7). CEEA. https://doi.org/10.24908/pceea.v0i0.3894
+6. Bowers, J. (2012). The logic of annotated portfolios: 
+Communicating the value of ‘research through design’. In 
+Proceedings of the designing interactive systems conference 
+(pp. 68-77). ACM. https://doi.org/10.1145/2317956.2317968 
+7. Brennan, K., & Resnick, M. (2012). New frameworks for studying 
+and assessing the development of computational thinking. In 
+Proceedings of the annual meeting of the American educational 
+research association (Vol. 1, pp. 1-25). Scientific Research.
+8. Bridle, J. (2011). The new aesthetic: Waving at the machines. 
+Retrieved 
+from 
+https://booktwo.org/notebook/waving-at-
+machines/https://booktwo.org/notebook/waving-at-machines/
+9. Cartwright, A. (2016). Invisible design: Co-designing with 
+machines. 
+https://medium.com/swlh/invisible-design-co-
+designing-with-machines-aea62a1e0f6d
+10. Deckers, E., Lévy, P., Wensveen, S., Ahn, R., & Overbeeke, 
+K. (2012). Designing for perceptual crossing: Applying and 
+evaluating design notions. International Journal of Design, 
+6(3), 41-55.
+11. Djajadiningrat, J. P., Overbeeke, C. J., & Wensveen, S. A. 
+G. (2000). Augmenting fun and beauty: A pamphlet. In 
+Proceedings of the conference on designing augmented 
+reality environments (pp. 131-134). ACM. https://doi.
+org/10.1145/354666.354680
+www.ijdesign.org 
+17 
+International Journal of Design Vol. 17 No. 2 2023
+Y.-C. J. Huang, S. Wensveen, and M. Funk
+12. Dubberly, H., & Pangaro, P. (2015). Cybernetics and design: 
+Conversations for action. In T. Fischer & C. M. Herr (eds.), 
+Design cybernetics (pp. 85-99). Springer.
+13. Dove, G., Halskov, K., Forlizzi, J., & Zimmerman, J. (2017). 
+UX design innovation: Challenges for working with machine 
+learning as a design material. In Proceedings of the SIGCHI 
+conference on human factors in computing systems (pp.  278-
+288). ACM. https://doi.org/10.1145/3025453.3025739
+14. Eco, U., & McEwen, A. (2004). History of beauty. Rizzoli.
+15. Fiebrink, R. (2019). Machine learning education for artists, 
+musicians, and other creative practitioners. ACM Transactions 
+Computing Education, 19(4), Article 31. https://doi.
+org/10.1145/3294008
+16. Folkmann, M. N. (2013). The aesthetics of imagination in 
+design. MIT Press.
+17. Forlano, L. (2017). Posthumanism and design. She Ji: The 
+Journal of Design, Economics, and Innovation, 3(1), 16-29. 
+https://doi.org/10.1016/j.sheji.2017.08.001
+18. Foster, D. (2019). Generative deep learning. O’Reilly Media.
+19. Hebron, P. (2016a). Machine learning for designers. 
+O’Reilly Media.
+20. Hebron, P. (2016b). Learning machines. http://www.
+patrickhebron.com/learning-machines/
+21. Holmquist, L. E. (2017). Intelligence on tap: Artificial 
+intelligence as a new design material. Interactions, 24(4), 
+28-33. https://doi.org/10.1145/3085571
+22. Houser, K. (2020, Aug. 2). Watch a mother reunite with her 
+deceased child in VR. Futurism. https://futurism.com/watch-
+mother-reunion-deceased-child-vr 
+23. Kaspersen, M. H. (2023). AI education that matters: 
+Designing computationally empowering learning tools for 
+machine learning (Doctoral dissertation). Aarhus Universitet. 
+https://pure.au.dk/portal/da/publications/ai-education-that-
+matters(a0a20fb0-fc3a-4ba6-8c37-469ab6f41d27).html
+24. Kittur, A., Nickerson, J. V., Bernstein, M., Gerber, E., 
+Shaw, A., Zimmerman, J., Lease, M., & Horton, J. (2013). 
+The future of crowd work. In Proceedings of the 16th 
+conference on computer supported cooperative work and 
+social computing (pp. 1301-1318). ACM. https://doi.
+org/10.1145/2441776.2441923
+25. Lim, J. (2022). Artificial creativity [MOOC]. Coursera. 
+https://www.coursera.org/learn/artificial-creativity
+26. Petersen, M. G., Iversen, O. S., Krogh, P. G., & Ludvigsen, 
+M. (2004). Aesthetic interaction: A pragmatist’s aesthetics of 
+interactive systems. In Proceedings of the 5th conference on 
+designing interactive systems (pp. 269-276). ACM. https://
+doi.org/10.1145/1013115.1013153
+27. Ramesh, D., Liu, A. Z., Echeverria, A. J., Song, J. Y., 
+Waytowich, N. R., & Lasecki, W. S. (2020). Yesterday’s 
+reward is today’s punishment: Contrast effects in human 
+feedback to reinforcement learning agents. In Proceedings of 
+the 19th international conference on autonomous agents and 
+multiagent systems (pp. 1090-1097). ACM. https://dl.acm.
+org/doi/10.5555/3398761.3398888 
+28. Ratner, A., Sa, C. D., Wu, S., Selsam, D., & Ré, C. (2016). 
+Data programming: Creating large training sets, quickly. In 
+Proceedings of the 30th international conference on neural 
+information processing systems (pp. 3574-3582). ACM.
+29. Ross, P. R., & Wensveen, S. A. G. (2010). Designing behavior 
+in interaction: Using aesthetic experience as a mechanism for 
+design. International Journal of Design, 4(2), 3-13.
+30. Schön, D. A. (1983). The reflective practitioner: How 
+professionals think in action. Basic Books.
+31. Steenson, M. W. (2017). Architectural intelligence: How 
+designers and architects created the digital landscape. MIT Press.
+32. Simon, H. A. (1969). The sciences of the artificial. MIT Press.
+33. Subramonyam, H., Seifert, C., & Adar, E. (2021). Towards a 
+process model for co-creating AI experiences. In Proceedings 
+of the designing interactive systems conference (pp. 1529-
+1543).  ACM. https://doi.org/10.1145/3461778.3462012
+34. Treseler, M. (2017). Designing with data: Improving the user 
+experience with a/b testing. O’Reilly Media.
+35. Tschimmel, K. (2012). Design thinking as an effective toolkit 
+for innovation. In Proceedings of the 13th conference on 
+action for innovation: innovating from experience (pp.1-20). 
+ISPIM. https://doi.org/10.13140/2.1.2570.3361
+36. van Allen, P., & Hooker, B. (2017). ArtCenter college of 
+design course: Internet of enlightened things. https://canvas.
+instructure.com/courses/1111888
+37. Vaughan, J. W. (2018). Making better use of the crowd: How 
+crowdsourcing can advance machine learning research. The 
+Journal of Machine Learning Research, 18(1), 7026-7071. 
+38. Wang, D., Yang, Q., Abdul, A., & Lim, B. Y. (2019). 
+Designing theory-driven user-centric explainable AI. In 
+Proceedings of the SIGCHI conference on human factors 
+in computing systems (Article No. 601). ACM. https://doi.
+org/10.1145/3290605.3300831
+39. Wensveen, S. A. G. (2018). Constructive design research. 
+Technische Universiteit Eindhoven. https://research.tue.nl/
+en/publications/constructive-design-research
+40. Yang, Q. (2018). Machine learning as a UX design material: 
+How can we imagine beyond automation, recommenders, 
+and reminders? In Proceedings of the AAAI spring 
+symposium series (pp. 1-6). Association for the Advancement 
+of Artificial Intelligence.
+41. Yang, Q. (2020). Designing AI products and services: 
+An annotated syllabus. https://medium.com/design-of-ai-
+products/design-of-ai-products-and-services-an-annotated-
+syllabus-25f9511292a1
+42. Yang, Q., Scuito, A., Zimmerman, J., Forlizzi, J., & Steinfeld, 
+A. (2018). Investigating how experienced UX designers 
+effectively work with machine learning. In Proceedings of 
+the  designing interactive systems conference (pp. 585-596). 
+ACM. https://doi.org/10.1145/3196709.3196730
+43. Yang, Q., Steinfeld, A., Rosé, C., & Zimmerman, J. (2020). 
+Re-examining whether, why, and how human-AI interaction 
+is uniquely difficult to design. In Proceedings of the SIGCHI 
+conference on human factors in computing systems (pp. 
+1-13). ACM. https://doi.org/10.1145/3313831.3376301

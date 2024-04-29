@@ -1,0 +1,755 @@
+DOI: 10.4324/9781003359722-21
+Introduction: the extrastatecraft of planetary edtech
+There is today increasing concern and controversy about globally distributed 
+‘educational technologies’ (edtech) that enrol a range of stakeholders across so-
+ciety: communities, schools and universities, government and non-government 
+organisations, plus multinational corporations. Dynamic power relations and 
+spaces of ‘extra-statecraft’ (Easterling, 2014) governance unfold amid increas-
+ingly networked, yet concentrated, digitalised infrastructures. Education un-
+certainties and possibilities become intensiﬁed within and beyond these 
+sociotechnically dynamic conditions, which makes a ‘planetary dimension’ in-
+tegral to research spanning technology, inequality and education (Macgilchrist, 
+2021). Such a critical scope exposes the infrastructural fragility of education 
+governance processes, which are ‘continually in the making, remaking and 
+unmaking subject to the histories, narratives and struggles of those who par-
+take in and write it’ (Wilkins & Olmedo, 2019, p. 26). This is due to emergent 
+modes of digital education governance, expertise and instruments guiding the 
+conduct of educational actors and institutions around the world (Williamson, 
+2016). However, reshaping technologies towards collective goals such as hu-
+man rights, capabilities, peace, justice and sustainability is yet to be fully ﬁg-
+ured out or delivered (UNESCO, 2021). Connected by a ‘global technical 
+system’ (Stiegler, 2016), the hyper-industrial pace of automatisation across 
+society exploits and monetises everyday practices, so new types of knowledge, 
+economies, territories and ways of being are urgently needed. Who gets to (re)
+conﬁgure education – how, when, where and what for – has always been a 
+contested and political space: now intensiﬁed and crafted as a planetary contro-
+versy and question. Exploring these emergent conditions, controversies and 
+possibilities of the multiscalar dynamics of edtech is the focus of this chapter.
+The concept of ‘planetary edtech extrastatecraft’ is a way to frame modes of 
+knowledge production (re)conﬁguring digital education governance increas-
+ingly dominated by a conﬂuence of state, corporate and geopolitical interests. 
+For instance, data infrastructures in education, Gulson and Sellar (2019) 
+note, are systems: ‘that enable de facto forms of governance in excess of formal 
+government structures and regulatory processes’ (p. 354). The existence of 
+17 The EdTech Stack
+A speculative design thought 
+experiment
+Teresa Swist
+The EdTech Stack 277
+meta-edtech (Williamson, 2021) also reﬂects a new edtech machinery trend: 
+the ‘evidence intermediaries’ and ‘market makers’ globally shaping the future 
+of edtech development and use. Statecraft in the digital age, Fourcade and 
+Gordon (2020) argue, is characterised by diminishing accountability and data- 
+driven policy strategies facilitated by a corporate reconstruction of the state. 
+Increasingly, embedded logics and techniques of ‘dataﬁed knowledge produc-
+tion’ (Thylstrup, Flyverbom, & Helles, 2019) attempt ‘to see, know and gov-
+ern social affairs in new ways’ (p. 4). For example, dataﬁed practices produce 
+‘educational data journeys’ (Howard et al., 2022) which inform decision- 
+making across multiple sites of practice (classroom, school, region, national 
+sector and global system). These conditions emerge with the legitimation of 
+often hidden ‘data mediators’ of education – such as industrial networks, con-
+sulting institutions, investors – that are equipped with the latest innovative 
+technologies to increasingly embed and promote data-based education policy 
+(Hartong, 2016). While platformisation processes are largely re-engineering 
+education to create ‘predictive infrastructures’ – they should also be viewed as 
+‘cultural enactments in conditions of uncertainty and constant iteration’ 
+(Perrotta, 2021). A myriad of ethical questions are raised by the platformisa-
+tion of education, in particular, ‘Who will be the authors of these new worlds 
+of digital learning? Who will participate in the discussions that will affect edu-
+cation as a public good? Will large EdTech companies deﬁne learning?’ (Rivas, 
+2021, pp. 10–11). No simple answers or algorithmic solutions are adequate 
+responses to these complex, ethical dilemmas. As dynamic conditions of 
+planetary-scale computation shape new types of cognitive infrastructures and 
+automated thinking, maybe new forms of ‘creative uncertainty’ are necessary 
+for educational policymaking (Sellar & Gulson, 2021). As such, this chapter’s 
+critical and creative line of inquiry unfolds from the extrastatecraft tensions 
+and possibilities of planetary edtech.
+There are calls for other ways of imagining and enacting educational  
+futures that challenge planetary edtech extrastatecraft. For instance ‘thinking 
+differently’ and collective action towards equitable education futures are  
+vitally needed as ‘established ways of thinking about education, knowledge 
+and learning inhibit us from opening new paths and moving towards the 
+futures we desire’ (UNESCO, 2021, p. 11). We urgently need ‘new knowl-
+edge for a new planet’ (Wark & Jandrić, 2016): novel ways of utilising tools, 
+organising knowledge and modes of transnational cooperation. This scope is 
+reﬂected in the ‘vast machine’ (Edwards, 2010) of making climate knowl-
+edge, which relies upon heterogeneous networks of large technical systems 
+enabling new forms of environmental history and interpretations of climate 
+science data. The ambit of a ‘planetary approach to edtech’ (Macgilchrist, 
+Potter & Williamson, 2021) is of a similar scale, which necessitates, ‘an  
+expansion of our critical research to generate, reconﬁgure, observe, reﬂect 
+upon, analyse and theorise current practices that enable (or, could enable) 
+multiple liveable pre- sents for humans and more-than-humans on our dam-
+aged planet’ (p. 372).
+278 Teresa Swist
+What conceptual and methodological tool could explore the extrastatecraft 
+of planetary edtech and help address multiscalar controversies? A fruitful place 
+to begin is speculative design (Dunne and Raby, 2013) which aims to open up 
+perspectives in relation to ‘wicked problems’ through catalysing spaces to in-
+spire alternative discussion, debate and imaginaries. Such a critical design pro-
+cess offers a ‘perceptual bridge’ to not only stretch thinking about the future, 
+but also to critique current practices (Auger, 2013). Another valuable aspect 
+of speculative design is that it can be framed as a ‘thought experiment’, which 
+Barendregt and Vaage (2021) propose is a heuristic tool, enabling multiple 
+conclusions and open-ended structures to inform co-creation; in addition, 
+such a process invites audiences to test a ﬁgurative scenario in an imaginative 
+way so as to foster critical reﬂection. This approach aligns with calls for critical 
+research priorities focused upon the transformation of edtech (policies, pro-
+cesses and practices), the stability of inequalities and injustices, plus speculation 
+associated with futurity and generative critique (Macgilchrist, 2021). The po-
+tential value of this experiment is to reimagine and rethink planetary edtech 
+across multiple geographic scales, in whose political and economic interests it 
+circulates, and how it could be shaped in less extractive and exploitative ways.
+The extrastatecraft of planetary edtech signals the multiscalar ways in which 
+knowledge production is increasingly distributed, controlled by corporate and 
+AI experts – alongside the uncertainty and possibilities of how it could be 
+otherwise. The aim of this chapter is therefore to generate a conceptual and 
+methodological innovation to make, and mobilise, knowledge about planetary 
+edtech with diverse education stakeholders. Next, a public space to democra-
+tise expertise is proposed to unsettle the concentrated forms of expertise and 
+power dominating digital education governance – in the form of a speculative 
+design thought experiment. The EdTech Stack is then introduced which iden-
+tiﬁes planetary edtech-speciﬁc capabilities and controversies. Measures to op-
+erationalise multiscalar and heterogeneous research with diverse stakeholders 
+are then outlined. The chapter concludes with an invitation for readers to 
+identify the limits and possibilities of the EdTech Stack we Have, so as to col-
+lectively craft the EdTech Stack to Come.
+A public space to democratise expertise
+The focus of this section is upon the potential of democratising expertise in 
+relation to planetary edtech via a speculative design experiment. Planetary ed-
+tech is generated across globalised innovation ecosystems, complex design and 
+development stages, as well as everyday practices – with a range of established 
+and emerging technologies and competing state-corporate-geopolitical rela-
+tions. In contrast to dominant forms of expertise which focus upon the 
+efficiencies or economics of automation, Pasquale (2020) calls for ‘the 
+strengthening of existing communities of expertise and the creation of new 
+ones’ (p. 4) which value professional and localised knowledge. This intent to 
+distribute expertise aligns with a ‘technical democracy approach’ (Callon, 
+The EdTech Stack 279
+Lascoumes, & Barthes, 2009) that invites collective learning and experimen-
+tation about sociotechnical controversies. A key element of this is an open 
+space, or ‘hybrid forum’, where ‘certain assemblages of people, knowledge and 
+things’ undergo an experimental learning process through which expertise 
+emerges ‘as a collective achievement’ (Farías & Blok, 2016, p. 546). Democ-
+ratising expertise, Nowotny (2003) notes, occurs through recognising ‘lay 
+participants and their knowledge as being as valuable as, although different 
+from, that of scientiﬁc and technical experts’ which transgresses siloed exper-
+tise and constitutes a new public space, or ‘agora’ (p. 155). In doing so, a 
+‘space of appearance’ (Arendt, 1958) for speech and action emerges to pro-
+duce artefacts that always precede, and exceed, any attempts to deny freedom 
+of thought.
+Within such spaces, how might educators, students and communities con-
+tribute towards reconﬁguring planetary edtech? Democratised expertise is 
+necessary in the face of planetary edtech’s expansion into daily practices. The 
+situated expertise of educators and students cannot be isolated from the exper-
+tise of ethicists, designers, urban planners, researchers, edtech vendors, and 
+policymakers: only mutual learning can surface and apply what is needed for 
+speciﬁc education contexts. Democratising expertise therefore accords with a 
+mode of statecraft premised on the idea of ‘seeing like a citizen’ (Fourcade & 
+Gordon, 2020) that ‘identiﬁes social problems—including those problems 
+stemming from the deployment of dataism itself—from the perspective of 
+those affected’ (p. 96). In doing so, our collective attention and inquiries of 
+planetary edtech must direct attention to the here and now: the lived experi-
+ences, contexts, connections and formal or informal spaces which always ex-
+ceed ‘the machine’ (Macgilchrist, Potter & Williamson, 2021, p. 369). Indeed, 
+diversifying ways of thinking and doing research is vital to grapple with the 
+critical challenges identiﬁed in relation to ‘What’s next for EdTech?’ (Selwyn 
+et al., 2020): digital in/exclusion, platform economics, human and machine 
+learning, IT industry actors, climate change and ﬁnding solidaristic and con-
+vivial alternatives. No single site of expertise, community, disciplinary ﬁeld or 
+industry alone can reconﬁgure the extrastatecraft of planetary edtech.
+Democratising expertise requires facilitating a public space of cooperation 
+between researchers involved in ‘secluded research’ (contained in the lab or 
+speciality paradigm) with researchers ‘in the wild’ – who become involved in 
+‘the formulation of problems, the modalities of application of knowledge and 
+know-how produced, as well as the necessary opening up of the research col-
+lective’ (Callon, Lascoumes, & Barthes, 2009, p. 104). A technical democracy 
+approach does not impose any predeﬁned solution or model of action; instead, 
+there are ongoing activities (not isolated acts), diverse stakeholders (not indi-
+vidual actors), plus no clear-cut decisions – only continually ‘remaining open 
+to new information or new formulations of what is at stake’ (ibid, p. 223). 
+This involves an open-ended process of ‘technical problematisation’ (Barthe, 
+Meyer, & Sundqvist, 2022) to explore heterogeneous questions and dialogue, 
+such as: ‘What kinds of technology do we want or need? [… and] importantly, 
+280 Teresa Swist
+who is able to raise and frame these questions and have a say in these discus-
+sions?’ (p. 14). A technical democracy offers a critical and cooperative way to 
+explore sociotechnical controversies in education, such as automated deci-
+sion-making systems in education and essay scoring in schools (Thompson 
+et al., 2022; Gulson et al., 2022). The potential of applying this mode of knowl-
+edge production in relation to planetary edtech controversies is turned to next.
+In the context of the extrastatecraft of planetary edtech, this speculative 
+design thought experiment operates at the level of what Easterling (2021) 
+terms ‘medium design’: which does not prescribe solutions, or algorithms, but 
+instead engages with ‘protocols of interplay’ focused upon the ‘parameters for 
+how things interact with each other’ (p. 10). Expanded views of AI draw at-
+tention to this interplay of material, temporal and experiential issues, such as 
+the ‘physical infrastructures that are reshaping the Earth, while simultaneously 
+shifting how the world is seen and understood’ (Crawford, 2022, p. 19). This 
+interplay approach also aligns with strategies to ‘displace discourses of the 
+black box in favour of theoretical and practical interventions that engage more 
+intimately with Big Data methodologies, their epistemological assumptions 
+and their ecological entanglements’ (Thylstrup et al., 2019). In light of ‘new 
+cognitive infrastructures in education policy’, Sellar and Gulson (2021) call for 
+‘more doing’ which could explore the possibilities of automated thinking, 
+methodologies and collaboration alongside diverse values, interests and risks 
+(p. 323). Within critical education and technology studies, these conditions 
+necessitate ‘shifting scales of research’ (Macgilchrist, Potter, & Williamson, 
+2021, p. 369) focused upon lived experience, the Anthropocene, planetary 
+computation and the techno-economic-ethics of cloud computing to address 
+the complexities of planetary edtech.
+The scope of this speculative design thought experiment is inspired by 
+Bratton’s (2015) geopolitical concept ‘The Stack’, which scrutinises interde-
+pendent layers of planetary-scale computation, including the following:
+[…] energy and mineral sourcing and grids; subterranean cloud infra-
+structure; urban software and public service privatization; massive uni-
+versal addressing systems; interfaces drawn by the augmentation of the 
+hand, of the eye, or dissolved into objects; users both over-outlined by 
+self-quantiﬁcation and also exploded by the arrival of legions of sensors, 
+algorithms, and robots.
+(pp. 4–5)
+Framed as a ‘collaborative megaproject’, this design brief invites opportunistic 
+approaches and experiments which put ‘The Stack’ to use (ibid). In the next 
+section, the speculative design generated from this thought experiment is in-
+troduced. This artefact is proposed as an ‘inventive method’ (Lury & Wakeford, 
+2012): it addresses a speciﬁc problem (the extrastatecraft of planetary ed-
+tech), is adapted in relation to that use (by conducting a conceptual and 
+methodological experiment) and is focused upon ‘making a difference’ in 
+The EdTech Stack 281
+relation to digital education governance research, policy and practice. The 
+ultimate purpose is to provisionally provoke and prototype a new globalised 
+infrastructure, which requires an alternative ‘art of extrastatecraft’ (Easterling, 
+2014).
+Experiment: the EdTech Stack
+The EdTech Stack is a speculative design thought experiment to envision an 
+alternative extrastatecraft of planetary edtech. With controversies requiring 
+new forms of consultation and mobilisation, as well as the invention of new 
+forms of decision-making (Callon, Lascoumes, & Barthe, 2009), the EdTech 
+Stack aims to inspire new forms of collective learning and experimentation to 
+diversify digital education governance. As both a conceptual and methodo-
+logical innovation, the EdTech Stack offers a set of stack-related capabilities 
+aligned with planetary edtech controversies, each of which are sketched out 
+below (Figure 17.1).
+Procurement capabilities: an exploitation controversy
+The EdTech Stack’s procurement capabilities are conﬁgured in relation to ma-
+terial and labour processes of edtech design and development. These capabili-
+ties imbue the ‘earth’ layer of ‘energy and mineral sourcing and grids’ (Bratton, 
+2015, p. 4) across the globe. As an ‘extractive industry’, AI systems and supply 
+chains ‘depend on exploiting energy and mineral resources from the planet, 
+cheap labor, and data at scale’ (Crawford, 2022, p. 15). The overall develop-
+ment of interconnected data, software and devices, which fuels the accelera-
+tion of digitalisation, is heavily reliant on largely invisible labour and ecological 
+harms.
+This conﬁguration of procurement capabilities exposes an exploitation con-
+troversy which currently dominates the EdTech Stack we Have. Degradation 
+from edtech digital product and process lifecycles include the following: ‘raw 
+ingredients of digital devices’ (e.g., lithium batteries and copper cabling); ‘en-
+vironmentally destructive manufacture and production of digital devices’ (e.g., 
+harmful waste and hazardous chemicals); ‘energy-greedy data infrastructures 
+that lie behind digital transactions’ (e.g., data centres and server farms); and 
+the ‘environmental cost of dismantling and disposing digital hardware’ (e.g., 
+pollution, contamination and toxic waste)’ (Selwyn, 2018, para. 6–9).
+Cloud capabilities: a monopolisation controversy
+The EdTech Stack’s cloud capabilities are conﬁgured in relation to existing 
+operating terms and conditions of big-tech companies. These capabilities im-
+bue a layer of ‘subterranean cloud infrastructure’ (Bratton, 2015, p. 4). The 
+effects of these ‘connective architectures’ (Williamson et al., 2022), such 
+as  Amazon, include the following: inscribing commercial business models, 
+282 Teresa Swist
+Figure 17.1  The EdTech Stack.
+The EdTech Stack
+Systemic capabilities
+Planetary edtech controversies
+Procurement capabilities 
+Exploitation
+Cloud capabilities
+Monopolisation
+Multimodal capabilities
+Datafication
+Internet-of-Things capabilities
+Hyperconnection
+Biometric capabilities
+Authorisation
+Co-evolutionary capabilities 
+Innovation
+A public space democratising expertise between: 
+Researchers            Policymakers                          Educators                         Students  
+Designers               Ethicists                    Communities
+Measures for collective learning, experimentation, and action:
+●
+problematise the innovation of co-evolutionary capabilities and enact careful measures; 
+●
+contest the authorisation of biometric capabilities and enact trustworthy measures; 
+●
+address the hyperconnection of IOT capabilities and enact ethical measures; 
+●
+query the datafication of multimodal capabilities and enact equitable measures; 
+●
+resist the monopolisation of cloud capabilities and enact cooperative measures;
+●
+surface the exploitation of procurement capabilities and enact sustainable measures.
+The EdTech Stack 283
+habituating users to associated technologies, interfacing with institutions, 
+platforming third-party providers and reinfrastructuring. Amoore (2020) 
+draws attention to the ‘aperture’, or openings, of cloud data and algorithms 
+which embed new and emergent ‘technologies of perception’ (p. 15).
+This conﬁguration of cloud capabilities exposes a monopolisation controversy 
+which currently dominates the EdTech Stack we Have. The signiﬁcance of this 
+for education is twofold: ﬁrst, ‘that global cloud operators host many of the 
+digital services and platforms that schools, colleges, and universities de-
+pend  upon for pedagogical, curricular, assessment, management, and data 
+purposes’; and second, ‘cloud operators are also integral to the edtech indus-
+try. EdTech companies depend on cloud storage and computing facilities for 
+the functioning of their education products and services’ (Macgilchrist, Potter, & 
+Williamson, 2021, pp. 372–373). This techno-economic business model obli-
+gates institutions to pay subscriptions and rents, with additional value ex-
+tracted from cloud infrastructure integration with educational institutions and 
+platforms (Komljenovic, 2021).
+Multimodal capabilities: a dataﬁcation controversy
+Multimodal capabilities of the EdTech Stack are conﬁgured across formal and 
+informal learning contexts via modes of dataﬁcation. These capabilities imbue 
+the urban software and public service privatisation of the ‘cities’ layer (Bratton, 
+2015). Multimodal capabilities in the context of learning analytics (MMLA) 
+can be classiﬁed into types of data such as digital data, physical data, physio-
+logical data, psychometric data and environment data. (Mu, Cui, & Huang, 
+2020). Such analytics can track behavioural trajectories, learning outcomes, 
+learning task performance, teacher support, engagement and student feedback 
+(Sharma & Giannakos, 2020). These dataﬁed capabilities inform a ‘smart 
+schools imaginary’ (Williamson 2015), which positions students in two key 
+dimensions: as ‘data objects’ to be tracked, monitored and modiﬁed and as 
+‘active subjects’ to calculate and compute the city (p. 11).
+Existing conﬁgurations expose a dataﬁcation controversy which currently 
+dominates the EdTech Stack we Have. This stack capability is driven by the 
+quest for ‘educational insights’ which relies upon data extraction from ‘sources 
+such as sensors, pervasive devices, and computer vision systems’ to research 
+learning interactions, teacher-student communication, spatial dynamics, psycho- 
+motor skills, as well as body gestures and postures (Ruipérez-Valiente et al., 
+2022, p. 1). Multimodal concerns raised in the learning analytics context in-
+clude over-surveillance, capturing activities and data which are private, per-
+sonal and not learning-related, the difficulty of translating data in meaningful 
+ways to enhance learning, as well as issues of consent (Sharma & Giannakos, 
+2020, p. 2). Even beyond classrooms, the power and control of ‘programma-
+ble pedagogies’ (Williamson, 2015) become extended into urban life and the 
+regulation of everyday conduct (ibid., p. 11).
+284 Teresa Swist
+IoT capabilities: a hyperconnection controversy
+The IoT capabilities of the EdTech Stack we Have are conﬁgured in relation to 
+the Internet of Things that organise sociotechnical networks and interactions. 
+These capabilities imbue an ‘address’ layer (Bratton, 2015, p. 5) whereupon 
+identities are continually imprinted and new interconnections are enrolled 
+across physical and virtual spaces. Increasingly spread across society, the Inter-
+net of Things (IoT) is a network of interactive, technical components composed 
+through the integration of sensors, informational processors and actuators 
+(Allhoff & Henschke, 2018).
+This conﬁguration exposes a hyperconnection controversy currently dominat-
+ing the EdTech Stack. Key attributes of hyperconnectivity include always on 
+(due to broadband and ubiquitous mobile devices), readily accessible (infor-
+mation rich, interactive, people-to-machine and machine-to-machine commu-
+nications) and always recording (Fredette et al., 2012). The IoT industry is 
+expanding, with future educational visions concentrated on ‘developing the 
+capability of objects and devices to digitally connect and interact with each 
+other through constant data collection’ (Southgate, 2020, p. 6) which not 
+only feeds big data for machine learning (such as geolocation and biometrics), 
+but also fuels the notion of ‘smart’ classrooms ‘where institutional systems and 
+student devices connect and sensor technology automates functions such as 
+climate control and security’ (ibid).
+Biometric capabilities: an authorisation controversy
+The EdTech Stack’s biometric capabilities are conﬁgured in relation to par-
+ticular modes of documenting and surveilling learners and citizens. These ca-
+pabilities imbue an ‘interface’ layer that is ‘drawn by the augmentation of the 
+hand, of the eye, or dissolved into objects’ (Bratton, 2015, p. 5). Across soci-
+ety, identiﬁcation is increasingly mediated with biometric data such as the 
+technical processing of personal information, including an ‘individual’s physi-
+cal, psychological or behavioural characteristics which allow or conﬁrm the 
+unique identiﬁcation of that person, such as facial images, voice recognition or 
+ﬁngerprints’ (GovUK, 2022, p. 6). Biometric applications in education span 
+multiple tasks: access to platforms, registering class attendance, evaluating 
+identity in online exams, on-campus security, identifying students motivations 
+(affective states, motivational status) and for analytics to optimise a teaching/
+learning system (Hernandez-de-Menendez et al., 2021).
+This conﬁguration of biometric capabilities exposes an authorisation contro-
+versy which currently dominates the EdTech Stack we Have. Surveillance tech-
+nologies in education have a normative force, Gourlay (2022) argues, which 
+shapes observations and recording practices and become proxies for experi-
+ence. However, this involves a process of ‘stripping out aspects of engagement 
+which are private, unseen, relational, or ephemeral’ and ignoring the messiness 
+of everyday practices ‘rendering the individuals into documents which are then 
+open to scrutiny’ (para. 25).
+The EdTech Stack 285
+Co-evolutionary capabilities: an innovation controversy
+The EdTech Stack’s co-evolutionary capabilities are conﬁgured in relation to 
+the entanglement of living, technical and institutional capabilities which artic-
+ulate not only what has been, but what could be. These capabilities imbue a 
+‘user’ layer, a positionality ‘not only through which we see The Stack, but also 
+through which The Stack sees us’ (Bratton, 2015, p. 256). Such capabilities of 
+past, present and future positionalities are ‘networked’ across people, places 
+and platforms (Swist & Collin, 2017). Cognition is therefore not character-
+ised simply by consciousness, but rather across the ‘planetary cognitive ecol-
+ogy’ (Hayles, 2017) of human, technical and biological agents (e.g., urban 
+traffic control, drones and trading algorithms). The externalisation of memory 
+via technical prostheses, or supports, informs not only ways of thinking, acting 
+and being – but also conditions of innovation and possibility (Stiegler, 2016).
+Existing co-evolutionary capabilities expose an innovation controversy 
+which currently dominates the EdTech Stack we Have. The phenomenon of 
+ChatGPT, for example, indicates how a large language model is composed of 
+living, technical and institutional dynamics of knowledge production: human 
+and environmental exploitation, a big-tech model fuelled by data traces and 
+commercialisation agendas, plus the varying ways institutions simply accept 
+(or strongly critique) the integration of such technical supports across society. 
+Individual approaches to ethical inquiry are not inadequate to deal with the 
+distribution of cognition and decision-making across these assemblages 
+(Hayles, 2022). New forms of contributory research, invention and ‘public 
+power’ are therefore necessary to inform ‘regional and experimental transi-
+tional practices’ (Stiegler, 2016, p. 181).
+Measures to democratise Edtech Stack expertise
+The EdTech Stack is a conceptual and methodological innovation to inspire 
+public spaces that explore new ideas, models for research and schemas for re-
+conﬁguring planetary edtech with diverse stakeholders. This process of democ-
+ratising expertise involves ‘the design and testing of projects and solutions that 
+integrate a plurality of points of view, demands, and expectations’ (Callon, 
+Lascoumes, & Barthe, 2009, 32). To do so, diverse engagement with the Ed-
+Tech Stack’s systemic capabilities and planetary edtech controversies is invited. 
+The possibilities for democratising edtech expertise are outlined across the 
+following measures.
+Problematise innovation with careful measures
+The co-evolutionary capabilities layer of the EdTech Stack must be problema-
+tised as a ‘test of our present’ (Stengers, 2021) to diversify thought and action. 
+To collectively problematise this innovation controversy requires diverse 
+stakeholders to learn how the EdTech Stack produces harmful knowledge in-
+equalities, so that co-evolutionary capabilities can be (re)produced in more 
+286 Teresa Swist
+beneﬁcial and caring ways. To address global challenges, Hayles (2021, 2022) 
+proposes relational and ethical frameworks to explore multiscalar linkages in 
+relation to uncertain futures. This requires new modes of creating, and craft-
+ing, innovation which opens up individual, group and collective ways of being. 
+Shaping such technological change invites a focus upon the ‘digital creativity 
+of action’ (Swirski, 2013): critically improvising what we know, how we act 
+and who we are becoming with systemic capabilities. Drawing upon Stiegler’s 
+philosophy, a ‘contributory design for digital technologies’ (Alombert, 2022) 
+can inform local experiments and technical milieus which respond to the needs 
+of inhabitants, so as to counter the dominance of digital corporations. In do-
+ing so, careful measures can be composed with diverse inhabitants, technolo-
+gies and institutions to reconﬁgure co-evolutionary capabilities towards the 
+EdTech Stack to Come.
+Query authorisation with trustworthy measures
+Biometric capabilities authorise new modes of surveillance and identiﬁcation 
+for students and educators across the EdTech Stack. To collectively query this 
+authorisation controversy requires diverse stakeholders to learn how surveil-
+lance and identiﬁcation works (or not) in relation to particular pedagogical 
+practices and contexts. A potential starting point for resistance is for schools, 
+educators, students and parents to collectively learn about biometric identiﬁ-
+cation, so as to collectively query in whose interests such authorisation takes 
+place. For example, a UK report on biometrics in schools identiﬁed the high 
+use of biometric technologies in schools; with failures in consent and data 
+protection terms, the authors propose a temporary moratorium until a full 
+assessment is made across UK settings (King & Persson, 2022). Areas identi-
+ﬁed for future research include researching positive exceptions of biometric 
+technology in educational settings, assessing the discriminatory effect of cash-
+less payment systems on families in disadvantaged areas, and researching the 
+commercial industry and its inﬂuence upon the provision of school services 
+(King & Persson, 2022). New alliances between researchers and programmers 
+of biometric technologies, and the purported beneﬁciaries (such as educators 
+and students) are needed. In doing so, trustworthy measures can be identiﬁed 
+with diverse stakeholders and institutions that reconﬁgure biometric capabili-
+ties towards the EdTech Stack to Come.
+Address hyperconnection with ethical measures
+IoT capabilities organise the attention of students and educators in new ways. 
+To collectively contest this attention controversy requires diverse stakeholders 
+to learn how the EdTech Stack currently relies upon market-led assumptions 
+about technology expansion, so that IoT capabilities can be sustainably recon-
+ﬁgured towards education as a public good. A potential starting point is to 
+trace and evaluate existing IoT issues in education, so as to identify the range 
+The EdTech Stack 287
+of existing and possible practices. Foundational IoT ethical issues, Allhoff and 
+Henschke (2018) observe, include informed consent, privacy, information se-
+curity, physical safety and trust; in addition, they emphasise that these issues 
+are not isolated, ‘but instead converge and intersect in multiple ways’ (ibid, 
+63). More broadly, a range of global community partnerships are necessary to 
+craft coordinated plans to ensure hyperconnectivity ‘can deliver on its promise 
+of economic development, more efficient healthcare, greater sustainability, 
+and increased educational beneﬁts’ (Fredette et al., 2012, p. 118). In doing 
+so, ethical measures can be identiﬁed with diverse stakeholders and institutions 
+to reconﬁgure IoT capabilities towards the EdTech Stack to Come.
+Contest dataﬁcation with equitable measures
+Multimodal capabilities generate new scales and habits of dataﬁcation. To col-
+lectively contest, this dataﬁcation controversy requires diverse stakeholders to 
+learn how the EdTech Stack currently exacerbates inequalities, so that multi-
+modal capabilities can be equitably reconﬁgured. Alongside the potential of 
+‘multimodal innovations in education’, future research about MMLA ‘should 
+also tackle some main challenges, such as model transfer across contexts, ethi-
+cal and equity concerns, scalability, and good alignment with the instructional 
+design, among many others’ (Ruipérez-Valiente et al., 2022, p. 4). For exam-
+ple, the US Edtech Equity Project (2022) provides free tools to help schools 
+and edtech companies ‘commit to racial equity in the design and development 
+of technologies for schools’. Examples include an AI in Education Toolkit for 
+Racial Equity, as well as a School Procurement Guide for Racial Equity. Fur-
+thermore, attention must be directed towards ‘legacy and emergent forms of 
+inequality in the digital age’ and the range of inequalities which are ampliﬁed 
+and reproduced – such as relating to age, race and ethnicity, sexuality, disabil-
+ity and geography. In doing so, equitable measures can be identiﬁed with di-
+verse stakeholders and institutions to reconﬁgure multimodal capabilities 
+towards the EdTech Stack to Come.
+Resist monopolisation with cooperative measures
+Cloud capabilities are currently driven by commercial monopolisation powers 
+of how organisations, educators and students utilise the EdTech Stack. Collec-
+tively resisting the monopolisation cloud operations has the potential to shape 
+cooperative models and alternatives aligned with the speciﬁc needs and values 
+of the education sector, especially for institutional sustainment as a public or 
+common good. A potential starting point for resistance is for schools, educa-
+tors, students and parents not only to collectively learn about how cloud com-
+puting operates in particular schools, districts, regions and countries but also 
+to understand the perspectives of diverse stakeholders. Current cloud operation 
+expertise is dominated by a ‘techno-economic business model’ (Macgilchrist, 
+Potter, & Williamson, 2021) and requires ‘an expansion of the analytical and 
+288 Teresa Swist
+ethical gaze in critical education technology research to focus on the techno- 
+economic business model and the experimental technologies that increasingly 
+underpin and conﬁgure a wide array of educational practices’ (p. 374). For 
+example, in a study of cloud computing in US schools, Reidenberg et al. 
+(2013) identiﬁed a typology of cloud services in public schools and a series of 
+recommendations for school districts, policymakers and vendors. Key recom-
+mendations included the following: districts being transparent about cloud 
+service providers, providing notice to parents, the addition of basic protec-
+tions on student data, strengthening data governance, as well as establishing a 
+national centre (independent of commercial interests) to provide critical guid-
+ance, stakeholder workshops and a repository for research, model contracts 
+and policies (ibid). This democratised expertise could inform a ‘cloud ethics’ 
+(Amoore, 2020) which exposes the politics of algorithms as they reconﬁgure 
+social relations. In doing so, cooperative measures can be identiﬁed with di-
+verse stakeholders and institutions to reconﬁgure cloud capabilities towards 
+the EdTech Stack to Come.
+Surface exploitation with sustainable measures
+Procurement capabilities are currently driven by processes which rely upon 
+material and labour extractivism of the EdTech Stack we Have. Educators, 
+students, leaders and policymakers should collectively learn about how supply 
+chains operate in particular schools, universities, districts, regions and coun-
+tries (and how they could be otherwise). This requires collectively surfacing 
+how we think and enact procurement across the education sector. A potential 
+starting point could focus upon tracing and evaluating existing supply chains 
+of edtech, so as to identify the environmental and associated labour harms 
+involved. For example, Selwyn (2021) proposes a radical shift in edtech mind-
+set which requires the reconﬁguration of edtech practices (such as procurement 
+patterns), priorities (requiring cultural change) and values (towards collective 
+engagement and responsibilities). Radically rethinking EdTech, Selwyn (2023) 
+argues, further can begin through enacting technological change as a commu-
+nal opportunity, reassessing relationships with digital technology, the critical 
+role of communities and ‘doing education technology differently’ (p. 3). 
+These forms of thinking and action could inform switches towards circular 
+economy initiatives in education, and benchmarking initiatives to address 
+forced labour (Mendoza, Gallego-Schmid, & Azapagic, 2019). In doing so, 
+sustainable measures can be identiﬁed with diverse stakeholders and institu-
+tions to reconﬁgure procurement capabilities towards the EdTech Stack to 
+Come.
+Conclusion: thinking with, and beyond, planetary edtech
+An alternative extrastatecraft of planetary edtech cannot be operationalised via 
+a set formula, or steps, or siloed expertise. An art, or collective creativity and 
+The EdTech Stack 289
+craft, of democratised expertise is necessary for thinking with, and beyond, 
+planetary edtech. This creative mode of expertise must be informed by the 
+‘protocols of interplay’ (Easterling, 2021) which modulate the systemic capa-
+bilities of the EdTech Stack. The multiscalar and generative scope of this spec-
+ulative thought experiment aligns with calls for innovative critical research 
+research, plus speculative and inventive methods, in relation to education, 
+technology research and policy studies (Swist, Humphry, & Gulson, 2023; 
+Castañeda & Williamson, 2021; Ross, 2017; Gulson et al., 2017). There is 
+potential to reconﬁgure knowledge about education in an age of planetary- 
+scale computation, but such possibilities require transgressing siloed expertise 
+and secluded approaches to planetary edtech, research and expertise. The Ed-
+Tech Stack offers a conceptual and methodological tool to explore, and rein-
+vent, the extrastatecraft of planetary edtech. These possibilities are neither 
+static nor inert – only dynamic, uncertain and contingent upon collectively 
+crafting the EdTech Stack to Come. This aims to open up a public space for 
+diverse stakeholders to problematise, contest, address, query, resist and surface 
+planetary edtech controversies. We urgently need expanded, multiscalar and 
+cooperative research to inform possibilities for a more just, sustainable and 
+equitable EdTech Stack to Come.
+References
+Allhoff, F. & Henschke, A. (2018). The internet of things: foundational ethical issues. 
+Internet of Things, 1, 55–66. https://doi.org/10.1016/j.iot.2018.08.005
+Alombert, A. (2022). From computer science to ‘Hermeneutic Web’: towards a con-
+tributory design for digital technologies. Theory, Culture & Society, 39(7–8), 35–48. 
+https://doi.org/10.1177/02632764221141684
+Amoore, L. (2020). Cloud ethics: algorithms and the attributes of ourselves and others. 
+Durham and London: Duke University Press.
+Arendt, H. (1958). The human condition. Chicago: University of Chicago Press.
+Auger, J. (2013). Speculative design: crafting the speculation. Digital Creativity, 24(1), 
+11–35. https://doi.org/10.1080/14626268.2013.767276
+Barendregt, L. & Vaage, N.S. (2021). Speculative design as thought experiment. She 
+Ji, 7(3), 374–402. https://doi.org/10.1016/j.sheji.2021.06.001
+Barthe, Y., Meyer, M. & Sundqvist, G. (2022). Technical problematisation: a demo-
+cratic way to deal with contested projects?. Science Technology and Society, 27(1), 
+7–22. https://doi.org/10.1177/097172182199558
+Bratton, B. (2015). The stack: on software and sovereignty. Cambridge, MA: MIT 
+Press.  https://direct.mit.edu/books/book/3504/The-StackOn-Software-and- 
+Sovereignty
+Callon, M., Lascoumes, P. & Barthe, Y. (2009). Acting in an uncertain world: an essay 
+on technical democracy, Cambridge, MA: The MIT Press.
+Castañeda, L. & Williamson, B. (2021). Assembling new toolboxes of methods and 
+theories for innovative critical research on educational technology. Journal of New 
+Approaches in Educational Research, 10(1), 1–14. https://doi.org/10.7821/naer. 
+2021.1.703
+Crawford, K. (2022). Atlas of AI. New Haven and London: Yale University Press.
+290 Teresa Swist
+Dunne, A. & Raby, F. (2013). Speculative everything: design, ﬁction, and social dream-
+ing. Cambridge, MA: The MIT Press.
+Easterling, K. (2014). Extrastatecraft: the power of infrastructure. New York: Verso 
+Books.
+Easterling, K. (2021). Medium design. New York: Verso Books.
+Edtech Equity Project (2022). Edtech Equity Projects. https://www.edtechequity.
+org/projects
+Edwards, P.N. (2010). A vast machine: computer models, climate data, and the politics 
+of global warming. Cambridge: The MIT Press.
+Farías, I. & Blok, A. (2016). Technical democracy as a challenge to urban studies, City, 
+20(4), 539–548. https://doi.org/10.1080/13604813.2016.1192418
+Fourcade, M. & Gordon, J. (2020). Learning like a state: statecraft in the digital 
+age.  Journal of Law and Political Economy, 1(1). https://doi.org/10.5070/
+LP61150258. Retrieved from https://escholarship.org/uc/item/3k16c24g
+Fredette, J.M., Marom, R., Steinert, K., & Witters, L.R. (2012). The promise and peril 
+of hyperconnectivity for organizations and societies. The Global Information Tech-
+nology Report, Chapter 1.10 (pp. 113–119). World Economic Forum.
+Gourlay, L. (2022). Surveillance and dataﬁcation in higher education: documentation 
+of the human. Postdigit Sci Educ. https://doi.org/10.1007/s42438-022-00352-x
+GovUk. (2022). Protections of biometric data of children in schools and colleges. Depart-
+ment of Education. https://assets.publishing.service.gov.uk/government/uploads/
+system/uploads/attachment_data/file/1092507/Biometrics_Guidance_July_ 
+2022.pdf
+Gulson, K., Thompson, G., Swist, T., Kitto, K., Rutkowski, L., Rutkowski, D., Hogan, 
+A., Zhang, V. & Knight, S. (2022). Automated Essay Scoring in Australian Schools: 
+key Issues and Recommendations. White Paper, November 2022. Education Innova-
+tions White Paper Series ISSN 2653-6749. Sydney Social Sciences and Humanities 
+Advanced research Centre (SSSHARC). University of Sydney, Australia. https://ses.
+library.usyd.edu.au/handle/2123/29760
+Gulson, K. N., Lewis, S., Lingard, B., Lubienski, C., Takayama, K. & Taylor Webb, P. 
+(2017). Policy mobilities and methodology: a proposition for inventive methods in 
+education policy studies. Critical Studies in Education, 58(2), 224–241. https://
+doi.org/10.1080/17508487.2017.1288150
+Gulson, K. N. & Sellar, S. (2019). Emerging data infrastructures and the new topolo-
+gies of education policy. Environment and Planning D: Society and Space, 37(2), 
+350–366. https://doi.org/10.1177/0263775818813144
+Hartong, S. (2016). Between assessments, digital technologies and big data: the grow-
+ing inﬂuence of ‘hidden’ data mediators in education. European Educational Re-
+search Journal, 15(5), 523–536. https://doi.org/10.1177/1474904116648966
+Hayles, K. N. (2017). Unthought: The Power of the Cognitive Unconscious. Chicago. 
+University of Chicago Press.
+Hayles, K. (2021). Three species challenges. Toward a general ecology of cognitive 
+assemblages. In S. Lindberg & H-R Roine (Eds.), The ethos of digital environ-
+ments (pp. 27–45). Routledge. https://www.routledge.com/The-Ethos-of-Digital- 
+Environments-Technology-Literary-Theory-and-Philosophy/Lindberg-Roine/p/
+book/9780367643270
+Hayles, N.K. (2022). Ethics for cognitive assemblages: who’s in charge here?. In S. 
+Herbrechter, I. Callus, M. Rossini, M. Grech, M. de Bruin-Molé & C. J. Müller 
+The EdTech Stack 291
+(Eds.), Palgrave handbook of critical posthumanism. Palgrave Macmillan. https://
+link.springer.com/referencework/10.1007/978-3-030-42681-1
+Hernandez-de-Menendez, M., Morales-Menendez, R., Escobar, C.A. et al. (2021). 
+Biometric applications in education. International Journal on Interaction Design and 
+Manufacturing, 15, 365–380. https://doi.org/10.1007/s12008-021-00760-6
+Howard, S., Swist, T., Gasevic, D., Bartimote, K., Knight, S., Gulson, K., Apps, T., 
+Peloche, J., Hutchinson, N. & Selwyn, N. (2022). Educational data journeys: where 
+are we going, what are we taking and making for AI?. Computers & Education Arti-
+ﬁcial Intelligence, 3(100073), 1–8. https://doi.org/10.1016/j.caeai.2022.100073
+King, P. & Persson, J. (2022). The State of Biometrics 2022: a review of policy and 
+ prac tice around biometric data in UK education. https://defenddigitalme.org/ 
+wp-content/uploads/2022/05/The-State-of-Biometrics-in-UK-education-2022- 
+v1.3.pdf
+Komljenovic, J. (2021). The rise of education rentiers: digital platforms, digital data 
+and rents. Learning, Media and Technology, 46(3), 320–332. https://doi.org/10. 
+1080/17439884.2021.1891422
+Lury, C. & Wakeford, N. (2012). Introduction. A perpetual inventory. In C. Lury & 
+N. Wakeford (Eds.), Inventive methods: the happening of the social (pp. 1–23). 
+New York: Routledge.
+Macgilchrist, F. (2021) What is ‘critical’ in critical studies of edtech? Three responses. 
+Learning, Media and Technology, 46(3), 243–249. https://doi.org/10.1080/ 
+17439884.2021.1958843
+Macgilchrist, F., Potter, J. & Williamson, B. (2021). Shifting scales of research on 
+learning, media and technology. Learning, Media and Technology, 46(4), 369–376. 
+https://doi.org/10.1080/17439884.2021.1994418
+Mendoza, J.M.F., Gallego-Schmid, A. & Azapagic, A., (2019). A methodological 
+framework for implementation of circular economy thinking in higher education 
+institutions: towards sustainable campus management. Journal of Cleaner Produc-
+tion, 226, 831–834. https://www.sciencedirect.com/science/article/abs/pii/S095 
+9652619311370?via%3Dihub
+Mu, S., Cui, M. & Huang, X. (2020). Multimodal data fusion in learning analytics: a 
+systematic review. Sensors, 20(23), 6856. https://doi.org/10.3390/s20236856
+Nowotny, H. (2003). Democratising expertise and socially robust knowledge, Science 
+and Public Policy, 30(3), 151–156. https://doi.org/10.3152/147154303781780461
+Pasquale, F. (2020). New laws of robotics: defending human expertise in the age of AI. 
+Cambridge, Massachusetts: The Belknap Press of Harvard University Press.
+Perrotta, C. (2021). Programming the platform university: learning analytics and pre-
+dictive infrastructures in higher education. Research in Education, 109(1), 53–71. 
+https://doi.org/10.1177/0034523720965623
+Reidenberg, J., Cameron, R. N., Kovnot, J., Norton, T. B., Cloutier, R. & Alvarado, 
+D. (2013). Privacy and cloud computing in public schools. Center on Law and Infor-
+mation Policy. http://ir.lawnet.fordham.edu/clip/2
+Rivas, A. (2021). The platformization of education: a framework to map the new direc-
+tions of hybrid education systems. UNESCO International Bureau of Education. 
+In-Progress Reﬂection No. 46. On Current and Critical Issues in Curriculum, Learn-
+ing and Assessment. https://unesdoc.unesco.org/ark:/48223/pf0000377733
+Ross, J. (2017). Speculative method in digital education research. Learning, Media and 
+Technology, 42(2), 214–229. https://doi.org/10.1080/17439884.2016.1160927
+292 Teresa Swist
+Ruipérez-Valiente, J. A., Martínez-Maldonado, R., Di Mitri, D. & Schneider, J. (2022). 
+From sensor data to educational insights. Sensors, 22(21), 8556. https://doi.org/ 
+10.3390/s22218556
+Sellar, S. & Gulson, K. N. (2021) Becoming information centric: the emergence of 
+new cognitive infrastructures in education policy. Journal of Education Policy, 36(3), 
+309–326. https://doi.org/10.1080/02680939.2019.1678766\
+Selwyn, N (2018, Oct 25). EdTech is killing us all: facing up to the environmental 
+consequences of digital education. Education Futures, Monash University. https://
+lens.monash.edu/@education/2018/10/25/1363185/edtech-is-killing-us-all
+Selwyn, N. (2021). Ed-tech within limits: anticipating educational technology in times 
+of environmental crisis. E-Learning and Digital Media, 18(5), 496–510. https://
+doi.org/10.1177/20427530211022951
+Selwyn, N. (2023). Digital degrowth: toward radically sustainable education technol-
+ogy. Learning, Media and Technology. https://doi.org/10.1080/17439884.2022. 
+2159978
+Selwyn, N., Hillman, T., Eynon, R., Ferreira, G., Knox, J., Macgilchrist, F. & 
+Sancho-Gil, J. M. (2020). What’s next for Ed-tech? critical hopes and concerns for 
+the 2020s, Learning, Media and Technology, 45(1), 1–6. doi: https://doi.org/10. 
+1080/17439884.2020.1694945
+Sharma, K. & Giannakos, M. (2020). Multimodal data capabilities for learning: what 
+can multimodal data tell us about learning? British Journal of Educational Technology 
+51(5): 1450–1484. https://doi.org/10.1111/bjet.12993
+Southgate, E. (2020). Artiﬁcial intelligence, ethics, equity and higher education: a ‘be-
+ginning-of-the-discussion’ paper. https://www.ncsehe.edu.au/wp-content/uploads/ 
+2020/07/Southgate_AI-Equity-Higher-Education_FINAL.pdf
+Stengers, I. (2021). Putting problematization to the test of our present. Theory, Cul-
+ture & Society, 38(2): 71–92. https://doi.org/10.1177/0263276419848061
+Stiegler, B. (2016). Automatic society: volume 1, The future of work. Translated by 
+Daniel Ross. Cambridge, UK: Polity Press.
+Swirski, T. (2013). Towards the “digital creativity of action”. In K. C. Lee (Ed.), Digi-
+tal creativity: individuals, groups and organizations (pp. 139–149). https://doi.
+org/10.1007/978-1-4614-5749-7_10
+Swist, T. & Collin, P. (2017). Platforms, data and children’s rights: introducing a ‘net-
+worked capability approach’. New Media and Society, 19(5), 671–685. https://doi.
+org/10.1177/1461444816686319
+Swist, T., Humphry, H. & Gulson. K. (2023). Pedagogic encounters with algorithmic 
+system controversies. Learning Media and Technology. https://doi.org/10.1080/ 
+17439884.2023.2185255
+Thompson, G., Gulson, K.N., Swist, T. & Witzenberger, K. (2022). Responding to 
+sociotechnical controversies in education: a modest proposal toward technical de-
+mocracy, Learning, Media and Technology. https://doi.org/10.1080/17439884. 
+2022.2126495
+Thylstrup, N., Flyverbom, M. & Helles, R. (2019). Dataﬁed knowledge production: 
+introduction to the special theme. Big Data & Society, 6(2), 1–5. https://doi.
+org/10.1177/2053951719875985
+UNESCO. (2021). Reimagining our futures together: a new social contract for educa-
+tion. https://unesdoc.unesco.org/ark:/48223/pf0000379707.locale=en
+The EdTech Stack 293
+Wark, M. & Jandrić, P. (2016). New knowledge for a new planet: critical pedagogy for 
+the Anthropocene, Open Review of Educational Research, 3(1), 148–178. https://
+doi.org/10.1080/23265507.2016.1217165
+Wilkins, A. & Olmedo, A. (2019). Introduction: conceptualizing education govern-
+ance: framings, perspectives and theories. In A. Wilkins & A. Olmedo (Eds.), Edu-
+cation governance and social theory: interdisciplinary approaches to research (pp. 
+1–20). London, UK: Bloomsbury.
+Williamson, B. (2015). Educating the smart city: schooling smart citizens through 
+computational urbanism. Big Data & Society, 2(2), 1–13. https://doi.org/10.10. 
+1177/2053951715617783
+Williamson, B. (2016). Digital education governance: an introduction. European Educa-
+tional Research Journal, 15(1), 3–13. https://doi.org/10.1177/1474904115616630
+Williamson, B. (2021). Meta-edtech. Learning, Media and Technology, 46(1), 1–5. 
+https://doi.org/10.1080/17439884.2021.1876089
+Williamson, B., Gulson, K.N., Perrotta, C. & Witzenberger, K. (2022). Amazon and 
+the new global connective architectures of education governance. Harvard Educa-
+tional Review, 92(2), 231–256. https://doi.org/10.17763/1943-5045-92.2.231

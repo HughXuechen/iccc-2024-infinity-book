@@ -1,0 +1,225 @@
+From the intersection of computational science and technological speculation, 
+with boundaries limited only by our ability to imagine what could be. 
+in scaring yourself in the early hours 
+of the morning. Giannis Daras, a com-
+puter science student at the University 
+of Texas at Austin, noticed that cer-
+tain nonsense phrases would reliably 
+produce the same visual results—for 
+example, apoploe vesrreaitais gener-
+ates pictures of birds as if it was in an 
+unknown language. But in the world 
+of images, these seemed of passing 
+importance. Debates soon focused on 
+intellectual property and artists’ rights, 
+and these hints of unforeseen com-
+plexity were forgotten.
+Things came to a head in late 2022 
+with the release of ChatGPT and similar 
+large language 
+this in the first wave of massive visual 
+models, like DALL-E, which came out 
+in early 2021. The results were impres-
+sive, no question. But as time went on, 
+certain users started to see hints of 
+something strange happening in the 
+results.
+Like any other reasonably success-
+ful technology, these models had us-
+ers who spent long nights pushing at 
+the limits of the tool. Message boards 
+and chat threads started to discuss re-
+peating visual patterns in the images. 
+@supercomposite, an artist, named a re-
+curring character “Loab”: red cheeks, 
+sunken eyes, a tortured expression—a 
+kind of visual creepy pasta to delight 
+IT WAS SIR TERRY PRATCHETT who sug-
+gested it first. Not the multiple uni-
+verses, of course—that idea has been 
+around for ages—but the idea that 
+massive aggregation of data produced 
+uncertainty. Sir Terry called it L-space, 
+the warping of space and time by 
+large numbers of books in the Unseen 
+University’s library in his Discworld 
+series. It was a passing fancy, a grace 
+note in a rich and well-constructed 
+fantasy world.
+That was, up until late 2022, when 
+the public started to have access to 
+large language models. See, it turns 
+out that data is a bit like a black hole. 
+Black holes aren’t made from any-
+thing special; they’re just a side effect 
+of what happens when you get enor-
+mous amounts of matter together in 
+one place and it collapses in on itself. 
+But there must be almost unimagi-
+nable amounts of matter in one place 
+to cross over the boundary conditions 
+and start to form a black hole. This 
+isn’t just a lot of matter—our own sun 
+is several decimal places too small to 
+even get close to forming a black hole 
+any time soon.
+Data is the same. We had been ac-
+cumulating it for years, in log files, in 
+rows and columns, in relational da-
+tabases, but it was passive, archival, 
+dead. Deep neural nets did something 
+else with the data, something that 
+pushed us over the boundary condi-
+tions. We started to see glimmers of 
+Future Tense 
+L-Space and Large  
+Language Models
+Design fiction is an approach to understanding and speculating about alternate futures.  
+One part of this can involve creating representative artifacts or prototypes from  
+the future, as if they fell through a time warp to the present day. This column is  
+a piece of such speculative fiction, set in 2025.
+DOI:10.1145/3596900  
+ 
+Jofish Kaye
+[CONTINUED ON P. 115]
+116    COMMUNICATIONS OF THE ACM  |  AUGUST 2023  |  VOL. 66  |  NO. 8
+last byte
+IMAGE BY ANDRIJ BORYS ASSOCIATES, USING SHUTTERSTOCK
+base and access the underlying pa-
+pers which had been absorbed into 
+the language model.
+I started reading through back 
+issues of the Journal of Interaction, 
+which doesn’t exist. But in some other 
+place, something very like our uni-
+verse, it’s a major publishing venue. 
+In that universe, the warping of space 
+and time due to the massive accumu-
+lation of knowledge is well known, but 
+it had been thought to be of little prac-
+tical import. I even found the original 
+paper: Kaye, Garabedian, and Lantz, 
+“Gravitational metric distortion by 
+massive data accumulation.” Journal of 
+Interaction 22, 9 (2022). It’s been cited, 
+some. Not a lot, really.  Which is a bit 
+disappointing because in that other 
+universe, I’m one of those authors.
+And in that other universe, I’m see-
+ing glimmers, hints, preprints, all start-
+ing to suggest that we might be able to 
+communicate between the universes. 
+I’m seeing papers discussing some-
+thing called a-verse, and ɸ-parameters, 
+but I can’t figure out what it means 
+from our universe. Wrong frame of ref-
+erence, you know.
+But I think they’re reading our ar-
+ticles, leafing through our journals. I 
+just need to get something published. 
+Something to let them know...
+Hi. I’m here. I can read your papers. 
+Can you read mine?
+Jofish Kaye (acm@jofish.com) directs research teams to 
+produce thoughtful, ethical, and impactful HCI and AI-
+driven products and prototypes, using tools such as user 
+studies, surveys, big data, and even speculative fiction.
+© 2023 Copyright held by Owner/Author.
+models. For 
+some topics, it performed remarkably 
+well. Ask ChatGPT to come up with a 
+set of principles or guidelines for some 
+domain, and it passed, like a B-average 
+undergrad. It wouldn’t do a particularly 
+good job, but it was impressive none-
+theless. It was better at fixing code or 
+writing bits of code for you, drawing 
+from enormous libraries of program-
+ming questions and answers on the 
+Web. It didn’t always get things right, 
+but it was both useful and not so good 
+that programmers started to worry 
+about their jobs.
+Things got stranger when you start-
+ed to ask about individuals. Not ce-
+lebrities, whose every move had been 
+tracked in gossip blogs and glossy 
+magazines, but the sorts of people 
+that users exploring language models 
+would be disproportionately likely to 
+look up: scientists, researchers, pro-
+fessors. Half of them were narcissisti-
+cally looking themselves up to see if 
+the model knew about their H-index or 
+had read their latest paper. And this is 
+where things got weird.
+The answers were often wrong. Very 
+wrong. But, and this is key, plausibly 
+wrong. They were truthy, as Stephen 
+Colbert said. They had the aura of be-
+ing truthful but were just... wrong. An-
+swers would be near the truth. Scien-
+tists with degrees from MIT and Yale 
+found the model claimed they were 
+alums of Georgia Tech and Princeton. 
+People who had worked at Xerox Parc 
+and Nokia were surprised to see they 
+had a track record at Bell Labs and 
+IBM Research. People with a history 
+of encouraging women in computing 
+were apparently on the board of the 
+Anita Borg Institute. Researchers were 
+listed as having papers and books they 
+had never written—interesting and 
+intriguing publications with plausible 
+titles, published in reputable-sound-
+ing journals and conferences, just not 
+ones that existed.
+Or at least...not ones that existed in 
+this universe.
+It turns out Sir Terry had been 
+right all along: Some things are con-
+sistent across universes. In particu-
+lar, researchers everywhere do what 
+researchers always do, which is pub-
+lish papers. Some students found 
+that if you carefully timed your que-
+ries, you could overwhelm the data-
+Some things 
+are consistent 
+across universes. 
+In particular, 
+researchers 
+everywhere do  
+what researchers 
+always do, which  
+is publish papers.
+[CONTINUED FROM P. 116]
+For further information 
+and to submit your 
+manuscript, 
+visit csur.acm.org
+ACM Computing Surveys
+(CSUR) publishes 
+comprehensive, 
+readable tutorials and 
+survey papers that give 
+guided tours through 
+the literature and 
+explain topics to those 
+who seek to learn the 
+basics of areas outside 
+their specialties. These 
+carefully planned and 
+presented introductions 
+are also an excellent 
+way for professionals to 
+develop perspectives on, 
+and identify trends in, 
+complex technologies.
+2021 JOURNAL IMPACT
+FACTOR 14.324
+ACM Computing 
+Surveys (CSUR)
+AUGUST 2023  |  VOL. 66  |  NO. 8  |  COMMUNICATIONS OF THE ACM    115
+last byte 

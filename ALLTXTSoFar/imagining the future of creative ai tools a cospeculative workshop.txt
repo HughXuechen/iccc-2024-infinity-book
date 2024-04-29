@@ -1,0 +1,736 @@
+ 
+Degree Project in Interactive Media Technology 
+Second cycle 30 credits 
+ 
+Imagining the Future of Creative AI 
+Tools 
+A Co-speculative Workshop 
+EMELIE ERIKSSON 
+ 
+Stockholm, Sweden 2022 
+Imagining the Future of Creative AI Tools
+a Co-speculative Workshop
+EMELIE ERIKSSON, KTH Royal Institute of Technology, School of Electrical Engineering and Computer Science,
+Sweden
+Creative artificial intelligence (AI) is often explored in terms of machine intelligence on a philosophical basis. As a
+counter-reaction, there have been calls for user-centered creative AI. This thesis aims to make visible creative practitioners’
+needs, values, and ethical perspectives that might inform us on the construction of future creative AI tools. It also discusses
+the need for pragmatic aesthetics as a holistic design approach. Five artists of different backgrounds were invited to a
+co-speculative workshop where they expressed their thoughts and imaginings regarding creativity, creative tools, and AI.
+The results suggest that we need to be mindful of virtue ethics, N-creativity, exploration, intuition, trust, and agency when
+designing creative AI tools. Furthermore, the findings were used to propose design sensitivities aimed at AI researchers
+and designers. Future research is needed in order to make conclusions about the practical value of the proposed design
+sensitivities.
+SAMMANFATTNING
+Kreativ artificiell intelligens (AI) undersöks ofta i termer av maskinintelligens med filosofiska grunder. Som en motreaktion
+har det förordnats mer användarcentrerad kreativ AI. Denna avhandling syftar till att synliggöra kreativa utövares behov,
+värderingar och etiska perspektiv som kan informera oss om hur framtida kreativa AI-verktyg bör konstrueras. Den
+diskuterar även behovet av pragmatisk estetik som en holistisk designstrategi. Fem konstnärer av olika bakgrund deltog
+i en samspekulativ workshop där de uttryckte sina tankar och föreställningar om kreativitet, kreativa verktyg och AI.
+Resultaten pekar på att dessa verktyg bör designas med begrepp som dygdetik, N-kreativitet, utforskande, intuition,
+tillit och datainverkan i åtanke. Vidare användes resultaten för att föreslå designkänsligheter riktade till AI-forskare och
+designers. Vidare forskning krävs för att kunna dra slutsatser kring designkänsligheternas praktiska nytta.
+CCS Concepts: • Human-centered computing → Interactive systems and tools.
+Additional Key Words and Phrases: n-creativity, creativity, creative ai tools, creative tools, creativity support tools, speculative design,
+co-speculation, co-speculative workshop
+Nyckelord: n-kreativitet, kreativitet, kreativa ai verktyg, kreativa verktyg, kreativitetsstödjande verktyg, spekulativ design, samspekulation,
+samspekulativ workshop
+Author’s address: Emelie Eriksson, emeerik@kth.se, KTH Royal Institute of Technology, School of Electrical Engineering and Computer Science, Stockholm,
+Sweden, SE 100 44.
+Permission to make digital or hard copies of part or all of this work for personal or classroom use is granted without fee provided that copies are not made or
+distributed for profit or commercial advantage and that copies bear this notice and the full citation on the first page. Copyrights for third-party components of
+this work must be honored. For all other uses, contact the author.
+Document date: June 10, 2022
+Swedish title: Att föreställa sig framtidens kreativa AI verktyg
+Swedish subtitle: en samspekulativ workshop
+© 2021 Copyright held by the author.
+1
+Emelie Eriksson
+1
+INTRODUCTION
+From cave paintings to new media art – how we humans express ourselves is constantly evolving, and so are our creative
+tools. Artificial intelligence (AI), has paved the way for a new way of expression, and a concept called creative AI. As a
+reasonably new phenomenon, the definition of creative AI is not yet solid. Within AI research, creativity is often discussed
+in relation to machine intelligence. For instance, there are studies investigating machines’ abilities to create artworks,
+claiming that AI systems could be regarded as intelligent creative agents in their own right [12][15]. Other studies look to
+creative AI as a tool for creative co-creation [24][30]. In this report, creative AI refers to any technology used in creative
+practices that utilize AI somehow. It could be a co-creation tool, such as the robot arm Sougwen Chung uses in her painting
+practice [1]. It could also be an editing software like Adobe Premiere Pro where AI recently has been introduced to fasten
+workflows by intelligently re-time music clips to match video content [37].
+Regardless of how one chooses to define creative AI, there have been calls for more user-centered AI design [5][43]
+– arguments that we need to consider how the human users will understand and make use of AI tools. Creative AI is a
+Human-Computer interaction issue, and not solely an AI issue [5]. This thesis frames creative AI as a tool made for human
+artists. One of the main purposes of the work is to investigate what kind of creative AI artists would like to see and engage
+with in the future. It does so by distinguishing creative tools as being either G-creative or N-creative; more outcome or
+process-centered [43].
+The overall aim of the research is to answer the question “What are creative practitioners’ needs, values, and ethical
+perspectives that can inform the construction of future creative AI tools?”. Five artists with different backgrounds were
+invited to a co-speculative workshop. The qualitative oral, written and sketched workshop data were thematically analyzed.
+The findings were then used to propose several design sensitivities that could be considered when designing creative
+AI tools. The design sensitivities are limited to the qualitative data findings from the particular subjects of this study.
+They should not be seen as strict guidelines, but rather, as recommendations and thought provokers that could open up for
+further research and interesting designs.
+The value in this work lies in the value of creative practice and art itself. History is documented through art. Art forms
+the richness and aesthetic experiences of human life. Art can be a way of self-expression, a therapeutic process that leads
+to well-being [39]. Artists work within creative industries – their labor and creativity result in movies, computer games,
+and music that many of us consume on a daily basis. In other words; art contributes to society as a whole, but also has an
+impact on single individuals. Artists and their art-making practice are thus worthy of careful study, especially when we
+stand in front of new technologies that possibly could reshape what art and art making is and entails. If art and creative
+practice should remain diverse and somewhat accessible in the future, with the human soul at its core, it is important
+that we look at the many ways artists might find use of AI, and that we do not limit creative AI to certain fields and
+target groups. This study – by looking at creativity and creative tools from a very open human-supportive perspective – is
+therefore also relevant from a social sustainability perspective.
+2
+BACKGROUND
+In order to contextualize this project, I will introduce different definitions of creativity, including the definition of N-
+creativity. I will also present related research on creativity support tools – a subfield to HCI where AI has been recognized
+as a potential amplifier. Finally, I will give an overview of creative AI and describe virtue ethics – an ethical theory that
+can be utilized when designing creative AI technology through a critical lens.
+2
+Imagining the Future of Creative AI Tools
+2.1
+Defining creativity
+Just as any virtue, creativity is a fluid term, complicated to define. According to the most commonly referenced definitions
+of creativity, creative ideas are original and appropriate for the task at hand [8][26][42]. Other common views state that
+creativity should result in valuable novelty [43].
+As creativity generally is seen as a human intelligence-dependent virtue, many researchers are interested in whether or
+not AI can push machines to become creative agents. Still and D’Inverno [43] have made an interesting contribution to the
+discourse on creative AI by trying to untangle the term “creativity” and by making suggestions to AI researchers. Still and
+D’Inverno claim that creativity has become a blanket term when in reality, there are two distinct theories of creative activity
+that derived from two distinct meanings of “creative”. N-creative is a way of immersive living and acting in the world,
+inherent in all aspects of life unless constrained. G-creative, on the other hand, is based on the power to generate valuable
+novelty, aimed at art and inventions that exist separately from their creator. Since the focus is on products that belong to
+the world of profit and economic growth, the term does not readily include improvised dance, music, and story-telling [43].
+The N-creative approach is more universal, and Still and D’Inverno [43] suggest that AI researchers adopt “an “N-creative
+approach to designing systems that support being in the world, enhancing and supporting human creative activity in all its
+forms”. Furthermore, they also encourage questioning why we would ever want artificial G-creative systems to begin with
+[43].
+2.2
+(Intelligent) creativity support tools
+Creative support tools (CST) aim to support users within different creative industries and fields in their creative process.
+As a subfield of HCI, these tools have been well-documented within HCI research for over a decade [16][17]. Based on the
+literature review of 143 papers, Frich et al. [16] define CST as follows: “A Creativity Support Tool runs on one or more
+digital systems, encompasses one or more creativity-focused features, and is employed to positively influence users of
+varying expertise in one or more distinct phases of the creative process” [16]. A majority of these tools are targeted towards
+designers, but researchers have also shown interest in creating tools aimed at musicians, choreographers, composers,
+painters, filmmakers, illustrators, and writers [16]. For instance, the CST "Drawing Apprentice" facilitates collaborative
+digital sketching with the intention of improving artistic skills [13], and the CST "Choreographer’s Notebook" serves as a
+video annotation system for dancers and choreographers [41].
+Gabriel et al. [17] highlight the need for Creative Support Systems (which includes CST) to cover multiple phases of
+the design process across different collaborative settings. To do so in the most adapted way, the cognitive pattern and
+behavior of users have to be considered, which implies the introduction of AI [17]. Main and Grierson [32] note that
+intelligent CST likely would change the dynamic between tool and user. Researchers and designers of these tools would
+have to decide what kind of role the tool should play in the design process. Perhaps, it could take the role of a monitoring
+nanny, a facilitating pen-pal, a knowledgeable coach, or an intelligent colleague [31]. We have already seen human traits
+assigned to technology in the form of commercial voice assistants such as Siri and Alexa. Perhaps, future creative tools
+might not only be “intelligent” but also be assigned with faces, voices, and personalities in a similar fashion.
+2.3
+Creative AI – tool or threat?
+AI is a set of algorithms designed to function parallel to human intelligence actions such as decision-making or creativity
+[33]. For decades, artists and researchers have been interested in writing computer programs that can generate art, but it
+is not until recently that AI has infiltrated the art scene. The source behind this new way of art-making is called neural
+3
+Emelie Eriksson
+networks. One of the most popular neural networks, called Generative adversarial networks (GAN), was introduced
+by Goodfellow in 2014 [21]. By using neural networks, artists can set up algorithms that enable computers to “learn”
+an aesthetic by looking at many images using machine learning [33]. Neural networks have been used by artists and
+researchers alike. For instance, Ge et al. [19] proposed and evaluated outputs by "DoodlerGAN" – a part-based GAN
+that generates sketches of birds and creatures, and the artist Scott Eaton has used his own neural network to paint his
+hand-drawn sketches of human figures1.
+Fig. 1. AI artwork by figurative artist Scott Eaton, hand drawn and painted with Eaton’s Bodies neural network. (https:
+//aiartists.org/scott-eaton).
+Creative AI is a controversial topic. Many claim that there is no such thing as machine creativity – that art requires
+human intent, inspiration, and a desire to express something. Yet, scientists have been eager to explore the topic and many
+practitioners even present their AI algorithms as artists or potential artists [22].
+The Turing test [44] is often used as a means of deciding whether a machine is intelligent (or creative, in the context
+of creative AI) or not. In the original test, an interrogator asks questions via a teletype to two players, one of which is
+human, the other a machine. If on average, the interrogator cannot tell which player is the machine and which is human,
+the machine might be regarded as intelligent [18]. The Turing test was used In a research project by Elgammal et al. [15],
+where a variant of GAN – a creative adversarial network (CAN) – was used to create AICAN, an almost autonomous
+machine artist. A visual Turing test was then used to register how people reacted to the generated images and whether they
+1https://aiartists.org/scott-eaton
+4
+Imagining the Future of Creative AI Tools
+could distinguish between AICAN- or human-created art. The result shows that the human subject could not tell whether
+the art was made by a human artist or by a machine [15]. Studies such as the AICAN study provokes concerns about AI as
+a threat or rival to art made by humans. The press and media also fuel this fear, writing about the potential of AI acting
+creatively in its own right [23][28][35]. But according to some, the art world has nothing to fear in AI. Technology should
+not be seen as a threat, but rather, as a tool.
+Hertzmann [22] gives a historical perspective on the matter, describing how new technologies always have stirred fears
+of displacing artists, just to later be accepted and provide new creative and professional opportunities. For instance, when
+photography was introduced in the 19th century, many artists were dismissive and saw it as a threat to “real art”. Today,
+photography has become widely accepted as its own art form, but it is also used as a tool by many painters who use images
+as reference pictures to paint from. Furthermore, photography has made image-making more accessible. Today, almost
+anyone can experiment with photography. Hertzmann speculates that AI will have the same trajectory. In a general sense,
+he argues that new technologies benefit art and artists, “creating new tools and modes of expression, and new styles of
+expression” [22]. What if creative AI could make creativity more accessible? How could AI be designed to allow new
+ways of expression? These are interesting questions that could be explored with an N-creative mindset to creative AI.
+2.4
+Virtue ethics
+AI, with its power and use of data, poses potential harmful impacts on individuals, certain groups, and society as a whole.
+These risks include bias, discrimination, injustice, privacy infrigments, increase in surveillance, loss of autonomy and
+overdependency on technology [38]. To mitigate or avoid these risks, it is important to consider ethics when designing
+intelligent technologies.
+There are three major theories in ethics: consequentialism, deontological ethics, and virtue ethics [6]. Consequentialism
+states that the right action in any given situation is the one that will produce the best overall outcome [40]. Deontological
+ethics, or law-based ethics, conceives of ethics in terms of rules – actions are ethical as long as they do not violate the law
+[20]. Finally, virtue ethics emphasizes the virtues or moral character, how one develops good qualities (e.g. honesty or
+courage), and the ability to apply them. As virtue ethics is concerned with character, it focuses on long-term patterns of
+action, rather than single acts [20]. The emphasis on the development of habits is supposed to help a person achieve their
+goals, and, by extension, help them flourish as an individual [10]. Decisions can be analyzed and framed by questions like:
+“who do I want to be?” and “what do I hope to accomplish?” [20].
+Initially, all three major theories were considered to be applied in this study. In the end, virtue ethics was found to be the
+theory that fits the topics that came to light during the workshop the most. In a creative AI context, virtue ethics implies
+that we look to the long-time goals of the users, who they want to be as artists and what qualities they want to develop.
+Virtue ethics could ensure that artists do not become too dependent on technology, and furthermore, it can ensure that
+creative AI is designed to support human artists, rather than replacing them.
+3
+METHODS
+In this section, I present the employed methods of this study: co-speculation and thematic analysis. Co-speculation made it
+possible to base my design recommendations on other artists’ experiences and imaginings. Thematic analysis was chosen
+as a method for analysis as a way to make sense of the qualitative data systematically.
+5
+Emelie Eriksson
+3.1
+Co-speculation
+Co-speculation is a collaborative method within speculative design practices [14] that incorporates non-design experts to
+speculate together with designers [45]. Wakkary et al. [45] write that “co-speculation is the recruiting and participation of
+study participants who are well-positioned to actively and knowingly speculate with us in our inquiry in ways that we
+cannot alone.“
+Kawachi [27] claims that speculative design generally lacks participatory aspects to it. As participatory design and
+speculative design share many commonalities (future orientation, a focus on technology, emphasis on objects to spark
+engagement), it makes sense to bring the two practices together. Participatory design entails the involvement of stakeholders
+in the design process. It builds on the political and moral standpoints that people who are affected by design should
+have more power in the process [27]. In their thesis, Kawachi [27] concluded that co-speculation performed well and
+successfully engaged everyday citizens to generate their own speculative narratives and artifacts related to “ikigai” – a
+psychological state of feeling worthy for a living.
+Co-speculation supports Still and d’Inverno’s idea of human-centered N-creative tools and how they should be developed;
+co-speculation places end-users of design in focus. Furthermore, the playful and active nature of co-speculation might
+have enabled study participants to better reflect and share opinions that might not have been possible in a traditional
+one-to-one interview.
+3.2
+Thematic analysis
+Thematic analysis is a method for analyzing and interpreting qualitative data. It often involves the generation of codes
+and themes [4][11]. Codes capture interesting features of the data. They are the smallest unit of analysis that together
+constitute themes – larger patterns of meaning. Themes offer a framework for the researcher to organize and report analytic
+observations. This is important since the aim of thematic analysis is not to simply summarize data, but to identify and
+interpret key features of qualitative data [11].
+According to Braun and Clarke [9], a researcher must actively decide between a bottom-up or a top-down approach
+when performing a thematic analysis. In the bottom-up (inductive) approach, the codes and themes derive from the content
+of the data, whereas in the top-down (deductive) approach, the codes and themes derive from concepts and ideas the
+researcher brings to the data [9]. In this study, a bottom-up approach was chosen. It was crucial to start by looking at the
+artists’ ideas and experiences first-hand, as this study is user-centric in the way that design recommendations are based
+on the artist’s opinions, views, and experiences. At the same time, the theoretical concepts from the literature review
+must have influenced how I looked, grouped, and interpreted the data. Braun and Clarke [9] note that thematic analysis
+is never purely one or the other, but a combination of both approaches; it is impossible to be purely inductive, and we
+rarely can ignore the semantic content of data when we code for a theoretical construct [9]. Nevertheless, the participant
+or data-based meaning was prioritized.
+The aim of the thematic analysis is to present the findings and interpretations effectively. Since the data from the
+workshop were diverse – both written, oral, and sketched – and derived from different workshop tasks, it made sense to
+apply thematic analysis as a way to understand how the data connects as a whole and in relation to the research question.
+6
+Imagining the Future of Creative AI Tools
+Table 1. Participant overview
+Pseudonym
+Kind of artist
+Level
+Daniel
+Interactive sound artist
+Professional
+Sheila
+Vocalist, composer, free improviser
+Professional
+Clara
+Beat producer
+Hobbyist
+Eleanor
+Illustrator, animator
+Student
+Max
+Singer, pianist
+Semi-professional
+4
+CO-SPECULATIVE WORKSHOP
+4.1
+Participants
+Five artists from different creative fields, aged 23-39 of American, French, Australian, Chinese, Peruvian, and Swedish
+nationality, were recruited to partake in a co-speculative workshop (see Table 1 for more information on the artists).
+The artists are referred to by pseudonyms. Some of the participants practice their creativity professionally, others semi-
+professionally or as a hobby. To partake, no previous experience with AI was needed. However, one of the artists, Sheila,
+stated that she “kind of ” had used AI in her creative practice before, as she recently built a dataset for a project which was
+used for gesture recognition. Another artist, Daniel, had used AI-generated sound classifiers, experimented with GAN
+systems for images, and had also worked with online sound systems which likely used AI to filter voices. All of the five
+participants stated that they were interested or open to using AI in their creative practice, although Daniel stated “I’m not
+very interested in AI on its own, but I think it could be a useful addition to a project”.
+4.2
+Co-speculative workshop
+To explore artists’ thoughts, opinions, and imaginings of creative processes and tools, I planned and designed a two-hour
+co-speculative workshop. The workshop was carried out in smaller groups of three and two as I wanted there to be enough
+time for everyone to express themselves. The workshop took place in a classroom-like room, seated around a table where
+everyone could see and interact with each other. One of the five participants partook remotely via a video conference
+application. The content consisted of an introduction, a self-reflective exercise, a group discussion, and a speculative
+design challenge (See Figure 2) followed by a design critique. The workshop was documented through video, photos, and
+the written and hand-drawn data that the participants generated during the workshop.
+The workshop began with a short introduction to creative AI, speculative design, and the aim of the workshop. A few
+examples of speculative designs unrelated to creative tools were shown to make sure the participants understood the
+freedom and future orientation of speculative design. Next, I moved on to explain what creative AI is and showed video
+examples of contemporary artists using AI in their creative practices [1][2][3][34]. The examples included artists from
+creative fields different from the participants, so they would not be too influenced by watching the videos.
+The introduction was followed by an individual exercise where the participants were asked to fill out a self-reflection
+form on paper. The questions ranged from short answered questions (e.g. “What do you do in terms of creativity?”) to
+more elaborate questions that the participants might not have considered before (e.g. “Why do you create/perform/practice
+what you are doing?”). The self-reflection gave me insight into the artists’ current use of tools and their separate views
+on creativity. For instance, I learned that all participants strive to be playful and curious in their creative practice. I also
+learned that the participants use a mix of physical and digital tools and that for some, tools are “just tools” – suggesting
+7
+Emelie Eriksson
+Fig. 2. Participants engaging in speculative sketching.
+that they might not be the center of attention in the creative process. For others, tools are “sacred” and “an enhancement
+of creative practice”.
+Next, we moved on to the group discussion. The group discussion was based on eight different statements/questions
+written on cards (see Table 2). The statements/questions concerned creative processes, creative outcomes, the notion of
+creativity, and the participants’ willingness to use AI in their own creative process. The stack of cards was placed in the
+middle of the table. The participants were asked to draw a card from the pile, read the question/statement out loud, and
+then respond to it – this made for a very relaxed and game-like feeling around the table. I sometimes asked a participant
+to elaborate on their thoughts or asked a follow-up question, but otherwise, the discussion was mostly handled by the
+participants themselves. The group discussion aimed to make the participants extend their thought on creative processes,
+tools, and AI even further, and furthermore, it prepared them for the design challenge that followed.
+The workshop concluded with a speculative design challenge and design critique. The participants were asked to
+individually respond to the design challenge “If you could imagine any tool that could help you in your creative practice,
+what would it be?”. As guidance, the participants were provided with a paper template. On the template, the participants
+were asked to consider the name of the tool, the role of the tool, and at what stage of the creative process they would use
+the tool. They were also prompted to sketch and give a description of the tool (see Table 3 for more information on the
+speculative AI tools). When the sketches were ready, the participants were invited to present their ideas to the group. Each
+presentation was followed by a question and answer session. The participants were provided with sheets with examples of
+critique questions to ask each other, but they were also encouraged to come up with their own questions. Examples of
+questions include: “Would this tool be personal to you?”; “Could this tool be misused in any way?”; “Where does data
+come from and how is it collected?”
+8
+Imagining the Future of Creative AI Tools
+Table 2. Workshop questions
+Questions
+∙ What is most important to you: The process or the outcome?
+∙ What is most fulfilling in the creative process?
+∙ Getting familiar with my tools and learning how to use them is an exciting and important part of the
+creative process. True or false?
+∙ Are there tools that you consider as cheating?
+∙ Do artists have to create/express novel things/ideas in order to be creative? Follow-up questions: What is
+creativity to you? What makes a person creative?
+∙ More and more of our data, even our most personal and secretive information, are stored on digital databases.
+How would you feel about data on your creative process/outcomes being stored and analyzed?
+∙ Would you be willing to collaborate with an AI in your creative process? If yes, in what stage(s) of the
+process? What kind of role would the AI have?
+∙ Would using an AI tool affect your sense of ownership over your creative outcome?
+Table 3. Overview of speculative designs made by participants of co-speculative workshop
+Name of the tool
+Description
+Cherish This Time
+an AI that picks out a personal photo/video/sound, plays it, and then deletes it.
+Unnamed tool 1
+an AI instrument made of glass, that can be used to create interesting visual/sound effects.
+The Artist
+a tool that asks the artist challenging questions while they create.
+Unnamed tool 2
+an AI software that quickly generates thumbnails/variants of the artist’s sketches.
+AI-piano
+an intelligent piano that assists the singer with playing songs, recording audio, etc.
+5
+ANALYSIS
+The workshop data was transcribed, collected, coded, and thematically analyzed on a Miro-board2 (see Figure 3). Out of
+the material, four prominent themes emerged: (1) Creativity as a process and lived experience, (2) How to use creative
+tools, (3) Who sees my creative data and why is it collected?, and (4) Creative AI tools: many possibilities.
+5.1
+Creativity as a process and lived experience: “To be creative to me is to be authentic, and that
+requires that you live in the moment”
+One of the most profound findings of the workshop is that artists create for the sake of creating, rather than the outcomes.
+Additionally, they also view creativity as something very personal and as a process that does not have to result in valuable
+novelty.
+The participants seem to agree with Still and d’Inverno’s idea of creativity as immersive living and acting in the world.
+A good example of this is how the participants answered the questions in the self-reflection form regarding what the
+creative process entails and where they look for inspiration. For all participants, inspiration-seeking counts as part of
+the creative process, and inspiration can come from anywhere. Eleanor finds inspiration in conversations with friends
+and family, nature, small everyday moments, films, and tv-shows. She also feels inspired when listening to other artists
+speak about their practice. Clara wrote that inspiration comes from her own experiences and inner emotions. Sheila stated
+2https://miro.com
+9
+Emelie Eriksson
+Fig. 3. Qualitative workshop data thematically analyzed on a Miro board.
+that most of her ideas come when she is cleaning or doing dishes. The ideas are mainly grounded in her experiences,
+interactions in the world, poetry, and everyday phenomena. In other words, creativity is not bound to moments of making,
+it can happen anywhere – even in something as mundane and unrelated to art as cleaning and doing dishes.
+When the participants had to choose what is more important to them – the outcome or the process – four out of five
+participants chose the process. Daniel explained “It’s the interesting part of the work anyway, most of the time. That’s
+where you are learning and exploring and testing and making stuff.” Additionally, Daniel wrote in the self-reflection form
+that he creates because he wants to understand the patterns and reactions that form the lived experience. Both Max and
+Eleanore wrote that they create because it makes them happy – in other words, creativity could be a way to engage with
+your emotions and the way you experience life. Based on these findings, it is fair to say that artists create for that lived
+experience that forms the creative process. When the artwork is out in the world, artists return to the process, creating
+something new. Even Max, who chose outcome over process (she loves to see how her work is perceived by an audience),
+said “If you don’t enjoy the process, you won’t be able to have a great outcome. You must love what you are doing and be
+engaged to get a great result.”
+A final example of how the workshop findings support Still and d’Inverno’s work comes from Eleanor. For her, creativity
+could literally be anything, as long as it has a personal intent behind it. She began by explaining that even a person drawing
+a line on a paper could be creative, as that line is made by a person with their own set of unique experiences, thoughts, and
+intent. Later, she came to the conclusion that creativity to her is to be authentic, to live in the moment: “To be creative to
+me is to be authentic. And that requires that you live in the moment. I know that people can see their lives as art, and
+I think that can be very poetic and beautiful. If you see everything you do as a piece of artwork, then there’s creativity
+behind everything, I suppose."
+All of this lines up very well with Still and d’Inverno’s view on N-creativity and further proves why AI researchers
+and developers should be interested in N-creative tools rather than G-creative tools. The findings, furthermore, tell us
+that creative AI tools do not necessarily need to be bound to moments of making. A creative outcome does not have to
+be a performance, a piece of music, or a painting. If creativity is a way of immersive living and acting in the world, a
+10
+Imagining the Future of Creative AI Tools
+creative tool could simply be something that makes the user reflect or perceive the world differently – a shift in gaze
+or an internal state. In our digital age, it could be how the artist perceives and approaches their digital data. One of the
+speculative designs, “Cherish This Time” even alluded to this idea. “Cherish This Time” is a speculative AI that takes
+speech as an input and then shows a personal photo, video, or plays a soundtrack for the user, just to, in the following
+moment, delete the file. When using the tool, the user has to be immersed and prepared that anything from their data could
+be shown and deleted. It goes against how we normally think of and treat our digitized personal memories, which is why it
+could be seen as a kind of alternative performative artwork, according to Daniel.
+5.2
+How to use creative tools: “Do you even have to learn how to use a tool to be able to use it?”
+How artists use and think of their current tools can also inform us on how creative AI tools should be constructed. Do
+artists prefer their tools to be “in the way” or more in the background of the creative process? How do the artists experience
+the learning process of figuring out a new tool? Is it important to use tools “properly”?
+From the self-reflection form, I learned that all participants use a mix of digital and physical tools – their collective
+creative tools span from music production software and digital assets to musical instruments, notebooks, pens, and paper.
+Some of the participants see their tools as “just tools” – suggesting that they might not be the center of attention in the
+creative process. For other participants, tools are “important”, “sacred” or even “an enhancement of creative practice”.
+During the discussion, Max mentioned that she thinks it is important to learn how to use tools, and that tools determine
+what is possible and not. Tools can even make her more creative: “When I learn to use new tools, it helps me become
+more creative. I get new resources to create something that I couldn’t before.” The tools also determine the quality of
+what she produces as well as her general experience of the creative process. As an example, she told us about how her old
+microphone was “hideous” and that it made her feel bad when creating. When she bought a new one that recorded in
+better quality, she could think more easily and focus on the creative process rather than the tool.
+Eleanor agreed on the importance of tools. At the same time, her experience of learning new tools differs depending on
+whether they are analog or digital: "Personally, I think it’s super important to learn how to use tools to be able to create
+what you want. But for me, if it’s an analog tool it’s a lot more fun to experiment and learn, than with digital tools. The
+software that they use in real animation studios... when you try to learn them there’s so much new and as I’m not used to
+them, it feels very difficult and I have a lot of mental resistance regarding that." In other words, too advanced tools with
+many functionalities might not always be user-friendly and intuitive to use. Interestingly enough, the only digital tool that
+Eleanor enjoys using – Procreate (a painting application on the iPad) – resembles how it is to draw and paint on physical
+paper.
+Neither Daniel, Sheila nor Clara seem to enjoy learning or mastering new tools. Both Daniel and Sheila mentioned that
+they often intend to master their tools in new ways, saving YouTube tutorials in their “watch-later” playlist, just to never
+get around to watching them. Possible reasons might be a lack of time or motivation. Daniel explained that to him, it never
+is about learning how to use tools fully, but about picking out the little threads of a tool that you need, and learning how
+to problem-solve: “It’s never about learning a specific tool very well, it’s like learning to ask the right questions.” The
+reason Sheila might not get around to watching tutorials might be because she enjoys to fight and struggle with her tools:
+“I like finding where things break and using that or finding where the limit is of a certain thing or what it can’t do and be
+like ’ok, can’t do that.... great! Let’s use it!’. And I push it, push it, push it, and maybe that results in something horrific
+coming out but that’s the playfulness of finding ’the wall’". In other words, it seems like she enjoys the problem-solving
+aspect of figuring out new tools. Sheila also went on to mention that to her, there is no right way to use tools: “You can
+11
+Emelie Eriksson
+use tools ‘incorrectly’ and still have something great come out of it” The others in the group, Daniel and Elanor, nodded
+in agreement.
+Playfulness and exploration seem to be important for the artists. Clara said: “I wouldn’t say ’learning’ [the tool] is
+exciting. I would say exploring the tool is more exciting.” Clara worries that AI will create certain limitations in her
+process. Today, she has the impression that AI is mostly used in recommendation systems. If AI becomes too good at
+recommending sounds or beats to her, she worries that she will lose the fun of exploring tools herself.
+To summarize, tools are important to artists. Tools can influence how artists experience the creative process and
+determine what is possible. For some, analog tools are more intuitive to use than digital. Advanced software with lots of
+menus might be difficult to learn and use in an intuitive way – something that might explain why some artists never put
+down the effort to master their digital tools fully. Instead, they enjoy exploring and playing with their tools. Exploration is
+very important to the artists. The possibility to explore creative AI tools and use them in intuitive and unexpected ways is
+therefore recommended.
+5.3
+Who sees my creative data and why is it collected?: “They are my sacred brains stored outside of
+my body”
+Creativity can be precious. It can take time and consideration before an artist decides to share their creative process
+and outcomes with others. While Max generally does not worry about her work being stored on digital databases as she
+publishes her work online already, she also went on to explain that she would not be comfortable with all of her work
+being made visible: “I wouldn’t feel comfortable sharing everything. I only share stuff that I’m happy with, so I probably
+have a lot of stuff that I’ve recorded that I’ve just done to try things out. I don’t want to share that.” Sheila expressed a
+similar concern, explaining how her notebooks and folios are her “sacred brains” stored outside of her body: “Inviting
+people into my practice space all takes a very long time for me to feel like ‘ok, this person is allowed in’ and they can see
+what I do and they can hear all of the noises that I don’t want people to hear yet because I’m still kind of working on them.”
+As a summative statement, Sheila said that she feels “conflicted” about the idea of sharing her creativity with an AI.
+Artists might not be comfortable sharing everything from the creative process with an AI tool – perhaps, only certain
+parts of it. Artists might feel differently depending on what kind of data is collected, stored, and analyzed. Hard data might
+not be that sensitive to artists, whereas artists might be more hesitant to share their creative sounds or sketches. In other
+words, what kind of data an AI collects should be carefully considered, and developers need to be aware that artists might
+not be willing to share everything from their creative process with an intelligent tool. Their willingness might also depend
+on how certain they feel that their data is stored securely and that it never will be leaked or be made visible to others – that
+the data is seen by machine, and machine only. Another aspect that might influence artists’ willingness to use an intelligent
+tool, is how much control they possess over their creative data. Sheila noted that in order for her to be willing to have
+her creativity analyzed by an AI, she must have a way to “get her baby back”. For artists to be comfortable, they might
+want the possibility to retrieve their data. The degree of ownership and control artists possess over their creative data is
+something designers also should discuss.
+On the other hand, Daniel and Eleanor do not feel precious about their creativity, nor are they opposed to the idea
+of sharing their creative data with an AI tool, partly because they cannot imagine how anyone could make use of their
+creative data. Daniel explained that for him, a greater concern regarding AI is the intent of the companies behind the
+technology – concerns that relate to, for instance, surveillance rather than creativity. He explained: “For me, it’s also the
+question of why are we using this, why are these things free, why are we being encouraged to use by certain sectors, what
+are they really wanting out of it? And that part bothers me.” How to build trust between artists, intelligent tools, and
+12
+Imagining the Future of Creative AI Tools
+companies behind intelligent tools is something that also should be assessed and further investigated by researchers. This
+might be a marketing-related question, but I also imagine that it must be possible to implement trust fostering elements
+into the design of creative AI tools. Prior studies have shown that design aesthetics matters when forming user trust in
+technology [25][29][46]. The case of trust between artists and creative technology is quite unique, however, and should be
+investigated further.
+5.4
+Creative AI tools: many possibilities
+Some of the topics from the previous workshop tasks came to light again when the artists got to sketch their own intelligent
+tools. The fact that the majority of the participants (three out of five) imagined helper tools, CST, tells us that many
+artists might not want AI to be too prominent in the creative process. This makes sense considering what the artists wrote
+and talked about previously during the workshop; that they enjoy the process and the importance of playfulness and
+experimentation. Even struggling and fighting with your tools can be enjoyable. The CST that were invented during the
+workshop include; a tool that takes care of the more tedious tasks during the creative process, allowing the artist to focus
+on what they truly enjoy; a helper tool that functions as a teacher, asking challenging questions to the artist while they
+create and finally; a CST used to visualize ideas an variants of a sketch quickly. In all of these examples, AI plays a minor
+or initial role in the process and the creative decisions are mainly made by the human artist.
+“Unnamed tool 1” points to other interesting possibilities. This speculative tool is able to use physical elements, like
+water, as input. “Intelligence” in this case, refers to momentary response, where the machine creates something with what
+it is given at the moment. This idea also highlights the possibility of collaboration between AI and artists. AI does not
+need to be limited to the background process, some artists might like to bring their intelligent tool onto stage for it to be
+seen by an audience.
+“Unnamed tool 1” seems to allude to the wish for AI to bring something new to the creative process. The same could be
+said about “Cherish This Time” – the speculative tool that shows and deletes personal memories in the form of images,
+videos, and sound recordings. This tool informs us that creativity does not only occur in moments of making, and that
+AI could help artists better live in the moment, reflect, and come up with ideas – something that also could make for
+interesting and useful tools.
+In conclusion, there are many different possibilities on how AI could be used in creative practices. Just like there are
+many different ways to apply paint with a paintbrush, there will probably be a diverse way to use and work with AI in the
+future. Nevertheless, artists want AI to support human creativity, and/or it should bring new and exciting elements to the
+creative processes that simple “unintelligent” tools cannot offer today.
+6
+CREATIVE AI TOOLS: DESIGN SENSITIVITIES
+Based on the findings, I propose eleven design sensitivities (see Table 4) that could be useful when designing creative
+AI tools. These sensitivities concern (1) virtue ethics (the ethical theory that emphasizes virtues and the development
+of qualities), (2) efficiency that fosters creativity, (3) the explorative artist and (4) trust and agency. The sensitivities are
+supposed to work as thought provokers, preferably used at the beginning of the design process, as many of them are
+fundamental to how tools work and are used.
+13
+Emelie Eriksson
+Table 4. Topics and design sensitivities
+Topic
+Design sensitivity
+Virtue ethics
+∙ Can we develop this tool from a virtue ethical standpoint?
+∙ What kind of qualities do we think the targeted artist wants to develop?
+∙ How can our tool help the artist develop these qualities?
+Efficiency that fosters creativity
+∙ Is the tool used for efficiency reasons, or does it nurture the creative
+process... Can it do both?
+∙ If the tool is used for efficiency reasons, is it in favor of the artist’s own
+creativity?
+The explorative artist
+∙ Is it possible to explore the tool, and use it in ways that we do not intend?
+∙ Is the tool easy and intuitive to use and explore?
+Trust and agency
+∙ How do we/the tool collect and use data?
+∙ How can we implement trust fostering elements into the tool?
+∙ Is it possible for the artist to retrieve data if they want to?
+∙ How do we communicate data usage to users?
+6.1
+Virtue ethics
+As creativity is a fluid term, it would be appropriate to evaluate the qualities targeted creative practitioners want to develop
+before setting out to design creative AI tools. In this project, I learned that the participants strive to be curious and playful in
+their creative practice. These qualities also showed to be present when discussing other topics, such as how they approach
+learning new tools. In other words, qualities associated with creativity are interlinked with how artists act as creatives and
+how they think of and use their tools.
+Virtue ethics look at people’s needs and goals. By applying it, we focus on how AI can support artists, and in the long
+term; how artists can flourish as creative individuals. Without virtue ethics, there might be a risk of focusing too much on
+the AI end of the tool, and we might end up with tools that are exciting to use once but that do not offer enough support
+for long-time use.
+6.2
+Efficiency that fosters creativity
+We often think of technology as something that helps us complete tasks faster, lessens the steps we have to take in order to
+achieve our goals, or even as something that makes the work for us. But do artists want creative tools to work this way?
+One of the participants worries that AI might deprive her of the fun of exploring tools herself.
+These design sensitivities are meant to interrupt our usual mindset of how technology works. What task do we think
+an artist would like to speed up? What task do we think artists enjoy and should be left unchanged? Some tasks within
+creative practices might be valid to streamline. For instance, one of the participants came up with a tool that would allow
+her to focus on singing while the tedious, technical tasks like recording are taken care of by an AI.
+14
+Imagining the Future of Creative AI Tools
+It is important to question if the efficiency in tools is made to be in favor of the artist’s own creativity. Otherwise, artists
+might lose the fun of problem-solving and engaging in the process.
+6.3
+The explorative artist
+“Exploration” was a commonly used term during the workshop. None of the participants enjoy reading manuals or watching
+tutorials about their tools unless they have to. As one of the participants explained; the exciting part about new tools is to
+explore them, not learning how to use them. Furthermore, artists seem to appreciate when tools are intuitive to use and
+when they offer an element of surprise.
+These design sensitivities can make for fun, user-friendly and creative tools. They also prevent rigidness. Ideally, it
+should be possible to “misuse” tools – to use them in different, and perhaps, unexpected ways. This does not mean that
+tools have to be complicated or offer a vast array of functionalities (complicated software can repel new users), but they
+should not be too simple and predictable. An AI software that takes a user-selected image as an input, and then transforms
+it in some way as a finished output, is unlikely to be useful for artists in the long run.
+6.4
+Trust and agency
+The last design sensitivities concern trust and agency. Data will be fundamental to AI – it is given that data will have to be
+discussed when designing creative AI tools. Data, however, is a sensitive topic, and there are several aspects about creative
+data that are worth considering as they might have an impact on how creative tools are perceived and viewed by artists.
+In this project, I learned that artists can feel protective about their creativity. Thus, it is important that designers consider
+what kind of agency users possess over their own creative data, as well as how to mediate this to users. Communication is
+probably key, which is why it has been included as a design sensitivity specifically. If artists feel they are left under the
+light about how their creative data is used, collected, and analyzed, they might develop negative emotions towards their
+tools such as suspiciousness or regret. Tools might even become an antagonistic force in the creative process when in
+reality, tools should be there to support artists.
+7
+DISCUSSION
+Many artists have already found a way to make use of AI in their creative practice. AI has also started to appear in common
+commercial tools such as Adobe Premiere Pro [37]. This is just the beginning. Just like AI will revolutionize many other
+parts of society, it will likely revolutionize creative fields – contributing to the development of new tools and art forms.
+Within computational creativity, researchers have long been interested in creativity and AI [22]. The focus, however, has
+leaned towards the machine-end of making – something that has been criticized [43]. Still and d’Inverno [43] urge AI
+researchers to look to human supportive N-creative tools as they are more inclusive and likely would be of more use to
+artists. A possible trajectory for N-creative tools could be to introduce AI in an already established HCI area – Creativity
+Support Tools. Participants of the “Imagining the Future of Creative AI tools” workshop envisioned tools that could be
+classified as CST – tools that are used more in the background or in the initial stages of creative processes. Participants
+also envisioned novel tools that possibly could reshape the notion of art and creative practice, or that could be used in
+scenarios where artist and machine create art in synergy. Future creative AI tools could take shape in many different forms.
+The important takeaway is that technology should be there to support human artists.
+15
+Emelie Eriksson
+7.1
+Pragmatist aesthetics
+In this thesis, I set out to bring forward creative practitioners’ perspectives that might inform us on the construction of
+creative AI tools. No matter what the participants envisioned or thought of creativity and tools, they all value the process
+of exploration and problem-solving that creativity entails – in most cases, even more so than their creative outcomes. The
+nature of creativity and art-making might call for other design approaches than the ones we are used to. Design sensitivities,
+such as the ones that I propose in this thesis, can provide concrete guidance, but a more holistic approach might also
+be needed. With this, I do not mean alternative methodology to human-computer interaction design. Rather, a different
+sensibility towards it, just like Wright et al. [47] suggest in their work about pragmatist aesthetics and experience-centered
+design.
+A pragmatic design approach puts the emphasis on felt life and human experience. It provides a foundation from which
+to explore concepts such as playfulness, surprise, and enhancement [47]. Furthermore, pragmatist aesthetics promotes
+improvisation as the key modality in how the user explores the world and learns new aspects [36]. It offers a different way
+to relate to common concepts such as "know the user", "interactive design", and "user involvement" [47]. Since artists
+view creativity as a lived experience and often seek surprise and improvisation when using tools, it would be particularly
+fitting to use the pragmatic aesthetic approach when designing creative AI tools. This holistic approach in the context of
+creative AI design is something that could be explored in future research by asking questions such as “how could non-artist
+designers understand the felt life of artists when designing creative AI tools?”.
+7.2
+Future research
+This study has opened up many possible research areas. A similar study with a higher number of participants is recom-
+mended. With a higher number of study participants from more diverse creative fields, other patterns might be identified,
+and as a result, other design sensitivities might emerge. In that case, this study could be used as a point of reference
+for comparison. It would also be interesting, even necessary, to evaluate the proposed design sensitivities: how are they
+perceived by designers, developers, and researchers? Are they of any use? This study uses artists’ opinions and experiences
+as a way to inform on what might be important to consider when designing creative AI tools, but it does not say anything
+about how it is to design with this knowledge in practice.
+Another interesting direction would be to look more closely at artists’ views on creative AI data. During the workshops,
+some participants seemed to struggle to form solid opinions on data and creative AI, perhaps because it feels like a foreign
+and unfamiliar concept. The use of creative AI prototypes (high-fi or low-fi) would likely make the concept more graspable.
+A qualitative study that makes use of prototypes would probably generate more valuable insights into the data-end of
+creative AI.
+In this thesis, co-speculation made it possible to look at participants’ subconscious wishes and perspectives in a visual
+way that complimented the spoken and written workshop data. To get an even more nuanced understanding of these
+speculative tools, the speculative design challenge could have been combined with design fiction – another sub-method
+within speculative design where the imagined technologies are placed within a context and/or a narrative [7]. This could
+also be performed in future research.
+8
+CONCLUSION
+There have been calls for creative AI to become more user-centered. In this thesis, I have conducted a co-speculative
+workshop to engage with artists and learn about their needs, values, and ethical perspectives that might inform on the
+16
+Imagining the Future of Creative AI Tools
+construction of future creative AI tools. The workshop data were thematically analyzed, and findings were used to propose
+eleven design sensitivities. These design sensitivities suggest that we look to virtue ethics to ensure that we design
+N-creative AI tools, only create tools used for efficiency reasons if it is in favor of the artist’s creativity, design tools that
+are explorative and intuitive to use, and finally, consider how to create trust towards users and what kind of agency users
+will have over their creative data. This thesis contributes to how HCI can understand and design user-centered creative AI
+tools.
+ACKNOWLEDGMENTS
+My deepest thanks to those who agreed to partake in this study – without you, this thesis would hot have been possible. I
+would also like to thank Petra Jääskeläinen, my supervisor, who has provided support and guidance along the way. Last
+but not least, I would like to thank those in my supervision group who have read and commented on the thesis throughout
+its many forms and phases.
+REFERENCES
+[1] 2016. This Artist Built a Robot to Draw with Her | Mashable Docs. https://www.youtube.com/watch?v=jngkUu-aBz8
+[2] 2018. Living Archive: A tool for choreography powered by AI. https://www.youtube.com/watch?v=qshkvUOc35A
+[3] 2019. Artist+AI Lecture: Figures and Form. https://www.youtube.com/watch?v=TN7Ydx9ygPo
+[4] Mohammed Ibrahim Alhojailan. 2012. Thematic analysis: A critical review of its process and evaluation. West east journal of social sciences 1, 1
+(2012), 39–47.
+[5] Giuseppe Amato, Malte Behrmann, Frédéric Bimbot, Baptiste Caramiaux, Fabrizio Falchi, Ander Garcia, Joost Geurts, Jaume Gibert, Guillaume
+Gravier, Hadmut Holken, Hartmut Koenitz, Sylvain Lefebvre, Antoine Liutkus, Fabien Lotte, Andrew Perkis, Rafael Redondo, Enrico Turrin, Thierry
+Vieville, and Emmanuel Vincent. 2019. AI in the media and creative industries. (2019). arXiv:1905.04175 http://arxiv.org/abs/1905.04175
+[6] T.J.M. Bench-Capon. 2020. Ethical approaches and autonomous systems. 281 (2020), 103239. https://doi.org/10.1016/j.artint.2020.103239
+[7] Julian Bleecker. 2009. Design Fiction: A Short Essay on Design, Science, Fact and Fiction. (2009), 49.
+[8] 1996. Artificial intelligence (San Diego). Academic Press. 9780121619640
+[9] Virginia Braun and Victoria Clarke. 2012. Thematic analysis. In APA handbook of research methods in psychology, Vol 2: Research designs:
+Quantitative, qualitative, neuropsychological, and biological., Harris Cooper, Paul M. Camic, Debra L. Long, A. T. Panter, David Rindskopf, and
+Kenneth J. Sher (Eds.). American Psychological Association, 57–71. 9781433810053 https://doi.org/10.1037/13620-004
+[10] Emanuelle Burton, Judy Goldsmith, Sven Koenig, Benjamin Kuipers, Nicholas Mattei, and Toby Walsh. 2017. Ethical Considerations in Artificial
+Intelligence Courses. 38, 2 (2017), 22–34. https://doi.org/10.1609/aimag.v38i2.2731
+[11] Victoria Clarke and Virginia Braun. 2017. Thematic analysis. 12, 3 (2017), 297–298. https://doi.org/10.1080/17439760.2016.1262613
+[12] Simon Colton, Jakob Halskov, Dan Ventura, Ian Gouldstone, Michael Cook, and Blanca P\{{\textbackslash}’e\}rez Ferrer. 2015. The Painting Fool
+Sees! New Projects with the Automated Painter. (2015), 189–196.
+[13] Nicholas Davis, Chih-PIn Hsiao, Kunwar Yashraj Singh, Lisa Li, Sanat Moningi, and Brian Magerko. 2015. Drawing Apprentice: An Enactive
+Co-Creative Agent for Artistic Collaboration. In Proceedings of the 2015 ACM SIGCHI Conference on Creativity and Cognition (Glasgow United
+Kingdom). ACM, 185–186. 9781450335980 https://doi.org/10.1145/2757226.2764555
+[14] Audrey Desjardins, Cayla Key, Heidi R. Biggs, and Kelsey Aschenbeck. 2019. Bespoke Booklets: A Method for Situated Co-Speculation. In Proceedings
+of the 2019 on Designing Interactive Systems Conference (San Diego CA USA). ACM, 697–709. 9781450358507 https://doi.org/10.1145/3322276.
+3322311
+[15] Ahmed Elgammal, Bingchen Liu, Mohamed Elhoseiny, and Marian Mazzone. 2017. CAN: Creative Adversarial Networks, Generating "Art" by
+Learning About Styles and Deviating from Style Norms. (2017). arXiv:1706.07068 http://arxiv.org/abs/1706.07068
+[16] Jonas Frich, Lindsay MacDonald Vermeulen, Christian Remy, Michael Mose Biskjaer, and Peter Dalsgaard. 2019. Mapping the Landscape of Creativity
+Support Tools in HCI. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow Scotland Uk). ACM, 1–18.
+9781450359702 https://doi.org/10.1145/3290605.3300619
+[17] A. Gabriel, D. Monticolo, M. Camargo, and M. Bourgault. 2016. Creativity support systems: A systematic mapping study. 21 (2016), 109–122.
+https://doi.org/10.1016/j.tsc.2016.05.009
+[18] 2010. Art practice in a digital culture (Farnham, Surrey, England ; Burlington, VT). Ashgate Pub. 9780754676232 9781409408987 OCLC:
+ocn557403962.
+[19] Songwei Ge, Vedanuj Goswami, C. Lawrence Zitnick, and Devi Parikh. 2021. Creative Sketch Generation. (2021). arXiv:2011.10039 http:
+//arxiv.org/abs/2011.10039
+17
+Emelie Eriksson
+[20] Judy Goldsmith and Emanuelle Burton. 2017. Why teaching ethics to AI practitioners is important. In Thirty-First AAAI Conference on Artificial
+Intelligence. 4836–4840.
+[21] Ian Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2014. Generative
+Adversarial Nets. 27 (2014).
+[22] Aaron Hertzmann. 2018. Can Computers Create Art? 7, 2 (2018), 18. https://doi.org/10.3390/arts7020018
+[23] Naveen Joshi. 2022. Can AI Emulate Human Creativity? https://www.forbes.com/sites/naveenjoshi/2022/01/06/can-ai-emulate-human-creativity/
+[24] Pegah Karimi, Jeba Rezwana, Safat Siddiqui, Mary Lou Maher, and Nasrin Dehbozorgi. 2020. Creative sketching partner: an analysis of human-AI
+co-creativity. In Proceedings of the 25th International Conference on Intelligent User Interfaces (Cagliari Italy). ACM, 221–230. 9781450371186
+https://doi.org/10.1145/3377325.3377522
+[25] Kristiina Karvonen. 2000. The beauty of simplicity. In Proceedings on the 2000 conference on Universal Usability - CUU ’00 (Arlington, Virginia,
+United States). ACM Press, 85–90. 9781581133141 https://doi.org/10.1145/355460.355478
+[26] James C. Kaufman. 2016. Creativity 101 (second edition ed.). Springer Publishing Company. 9780826129529
+[27] Masafumi Kawachi. 2020. Enabling citizens’ speculation: The method of co-speculation for collectively imagining possible futures of ‘ikigai’in an
+aging society. http://urn.fi/URN:NBN:fi:aalto-202006143730
+[28] Eleanor Lawrie. 2019. Could a computer ever create better art than a human? (2019). https://www.bbc.com/news/business-47700701
+[29] Yung-Ming Li and Yung-Shao Yeh. 2010. Increasing trust in mobile commerce through design aesthetics. 26, 4 (2010), 673–684. https://doi.org/10.
+1016/j.chb.2010.01.004
+[30] Duri Long, Mikhail Jacob, and Brian Magerko. 2019. Designing Co-Creative AI for Public Spaces. In Proceedings of the 2019 on Creativity and
+Cognition (San Diego CA USA). ACM, 271–284. 9781450359177 https://doi.org/10.1145/3325480.3325504
+[31] Todd Lubart. 2005. How can computers be partners in the creative process: Classification and commentary on the Special Issue. 63, 4 (2005), 365–369.
+https://doi.org/10.1016/j.ijhcs.2005.04.002
+[32] Angus Main and Mick Grierson. 2020. Guru, Partner, or Pencil Sharpener? Understanding Designers’ Attitudes Towards Intelligent Creativity Support
+Tools. (2020). arXiv:2007.04848 http://arxiv.org/abs/2007.04848
+[33] Marian Mazzone and Ahmed Elgammal. 2019. Art, Creativity, and the Potential of Artificial Intelligence. 8, 1 (2019), 26. https://doi.org/10.3390/
+arts8010026
+[34] Oscillator Media. 2018. Automatic On The Road - Gonzo AI Robot Writes Road Trip Novel. https://www.youtube.com/watch?v=TqsW0PMd8R0
+[35] Arthur Miller. 2019. Can machines be more creative than humans? (2019). https://www.theguardian.com/technology/2019/mar/04/can-machines-be-
+more-creative-than-humans
+[36] Marianne Graves Petersen, Ole Sejer Iversen, Peter Gall Krogh, and Martin Ludvigsen. 2004. Aesthetic interaction: a pragmatist’s aesthetics of
+interactive systems. In Proceedings of the 2004 conference on Designing interactive systems processes, practices, methods, and techniques - DIS ’04
+(Cambridge, MA, USA). ACM Press, 269. 9781581137873 https://doi.org/10.1145/1013115.1013153
+[37] Eric Philpott. 2022. New in Premiere Pro: Remix for music and 3x faster Speech to Text | Adobe. https://blog.adobe.com/en/publish/2022/02/08/new-
+in-premiere-pro-remix-music-3x-faster-speech-to-text
+[38] Anaïs Rességuier and Rowena Rodrigues. [n. d.]. AI ethics should not remain toothless! A call to bring back the teeth of ethics. 7, 2 ([n. d.]),
+205395172094254. https://doi.org/10.1177/2053951720942541
+[39] Frances Reynolds and Kee Hean Lim. 2007. Contribution of visual art-making to the subjective well-being of women living with cancer: A qualitative
+study. 34, 1 (2007), 1–10. https://doi.org/10.1016/j.aip.2006.09.005
+[40] 1988. Consequentialism and its critics (Oxford ; New York). Oxford University Press. 9780198750888 9780198750734
+[41] Vikash Singh, Celine Latulipe, Erin Carroll, and Danielle Lottridge. 2011. The choreographer’s notebook: a video annotation system for dancers
+and choreographers. In Proceedings of the 8th ACM conference on Creativity and cognition - C&C ’11 (Atlanta, Georgia, USA). ACM Press, 197.
+9781450308205 https://doi.org/10.1145/2069618.2069653
+[42] 1999. Handbook of creativity (Cambridge, U.K. ; New York). Cambridge University Press. 9780521572859 9780521576048
+[43] Arthur Still and Mark d’Inverno. 2016. A history of creativity for future AI research. (2016).
+[44] Alan M Turing and J Haugeland. 1950. Computing machinery and intelligence. The Turing Test: Verbal Behavior as the Hallmark of Intelligence
+(1950), 29–56.
+[45] Ron Wakkary, Doenja Oogjes, Henry W. J. Lin, and Sabrina Hauser. 2018. Philosophers Living with the Tilting Bowl. In Proceedings of the 2018 CHI
+Conference on Human Factors in Computing Systems (Montreal QC Canada). ACM, 1–12. 9781450356206 https://doi.org/10.1145/3173574.3173668
+[46] Alona Weinstock, Tal Oron-Gilad, and Yisrael Parmet. 2012. The effect of system aesthetics on trust, cooperation, satisfaction and annoyance in an
+imperfect automated system. 41 (2012), 258–265. https://doi.org/10.3233/WOR-2012-0166-258
+[47] Peter Wright, Jayne Wallace, and John McCarthy. 2008. Aesthetics and experience-centered design. 15, 4 (2008), 1–21. https://doi.org/10.1145/
+1460355.1460360
+18
+TRITA-EECS-EX-2022:254
+www.kth.se 

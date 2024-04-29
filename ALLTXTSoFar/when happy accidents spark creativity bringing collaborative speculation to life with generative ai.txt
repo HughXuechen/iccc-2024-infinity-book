@@ -1,0 +1,560 @@
+When happy accidents spark creativity:
+Bringing collaborative speculation to life with generative AI
+Ziv Epstein1*, Hope Schroeder1*, Dava Newman1,2
+1MIT Media Lab
+2Human Systems Laboratory, Department of Aeronautics and Astronautics, MIT
+{zive, hopes, dnewman}@mit.edu
+*These authors contributed equally
+Abstract
+Generative AI techniques like those that synthesize im-
+ages from text (text-to-image models) offer new possi-
+bilities for creatively imagining new ideas. We inves-
+tigate the capabilities of these models to help commu-
+nities engage in conversations about their collective fu-
+ture. In particular, we design and deploy a facilitated ex-
+perience where participants collaboratively speculate on
+utopias they want to see, and then produce AI-generated
+imagery from those speculations. In a series of in-depth
+user interviews, we invite participants to reﬂect on the
+generated images and reﬁne their visions for the future.
+We synthesize ﬁndings with a bespoke community zine
+on the experience. We observe that participants often
+generated ideas for implementing their vision and drew
+new lateral considerations as a result of viewing the gen-
+erated images. Critically, we ﬁnd that the unexpected
+difference between the participant’s imagined output
+and the generated image is what facilitated new insight
+for the participant. We hope our experimental model
+for co-creation, computational creativity, and commu-
+nity reﬂection inspires the use of generative models to
+help communities and organizations envision better fu-
+tures.
+Introduction
+New methods in generative machine learning, such as
+GANs, have created an explosion of opportunities and pos-
+sibilities for computational creativity. One possibility GANs
+afford is the empowerment of people in casual creation
+(Compton and Mateas, 2015; Epstein et al., 2020a; Berns
+and Colton, 2020). For such casual creation, text-to-image
+models built on technologies like CLIP (Radford et al.,
+2021) have enormous promise by providing people an in-
+tuitive and user-friendly possibility space to query GAN-
+generated images via prompts (see Colton et al. (2021) for an
+overview). With such a technology, what are the possibilities
+for human creativity, and how might these applications im-
+pact communities? One opportunity for these text-to-image
+models is to aid in imaginative idea visualization (Colton
+et al., 2021) as a way to bootstrap the creative process. An
+issue of particular relevance to this goal is the inherent va-
+riety/ﬁdelity trade-off of generative models: as the outputs
+of models become more realistic, they become less diverse
+(Ramesh et al., 2022). Yet it remains unclear how this trade-
+off impacts downstream tasks like imaginative idea visual-
+ization. On one hand, high-ﬁdelity outputs might provide
+helpful details for how a given idea might be actually im-
+plemented. On the other, “happy accidents” from diverse
+but low-ﬁdelity outputs might help evolve an idea via lateral
+thinking.
+To explore how these two possibilities trade off, we de-
+sign, deploy, and evaluate a computational creativity system
+for imagining and visualizing new ideas. Participants collab-
+oratively speculated on utopian ideas for the future. These
+speculations were then fed as text prompts into a generative
+AI model to visually manifest them. We conducted a series
+of user interviews to learn about the experience from par-
+ticipants, and surface key themes. In this paper, we present
+a ﬁeld report of the experience and use the system to trace
+broader questions about the social and collaborative aspects
+of creativity, such as when generative visual imagery can
+inspire ideas about the future, and how the variety/ﬁdelity
+trade-off in generative models might impact creativity. Our
+work builds on previous work (Rafner et al., 2021, 2020)
+which builds tools for people to express both hope and anx-
+iety for the future via blending with generative models, and
+investigates image features associated with dystopian versus
+utopian visions of the future.
+This work builds on the tradition of speculative design and
+design ﬁction, which use design to imagine and prototype al-
+ternative worlds (Dunne and Raby, 2013). The social nature
+of the collaborative speculation allows individuals to build
+these alternative worlds together. Furthermore, it explores
+how organizations or communities could use speculative de-
+sign and design ﬁction to chart a course for the future.
+There are several key contributions in this ﬁeld report.
+First, we introduce a novel approach to prompt engineering,
+which leverages collaborative speculation from a facilitated
+co-design experience, rather than a single individual sourc-
+ing the prompts. Second, we highlight the importance of
+high-variance, low-ﬁdelity images in inducing creative in-
+sights. Finally, we highlight the potential for computational
+creativity to aid in community dialogue and the collective
+elicitation of an organization’s values. We explore this pos-
+sibility by creating a zine to document and synthesize the
+ﬁndings, which we then present back to the community.
+arXiv:2206.00533v2  [cs.HC]  17 Jun 2022
+Methods
+On October 8th, 2021, we organized a facilitated co-design
+experience at a solarpunk1-themed event at the MIT Media
+Lab, which had over 400 RSVPs. Participants in the exercise
+paired up and responded to the following prompt: “How will
+we re-imagine the following categories in utopia? Team up
+with someone, and each pick one of the following sectors:
+(see Table 1). Brainstorm how the future could be better at
+their intersection! Pick up a leaf and write your vision down
+on it. Add any visual representation you want. Tape the
+leaves to a stalk, add a ﬂower, and put them in the solarpunk
+garden together!”
+Money
+Medicine
+Cities
+Transportation
+Space
+Agriculture
+Music
+Environment
+Economy
+Relationships
+Family
+Healthcare
+Arts
+Civil rights
+Fashion
+Infrastructure
+Trade
+Social justice
+Oceans
+Natural land & Wildlife
+Education
+Government
+Energy
+Community
+Table 1: The 20 sectors used for prompt generation. Pairs of
+participants picked two to blend.
+After co-creating their visions, participants placed their
+ﬂowers with the vision written on it in the solarpunk garden
+(Figure 1). A total of 32 visions of the future were co-
+created by over 64 participants.
+Figure 1: Solarpunk garden where participants placed their
+written visions. The garden was conceptualized as a “seed
+vault,” a place for hopeful seeds for the future to be stored
+and preserved.
+Next, we took the 32 visions, and ran them through VQ-
+GAN+CLIP, a common model of text-to-image synthesis.
+This produced visual representations of the participants’ vi-
+sions, and served as the output of the speculation experience.
+We then used these images for evaluation of the paradigm
+and incorporated them into a zine for additional community
+impact.
+Evaluation via user interviews
+To evaluate the expe-
+rience of facilitated speculation augmented with genera-
+tive AI, we conducted a series of ten 15-20 minute semi-
+structured interviews from March 30th to April 11th, 2022
+about 10 unique visions both in person and by video chat.
+1Solarpunk is an artform and aesthetic that imagines near-
+distant futures where humans have become climate change-
+resilient and learned to live in harmony with nature.
+First, to measure relatedness between prompt and image,
+we tested if participants could recognize the image gener-
+ated by their prompt. For each participant, we paired the im-
+age that corresponded to their prompt with three additional
+images from other prompts and presented the set of four to
+the participant in random order. We invited participants to
+identify the image generated from the prompt they wrote in
+the original activity. Regardless of their answer, we then re-
+vealed the correct image. We then asked questions related to
+their interpretation of the image, starting by asking them to
+describe what they saw. Based on directions from this ini-
+tial description, we then asked follow-up questions about if
+and how the image differed from their expectations. Finally,
+we asked if the participant had ideas for a follow-up prompt
+that better reﬂected their vision. After interviews were com-
+plete, we coded them using standard qualitative coding prac-
+tices for themes that emerged across conversations (Salda˜na,
+2013) .
+Results
+While all loosely related to the solarpunk theme, the written
+prompts from participants in the original activity had a re-
+markable amount of diversity. Some participants generated
+futuristic ideas, while others called for a return to traditional
+wisdom or practices. Four exemplary images, with their cor-
+responding prompts are shown in Figure 2.
+User Interviews
+We conducted 10 interviews with indi-
+viduals who participated in the original activity. We focused
+our interviews to participants who remembered the conver-
+sation they had from several months prior and still recalled
+the vision that they wrote down.
+We coded our 10 participant interviews for major themes
+distilled through repeated interviewing. In the process of
+synthesizing recurring themes across conversations, we no-
+ticed that many participants gleaned new insight as a result
+of viewing the image. We recorded when participants men-
+tioned new information gleaned about their original idea af-
+ter viewing the generated image. A majority of participants
+reported gaining new ideas as a result of viewing the image
+generated by their prompt, and this new information fell into
+two main categories.
+The ﬁrst was the emergence of new, unexpected ideas
+for implementing the vision they had written (40% of inter-
+views, n = 4). For example, the creator of the prompt “Bio-
+philic vertical gardens lining neighborhood roads, creating
+function and beautiful public spaces” already had a “pretty
+concrete” image of what their vision could look like given
+that biophilic community gardens already exist. However,
+they had imagined “pumps and tubes” as a visual feature
+given the complex engineering required to create such gar-
+dens. When viewing the generated image, the creator noted
+that the wall looked like it was made of a “natural, rocky
+substrate” rather than one with exposed hydroponic engi-
+neering (see Figure 2, left). This lead the participant to note
+that perhaps the wall of the garden could in fact be beauti-
+ful and natural-looking as well as functional, and that this
+aesthetic would be an improvement over exposed pipes.
+The second main area of insight participants reported in
+Figure 2: Four images from the following prompts: Biophilic vertical gardens lining neighborhood roads, creating function
+and beautiful public spaces (left), Public spaces: solidarity-building. The intersection of oceans and relationships. Publicly
+accessible oceanic vistas (center left), Holistic traditional medicine as an art form (center right), Dye the ocean purple to
+prevent global warming (right)
+interviews related to generating unexpected connections be-
+tween a vision and lateral concepts (40%, n = 4). For ex-
+ample, the prompt “Public spaces: solidarity-building. The
+intersection of oceans and relationships. Publicly accessible
+oceanic vistas” generated an image of humans on a beach
+(see Figure 2, center left). Something like sand is present,
+but the lack of an actual ocean in the image was surprising to
+the prompt’s creator. However, the repeated visual motif of
+people in relationship yielded a new perspective for the cre-
+ator, who then reﬂected on the importance of relationship for
+organizing in public space. This was not a framing he had
+not been considering as central to this prompt before being
+presented with the image. The lack of ocean in an image
+generated from a prompt with two references to the ocean
+could be considered low-ﬁdelity and ultimately undesirable
+behavior from VQGAN+CLIP. Yet the unexpectedness of
+the image led the prompt’s creator in a new direction that
+was ultimately valuable for ideation. As a result, we con-
+sider this a happy accident in the context of this exercise in
+social dreaming.
+In another example, the participant who wrote “Holistic
+traditional medicine as an art form” reported noticing the
+centrality of hands as a visual motif in the image (see Figure
+2, center right). Her interpretation was that the hands made
+the image “focused on the making process” and that the im-
+age “emphasizes labor.” She reported that the human labor
+aspect behind traditional medicine was not a major associa-
+tion she had with the topic before viewing the image.
+Most (80%, n = 8) interviewees mentioned at least one
+idea for a follow-up prompt to reﬁne the image or clarify
+their vision. For example, the biophilic garden image fea-
+tured a visual element on the bottom left that looked like
+a road.
+The prompt’s creator noticed the curb and said
+they might use language like “neighborhood path” instead
+of “road” to generate an image with explicitly pedestrian
+streets in the future.
+Despite the fact that it was easy for participants to identify
+the image created from their prompt (90%, n = 9) out of a
+set of random images, most participants interpreted the gen-
+erated images as being either partly or substantially different
+from what they imagined prior to seeing the image (70%, n
+= 7). Three interviewees that did not gain any new insight
+from viewing the images were concerned that the image was
+too abstract to be useful. On the other hand, two other par-
+ticipants commented that they speciﬁcally appreciated the
+“whimsical” image of a technical concept.
+“When the place inspires the zine inspires the place”2
+In the wake of the solarpunk event, we created a zine outlin-
+ing the project and showcasing all the co-written visions and
+corresponding GAN images to aid in community reﬂection
+(see Figure 3). We printed over 500 copies and distributed
+them to community stakeholders. As community members,
+we wanted to give these images back to the community, hop-
+ing they would act as a mirror for additional conversation
+and “close the loop” of the reﬂective process.
+The event, co-creation experience, and zine all came at a
+time when our organization was emerging from the throes
+of the pandemic and actively setting its strategy and vision
+for the next decade and beyond. At such a critical inﬂection
+point, the combination of these three elements had several
+key cultural impacts. First, there was the physical aspect of
+people coming together to imagine and plant the seeds for
+the future after a long period of pandemic-induced isolation.
+Second, in an organization with varied interests and prior-
+ities, the process of brainstorming through images helped
+visualize and synthesize collective threads across the orga-
+nization. Finally, cementing the images in familiar, tangible
+form of printed media provided a snapshot for both dissemi-
+nating the outputs and orienting discussion around the orga-
+nization’s future (P´erez y P´erez and Ackerman, 2020). The
+zine has since been used to communicate interests and pri-
+orities to both visitors and external stakeholders.
+Discussion
+Initially, we predicted a main contribution of this work
+would be designing a tool to concretize visions that teams
+co-created. We found that occasionally the image did mean-
+ingfully crystallize a vision for the future in a literal way,
+2Quote by Sidebody https://www.instagram.com/p/
+CbtJnWlloui/
+Co-creating 
+Utopias
+EDITORS NOTE
+ese AI-generated speculations from the 2021 
+party ended up being remarkably prescient, aligning 
+with many of the solarpunk breakthroughs of the 
+past century. As sea levels rose, urban planners in 
+the early 2030’s used the newly created oceanfront 
+space as adaptive sites for solidarity building and 
+processing climate-related trauma. Also, one cannot 
+fail to see the similiarities with the the great 
+purple-iron sea fertilization of 2037, which restored 
+phytoplankton levels and the whale population to 
+historic levels. ere also seems to be the 
+forecasting of the dance powered transit of 
+UnceUnceRails in 2039, which oﬀered a new energy 
+source derived from human sweat and good vibes. 
+mycelial network  online
+Public spaces: 
+solidarity-building. e 
+intersection of oceans and 
+relationships. Publicity-- 
+accessible oceanic vistas.
+Dye the ocean purple to 
+prevent global warming
+29
+Learning about 
+ﬁnal frontiers 
+(ocean & space) by living in 
+them
+“It's the year 2100. e climate apocalypse 
+already happened and we need to start over 
+living in harmony with nature. Your mission 
+tonight: you must approach the seed vault. 
+You will use what you ﬁnd there to plant in 
+the solarpunk garden and help reboot 
+humanity.”
+Visitors were welcomed to the 99F solarpunk utopia with these 
+words. rough the evening,  dozens made pilgrimage to the seed 
+vault, a display drawing on the visual language and concept from 
+the Svalbard Global Seed Vault founded in the early 2000’s. 
+Our motivation: if you were granted the challenge and 
+opportunity to reboot humanity, what seeds would you plant? 
+Attendees of 99F communed in an exercise to co-envision our 
+future at the seed vault. eir mission: work with a partner to 
+combine disparate ﬁelds and co-create a better vision of the 
+future, representing that vision with a seedling composed of 
+words and images.
+What can chaotic music do for 
+your mind?
+23
+EDITORS NOTE
+e 2020s was a fascinating decade in Earth's history. 
+Revelations about the spiritual bankruptcy of 
+technology, coupled with ecological and sociological 
+tumult, led to a time of deep collective soul searching, 
+and consequently, renewal. No place was this more 
+evident than the MIT Media Lab, a techno-utopian 
+citadel of human-machine symbiosis. e early years of 
+this decade were not kind to the Media Lab. Myopic 
+thinking, scandal, and economic decline meant that it 
+could no longer ride on its own coat tails of prestige and 
+provocation. Instead, it used this period to radically 
+reinvent itself, charting a new course for a future where 
+humans could live in harmony with nature. 
+An emerging body of historical evidence suggests that 
+the Media Lab was at the epicenter of the broader 
+solarpunk shift of the 2020’s. We all know that this 
+rapid time of societal transition 100 years ago was a 
+huge inﬂection point for Earth culture: the 
+commitments made that decade to ecological 
+sustainability, ethical methodologies for space 
+exploration, and geodesic architecture rippled through 
+the rest of the century, and perhaps even made e 
+Growing possible. rough the lens of archeological 
+resurveillance, this volume traces the early solarpunk 
+transformation of the Media Lab, from the nascent 
+seeds planted at a party in the early 2020’s to its 
+culmination with the establishment of Media Lab Mars 
+in 2050. ese varied accounts oﬀer historical lessons 
+and insight of how techno-utopianists from antiquity 
+grappled with a rapidly changing environment.
+mycelial network  online
+THE ANNALS OF 
+FUTURE ARCHEOLOGY 
+15
+21
+Figure 3: Cover and four select pages from the Seedvault zine. Written in the style of speculative ﬁction, the zine takes place
+in the year 2121, recounting an event that took place 100 years ago and how the previous 100 years unfolded from there.
+and many participants noted the image gave them ideas for
+ways to implement their vision. However, we often found
+that it was the unexpected differences between the prompt
+and the generated image’s interpretation of it that yielded
+new insight for and excitement from participants. This sug-
+gests that it was the high-variance, low-ﬁdelity behavior of
+VQGAN+CLIP that yielded these unexpected and whimsi-
+cal differences, which in turn induced novel and creative in-
+sights. This ﬁnding has important implications for the de-
+sign of image synthesis systems for computational creativ-
+ity. As new systems become increasingly realistic (such as
+new models like DALL-E 2 (Ramesh et al., 2022)), there
+is a danger that this increased ﬁdelity will come at the cost
+of these unexpected quirks that we found actually sparked
+positive lateral thinking in our participants.
+By offering a low-friction and provocative new way to
+integrate visual storytelling with community engagement,
+text-to-image models with collaboratively sourced prompts
+have an opportunity for cultural and organizational impact.
+This approach could be used in contexts as diverse as craft-
+ing organization mission statements, co-designing commu-
+nity interventions, and facilitating a mediation process.
+There are, however, dangers to such an approach. For one,
+AI-generated images are bounded by training data, which
+inherits historical biases and cultural practices (Ganimals
+Blog, 2020; Crawford and Paglen, 2019). Therefore uncriti-
+cally relying on model outputs as an “oracle” may entrench
+users in existing inequities and stereotypes, rather than free-
+ing them to envision radical new possibilities. Relatedly, if
+such an approach becomes commonplace, there is the risk
+that such visualization strategies could be a crutch if used
+too much, with users becoming overly reliant on a machine’s
+vision of the future rather than their own. Finally, there is the
+risk that anthropomorphizing the AI can undermine human
+credit and responsibility (Epstein et al., 2020b).
+It is also important to reﬂect on the notion of “utopias,”
+which we used to frame this collaborative speculation. Lit-
+erally meaning “no place” in the original Greek, utopias rep-
+resent idealized non-existent or impossible societies. Rarely
+in utopian thinking are questions like “A utopia for whom?”
+or “A utopia at what cost?” considered, which in turn leads
+to imagined futures that are culturally homogeneous and can
+perpetuate existing inequities. Furthermore, the very con-
+cept of utopias imagines a future society different from and
+evolved upon the current one, a notion rooted in endless
+growth, a potentially colonial and capitalistic value (Morri-
+son, 2017). Rather than envisioning radical new alternatives
+to be manifested, many indigenous cultures instead hold a
+worldview that humans are a part of a complex web of eco-
+logical relationships that can exist an a perpetual steady-
+state equilibrium (Kimmerer, 2013; Sepie, 2017).
+In the
+prompts we received, we saw varied interpretations of and
+priorities for utopias: some participants longed for a re-
+turn to local economies or traditional medicine, while oth-
+ers dreamt of futuristic space suits and wind turbines. Fi-
+nally, it is important to note that utopias are but one frame
+for imaginative idea visualization. While we used the idea
+of utopia to foster brainstorming about the future, we believe
+the paradigm could instead focus inward for any community
+or space looking to collaboratively speculate about its future.
+Our work has several limitations which open up exciting
+possibilities for future work. For one, we focused on one
+particular community – the MIT Media Lab, a technology-
+focused research institution embedded in a university. Fu-
+ture work could explore how this approach works for other
+communities with distinct cultures and practices, and how
+the effectiveness of the approach varies across community
+contexts. In addition, we relied on analog media throughout
+the process: from handwritten prompts by participants and
+a paper zine distributed in person to us showing participants
+generated images asynchronously in the evaluation phase.
+Future work could explore digital versions of these meth-
+ods, such as an online interface for collaborative prompt
+generation, an online gallery for the prompts and their cor-
+responding images, or real-time dialogue with a generative
+model. We also did not include in-depth explanation for how
+the generative model worked. Future work should consider
+more explicitly users’ understanding of the involved tech-
+nology, as well as consider other types of models, such as
+physically-informed models of climate futures (L¨utjens et
+al., 2021b,a) or those that integrate across larger, more com-
+plex systems (Lavin et al., 2021). Finally, there is the possi-
+bility of using this method in diverse settings. We hope that
+this approach could be applied to other community contexts,
+whether it be designs for a local community garden or bold
+new tactics to ﬁght the global climate emergency.
+Acknowledgements
+We thank Eyal Perry, Micah Epstein, Amy Smith, Simon
+Colton, Rubez Chong, Oc´eane Boulais, Maggie Hughes,
+Valdemar Danry and Tobin South for helpful feedback, com-
+ments and support. We thank all participants for their time.
+Author Contributions
+ZE, HS, and DN conceptualized the project. HS conducted
+the user interviews. ZE and HS wrote the paper, with input
+from DN.
+References
+Berns, S., and Colton, S. 2020. Bridging generative deep
+learning and computational creativity. In ICCC, 406–409.
+Colton, S.; Smith, A.; Berns, S.; Murdock, R.; and Cook,
+M. 2021. Generative search engines: Initial experiments.
+In ICCC.
+Compton, K., and Mateas, M. 2015. Casual creators. In
+ICCC, 228–235.
+Crawford, K., and Paglen, T. 2019. Excavating ai: The
+politics of images in machine learning training sets. AI
+and Society.
+Dunne, A., and Raby, F. 2013. Speculative everything: de-
+sign, ﬁction, and social dreaming. MIT press.
+Epstein, Z.; Boulais, O.; Gordon, S.; and Groh, M. 2020a.
+Interpolating gans to scaffold autotelic creativity. Inter-
+national Conference on Computational Creativity Causal
+Creator Workshop.
+Epstein, Z.; Levine, S.; Rand, D. G.; and Rahwan, I.
+2020b. Who gets credit for ai-generated art?
+Iscience
+23(9):101515.
+Ganimals Blog. 2020. Beware the training data: The bar-
+racuda effect. ganimals.media.mit.edu.
+Kimmerer, R. 2013. Braiding sweetgrass: Indigenous wis-
+dom, scientiﬁc knowledge and the teachings of plants.
+Milkweed editions.
+Lavin, A.; Gilligan-Lee, C. M.; Visnjic, A.; Ganju, S.;
+Newman, D.; Ganguly, S.; Lange, D.; Baydin, A. G.;
+Sharma, A.; Gibson, A.; et al. 2021. Technology readi-
+ness levels for machine learning systems. arXiv preprint
+arXiv:2101.03989.
+L¨utjens, B.; Crawford, C. H.; Veillette, M.; and Newman,
+D. 2021a. Pce-pinns: Physics-informed neural networks
+for uncertainty propagation in ocean modeling.
+arXiv
+preprint arXiv:2105.02939.
+L¨utjens, B.; Leshchinskiy, B.; Requena-Mesa, C.; Chishtie,
+F.; D´ıaz-Rodr´ıguez, N.; Boulais, O.; Sankaranarayanan,
+A.; Pi˜na, A.; Gal, Y.; Ra¨ıssi, C.; et al. 2021b. Physically-
+consistent generative adversarial networks for coastal
+ﬂood visualization. arXiv preprint arXiv:2104.04785.
+Morrison, M. I. 2017. Decolonizing Utopia: Indigenous
+Knowledge and Dystopian Speculative Fiction. Univer-
+sity of California, Riverside.
+P´erez y P´erez, R., and Ackerman, M.
+2020.
+Towards a
+methodology for ﬁeld work in computational creativity.
+New Generation Computing 38(4):713–737.
+Radford, A.; Kim, J. W.; Hallacy, C.; Ramesh, A.; Goh, G.;
+Agarwal, S.; Sastry, G.; Askell, A.; Mishkin, P.; Clark,
+J.; et al. 2021. Learning transferable visual models from
+natural language supervision. In International Conference
+on Machine Learning, 8748–8763. PMLR.
+Rafner, J.; Hjorth, A.; Risi, S.; Philipsen, L.; Dumas, C.;
+Biskjær, M. M.; Noy, L.; Tyl´en, K.; Bergenholtz, C.;
+Lynch, J.; et al. 2020. crea. blender: A neural network-
+based image generation game to assess creativity.
+In
+Extended Abstracts of the 2020 Annual Symposium on
+Computer-Human Interaction in Play, 340–344.
+Rafner, J.;
+Langsford, S.;
+Hjorth, A.;
+Gajdacz, M.;
+Philipsen, L.; Risi, S.; Simon, J.; and Sherson, J. 2021.
+Utopian or dystopian?: using a ml-assisted image gener-
+ation game to empower the general public to envision the
+future. In Creativity and Cognition, 1–5.
+Ramesh, A.; Dhariwal, P.; Nichol, A.; Chu, C.; and Chen,
+M. 2022. Hierarchical text-conditional image generation
+with clip latents. arXiv preprint arXiv:2204.06125.
+Salda˜na, J. 2013. The coding manual for qualitative re-
+searchers. SAGE.
+Sepie, A. J. 2017. More than stories, more than myths:
+Animal/human/nature (s) in traditional ecological world-
+views. Humanities 6(4):78.

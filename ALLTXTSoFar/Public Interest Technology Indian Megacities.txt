@@ -1,0 +1,940 @@
+Public Interest Technology and the Design for 
+Next-Generation Personal Mobility in Indian 
+Megacities 
+ 
+Vivek Kant, Indian Institute of Technology Kanpur, Angshuman Das, Indian Institute of Technology Bombay, and 
+Sugandh Malhotra, Indian Institute of Technology Bombay 
+ 
+ 
+Abstract—The aim of the article is to present a structured design 
+analysis for the requirements of next-generation personal 
+mobility and vehicle design in Indian megacities. Next-generation 
+personal mobility design as a public interest technological system 
+in a city such as Mumbai requires careful consideration of the 
+trends shaping the everyday activity of Mumbaikars. This paper 
+uses a speculative design approach of scenario planning to 
+develop scenarios of future personal mobility and vehicle design 
+in 2035-2040. It further uses expert judgments for the validity of 
+scenarios as well as selects a particular scenario for future 
+development based on expert ratings based on preferability, 
+probability, possibility, and plausibility of occurrence. The 
+selected scenario was broadened and refined further in terms of 
+its sub-themes to serve as the basis of design. This selected 
+scenario will serve as the basis of design ideations and iterative 
+prototypes to develop a form for next-generation personal 
+mobility for 2035-2040. 
+ 
+Index Terms—Speculative design, Mobility, India, Public Interest 
+Technology 
+ 
+I. INTRODUCTION 
+Mobility Indian megacities, such as Mumbai, presents a 
+unique human-centered design problem for public-interest 
+sociotechnical systems. First, India is characterized under the 
+medium-human development index category in the United 
+Nations Development Index. This means that many people lie 
+at the base of the economic pyramid, even though there is a 
+small percentage of Indians at the apex of the pyramid. 
+Despite the economic range that Indians fall into, everyone 
+travels for their day-to-day activities, making urban mobility a 
+major challenge for human-centered designers in India. 
+Second, India as a nation is undergoing a massive wave of 
+urbanization due to internal migration towards the mega-cities, 
+such as Mumbai, resulting in an increase in human density in 
+concentrated regions. As a result, there is a growing need for 
+mobility systems in cities for rapid urban transit. These 
+ 
+Vivek Kant’s work was supported in part by a start-up grant from Indian 
+Institute of Technology Kanpur. 
+Vivek Kant (ORCID: 0000-0002-3003-4098) is with the Department of 
+Design, Indian Institute of Technology Kanpur, Kanpur, India (e-mail: 
+vkant@ iitk.ac.in). 
+Angshuman Das was with the IDC School of Design, Indian Institute of 
+Technology Bombay, Mumbai, India. He is now an independent scholar (e- 
+mail: angshu3101@gmail.com). 
+Sugandh Malhotra is with the IDC School of Design, Indian Institute of 
+Technology Bombay, Mumbai, India. (e-mail: sugandh@iitb.ac.in). 
+mobility systems imply not only mass-rapid transit but also 
+personal mobility. Our key emphasis derives from the newly 
+developed direction of Public Interest Technology (PIT) which 
+is defined as ‘the application of design, data, and delivery to 
+advance the public interest and promote the public good in the 
+digital age” [1]. The emphasis is to promote the public good 
+and advance public interests with the application of human- 
+centred design, deployment, and technological expertise [1]- 
+[4]. 
+Our key research question is how we can envision personal 
+mobility in Indian megacities in a horizon of 15-20 years from 
+now if we use a human-centred design approach towards 
+envisioning the future of mobility with a view towards public- 
+interest technology. In this regard, the contribution of this 
+paper is two-fold. First, it presents a futures-oriented design 
+methodology for comprehending forms of future technologies 
+informed by the PIT viewpoint. Second, it provides a view 
+toward alternative human-centered solutions to specific issues 
+in sociotechnical design. PIT technologies [1]-[4] promotes 
+an egalitarian view towards human-centred technology design. 
+This enables thinking about technology not only in terms of 
+the actual engineering and design but also comprehending 
+technologies in terms of large-scale challenges related to 
+political, social, economic, legal and environmental. These are 
+large scale challenges that affect individual behavior as well as 
+societies in general. Thus, adopting the PIT viewpoint enables 
+us to move away from blanket solutions related to low-cost 
+public mobility deriving from the viewpoint of PIT. 
+The rest of the paper is divided into six sections. Section 2 
+presents the challenges of personal mobility and Vehicle 
+design for urban India for 2035-2040. Section 3 introduces 
+scenario planning steps and details of the methodology 
+followed. Section 4 presents the scenarios based on scenario 
+logic. The article concludes with Section 5 and the refinement 
+of the scenarios based on probability, preferability, possibility, 
+and plausibility of occurrence. 
+ 
+II. PUBLIC TRANSIT SYSTEMS AND PERSONAL MOBILITY 
+AND VEHICLE DESIGN FOR URBAN INDIA 
+Mumbai, as a megacity, is always filled with activity. The 
+movement of people is high during the day with the peak 
+levels of morning and evening rush hours. The traffic trickles 
+down to a minimum in the wee hours of the morning, with the 
+pace picking up with the sunrise. Within this milieu, Mumbai 
+ 
+979-8-3503-2486-0/23/$31.00 ©2023 IEEE 
+2023 IEEE International Symposium on Technology and Society (ISTAS) | 979-8-3503-2486-0/23/$31.00 ©2023 IEEE | DOI: 10.1109/ISTAS57930.2023.10306226
+Authorized licensed use limited to: Chalmers University of Technology Sweden. Downloaded on March 09,2024 at 15:52:29 UTC from IEEE Xplore.  Restrictions apply. 
+is turning towards setting up a network of metro lines along 
+with its already existing train system (called “Mumbai 
+Locals”). In addition, roadway traffic in Mumbai also suffers 
+due to congestion due to the constant construction of its 
+expanding metro system. The residents of Mumbai own 
+several private vehicles as well as have access to several 
+curbside taxis and auto-rickshaws, as well as ride-hailing app 
+services. The challenge for Mumbaikars (residents of 
+Mumbai) is not that there is any dearth of mobility services, 
+but the bottleneck is due to large numbers, as well as arterial 
+roadways in several regions in the city. 
+Given these circumstances, we wanted to focus on the 
+design of human-centered personal mobility in this rapidly 
+evolving future with a horizon of 15-20 years (2035-2040). 
+The choice of this horizon is important as, we assume, 
+changes in large-scale public interest systems are often 
+perceptible over a decade. Therefore, designing for the future 
+with a horizon of one decade is typically where the impact of 
+the design could be envisioned without breaking its moorings 
+with the present [5]-[10]. In other words, with the major 
+ongoing trends and transformations, how can we leverage 
+human-centered design to envision a personal-mobility-based 
+future? 
+ 
+III. THEORETICAL AND METHODOLOGICAL FRAMEWORKS 
+Speculative Design (also Design Fictions, Design Futures) is a 
+sub-field of human-centered design where designers envision 
+futuristic artifacts, services, systems, and the way people 
+would deal with them in the future [15]-[24]. This is a rapidly 
+growing area of design where people use lateral thinking, 
+mock-ups, and rapid prototyping methods to generate novel 
+design ideas about the future scenarios of human technology 
+interactions. The envisioned futures can be developed using 
+several envisioning and foresight methods [11]-[13]. In this 
+article, we use a scenario planning process for developing 
+requirements for personal mobility in urban megacities in 
+India. 
+Scenarios consist of narratives to describe trends, events, 
+and situations based on a few alternative assumptions [11]- 
+[13]. The key idea is that using systemic methods, different 
+vignettes can be created for comprehending the futures, which 
+may serve for design, planning and policy making for the 
+future. In the present case, these assumptions allowed for the 
+creation of exploratory scenarios that are based on future 
+trends and uncertainties along with feedback and insights from 
+expert mobility and vehicle designers. These scenarios were 
+developed with a special focus on inner coherence, appropriate 
+variation, and breadth, along with proper validity. In this case, 
+the five designers involved in the feedback process had 
+extensive design experience in the mobility and vehicle sector. 
+To create scenarios, the following steps [11], [12] were 
+followed (detailed below further): 
+1) Select the key issue and time frame: 2035-2040 
+2) Derive driving forces from varied sources such as 
+government reports, industry reports, and magazines 
+highlighting technological and other social trends; 
+3) Evaluate forces based on perceived importance and 
+uncertainties with the help of experts; 
+4) Establishing scenario logic by highlighting deep 
+uncertainties by selecting unrelated dimensions useful 
+for design activities; 
+5) Mapping the trends and forces in the quadrants created 
+by the two identified dimensions; 
+6) Creating scenarios based on the content of the 
+quadrants identified in the previous step; 
+7) Assessment of scenarios based on plausibility, richness, 
+internal coherence, and consistency, as well as expert 
+stakeholders’ viewpoints; and 
+8) Detailing and deepening the selected scenario for 
+further insights and providing the pathway for design 
+ideations. 
+ 
+IV. DEVELOPED SCENARIOS FOR NEXT-GENERATION MOBILITY 
+A. Forces: Trends and uncertainties 
+Firstly, driving forces in terms of major trends with a 
+special focus on India were gleaned from several industry 
+reports, government reports, white papers, expert opinions, 
+and other academic as well as grey literature. These driving 
+forces are the factors that can influence and drive the future 
+from the technological to the political dimensions. These 
+driving forces are categorized under six themes of the 
+PESTLE Analysis method, namely Political, Economic, 
+Social, Technological, Law, and Environmental. The PESTLE 
+technique is an environmental scanning approach for 
+understanding the key trends and uncertainties of the driving 
+forces [14]. In envisioning the future of mobility, we must 
+consider it a PIT at various levels of abstraction ranging from 
+political to technological. This approach enables us to 
+comprehend the breadth of issues involved in mobility design. 
+Therefore, PESTLE serves as the most appropriate means of 
+thematically. organizing the driving forces. 
+A total of 249 driving forces were listed. Following this, 
+the list was shared with five industry design experts from the 
+automotive sector to rate the ‘Importance’ and ‘Uncertainty’ 
+of the said driving forces on a Likert scale ranging from one 
+(minimum) to five (maximum). These experts had more than 
+12 years (in one case 22 years) of industry experience and 
+were involved in various automobile industries with major 
+vehicle manufacturers in India. 
+With the data from five industry experts, the driving forces 
+were plotted on an Importance vs. Uncertainty graph to 
+signify the influence of every factor on the future and to what 
+degree of certainty. Based on the Importance vs. Uncertainty 
+plot, a matrix was created using two axes derived from the 
+scenario logic—asset ownership and experience (Figure 1). 
+The 
+asset 
+ownership 
+ranged 
+between 
+personal 
+and 
+shared/leased. The experience ranged from personalized to 
+standardized. These broad dimensions of the scenario logic 
+helped in providing coherence to the various forces identified 
+in the PESTLE listing. Four scenarios were created using 
+these driving forces in each quadrant. These scenarios also 
+derived from the earlier classification of importance and 
+uncertainty. After the scenarios were detailed, they were rated 
+by industry experts on a Likert scale in terms of Probability, 
+Plausibility, Possibility, and Preferability of each scenario. 
+Authorized licensed use limited to: Chalmers University of Technology Sweden. Downloaded on March 09,2024 at 15:52:29 UTC from IEEE Xplore.  Restrictions apply. 
+The scenario rated most highly amongst the dimensions was 
+chosen as the final speculative scenario for developing the 
+design project. 
+ 
+ 
+Fig. 1. Matrix with horizontal axis: User Experience (personal— 
+shared/leased), vertical axis: Asset Ownership (personalized—standardized). 
+Selective forces have been depicted here. 
+ 
+A. Novel Mobility scenarios 
+1) Scenario 1: Personalized Experience with Personal 
+Assets 
+Urban India, in this scenario, has a demand for 
+personalized/customized experiences with personal assets as 
+the country's middle class grows and becomes more tech- 
+savvy. We see a significant shift towards individualism, where 
+people place greater importance on their personal needs, 
+desires, and aspirations, where consumers' focus is not just on 
+the product, but the overall experience associated with it. This 
+trend gives way to personalization, where consumers seek 
+customized experiences tailored to their preferences. 
+The rise of smart homes and IoT devices, which can be 
+controlled and managed through personalized settings, is 
+expected to gain significant traction in India. Such smart home 
+technologies is already becoming popular in urban areas of 
+India, enabling people to control everything from lighting to 
+home entertainment systems through voice commands. The 
+growth of wearable technology, such as smartwatches and 
+fitness trackers too, is contributing to the growth of 
+personalized user experiences, particularly in the healthcare 
+and fitness sectors. 
+The growth of virtual avatars and virtual communities is 
+another trend that is on the rise, offering people the chance to 
+interact and engage with others in a virtual environment. In the 
+metaverse, digital possessions are becoming increasingly 
+valuable, and cyber security is a top priority. This is currently 
+a trend that is being seen to rise. 
+Transformable spaces are becoming increasingly popular, 
+with people looking for ways to adapt their living and 
+workspaces to meet their changing needs. In-home healthcare 
+is gaining traction, with people seeking ways to access 
+medical care and services from the comfort of their own 
+homes. 
+Data-driven policies are increasingly becoming the norm, 
+with businesses and governments relying on data to make 
+informed decisions, and the push towards Zero Emissions 
+Vehicles cost parity has made electric vehicles more 
+affordable and accessible. Businesses focus on targeted 
+marketing by using data to personalize their marketing 
+campaigns and reach the right audience. Synthetic media laws 
+are being put in place to regulate the use of AI-generated 
+content, and data laws are becoming more stringent to protect 
+individuals' privacy and security. 
+Vehicles in scenario 1 include cars designed to provide a 
+personalized and customized experience for their owners. The 
+car's interior and exterior design can be customized to the 
+owner's preferences and style. Additionally, advanced AI and 
+machine learning algorithms can be used to learn the driver's 
+habits and preferences and adjust the car's performance 
+accordingly. The car may learn the driver's preferred routes 
+and driving style and adjust the suspension and engine 
+performance accordingly. Vehicles might be designed to 
+integrate with other personal assets, such as smart homes or 
+wearable devices, to provide a seamless and personalized 
+experience. In addition, the key idea is to understand the 
+vehicle as a modular unit in terms of connecting various parts 
+as in a kit. 
+ 
+Key themes for design for vehicles in scenario 1: 
+● 
+Tailored driving experiences that suit their 
+individual needs and preferences; 
+● 
+A sense of ownership and pride in their 
+customized vehicle; 
+● 
+Greater control over the maintenance and upkeep 
+of their vehicle; 
+● 
+The ability to use their vehicle as an extension of 
+their personal brand or identity; 
+● 
+The ability to modify and upgrade their vehicle 
+over time to keep up with changing technology 
+and personal preferences; 
+● 
+Customizable exterior and interior design options; 
+● 
+Smart 
+connectivity 
+options 
+allow 
+seamless 
+integration with personal devices and homes, 
+including voice-activated controls, personalized 
+music and entertainment options, and automatic 
+home integration; 
+● 
+Advanced autopilot and AI and machine learning 
+capabilities to learn the driver's habits and 
+preferences and adjust the vehicle settings 
+accordingly, 
+such 
+as 
+preferred 
+route 
+and 
+temperature settings; 
+● 
+Personalized safety features, such as adaptive 
+cruise control and lane departure warning 
+systems, can be customized to the driver's 
+preferences and driving style; 
+● 
+Advanced interaction, extended reality, and 
+integration with wearable devices and smart home 
+systems to create a seamless transition from home 
+to car; 
+● 
+As each vehicle is unique, maintenance and 
+repairs may require specialized expertise and 
+parts, which can be more expensive and time- 
+consuming to obtain. 
+Authorized licensed use limited to: Chalmers University of Technology Sweden. Downloaded on March 09,2024 at 15:52:29 UTC from IEEE Xplore.  Restrictions apply. 
+2) Scenario 2: Personalized Experience with Personal 
+Assets 
+In this scenario in urban India in 2040, standardized user 
+experiences have become more prevalent as technology and 
+design standards continue to evolve. Operating systems, 
+software interfaces, and website designs become streamlined 
+and user-friendly, providing a consistent and familiar 
+experience across different devices and platforms. Personal 
+assets such as cars and homes become more connected and 
+integrated with technology, providing a seamless and 
+standardized user experience. They expect seamless and 
+intuitive experiences, whether they are accessing e- 
+Government services, using ride-sharing services, or charging 
+their EVs. This trend is driven by a need for simplicity and 
+efficiency as people's attention span decreases due to digital 
+overload. 
+Also, with an abundance of information available at their 
+fingertips, users' attention spans have decreased, leading to a 
+need for more engaging and interactive content in extended 
+reality. Ride-sharing services have become increasingly 
+popular but concerns over congestion in these modes also 
+substantially increase. To promote the adoption of electric 
+vehicles, the government has introduced fiscal incentives and 
+charging station incentives to encourage the growth of the 
+charging infrastructure. Smart infrastructure and charging grid 
+expansion have made EV charging accessible and convenient, 
+with charging stations now available in most urban areas. The 
+government has implemented smart traffic management 
+systems to reduce accidents and congestion, with pedestrian 
+walkways and crossings designed to minimize the risk of 
+accidents. 
+The government and private companies have invested in 
+infrastructure and initiatives to bridge the digital divide and 
+provide access to digital technologies to all citizens. However, 
+concerns over digital surveillance and cyberterrorism are on 
+the rise, making users increasingly aware of the need to 
+protect their privacy and security. The government has 
+implemented stringent data privacy laws to protect citizens' 
+personal data, and digital surveillance regulations are in place 
+to prevent unauthorized access to sensitive information. 
+Vehicles in scenario 2 would be designed to provide a 
+consistent and familiar user experience across different 
+devices and platforms. The operating system, and software 
+interfaces, would be streamlined and user-friendly, making it 
+easy for owners to navigate and use their vehicles, like how 
+smartphones have standardized interfaces. However, owners 
+could customize certain aspects of the vehicle, such as the 
+seating or sound system, to their personal preferences. 
+ 
+Key themes for design for vehicles in scenario 2: 
+● A consistent and familiar user experience, 
+regardless of the make and model of the vehicle; 
+● Lower maintenance and repair costs due to the use 
+of standardized parts and interfaces; 
+● More affordable pricing due to economies of scale 
+from standardized manufacturing processes; 
+● Lower depreciation rates due to the widespread 
+availability of similar vehicles on the market; 
+● Standardized dashboard configurations, allowing 
+for easy navigation and access to important 
+information; 
+● Personalized and Seamless integration with 
+personal devices allows for easy access to music, 
+infotainment, and other personal content; 
+● Integration with standardized interfaces and 
+operating systems for a consistent user experience 
+across different devices and platforms; 
+● Advanced 
+driver 
+assistance 
+systems, 
+route 
+planning, adaptive cruise control and traffic jam 
+assist, reduce driver fatigue and improve safety; 
+● As these vehicles have standardized features, they 
+may lack the unique qualities and characteristics 
+that some people desire; and 
+● User experience may not be optimal for all users, 
+a standardized UX may work well for most 
+people, but it may not meet the needs and 
+preferences of all users. 
+ 
+3) Scenario 3: Personalized Experiences with Leased 
+Assets 
+In 2040, India has made significant progress in adopting 
+emerging technologies that have transformed the way people 
+live and work. Human-machine symbiosis has become a 
+common feature in many industries, with people working 
+alongside machines to enhance their capabilities and 
+productivity. This has also led to the rise of transhumanism, 
+with people augmenting their physical and mental abilities 
+with technology to become more adaptable and flexible. 
+Ambient intelligence has become ubiquitous, with homes, 
+offices, and public spaces equipped with sensors and smart 
+devices that provide personalized services and experiences. 
+People have become accustomed to having their environments 
+adapt to their needs and preferences, thanks to the 
+proliferation of smart contracts that enable seamless 
+interactions with technology. 
+Inclusivity has become a core value, with efforts to bridge 
+the hypoconnectivity gap that previously limited access to 
+technology for certain groups. Democratized entrepreneurship 
+has also become a reality, with the rise of platforms that 
+enable anyone with a good idea and the skills to implement it 
+to launch a business. 
+Battery costs have plummeted, making electric vehicles and 
+other battery-powered devices affordable for all. Autonomous 
+certification and collision and safety laws have been 
+developed, paving the way for the widespread adoption of 
+autonomous vehicles and other machines. Ride-sharing has 
+become the norm, reducing traffic congestion and pollution. 
+Despite the increasing reliance on technology, in-person 
+interaction remains important, with people recognizing the 
+value of face-to-face communication and community building. 
+People have also become more adaptable and flexible, 
+recognizing that change is constant and that they need to stay 
+ahead of the curve to remain relevant in a rapidly evolving 
+world. 
+The growth of the tech industry and the demand for 
+customized  solutions  in  fields  such  as  healthcare  and 
+Authorized licensed use limited to: Chalmers University of Technology Sweden. Downloaded on March 09,2024 at 15:52:29 UTC from IEEE Xplore.  Restrictions apply. 
+education drive demand for leased assets with highly 
+personalized UX. The development of modular and flexible 
+leased assets, such as 3D printing and modular furniture, 
+enables businesses and individuals to tailor their assets to their 
+specific needs. Customized software systems provide highly 
+tailored and efficient user experiences, such as advanced 
+machine learning or artificial intelligence systems that 
+automatically adjust to individual user preferences. 
+Vehicles in this category involve cars designed to be shared 
+and leased, so they need to be versatile and easily adaptable to 
+different users' preferences. Users would subscribe to different 
+kinds of vehicles as per their needs and reconfigure them to 
+their immediate needs. The vehicles would be designed to 
+provide a highly personalized and tailored experience for each 
+individual user. The car's interior can be easily reconfigured to 
+suit different users' needs, such as changing the seating 
+arrangements or adjusting the climate control and lighting. 
+Additionally, the car's AI can learn the usage habits of 
+different users and adjust the car's performance accordingly to 
+each user's interactions to provide a more intuitive and 
+efficient experience. Additionally, vehicles may be designed 
+to integrate with other shared or leased assets, such as co- 
+working spaces or temporary accommodations, to provide a 
+seamless and personalized experience. 
+ 
+Key themes for design for vehicles in scenario 3: 
+● A sense of ownership and control over the 
+vehicle, even if they do not own it outright; 
+● Greater flexibility and convenience, with the 
+ability to customize the vehicle to their specific 
+needs and preferences; 
+● Lower costs since they do not have to bear the full 
+burden of vehicle ownership and maintenance; 
+● Reduced environmental impact, since shared or 
+leased vehicles can be used more efficiently and 
+effectively than individually owned vehicles; 
+● The ability to switch between different vehicles 
+and user experiences, depending on their needs 
+and preferences, at any given time, and advanced 
+customization; 
+● Efficient and convenient charging options, with 
+access to a range of charging stations and 
+incentives for EV users; 
+● Integration with shared mobility platforms and 
+services to allow for seamless transitions between 
+different modes of transportation; 
+● Advanced 
+user 
+authentication 
+and 
+security 
+features ensure that only authorized users can 
+access the vehicle. 
+● Advanced telematics, intelligent route planning, 
+and data analytics features to track usage patterns 
+and optimize vehicle performance along with 
+seamless connectivity with home devices; 
+● Shared assets may not be in optimal condition, as 
+these vehicles may be used by multiple people, 
+and they may not be maintained to the same 
+standards as a personally owned vehicle along 
+with access requirements. 
+ 
+4) Scenario 4: Standardized Experiences with Leased 
+Assets 
+In this scenario, India has experienced a significant 
+increase in urbanization and population growth, with an 
+estimated 9 billion people. However, the trend of working 
+from home has become more prevalent, driven by advances in 
+technology and the need for increased flexibility in the 
+workforce. This has led to a decrease in the demand for 
+traditional office spaces and an increase in the demand for 
+shared workspaces and flexible office arrangements. 
+The middle class has grown, and collaboration has become 
+more important than ever as people seek out new opportunities 
+to work together and create value. This has led to the rise of 
+the gig economy, with people increasingly choosing to work 
+on a project-by-project basis rather than pursuing traditional 
+employment. 
+India has implemented strict fuel economy and CO2 
+emission standards, as well as battery management regulations 
+and waste and scrapping regulations, to reduce the country's 
+carbon footprint and address climate change. Climate tax and 
+charging costs have also been introduced to encourage 
+sustainable practices and discourage the use of non-renewable 
+resources. 
+The subscription economy has become more popular, with 
+people preferring to lease or share assets rather than own them 
+outright. This trend has extended beyond physical assets to 
+include services and experiences, such as streaming services 
+and subscription-based fitness programs. 
+Structural unemployment has been a challenge, as the high 
+rate of change in industry has led to the displacement of 
+workers in certain sectors. However, India has also seen a rise 
+in decentralized finance, which has enabled more people to 
+access financial services and participate in the economy. 
+The growth of the gig economy and freelance work drives 
+the demand for leased assets with standardized UX. There is a 
+rise in coworking spaces and shared offices, which offer 
+flexible leasing arrangements and standardized amenities in 
+the urban centers of the country. With the growth of remote 
+work and cloud computing, the demand for such assets has 
+risen in the technology sector. 
+Vehicles in this category, cars are designed to provide a 
+consistent and standardized user experience for all users. The 
+vehicles may be designed to integrate with other shared or 
+leased assets to provide a seamless and standardized 
+experience across different modes of transportation. 
+ 
+Key themes for design for vehicles in scenario 4: 
+● A consistent and familiar user experience, 
+regardless of the make and model of the vehicle 
+with limited personalization; 
+● Lower costs since users do not have to bear the 
+full 
+burden 
+of 
+vehicle 
+ownership 
+and 
+maintenance; 
+● Reduced environmental impact, since shared or 
+leased vehicles can be used more efficiently and 
+effectively than individually owned vehicles; 
+Authorized licensed use limited to: Chalmers University of Technology Sweden. Downloaded on March 09,2024 at 15:52:29 UTC from IEEE Xplore.  Restrictions apply. 
+● Greater convenience, with the ability to access 
+vehicles on demand without having to worry 
+about maintenance or repair issues; 
+● More affordable pricing due to economies of scale 
+from standardized manufacturing processes 
+● Seamless integration with ride-sharing and car- 
+sharing services, allowing for easy booking and 
+payment options; 
+● Advanced safety features, such as collision 
+detection and automatic braking systems, are 
+standardized across all vehicles in this category; 
+● Integration with standardized software as well as 
+standard smart city infrastructure and services, 
+such as traffic management systems and public 
+transportation, to provide a more comprehensive 
+mobility solution; 
+● Shared assets may not be in optimal condition; as 
+with personalized vehicles, shared assets may not 
+be maintained to the same standards as a 
+personally owned vehicle. 
+B. Scenario Assessment 
+These four scenarios were shown to five experts in the 
+field of mobility design. They were asked to rate the five 
+scenarios (on a Likert Scale) in terms of their Plausibility, 
+Preferability, Probability, and Possibility of occurrence. In 
+addition, all the scenarios were discussed with the experts, and 
+they were asked about their choices and ratings. These insights 
+were then used to strengthen and fine-tune the scenarios and 
+broaden them. Based on their insights, scenario 3 was selected 
+and broadened in its possible manifestation and meanings 
+(Figure 2, Table 1). 
+ 
+TABLE I 
+SUMMARY OF AVERAGE RATINGS OF EXPERTS FOR VARIOUS SCENARIOS 
+BASED ON 4PS 
+ 
+ 
+Scenarios 
+4Ps 
+1 
+2 
+3 
+4 
+Possibility 
+4.6 
+5 
+5 
+4.4 
+Probability 
+3.6 
+4.2 
+3.8 
+2.8 
+Plausibility 
+4 
+3.4 
+4.4 
+3.2 
+Preferability 
+3.6 
+3.4 
+4.6 
+3 
+ 
+ 
+V. DISCUSSION: IMPLICATIONS OF VEHICLE DESIGN FOR 
+PERSONALIZED EXPERIENCE AND LEASED ASSETS 
+One of the main drivers is the desire for flexibility and 
+convenience. As people become more mobile and less tied to a 
+specific location or job, they may be less interested in owning 
+physical assets that require maintenance and upkeep. By 
+subscribing to assets, such as cars or homes, people could 
+enjoy the benefits of ownership without the associated 
+responsibilities. 
+Another factor driving this trend is the desire for 
+personalized experiences. In a world where everything from 
+music to fashion is personalized, people may also want to 
+customize their transportation, living arrangements, and other 
+assets to suit their specific needs and preferences. Subscribing 
+to assets could allow people to access a wider variety of 
+options and tailor their experiences to their individual tastes. 
+ 
+Fig. 2. Plot of possibility, probability, plausibility, and preferability for four 
+scenarios based on Table 1. Scenario 3 depicted as a square, was the final 
+choice for further development. 
+ 
+The rise of the sharing economy and the increasing 
+awareness of environmental sustainability also contribute to 
+this trend. By sharing resources and subscribing to assets, 
+people could reduce waste and minimize their environmental 
+impact. 
+● 
+Owning assets can be expensive, particularly for 
+large items like homes, cars, or boats. Subscribing to 
+these assets may be more affordable for some people, 
+particularly those who may not have the resources to 
+purchase them outright. 
+● 
+By subscribing to assets, people could have access to 
+the latest technology without having to constantly 
+buy new devices. This could be particularly 
+appealing to those who value having the newest and 
+most advanced technology available. 
+● 
+The sharing economy has grown in popularity in 
+recent years, with platforms like Airbnb and Uber 
+allowing people to share their homes or cars with 
+others. In this type of economy, subscribing to assets 
+instead of owning them could be a natural extension, 
+as people embrace the idea of sharing resources and 
+reducing waste. 
+● 
+For some people, subscribing to a home or apartment 
+could provide greater flexibility in terms of where 
+they live and for how long. This could be particularly 
+appealing to those who move frequently for work or 
+personal reasons or who value the ability to change 
+their living arrangements as needed. 
+A. Personalized Experience on Ride-Hailing Service 
+This could be a scenario for a busy professional who has a 
+demanding work schedule and needs flexibility in their 
+transportation needs. They subscribe to a ride-hailing service 
+that offers personalized experiences and allows them to 
+choose from a variety of vehicles for different durations of 
+time. 
+While using the ride-hailing app, one sees a variety of 
+Authorized licensed use limited to: Chalmers University of Technology Sweden. Downloaded on March 09,2024 at 15:52:29 UTC from IEEE Xplore.  Restrictions apply. 
+options based on their preferences and needs, such as different 
+vehicle types depending on their mood and destination. One 
+can also customize their ride with different amenities like Wi- 
+Fi, music, or snacks to make their journey more comfortable 
+and enjoyable. 
+A user can subscribe to a vehicle for varying durations of 
+time, depending on the needs. For a few hours for a business 
+meeting, one can subscribe to a short-term plan. For a longer 
+period, such as a weekend getaway, there are long-term plans. 
+The ride-hailing service offers flexible subscription plans that 
+cater to their needs, allowing them to choose the duration and 
+pricing that works best. 
+The ride-hailing service also uses advanced technologies to 
+provide other personalized experiences, such as the app 
+remembering preferences and usage history and suggesting 
+personalized routes, destinations, and services based on past 
+behavior. 
+B. Multiple Families Share Ownership of One Vehicle 
+Co-owning a vehicle might occur in the future. Sharing a 
+vehicle with another family reduces the cost of ownership for 
+both parties involved but can sometimes lead to disagreements 
+over its usage. If one family needs the car on short notice, it 
+can cause conflict with the other’s plans. Clear usage policies 
+and agreements need to be in place from the beginning to 
+mitigate such disputes. 
+Shared ownership of a vehicle can make it difficult to track 
+maintenance and repair costs and can raise complex insurance 
+and liability issues, especially in case of an accident or 
+damage to the vehicle, especially if both families are using the 
+car equally. It can be difficult to determine who is responsible. 
+C. Personalized Experiences on Subscribed Personal-Drive 
+Car 
+This could be a scenario for a young working professional 
+who needs a car to commute to work and run errands. 
+However, they do not want to buy a car outright, as it is too 
+expensive and not sustainable. Instead, they opt for a self- 
+drive car subscription service that allows them to lease a car 
+for flexible durations. 
+The personal-drive car subscription service can offer a 
+range of vehicle options, from basic models to high-end 
+luxury cars. They may select a mid-range car that meets their 
+budget and needs. The subscription service also offers a range 
+of customization options. 
+One can enjoy the flexibility and convenience of their 
+personal-drive car subscription service and can change their 
+vehicle as per their need and not have to worry about 
+maintenance or servicing, as the subscription service takes 
+care of it. 
+D. Implications, Limitations and further directions 
+The current article used the scenario planning process for 
+comprehending speculative design futures in urban mobility as 
+a PIT. It addressed issues of public-private ownership and 
+usage and how this affects the design of mobility in terms of 
+issues of PESTLE categories. Currently, the focus was on 
+getting insights from design experts as the focus was towards 
+vehicle design. In the future, heterogeneous perspectives can 
+be adopted for a more egalitarian understanding of mobility 
+and PIT. Thus, this approach would help us in thinking about 
+broader issues of mobility, beyond vehicle design with a view 
+towards understanding public interest and enhancing public 
+good. 
+The current paper also showed one systematic approach 
+adopted for developing scenarios that could be later used for 
+the design of products and services in urban mobility. Thus, 
+this paper adds to the corpus of speculative design methods 
+and public-interest technology in using existing strategic 
+planning tools to envision human-centred design futures for 
+urban mobility. These scenarios and their ensuing themes can 
+serve as prompts for designers to envision future forms. In the 
+future, other structured methods can be used with the current 
+steps to broaden and deepen the scenarios and provide 
+guidance to designers in new concept design of vehicles. 
+ 
+V. CONCLUSION 
+The main objective of this paper was to envision personal 
+mobility for Indian mega-cities, such as Mumbai, in the future 
+2035-2040. The focus was to envision themes that would 
+serve as the basis of design requirements. These design 
+requirements will then be used for ideations and developing a 
+final design for vehicles for personal mobility. In this paper, 
+with a systematic design process, a speculative future scenario 
+is developed based on the trends in the key driving forces and 
+the foresight of automotive industry experts. The result of this 
+process highlights that in the future, by 2040, people will seek 
+personalized user experiences in the products they use and 
+would prefer to lease or subscribe to these assets rather than 
+own them outright. This scenario acts as the premise for 
+speculative design projects and dictates the user and their 
+environment in such a setup. Since the focus of this project is 
+on the design of future mobility, there is a need for 
+comprehending issues of actual vehicle design that will inform 
+future research. These include future-based ideation methods, 
+speculative 
+prototyping 
+methods, 
+and 
+concept 
+design 
+processes to generate the final vehicle form for personal 
+mobility aimed toward the future 2035-2040. 
+ 
+ACKNOWLEDGMENT 
+This work was presented at the IEEE International 
+Symposium on Technology and Society 2023 (ISTAS23) Co- 
+Located Workshop on Public Interest Technology (PIT) for 
+Innovation in Global Development, organized by Roba Abbas, 
+Katina Michael, Dinara Davlembayeva, Savvas Papagiannidis 
+and Jeremy Pitt. The authors thank the organizers and 
+reviewers for their work. In addition, the authors thank Prof. 
+Katina Michael for her insightful review, suggestions and 
+comments. 
+ 
+REFERENCES 
+[1] 
+T. D. McGuinness and H. Schank, Power to the public: The promise of 
+public interest technology. Princeton University Press, 2023. 
+Authorized licensed use limited to: Chalmers University of Technology Sweden. Downloaded on March 09,2024 at 15:52:29 UTC from IEEE Xplore.  Restrictions apply. 
+[2] 
+A. Genus and A. Stirling, “Collingridge and the dilemma of control: 
+Towards responsible and accountable innovation,” Research Policy, vol. 
+47, no. 1, pp. 61–69, 2018. DOI:10.1177/1946756718803721 
+[3] 
+A. May and T. Ross, “The design of civic technology: factors that 
+influence public participation and impact.,” Ergonomics, vol. 61, no. 2, 
+pp. 214–225, Feb. 2018. DOI:10.1080/00140139.2017.1349939 
+[4] 
+E. Stribling, “How Engineers Think and Implications for Public Interest 
+Technology,” IEEE Technology and Society Magazine, vol. 40, no. 3, 
+pp. 37–41. DOI: 10.1109/MTS.2021.3101925 
+[5] 
+L. Prause and K. Dietz, “Just mobility futures: Challenges for e-mobility 
+transitions from a global perspective,” Futures, vol. 141, p. 102987, 
+2022. DOI:10.1016/j.futures.2022.102987 
+[6] 
+P. Moriarty and D. Honnery, “Low-mobility: The future of transport,” 
+Futures, vol. 40, no. 10, pp. 865–872, 2008. 
+DOI:10.1016/j.futures.2008.07.021 
+[7] 
+S. A. Shaheen, A. P. Cohen, J. Broader, R. Davis, L. Brown, R. 
+Neelakantan, and D. Gopalakrishna, “Mobility on demand planning and 
+implementation: current practices, innovations, and emerging mobility 
+futures,” United States. Department of Transportation. Intelligent 
+Transportation, 2020. https://escholarship.org/uc/item/3hc6m2vj 
+[8] 
+M. Büscher, M. Sheller, and D. Tyfield, “Mobility intersections: Social 
+research, social futures,” Mobilities, vol. 11, no. 4, pp. 485–497, 2016. 
+DOI:10.1080/17450101.2016.1211818 
+[9] 
+H. Sustar, M. N. Mladenović, and M. Givoni, “The landscape of 
+envisioning and speculative design methods for sustainable mobility 
+futures,” Sustainability, vol. 12, no. 6, 2020. DOI: 10.3390/su12062447 
+[10] K. 
+Vöckler, 
+P. 
+Eckart, 
+Mobility 
+Design: 
+Shaping 
+Future 
+MobilityVolume 1: Practice. Berlin, Boston: JOVIS Verlag GmbH; 
+2023. DOI:10.1515/9783868599725 
+[11] C. Stewart, “Integral scenarios: reframing theory, building from 
+practice”. Futures, vol. 40:pp.160–172, 2007. 
+DOI:10.1016/j.futures.2007.11.013 
+[12] P. Schoemaker. “Scenario Planning: A tool for Strategic Thinking”. MIT 
+Sloan Management Review, Winter, Vol 36, no. 2, pp. 25-40, 1995. 
+https://sloanreview.mit.edu/article/scenario-planning-a-tool-for- 
+strategic-thinking/ 
+[13] P. Schwartz. The art of the long view: planning for the future in an 
+uncertain world. Currency, 2012. 
+[14] L.Partridge, Managing Change: Learning made simple. Routledge, 2007 
+[15] A. Dunne and F. Raby, Speculative everything: design, fiction, and 
+social dreaming. MIT press, 2013. 
+[16] P. Coulton, J. Lindley, and H. A. Akmal, “Design Fiction: Does the 
+search for plausibility lead to deception?,” Proceedings of Design 
+Research Society Conference 2016, 27-30 June 2016, Brighton, UK, 
+pp.369-384, 2016. 
+[17] J. Bleecker. Design fiction: A short essay on design, science, fact, and 
+fiction. Near Futures Laboratory, 2009. 
+[18] A. Tiberio and L. Imbesi, “:Blackbox: A Design Fiction Research 
+Project,” The Design Journal, vol. 20, no. 1, pp. S3707–S3712, 
+2017.DOI: 10.1080/14606925.2017.1352867 
+[19] A. Dunne, Hertzian tales: Electronic products, aesthetic experience, and 
+critical design. MIT Press, 2008. 
+[20] T. Markussen and E. Knutz, “The poetics of design fiction,” presented at 
+the Proceedings of the 6th International Conference on Designing 
+Pleasurable Products and Interfaces, 2013, pp. 231–240. 
+[21] R. F. Gonzatto, F. M. Van Amstel, L. E. Merkle, and T. Hartmann, “The 
+ideology of the future in design fictions,” Digital Creativity, vol. 24, no. 
+1, pp. 36–45, 2013. DOI: 10.1080/14626268.2013.772524 
+[22] A. Bokulich, “Rethinking Thought Experiments,” Perspectives on 
+Science, 
+vol. 
+9, 
+no. 
+3, 
+pp. 
+285–307, 
+Sep. 
+2001. 
+DOI: 
+10.1162/10636140160176143 
+[23] J. Baggini, The Pig that Wants to be Eaten: And 99 Other Thought 
+Experiments. Granta Books, 2010. 
+[24] L. Barendregt and N. S. Vaage, “Speculative Design as Thought 
+Experiment,” She Ji: The Journal of Design, Economics, and 
+Innovation, 
+vol. 
+7, 
+no. 
+3, 
+pp. 
+374–402, 
+2021. 
+DOI: 
+10.1016/j.sheji.2021.06.001 
+Authorized licensed use limited to: Chalmers University of Technology Sweden. Downloaded on March 09,2024 at 15:52:29 UTC from IEEE Xplore.  Restrictions apply. 

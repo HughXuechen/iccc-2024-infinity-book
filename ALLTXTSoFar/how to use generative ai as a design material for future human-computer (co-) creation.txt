@@ -1,0 +1,216 @@
+How to use Generative AI as a design material for future human-computer
+(co-)creation?
+HUGH XUECHEN LIU, YUXUAN HUANG, and JUSSI HOLOPAINEN
+The recent boom of computational technologies (e.g., artificial intelligence (AI) and machine learning (ML)) has demonstrated their
+potential to impact human-computer interaction (HCI) by creating a new co-creation relationship, human-computer co-creativity. This
+human-computer co-creativity relationship can affect the current approaches to the production-consumption and producers-consumers
+of HCI products. This study provides a systematic literature overview of computational co-creativity research. Articles from Scopus
+and Web of Science databases are pulled and shortlisted into 916 articles. Bibliometric analysis of their abstracts and a Latent Dirichlet
+Allocation (LDA) topic modeling on their full text is conducted to reveal what is covered in the previous academic discussions on
+human-computer co-creativity. The results of these analyses demonstrate that current research primarily focuses on technology while
+design, especially speculative and critical design, is underrepresented. Accordingly, this paper calls for more design-oriented research
+to develop a more comprehensive understanding of human-computer co-creativity, especially from critical and speculative design
+perspectives.
+Additional Key Words and Phrases: generative artificial intelligence, human-computer co-creativity, speculative design, critical design
+1
+INTRODUCTION
+Artificial intelligence (AI) and machine learning (ML) technologies have been part of human-computer interaction
+research for a long time. Although AI and ML have been frequently used in productivity fields (e.g., auto driving),
+they have recently demonstrated their capability in co-creativity thanks to the iteratively optimized algorithms. This
+evolution gives rise to the current massive interest in Generative AI (GenAI). For example, large-scale language models
+such as ChatGPT can generate articles and essays that look as if written by human beings. The performance of ChatGPT
+was so good that students used it for cheating on their assignments, which seemed to threaten academic honesty [24].
+Meanwhile, text-to-image systems, such as Dall-E 2, Midjourney, and Stable Diffusion, have garnered support from
+millions of users exploring the opportunities, limitations, and challenges of automatically created images that are
+virtually indistinguishable from ones created by humans. The adoption of these generative AI technologies into other
+creative activities (e.g., full-length movie creation) seems unstoppable.
+Current applications of computational creativity (i.e., text and graphic illustrations) are mainly for non-interactive
+media. However, considering the recent advancement in generative AI and other computational technologies in the
+creativity field, it is high time for the academic community to have a reflective overview of the essential human-computer
+co-creativity relationship. Therefore, this proposal investigates the existing human-computer (co-)creativity academic
+research with the following more specific questions:
+• What are the well-defined research directions in terms of human-computer co-creativity?
+• Specifically, what’s the role of design in current research?
+• What could be fruitful future agendas for human-computer co-creativity research?
+2
+LITERATURE REVIEW WITH BIBLIOMETRIC ANALYSIS AND TOPIC MODELING
+This study conducts a systematic literature review to seek answers to the research questions. We perform a bibliometric
+analysis and Latent Dirichlet allocation (LDA) topic modeling with total 916 papers pulled from Web of Science and
+Scopus databases. Search keywords and the number of results returned in each database is displayed in the keyword
+matrix. They as well as the sequential research workflow as suggested by Kitchenham [20] are shown in Fig 1.
+1
+2
+1, 2, and 3
+(a) Workflow of Research
+(b) Keyword Matrix, WoS
+(c) Keyword Matrix, Scopus
+Fig. 1. Research Design
+2.1
+Research Design
+A bibliometric analysis involves analyzing bibliometric data (e.g., citations, titles, and abstracts) quantitatively [10]. The
+purpose is to find out hidden information, such as the volume of publication and citation and concept co-occurrence
+networks, of academic publications in a specific field [22]. Although bibliometric analysis help grasp different aspects
+of academic publications through meta-data, it is inadequate for analyzing the detailed contents of these studies. For
+example, the trending topics and concept co-occurrence network are analyzed based on only the abstracts of papers
+instead of full texts. Therefore, topic modeling is conducted to further investigate what the research directions in
+computational creativity are.
+Topic modeling is a statistical tool for extracting variables from large datasets and is particularly well suited for
+use with text data [7, 29]. It is used for discovering hidden structures from a collection of documents. A “topic” is a
+recurring pattern of words that frequently appear together in documents. The topic modeling approach sees every
+document as a combination of various latent topics with different probabilities [23]. Among several methods for topic
+modeling, this paper uses the “Latent Dirichlet Allocation” (LDA) developed by Blei et al. [8]. LDA is one of the earliest
+and more frequently utilized topic modeling methods and it has been successfully used in studies across various fields
+(e.g., social media, finance, and university teacher assessment [4, 11, 16]). This study uses LDA to analyze the full text
+of the articles.
+2.2
+Primary Findings
+2.2.1
+Bibliometric Analysis. A co-occurrence relationship occurs when two units appear together in a document, in our
+case abstracts of academic papers. Units here can be words or sequences of words. In this way, abstracts from articles
+can be retrieved to identify relationships between units. Units and relationships are visualized as a "co-occurrence
+network." Each unit is a "node", and each relationship is an "edge" (see Fig 2a). The size of the node corresponds to
+its frequency of co-occurrence. Topics including generative adversarial, adversarial networks, and generative model(s)
+belong to one category, generative adversarial network (GAN), which is a specific kind of machine learning algorithm
+to make the computer generate real-like contents such as photorealistic images [1]. From this perspective, the network
+is dominated by the cluster of GAN, artificial intelligence, and machine learning nodes. None of them, however, have a
+strong connection with nodes of computational creativity and human creativity in the co-occurrence network. Nor do
+the nodes of computational creativity and human creativity have big weights in this network.
+2.2.2
+Topic Modeling using LDA. Topic modeling using LDA needs two a priori parameters. One is the Ngram, namely
+how many words make up a unit of analysis. Unigram means every one word is a unit, bigram is every two words, and
+trigram is every three words. The other is the number of topics. Since this proposal is primarily exploratory, we follow
+How to use Generative AI as a design material for future human-computer (co-)creation?
+3
+(a) Concept co-occurrence network. To balance the simplic-
+ity and the grasp of the most characteristic part of the co-
+occurrence network, only the top 30 nodes from 6 clusters
+are reported.
+(b) 15 Topic Uni-bigram Word Cloud
+Fig. 2. Results for bibliometric analysis and topic modeling using LDA.
+previous practices like [31] by trying various topics number from 5, 10, 15... to 40. We also tried unigram, bigram, and
+trigram individually. The combinations of unigram-bigram and unigram-bigram-trigram were also experimented with.
+In total, forty LDA models have been trained. Limited to the length of this paper, we only show the topics of the model
+"Uni-bigram, 15 Topics" in Fig 2b as an example of models. We find that "design" appeared in all these forty LDA
+models built on the full-text of papers. However, "design" seldom falls into the topic where most papers belong
+and it almost always co-appears with "tool" and "system." Although design is not absent in the previous discussions
+of computational creativity, it is still mainly from an instrument perspective. Further manual analysis of titles and
+abstracts with "design" as their main topic (100 papers) reveal that they fall into five categories: design and/or evaluation
+of a specific computational co-creativity application [13, 18]; reviews of existing research and systems [19, 25]; design
+support tools [9, 26]; general creativity research [2, 15], and speculative or critical design [5, 21, 27]. Among the three
+papers related to speculative and critical design, only [27] specifically focuses on computational co-creativity. This
+seems to indicate that these approaches are underrepresented in the research field.
+Results of bibliometric analyses and topic modeling indicate the current computational creativity research seems
+heavily technology-oriented, specifically leaning on the generative adversarial network approach. In contrast, design is
+scarcely discussed and is heavily rooted in technology or instrument. Speculative and critical design on computational
+creativity, however, is underrepresented. This may hinder us from a comprehensive understanding of GenAI and other
+forms of computational creativity which endangers long-term development.
+3
+HOW TO SPECULATE ON GENAI
+The result of our systematic literature review shows that there are literally hundreds of computational creativity
+projects utilizing functionality that the current GenAI technologies can provide. However, inadequate attention is paid
+to investigating what the user experiences and interaction architectures of GenAI systems would be like in the future.
+The challenges these systems will have on economic, political, legal, aesthetic, ethical, and societal issues have remained
+little explored in a systematic way. Thus, the goal is to foster reflective and critical engagement not just with what and
+how things are at the present but with what could be developed in the future [28].
+4
+1, 2, and 3
+(a) Sketch one.
+(b) Sketch two.
+(c) Sketch three.
+Fig. 3. Sketches for GenAI in various application cases.
+Research Through Speculative and Critical Design. The general approach that this study proposes consists of
+research through speculative and critical design focusing on human-computer (co-)creation. In research through design
+(RtD), actual artifacts are designed and made in order to respond to specific research questions [32]. Speculative design
+[3] aims at imagining alternative futures and how the designed objects would alter, shape, and redefine our human
+world. Critical design, on the other hand, aims to challenge our assumptions of how these designed objects would fit in
+our human world [6]. Thus, research through speculative and critical design allows us to imagine different futures in
+concrete ways, which helps us to prepare for them.
+Co-speculation Workshops. To place end-users of design in focus, we plan to carry out co-speculation workshops
+with interviews or focus groups. Co-speculation is a collaborative method within speculative design practices that
+incorporates non-design experts [14, 30].
+Co-speculating with sketches and prototypes. We plan to use design sketches (see Fig 3 for examples of initial
+sketches), user experience scenarios, and low-fidelity prototypes as conversation prompts in a series of co-speculative
+workshops. Sketching is a fundamental part of the design process that helps designers generate and discuss design ideas
+[17]. The design process is more about getting the right design, than getting one design right. To get the right design,
+one should consider many ideas rather than a single one to find a better overall solution [12]. To achieve this we will:
+• generate as many ideas as possible, e.g., inspired by brainstorming, discussions, lateral thinking, client discus-
+sions, observations of end users, etc.;
+• choose the most promising ones after reflecting on all the ideas and then develop them further parallelly;
+• add new ideas when they come up during further design work.
+In the future, we are going to develop the most promising sketches into more detailed user experience scenarios and
+low-fidelity prototypes for further co-speculative workshops. We will use the results to summarize interaction design
+implications for future GenAI systems.
+4
+CONCLUSION
+By carrying out bibliometric and topic modeling analysis of the literature related to human-computer (co)-creation,
+this study put forward the urgent need to speculate on the potential of this incredibly fast-evolving GenAI technology,
+thinking about the future user experiences and interaction architectures of GenAI applications. We propose that research
+through speculative and critical design (e.g., co-speculation workshops with focus groups) would be a way to help
+understand how to develop GenAI systems in the next 5 to 10 years.
+How to use Generative AI as a design material for future human-computer (co-)creation?
+5
+REFERENCES
+[1] Alankrita Aggarwal, Mamta Mittal, and Gopi Battineni. 2021. Generative adversarial network: An overview of theory and applications. International
+Journal of Information Management Data Insights 1, 1 (2021), 100004. https://doi.org/10.1016/j.jjimei.2020.100004
+[2] Ali Algarni. 2020. Neuroscience of creativity in human computer interaction. In Proceedings of the Future Technologies Conference (FTC) 2019: Volume
+1. Springer, 248–262.
+[3] James Auger. 2013. Speculative design: crafting the speculation. Digital Creativity 24, 1 (2013), 11–35. https://doi.org/10.1080/14626268.2013.767276
+arXiv:https://doi.org/10.1080/14626268.2013.767276
+[4] Saqib Aziz, Michael Dowling, Helmi Hammami, and Anke Piepenbrink. 2022. Machine learning in finance: A topic modeling approach. European
+Financial Management 28, 3 (June 2022), 744–770. https://doi.org/10.1111/eufm.12326
+[5] Jeffrey Bardzell, Shaowen Bardzell, and Lone Koefoed Hansen. 2015. Immodest proposals: Research through design and knowledge. In Proceedings
+of the 33rd annual ACM conference on human factors in computing systems. 2093–2102.
+[6] Shaowen Bardzell, Jeffrey Bardzell, Jodi Forlizzi, John Zimmerman, and John Antanitis. 2012. Critical Design and Critical Theory: The Challenge
+of Designing for Provocation. In Proceedings of the Designing Interactive Systems Conference (Newcastle Upon Tyne, United Kingdom) (DIS ’12).
+Association for Computing Machinery, New York, NY, USA, 288–297. https://doi.org/10.1145/2317956.2318001
+[7] David M. Blei. 2012. Probabilistic Topic Models. Commun. ACM 55, 4 (apr 2012), 77–84. https://doi.org/10.1145/2133806.2133826
+[8] David M. Blei, Andrew Y. Ng, and Michael I. Jordan. 2003. Latent Dirichlet Allocation. J. Mach. Learn. Res. 3, null (mar 2003), 993–1022.
+[9] Nathalie Bonnardel and Evelyne Marmèche. 2005. Towards supporting evocation processes in creative design: A cognitive approach. International
+journal of human-computer studies 63, 4-5 (2005), 422–435.
+[10] Robert Broadus. 1987. Early approaches to bibliometrics. Journal of The American Society for Information Science - J AMER SOC INFORM SCI 38 (03
+1987), 127–129. https://doi.org/10.1002/(SICI)1097-4571(198703)38:23.0.CO;2-K
+[11] Diego Buenaño-Fernandez, Mario González, David Gil, and Sergio Luján-Mora. 2020. Text Mining of Open-Ended Questions in Self-Assessment of
+University Teachers: An LDA Topic Modeling Approach. IEEE Access 8 (2020), 35318–35330. https://doi.org/10.1109/ACCESS.2020.2974983
+[12] Bill Buxton. 2007. Sketching User Experiences: Getting the Design Right and the Right Design. Morgan Kaufmann Publishers Inc., San Francisco, CA,
+USA.
+[13] Alex Calderwood, Vivian Qiu, Katy Ilonka Gero, and Lydia B Chilton. 2020. How Novelists Use Generative Language Models: An Exploratory User
+Study.. In HAI-GEN+ user2agent@ IUI.
+[14] Audrey Desjardins, Cayla Key, Heidi R. Biggs, and Kelsey Aschenbeck. 2019. Bespoke Booklets: A Method for Situated Co-Speculation. In Proceedings
+of the 2019 on Designing Interactive Systems Conference (San Diego, CA, USA) (DIS ’19). Association for Computing Machinery, New York, NY, USA,
+697–709. https://doi.org/10.1145/3322276.3322311
+[15] Ernest A Edmonds, Alastair Weakley, Linda Candy, Mark Fell, Roger Knott, and Sandra Pauletto. 2005. The studio as laboratory: Combining creative
+practice and digital technology research. International Journal of Human-Computer Studies 63, 4-5 (2005), 452–481.
+[16] Hilah Geva, Gal Oestreicher-Singer, and Maytal Saar-Tsechansky. 2019. Using Retweets When Shaping Our Online Persona: Topic Modeling
+Approach. MIS Q. 43, 2 (jun 2019), 501–524. https://doi.org/10.25300/MISQ/2019/14346
+[17] Saul Greenberg, Sheelagh Carpendale, Nicolai Marquardt, and Bill Buxton. 2012. 1.2 - Why Should I Sketch?: a synopsis of Buxton’s Sketching User
+Experiences: Getting the Design Right and the Right Design. In Sketching User Experiences: The Workbook, Saul Greenberg, Sheelagh Carpendale,
+Nicolai Marquardt, and Bill Buxton (Eds.). Morgan Kaufmann, Boston, 7–12. https://doi.org/10.1016/B978-0-12-381959-8.50002-X
+[18] Anna Kantosalo and Sirpa Riihiaho. 2019. Experience evaluations for human–computer co-creative processes–planning and conducting an evaluation
+in practice. Connection Science 31, 1 (2019), 60–81.
+[19] Anandana Kapur and Nagma Sahi Ansari. 2022. Coding reality: implications of AI for documentary media. Studies in Documentary Film 16, 2 (2022),
+174–185.
+[20] Barbara Kitchenham. 2004. Procedures for Performing Systematic Reviews. Keele, UK, Keele Univ. 33 (08 2004).
+[21] Lassi A Liikkanen. 2019. It ain’t nuttin’new–interaction design practice after the ai hype. In Human-Computer Interaction–INTERACT 2019: 17th IFIP
+TC 13 International Conference, Paphos, Cyprus, September 2–6, 2019, Proceedings, Part IV 17. Springer, 600–604.
+[22] Martina K Linnenluecke, Mauricio Marrone, and Abhay K Singh. 2020. Conducting systematic literature reviews and bibliometric analyses. Australian
+Journal of Management 45, 2 (May 2020), 175–194. https://doi.org/10.1177/0312896219877678 https://ideas.repec.org/a/sae/ausman/v45y2020i2p175-
+194.html.
+[23] Steyvers M. and Griffiths T. 2007. Probabilistic topic models. In Handbook of latent semantic analysis. Psychology Press, 439–460.
+[24] Alex Mitchell. 2022. Professor catches student cheating with ChatGPT: ‘I feel abject terror’. New York Post. https://nypost.com/2022/12/26/students-
+using-chatgpt-to-cheat-professor-warns/.
+[25] James Mountstephens and Jason Teo. 2020. Progress and challenges in generative product design: A review of systems. Computers 9, 4 (2020), 80.
+[26] Kumiyo Nakakoji, Yasuhiro Yamamoto, and Masao Ohira. 2000. Computational support for collective creativity. Knowledge-Based Systems 13, 7-8
+(2000), 451–458.
+[27] Anuradha Reddy. 2022. Artificial everyday creativity: creative leaps with AI through critical making. Digital Creativity (2022), 1–19.
+[28] Johan Redström and Heather Wiltse. 2018. Changing Things: The Future of Objects in a Digital World. https://doi.org/10.5040/9781350004368
+6
+1, 2, and 3
+[29] Ike Vayansky and Sathish Kumar. 2020. A review of topic modeling methods. Information Systems 94 (06 2020), 101582. https://doi.org/10.1016/j.is.
+2020.101582
+[30] Ron Wakkary, Doenja Oogjes, Henry W. J. Lin, and Sabrina Hauser. 2018. Philosophers Living with the Tilting Bowl. In Proceedings of the 2018 CHI
+Conference on Human Factors in Computing Systems (Montreal QC, Canada) (CHI ’18). Association for Computing Machinery, New York, NY, USA,
+1–12. https://doi.org/10.1145/3173574.3173668
+[31] Wei T. Yue, Qiu-Hong Wang, and Kai-Lung Hui. 2019. See No Evil, Hear No Evil? Dissecting the Impact of Online Hacker Forums. MIS Q. 43, 1 (mar
+2019), 73–96. https://doi.org/10.25300/MISQ/2019/13042
+[32] John Zimmerman and Jodi Forlizzi. 2014. Research Through Design in HCI. Springer New York, New York, NY, 167–189. https://doi.org/10.1007/978-
+1-4939-0378-8_8

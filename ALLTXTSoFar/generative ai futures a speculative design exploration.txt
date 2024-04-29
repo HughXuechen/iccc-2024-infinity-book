@@ -1,0 +1,254 @@
+Generative AI Futures: A Speculative Design Exploration
+Lauren Lin
+Northwestern university
+laurenlin2025@u.northwestern.edu
+Duri Long
+Northwestern university
+duri@northwestern.edu
+ABSTRACT
+What generative AI futures do we want—and what futures do we
+not want? To imagine what might exist in the future, we apply
+speculative design to explore plausible scenarios for generative
+AI and human coexistence. In this paper, we present gAIrden and
+Onion AI: two in-progress speculative concepts of future generative
+AI tools, their use cases, and the systems in which they exist. We
+analyze the designs through lenses of Environment, Data Privacy,
+Embodiment, and Play. This trip into the future is driven by the
+research question: how might generative AI tools change how we
+produce creativity and culture? When we return to the present, we
+ask ourselves, how might generative AI support positive outcomes
+for individuals and communities? Can we predict (and potentially
+mitigate) negative consequences of generative AI tools? The specu-
+lative designs purposefully engage viewers in futures thinking to
+reclaim conversation around the future of technology.
+CCS CONCEPTS
+• Human-centered computing → Interaction design; Interaction
+design process and methods; • Computing methodologies → Ar-
+tificial intelligence; • Applied computing → Arts and humanities.
+KEYWORDS
+Speculative Design, Generative AI, Creativity, Embodiment, Futures
+Studies
+ACM Reference Format:
+Lauren Lin and Duri Long. 2023. Generative AI Futures: A Speculative
+Design Exploration. In Creativity and Cognition (C&C ’23), June 19–21, 2023,
+Virtual Event, USA. ACM, New York, NY, USA, 4 pages. https://doi.org/10.
+1145/3591196.3596616
+1
+INTRODUCTION
+Generative artificial intelligence (AI) tools have quickly become
+part of our lives—popular apps like ChatGPT, Dall-E, and Midjour-
+ney garner both excitement and fear, and most of all, uncertainty.
+Conceptions of what constitutes creative practice are changing.
+To imagine what might exist in the future, we use speculative
+design to stir discussion, probing us to consider what futures we
+want—and what futures we don’t want. In this paper, we present
+two in-progress speculative visuals of future generative AI tools. We
+analyze the designs through lenses of Environment, Data Privacy,
+Embodiment, and Play.
+Permission to make digital or hard copies of part or all of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+C&C ’23, June 19–21, 2023, Virtual Event, USA
+© 2023 Copyright held by the owner/author(s).
+ACM ISBN 979-8-4007-0180-1/23/06.
+https://doi.org/10.1145/3591196.3596616
+This exploration is driven by several research questions: How
+might generative AI tools change how we produce creativity and
+culture? How might generative AI support positive outcomes for
+individuals and communities? Can we predict (and potentially mit-
+igate) negative consequences of generative AI tools?
+2
+RELATED WORK
+The majority of recent research on creating with generative AI
+tools investigates prompt engineering [7], human-AI interfaces [3],
+and design principles [8]—which address immediate challenges
+in designing for AI-mediated experiences. We expand upon the
+existing generative AI research by applying speculative design,
+resulting in new considerations about future socio-environmental
+implications for creative AI.
+3
+METHODS
+Speculative design is our method of inquiry, usually taking the
+“form of scenarios, often starting with a what-if question, and are
+intended to open up spaces of debate and discussion; therefore, they
+are by necessity provocative, intentionally simplified, and fictional”
+[2].
+While there is no “correct” way to practice speculative design,
+there are common frameworks. For example, the futures cone il-
+lustrates the plurality of possible futures, ranging from probable,
+plausible, possible, and preferable [2].
+Parallel Presents is another method to imagine “fictional parallel
+worlds” that stem from “contemporary realities” like social issues
+or cultural movements [5]. We extrapolated current conditions
+of the world to extremes (for example, climate change results in
+scarce energy resources, impacting the computing power available
+globally).
+We involved generative AI tools such as Dall-E, Midjourney, and
+Stable Diffusion to create speculative designs and visualize artifacts
+that have yet to exist, bringing new, realistic manifestations of ideas
+to life.
+4
+DESIGN THEMES
+The concepts are explored through four themes, which we chose
+by reflecting on opportunity areas for user empowerment (Em-
+bodiment, Play) and pre-existing concerns regarding technology
+(Environment, Data Privacy).
+4.1
+Environment
+Kate Crawford’s Atlas of AI cites that “running only a single NLP
+model produced more than 660,000 pounds of carbon dioxide emis-
+sions, the equivalent of five gas-powered cars over their total life-
+time (including their manufacturing) or 125 round-trip flights from
+New York to Beijing” [1]. Conversations about generative AI are
+climate conversations.
+380
+C&C ’23, June 19–21, 2023, Virtual Event, USA
+Lauren Lin and Duri Long
+4.2
+Data Privacy
+Data Privacy is already a contested topic, as AI tools require enor-
+mous amounts of data, either input directly or indirectly through
+extracted data. Uploading personal information to AI raises ques-
+tions about data exploitation, even post-interaction. This lens asks
+how AI futures protect or compromise personal data.
+4.3
+Embodiment
+Generative AI currently relies on text-based interaction, but the
+future isn’t limited to prompt engineering, and human creativity
+is situated in physical, social spaces. Through the Embodiment
+lens, we evaluate if, and how, our concepts support multimodal
+interaction paradigms to “situate the physically-embodied digital
+information in physical space” [6].
+4.4
+Play (Designing for ludic engagement)
+Looking through the lens of Play lets us design to “promote cu-
+riosity, exploration and reflection” [4], which can broaden more
+diverse participation and interest in building technology. Counter
+to today’s fixation on productivity tools, we wonder how genera-
+tive AI might center joy, delight and leisure in support of desirable
+futures.
+5
+CONCEPTS IN PROGRESS
+5.1
+gAIrden
+gAIrden (Figure 1) draws on the Parallel Presents method and is
+situated within the Plausible futures cone. The nature analogy shifts
+our temporal perceptions of computational speed and encourages
+sustainable resource management. gAIrdeners “plant” inputs (text-
+based or art requests)—but the AI-generation is not instant.
+5.1.1
+Environment. gAIrden creates “fast versus slow” AI, drawing
+from the fast fashion movement. gAIrdeners might monitor local
+climate patterns, identifying optimal conditions where human de-
+mands align with resource availability. While popups and badges
+increase eco-consciousness, the receipt’s pay-to-play system will
+likely exacerbate inequities.
+5.1.2
+Data Privacy. The gAIrden’s plants are directly owned in the
+way one might have a garden in their backyard or co-own a family
+farm. gAIrdeners hold full ownership of inputs (seeds) and outputs
+(plants). Local cities would receive individual’s AI-energy usage
+data.
+5.1.3
+Embodiment. gAIrdens are composed of tangible robotic
+plants, with pots as computers running the AI model locally. gAIrd-
+ens become mini data centers. The plant physically grows to demon-
+strate progress and mechanically shrinks once rendering is finished.
+This tech “garden” may encourage people to connect to the materi-
+ality of AI, disrupting our notions of “invisible” computing.
+5.1.4
+Play. Gardening is often about nurturing progress, focusing
+the human-AI collaboration on process over product. The anticipa-
+tion period creates a delightful (or surprising) reveal, reminiscent
+of a tree’s first fruit after months of care. Generated pieces are
+minted with a badge indicating the sustainability of the production
+(similar to LEED certifications) and could lead to a gamified system
+promoting “slow AI.”
+5.2
+Onion AI
+Onion AI (Figure 2) is inspired by participatory design and art-
+making. A long-time resident tells the story of moving to this city,
+which becomes the prompt for an AI-generated layer. Two friends
+select the mural’s sky and jump in excitement, resulting in an ener-
+getic apricot-pink horizon. Over time, the murals evolve as people
+interact with it—and become time capsules for the community.
+5.2.1
+Environment. The replacement of concrete walls and side-
+walks with digital interfaces introduces more artificial technology
+into the environment. Large scale, constantly active generative AI
+is environmentally expensive. This leads us to question the neces-
+sity of technology in supporting art and creativity, especially when
+sustainability is compromised. Why not have real paint?
+5.2.2
+Data Privacy. While all contributors collectively own the
+resulting art piece, ownership of the input data (personal stories,
+voices, body mapping) is ambiguous. City-owned inputs may give
+rise to citizen surveillance. Art-making can be incredibly personal—
+and Onion AI makes it public. Even with playful technologies, we
+must be cautious about the data supply chain.
+5.2.3
+Embodiment. The voice and drawing inputs create inclusive
+touchpoints for co-creation that aren’t reliant on prompt engineer-
+ing proficiency. People express their lived experiences through
+“human” methods of communication (eg. storytelling or body lan-
+guage).
+5.2.4
+Play. Collaborative art-making involves taking turns, build-
+ing on ideas, and elements of the game Telephone. People simul-
+taneously work on a portion of the piece, with the art evolving
+through diverse inspiration and interpretation. Onion AI broadens
+participation—from kids, graffiti artists, locals—to co-create in a fun,
+low stakes way. Here, generative AI promotes delight to reclaim
+community-centered public spaces.
+6
+FUTURE WORK AND IMPLICATIONS
+Our next steps include refining visuals, worldbuilding, and craft-
+ing origin stories to flesh out our speculative designs, exploring
+new systems of human-AI coexistence. We plan to experiment
+with ChatGPT for narrative generation and gather feedback on the
+emotional resonance of our speculations. Speculative designs can
+become an entry point to engage the public in futures thinking and
+imagine alternatives for the environment, policy, urban design and
+technology.
+Based on our experience engaging in speculative design, one
+future research question of interest is: how might we empower
+the public to evaluate the impacts of AI and diversify participation
+when designing AI futures? We imagine a generative AI design
+toolkit and workshop that applies speculative design frameworks to
+codesign AI, restoring ownership to users to determine the future
+of technology.
+REFERENCES
+[1] Crawford, K. 2021. The Atlas of AI: Power, Politics, and the Planetary Costs of
+Artificial Intelligence. Yale University Press.
+381
+Generative AI Futures: A Speculative Design Exploration
+C&C ’23, June 19–21, 2023, Virtual Event, USA
+Figure 1: gAIrden speculative design concept. Visuals by Lauren Lin and images created with the assistance of DALL·E 2.
+382
+C&C ’23, June 19–21, 2023, Virtual Event, USA
+Lauren Lin and Duri Long
+Figure 2: Onion AI speculative design concept. Visuals by Lauren Lin and images created with the assistance of DALL·E 2.
+[2] Dunne, A. and Raby, F. 2013. Speculative everything: design, fiction, and social
+dreaming. The MIT Press.
+[3] Evin, I., Hämäläinen, P. and Guckelsberger, C. 2022. Cine-AI: Generating Video
+Game Cutscenes in the Style of Human Directors. Proceedings of the ACM on
+Human-Computer Interaction. 6, CHI PLAY (Oct. 2022), 1–23. DOI:https://doi.org/
+10.1145/3549486.
+[4] Gaver, W.W., Bowers, J., Boucher, A., Gellerson, H., Pennington, S., Schmidt, A.,
+Steed, A., Villars, N. and Walker, B. 2004. The drift table: designing for ludic
+engagement. CHI ’04 Extended Abstracts on Human Factors in Computing Systems
+(New York, NY, USA, Apr. 2004), 885–900.
+[5] Howell, N., F. Schulte, B., Twigger Holroyd, A., Fatás Arana, R., Sharma, S. and
+Eden, G. 2021. Calling for a Plurality of Perspectives on Design Futuring: An
+Un-Manifesto. Extended Abstracts of the 2021 CHI Conference on Human Factors in
+Computing Systems (Yokohama Japan, May 2021), 1–10.
+[6] Ishii, H. 2008. Tangible bits: beyond pixels. Proceedings of the 2nd international
+conference on Tangible and embedded interaction (New York, NY, USA, Feb. 2008),
+xv–xxv.
+[7] Oppenlaender, J., Linder, R. and Silvennoinen, J. 2023. Prompting AI Art: An
+Investigation into the Creative Skill of Prompt Engineering. arXiv.
+[8] Weisz, J.D., Muller, M., He, J. and Houde, S. 2023. Toward General Design Principles
+for Generative AI Applications. arXiv.
+383

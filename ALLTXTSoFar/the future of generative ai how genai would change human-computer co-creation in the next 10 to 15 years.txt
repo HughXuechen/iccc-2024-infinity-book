@@ -1,0 +1,438 @@
+The Future of Generative AI: How GenAI Would Change
+Human-Computer Co-Creation in the Next 10 to 15 Years
+Yuxuan HUANG
+yhuang573-c@my.cityu.edu.hk
+City University of Hong Kong
+Kowloon Tong, Hong Kong, China
+ABSTRACT
+The past few years have witnessed a remarkable advancement in
+the field of Generative Artificial Intelligence (GenAI), a technology
+capable of generating new content based on input prompts and
+existing knowledge. This technology has the potential to revolu-
+tionize the way of human-computer co-creation. However, existing
+research on GenAI has primarily focused on technical aspects, and
+more research is needed from a design perspective, mainly through
+speculative and critical design. Therefore, this study aims to ex-
+plore how GenAI would transform human-computer co-creation
+in the next 10 to 15 years by means of design fiction and playful
+critical design. The study will involve (co-)speculative workshops
+utilizing design fiction, followed by focus groups to gather insights.
+In addition, this research will examine the user experience issues
+of interacting with functional GenAI prototypes through playful
+critical design.
+CCS CONCEPTS
+• Human-centered computing → Interactive systems and tools;
+Empirical studies in interaction design.
+KEYWORDS
+generative AI, AI-generated content, speculative design, design
+fiction, playful critical design
+ACM Reference Format:
+Yuxuan HUANG. 2023. The Future of Generative AI: How GenAI Would
+Change Human-Computer Co-Creation in the Next 10 to 15 Years. In Com-
+panion Proceedings of the Annual Symposium on Computer-Human Interac-
+tion in Play (CHI PLAY Companion ’23), October 10–13, 2023, Stratford, ON,
+Canada. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/3573382.
+3616033
+1
+INTRODUCTION
+Thanks to the advances in deep generative neural networks, recent
+years have seen breakthroughs in the use of highly sophisticated
+Artificial Intelligence (AI) systems (i.e., generative AI) for media
+content creation [28]. Generative AI (GenAI) is a set of machine
+learning (ML) algorithms that learns from diverse existing content
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+CHI PLAY Companion ’23, October 10–13, 2023, Stratford, ON, Canada
+© 2023 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 979-8-4007-0029-3/23/10...$15.00
+https://doi.org/10.1145/3573382.3616033
+(e.g., images, texts, music, code, and other forms of design) and
+generates new, plausible content [22, 29]. For instance, large-scale
+language models such as GPT-3 and ChatGPT have been applied
+in cases including but not limited to customer service, academic
+writing, automatic dialogue generation, etc [2]. The content they
+create is hard to distinguish from content created by humans [12].
+Apart from text creation, a user can also ask GenAI to draw a
+sketch [24] or compose music as a co-collaborator [19]. It is highly
+conceivable that within five to ten years there will be systems
+powerful enough to automatically create, for example, full-length
+movies.
+The research and development of the technologies involved in
+such systems continue to progress rapidly. There are thousands
+of computational creativity projects (e.g., text and graphic illus-
+trations) mainly for non-interactive media. However, considering
+the recent advancement in generative AI and other computational
+technologies in the creativity field, it is high time for the academic
+community to have a reflective overview of the essential human-
+computer co-creativity relationship. Based on the systematic lit-
+erature review (bibliometric analysis and topic modeling with La-
+tent Dirichlet Allocation (LDA) [7, 30]), we find that the current
+computational creativity research is heavily technology-oriented,
+specifically leaning on the generative adversarial network approach.
+In contrast, design is either rooted in technology or totally missing.
+Besides, little attention has been paid to investigating what the user
+experiences and interaction architectures of GenAI systems will be
+like for human-computer co-creation in the future. The challenges
+these systems will have on economic, political, legal, aesthetic, ethi-
+cal, and societal issues have remained little explored in a systematic
+way.
+Therefore, the goal is to foster reflective and critical engagement
+not only with what and how things are at present but also with what
+could be developed in the future [25]. In this project, we propose
+to carry out design fiction workshops to speculate on how GenAI
+would change the way of human-computer co-creation in the next
+10 to 15 years. The main task of the workshop is to use generative
+tools (e.g., ChatGPT, Midjourney, Stable Diffusion, etc.) to create
+generative comic strips about future life scenarios.
+Throughout the research, I put forward the following research
+questions and seek answers to them.
+RQ1: What are the possible human-computer co-creation re-
+search directions of GenAI in the near future (the next 10 to
+15 years)?
+RQ2: What user experience issues do people encounter with
+GenAI artifacts?
+322
+CHI PLAY Companion ’23, October 10–13, 2023, Stratford, ON, Canada
+Yuxuan HUANG
+2
+RELATED WORK
+First things first. What is creativity? According to Boden [9], creativ-
+ity refers to the ability (of humans) to generate new, surprising, and
+valuable ideas (e.g., concepts, poems, methodologies, recipes, jokes,
+etc.) or artifacts (e.g., books, movies, drawings, sculptures, comedies,
+etc.). This ability can be enhanced by computational technologies.
+Computational creativity refers to the use of computer systems,
+such as Artificial Intelligence (AI), to create novel ideas or artifacts
+[5, 11]. Human-computer co-creativity is a process that involves
+a human individual(s) and a computer system(s) to generate a cre-
+ative outcome(s) [14]. Although human-computer co-creativity is a
+subfield of computational creativity [16], it focuses on supporting
+human creativity [14] while computational creativity researches
+how to develop creative computer systems. As GenAI is becoming
+more and more mature in complex algorithms and a wide range
+of uses, it is inevitable that creative fields will be disrupted. It has
+been suggested that the development of participatory AI should
+consider understanding, responding, adapting, and exploiting AI
+[15]. This is a high-level overview and suggestion for designing
+GenAI. However, how Gen will affect human-computer co-creation
+and what new interaction for GenAI artifacts could be like in the
+near future (next 10 to 15 years) is still underexplored.
+The general approach that this study proposes consists of re-
+search through speculative and critical design focusing on human-
+computer co-creation. In research through design (RtD), actual
+artifacts are designed and made in order to respond to specific
+research questions [32]. Speculative design [1] aims at imagining
+alternative futures and how the designed objects would alter, shape,
+and redefine our human world. Design fiction was first coined by
+Bruce Sterling, who described it as something akin to science fic-
+tion that could hardly be distinguished by a common reader [27].
+In the past two decades, it has been gradually regarded as a re-
+search method and design approach [6, 8]. Design fiction serves as
+a tool within speculative design. It 1) uses speculative elements to
+envision a story world, 2) has entities (e.g., prototypes, videos, writ-
+ten stories, comic strips in our case, etc.) within that story world
+[18], 3) aims at engaging people to speculate on future scenarios,
+technologies, or social changes. Critical design, on the other hand,
+aims to challenge our assumptions of how these designed objects
+would fit in our human world [4]. It is a research practice that casts
+critical awareness among designers and customers on potential
+harm to the public through design [3]. Playing is believed to be a
+way of understanding the world and engaging with others while
+having proprietary pleasure [26]. Playfulness, likewise, is a positive
+feature in products that increases the quality of the overall user
+experience and ultimately makes things go beyond pure entertain-
+ment [20]. This provides a new way of carrying out critical design.
+As in current states, the design with GenAI for human-computer
+co-creativity is underexplored, I propose combining critical design
+and play (i.e., playful critical interaction design [23]) to start inter-
+action exploration and initiate critical reflections on applications. In
+conclusion, research through speculative and playful critical design
+allows us to imagine different futures in concrete ways, which helps
+us to prepare for them.
+Figure 1: The workflow for the workshops.
+3
+METHODOLOGY
+3.1
+(Co-) Speculative Workshops using Design
+Fiction
+The workflow for the workshops is designed as Figure 1. Design fic-
+tion projects can take various forms, including prototypes, videos,
+written stories, or interactive experiences [21]. The expected out-
+puts from our workshops are comic strips (including the text scripts
+of the comic strips written by ChatGPT and generated comic strip
+pictures from Midjourney or Stable Diffusion). First, we ask Chat-
+GPT to speculate on the future way of human-computer co-creation
+in film-making, for example, and generate the text content for the
+comic strips. Then we put the text description into Stable Diffusion
+to generate images for the comic strip. Last, the dialogue of the char-
+acters is manually added to the comic strip via image processing
+software. We have experimented with the workflow and produced
+a design fiction example (see Figure 2).
+A pilot workshop has been carried out with five participants
+(including 3 graduate students and 2 design experts) to gain a pre-
+liminary understanding of what insights the design fiction workflow
+could bring. The results of the group discussion are included in
+Section 4.
+To place end-users of design in focus, we further plan to carry out
+a co-speculation workshop, recruiting 12 to 16 participants who are
+all working-aged adults. Co-speculation is a collaborative method
+within speculative design practices that incorporates non-design
+experts [13, 31]. The workshop will be followed by a focus group
+study. Focus group is one of the most common ways to boost direct
+conversations while getting opinions from multiple participants
+at one time [17]. The designed example interview questions are
+included in Appendix A. The workshop as well as the follow-up
+focus group discussion will be recorded with the live stream (e.g.,
+Zoom or Teams) or camera recording throughout the experiment.
+323
+The Future of Generative AI
+CHI PLAY Companion ’23, October 10–13, 2023, Stratford, ON, Canada
+(a) Scene: A film studio board-
+room, where a group of film-
+makers and AI developers are
+engaged in a heated discussion.
+(b) Scene: A movie set, where
+actors are performing a scene
+with an AI-generated plot twist.
+(c) Scene: A red carpet event,
+where critics and fans are dis-
+cussing the latest AI vs. Holly-
+wood movie.
+(d) Scene: The film studio,
+where the filmmakers and AI
+developers gather to discuss
+the movie’s success.
+Figure 2: Example Comic Strip Design Fiction named AI vs.
+Hollywood: The Battle for the Most Absurd Plot Twist" cap-
+tures the comedic essence of the comic strip, highlighting
+the humorous clash between AI-generated storylines and the
+traditional Hollywood narrative. All of the text content in
+the figures including captions is generated by ChatGPT
+3.2
+Prototyping through Playful Critical Design
+I plan to hold a brainstorming session within my lab research group
+(three graduate students, one Postdoc, and one professor, all special-
+ized in design) for idea generation, validation, and selection. The
+prototype ideas should meet the following requirements: 1) interac-
+tive; 2) playful; and 3) can provoke reflections on society, culture, or
+ethics. I will generate my initial idea based on the insights from the
+speculative workshops and use it as a brainstorming starter. After
+careful selection of the ideas, prototypes (probably three or four)
+will be developed through 3D modeling software, programming
+languages, electronics, or crafting materials.
+To acquire profound thoughts from individuals, I will recruit 12 to
+16 participants (including design professionals and non-professionals)
+to freely interact with the prototypes. A semi-structured interview
+study will then be carried out with them since it can provide space
+for the researcher to ask for clarifications, add questions, and fol-
+low comments during the process [17]. I want to go deeper with
+concerned participants while giving them chances to express their
+comments.
+3.3
+Data Analysis
+Inductive thematic analyses [10] will be conducted to identify pat-
+terns within the interview data collected from focus groups and
+semi-structured interviews. The audio recordings will be automati-
+cally transcribed by speech-to-text technologies. All transcripts will
+be reviewed to generate initial codes to develop potential themes.
+4
+RESULTS
+This section will introduce the preliminary results from the focus
+group study of the pilot workshop.
+All participants agree that this kind of design fiction brings the
+future closer to people. However, the content of the comic strips is
+not provoking. Possible solutions to this pain point might be adding
+dark twists, trying to challenge and surprise the AI, or humans putting
+forward the design fiction and the AI adding details. Besides, there
+are also worries that AI starts to think like humans, and For artists,
+creativity is being taken out. Every coin has two sides. These wor-
+ries emphasize the importance of RQ1 which speculates on how to
+take advantage of the human-like abilities of AI to facilitate creativ-
+ity. Furthermore, RQ2 puts forward the need to make functional
+prototypes to better understand the possible interactions between
+humans and AI speculated from RQ1.
+5
+DISCUSSION & LIMITATIONS
+During the trials of generating comic strips, ChatGPT was asked to
+speculate something bad about having GenAI interventing human-
+computer co-creation. However, the AI kept defending itself to be
+"good" and tried to give a "happy ending" to the comic strips. This
+may cause bias when we give GenAI total autonomy to create the
+comic strip design fiction. The disguised AI might cover up potential
+risks. Besides, some other problems have been put forward: 1) Users
+struggle to get images consistent with the text content of the comic
+strips, which causes the problem that the graphic representation
+loses value in getting people to think and criticize; 2) The design
+fiction of comic strips doesn’t raise relatively new issues.
+For the future workshop, the following points should be consid-
+ered: 1) Provide a prompt template for easy copy and looking up;
+2) Let participants work in pairs to help each other with prompts
+while having more fun; 3) Try Midjourney as it allows users to
+refer to others’ prompts on Discord; 4) Add a timeline board, and
+let participants print out their comic strips and stick them onto
+the timeline. The intended outcome of my research is a design
+model of utilizing GenAI as a design material for human-computer
+co-creation.
+6
+CONCLUSION & FUTURE WORK
+This dissertation serves as a roadmap to address my research ques-
+tions and bridge gaps in the current state of the literature. RQ1:
+What are the possible human-computer co-creation research direc-
+tions of GenAI in the near future (the next 10 to 15 years)? seeks to
+speculate on the collaboration stories that could actually happen
+between humans and computers in the near future. This inquiry
+will provide inspiration to drive future interaction and interface
+design utilizing GenAI in the HCI research community. For ex-
+ample, how GenAI can serve as a tool to support conversation
+between humans and novel protagonists might be one of my future
+324
+CHI PLAY Companion ’23, October 10–13, 2023, Stratford, ON, Canada
+Yuxuan HUANG
+research topics. RQ2: What user experience issues do people encounter
+with GenAI artifacts? intends to provide preliminary insights on
+the opportunities and challenges when users interact with playful
+GenAI prototypes. These insights can be used as a foundation for
+improving the usability of practical GenAI applications.
+REFERENCES
+[1] James Auger. 2013.
+Speculative design: crafting the speculation.
+Digital
+Creativity 24, 1 (2013), 11–35.
+https://doi.org/10.1080/14626268.2013.767276
+arXiv:https://doi.org/10.1080/14626268.2013.767276
+[2] Ömer Aydın and Enis Karaarslan. 2022. OpenAI ChatGPT Generated Literature
+Review: Digital Twin in Healthcare (December 21, 2022). (12 2022), 22–31. http:
+//dx.doi.org/10.2139/ssrn.4308687
+[3] Jeffrey Bardzell and Shaowen Bardzell. 2013. What is "Critical" about Critical
+Design?. In Proceedings of the SIGCHI Conference on Human Factors in Computing
+Systems (Paris, France) (CHI ’13). Association for Computing Machinery, New
+York, NY, USA, 3297–3306. https://doi.org/10.1145/2470654.2466451
+[4] Shaowen Bardzell, Jeffrey Bardzell, Jodi Forlizzi, John Zimmerman, and John
+Antanitis. 2012. Critical Design and Critical Theory: The Challenge of Designing
+for Provocation. In Proceedings of the Designing Interactive Systems Conference
+(Newcastle Upon Tyne, United Kingdom) (DIS ’12). Association for Computing Ma-
+chinery, New York, NY, USA, 288–297. https://doi.org/10.1145/2317956.2318001
+[5] Tarek R. Besold, Marco Schorlemmer, and Alan Smaill (Eds.). 2015. Computational
+Creativity Research: Towards Creative Machines. Atlantis Thinking Machines,
+Vol. 7. Atlantis Press, Paris. https://doi.org/10.2991/978-94-6239-085-0
+[6] Julian Bleecker. 2009. Design Fiction: A short essay on design, science, fact and
+fiction. Near Future Laboratory.
+[7] David M. Blei. 2012. Probabilistic Topic Models. Commun. ACM 55, 4 (apr 2012),
+77–84. https://doi.org/10.1145/2133806.2133826
+[8] Mark Blythe. 2014. Research through Design Fiction: Narrative in Real and
+Imaginary Abstracts. In Proceedings of the SIGCHI Conference on Human Factors
+in Computing Systems (Toronto, Ontario, Canada) (CHI ’14). Association for
+Computing Machinery, New York, NY, USA, 703–712. https://doi.org/10.1145/
+2556288.2557098
+[9] Margaret A. Boden. 2003. The Creative Mind: Myths and Mechanisms (2 ed.).
+Routledge, London. https://doi.org/10.4324/9780203508527
+[10] Virginia Braun and Victoria Clarke. 2019. Reflecting on reflexive thematic anal-
+ysis. Qualitative Research in Sport, Exercise and Health 11, 4 (2019), 589–597.
+https://doi.org/10.1080/2159676X.2019.1628806 Publisher: Routledge _eprint:
+https://doi.org/10.1080/2159676X.2019.1628806.
+[11] Simon Colton and Geraint A. Wiggins. 2012. Computational creativity: the final
+frontier?. In Proceedings of the 20th European Conference on Artificial Intelligence
+(ECAI’12). IOS Press, NLD, 21–26.
+[12] Robert Dale. 2021. GPT-3: What’s it good for? Natural Language Engineering 27,
+1 (2021), 113–118. https://doi.org/10.1017/S1351324920000601
+[13] Audrey Desjardins, Cayla Key, Heidi R. Biggs, and Kelsey Aschenbeck. 2019.
+Bespoke Booklets: A Method for Situated Co-Speculation. In Proceedings of the
+2019 on Designing Interactive Systems Conference (San Diego, CA, USA) (DIS ’19).
+Association for Computing Machinery, New York, NY, USA, 697–709.
+https:
+//doi.org/10.1145/3322276.3322311
+[14] Oliver Hoffmann. 2016. On Modeling Human-Computer Co-Creativity. In Knowl-
+edge, Information and Creativity Support Systems, Susumu Kunifuji, George An-
+gelos Papadopoulos, Andrzej M.J. Skulimowski, and Janusz Kacprzyk
+(Eds.).
+Springer International Publishing, Cham, 37–48.
+[15] Nanna Inie, Jeanette Falk, and Steve Tanimoto. 2023. Designing Participatory
+AI: Creative Professionals’ Worries and Expectations about Generative AI. In
+Extended Abstracts of the 2023 CHI Conference on Human Factors in Computing Sys-
+tems (Hamburg, Germany) (CHI EA ’23). Association for Computing Machinery,
+New York, NY, USA, Article 82, 8 pages. https://doi.org/10.1145/3544549.3585657
+[16] Anna Kantosalo and Tapio Takala. 2020. Five C’s for Human-Computer Co-
+Creativity - An Update on Classical Creativity Perspectives. In International
+Conference on Innovative Computing and Cloud Computing.
+[17] Jonathan Lazar, Jinjuan Heidi Feng, and Harry Hochheiser. 2017. Chapter 8 -
+Interviews and focus groups. In Research Methods in Human Computer Interaction
+(Second Edition) (second edition ed.), Jonathan Lazar, Jinjuan Heidi Feng, and
+Harry Hochheiser (Eds.). Morgan Kaufmann, Boston, 187–228. https://doi.org/
+10.1016/B978-0-12-805390-4.00008-X
+[18] Joseph Lindley and Paul Coulton. 2015. Back to the Future: 10 Years of Design
+Fiction. In Proceedings of the 2015 British HCI Conference (Lincoln, Lincolnshire,
+United Kingdom) (British HCI ’15). Association for Computing Machinery, New
+York, NY, USA, 210–211. https://doi.org/10.1145/2783446.2783592
+[19] Ryan Louie, Andy Coenen, Cheng Zhi Huang, Michael Terry, and Carrie J. Cai.
+2020. Novice-AI Music Co-Creation via AI-Steering Tools for Deep Generative
+Models. In Proceedings of the 2020 CHI Conference on Human Factors in Computing
+Systems (Honolulu, HI, USA) (CHI ’20). Association for Computing Machinery,
+New York, NY, USA, 1–13. https://doi.org/10.1145/3313831.3376739
+[20] Andrés Lucero, Evangelos Karapanos, Juha Arrasvuori, and Hannu Korhonen.
+2014. Playful or Gameful? Creating Delightful User Experiences. Interactions 21,
+3 (may 2014), 34–39. https://doi.org/10.1145/2590973
+[21] Thomas Markussen and Eva Knutz. 2013. The poetics of design fiction. 231–240.
+https://doi.org/10.1145/2513506.2513531
+[22] Michael Muller, Lydia B Chilton, Anna Kantosalo, Charles Patrick Martin, and
+Greg Walsh. 2022. GenAICHI: Generative AI and HCI. In Extended Abstracts of
+the 2022 CHI Conference on Human Factors in Computing Systems (New Orleans,
+LA, USA) (CHI EA ’22). Association for Computing Machinery, New York, NY,
+USA, Article 110, 7 pages. https://doi.org/10.1145/3491101.3503719
+[23] Christina Neumayer and Miguel Sicart. 2023. Probably not a game: Playing with
+the AI in the ritual of taking pictures on the mobile phone. New Media & Society
+25, 4 (2023), 685–701. https://doi.org/10.1177/14614448231158654
+[24] Changhoon Oh, Jungwoo Song, Jinhan Choi, Seonghyeon Kim, Sungwoo Lee, and
+Bongwon Suh. 2018. I Lead, You Help but Only with Enough Details: Understand-
+ing User Experience of Co-Creation with Artificial Intelligence. In Proceedings of
+the 2018 CHI Conference on Human Factors in Computing Systems (Montreal QC,
+Canada) (CHI ’18). Association for Computing Machinery, New York, NY, USA,
+1–13. https://doi.org/10.1145/3173574.3174223
+[25] Johan Redström and Heather Wiltse. 2018. Changing Things: The Future of Objects
+in a Digital World. https://doi.org/10.5040/9781350004368
+[26] Miguel Sicart. 2014. Play Matters. MIT Press, Cambridge, Massachusetts.
+[27] Bruce Sterling. 2005. Shaping Things. The MIT Press.
+[28] Minhyang (Mia) Suh, Emily Youngblom, Michael Terry, and Carrie J Cai. 2021.
+AI as Social Glue: Uncovering the Roles of Deep Generative AI during Social
+Music Composition. In Proceedings of the 2021 CHI Conference on Human Factors
+in Computing Systems (Yokohama, Japan) (CHI ’21). Association for Computing
+Machinery, New York, NY, USA, Article 582, 11 pages. https://doi.org/10.1145/
+3411764.3445219
+[29] Jiao Sun, Q. Vera Liao, Michael Muller, Mayank Agarwal, Stephanie Houde,
+Kartik Talamadupula, and Justin D. Weisz. 2022. Investigating Explainability of
+Generative AI for Code through Scenario-Based Design. In 27th International
+Conference on Intelligent User Interfaces (Helsinki, Finland) (IUI ’22). Association
+for Computing Machinery, New York, NY, USA, 212–228.
+https://doi.org/10.
+1145/3490099.3511119
+[30] Ike Vayansky and Sathish Kumar. 2020. A review of topic modeling methods.
+Information Systems 94 (06 2020), 101582. https://doi.org/10.1016/j.is.2020.101582
+[31] Ron Wakkary, Doenja Oogjes, Henry W. J. Lin, and Sabrina Hauser. 2018.
+Philosophers Living with the Tilting Bowl. In Proceedings of the 2018 CHI
+Conference on Human Factors in Computing Systems (Montreal QC, Canada)
+(CHI ’18). Association for Computing Machinery, New York, NY, USA, 1–12.
+https://doi.org/10.1145/3173574.3173668
+[32] John Zimmerman and Jodi Forlizzi. 2014.
+Research Through Design in HCI.
+Springer New York, New York, NY, 167–189.
+https://doi.org/10.1007/978-1-
+4939-0378-8_8
+A
+EXAMPLE INTERVIEW QUESTIONS
+(1) What is the topic for your design fiction?
+(2) Do you think the design fiction that you created would be
+possible? Why?
+(3) If so, do you think this design fiction would bring any poten-
+tial risks?
+(4) How do you consider your design fiction?
+(5) How can we improve the fictional design that those genera-
+tive tools provide?
+(6) Who do you think created this idea? Who is making the
+decisions? How do we allocate the authorship? Who is re-
+sponsible for this idea?
+Received 2023-06-22; accepted 2023-08-03
+325

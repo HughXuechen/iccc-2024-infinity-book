@@ -1,0 +1,313 @@
+Exploration of the Future of Co-Creative Systems Through  
+Collaborative Speculative Design Practices 
+Chiara Ullstein 
+Kyoto Design Lab 
+Kyoto Institute of Technology 
+Matsugasaki, Sakyo-ku, Kyoto 606-8585 JAPAN 
+chiara.ullstein@gmail.com 
+Michel Hohendanner 
+Kyoto Design Lab 
+Kyoto Institute of Technology 
+Matsugasaki, Sakyo-ku, Kyoto 606-8585 JAPAN 
+michelhohendanner@gmail.com 
+Abstract 
+Technology strongly influences societal systems, and 
+likewise societal perceptions influence the implementa-
+tion of specific technologies as well as their future de-
+velopment. When it comes to co-creative systems, ques-
+tions arise on how these systems will fit into human so-
+cial systems. Therefore, a broad and pluralistic discourse 
+about the future of co-creative systems and their societal 
+impact should be aimed for. Our research collects crucial 
+questions from the realm of co-creative literature and 
+embeds them in a collaborative speculative design 
+framework. Firstly, the framework aids collaboration be-
+tween interdisciplinary speculators when imagining fu-
+ture scenarios about co-creative systems together. And 
+second, it supports the generation of visual speculative 
+products that can serve as a starting point for a broad ex-
+ternal audience to discuss the developments and impacts 
+of co-creative technology on possible futures in a plural-
+istic manner. 
+ Introduction 
+Creativity is broadly perceived as one of the things that 
+makes us human. Therefore, the possibility for an artificial 
+intelligence (AI) driven system to be creative is considered 
+as one of the frontiers of AI development, but also a feared 
+threshold for its critics. (Colton and Wiggins 2012) The 
+thought that computational systems are not able to, or should 
+be excluded from, performing creative acts is reflected in an 
+unconscious human bias found in the assessment of artefacts 
+created by computational creative systems (Moffat and 
+Kelly 2006). Furthermore, the seemingly general unease 
+with AI systems within society only adds to this bias (Moffat 
+and Kelly 2006). This unease could not only create skepti-
+cism towards the beneficial use of AI systems, but also limit 
+positive future visions. 
+Because co-creative systems may have a great influence 
+on the creativity of laymen and professionals (Kantosalo, 
+Toivanen, Xiao, and Toivonen 2014), and potentially also 
+lead to a transformation of creative industries as well as cul-
+tural norms and value systems, it could be valuable to have 
+discussions on the future of co-creative systems; Discus-
+sions that include not only researchers from the field, but 
+also societal actors who will be equally affected. In this pa-
+per, we present a method to collectively reflect on and dis-
+cuss about the status quo as well as the future of co-creative 
+systems and generate visual discussion contributions. 
+ We rely on the definition of creative systems by Karim, 
+Maher, Davis and Grace (2019, p.17): “Creative systems are 
+computational systems that either model human creativity in 
+some manner or are designed to support and inspire creativ-
+ity.” Within the field of creative systems, different ap-
+proaches, namely creativity support tools, autonomous cre-
+ative systems and co-creativity systems, can be differenti-
+ated (Karim et al. 2019). This paper specifically focusses on 
+societal questions regarding the future of co-creative sys-
+tems. Co-creative systems describe proactive (Liapis, Yan-
+nakakis, Alexopoulos and Lopes 2016) collaborations be-
+tween computers and humans on a creative task in real time, 
+whereby the creativity of both agents is mutually influenced 
+and enriched (Davis, Hsiao, Popova, and Magerko 2015). 
+ With the development of the research field of computa-
+tional creativity and the increase in autonomy of computa-
+tional systems, many societal and philosophical questions 
+relevant to co-creative systems stem from the approach of 
+autonomous creative systems, which can lie the basis for the 
+computational counterpart in co-creative systems. Looking 
+at a simplified co-creative environment, the human and the 
+computational system form the co-creative unit. This unit is 
+embedded in a social system (society) with its norms and 
+values. The creator or the programmer has influence on the 
+computational system. Societal questions arise at all possi-
+ble interrelations of these entities. In the following section, 
+we will first raise societal and philosophical questions be-
+fore presenting our method for the exploration of the future 
+of co-creative systems. 
+Societal and Philosophical Questions 
+A crucial factor when it comes to the assessment of creativ-
+ity of computational systems is the question of creative au-
+tonomy. In order for this concept to be enabled, it is essen-
+tial to integrate a certain amount of self-awareness and, 
+therefore, the ability to “observe and assess its own 
+performance” (Ackerman, Goel, Johnson, Jordanous, Leon, 
+Perez y Perez, Toivonen, and Ventura 2017, p.5) into the 
+computational system. This allows the system to evaluate its 
+predefined or learned system standard in order to assess and 
+compare its actions and outputs accordingly. Furthermore, 
+the ability to adapt this standard, if necessary, needs to be 
+integrated into the computational system in order for it to 
+gain autonomy. (Ackerman et al. 2017) This raises the ques-
+tion on whether the ability of autonomous systems to change 
+without direct human interference is equal to the idea of au-
+tonomy (Jennings 2010) and whether it is accepted as such 
+by the human collaborator in the co-creative system. 
+In addition, the assessment of its current system standards 
+by a computational system is directly linked to the social 
+setting of the environment, where the system is embedded. 
+This is not only because the initial system standards origi-
+nate from a human creator, but because they must be aligned 
+with societal norms and values beyond the programmer-sys-
+tem relationship (Jennings 2010). This is extended further 
+when it comes to co-creative systems, where the user and 
+the computational system potentially influence the percep-
+tion of each other constantly (Cunha et al. 2019) and thereby 
+also the evaluation standard. 
+ Related to the change of its standards by the computa-
+tional system, is the potential realignment of norms within 
+a society if an algorithm’s performance is envied by the col-
+laborator or an observer. The comparison of the system’s 
+abilities to one’s own or to what is broadly perceived as 
+good practice, may lead human beings to challenge their 
+performance. Eventually, this arises normative discussions 
+about the quality or creativeness of a human work (Pettee, 
+Shimmin, Duhaime, and Vidrin 2019). This constellation 
+raises questions on the influence of societal standards and 
+value systems on the relationship of co-creative system col-
+laborators and vice versa the influence of the relationship on 
+societal norms and values. Furthermore, also questions of 
+equality of actors within the co-creative system relation-
+ship referring to the influential power or importance of one 
+collaborating actor are touched. 
+ The latter topic has also been mentioned in the context of 
+creative computational systems outside the co-creative 
+realm. For instance, the pioneer Harold Cohen (1988) stated 
+that the creation of art works of his computational system 
+AARON is bound to language and representational determi-
+nations made by himself. While AARON generated art-
+works autonomously, the creative computational system 
+was not “an artist on its own right” (Cohen, P. 2016, p.65). 
+Cohen perceived himself as the real artist and retained con-
+trol by limiting AARON’s level of autonomy (Cohen, P. 
+2016). Even if the creators of computational systems for co-
+creative settings decide to grant unlimited autonomy to the 
+machine, the question of authorship of the resulting co-cre-
+ative work remains. While the latter refers to authorship 
+rights between an autonomous computational agent and its 
+creator, in co-creative systems the question of authorship 
+should also be referred to the human-machine collaborators. 
+Whereas shared creative responsibility over the generated 
+artifact was observed in co-creative systems (Kantosalo, 
+Toivanen, Xiao, and Toivonen 2014), different scales of in-
+teraction (Maher 2012) and different roles, such as control 
+over task, speaker or outcome (Novick and Sutton 1997), of 
+the co-creators can be identified. 
+ Finally, it has been discussed by Colton, Pease and Saun-
+ders (2018) that a computational system’s lack of authen-
+ticity regarding authorial intention and the meaning of a cre-
+ative artifact will limit its creative potential. When it comes 
+to societal reception of the creations of co-creative systems, 
+the question arises whether the human influence balances 
+the computational system’s lack of authenticity or whether 
+the computational system’s lack of authenticity diminishes 
+the authenticity of the final creative outcome regardless of 
+the human influence. 
+Collaborative Speculative Design Practices 
+The following section presents our own speculative design 
+approach and provides a framework to conduct 1.5-day 
+workshops. Speculative design supports the exploration of 
+uncertain technological futures and uses the reasoning about 
+such futures as a medium for speculation: e.g. to think about 
+the future of co-creative systems and their prospective soci-
+etal impact. Due to the uncertainty of future developments, 
+information gaps emerge. These gaps are closed by making 
+assumptions that facilitate the conception of future scenar-
+ios. (Dunne and Raby 2013; Malpass 2017) The process of 
+speculation decouples the imagination of future scenarios 
+from specialized knowledge bases and allows an interdisci-
+plinary group to generate ideas collectively, speculate on a 
+more even level of knowledge and, thereby, integrates di-
+verse perspectives into the ideation phase of the scenario. 
+The result of the presented approach is the generation of a 
+visualized product that transports the discussed and concep-
+tualized future scenario.  
+ Speculative design practices provide ample opportunity 
+for exploring the future of co-creative systems. Indeed, 
+speculative design aims to have an effect beyond the actual 
+design of visual speculative artifacts, to initiate discussions 
+about possible future scenarios (Dunne and Raby 2013; 
+Malpass 2017). This can be achieved by using in-depth dis-
+cussion settings, such as a workshop format, as well as by 
+presenting the results to a broader audience. For the latter 
+purpose the visualized products may serve as a starting point 
+for subsequent discussions with a broad audience. 
+ Our framework covers the collaborative speculative de-
+sign process from ideation to conception of a future scenario 
+for the visualization of a representative speculative product, 
+through an in-depth discussion styled workshop format. Be-
+cause the visualization of conceived products is a crucial 
+part of the approach, at least one designer per workshop 
+group should take part. The workshop can be conducted ei-
+ther in an offline or online setting. The framework is pro-
+vided under the CC license on www.perfectfuturede-
+sign.com and was validated by conducting two workshops 
+on the topic of the future of the digital public sphere (results 
+accessible at aforementioned website). The framework 
+applied to the context of co-creative systems contains the 
+following three phases:  
+ In the first phase, the participants learn about the co-cre-
+ative systems and the applied speculative design method. In 
+the second phase, the participants brainstorm individually 
+on a shared board about given topics. This brainstorming 
+task introduces the participants to speculation and prepares 
+them to free their thoughts from everyday life constraints. 
+The questions to ideate on are: Which co-creativity-based 
+technologies will be broadly established in 10 years?, How 
+will established co-creativity-based technologies influence 
+social norms and value systems (e.g. authorship, authentic-
+ity, autonomy, quality) in 10 years? and, What are the main 
+challenges to be overcome to establish co-creative systems 
+within the next 10 years? The resulting collection of 
+thoughts serves as an idea pool from which working groups 
+can subsequently choose a co-creativity-related topic of in-
+terest for the speculation of a future scenario. The specula-
+tion and conception of this scenario is carried out in three 
+steps. First, the topic of interest is analyzed with regards to 
+the societal or human factor and the influencing factor. 
+While the first refers to the relation of the chosen topic to 
+societal systems or the role of human individuals in relation 
+to the chosen topic, the latter questions the factors that ena-
+ble or hinder the development of the chosen topic or issue 
+with regards to co-creative systems. Second, from a perspec-
+tive of a future in ten years, it is speculated how the topic of 
+interest and/or the corresponding factors have evolved over 
+the past years. In particular, a product or a service that has a 
+major influence on the co-creative future scenario or results 
+from the scenario is to be conceived. Third, effects of the 
+conceived scenario and product on the future environment 
+are to be speculated about. Finally, in the third phase, the 
+group visualizes the conceived product or service as a prod-
+uct webpage optionally using a provided webpage-template. 
+The webpage includes information about the future sce-
+nario, about the product or service and about how it can af-
+fect the life of their users. 
+Discussion and Conclusion 
+The presented framework provides a guideline for speculat-
+ing about the future of co-creative systems. It was conceived 
+to aid collaboration between inter-disciplinary speculators 
+when imagining future scenarios together. Furthermore, the 
+framework aims at supporting the generation of visual spec-
+ulative products. These products can serve as a starting point 
+for a broad external audience to discuss about developments 
+and impacts of co-creative technology on possible futures in 
+a pluralistic manner. 
+ The questions addressed within the framework stem from 
+the societal and philosophical questions posed in the com-
+putational creativity literature. Regarding the list of themes 
+selected, no claim to completeness is made and the section 
+on the societal and philosophical questions above is limited 
+to raise all issues. Nevertheless, we hope the collection of 
+themes and our framework provide a starting point for con-
+versations on where the future of co-creative systems may 
+lie and what to keep an eye on when heading there. 
+References 
+Ackerman, M., Goel, A., Johnson, C. G., Jordanous, A., 
+Leon, C., Perez y Perez, R., Toivonen, H., and Ventura, D. 
+2017. Teaching Computational Creativity. Proc. of the 8th 
+ICCC: 9-16. 
+Cohen, H. 1988. How to Draw Three People in a Botanical 
+Garden. AAAI Vol. 89: 846-855. 
+Cohen, P. 2016. Harold Cohen and AARON. AI Magazine, 
+37(4): 63-66. 
+Colton, S., and Wiggins, G. A. 2012. Computational crea-
+tivity: The final frontier?. Ecai Vol. 12: 21-26. 
+Cunha, J. M., Rebelo, S., Martins, P., and Machado, P. 2019. 
+Assessing Usefulness of a Visual Blending System:" Pic-
+tionary Has Used Image-making New Meaning Logic for 
+Decades. We Don't Need a Computational Platform to Ex-
+plore the Blending Phenomena", Do We?. Proc. of the 10th 
+ICCC: 296-300. 
+Davis, N., Hsiao, C. P., Popova, Y., and Magerko, B. 2015. 
+An enactive model of creativity for computational collabo-
+ration and co-creation. In Creativity in the Digital Age. Lon-
+don: Springer. 109-133. 
+Dunne, A. and Raby, F. 2013. Speculative everything: de-
+sign, fiction, and social dreaming. Cambridge: MIT Press. 
+Jennings, K. E. (2010). Developing creativity: Artificial bar-
+riers in artificial intelligence. Minds and Machines, 20(4): 
+489-501. 
+Karimi, P., Maher, M. L., Davis, N., and Grace, K. 2019. 
+Deep Learning in a Computational Model for Conceptual 
+Shifts in a Co-Creative Design System. Proc. of the 10th 
+ICCC: 17-24. 
+Kantosalo, A., Toivanen, J. M., Xiao, P., and Toivonen, H. 
+2014. From Isolation to Involvement: Adapting Machine 
+Creativity Software to Support Human-Computer Co-Crea-
+tion. Proc. of the 5th ICCC: 1-7. 
+Liapis, A., Yannakakis, G. N., Alexopoulos, C., and Lopes, 
+P. 2016. Can computers foster human users' creativity? The-
+ory and praxis of mixed-initiative co-creativity. Digital Cul-
+ture & Education, 8(2): 136-153. 
+Maher, M. L. 2012. Computational and collective creativity: 
+Who’s being creative?. Proc. of the 3rd ICCC: 67-71. 
+Malpass, M. 2017. Critical design in context: History, the-
+ory, and practices. London, UK: Bloomsbury Publishing. 
+Moffat, D. C., and Kelly, M. 2006. An investigation into 
+people’s bias against computational creativity in music 
+composition. Assessment, 13(11). 
+Novick, D., and Sutton, S. 1997. What is mixed-initiative 
+interaction? AAAI Technical Report SS-97-04: 114-116. 
+Pettee, M., Shimmin, C., Duhaime, D., and Vidrin, I. 2019. 
+Beyond Imitation: Generative and Variational Choreogra-
+phy via Machine Learning. Proc. of the 10th ICCC: 196-
+203. 

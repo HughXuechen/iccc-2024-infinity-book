@@ -1,0 +1,2199 @@
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case
+Study
+MICHEL HOHENDANNER∗†, Munich Center for Digital Sciences and AI, Munich University of Applied Sciences,
+Germany
+CHIARA ULLSTEIN∗, Department of Computer Science, Technical University of Munich, Germany
+DOHJIN MIYAMOTO, Tokyo University, Japan
+EMMA FUKUWATARI HUFFMAN, Kyoto Design Lab, Kyoto Institute of Technology, Japan
+GUDRUN SOCHER, Munich Center for Digital Sciences and AI, Munich University of Applied Sciences, Germany
+JENS GROSSKLAGS, Department of Computer Science, Technical University of Munich, Germany
+HIROTAKA OSAWA, Faculty of Science and Technology, Keio University, Japan
+Currently, the development of the metaverse lies in the hands of industry. Citizens have little influence on this process. Instead, to
+do justice to the pluralism of (digital) societies, we should strive for an open discourse including many different perspectives on the
+metaverse and its core technologies such as AI. We utilize a participatory speculative design (PSD) approach to explore Japanese
+citizens’ perspectives on future metaverse societies, as well as social and ethical implications. Our contributions are twofold. Firstly, we
+demonstrate the effectiveness of PSD in engaging citizens in critical discourse on emerging technologies like the metaverse, offering our
+workshop framework as a methodological contribution. Secondly, we identify key themes from participants’ perspectives, providing
+insights for culturally sensitive design and development of virtual environments. Our analysis shows that participants imagine the
+metaverse to have the potential to solve a variety of societal issues; for example, breaking down barriers of physical environments
+for communication, social interaction, crisis preparation, and political participation, or tackling identity-related issues. Regarding
+future metaverse societies, participants’ imaginations raise critical questions about human-AI relations, technical solutionism, politics
+and technology, globalization and local cultures, and immersive technologies. We discuss implications and contribute to expanding
+conversations on metaverse developments.
+1
+INTRODUCTION
+“The promise of metaverse is limitless, and basically anything that we now do in a physical realm can be done in a metaverse,
+at least in theory [...], but we should not be naïve in considering the underlying risk and potential harm for users.” [42, p.14]
+There has been diverse criticism on the recently revived idea of the metaverse such as being yet another example of
+inequalities-reproducing futuristic world-making [10]. Despite this criticism, the metaverse, as questionable “promise
+of tomorrow” [73, p.211], represents a good use case for directing critical thought towards exploring sociotechnical
+developments and underlying ethical issues for the future. This appears in particular of importance in a time where the
+metaverse has recently gained new momentum driven by Meta’s (formerly Facebook) decision, among other companies
+like Microsoft, Epic Games, Tencent or Niantic, to focus on it as their future development strategy [54, 97, 159]. As
+there is still little academic discourse to scientifically guide or accompany related investments [39], the sovereignty of
+interpretation of future development currently lies in the hands of industry.
+Building on narrative conceptual influences like the novels True Names and Neuromancer, the metaverse as terminol-
+ogy was first introduced in 1992 in the science fiction novel Snow Crash [35]. It combines the words meta, i.e., beyond,
+and verse as in universe, referring to a computer-generated universe beyond the physical world [35]. More specifically,
+∗Both authors contributed equally to this research.
+†Also affiliated at Department of Computer Science, Technical University of Munich
+1
+arXiv:2401.17428v1  [cs.CY]  30 Jan 2024
+Hohendanner and Ullstein, et al.
+the term describes an “integrated network of 3D virtual worlds [...] that constitutes a compelling alternative realm for
+human sociocultural interaction” [35, p.2]. More broadly, the term can also stand for “the seamless convergence of our
+physical and digital lives” with “a set of interoperable virtual spaces where we can work, play, learn, relax, socialise,
+communicate, interact, transact, and own digital assets” being the core aspect of this convergence [60, p.60].
+The metaverse – as upcoming social imaginary [54] – represents a vision that could deeply affect social structures of
+future societies, while offering the potential to improve “the access and experience of several services in sectors such as
+education, healthcare, and culture” [42, p.14]. However, given the speed of metaverse-related technology innovation
+and the scale of industry investments, stakeholders have issued urgent calls to close the gap between academia and
+industry-driven perspectives on metaverse development [39, 159], shift the focus from economic potential to human
+factors and social implications of a prospective metaverse, and enhance a diversified discourse [39, 42, 159]. Our work
+addresses these goals and, in particular, aims for a diversified discourse by including citizens as everyday experts of
+their individual (local) realities to provide a case study of what a prosocial mode of engagement can look like.
+Following this approach, this research study investigates citizens’ perspectives on the metaverse and associated
+societal developments through the lens of participatory speculative design (PSD) [45]. We contrast our study to previous
+research that mainly focuses on the perception of metaverse technology’s capacities in specific domains, e.g., teachers’
+and students’ perception in education, or on the perception of a specific aspect of the technology, e.g., the influence of
+body representation through avatars on body awareness. We explore how the overall idea of a prospective metaverse
+as a socio-technical system and its promise of innovation is perceived by citizens in an in-depth manner, without
+pre-framing a specific aspect or context of use. We pose the following research questions:
+• RQ1: How do citizens in Japan make sense of a prospective metaverse? Through posing this question, we
+investigate citizens’ perceived problem spaces to which the technology can be applied and the envisioned
+capacities of the technology to tackle those problems.
+• RQ2: How do citizens in Japan make sense of a future in which a metaverse holds a central position? Through
+this question, we investigate citizens’ perceptions of societal transformations in an imagined future where the
+metaverse moves to the foreground. Linked to this, we explore societal issues and value discussions imagined
+by citizens as a consequence of these transformations.
+We chose Japan as a use case for this investigation, rolling out a two-day PSD workshop with focus groups. Dionisio
+et al. [35] identify technical factors, institutional agendas and the interest of the public as key drivers for a viable
+metaverse. These are strongly pronounced in Japan, illustrated e.g., by the governmental agenda to reach Society 5.0
+[22] or the popularity of avatar culture [15] and VTubers [91]. We further introduce the utilized PSD toolkit, which
+guides workshop participants to imagine future metaverse societies and critically reflect on them by creating fictional
+narratives in the form of magazine articles. We find that participants imagine the metaverse as technology with the
+potential to solve a variety of societal issues such as overcoming barriers of physical environments for communication,
+social interaction, crisis preparation, and political participation, or tackling identity-related issues. Two out of four
+groups put a strong emphasis on the role of artificial intelligence (AI) within a prospective metaverse. Participants also
+raise critical questions about human-AI relations, technical solutionism, politics and technology, globalization and local
+cultures, and immersive technologies.
+We contribute to computer-supported cooperative work (CSCW) and human-computer interaction (HCI) with an
+empirical study on a citizens-generated vision of the future of metaverses. Our contributions to the field are twofold:
+2
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+(1) We demonstrate the efficacy of PSD in the field of HCI and CSCW in opening up discursive spaces to laypeople
+and provide our workshop framework as a methodological contribution (see toolkit in Appendix A.2):
+a) Our framework enabled participants to critically reflect on the metaverse and its potential benefits and risks,
+providing a unique way to engage with and understand citizen perceptions and expectations concerning
+emerging technologies.
+b) The framework exemplifies a decentralized application of SD techniques, fostering the inclusion of a wide
+array of locally-specific contributions by citizens to socio-technical discourses.
+(2) We present themes that are at the forefront of citizens’ minds concerning the metaverse as a solution to
+future problem spaces as well as societal effects and risks that emerge from the technology, and discuss their
+implications for metaverse and AI design and development:
+a) With the workshop case study, we add a deep nuanced understanding of how participants in Japan think
+about a future metaverse. We emphasize the need for culturally sensitive design approaches in collaborative
+virtual environments.
+b) We relate themes foregrounded by citizens to prior HCI and CSCW research. We report on the implications
+of identified themes, which could benefit in prioritizing design efforts, and identify important questions
+that future research should address.
+With both contributions, we intend to stress the importance of citizen-centric as well as local-cultural sensitive research,
+design, and development of a prospective metaverse.
+This paper unfolds as follows: First, we outline conceptualizations and perceptions of the metaverse, present recent
+metaverse-related developments in Japan, and relate this case study to recent work in the field of research through
+design for CSCW and HCI. In Section 3, we outline how the use case was rolled out in Tokyo/Yokohama in mid-2022. In
+Section 4, we analyze underlying themes focusing on two different levels of sensemaking: sensemaking of the metaverse
+as emerging technology and sensemaking of prospective societies through the application of metaverse technology.
+We discuss results and outline implications in Section 5. Before concluding, we reflect on limitations of the study and
+provide an outlook for further research.
+2
+BACKGROUND AND RELATED LITERATURE
+In this section, we introduce conceptualizations and perceptions of the metaverse that will later serve as a foundation for
+the analysis and discussion of the workshop results. We relate our research to existing studies in the fields of CSCW and
+HCI regarding perceptions of the metaverse, as well as the application of speculative design approaches. Contextualizing
+our study in Japan, we outline recent metaverse-related developments in Japan and Japanese VR culture.
+2.1
+From Approaching the Concept of the Metaverse to Sociotechnical Imaginaries and Public Perception
+AI has been identified to be one of the core technologies to drive the development of the metaverse [161]. Dionisio et al.
+[35] identify four main areas for development that could enable the move from various independent virtual worlds to a
+single metaverse: “immersive realism, ubiquity of access and identity, interoperability, and scalability” [35, p.1].
+Key challenges in metaverse development are not solely of a technical nature, but to a great extent depend also on
+social aspects. Duan et al. [39] introduce representative applications of a metaverse for social good: accessibility, e.g., in
+terms of global communication and the unrestricted attendance at social and cultural events; diversity, e.g., providing
+spaces of interaction and expression without physical limitations of space and distances; equality, e.g., by questioning
+3
+Hohendanner and Ullstein, et al.
+social constructs like race and gender through the use of avatars; humanity, e.g., in the digital perseverance of cultural
+achievements like world-famous architecture. To discuss social implications of a potential AI-driven metaverse, we
+later draw on these principles in the discussion of the workshop results. This resonates with the pursuit towards a
+human-centric metaverse proposed by Yang et al. [161].
+The metaverse can also be seen as constituting an upcoming social imaginary [54], which emerges “in the culture, as
+expressed through imagery, stories, mass media and the like” [54, p.4]. Social imaginaries related to digital technology,
+as in the case of the metaverse, are called sociotechnical imaginaries [67]1. Social and sociotechnical imaginaries “shape
+our understanding of our current situation while also inspiring and guiding our actions into the future” [54, p.4].
+Reaching the status of an applicable sociotechnical imaginary means that not only is metaverse development shaped by
+what humans imagine it to be, but so are its intersections with other aspects of future human social life. This also affects
+what a prospective society is imagined to look like. As the metaverse is increasingly imagined to be an important part
+of future societies, it becomes more likely that it will become part of them.
+To the best knowledge of the authors, few peer-reviewed studies focusing on the public’s general perception of
+social and societal opportunities and risks of the metaverse exist. Some of these studies are preprints or published as
+blog posts and reports. A recent study found 63% of participants from India to be concerned about a loss of the link to
+reality [6]. Despite concerns, two studies show that respondents from the US, UK, and India believed that people can
+benefit from possibilities of overcoming real-world limitations such as traveling [6, 162]. Some respondents (48%-60%)
+from the US and UK would be interested in entering the metaverse with an alter ego [162]. Generally, the majority
+of English-speaking [57] and Turkish [5] Twitter users showed positive sentiments. Citizens from Indonesia showed
+predominantly neutral sentiments [4]. Recently, studies have explored user’s acceptance of the metaverse utilizing an
+(extended) technology acceptance model, for example, identifying perceived usefulness and perceived ease of use to
+positively influence attitudes toward using the metaverse [e.g., 2, 113, 157]. These studies provide quantitative accounts
+of peoples’ perceptions of the metaverse, which inevitably limits the spectrum of potential responses from subjects.
+Our study complements these studies with an qualitative approach enabling participants to express their imaginations
+of a future metaverse, helping us to derive, on the one hand, use cases where the metaverse is perceived to be useful,
+and on the other hand, consequences that could emerge from depicted future metaverse societies.
+Besides research on the general perception, previous research in the fields of HCI and CSCW has mainly focused
+on understanding how different stakeholders perceive the metaverse in various specific domains. For instance, in the
+context of education, studies have concentrated on the perspectives of students and teachers regarding the use of
+the metaverse as an educational environment [24, 30, 111, 163]. In the domain of remote work, research has targeted
+employers or executive-level employees experienced in utilizing metaverse applications as workspaces [112]. With a
+focus on virtual product design, research investigated how designers perceive the metaverse for creating virtual product
+experiences [29]. In the field of accounting and financial services, attention was given to auditors, particularly those
+working in public accounting firms, and their perception of the metaverse [86]. Research on child-related activities
+targeted perceptions related to play and education in the metaverse, particularly from experts and parent communities
+[84]. Investigating political processes, prior work has explored how UK residents perceive the use of smart contracts in
+the metaverse for voting [108].
+Additionally, some studies have delved into how certain aspects of the metaverse affect human perception. These
+include the influence of avatars on body awareness [37], workgroup inclusion [21] and immersiveness of full body
+1The researchers have been following the developments around the #metoosts initiative and express their support to all victims of abuse in this context.
+4
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+interactions [80]. Others investigate the perceived impact of harmful metaverse environment design [76] or users’
+privacy-related behaviors in social VR applications [139]. Methods of inquiry are mainly (online) surveys [e.g., 80, 111,
+139, 163] and interviews [e.g., 29, 86, 112], followed by user experience case studies [e.g., 21, 30, 37].
+While these studies on specific stakeholders’ perceptions of pre-defined metaverse or VR applications represent
+valuable contributions to the field, studies focusing on a broader perception of the metaverse as a socio-technical
+phenomenon seem to be underrepresented. To us, the latter perspectives seem especially valuable as an established
+future metaverse would have an impact on significant parts of future societies.
+2.2
+Metaverse and VR Culture in Japan
+In the Japanese context, we observe only limited academic research efforts on the metaverse as a socio-technical system.
+In an industry study conducted in Japan, 77% of all study participants who expressed (much) interest in the metaverse
+(24%) indicated to look for experiences that are not possible in real life [32]. In the same study, the three most common
+associations with the metaverse by Japanese participants were virtual space, VR/virtual reality, and Facebook [32].
+Compared to the US and the UK, in Japan there has been a steadily higher interest in the term metaverse in Google
+searches [53] in the 12 months following Mark Zuckerberg’s announcement to rename Facebook into Meta and to focus
+on developing the metaverse [97]. Even before the announcement, Japan was one of the leaders of VR development and
+usage. This can be observed on a macro level by looking at Japan’s official government vision of the realization of Society
+5.0 [22], which stands for the creation of a society where cyberspace and the physical realm are closely intertwined for
+the purpose of solving social challenges [22]. As part of this agenda, but also beyond, several investments were made
+and initiatives started in Japan. An example for governmental involvement represents funded research on cybernetic
+avatars as part of the Moonshot R&D program [23]. Furthermore, the University of Tokyo has recently launched the
+metaverse School of Engineering as an academia-industry collaboration [105], and students attend entrance ceremonies
+[11] or job fairs in virtual spaces [63]. Large Japanese corporations such as Sony aim to play a leading role in metaverse
+development [103]. Summits and exhibits, amongst others organized by Meta “to promote the metaverse from Japan to
+the world” [160], showcase the latest technologies [65, 143].
+These developments also draw upon Japan’s rich and well-established VR culture [15], which likewise plays an
+important role in the advancement of VR technology in general. In the past, VR went through four development phases
+[15]. The current phase VR 4.0 stands for enabling a human ecosystem open for social and commercial networks [15]. In
+this context, the Japanese avatar-driven VR society is considered an important development factor, especially regarding
+the wide spread of VR interaction environments and industry structure [15]. One specific driver are VTubers that
+originated in Japan in 2016 [91]. VTubers are represented by animated virtual avatars and perform in recorded or
+live videos [91]. The level of popularity VTubers already reach is shown, for example, by the fact that in 2018 the
+Japanese National Tourism Organization selected Kizuna Ai, the avatar of the very first VTuber, as an ambassador for
+an international culture campaign [66]. Beyond VTubers’ presence on established video platforms like YouTube, the
+platforms VRChat, Virtual Chast, SHOWROOM, REALITY, Mirrativ and Cluster were identified as important drivers
+for the development of VR 4.0 [15]. These platforms provide important virtual spaces for interactions between audience
+and content creators including VTubers [15]. VRChat already hosted several pioneering virtual social events like Virtual
+Market, a series of exhibition and trade conventions focusing on comic, gaming and manga content [15]. A study
+conducted with 576 VRChat users in 2019 revealed that 41% of users were inspired to try VRChat by watching VTuber
+content, while 30% were invited by friends [130]. 57% of users indicated they were interested in VR communication and
+64% indicated to be mainly interested in avatar-driven social interactions [130]. 60% of users indicated buying avatars
+5
+Hohendanner and Ullstein, et al.
+and having a preference to customize them [130]. This interest in commercial activities was also observed in a recent
+study on metaverse perceptions among Japanese citizens [32]. In this study, 24% of participants showed a high interest
+in the metaverse. Within this subgroup, 68% of participants expressed a high desire in shopping and working with
+cryptocurrency and NFTs in virtual space, 66% indicated to be interested in participating in avatar communities in
+virtual space and interacting with others, and 77% in virtual cutting-edge experiences that cannot be experienced in
+real life [32].
+Summarizing, we primarily observe research on the perceptions regarding existing VR applications, which is an
+anticipated finding given their wide adoption in Japan. We are not aware of studies that provide citizens a space for
+discourse to explore the metaverse as a socio-technical system, and to elaborate on what a pervasive introduction would
+mean for society. From a methodology perspective, we have identified a study [146] on the exploration of 5G in Japan
+that is compatible with our approach. Overall, the market and technology landscape distinguishes Japan from other
+countries, however, it does not allow the general conclusion that all Japanese citizens are more experienced with VR
+technologies and avatars. In any case, the existing conditions make Japan an appealing use case to explore notions of
+future metaverse societies and their implications.
+2.3
+Sensemaking and Speculative Approaches in Research through Design for HCI
+This research applies a research through design (RtD) [46] approach, meaning it uses the act of designing to generate
+new knowledge [164]. Due to a shifting focus within third-wave HCI research and related knowledge production [61],
+RtD is increasingly being applied in research and practice. The act of designing is subject to research into design [46] and
+has been described to integrate a problem-solving dimension [131] as well as an interdependent sensemaking dimension
+[93]. The dimension of problem-solving is related to the physical and biological world, where technical solutions for
+problems can be found regarding the form, utility, and function of design applications. Sensemaking, in turn, relates
+to the social world, where the desirability of a design solution can be assessed, i.e., meaning can be produced and
+cultural quality can be assessed. Therefore, design practice and its outcomes can be utilized to understand how people
+perceive their physical and social environment. Likewise, as design inherently connects social and technical systems
+[93], underlying value systems that flow into design processes can be revealed. In this light, it has been contemplated
+that design research can be utilized for a critical exploration of contemporary challenges, “through a variety of practices,
+methods, and perspectives, including (but not limited to) Research through Design, Critical Design, Speculative Design
+and Participatory Design” [87, p.2]. The following provides examples of how different modes of design speculation are
+applied as RtD in HCI and beyond.
+Speculative design (SD) is a design practice that emerged from critical design and distinguishes itself from mainstream
+design by not necessarily having to follow a commercial logic, rather its value is rooted in the imaginative [41, 69]. A
+key goal of SD is to stimulate the public to critically reflect and negotiate common norms and values regarding identified
+problem areas [69]. The related approach design fiction (DF) [12] describes the “deliberate use of diegetic prototypes
+to suspend disbelief about change” [134]. DF aims to bridge imagination and materialization “by crafting, modeling
+things and telling stories through objects” resulting in conversation pieces [12, p.8]. Similarly, SD uses so-called props
+[69] to foster discourses. Props are digital or physical visual proposals for representations of speculated futures [69] or
+artifacts “stolen” [92] from them. By responding to what-if questions regarding pre-identified future challenges [41], SD
+props are provocative and shall trigger questions about how the future of social and societal living environments may
+look like [40, 98]. They can take different formats, for example a fictional product catalog [18, 79] or newspaper [110],
+speculative product and service websites [58, 59], imaginative forum questions or posts [155], or scenes and software
+6
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+prototypes [51]. Besides objects, narratives are another mode of materialization of speculations [68]. Narratives written
+by study participants have been used to explore environmental and energy consumption concerns [115] or romance
+and friendship during the pandemic [128]. Other studies use prepared speculative narratives as props to elicit critical
+reflections from participants [123], for example, to catalyze meaningful conversations on AI recruitment processes
+between job applicants and HR recruiters [71], to explore responses to fictional technologies [33], or to elicit values
+regarding innovation in the identity space from marginalized groups [17].
+While design speculations have been widely applied in the last decade, criticism and limitations have to be taken into
+account. Core of recent criticism is the question of who is involved in the speculation processes. Design speculations
+have been criticized to be elitist and patriarchal [83, 114, 144]; to suppress local cultural specifics if professional designers
+work without involving affected stakeholders [38]; to address a limited spectrum of critique [45, 125, 152]; or to be based
+on market logic [144]. Following this criticism, it can be observed that SD in particular is taking a participatory turn
+[45]. PSD [9, 45, 75] aims at democratizing design speculations by opening the speculation process to non-designers
+and decentralizing power systems to reach and include a wide public into the development process [75], making way
+for decolonial PSD [e.g., 14, 72, 145, 153], feminist approaches to PSD [e.g., 140] and the empowerment of issue-specific
+or technology-specific groups [e.g., 43, 71, 115, 150].
+3
+METHODOLOGY
+With our research, we intend to expand the discourse around a prospective metaverse by integrating citizens’ perceptions
+on its development, to enhance the prospective metaverse’s social sustainability and inclusiveness. This includes the goal
+of creating spaces for informed discourse among citizens and enabling processes to disseminate the diverse perspectives
+that surface through these discourses. The rationale behind these processes is to complement perspectives of developers,
+industry stakeholders and respective research communities with citizens’ perspectives as a key prospective user group.
+In the previous section, we have established that most prior work focuses on the perception of metaverse technology’s
+capacities in specific domains, e.g., education, or on the perception of a specific aspect of the technology, e.g., body
+representation through avatars. Instead, we aim to document and analyze what comes to citizens’ minds when engaging
+in a discourse about a prospective metaverse as a socio-technical system without pre-framing a specific aspect or
+context of use. This approach brings into focus the perceived potential benefits and risks of the technology in relation
+to its anticipated social impact, and allows to highlight what citizens perceive as acceptable use or not. Furthermore,
+our approach allows citizens to illustrate how they imagine a prospective use of the technology.
+This section highlights our research procedures with respect to this study’s goals, purposes and applied research
+perspective. This is illustrated by adapting the Goal-Question-Metric (GQM) [154]: The main goal of this study, to
+foreground citizens’ perceptions, can be split into two measurement goals when applying the GQM goal template [16],
+detailed in Table 1: First, each goal is described through its object of study, its purpose, its focus or perspective, the
+applied viewpoint and the context of the study. Second, each goal is characterized through a set of questions. Third, the
+type of data that is expected to address each of these questions and the analysis procedures are outlined.
+In addition, we provide further details regarding the rationale of our workshop approach, the recruitment of
+participants, the workshop design, and the analysis approach of the collected data.
+3.1
+Recruitment of Participants
+The question of who participates is central to participatory (speculative) design [45, 49]. As Farias et al. [45] report,
+the recruitment of “the ‘right’ kind of participants” [45, p.2] appears to be a common problem for research projects
+7
+Hohendanner and Ullstein, et al.
+Table 1. Goals, purpose, and the perspective of the study applying GQM
+GQM
+Category
+Goal 1: Characterize Metaverse as Solution
+Goal 2: Characterize Imagined Future Societies
+Measurement
+Goals
+- Analyze citizens’ imaginations of prospective meta-
+verse use cases
+- for the purpose of characterization1
+- with respect to imagined solution competence of a
+prospective metaverse
+- from the viewpoint of the researchers
+- in the context of a participatory speculative design
+workshop in Tokyo/Yokohama, Japan.
+- Analyze citizens’ imaginations of prospective meta-
+verse use cases
+- for the purpose of characterization1
+- with respect to imagined social impact of a prospec-
+tive metaverse
+- from the viewpoint of the researchers
+- in the context of a participatory speculative design
+workshop in Tokyo/Yokohama, Japan.
+Questions
+Q1.1: When considering future societies, what problem
+space(s) do citizens perceive that the metaverse could
+be a solution for?
+Q1.2: How do citizens envision the metaverse to tackle
+identified problems?
+Q2.1: What transformations in society do citizens antic-
+ipate with the metaverse becoming central to a future
+society?
+Q2.2: Which societal issues are discussed as conse-
+quence of the metaverse holding a central societal posi-
+tion?
+Metrics
+For Q1.1: Deduction of problem spaces inherent in par-
+ticipants’ narratives identified through qualitative anal-
+ysis (actantial model and process coding; see Table 4
+col. 2).
+For Q1.2: Deduction of the solution competence of meta-
+verse technology inherent in participants’ narratives
+identified through qualitative analysis (actantial model
+and process coding; see Table 4 col. 3).
+For Q2.1: Deduction of anticipated societal transfor-
+mations inherent in participants’ narratives identified
+through qualitative analysis (actantial model, process
+coding and values coding; see Table 5 col. 2).
+For Q2.2: Deduction of consequential societal problem
+spaces and value discussions emerging from partici-
+pants’ narratives identified through qualitative analysis
+(actantial model and values coding; see Table 5 col. 3).
+[1] With the term characterization we refer to what Briand et al. [16, p.256] define as “forming a snapshot of the
+current state” of the object of study. In our case, this refers to participants’ shared imaginations of metaverse use
+cases (Goal 1), or their shared imaginations on future metaverse societies (Goal 2).
+applying participatory speculative design. To compose a sample of interested citizens, our recruitment method deploys
+a combination of (a) the most frequently used approach of self-selection, enhanced through (b) targeted recruitment to
+also reach (c) lay stakeholders2 [49]. We choose self-selection as a strategy based on the principle of universality, which
+seeks to unite volunteer citizens to collectively contribute towards enhancing the future for everyone and which is a
+participatory ideal of citizen engagement [94]. An open registration process (similar to [94]) was utilized to recruit
+participants from Tokyo and Yokohama, Japan. Information was provided on a workshop webpage and the event
+registration site peatix.com. Following McCarthy et al. [94]’s recruitment process, who conducted a 16-hour online
+citizen dialogue, we applied snowball sampling [52] via different channels to specifically target individuals generally
+interested in technology: we advertised the workshop via word-of-mouth, contacted technology-savvy groups such as
+Meetup groups or labs in Tokyo and Yokohama via email, and posted workshop registration information on social media
+channels of the research project, the hosting research lab, the university’s network, and the project’s communication
+partners. These were Mutek, a cultural association dedicated to enhancing digital creativity in music and audio-visual
+art, and the Goethe Institute Tokyo. Both partners and the spread of advertisements were chosen to ensure registrations
+from different age ranges and individuals beyond the academic sphere and to address people interested in digitalization,
+a prospective metaverse, and related cultural perspectives. Based on the principle of universality, we welcomed all
+2In the context of participation in governance, Fung [49, p.68] defines lay stakeholders as “unpaid citizens who have a deep interest in some public
+concern and thus are willing to invest substantial time and energy to represent and serve those who have similar interests or perspectives but choose not
+to participate.”
+8
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+registered individuals who indicated to be aged above 18 years to participate. We had no intention to perform any
+screening procedures. We reserved the right to select participants from the registrations only in the event of excessively
+high registration numbers, however, this situation did not arise.
+Participants did not receive a monetary compensation. Incentives to take part were purely of an educational nature,
+such as learning about the metaverse and how to apply design methods. This non-financial but rather educational
+incentive or the incentive to jointly explore a topic space to increase agency (within a community) is not uncommon
+for participatory (speculative) design studies [e.g., 28, 51, 88, 129]. Our workshop advertisement is inspired by these
+studies. We reflect on the limitations of our recruitment strategy in the limitation section.
+We obtained an ethics approval from our university for conducting this study, including the specifics of our recruitment
+procedure, the design of the workshop process and the handling of the results. We followed standard practices for ethical
+research (including informing participants, obtaining consent) while performing the study and analyzing the data. As
+part of registration, participants gave informed consent to be part of a study. The consent form that participants agreed
+to when registering to the workshop outlined the study’s objectives, i.e., exploring perceptions about the metaverse. It
+outlined how privacy or other potential risks linked to their involvement in the workshop were minimized. The form
+articulated that the analysis of the workshop would be conducted on a group basis and that their participation would
+be kept anonymous and confidential – no personal information would be recorded during the workshop. Participants
+were briefed about the potential publication of their workshop contributions, which they gave their permission for.
+Initially, after the registration deadline, we counted 35 participant registrations, of which 10 participants actively
+de-registered after we had to announce switching to a hybrid workshop mode due to an increase in Covid-19 infections
+in Tokyo/Yokohama. Finally, nine of 25 registered participants did not show up at the workshop (online no-show
+rate: 42.1%). Also other studies [104] experience high no-show rates (~50%) for online video interviews. In total, an
+interdisciplinary group of 16 people (10 females, 6 males) participated in the workshop. Participants’ ages varied
+between 18 and 65 (18-25: 5; 26-35: 5; 36-45: 5; 46-55: 2; 56-65:1). All participants were either native or fluent in Japanese.
+One participant was originally from China, and the rest from Japan. While three out of 16 participants indicated to be
+working in the field of design and illustration (see Appendix A.1 for all occupations), all participants were treated the
+same with respect to instructions and roles in the design process.
+3.2
+Workshop Conceptualization and Process
+We applied a PSD approach that was informed by SD and DF practices alike3. We organized a two-day PSD workshop in
+August 2022. The duration amounted to a total of 11 hours (day 1: 5h, day 2: 6h). Initially, with 35 registered participants,
+we formed eight workshop groups of four to five individuals based on provided demographic information. This means
+that a group was composed of at least two female and two male participants, that the age range within a group was not
+greater than three decades, and that occupations varied within the groups, for example, that individuals who indicated
+to be working for creative industries were spread across all groups. These measures were taken to counteract possible
+hierarchy effects known from the job market. We reorganized the group setup right before the workshop started,
+considering the final number of participants to ensure fair distribution of indicated gender and occupation and sensible
+variation of age within the three online groups (two groups of four participants and one group of three participants).
+All five people participating on-site formed one group. Due to an increase in Covid-19 infections in Tokyo/Yokohama,
+only one participant group was pre-selected (first-come-first-serve taking demographics into account) and allowed to
+3With regard to Kozubaev et al.’s notion to utilize Fry’s term design futuring [48] as an umbrella term to refer to various approaches using design to
+explore futures [77], our approach might as well be called participatory design futuring.
+9
+Hohendanner and Ullstein, et al.
+participate in person to adhere to safety measures. It was emphasized that everyone participated as an everyday expert
+and that no participant had knowledge advantages about the future. Live communication across groups online and
+on-site was facilitated via Zoom. To support constant communication and easy accessibility, the Zoom call remained
+active throughout the entire duration of each of the two workshop days, including during the lunch break, allowing all
+participants to interact with each other and readily contact facilitators whenever needed. The entire workshop was
+held bilingual (English, Japanese), including oral presentations and written workshop material.
+To guide the workshop, we designed a digital toolkit (see Appendix A.2) transporting the framework that allowed
+participant groups “to make artefacts about or for the future. [It gave] [...] non-designers a means with which to
+participate as codesigners in the design process” [120, p.9]. Specifically, the toolkit guided groups to create magazine
+articles from the future. This format was chosen to give groups visual and textual freedom to materialize the created
+narrative in a manner that they felt most comfortable with. It provided a way to concretize the otherwise speculative
+conversations the participants were having, similar to the approach of Elsden et al. [43]. The decision to choose this
+narrative approach is grounded on prior research [90] illustrating the importance of narratives as foundation of futures
+thinking and their potential to enhance critical reflexivity. The toolkit guided groups to create artifacts “designed to
+provoke or elicit response” [120, p.9] from an external audience in follow-up discourses. The process of creating the
+magazine article (see Figure 10 in Appendix A.2.4 for detailed instructions) can be referred to as fictions as participatory
+constructions, whereas the use of the created magazine article in follow-up discourses can be considered as fictions as
+probes [99]; drawing on [121].
+The workshop framework concept is inspired by participatory/co-(speculative) design and design fiction processes
+(e.g., [44, 56, 83, 120, 150]). It has also been complemented through two authors’ practical knowledge of service design
+methods. The concept builds on what [13, 70] describe as future workshops, taking into account the design choices
+framework [81] for co-creation processes. The rationale behind the chosen structure and methods (see Table 2) was to
+guide participants’ thoughts without pre-framing, giving them the opportunity to apply their individual perceptions to
+questions at hand. This was inspired by Light’s [83] concept of seeding instead of leading. The toolkit was deployed
+using the collaborative digital platform Mural, where groups documented their process.
+As proposed by [120], the process of using the toolkit was facilitated, here by five authors4, who did not directly
+participate but observed groups’ processes. The authors introduced each new step of the toolkit and were continuously
+available in case of questions. Table 2 presents the four workshop phases, namely, understanding, speculating, creating,
+prototyping, as well as the corresponding tasks, outputs, methods and sources of methodical inspiration. The first phase
+included creating a group profile, performing desk research on the metaverse, and jointly formulating a definition. The
+desk research to create a joint knowledge base was adapted for the use of non-designers from [136]. Groups’ joint
+definitions of the metaverse served as summary of the activity. Researching about metaverse technology and related
+socio-technical trends was also partly inspired by [44]’s scanning activity to kick-off a speculation workshop. This task
+of jointly performing research and defining the metaverse also served to ensure construct validity [154] within the
+groups, i.e., that group members had a similar idea of the concept of the metaverse. The second phase consisted of
+a guided imagination and an exploration exercise, inspired by [132]. As we were also interested in groups’ different
+understandings, we did not strive for construct validity across groups. Participants were guided in their imagination
+of a future society through a read-aloud narration. Speculations were mapped on the STEEP framework [124] as in
+[44] – i.e., how can the speculations be categorized in relation to the categories Sociological, Technological, Economic,
+4While four researchers conceptualized the workshop and were tasked with forming the groups, another researcher joined as of the preparation phase of
+the workshop, and participated in facilitating the workshop and analyzing the results.
+10
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+Environmental and Political (S.T.E.E.P.). Groups selected one dominant idea and performed a consequence mapping to
+form a scenario world. These activities were a continuation of [44]’s scanning activity and the start into what is similar
+to their ripple creation process. In the third phase, the groups brainstormed products or services that were either part
+of the previously imagined future scenario or played a central role in it. Mapping the ideas onto an actantial model [55],
+originally a method for narrative analysis, helped to sharpen the idea by identifying all relevant actors in the context of
+the service/product concept. The use of this framework for a creation process is an adaption from previous work, where
+it was used to analyze speculative design artifacts [58, 59]. The adapted use of the model can also be seen as a simplified
+version of a service design method called value network maps [136]. The exercise resulted in the joint formulation of a
+service/product concept through a value proposition, another method from the service design business model canvas
+[136]. In the final phase, groups created magazine articles (see Figures 15 to 18 in Appendix A.3), which were presented
+and discussed in an open forum. This phase was inspired by prior works’ [115, 128] scenario writing exercises and
+adapted with elements from one additional service design method called service advertisement [136]: As participants
+crafted their narratives in the format of magazine articles, they were required to consider all the nuances associated
+with engaging an imagined audience, akin to the process of creating mock advertisements for a hypothetical readership.
+Table 2. Workshop phases, tasks, methods and output
+Phase
+Guiding Question/ Task
+Methods
+Output
+Informed by
+1) Under-
+standing
+What is the metaverse?
+Group profile, desk
+research, key sen-
+tence
+Written definition of how
+the group understands the
+concept of metaverse
+Prep research [136]
+& scanning exercise
+[44]
+2) Specu-
+lating
+What if the metaverse was an integral
+part of a future society?
+Guided imagination,
+group
+discussion,
+STEEP,
+conse-
+quence mapping
+Visual mapping of vari-
+ous facets and societal con-
+sequences of prospective
+metaverse technology
+Narrated imagination
+[132], scanning exer-
+cise & creation of fu-
+ture ripples [44]
+3) Creat-
+ing
+Which metaverse-related product/ ser-
+vice could play a central role in the spec-
+ulated future?
+Brainstorming, ac-
+tantial model, value
+proposition
+Written concept of a fic-
+tional metaverse service or
+product
+Actantial model [55,
+58, 59]; value proposi-
+tion (business model
+canvas) [136]
+4) Proto-
+typing
+How could the speculated product/ ser-
+vice & related scenario be depicted in a
+magazine article in the future?
+Prototyping, presen-
+tation and open fo-
+rum
+Digital magazine article
+Scenario
+writing
+[115,
+128]
+&
+ad-
+prototyping [136]
+This approach allowed a two-way sensemaking process among participants: On the one hand, the use of PSD allowed
+to jointly investigate the capacities and limits of a technology (= sensemaking of technology). This process was triggered
+by imagining the metaverse to be an integral part of society (second phase), hence, to hold a central socio-technical
+position. This results in an attribution of solution competence for central societal problem areas. On the other hand,
+participants identified social problem areas of the future that they perceived as central in their cultural and local context
+(= sensemaking of the future through technology). A discourse on the question of how we want to live together in the
+future emerged.
+3.3
+Data Collection and Analysis Approach
+We deliberately decided to neither record Zoom calls nor on-site group discussions. While recording interviews or
+focus groups is often taken for granted [147], study experiences show that recording conversations can intimidate
+study participants and influence what is said [25, 102]. Not recording can contribute to a more open and natural
+11
+Hohendanner and Ullstein, et al.
+conversation [78, 118]. More important than recording the precise wording as the foundation for data collection,
+is enabling an environment in which participants feel at ease expressing their thoughts on a specific subject. To
+increase participants’ levels of comfort and to ensure they were supported throughout the workshop, Japanese-speaking
+facilitators regularly visited the groups after asking for permission to interrupt. They clarified questions on the tasks
+and the mode of documenting their discussions in the workshop material if participants expressed uncertainties. Besides
+facilitator-initiated visits, participants could reach out to facilitators at any time.
+The collected data includes the workshop material, where participants documented their progress, and the created
+design artifacts, i.e., the magazine articles including the visualizations (three groups used free generative AI tools
+to create their visualizations, one group used freely available stock images). The main language of the material is
+Japanese. Some groups documented tasks partially in English. All data was used for the analysis. Five researchers, three
+born and raised in Japan and two born and raised in Germany, jointly performed the qualitative analysis during three
+analysis workshops to identify emerging themes. Each researcher brought a distinct set of methodological experiences
+to the analysis process: Three researchers have a strong background in qualitative coding with international researcher
+teams, two in analyzing design artifacts, and three in analyzing speculative or science-fictional workshop results. The
+narratives were translated into English by one Japanese author who also works as a professional interpreter. Table 3
+briefly summarizes the four fictional narratives. Appendix A.3 provides more detailed descriptions of the four fictional
+narratives summarized by the five researchers during the analysis sessions with visual impressions from the created
+magazine articles.
+Table 3. Summary of fictional narratives created during the workshop
+Group
+Summary of Fictional Narrative
+Disaster
+Preven-
+tion
+The article reviews a trial evacuation training in the metaverse, called “disaster simulation”. This service simulates
+natural disasters, allowing users to practice evacuations in virtual replicas of their real-world environments, with
+feedback for improvement. The author praises its potential for real-life disaster preparedness but raises concerns
+about VR-induced trauma and desensitization to violence. The service also aims to analyze user behavior during
+disasters to aid governmental emergency preparedness.
+MOTHER
+The article reviews MOTHER, a new avatar generation service, set in a future where AI-driven avatars in the
+metaverse act autonomously, representing their users. Central to the story is the increasing autonomy of these new
+avatars, raising questions about granting them citizenship rights. Perspectives vary: users are divided on civil rights
+for avatars, an engineer reflects on past service issues, a real-world advocate calls for control over avatars, and a
+woman worries about her family’s reliance on avatars. The article suggests these debates are set to intensify.
+U12-Topia
+The article addresses whether “collective personalities” – AI representations of metaverse community opinions –
+should have political rights such as being elected. The metaverse is described as a platform where users form AI-
+driven collective personalities through discourse within separate communities, e.g., the community of schoolchildren
+“U12-Topia”. In a future with a politically dominant elderly population, the article debates the inclusion of younger
+generations in politics through these AI entities. Perspectives range from a developer advocating for societal creative
+agency, a schoolchild emphasizing youth inclusion in politics, to a legal expert stressing the need for discussing the
+rights of collective personalities.
+XR-Food
+The “XRFood” magazine issue showcases the impact of XR (extended reality) food technology in a world recovering
+from a food crisis. Featuring articles and ads by various characters, including researchers and an XR restaurant owner,
+the issue focuses on a metaverse restaurant that offers unique taste experiences globally. While XR technology solved
+food scarcity and health issues, it led to the loss of diverse food cultures. The magazine highlights XR food’s benefits
+in entertainment and medicine, allowing people with dietary restrictions to enjoy any food and offering anonymous
+dining experiences in the metaverse to help mend post-crisis relationships.
+First, we performed the analysis at the descriptive level in analysis workshop 1, in which five researchers took part.
+Consulting all data collected (groups’ narratives and workshop documentations), we analyzed the metaverse product
+12
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+or service at the center of the narrative and how it affects the depicted future scenario. A comparative mapping of
+the narratives according to the actantial model [55] built the foundation for the analysis and revealed similarities
+and differences in the narratives. The actantial model allows mapping who is the main subject of a story (subject),
+what goal the subject wants to achieve (object), on whose order is the subject acting (sender), who is opposing the
+action (opponent), who is aiding the subject in the action (helper), and who is benefiting from the action (receiver). To
+exemplify, Table 7 in the Appendix A.4 presents the actantial models for two narratives and provides more information
+on the analysis procedure. Actantial models as the main outcome of the descriptive phase informed the follow-up
+analysis to answer the questions characterizing our measurement goals (see Q1.1-Q2.2 in Table 1).
+values
+attitudes
+beliefs
+Age limit is
+restrictive
+Age voting gap is
+unconstitutional
+Avatar debate
+is a trend
+Government
+does not react
+although it
+should
+Belief: Dict.-Meta
+enables creativity
+within society
+Belief: Avatars are
+needed for political
+participation
+Belief: Debate is
+grounded in age
+voting gap
+Belief: Debate on
+political avatars is
+linked to AI-rights
+debate
+Belief: Voices will
+not be heard
+without avatar
+Value: High
+usage of Dict-
+Meta
+Value: Having
+societal
+impact
+Value: Political
+participation
+social
+world
+Political practice & participation
+Identity & presence
+Social interaction & community building
+adressing
+generational
+ voting gap
+establishing the
+metaverse
+debating AI
+rights
+generating
+thoughts as
+collective
+personality
+holding
+elections
+ sending
+Topikin as
+representative
+ of U12-Topia
+helping elderly
+with political
+decision making
+through AI
+companions
+releasing
+Metaverse
+Dictatorship
+creating virtual
+spaces freely
+through dictorship
+metaverse
+lobbying of
+political groups by
+virtual communities
+selecting U12-
+Topia as most
+influential
+community
+children having
+politcal influence
+aging society
+policy making by the
+elderly for the eldery
+(silver democracy)
+birthrate declining
+debating solutions
+addressing
+children's rights
+and capabilities
+planning to
+officially establish
+the Children's
+Future Party
+Problem
+a) U12-Topia: Process Coding
+b) U12-Topia: Values Coding
+Fig. 1. Example of process coding and values coding for the workshop group “U12-Topia”; Source: Own illustration.
+Second, we entered the deriving level to identify superordinate themes within the narrative and the scenario during
+two further analysis workshops. To do so, the narratives were analyzed through two rounds of coding (one round before
+each of the two workshops), each followed by joint discussions of identified codes and refinement as well as alignment
+during the two workshops (see Figure 1). Process coding [119] allowed us to identify how metaverse development
+was depicted in relation to prospective societal problem spaces (Q1.1) and potential problem-solving capacities (Q1.2).
+Process coding was also applied to identify anticipated transformation within speculated metaverse societies (Q2.1).
+Process coding can be utilized to mark action observed in the data using gerunds: Both, observable activities as well as
+conceptual activities can be process coded, and be ordered sequentially or visualized graphically [119]. Values coding
+[119] allowed us to map values, attitudes and beliefs depicted with regard to metaverse technology and prospective
+societies (Q2.1 & Q2.2): Values reflect the importance that is attributed to an object of reference (idea, thing, person,
+self); attitudes describe the way we think about these objects of reference; beliefs can serve as “rules for action” [135,
+p.28] and are part of a system composed of attitudes and values, as well as opinions, experiences, knowledge or other
+interpretative subjective perceptions [119].
+Identified codes were organized into superordinate themes based on patterns observable in the data: Themes were
+identified by comparing the actantial models of the four narratives, looking for similarities in actants and their relations.
+Through process coding, we identified developments of the actants and their relations with regards to problem spaces
+13
+Hohendanner and Ullstein, et al.
+and respective solution competences of metaverse technology (see Section 4.1), making them comparable between
+narratives. Process coding also revealed societal transformation processes inherent in the narratives and made them
+comparable across the narratives. This was complemented by values coding to uncover arising societal value discourses
+(see Section 4.2). To formalize the findings, we adopt a quasi-statistical approach [117] to report in how many groups
+we find a superordinate theme.
+4
+ANALYSIS OF UNDERLYING THEMES
+In this section, we present identified themes resulting from the researchers’ joint analysis sessions.
+4.1
+Sensemaking of Metaverse Technology
+We identified four themes based on respective problem areas in which participants attribute problem-solving capabilities
+to a metaverse of a fictitious future society (see Table 4).
+Table 4. Sensemaking of the metaverse (attribution of solution competence)
+Superordinate
+Theme
+Problem
+Metaverse as solution
+Social
+interaction
+and
+community
+building
+Limitations of physical environments for
+communication and social interaction
+- Metaverse as open digital space for expression and social inter-
+action
+Identity and
+presence
+Societal expectations and overwhelming
+number of tasks and interactions that
+come along with the simultaneous pres-
+ence in the physical and digital world
+- Metaverse as space to appear with self-selected identities
+- Avatar as representation of digital self
+- Semi-autonomous avatars help take on the plethora of interac-
+tions and tasks of individuals
+Political practice &
+participation
+Imbalance of citizen representation in
+political practice (silver democracy)
+- Platform for discourse and opinion building processes
+- AI-driven collective personalities as output medium connecting
+to institutionalized political sphere
+Virtual
+training
+space and extension
+of senses
+Limitations of physical environments
+and human senses to prepare and adapt
+to crises
+- Simulation space for real-world environmental disasters
+- Stimulation of gustatory senses to adapt to food supply and
+health concerns
+Social interaction and community building. A common theme of all four narratives are forms of community building
+and moderation as well as increased possibilities of social interaction in light of real-world challenges or limitations of
+physical environments. In U12-Topia, the metaverse is depicted as a space for community building, where peers can
+come together and design their own virtual environments. Here, like-minded people can overcome the restrictions
+of real world environments, e.g., school children can discuss, train and carry out political actions. In the narrative
+MOTHER, social relationships and associated communities are forged across physical and digital spaces. Autonomous
+avatars in the metaverse acting on behalf of their owners allow to tie new social bonds with other users and their avatars
+alike, expanding social relations autonomously according to anticipated user needs. The XR-Food project proposes
+shared experiences of technologically enhanced eating in the metaverse, building a global food community to overcome
+social tensions after global food crises. Finally, the Disaster Prevention project offers joint training experiences as social
+activity in the metaverse with others to increase preparedness of real-world communities for natural disaster events.
+Identity and presence. Two narratives center around questions about the influence on human identity that come
+along with the possibilities of virtual representation of the human self or one’s opinions and beliefs. In the narrative
+MOTHER, the possibility to create AI-driven semi-autonomous avatars as representation in the metaverse is described.
+14
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+The avatars serve as a solution to the issues arising from the overwhelming number of tasks and interactions that come
+along with humans’ simultaneous presence in the physical and digital world. Avatars, rather than being representations
+of an individual, become an extension of the human self, as they can act on their own, capable of meeting the needs
+of communal spaces where digital and physical realms converge. For example, avatars can perform parental duties
+by looking after their owner’s child who is spending time in the metaverse. The project raises the question whether
+outsourcing of the self using AI technology is a viable and desirable solution. Furthermore, both narratives U12-Topia
+and MOTHER highlight the possibility to appear in the metaverse with self-selected identities ˙U12-Topia takes this
+principle one step further, as the narrative describes the possibility of whole virtual communities being represented
+by a single AI-driven avatar, channeling all discourses, beliefs and values present in the virtual community into one
+entity. The personalized representation of the digital self parallels discourses in VTuber and VR communities. This
+enables users to behave and act in ways of their choosing in virtual spaces. Thus, the avatars “provide access points in
+the creation of identity and social life” [142, p.40].
+Political participation and practice. In the narrative U12-Topia, the metaverse becomes a political discourse space for
+younger generations. It allows for political opinion formation processes through the generation of AI-driven collective
+personalities connecting to institutionalized political processes. The narrative describes the lack of participatory
+approaches in society and politics, (digital) isolation, and an aging society that largely determines political processes
+as a source for these developments. By providing U12-Topia as a technical means for a participatory place where any
+user can find or create a representation of an ideal society or community, U12-Topia aims at confronting the problem
+of Japan’s silver democracy [95]. This term describes a democracy in which the elderly make up a majority of the
+electorate, and are also over-represented within political institutions. Thus, they can exert greater influence on the
+political sphere [96, 106], but give less consideration to the needs of the younger generations leading to a generational
+imbalance [126].
+Virtual training space and extension of senses. Three narratives describe forms of manipulation or an extension
+of human senses and discuss their potential consequences. In the narrative MOTHER, autonomous avatars serve as
+extension of the human self, as they can make experiences in the virtual realm autonomously that can later be revisited
+by their human users. Also the narrative XR-Food describes the extension of senses as the consumption of food is
+enhanced by the manipulation of human senses through XR-Food technology. The Disaster Prevention narrative
+describes the metaverse as a space suited to simulate dangerous natural phenomena in a safe way. The mutual theme of
+these narratives is the idea of the metaverse being a space for making virtual experiences as a way of testing real-world
+challenges (training) without having to deal with potential negative consequences or as a way to extend human senses
+beyond physical limitations.
+4.2
+Sensemaking of the Future Through Metaverse Technology
+Workshop results discuss the following societal issues and value implications of a fictitious future metaverse society
+across five identified themes (also summarized in Table 5). Participants identified these as important to be negotiated in
+the course of the development of a prospective metaverse and future societies.
+Human-AI relations. As a central transformation within the societies in the narratives around U12-Topia and the
+service MOTHER, we observe the relations between humans and (semi-)autonomous AI entities. Given that AI entities
+fulfill societal roles and build social relations, the narratives raise questions on identity and autonomy, both of human
+and AI entities. Further, questions of human dependence on technology and the alienation from other humans arise.
+The theme substantiates the question whether AI entities should be given rights and who is responsible in case of
+15
+Hohendanner and Ullstein, et al.
+Table 5. Sensemaking of the future through the metaverse
+Superordinate
+Theme
+Representation of Anticipated Transforma-
+tion within Speculated Metaverse Society
+Societal Questions and Issues, and Value Discussion
+Human-AI
+relations
+Existence of AI entities that take on human
+tasks, fulfill societal roles and build social
+relations
+- AI rights
+- Legal and moral responsibility
+- Identity and autonomy
+- Alienation
+- Dependence on technology
+- Experience and task overload
+Technological
+solutionism
+Metaverse technology as universal problem
+solver
+- Reliance on technology
+- Human control over new emerging technologies
+- Social divide between technology users/adopters and skeptics
+Politics and
+technology
+Wish of political participation through
+smart opinion representatives
+- Political representation
+- Need for political system to adapt to the development of new
+technologies
+Globalization and
+local cultures
+Universalization of (food) cultures through
+global communication and shared practices
+- Effect of ongoing globalization on local practices
+Immersive
+technology
+Simulation of hyper-realistic scenarios and
+stimulation of senses
+- Loss of sense for and connection to reality
+- Escapism from reality
+- Dulling of feelings
+- VR traumas and post-traumatic experiences
+problems. The social pressure to be active in both virtual and physical spaces might lead to overstimulation and task
+overload, increasing the need for AI support.
+Technical solutionism. In the XR-Food magazine, we observe the promise of technology being the cure to numerous
+problems, ranging from food shortages, people’s lack of essential nutrients and even world peace. In this context, high
+value is attributed to the technological solution. Yet, the workshop group named the restaurant in their narrative
+DYSTOPIA, hinting at negative aspects of this development. U12-Topia and the service MOTHER question how far-
+reaching human control over new emerging technologies is. The future scenarios present a reliance of humans on
+technologies. The projects challenge the belief that technology is the solution to (social) problems. Follow-up problems
+are identified: A societal divide is anticipated between technology adopters and skeptics.
+Politics and technology. The influence of technology on future political practices represents a key topic in the U12-
+Topia narrative. There is a social change in society that is reflected in the desire for youth political participation, which is
+presented as an important value for the youth of the fictional society. This is grounded in the government’s behavior of
+not appropriately reacting to the effect of the aging society on the realities of political participation. Questions of future
+political participation supported by digital innovations such as AI-enhanced opinion-forming processes leading to, for
+instance, AI-supported representative democracies, and the integration of younger generations in political processes as
+reaction to aging societies are negotiated. In addition, the phenomenon of echo chambers in digital opinion-forming
+spaces is addressed.
+Globalization and local cultures. In the XR-Food project, universalization of (food) cultures illustrating the replacement
+of local food cultures by a global one represents a transformation affecting the depicted society. This can be seen as an
+expression of how ongoing globalization might affect local practices, and of the high value that is attributed to the
+preservation of local (food) cultures.
+16
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+Immersive technologies. All projects highlight aspects of the effect of immersive technologies as a core transformational
+element of future societies on human behavior. The narratives weight the benefits and disadvantages of using immersive
+technologies that allow the simulation of hyper-realistic scenarios and stimulation of senses. On the one hand, users
+can build stress tolerance and train or increase their capabilities. On the other hand, negative effects such as the loss of
+the sense for reality, dulling of feelings or VR traumas and post-traumatic experiences after experiencing hyper-realistic
+disasters and violence in virtual spaces can emerge.
+5
+DISCUSSION
+The present study used PSD to explore what issues, questions and values have to be discussed for socially viable
+and beneficial ways to conceptualize, develop, and adopt a prospective metaverse. In the following, we discuss our
+findings by, first, contextualizing the results with regard to metaverse for social good application areas. Second, we
+raise questions to metaverse designers, media, and politicians, and third reflect on our methodological approach.
+5.1
+Discussion of Identified Themes
+On the one hand, some of the topics from workshop narratives can be assigned to those identified in general discourse.
+On the other hand, some topics refer to local parameters that are specific to Japan.
+With regards to the impact of the metaverse for the social good application areas diversity, accessibility, equality, and
+humanity [39], we observe that participants discuss these topics from a more critical perspective. For accessibility and
+diversity, Duan et al. [39] highlight the metaverse’s potential of providing spaces of interaction and expression without
+physical limitations to a broad variety of users. The potential dangers of these circumstances, e.g., the permanent need
+for virtual presence or the resulting number of social interactions and information that can no longer be handled by
+individual users, are discussed by MOTHER. Likewise, U12-Topia discusses accessibility in the context of political
+processes, aiming for a diversified political sphere, but only under conditions of full dependence on technological
+enhancement in form of AI.
+Duan et al. [39] further identify equality as a result of questioning social constructs through the use of avatars to be
+one positive impact of a metaverse for social good. Supporting this claim, research shows that VR platforms provide
+new opportunities to approach various gender identities [47], and can support LGBTQ community members in meeting
+their needs to the extent of providing a safe space [3]. While not referring to gender identity specifically, MOTHER and
+U12-Topia allow users to self-select their virtual identity. This usage of avatars reminds of the hyperpersonal model
+[151]. Applied to VTubers, the model suggests that senders using virtual avatars hold advantages when interacting
+with receivers compared to appearing in person [91]. This advantage results from the possibility to modify one’s
+self-representation by selectively choosing how to present oneself, i.e., which cues to send [91]. However, the possibility
+depicted by the narrative MOTHER to continuously extend one’s identity through the experiences of the avatar
+endangers the human user also to lose control over identity formation.
+The narrative XR-Food simultaneously contrasts and aligns with existing research: While earlier studies like [39]
+suggest the metaverse’s potential in preserving cultural achievements and enhancing accessibility, XR-Food presents a
+different view, illustrating the potential replacement of local cultures with a globalized one. However, this narrative
+aligns with ongoing research themes about the influence of virtual environments on food experiences and perception, as
+explored by [141] and [101]. It also resonates with discussions on how the metaverse could transform our relationship
+with food, as indicated by [31]. This duality in XR-Food’s narrative reflects the complex and multifaceted impact of the
+metaverse on cultural practices and experiences.
+17
+Hohendanner and Ullstein, et al.
+The narratives U12-Topia and MOTHER present various perspectives on rights for AI agents; however, they are
+ultimately also highlighting anxiety about the development of autonomous AI entities. Robot and AI rights are globally
+discussed topics and find both supporters [74, 148] and critics [19, 20, 133]. Research finds that US citizens are, at first,
+not in favor of AI and robot rights, however, they also dislike punishment and cruel treatment [85]. Closely related to this
+is the public perception of AI, which is subject to common narratives about AI [8, 26, 27]. Research finds cross-cultural
+differences in the perception of AI between citizens from Japan and the US, or Japan and Germany [62, 100].
+Themes with specific cultural references evolve around the silver democracy, disaster prevention and the preservation
+of food culture. With regards to the silver democracy and problems of political participation of the youth in Japan,
+researchers discussed electoral reform [106]. One example is the introduction of the so-called Demeny [34] electoral
+system allowing parents to vote for their minors who obtain passive voting rights [7, 106, 149]. U12-Topia develops
+a form of AI-driven Demeny in which electoral rights are granted to the AI entities (collective personalities, e.g.,
+Topikin) that channel the discourses of schoolchildren communities. Interestingly, the name of the collective personality
+Topikin bears strong similarities to Hikakin, currently one of Japan’s most influential YouTubers [1]. In the wake of
+measures to contain the COVID-19 pandemic, Hikakin conducted a much-noticed interview with Tokyo’s Mayor Koike.
+This led to debates about influencers being part of political communication strategies, especially engaging younger
+audiences [109, 138].
+The fictional Disaster Prevention project reflects recent ambitions making use of VR to observe people’s reactions,
+behavior, and stress levels during emergencies in order to increase safety [50]. This is especially valuable in geographic
+regions where natural disasters occur frequently, such as in Japan “where people are required to be alert against
+disasters” [107, p.301]. The need for disaster education in school arises [107], and teaching material is provided by
+the Ministry of Land, Infrastructure and Transport [64]. The current range of natural disaster VR simulation training
+systems can be differentiated into tools for mitigation and preparedness, e.g., training for (fire) disaster evacuation
+[107, 116, 158], and response and recovery [82]. The workshop group’s idea is in line with the perception that new
+computer technology allows for “a new way of thinking for disaster emergency management research” [82, p.1875].
+5.2
+Implications for Metaverse and AI Development
+From the issues identified, questions for metaverse designers and engineers, as well as for media and policymakers
+arise, which should be considered when striving for socially sustainable developments and resilient future societies:
+While even today people struggle with problems emerging from current information societies, we should consider
+what effects might result from the emergence of more social VR applications. How should we deal with the highly
+increased demand for attention and interactions that the simultaneous presence of individuals in digital and physical
+spaces requires? How should we handle the potential effects on human perception such as losing touch with reality,
+and behavior like digital escapism that comes along with increased intersections of physical and virtual spaces and
+innovations in XR technology? Let us imagine the widespread use of AI entities. How should we deal with systems,
+acting on behalf of users or autonomously, and potentially not being distinguishable from human users? Today, we see
+politicians entering virtual spaces such as Instagram or TikTok to reach their electorate. How will political (democratic)
+systems have to adapt to virtual spaces with regard to new forms of communication, discursive spaces, and opinion
+formation processes, in order to reach and involve citizens or to respond to them adequately? Likewise, how can we
+make the benefits of global communication and exchange accessible to everyone without threatening local practices
+and their preservation in light of technological progress? Finally, from a macro perspective, how can we ensure not to
+18
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+strengthen the logics of technological solutionism despite the highly needed societal transformation processes with
+regard to global crises such as global warming?
+Our research underscores the importance for a multi-faceted approach to metaverse development that is grounded
+in inclusivity, ethical considerations, and cultural sensitivity. CSCW researchers, developers and designers of the next
+generation of metaverses should prioritize creating environments that foster inclusive and equitable interactions,
+considering factors such as accessibility, representation, and the preservation of local cultures amidst globalized virtual
+spaces. Given that a lack of studies including non-Western perspectives on technology development has been identified
+by previous research [89, 127], integrating a broader range of perspectives is vital for socially sustainable metaverse
+development. By incorporating these diverse perspective, future research can pave the way for metaverses that have
+been critically reflected upon and not simply propose presumed solutions to current societal challenges. Instead, for
+metaverses that have been critically reflected upon, developing teams should be able to proactively anticipate and
+mitigate potential risks associated with the merging of physical and virtual realities.
+Our approach can contribute to these endeavours. The creation of narratives enables reflection and expression of
+laypeople’s sensemaking processes towards a prospective metaverse. The created narratives can assist individuals in
+identifying and negotiating specific topics or aspects they’re skeptical about and in reflecting upon potential solutions or
+acceptable alternatives. In this, our approach can help to go beyond mere (public) feelings of scepticism or enthusiasm
+towards a prospective metaverse. The narratives and emerging themes may point to areas where technical solutions
+may be required, as they might "express the situation of an alternate present or possible future as an issue: a situation
+that is contestable.” [36, p.119]. If so – in the words of DiSalvo, “to be truly provocative is to rouse to action" [36, p.119]
+– developers are addressed with a call to action to propose technical solutions to the discovered issue spaces.
+Referring to our two-fold contributions, we propose a first of two possible approaches (see second in 5.3) for how the
+results of this study can be utilized: (1) Building on the emerging narratives and themes from this paper’s research
+results: (1.1) Researchers can reflect how their research ties in with citizens’ broader imaginations and whether their
+work could enhance positive or rather negative aspects of proposed narratives. This can also uncover where to prioritize
+design efforts to respond to users’ beliefs, perceptions and needs. (1.2) Narratives emerging from our workshop and its
+analysis can be used to explore where to intensify research on themes that have been explored in previous work (e.g.,
+implications of social VR representation/avatars, human-AI relations in virtual environments). Also, newly emerging
+themes like political participation through metaverse can direct new research endeavors.
+5.3
+Reflecting the Metaverse as Sociotechnical System through Participatory Speculative Design
+As our analysis shows, the applied method was effective in encouraging the participants to jointly discuss the social and
+ethical implications of a prospective metaverse society in depth. Participants were able to explore the potential benefits
+and risks of the metaverse and associated AI technologies, and to consider potential impacts and related discourses
+such as human-AI relations, technological solutionism, globalization, and local cultures. The addressed problem areas
+and raised societal questions also highlight that purported benefits illustrated by previous research need to be critically
+reflected.
+Furthermore, the applied design process enabled participants to contribute with their personal and local background
+to the imaginary. This is exemplified by themes of political reform in light of Japan’s silver democracy or natural
+disaster prevention. By uncovering these culturally and locally individual factors and by highlighting particular themes,
+discussions on how new kinds of worlds could be made possible are enabled. Therefore, the presented approach can
+serve as an example of prosocial modes of engagement and can inform the CSCW and HCI community, and the general
+19
+Hohendanner and Ullstein, et al.
+public alike. In this sense, the presented approach might be valuable to Stilgoe et al.’s [137] framework for responsible
+innovation. It is applicable for the dimensions of anticipation (as a method to build scenarios and explore visions),
+reflexivity (as a method for challenging the status quo and taken-for-granted assumptions), and inclusion (as a method
+that does not require participants to have technical knowledge) [137].
+Hence, referring to our two-fold contributions, we propose a second possible approach for how the results of this study
+can be utilized: (2) Building on our methodological contribution, our framework (toolkit available in Appendix A.2) can
+be applied by other researchers. (2.1) Here, one aim should be to conduct more PSD workshops with citizens globally to
+explore multiple perspectives and identify diverse local culturally-specific themes to further broaden discourses instead
+of focusing on single aspects of technology. (2.2) Researchers developing new technological applications can apply the
+framework to explore the implications of prospective societal impact of their technology by involving other researchers
+or even citizens. Instead of placing metaverse technology in the center of the speculation process, researchers can
+adapt the central question and pose, "What if <researchers’ technological application> was an integral part of a future
+society?".
+6
+LIMITATIONS AND FUTURE RESEARCH
+Our research is not without limitations. Given our participant recruitment strategy, our sample is not representative
+of the Japanese population. We intentionally chose an online-channel-focused advertisement strategy to reach out to
+people likely interested in and more knowledgeable about technology. We acknowledge that in this way we exclude
+people less aware of current technological developments. Additionally, the lack of financial compensation skews the
+sample towards people who can afford to join an 11-hour workshop on two weekend days.
+The analysis is subject to interpretation which builds upon the researchers’ individual backgrounds [122]. We
+encourage the reader to join the reflection of the narratives and interpret them as well. The speculations presented
+in this paper are not exhaustive, but rather represent perspectives and ideas of participants about potential relations
+of a prospective metaverse and future societies. They are also not meant to be understood as foresight but rather
+as – sometimes provocative – indications of possible problems or opportunities from individual perspectives. They
+can enrich and stimulate the discourse in order to diversify it. However, they have no claim to general validity or
+specific development recommendations. Nevertheless, almost all themes were derived from multiple narratives or can
+be referred to cultural-specific influences (discussed in 5.1). Hence, we can assume that when repeating the study in
+Japan, similar themes would arise. With the methodological particularities of PSD in mind, we have achieved recruiting
+a sample that has considerable variation in age, gender and occupation – a factor known to be important for increasing
+external validity [154]. Other studies discuss similar limitations concerning the generalizability of their results from
+SD-based research [83, 155, 156].
+Regarding the presented results, we would like to remind readers that the core function of (P)SD artifacts is to
+serve as discussion contributions, provoke, present alternatives, and rouse to action [36]. To arrive at specific technical
+recommendations for metaverse development, future studies can build on the emerged themes from the presented
+narratives and conduct expert rounds. For these expert rounds, the created metaverse narratives can serve as discussion
+contributions that spark conversations on particular contestable situations, also informing the technical development of
+a metaverse. Concerning our PSD framework, it should further be noted that it directed workshop groups to conceive
+products or services. While we acknowledge the critique of advancing market-based futures [144], we argue that none
+of the workshop results highlight business models or capitalistic logics in particular.
+20
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+The research has taken place in Tokyo/Yokohama and projects are influenced by the local realities of participants. To
+extend the scope of perspectives, future research should include workshops taking place in other local contexts. Results
+can then be comparatively analyzed. To understand how other citizens perceive the fictional narratives, future studies
+should conduct perception studies or follow-up discourses [83], where citizens are confronted with and reflect upon the
+narratives. To test the mode of such a perception study based on the participant-created props, we organized a walk-
+through exhibition in Kobe, Japan, in October 2022 (see Appendix A.5). Visitors were invited through advertisements on
+social media, word-of-mouth and the display of print flyers in cultural institutions. The exhibition allowed to read the
+fictional magazine articles and react to them or to other citizens’ thoughts by leaving post-it notes. Our first experiences
+show that more guidance on forms of interaction and documentation of interactions needs to be implemented to allow
+further analysis of the follow-up discourse. Following these findings, a more structured perception workshop was
+conducted at a German university with 135 students. The analysis of documented participants’ perceptions of the
+fictional narratives will be subject to future research.
+7
+CONCLUSION
+This work examined how Japanese citizens make sense of the metaverse as well as of a future in which the metaverse
+is an integral part of society, applying a PSD approach. Both general and culture-specific themes are addressed. The
+study reveals that the metaverse is seen as a solution to limitations of physical environments, in particular, regarding
+communication, social interactions, human senses, and simulation as well as adaptation to crises. The metaverse is also
+seen as a possibility to overcome societal expectations referring to identity and to enable political participation. AI plays
+a central role in two out of four narratives, highlighting the perceived interdependence of AI and metaverse technology.
+The provided toolkit enabled participants to critically reflect on the metaverse as a solution to these problems and
+to depict issues resulting from such future metaverse societies. With the deepening and increased intertwining of
+human-AI relations, questions of AI rights, legal and moral responsibilities, identity and autonomy, alienation, reliance
+and dependence on technology, experience and task overload, and human control over new emerging technologies
+arise. Effects of social divide between technology adopters and skeptics are imagined and the need for political systems
+to adapt to the new technologies is formulated. The effects of immersive technology such as VR traumas or escapism
+from reality are addressed, and the universalization of cultures through global communication and shared practices is
+alluded to.
+Overall, the analysis suggests that while the metaverse has the potential to bring about benefits, there are also
+important ethical and societal issues, even relating to or going beyond proposed application areas for social good. By
+identifying unique challenges that Japanese citizens perceive with regard to future metaverse societies, we hope to
+inspire the CSCW and HCI community, and developers of virtual environments to critically reflect on their contributions
+to virtual futures. This research aims to encourage the involvement of citizens and their informed perspectives into
+ideation and development processes, and to develop virtual spaces in inclusive and beneficial manners.
+21
+Hohendanner and Ullstein, et al.
+ACKNOWLEDGMENTS
+We thank the participants for their contributions.
+REFERENCES
+[1] Crystal Abidin, Jin Lee, Tommaso Barbetta, and Wei Shan Miao. 2021. Influencers and COVID-19: Reviewing key issues in press coverage across
+Australia, China, Japan, and South Korea. Media International Australia 178, 1 (2021), 114–135. https://doi.org/10.1177/1329878X20959838
+[2] AlsharifHasan Mohamad Aburbeian, Amani Yousef Owda, and Majdi Owda. 2022. A Technology Acceptance Model Survey of the Metaverse
+Prospects. AI 3, 2 (2022), 285–302. https://doi.org/10.3390/ai3020018
+[3] Dane Acena and Guo Freeman. 2021. “In My Safe Space”: Social Support for LGBTQ Users in Social Virtual Reality. In Extended Abstracts of the
+2021 CHI Conference on Human Factors in Computing Systems (CHI EA ’21). Association for Computing Machinery, New York, NY, USA, Article 301,
+6 pages. https://doi.org/10.1145/3411763.3451673
+[4] Ali Ahmad and Windu Gata. 2022. Sentimen Analisis Masyarakat Indonesia di Twitter Terkait Metaverse dengan Algoritma Support Vector
+Machine. Jurnal JTIK (Jurnal Teknologi Informasi dan Komunikasi) 6, 4 (2022), 548–555. https://doi.org/10.35870/jtik.v6i4.569
+[5] Gulsum Akkuzukaya. 2022. Sentiment Analysis on the Metaverse: Twitter Data. Sakarya University Journal of Computer and Information Sciences
+5, 2 (2022), 147–156. https://doi.org/10.35377/saucis...1088304
+[6] Babu M. U. Ananya and Mohan Priyanka. 2022. Impact of the Metaverse on the Digital Future: People’s Perspective. In 2022 7th International
+Conference on Communication and Electronics Systems (ICCES). Coimbatore, India, 1576–1581. https://doi.org/10.1109/ICCES54183.2022.9835951
+[7] Reiko Aoki and Rhema Vaithianathan. 2009. Is Demeny voting the answer to low fertility in Japan? Discussion Paper Series 435. Center for
+Intergenerational Studies, Institute of Economic Research, Hitotsubashi University.
+[8] Jascha Bareis and Christian Katzenbach. 2022. Talking AI into Being: The Narratives and Imaginaries of National AI Strategies and Their
+Performative Politics. Science, Technology, & Human Values 47, 5 (2022), 855–881. https://doi.org/10.1177/01622439211030007
+[9] Karl Baumann, Ben Caldwell, François Bar, and Benjamin Stokes. 2018. Participatory Design Fiction: Community Storytelling for Speculative
+Urban Technologies. In Extended Abstracts of the 2018 CHI Conference on Human Factors in Computing Systems. ACM, Montreal, Canada, Article
+VS09. https://doi.org/10.1145/3170427.3186601
+[10] Genevieve Bell. 2022. The metaverse is a new word for an old idea. https://www.technologyreview.com/2022/02/08/1044732/metaverse-history-
+snow-crash/ [Online; accessed 2022-10-28].
+[11] Master Blaster. 2022. Japanese school entrance ceremony held in the metaverse for over 3,000 new students. https://soranews24.com/2022/04/14/
+japanese-school-entrance-ceremony-held-in-the-metaverse-for-over-3000-new-students/ [Online; accessed 2023-02-08].
+[12] Julian Bleecker. 2009. Design Fiction: A Short Essay on Design, Science, Fact, and Fiction (1 ed.). Near Future Laboratory. https://doi.org/10.1002/
+9781119815075.ch47
+[13] Eva Brandt. 2006. Designing exploratory design games: A framework for participation in Participatory Design?. In Proceedings of the Ninth
+Conference on Participatory Design: Expanding Boundaries in Design – Volume 1 (PDC ’06). Association for Computing Machinery, New York, NY,
+USA, 57–66. https://doi.org/10.1145/1147261.1147271
+[14] Kirsten Bray and Christina Harrington. 2021. Speculative Blackness: Considering Afrofuturism in the Creation of Inclusive Speculative Design
+Probes. In Designing Interactive Systems Conference 2021. ACM, Virtual Event USA, 1793–1806. https://doi.org/10.1145/3461778.3462002
+[15] Liudmila Bredikhina, Takayuki Kameoka, Shogo Shimbo, and Akihiko Shirai. 2020. Avatar Driven VR Society Trends in Japan. In 2020 IEEE
+Conference on Virtual Reality and 3D User Interfaces Abstracts and Workshops (VRW). IEEE, Atlanta, GA, USA, 497–503. https://doi.org/10.1109/
+VRW50115.2020.00103
+[16] Lionel C. Briand, Christiane M. Differding, and H. Dieter Rombach. 1996. Practical guidelines for measurement-based process improvement.
+Software Process: Improvement and Practice 2, 4 (1996), 253–280.
+[17] Pam Briggs and Lisa Thomas. 2015. An Inclusive, Value Sensitive Design Perspective on Future Identity Technologies. ACM Transactions on
+Computer-Human Interaction 22, 5 (2015), 23:1–23:28. https://doi.org/10.1145/2778972
+[18] Barry Brown, Julian Bleecker, Marco D’Adamo, Pedro Ferreira, Joakim Formo, Mareike Glöss, Maria Holm, Kristina Höök, Eva-Carin Banka
+Johnson, Emil Kaburuan, Anna Karlsson, Elsa Vaara, Jarmo Laaksolahti, Airi Lampinen, Lucian Leahu, Vincent Lewandowski, Donald McMillan,
+Anders Mellbratt, Johanna Mercurio, Cristian Norlin, Nicolas Nova, Stefania Pizza, Asreen Rostami, Mårten Sundquist, Konrad Tollmar, Vasiliki
+Tsaknaki, Jinyi Wang, Charles Windlin, and Mikael Ydholm. 2016. The IKEA Catalogue: Design Fiction in Academic and Industrial Collaborations.
+In Proceedings of the 19th International Conference on Supporting Group Work. ACM, Sanibel Island Florida USA, 335–344. https://doi.org/10.1145/
+2957276.2957298
+[19] Joanna J. Bryson. 2010. Robots should be slaves. In Natural Language Processing, Yorick Wilks (Ed.). Vol. 8. John Benjamins Publishing Company,
+Amsterdam, 63–74. https://doi.org/10.1075/nlp.8.11bry
+[20] Joanna J. Bryson, Mihailis E. Diamantis, and Thomas D. Grant. 2017. Of, for, and by the people: the legal lacuna of synthetic persons. Artificial
+Intelligence and Law 25, 3 (2017), 273–291. https://doi.org/10.1007/s10506-017-9214-9
+[21] Lauren Buck, Gareth W. Young, and Rachel McDonnell. 2023. Avatar Customization, Personality, and the Perception of Work Group Inclusion
+in Immersive Virtual Reality. In Companion Publication of the 2023 Conference on Computer Supported Cooperative Work and Social Computing
+22
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+(Minneapolis, MN, USA) (CSCW ’23 Companion). Association for Computing Machinery, New York, NY, USA, 27–32. https://doi.org/10.1145/
+3584931.3606992
+[22] Government of Japan Cabinet Office. 2017. Society 5.0. https://www8.cao.go.jp/cstp/english/society5_0/index.html
+[23] Government of Japan Cabinet Office. 2022. Moonshot Reseach and Development Program – Science, Technology and Innovation.
+https:
+//www8.cao.go.jp/cstp/english/moonshot/top.html [Online; accessed 2023-01-19].
+[24] Andrea Antonio Cantone, Rita Francese, Raffaele Sais, Otino Pio Santosuosso, Aurelio Sepe, Simone Spera, Genoveffa Tortora, and Giuliana Vitiello.
+2023. Contextualized Experiential Language Learning in the Metaverse. In Proceedings of the 15th Biannual Conference of the Italian SIGCHI Chapter
+(Torino, Italy) (CHItaly ’23). Association for Computing Machinery, New York, NY, USA, Article 20, 7 pages. https://doi.org/10.1145/3605390.3605395
+[25] Letizia Caronia. 2015. Totem and taboo: The embarrassing epistemic work of things in the research setting. Qualitative Research 15, 2 (2015),
+141–165.
+[26] Stephen Cave, C. Craig, Kanta Dihal, S. Dillon, J. Montgomery, B. Singler, and L. Taylor. 2018. Portrayals and perceptions of AI and why they matter.
+Technical Report. The Royal Society, London. https://royalsociety.org/{~}/media/policy/projects/ai-narratives/AI-narratives-workshop-findings.pdf
+[27] Stephen Cave and Kanta Dihal. 2019. Hopes and fears for intelligent machines in fiction and reality. Nature Machine Intelligence 1, 2 (2019), 74–78.
+[28] Simran Chopra, Rachel E Clarke, Adrian K Clear, Sara Heitlinger, Ozge Dilaver, and Christina Vasiliou. 2022. Negotiating Sustainable Futures
+in Communities through Participatory Speculative Design and Experiments in Living. In Proceedings of the 2022 CHI Conference on Human
+Factors in Computing Systems (New Orleans, LA) (CHI ’22). Association for Computing Machinery, New York, NY, USA, Article 334, 17 pages.
+https://doi.org/10.1145/3491102.3501929
+[29] Serra Cilizoglu, Mehtap Duru Aslan, Melisa Ceyhan, and Asim Evren Yantaç. 2023. Designers’ Expectations from Virtual Product Experience in
+Metaverse. In Proceedings of the 26th International Academic Mindtrek Conference (Tampere, Finland) (Mindtrek ’23). Association for Computing
+Machinery, New York, NY, USA, 13–24. https://doi.org/10.1145/3616961.3616985
+[30] Tadeu Moreira de Classe, Ronney Moreira de Castro, and Henrique Prado De Sá Sousa. 2023. Evaluating Students’ Technology Acceptance of Use
+of Metaverse as an Educational Information System for Hybrid Education. In Proceedings of the XIX Brazilian Symposium on Information Systems
+(Maceió, Brazil) (SBSI ’23). Association for Computing Machinery, New York, NY, USA, 197–205. https://doi.org/10.1145/3592813.3592906
+[31] Alexandra Covaci, Khawla Alhasan, Mayank Loonker, Bernardine Farrell, Luma Tabbaa, Sophia Ppali, and Chee Siang Ang. 2023. No Pie in the
+(Digital) Sky: Co-Imagining the Food Metaverse. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (<conf-loc>,
+<city>Hamburg</city>, <country>Germany</country>, </conf-loc>) (CHI ’23). Association for Computing Machinery, New York, NY, USA, Article
+501, 17 pages. https://doi.org/10.1145/3544548.3581305
+[32] Cross Marketing. 2022.
+Survey on Metaverse (2022) Penetration Status Edition (in Japanese).
+https://www.cross-m.co.jp/report/it/
+20220908metaverse/ [Online; accessed 2023-02-08].
+[33] Nicholas S. Dalton, Rebecca Moreau, and Ross K. Adams. 2016. Resistance is Fertile: Design Fictions in Dystopian Worlds. In Proceedings
+of the 2016 CHI Conference Extended Abstracts on Human Factors in Computing Systems. ACM, San Jose California USA, 365–374.
+https:
+//doi.org/10.1145/2851581.2892572
+[34] Paul Demeny. 1986. Pronatalist policies in low-fertility countries: Patterns, performance, and prospects. Population and Development Review 12
+(1986), 335–358.
+[35] John David N. Dionisio, William G. Burns Iii, and Richard Gilbert. 2013. 3D Virtual worlds and the metaverse: Current status and future possibilities.
+Comput. Surveys 45, 3, Article 34 (2013), 38 pages. https://doi.org/10.1145/2480741.2480751
+[36] Carl DiSalvo. [n. d.]. Spectacles and Tropes: Speculative Design and Contemporary Food Cultures. 20 ([n. d.]), 109–22. Issue Networked Utopias
+and Speculative Futures.. http://twenty.fibreculturejournal.org/2012/06/19/fcj-142-spectacles-and-tropes-speculative-design-and-contemporary-
+food-cultures/
+[37] Nina Döllinger, Erik Wolf, Mario Botsch, Marc Erich Latoschik, and Carolin Wienrich. 2023. Are Embodied Avatars Harmful to Our Self-Experience?
+The Impact of Virtual Embodiment on Body Awareness. In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (, Hamburg,
+Germany,) (CHI ’23). Association for Computing Machinery, New York, NY, USA, Article 492, 14 pages. https://doi.org/10.1145/3544548.3580918
+[38] Adam Drazin. 2020. Designte Dinge im Postkosmopolitismus. In Zwischenmenschliches Design, Martina Fineder and Johannes Lang (Eds.). Springer,
+Wiesbaden, 283–304.
+[39] Haihan Duan, Jiaye Li, Sizheng Fan, Zhonghao Lin, Xiao Wu, and Wei Cai. 2021. Metaverse for Social Good: A University Campus Prototype. In
+Proceedings of the 29th ACM International Conference on Multimedia. ACM, Virtual Event China, 153–161. https://doi.org/10.1145/3474085.3479238
+[40] Anthony Dunne and Fiona Raby. 2001. Design noir: The secret life of electronic objects. Springer Science & Business Media.
+[41] Anthony Dunne and Fiona Raby. 2013. Speculative everything: Design, fiction, and social dreaming. MIT Press, Cambridge, MA.
+[42] Yogesh K. Dwivedi, Laurie Hughes, Abdullah M. Baabdullah, Samuel Ribeiro-Navarrete, Mihalis Giannakis, Mutaz M. Al-Debei, Denis Dennehy,
+Bhimaraya Metri, Dimitrios Buhalis, Christy M.K. Cheung, Kieran Conboy, Ronan Doyle, Rameshwar Dubey, Vincent Dutot, Reto Felix, D.P.
+Goyal, Anders Gustafsson, Chris Hinsch, Ikram Jebabli, Marijn Janssen, Young-Gab Kim, Jooyoung Kim, Stefan Koos, David Kreps, Nir Kshetri,
+Vikram Kumar, Keng-Boon Ooi, Savvas Papagiannidis, Ilias O. Pappas, Ariana Polyviou, Sang-Min Park, Neeraj Pandey, Maciel M. Queiroz,
+Ramakrishnan Raman, Philipp A. Rauschnabel, Anuragini Shirish, Marianna Sigala, Konstantina Spanaki, Garry Wei-Han Tan, Manoj Kumar
+Tiwari, Giampaolo Viglia, and Samuel Fosso Wamba. 2022. Metaverse beyond the hype: Multidisciplinary perspectives on emerging challenges,
+opportunities, and agenda for research, practice and policy. International Journal of Information Management 66, Article 102542 (2022), 55 pages.
+https://doi.org/10.1016/j.ijinfomgt.2022.102542
+23
+Hohendanner and Ullstein, et al.
+[43] Chris Elsden, David Chatting, Abigail C. Durrant, Andrew Garbett, Bettina Nissen, John Vines, and David S. Kirk. 2017. On Speculative
+Enactments. In Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems. ACM, Denver Colorado USA, 5386–5399.
+https://doi.org/10.1145/3025453.3025503
+[44] Felix Anand Epp, Tim Moesgen, Antti Salovaara, Emmi Pouta, and İdil Gaziulusoy. 2022. Reinventing the Wheel: The Future Ripples Method
+for Activating Anticipatory Capacities in Innovation Teams. In Designing Interactive Systems Conference (DIS ’22). Association for Computing
+Machinery, New York, NY, USA, 387–399. https://doi.org/10.1145/3532106.3534570
+[45] Pedro Gil Farias, Roy Bendor, and Bregje F. van Eekelen. 2022. Social dreaming together: A critical exploration of participatory speculative
+design. In Proceedings of the Participatory Design Conference 2022 - Volume 2. ACM, Newcastle upon Tyne United Kingdom, 147–154.
+https:
+//doi.org/10.1145/3537797.3537826
+[46] Christopher Frayling. 1993. Research in Art and Design. Research Papers 1. Royal College of Art. https://researchonline.rca.ac.uk/384/
+[47] Guo Freeman, Divine Maloney, Dane Acena, and Catherine Barwulor. 2022. (Re)discovering the Physical Body Online: Strategies and Challenges
+to Approach Non-Cisgender Identity in Social Virtual Reality. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems
+(CHI ’22). Association for Computing Machinery, New York, NY, USA, 1–15. https://doi.org/10.1145/3491102.3502082
+[48] Tony Fry. 2009. Design Futuring: Sustainability, Ethics and New Practice. https://www.bloomsbury.com/uk/design-futuring-9781350089952/
+[49] Archon Fung. 2006. Varieties of Participation in Complex Governance. Public Administration Review 66, s1 (2006), 66–75. https://doi.org/10.1111/j.
+1540-6210.2006.00667.x arXiv:https://onlinelibrary.wiley.com/doi/pdf/10.1111/j.1540-6210.2006.00667.x
+[50] Luciano Gamberini, Alice Bettelli, Giulia Benvegnù, Valeria Orso, Anna Spagnolli, and Michele Ferri. 2021. Designing “Safer Water.” A Virtual
+Reality Tool for the Safety and the Psychological Well-Being of Citizens Exposed to the Risk of Natural Disasters. Frontiers in Psychology 12, Article
+674171 (2021), 12 pages. https://www.frontiersin.org/articles/10.3389/fpsyg.2021.674171
+[51] Alix Gerber. 2018. Participatory speculation: futures of public safety. In Proceedings of the 15th Participatory Design Conference: Short Papers,
+Situated Actions, Workshops and Tutorial - Volume 2 (PDC ’18). Association for Computing Machinery, New York, NY, USA, 1–4. https://doi.org/10.
+1145/3210604.3210640
+[52] Leo A. Goodman. 1961. Snowball Sampling. The Annals of Mathematical Statistics 32, 1 (1961), 148–170.
+[53] Google. 2023. Google Trends for the term "metaverse" in Japan, US, and UK.
+https://trends.google.com/trends/explore?date=today%205-
+y,today%205-y,today%205-y&geo=JP,US,GB&q=%E3%83%A1%E3%82%BF%E3%83%90%E3%83%BC%E3%82%B9,metaverse,metaverse [Online;
+accessed 2023-01-19].
+[54] Tim Gorichanaz. 2022. Being at home in the metaverse? Prospectus for a social imaginary. AI and Ethics (2022). https://doi.org/10.1007/s43681-
+022-00198-w
+[55] Algirdas Julien Greimas. 1984. Structural Semantics: An Attempt at a Method. University of Nebraska Press, Lincoln.
+[56] Christina Harrington and Tawanna R. Dillahunt. 2021. Eliciting Tech Futures Among Black Young Adults: A Case Study of Remote Speculative
+Co-Design. In Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (CHI ’21). Association for Computing Machinery,
+New York, NY, USA, 1–15. https://doi.org/10.1145/3411764.3445723
+[57] Kadhim Hayawi, Sakib Shahriar, Mohamed Adel Serhani, and Eiman Alothali. 2022. Inevitable-Metaverse: A Novel Twitter Dataset for Public
+Sentiments on Metaverse. Technical Report. https://doi.org/10.21203/rs.3.rs-1906763/v1
+[58] Michel Hohendanner, Chiara Ullstein, Yosuke Buchmeier, and Jens Grossklags. 2023. Exploring the Reflective Space of AI Narratives Through
+Speculative Design in Japan and Germany. In Proceedings of the 2023 ACM Conference on Information Technology for Social Good (Lisbon, Portugal)
+(GoodIT ’23). Association for Computing Machinery, New York, NY, USA, 351–362. https://doi.org/10.1145/3582515.3609554
+[59] Michel Hohendanner, Chiara Ullstein, and Daijiro Mizuno. 2021. Designing the Exploration of Common Good within Digital Environments: A
+Deliberative Speculative Design Framework and the Analysis of Resulting Narratives. Swiss Design Network Symposium 2021 Conference Proceedings,
+566–579.
+[60] Sofie Hvitved, Bugge Holm Hansen, Simon Fuglsang Østergaard, Klaus Mogensen, Maya Ellen Hertz, and Philipp Heideker. [n. d.]. Metaverse
+Delphi Study. Technical Report. Copenhagen Institute for Futures Studies. https://cifs.dk/metaverse/
+[61] Kristina Höök, Peter Dalsgaard, Stuart Reeves, Jeffrey Bardzell, Jonas Löwgren, Erik Stolterman, and Yvonne Rogers. 2015. Knowledge Production
+in Interaction Design. In Proceedings of the 33rd Annual ACM Conference Extended Abstracts on Human Factors in Computing Systems (CHI EA ’15).
+Association for Computing Machinery, New York, NY, USA, 2429–2432. https://doi.org/10.1145/2702613.2702653
+[62] Yuko Ikkatai, Tilman Hartwig, Naohiro Takanashi, and Hiromi M. Yokoyama. 2022. Segmentation of ethics, legal, and social issues (ELSI) related
+to AI in Japan, the United States, and Germany. AI and Ethics (2022). https://doi.org/10.1007/s43681-022-00207-y
+[63] Hideaki Ishiyama. 2023. Metaverse is where it’s all happening on the Japan job front | The Asahi Shimbun: Breaking News, Japan News and
+Analysis. https://www.asahi.com/ajw/articles/14826250 [Online; accessed 2023-02-08].
+[64] MLIT Japan. 2022. Introducing the latest efforts that are useful for teachers working on disaster prevention education. https://www.mlit.go.jp/
+river/bousai/education/index.html [Online; accessed 2023-01-13].
+[65] Metaverse Japan. 2022. Metaverse Japan Summit 2022. https://mvjsummit.com/ [Online; accessed 2023-01-19].
+[66] Cision PR Newswire Japan National Tourism Organization New York. 2018. JNTO to Launch ’Come to Japan’ Campaign With Kizuna AI, the
+World’s First Virtual YouTuber.
+https://www.prnewswire.com/news-releases/jnto-to-launch-come-to-japan-campaign-with-kizuna-ai-the-
+worlds-first-virtual-youtuber-300608037.html [Online; accessed 2023-01-16].
+24
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+[67] Sheila Jasanoff and Sang-Hyun Kim. 2015. Dreamscapes of modernity: Sociotechnical imaginaries and the fabrication of power. University of Chicago
+Press, Chicago.
+[68] Leon Karlsen Johannessen. 2017. The young designer’s guide to speculative and critical design. Norwegian University of Science and Technology
+(2017).
+[69] Leon Karlsen Johannessen, Martina Maria Keitsch, and Ida Nilstad Pettersen. 2019. Speculative and Critical Design – Features, Methods, and Practices.
+Proceedings of the Design Society: International Conference on Engineering Design 1, 1 (2019), 1623–1632. https://doi.org/10.1017/dsi.2019.168
+[70] Robert Jungk and Norbert R. Müllert. 1996. Future Workshops: How to Create Desirable Futures (2 ed.). Institute for Social Inventions.
+[71] Jasmine Kaur, Rishabh Devgon, and Dhairya Chaudhary. 2022. Work of Fiction: Using Speculative Design to Deliberate on the Future of Hiring. In
+Companion Computer Supported Cooperative Work and Social Computing. ACM, Virtual Event Taiwan, 23–26. https://doi.org/10.1145/3500868.
+3559442
+[72] Awais Hameed Khan, Neelam Ejaz, Sarah Matthews, Stephen Snow, and Ben Matthews. 2021. Speculative Design for Education: Using Participatory
+Methods to Map Design Challenges and Opportunities in Pakistan. In Designing Interactive Systems Conference 2021 (DIS ’21). Association for
+Computing Machinery, New York, NY, USA, 1748–1764. https://doi.org/10.1145/3461778.3462117
+[73] Jeremy Knox. 2022. The Metaverse, or the Serious Business of Tech Frontiers. Postdigital Science and Education 4, 2 (2022), 207–215. https:
+//doi.org/10.1007/s42438-022-00300-9
+[74] Bert-Jaap Koops, Mireille Hildebrandt, and David-Olivier Jaquet-Chiffelle. 2010. Bridging the Accountability Gap: Rights for New Entities in the
+Information Society. Minnesota Journal of Law, Science and Technology 11, 2 (2010), 497–562.
+[75] Hannah Korsmeyer and Ann Light. 2019. Learning to anticipate worlds through participatory speculative design. In Anticipation 2019. Oslo.
+https://anticipationconference.org/wp-content/uploads/2019/10/Anticipation_2019_paper_60.pdf
+[76] Yubo Kou and Xinning Gui. 2023. Harmful Design in the Metaverse and How to Mitigate It: A Case Study of User-Generated Virtual Worlds
+on Roblox. In Proceedings of the 2023 ACM Designing Interactive Systems Conference (Pittsburgh, PA, USA) (DIS ’23). Association for Computing
+Machinery, New York, NY, USA, 175–188. https://doi.org/10.1145/3563657.3595960
+[77] Sandjar Kozubaev, Chris Elsden, Noura Howell, Marie Louise Juul Søndergaard, Nick Merrill, Britta Schulte, and Richmond Y. Wong. 2020.
+Expanding Modes of Reflection in Design Futuring. In Proceedings of the 2020 CHI Conference on Human Factors in Computing Systems. ACM,
+Honolulu, HI, 1–15. https://doi.org/10.1145/3313831.3376526
+[78] Ellis S. Krauss. 2003. Doing Media Research in Japan. In Doing Fieldwork in Japan, Theodore C Bestor, Patricia G Steinhoff, and Victoria Lyon
+Bestor (Eds.). University of Hawaii Press.
+[79] Near Future Laboratory. 2014. TBD Catalog. https://tbdcatalog.com/ [Online; accessed 2023-05-13].
+[80] Kit Yung Lam, Liang Yang, Ahmad Alhilal, Lik-Hang Lee, Gareth Tyson, and Pan Hui. 2022. Human-Avatar Interaction in Metaverse: Framework
+for Full-Body Interaction. In Proceedings of the 4th ACM International Conference on Multimedia in Asia (Tokyo, Japan) (MMAsia ’22). Association
+for Computing Machinery, New York, NY, USA, Article 10, 7 pages. https://doi.org/10.1145/3551626.3564936
+[81] Jung-Joo Lee, Miia Jaatinen, Anna Salmi, Tuuli Mattelmäki, Riitta Smeds, and Mari Holopainen. 2018. Design Choices Framework for Co-creation
+Projects. International Journal of Design 12, 2 (2018), 15–31.
+[82] Ning Li, Na Sun, Chunxia Cao, Shike Hou, and Yanhua Gong. 2022. Review on visualization technology in simulation training system for major
+natural disasters. Natural Hazards 112, 3 (2022), 1851–1882. https://doi.org/10.1007/s11069-022-05277-z
+[83] Ann Light. 2021. Collaborative speculation: Anticipation, inclusion and designing counterfactual futures for appropriation. Futures 134 (2021),
+102855. https://doi.org/10.1016/j.futures.2021.102855
+[84] Jiyoung Lim. 2023. An Analysis of Child-Related Metaverse Perceptions through Text Mining: Focusing on Comparison with News Article and
+Parent Communities. In Proceedings of the 2023 8th International Conference on Intelligent Information Technology (Da Nang, Vietnam) (ICIIT ’23).
+Association for Computing Machinery, New York, NY, USA, 112–116. https://doi.org/10.1145/3591569.3591588
+[85] Gabriel Lima, Changyeon Kim, Seungho Ryu, Chihyung Jeon, and Meeyoung Cha. 2020. Collecting the Public Perception of AI and Robot Rights.
+Proceedings of the ACM on Human-Computer Interaction 4, CSCW2 (2020), 135:1–135:24. https://doi.org/10.1145/3415206
+[86] Ang Swat Lin Lindawati, Bambang Leo Handoko, Mazlina Mustapha, Haryadi Sarjono, and Mohamad Heykal. 2023. Metaverse World Challenges
+for Accountant and Auditor. In Proceedings of the 2023 5th Asia Pacific Information Technology Conference (Ho Chi Minh City, Vietnam) (APIT ’23).
+Association for Computing Machinery, New York, NY, USA, 113–117. https://doi.org/10.1145/3588155.3588173
+[87] Joseph Lindley, David Green, Mayane Dore, Zach Mason, Claire Coulton, Arne Berger, and Miriam Sturdee. 2022. Communicating the value of
+design research. DRS Biennial Conference Series (2022). https://dl.designresearchsociety.org/drs-conference-papers/drs2022/conversations/4
+[88] Kristina Lindström and Åsa Ståhl. [n. d.]. Un/Making in the Aftermath of Design. In Proceedings of the 16th Participatory Design Conference 2020 -
+Participation(s) Otherwise - Volume 1 (Manizales Colombia, 2020-06-15). ACM, 12–21. https://doi.org/10.1145/3385010.3385012
+[89] Sebastian Linxen, Christian Sturm, Florian Brühlmann, Vincent Cassau, Klaus Opwis, and Katharina Reinecke. 2021. How WEIRD is CHI?. In
+Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems (Yokohama, Japan) (CHI ’21). Association for Computing Machinery,
+New York, NY, USA, Article 143, 14 pages. https://doi.org/10.1145/3411764.3445488
+[90] Genevieve Liveley, Will Slocombe, and Emily Spiers. 2021. Futures literacy through narrative. Futures 125 (2021), 102663. https://doi.org/10.1016/j.
+futures.2020.102663
+[91] Zhicong Lu, Chenxinran Shen, Jiannan Li, Hong Shen, and Daniel Wigdor. 2021. More Kawaii than a Real-Person Live Streamer: Understanding
+How the Otaku Community Engages with and Perceives Virtual YouTubers. In Proceedings of the 2021 CHI Conference on Human Factors in
+25
+Hohendanner and Ullstein, et al.
+Computing Systems. ACM, Yokohama, Japan, 1–14. https://doi.org/10.1145/3411764.3445660
+[92] Damien Lutz. 2020. Future Thieving #1 – Stealing from the future with speculative design. https://uxdesign.cc/stealing-from-the-future-with-
+speculative-design-e769059b6689 [Online; accessed 2022-11-30].
+[93] Ezio Manzini. 2015. Design, when everybody designs: An introduction to design for social innovation. The MIT Press, Cambridge, MA.
+[94] Stephen McCarthy, Wendy Rowan, Carolanne Mahony, and Antoine Vergne. 2023. The dark side of digitalization and social media platform
+governance: a citizen engagement study. Internet Research ahead-of-print (2023).
+[95] Charles T. McClean. 2020. Silver Democracy: Youth Representation in an Aging Japan. Ph. D. Dissertation. San Diego. https://escholarship.org/uc/
+item/54d3f8bz
+[96] Charles T. McClean. 2022. Generational Change or Continuity in Japan’s Leadership? In Japan Decides 2021: The Japanese General Election, Robert J.
+Pekkanen, Steven R. Reed, and Daniel M. Smith (Eds.). Springer International Publishing, Cham, 115–129. https://doi.org/10.1007/978-3-031-
+11324-6_9
+[97] Meta. 2021. The Facebook Company Is Now Meta.
+https://about.fb.com/news/2021/10/facebook-company-is-now-meta/ [Online; accessed
+2023-01-19].
+[98] Ivica Mitrović. 2015. An introduction to speculative design practice. In An Introduction to Speculative Design-Eutropia, a Case Study, Ivica Mitrović,
+Marko Golub, and Oleg Šuran (Eds.). Croatian Designers Association, Department for Visual Communications Design, Arts Academy, University
+of Split, Zagreb/Split, 8–23.
+[99] Michael Muller and Q. Vera Liao. 2017. Exploring AI Ethics and Values through Participatory Design Fictions. Human Computer Interaction
+Consortium (2017).
+[100] Reem Nadeem. 2020. Science and Scientists Held in High Esteem Across Global Publics. Report. Pew Research Center Science & Society. https:
+//www.pewresearch.org/science/2020/09/29/science-and-scientists-held-in-high-esteem-across-global-publics/ [Online; accessed 2023-01-25].
+[101] Kizashi Nakano, Daichi Horita, Naoya Isoyama, Hideaki Uchiyama, and Kiyoshi Kiyokawa. 2022. Ukemochi: A Video See-through Food
+Overlay System for Eating Experience in the Metaverse. In Extended Abstracts of the 2022 CHI Conference on Human Factors in Computing
+Systems (New Orleans, LA, USA) (CHI EA ’22). Association for Computing Machinery, New York, NY, USA, Article 380, 8 pages.
+https:
+//doi.org/10.1145/3491101.3519779
+[102] Susan Naomi Nordstrom. 2015. Not So Innocent Anymore: Making Recording Devices Matter in Qualitative Interviews. Qualitative Inquiry 21, 4
+(2015), 388–401. https://doi.org/10.1177/1077800414563804
+[103] Sam Nussey. 2022. Sony readies for metaverse revolution with cross-platform push. https://www.japantimes.co.jp/news/2022/05/18/business/
+corporate-business/sony-metaverse-revolution/ [Online; accessed 2023-01-19].
+[104] Maggie Oates, Kyle Crichton, Lorrie Cranor, Storm Budwig, Erica J. L. Weston, Brigette M. Bernagozzi, and Julie Pagaduan. 2022. Audio, video,
+chat, email, or survey: How much does online interview mode matter? PLOS ONE 17, 2 (2022), 1–43. https://doi.org/10.1371/journal.pone.0263876
+[105] The University of Tokyo. 2022. Announcing the Launch of "Metaverse School of Engineering” Promoting D&I and Developing DX Human
+Resources. http://www.t.u-tokyo.ac.jp/en/press/pr2022-07-21-001 [Online; accessed 2023-01-19].
+[106] Akira Okamoto. 2020. Silver democracy and electoral system: Political feasibility of policy reform plans in an aging Japan. Okayama Economic
+Review 51, 2-3 (2020), 123–129.
+[107] Sho Ooi, Taisuke Tanimoto, and Mutsuo Sano. 2019. Virtual Reality Fire Disaster Training System for Improving Disaster Awareness. In Proceedings
+of the 2019 8th International Conference on Educational and Information Technology (ICEIT 2019). Association for Computing Machinery, New York,
+NY, USA, 301–307. https://doi.org/10.1145/3318396.3318431
+[108] Jonas Oppenlaender. 2022. The Perception of Smart Contracts for Governance of the Metaverse. In Proceedings of the 25th International Academic
+Mindtrek Conference (Tampere, Finland) (Academic Mindtrek ’22). Association for Computing Machinery, New York, NY, USA, 1–8.
+https:
+//doi.org/10.1145/3569219.3569300
+[109] Tomohiro Osaki. 2020. Let’s discuss Hikakin and Yuriko Koike. https://www.japantimes.co.jp/life/2020/04/21/language/lets-discuss-hikakin-
+yuriko-koike/ [Online; accessed 2023-01-23].
+[110] John O’Shea and Scott Smith. 2014. Winning Formula by Near Future Laboratory. https://winningformula.nearfuturelaboratory.com/ [Online;
+accessed 2023-05-13].
+[111] Ville Paananen, Sina Kiarostami, Lik-Hang Lee, Aku Visuri, Saba Kheirinejad, and Simo Hosio. 2023. Exploring Situated Empathy through a
+Metaverse Campus. In Proceedings of the 26th International Academic Mindtrek Conference (Tampere, Finland) (Mindtrek ’23). Association for
+Computing Machinery, New York, NY, USA, 1–12. https://doi.org/10.1145/3616961.3616971
+[112] Hyanghee Park, Daehwan Ahn, and Joonhwan Lee. 2023. Towards a Metaverse Workspace: Opportunities, Challenges, and Design Implications.
+In Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems (Hamburg, Germany) (CHI ’23). Association for Computing
+Machinery, New York, NY, USA, Article 503, 20 pages. https://doi.org/10.1145/3544548.3581306
+[113] Sunkyung Park and Yoon Ji Kang. 2021. A Study on the intentions of early users of metaverse platforms using the Technology Acceptance Model.
+Journal of Digital Convergence 19, 10 (2021), 275–285.
+[114] Luiza Prado de O. Martins. 2014. Privilege and oppression: Towards a feminist speculative design. In DRS International Conference Proceedings 2014.
+DRS Digital Library, Umeå, Sweden.
+[115] Sebastian Prost, Elke Mattheiss, and Manfred Tscheligi. 2015. From Awareness to Empowerment: Using Design Fiction to Explore Paths towards
+a Sustainable Energy Future. In Proceedings of the 18th ACM Conference on Computer Supported Cooperative Work & Social Computing. ACM,
+26
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+Vancouver BC Canada, 1649–1658. https://doi.org/10.1145/2675133.2675281
+[116] Aizhu Ren, Chi Chen, Jianyong Shi, and Liang Zou. 2006. Application Of Virtual Reality Technology To Evacuation Simulation In Fire Disaster. In
+Proceedings of the 2006 International Conference on Computer Graphics & Virtual Reality. Las Vegas, Nevada, USA, 15–21.
+[117] Colin Robson. 2002. Real World Research: A Resource for Social Scientists and Practitioners-Researchers (2nd ed.). Blackwell, Oxford/Madden.
+[118] Rwamahe Rutakumwa, Joseph Okello Mugisha, Sarah Bernays, Elizabeth Kabunga, Grace Tumwekwase, Martin Mbonye, and Janet Seeley.
+2020. Conducting in-depth interviews with and without voice recorders: A comparative analysis. Qualitative Research 20, 5 (2020), 565–581.
+https://doi.org/10.1177/1468794119884806
+[119] Johnny Saldaña. 2013. The coding manual for qualitative researchers (2nd ed.). SAGE, Los Angeles.
+[120] Elizabeth B.-N. Sanders and Pieter Jan Stappers. 2014. Probes, toolkits and prototypes: three approaches to making in codesigning. CoDesign 10, 1
+(2014), 5–14. https://doi.org/10.1080/15710882.2014.888183
+[121] Elizabeth B.-N. Sanders and Bo Westerlund. 2011. Experiencing, Exploring and Experimenting in and with Co-Design Spaces. Nordes 4 (2011).
+https://archive.nordes.org/index.php/n13/article/view/110
+[122] Ari Schlesinger, W. Keith Edwards, and Rebecca E. Grinter. 2017. Intersectional HCI: Engaging Identity through Gender, Race, and Class. In
+Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems (CHI ’17). Association for Computing Machinery, New York, NY,
+USA, 5412–5427. https://doi.org/10.1145/3025453.3025766
+[123] Britta F. Schulte, Paul Marshall, and Anna L. Cox. 2016. Homes For Life: A Design Fiction Probe. In Proceedings of the 9th Nordic Conference on Human-
+Computer Interaction (NordiCHI ’16). Association for Computing Machinery, New York, NY, USA, 1–10. https://doi.org/10.1145/2971485.2993925
+[124] Peter Schwartz. 1991. The Art of the Long View: Planning for the Future in an Uncertain World. Currency Doubleday.
+[125] Phoebe Sengers, Kaiton Williams, and Vera Khovanskaya. 2021. Speculation and the Design of Development. Proceedings of the ACM on
+Human-Computer Interaction 5, CSCW1 (2021), 1–27. https://doi.org/10.1145/3449195
+[126] Yongseok Seo. 2017. Democracy in the ageing society: Quest for political equilibrium between generations. Futures 85 (2017), 42–57.
+https:
+//doi.org/10.1016/j.futures.2016.11.002
+[127] Ali Akbar Septiandri, Marios Constantinides, Mohammad Tahaei, and Daniele Quercia. 2023. WEIRD FAccTs: How Western, Educated, Industrialized,
+Rich, and Democratic is FAccT?. In Proceedings of the 2023 ACM Conference on Fairness, Accountability, and Transparency (Chicago, IL, USA) (FAccT
+’23). Association for Computing Machinery, New York, NY, USA, 160–171. https://doi.org/10.1145/3593013.3593985
+[128] Sumita Sharma, Netta Iivari, Marianne Kinnula, Grace Eden, Alipta Ballav, Rocio Fatas, Ritwik Kar, Deepak Ranjan Padhi, Vahid Sadeghie, Pratiti
+Sarkar, Riya Sinha, Rucha Tulaskar, and Nikita Valluri. 2021. From Mild to Wild: Reimagining Friendships and Romance in the Time of Pandemic
+Using Design Fiction. In Designing Interactive Systems Conference 2021 (DIS ’21). Association for Computing Machinery, New York, NY, USA, 64–77.
+https://doi.org/10.1145/3461778.3462110
+[129] Sumita Sharma, Netta Iivari, Marianne Kinnula, Grace Eden, Alipta Ballav, Rocio Fatas, Ritwik Kar, Deepak Ranjan Padhi, Vahid Sadeghie, Pratiti
+Sarkar, Riya Sinha, Rucha Tulaskar, and Nikita Valluri. 2021. From Mild to Wild: Reimagining Friendships and Romance in the Time of Pandemic
+Using Design Fiction. In Proceedings of the 2021 ACM Designing Interactive Systems Conference (Virtual Event, USA) (DIS ’21). Association for
+Computing Machinery, New York, NY, USA, 64–77. https://doi.org/10.1145/3461778.3462110
+[130] Shogo Shinbo. 2019. The VRChat community and economic sphere in Japan from the perspective of user surveys – Chapter 1: Introduction and
+research methods. https://note.com/shogo_vr/n/naa3fc070228e [Online; accessed 2023-01-24].
+[131] Herbert Alexander Simon. 1969. The sciences of the artificial. MIT Press, Cambridge, MA.
+[132] Robert Soden, Aleks Berditchevskaia, Isabel Stewart, Erin Coughlan de Perez, Saurav Poudel, Sakun Joshi, Shreyasha Paudel, and Manveer Kalirai.
+2022. FAccT Craft Session Workshop: What Could Possibly Go Wrong? Speculative Practice Towards Anticipating the Negative Consequences of
+Humanitarian AI. http://robertsoden.io/craft.html
+[133] Sheikh M. Solaiman. 2017. Legal personality of robots, corporations, idols and chimpanzees: A quest for legitimacy. Artificial Intelligence and Law
+25, 2 (2017), 155–179. https://doi.org/10.1007/s10506-016-9192-3
+[134] Bruce Sterling. 2013. Patently untrue: Fleshy defibrillators and synchronised baseball are changing the future. Wired UK (2013).
+https:
+//www.wired.co.uk/article/patently-untrue
+[135] Phyllis Noerager Stern and Caroline Jane Porr. 2011. Essentials of Accessible Grounded Theory (1 ed.). Routledge.
+https://doi.org/10.4324/
+9781315429410
+[136] Marc Stickdorn, Markus Edgar Hormess, Adam Lawrence, and Jakob Schneider. 2018. This is service design doing: Applying service design thinking
+in the real world. O’Reilly Media, Inc., Sebastopol, CA.
+[137] Jack Stilgoe, Richard Owen, and Phil Macnaghten. 2013. Developing a framework for responsible innovation. Research Policy 42, 9 (2013), 1568–1580.
+https://doi.org/10.1016/j.respol.2013.05.008
+[138] Noriyuki Suzuki. 2020. Tokyo Olympics delay, coronavirus add fuel to Abe-Koike political rivalry. https://english.kyodonews.net/news/2020/04/
+d3644b7de769-focus-olympic-delay-and-coronavirus-add-fuel-to-abe-koike-political-rivalry.html [Online; accessed 2023-01-23].
+[139] Philipp Sykownik, Divine Maloney, Guo Freeman, and Maic Masuch. 2022. Something Personal from the Metaverse: Goals, Topics, and Contextual
+Factors of Self-Disclosure in Commercial Social VR. In Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems (New
+Orleans, LA) (CHI ’22). Association for Computing Machinery, New York, NY, USA, Article 632, 17 pages. https://doi.org/10.1145/3491102.3502008
+[140] Marie Louise Juul Søndergaard and Lone Koefoed Hansen. 2018. Intimate Futures: Staying with the Trouble of Digital Personal Assistants through
+Design Fiction. In Proceedings of the 2018 Designing Interactive Systems Conference (DIS ’18). Association for Computing Machinery, New York, NY,
+27
+Hohendanner and Ullstein, et al.
+USA, 869–880. https://doi.org/10.1145/3196709.3196766
+[141] Taiyo Taguchi, Yurie Watanabe, and Tomokazu Ishikawa. 2023. An Investigation of Changes in Taste Perception by Varying Polygon Resolution of
+Foods in Virtual Environments. In ACM SIGGRAPH 2023 Posters (Los Angeles, CA, USA) (SIGGRAPH ’23). Association for Computing Machinery,
+New York, NY, USA, Article 15, 2 pages. https://doi.org/10.1145/3588028.3603689
+[142] Charles Taylor. 2004. Modern Social Imaginaries. Duke University Press. https://doi.org/10.1515/9780822385806
+[143] Metaverse Expo Tokyo. 2022. Metaverse Expo Tokyo [SUMMER].
+https://www.metaverse-expo.jp/summer/ja-jp.html [Online; accessed
+2023-01-19].
+[144] Cameron Tonkinwise. 2014. How We Intend to Future: Review of Anthony Dunne and Fiona Raby, Speculative Everything: Design, Fiction, and
+Social Dreaming. Design Philosophy Papers 12, 2 (2014), 169–187. https://doi.org/10.2752/144871314X14159818597676
+[145] Jasper Tran O’Leary, Sara Zewde, Jennifer Mankoff, and Daniela K. Rosner. 2019. Who Gets to Future? Race, Representation, and Design Methods
+in Africatown. In Proceedings of the 2019 CHI Conference on Human Factors in Computing Systems (CHI ’19). Association for Computing Machinery,
+New York, NY, USA, 1–13. https://doi.org/10.1145/3290605.3300791
+[146] Federico Trucchia, Hemal Ranawaka Arachchige Dias, Takaharu Suzuki, and Georgia Mackenzie. 2023. Beyond 5G: Envisioning the Future of
+Mobility in Japan Through Design Fiction. In Proceedings of the 2023 ACM Designing Interactive Systems Conference (Pittsburgh, PA, USA) (DIS ’23).
+Association for Computing Machinery, New York, NY, USA, 2109–2122. https://doi.org/10.1145/3563657.3596115
+[147] Anthony G. Tuckett. 2005. Part II. Rigour in qualitative research: Complexities and solutions. Nurse researcher 13, 1 (2005), 29–42.
+https:
+//doi.org/10.7748/nr2005.07.13.1.29.c5998
+[148] Jacob Turner. 2019. Robot Rules: Regulating Artificial Intelligence. Springer International Publishing, Cham. https://doi.org/10.1007/978-3-319-
+96235-1
+[149] Rhema Vaithianathan, Reiko Aoki, and Erwan Sbai. 2013. Support for franchise extension for children: Evidence on Japanese attitude to Demeny
+voting. Technical Report 610. Center for Intergenerational Studies, Institute of Economic Research.
+[150] Leena Ventä-Olkkonen, Netta Iivari, Sumita Sharma, Tonja Molin-Juustila, Kari Kuutti, Nina Juustila-Cevirel, Essi Kinnunen, and Jenni Holappa.
+2021. Nowhere to Now-here: Empowering Children to Reimagine Bully Prevention at Schools Using Critical Design Fiction: Exploring the Potential
+of Participatory, Empowering Design Fiction in Collaboration with Children. In Designing Interactive Systems Conference 2021. ACM, Virtual Event
+USA, 734–748. https://doi.org/10.1145/3461778.3462044
+[151] Joseph B. Walther and Monica T. Whitty. 2021. Language, Psychology, and New New Media: The Hyperpersonal Model of Mediated Communication
+at Twenty-Five Years. Journal of Language and Social Psychology 40, 1 (2021), 120–135. https://doi.org/10.1177/0261927X20967703
+[152] Matt Ward. 2021. A Practice of Hope, A Method of Action. In Beyond speculative design: Past - present - future, Ivica Mitrović, James Auger, Julian
+Hanna, and Ingi Helgason (Eds.). SpeculativeEdu, Split, 166–201.
+[153] Woodrow W. Winchester. 2018. Afrofuturism, inclusion, and the design imagination. Interactions 25, 2 (2018), 41–45. https://doi.org/10.1145/3182655
+[154] Claes Wohlin, Per Runeson, Martin Höst, Magnus C Ohlsson, Björn Regnell, and Anders Wesslén. 2012. Experimentation in software engineering.
+Springer Science & Business Media.
+[155] Richmond Y. Wong, Nick Merrill, and John Chuang. 2018. When BCIs have APIs: Design Fictions of Everyday Brain-Computer Interface Adoption.
+In Proceedings of the 2018 Designing Interactive Systems Conference. ACM, Hong Kong China, 1359–1371. https://doi.org/10.1145/3196709.3196746
+[156] Richmond Y. Wong, Deirdre K. Mulligan, Ellen Van Wyk, James Pierce, and John Chuang. 2017. Eliciting Values Reflections by Engaging Privacy
+Futures Using Design Workbooks. Proc. ACM Hum.-Comput. Interact. 1, CSCW, Article 111 (dec 2017), 26 pages. https://doi.org/10.1145/3134746
+[157] Rong Wu and Zhonggen Yu. 2023. Investigating Users’ Acceptance of the Metaverse with an Extended Technology Acceptance Model. International
+Journal of Human–Computer Interaction 0, 0 (2023), 1–17. https://doi.org/10.1080/10447318.2023.2241295
+[158] Mingze Xi and Shamus P. Smith. 2014. Simulating cooperative fire evacuation training in a virtual environment using gaming technology. In 2014
+IEEE Virtual Reality (VR). Minneapolis, MN, USA, 139–140. https://doi.org/10.1109/VR.2014.6802090
+[159] Jiangnan Xu, Konstantinos Papangelis, John Dunham, Jorge Goncalves, Nicolas James LaLone, Alan Chamberlain, Ioanna Lykourentzou, Federica L
+Vinella, and David I Schwartz. 2022. Metaverse: The Vision for the Future. In CHI Conference on Human Factors in Computing Systems Extended
+Abstracts. ACM, New Orleans LA USA, 1–3. https://doi.org/10.1145/3491101.3516399
+[160] Yuichi Yamagishi and Kit Lai. 2022. METAVERSE EXPO JAPAN 2022 showcases exciting tech from leading companies. https://www.metaverse-
+style.com/english/8315 [Online; accessed 2023-01-19].
+[161] Riyan Yang, Lin Li, Wensheng Gan, Zefeng Chen, and Zhenlian Qi. 2023. The Human-Centric Metaverse: A Survey. In Companion Proceedings
+of the ACM Web Conference 2023 (WWW ’23 Companion). Association for Computing Machinery, New York, NY, USA, 1296–1306.
+https:
+//doi.org/10.1145/3543873.3587593
+[162] YouGov. 2022. Unlocking the Metaverse: An analysis into UK & US attitudes about the buzzy new technology. Technical Report. https://business.
+yougov.com/content/43938-us-uk-consumer-perceptions-metaverse-survey
+[163] Kun Yue. 2022. Breaking down the Barrier between Teachers and Students by Using Metaverse Technology in Education: Based on A Survey
+and Analysis of Shenzhen City, China. In Proceedings of the 2022 13th International Conference on E-Education, E-Business, E-Management, and
+E-Learning (Tokyo, Japan) (IC4E ’22). Association for Computing Machinery, New York, NY, USA, 40–44. https://doi.org/10.1145/3514262.3514345
+[164] John Zimmerman and Jodi Forlizzi. 2014. Research Through Design in HCI. In Ways of Knowing in HCI, Judith S. Olson and Wendy A. Kellogg
+(Eds.). Springer New York, New York, NY, 167–190. https://doi.org/10.1007/978-1-4939-0378-8
+28
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+A
+APPENDIX
+A.1
+Participant Demographics
+Table 6. Participants’ demographics
+Age groups
+count
+Gender
+count
+Occupation/ Study Area
+count
+18-25
+5
+Female
+10
+Novelist and writer
+4
+26-35
+3
+Male
+6
+Design and illustration
+3
+36-45
+5
+Finance and business management
+4
+46-55
+2
+Engineering, computer, and informatics
+5
+56-65
+1
+A.2
+Workshop Material
+The following Sections A.2.1 (Phase 1: Unterstanding), A.2.2 (Phase 2: Speculating), A.2.3 (Phase 3: Creating), and A.2.4
+(Phase 4: Prototyping) present the toolkit as provided to the workshop participants. Figure 2 below presents excerpts
+from the toolkit filled-out by workshop participants.
+Fig. 2. Excerpts from the digital toolkit in Mural to guide participants during the workshop process: defining the metaverse (left),
+consequence mapping (middle), value proposition (right); Source: Own toolkit, workshop groups.
+29
+Hohendanner and Ullstein, et al.
+A.2.1
+Phase 1: Understanding.
+30 分 | 30 minutes
+ワークショップへようこそ 
+1) まず、タイムキーパーを決めておきましょう。
+2) 自己紹介をお願いします。あなたの名前、職業、そしてこのワークショップに参加する理由を教えてく
+ださい。 
+3) 第2ラウンドでは、以下の座標系でご自分の位置を確認し、メタバースについてどれくらい知っている
+か、また、ポジティブな連想か、むしろネガティブな連想かを共有してください。もし、メタバースにつ
+いて経験があれば、教えてください。
+Welcome to the workshop. 
+1) Please asign a time keeper, who will be responsible for keeping the time.
+2) Please introduce yourself: What is your name, your profession, and why you are joining this workshop? 
+3) In a second round, please locate yourself in the coordinate system below and share how much you know
+about the Metaverse and whether you have positive or rather negative associations. If you have any, you
+are welcome to share experiences.
+メタバースという言葉を聞いたことがない。
+I have never heard of the Metaverse.
+メタバースについて知っていることがあります。
+I do know something about the Metaverse.
+ネガティブな連想を
+してしまう。
+I have negative
+associations.
+ポジティブな連想が
+できる。
+I have positive
+associations.
+丸をつけて、自分
+の位置を確認して
+ください。Please
+take a circle and
+locate yourself.
+デスクリサーチ | Desk Research
+15 分 | 15 minutes
+さて、ここからは今回のワークショップのテーマに飛び込んでいきましょう。
+メタバースという言葉が自分にとって何を意味するか、個々で調べてください。
+下のボードにメモしてください。
+Now let's start to dive into the topic of our workshop. 
+Please research individually what the term Metaverse means for you. Make notes in the board below.
+グループメンバー紹介 | Introduction of Group Members
+14:10
+1
+2
+メタバースを理解する。
+あなたのグループを知り、相互の知識ベースを確立する。
+Understanding the Metaverse:
+Get to know your group and establish a mutual knowledge basis.
+A
+13:40
+タイムキーパーは | OUR TIME KEEPER IS:
+氏名 | NAME
+Group 1
+Fig. 3. Toolkit - Phase 1 Understanding: Getting to know the group members (day 1).
+30
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+先ほどの簡単なリサーチから得られた知見を議論し、グループとしてメタバースという言葉をどのように
+理解しているかを説明する文章を作成してください。
+Please discuss your findings from the brief research and formulate a sentence describing what you as a
+group understand by the term metaverse.
+メタバースという言葉を聞いたことがない。
+I have never heard of the Metaverse.
+してしまう。
+I have negative
+associations.
+できる。
+I have positive
+associations.
+The Metaverse ... | メタバース は...
+デスクリサーチ | Desk Research
+15 分 | 15 minutes
+さて、ここからは今回のワークショップのテーマに飛び込んでいきましょう。
+メタバースという言葉が自分にとって何を意味するか、個々で調べてください。
+下のボードにメモしてください。
+Now let's start to dive into the topic of our workshop. 
+Please research individually what the term Metaverse means for you. Make notes in the board below.
+メタバースは、私たちにとって...  | The Metaverse is to us ...
+20 分 | 20 minutes
+想像力エクササイズで思い浮かんだ連想を書き出してください。
+Please write down the associations that came to you during the imagination exercise.
+連想  | My Associations
+3 分 | 3 minutes | 個人演習 | individual excercise
+メタバースの未来シナリオを作りましょう。
+メタバースが社会の一部として定着していたら？
+Creating your Metaverse Future Scenario:
+What if the Metaverse was an established part of your society?
+14:10
+14:25
+2
+3
+15:06
+1
+B
+14:45
+🫖☕️🧃  🍩🍊🍙
+15 分 | 15 minutes
+休み時間 | Break
+休憩の後、全体で会いましょう。 
+Let's meet in plenary after the break.
+15:00
+Fig. 4. Toolkit - Phase 1 Understanding: Exploring the concept of the metaverse (day 1).
+31
+Hohendanner and Ullstein, et al.
+A.2.2
+Phase 2: Speculating.
+For the immagination excercise, the
+instructors read the following text in
+English and Japanese language:
+Now we want to do a short immersion
+exercise with you. We invite you to close
+your eyes for a short time. If it helps you to
+relax, you are encouraged to turn off your
+camera. 
+Come to rest. Breathe deeply.
+Recall your phrase about the Metaverse.
+Now imagine you are in the year 2032 and
+the metaverse is an established part of
+society.
+Now imagine what this society and your
+daily life can be like.
+Imagine yourself in the morning. What
+does your morning routine look like? Are
+there any special influences?
+After you are properly awake, you get
+ready for work. How do you go about this
+activity? What is the environment like?
+You let your eyes wander to the left and
+right. What do you see?
+The working day is coming to an end. How
+will you spend the rest of the day?
+What does the environment look like?
+What do you notice?
+Slowly come back to us in the plenary to
+the year 2022.
+Now take 3 minutes to write down your
+associations in Mural on your group board.
+想像力エクササイズで思い浮かんだ連想を書き出してください。
+Please write down the associations that came to you during the imagination exercise.
+連想  | My Associations
+3 分 | 3 minutes | 個人演習 | individual excercise
+メタバースの未来シナリオを作りましょう。
+メタバースが社会の一部として定着していたら？
+Creating your Metaverse Future Scenario:
+What if the Metaverse was an established part of your society?
+15:06
+1
+では、最も興味深い、あるいは最も特別な考えやアイデアをグループ内で話し合ってください。それらを
+上のボードからコピーして、下のボードに貼り付けてください。
+Now please discuss the most interesting or most special thoughts and ideas within your group. Copy them
+from the board above and paste them to the board below.
+おもしろい、重要なアイデアの共有  | Our interesting and special
+thoughts
+15 分 | 15 minutes
+15:10
+2
+B
+前のステップまでに議論されたビジョンを、コピーして下のカテゴリーに分類してください。一つのビジ
+ョンを、いくつかのカテゴリーに分類しても良いです。
+Now, sort the discussed selection of visions into the categories below by copying them again. Visions can
+also be sorted into several categories.
+ビジョンやアイデアをカテゴリーに分類する  | Sorting our thoughts
+into categories
+5 分 | 5 minutes
+15:25
+3
+科学技術 | Science
+& Technology
+環境 | Environment
+生態 | Ecology
+政治 | Politics
+例：文化・レジャー
+e.g. culture, leisure
+例：モビリティやコミュ
+ニケーション
+e.g. mobility,
+communication
+例：インフラや建築
+e.g. infrastructure,
+architecture
+例：気候や自然、生物多
+様性など
+e.g. climate, nature,
+biodiversity
+例：法律や政府
+e.g. laws, government
+社会 | Social
+では、このワークショップで焦点を当てたいビジョンを一つ選んでください。
+そのビジョンを編集して、皆がより面白いと思うトピックを考案してもいいでしょう。
+このビジョンをコピーして、下のボックスに貼り付けてください。
+Now please choose one vision that you would like to focus on in this workshop. You can also modify the
+vision or formulate a topic that all find interesting. Copy and paste this vision into the box below.
+5 分 | 5 minutes
+因果関係マッピング  | Visions consequence mapping
+15:30
+4
+選択したビジョンから出発して、今度はビジョンの因果関係マッピングを作成します。あなたの箱の中に
+ある考えは、未来社会の様々な側面（社会生活、環境、政治など）に対してどのような結果をもたらすで
+しょうか。自分自身に問いかけてみてください。ここで、正しいか間違っているかは気にしないでくださ
+い。このプロセスを少なくとも2回続けてください。必要に応じ、マップに要素を追加したり削除したりす
+ることによって、この因果関係マップを作り変えてください。
+Starting from the selected vision, you will now do a consequence mapping of your vision. Ask yourself: What
+is the consequence of the thought in your box for different aspects of your future society (e.g. social life,
+environment, politics, etc.). You can also choose your own categories, there is no right and wrong here.
+14:45
+🫖☕️🧃  🍩🍊🍙
+15 分 | 15 minutes
+休み時間 | Break
+休憩の後、全体で会いましょう。 
+Let's meet in plenary after the break.
+15:00
+Fig. 5. Toolkit - Phase 2 Speculating: Gathering first thoughts about a future metaverse society (day 1).
+32
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+科学技術 | Science
+& Technology
+環境 | Environment
+生態 | Ecology
+政治 | Politics
+例：文化・レジャー
+e.g. culture, leisure
+例：モビリティやコミュ
+ニケーション
+e.g. mobility,
+communication
+例：インフラや建築
+e.g. infrastructure,
+architecture
+例：気候や自然、生物多
+様性など
+e.g. climate, nature,
+biodiversity
+例：法律や政府
+e.g. laws, government
+社会 | Social
+では、このワークショップで焦点を当てたいビジョンを一つ選んでください。
+そのビジョンを編集して、皆がより面白いと思うトピックを考案してもいいでしょう。
+このビジョンをコピーして、下のボックスに貼り付けてください。
+Now please choose one vision that you would like to focus on in this workshop. You can also modify the
+vision or formulate a topic that all find interesting. Copy and paste this vision into the box below.
+5 分 | 5 minutes
+our vision
+our vision
+ビジョン
+因果関係マッピング  | Visions consequence mapping
+15:30
+4
+選択したビジョンから出発して、今度はビジョンの因果関係マッピングを作成します。あなたの箱の中に
+ある考えは、未来社会の様々な側面（社会生活、環境、政治など）に対してどのような結果をもたらすで
+しょうか。自分自身に問いかけてみてください。ここで、正しいか間違っているかは気にしないでくださ
+い。このプロセスを少なくとも2回続けてください。必要に応じ、マップに要素を追加したり削除したりす
+ることによって、この因果関係マップを作り変えてください。
+Starting from the selected vision, you will now do a consequence mapping of your vision. Ask yourself: What
+is the consequence of the thought in your box for different aspects of your future society (e.g. social life,
+environment, politics, etc.). You can also choose your own categories, there is no right and wrong here.
+Continue this process for at least two times. Adapt the consequence tree to your needs by adding or
+deleting tree elements.
+35 分 | 35 minutes
+consequence
+因果関係
+よくできました！　あなたはここまでに、メタバースが社会の不可欠な一部になっている、あなたの未来
+シナリオのパラメータを展開しました。次に、あなたの未来シナリオの社会に強い影響を与える製品、サ
+ービス、またはアプリケーションを考えてください。あなたの製品やサービスは、メタバースの一部であ
+るか
+想像しうるあらゆる方法でメタバースと相互作用することができます
+未来シナリオのうち
+特定
+製品・サービス・アプリケーションの発明  | Inventing a product/
+service/ application
+16:45
+1
+あなたのメタバースの未来の製品/アプリケーション/サービスを作成します。
+あなたの未来シナリオに強い影響を与えるものは何ですか？
+Creating your Metaverse Future Product/ Application/ Service:
+What has a strong influence on your future scenario?
+C
+16:10
+🫖☕️🧃  🍩🍊🍙
+25 分 | 25 minutes
+休み時間 | Break
+休憩の後、全体会議ルームで会いましょう。 
+Let's meet in plenary after the break.
+16:35
+ビジョン
+Fig. 6. Toolkit - Phase 2 Speculating: Building metaverse worlds (day 1).
+33
+Hohendanner and Ullstein, et al.
+A.2.3
+Phase 3: Creating.
+consequence
+因果関係
+よくできました！　あなたはここまでに、メタバースが社会の不可欠な一部になっている、あなたの未来
+シナリオのパラメータを展開しました。次に、あなたの未来シナリオの社会に強い影響を与える製品、サ
+ービス、またはアプリケーションを考えてください。あなたの製品やサービスは、メタバースの一部であ
+るか、想像しうるあらゆる方法でメタバースと相互作用することができます。未来シナリオのうち、特定
+の側面に対応させて、アイデアを発展させても良いです。
+そして、スペキュラティブデザインは批判的な実践であることを忘れないでください。したがって、あな
+たの製品、サービス、またはアプリケーションは、できるだけ倫理的に正しいか、または将来の倫理的問
+題を指摘するために意図的に倫理的に疑問であるかのどちらかです。
+Well done! You've just developed the parameters of your future scenario in which the Metaverse is an
+integral part of society. Now think of a product, service or application that has a strong influence on the
+society of your future scenario. Your porduct or service can either be part of the Metaverse or interact with it
+in any imaginable way. You may develop an idea by either reacting to a specific aspect, i.e. one circle, or an
+entire branch of your future scenario.
+And please remember, Speculative design is a critical practice. Therefore, your product, service, or
+application can either be as ethically correct as possible or intentionally ethically questionable to point to
+future ethical problems.
+50 分 | 50 minutes (これは、以下の2つのエクササイズに使用する時間です。| For both methods)
+製品・サービス・アプリケーションの発明  | Inventing a product/
+service/ application
+16:45
+1
+あなたのメタバースの未来の製品/アプリケーション/サービスを作成します。
+あなたの未来シナリオに強い影響を与えるものは何ですか？
+Creating your Metaverse Future Product/ Application/ Service:
+What has a strong influence on your future scenario?
+C
+ブレインストーミング | BRAIN STORMING
+主人公/ ヒーロー
+SUBJECT/ HERO
+援助者 | HELPER
+敵 | OPPONENT
+アクタンシャルモデル | ACTANTIAL MODEL
+16:10
+🫖☕️🧃  🍩🍊🍙
+25 分 | 25 minutes
+休み時間 | Break
+休憩の後、全体会議ルームで会いましょう。 
+Let's meet in plenary after the break.
+16:35
+全体会議ルームで説明したアクタンシャルモデルを使って、あなたの製品やサービスが埋め込まれてい
+る関係のネットワークを説明します。これは、あなたの製品やサービスの未来シナリオにおいて、包括
+的な物語を作成するのに役立ちます。各アクタントのリーディングクエスチョンは以下の通りです。
+Use the Actantial model as described in the plenary to illustrate the network of relations your product or
+service is embedded in. This will help you to create a holisitc narrative within your future scenario for your
+product or sevice. The leading questions for each actant are listed below.
+Fig. 7. Toolkit - Phase 3 Speculating: Imagining a future metaverse related product/service/application (day 1).
+34
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+よく頑張りました！ それでは、ワークショップの一日目を全体会議
+ルームで締めくくりましょう。 | Well done! Let's conclude the
+workshop day in plenary.
+future ethical problems.
+50 分 | 50 minutes (これは、以下の2つのエクササイズに使用する時間です。| For both methods)
+ブレインストーミング | BRAIN STORMING
+主人公/ ヒーロー
+SUBJECT/ HERO
+援助者 | HELPER
+敵 | OPPONENT
+送信者 | SENDER
+受け手 | RECEIVER
+欲求対象 | OBJECT OF DESIRE
+アクタンシャルモデル | ACTANTIAL MODEL
+主人公：物語の中心となる原動力、行動力は誰か？(例：機関／企業）
+対象（欲望）：主人公とその行動は何を目指しているのか？(例：高学歴社会）
+送り手：主人公が行動を起こす最初の力、動機は誰なのか、何なのか。(例：アクセシブルな教育フォーマットの欠如）
+受け手：物語の行動によって利益を得るのは誰か？(例：製品ユーザー／社会）
+援助者：主人公を助けるのは誰か？(例：教育用メタバース製品／サービス）
+敵：主人公が目的を達成するのを阻むのは誰か？(例：インフラの不足／市場における競合他社）
+The hero (or subject): Who is the driving and acting force in the center of the narrative? (e.g. institution / corporation)
+The object (of desire): What is the aim of the hero and their actions? (e.g. well educated society)
+The sender: Who or what is the initial force or motivation for the hero to act? (e.g. lack in accessible educational formats)
+The receiver: Who or what benefits from the narrative action? (e.g. product users / society)
+The helper: Who helps the hero in the process? (e.g. educational metaverse product / service)
+The opponent: Who or what could prevent the hero from achieving the object of desire? (e.g. lacking infrastructure /
+competitors on the market)
+誘導尋問 | LEADING QUESTIONS
+プロトタイピングを始める前に、バリュープロポジション（価値提案）を改めて考えましょう。あなたの
+製品、アプリケーション、またはサービスによって、ユーザーにどのような利益が約束されるでしょう？
+Before you start prototyping, let's formulate a value proposition: What benefit is promised to the user with
+your product, application or service?
+25 分 | 25 minutes
+未来から来た製品：価値提案  | A product from the future: Value
+proposition
+10:15
+2
+Our ...
+product and/ or service
+17:35
+💆🏻‍♀️💆🏻‍♂️💆🏻
+明日の朝、全体会議ルームで集合しましょう。
+Let's meet tomorrow morning in plenary.
+10:00
+全体会議ルームで説明したアクタンシャルモデルを使って、あなたの製品やサービスが埋め込まれてい
+る関係のネットワークを説明します。これは、あなたの製品やサービスの未来シナリオにおいて、包括
+的な物語を作成するのに役立ちます。各アクタントのリーディングクエスチョンは以下の通りです。
+Use the Actantial model as described in the plenary to illustrate the network of relations your product or
+service is embedded in. This will help you to create a holisitc narrative within your future scenario for your
+product or sevice. The leading questions for each actant are listed below.
+私たちの
+...
+product/service プロダクトやサービスは
+...
+customer segment(s)・顧客・ユーザー
+...
+task to be done/タスク・願望
+や
+...
+verb (e.g. reducing/ avoiding)具体的な方法、サービスの内容（動詞など）
+を通して
+...
+とは異なり）
+(
+competing value proposition
+したい
+を助ける。
+verb (e.g. reducing/ avoiding)具体的な方法、サービスの内容（動詞など）
+英語版の課題です | English Version
+...
+Fig. 8. Toolkit - Phase 3 Speculating: Actantial Model (day 1).
+35
+Hohendanner and Ullstein, et al.
+Fig. 9. Toolkit - Phase 3 Speculating: Value Proposition (day 2).
+36
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+A.2.4
+Phase 4: Prototyping.
+Fig. 10. Toolkit - Phase 4 Prototyping: Instructions for creating a visual prototype (day 2).
+37
+Hohendanner and Ullstein, et al.
+Fig. 11. Toolkit - Phase 4 Prototyping: Optional template for creating visual prototype, page 1 and 2 (day 2).
+38
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+Fig. 12. Toolkit - Phase 4 Prototyping: Optional template for creating visual prototype, page 3 and 4 (day 2).
+39
+Hohendanner and Ullstein, et al.
+Fig. 13. Toolkit - Phase 4 Prototyping: Preparatory questions (I/II) for the project presentation (day 2).
+40
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+Fig. 14. Toolkit - Phase 4 Prototyping: Preparatory questions (II/II) for the project presentation (day 2).
+41
+Hohendanner and Ullstein, et al.
+A.3
+Magazine Excerpts and Descriptions of Narrative Workshop Results
+The magazine covers were designed by the workshop groups. The narratives were summarized by five researchers in
+three workshop sessions. All concepts, entities and processes mentioned in the following are fictional.
+Disaster Prevention
+Fig. 15. Magazine excerpts (first two pages) from the narrative Disaster Prevention; Source: Workshop group.
+The magazine article is written as a commentary in a technology magazine from the perspective of a journalist who
+tested a trial evacuation training in the metaverse named disaster simulation. It is provided by the Japan Meteorological
+Agency in cooperation with a private company. In a hyper-realistic way, the service allows simulating natural disasters
+such as earthquakes or floods. Users can train evacuations in scanned and uploaded real-world surroundings, e.g., in
+the users’ apartments, and receive feedback on how to improve. The author is impressed by the detail of the simulation
+and believes the training to be very valuable in case of an actual disaster. The report is followed by a description of a
+large-scale simulation trial in the metaverse. Finally, the magazine article highlights the challenge of VR traumas caused
+by the realism of the simulation as well as concerns related to getting used to violent, criminal, and lethal acts after
+repeated exposure to virtual simulations. The product at the center of the narrative is the disaster simulation service.
+The narrative originates from a future where society spends two-thirds of their time in the metaverse. Metaverse
+simulation services have gained traction, for instance, for preparing to travel abroad or when educating high school
+students on the aftermaths of wars or the destruction of nature. One aim of the product is to analyze user’s reactions
+to disasters located in different places, identify behavioral patterns, and in collaboration with governmental agencies
+create systems to best possibly prepare the entire society for such emergency cases.
+42
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+U12-Topia
+Fig. 16. Magazine excerpts (first two pages) from the narrative U12-Topia; Source: Workshop group.
+The article’s central question is whether so-called collective personalities should be granted rights, in particular, the
+right to vote and to hold political office. Collective personalities are AI agents, which represent the opinion of entire
+digital communities in the metaverse. A specific focus is laid on the collective personality Topikin from the community
+U12-Topia, a community composed of school children. Topikin could thus potentially become a political force to carry
+children’s political ideas into the political sphere.
+The product at the center of the narrative is the so-called Dictatorship Metaverse, a digital interaction space that
+allows individual creators to determine rules and environments for their community. Users can join these communities,
+here U12-Topia, and interact and participate in discourses. Through the sum of the communicative actions within
+these communities, collective personalities can be formed with the help of artificial intelligence. In this regard, they
+represent a form of collective consciousness. The future scenario, where the product is embedded, describes a society
+in which there are over 10,000 metaverse communities that can already exert political influence. However, in the
+imagined society the electorate as well as the executive political sphere are largely made up of elderly people. Therefore,
+new ways are being sought for the political participation of younger generations. To guide through the narrative, the
+article first describes the genesis of the Dictatorship Metaverse. Then, a background on the technical and political
+status quo is given, and advantages and disadvantages of collective personalities being part of the political sphere
+are discussed. Subsequently, various people are interviewed and their perspectives are elaborated: A member of the
+company that developed the Dictatorship Metaverse states that society gains creative agency through their product; A
+schoolchild highlights the societal benefits of having younger generations included in political processes; An expert in
+the field of metaverse legislation points out that while political participation of younger generations through collective
+personalities is desirable, a discourse on the rights of the collective personalities is unavoidable.
+43
+Hohendanner and Ullstein, et al.
+MOTHER
+Fig. 17. Magazine excerpts (first two pages) from the narrative MOTHER; Source: Workshop group.
+The group’s magazine article discusses the entry into the so-called avatar generation service market by a well-known
+large technology company with a new service called MOTHER. To do so, first, the development and current status of
+the avatar market sector is explained, followed by several interviews on the technology company’s new product launch.
+A description of the future scenario and the functionality of the designed service slowly begin to unfold as the reader
+progresses: the article depicts a future scenario in which avatar culture has begun to develop to the point where it is
+out of humanity’s control. People are taking on various social activities in the metaverse, where they can use AI-driven
+avatars that act autonomously on their behalf as a form of extension or ambassador of themselves. Interactions and
+events experienced by avatars can later be revisited and experienced by the user. Although avatars follow human
+instructions to some extent, they develop their own intentions and act autonomously as individual AI entities.
+The fictional service at the core of the narrative addresses autonomous avatars with an avatar birth service. It allows
+users – humans and autonomous avatars alike – to combine and alter the genetic data of two avatars to create a
+new child avatar. The possibility to create these new forms of artificial beings sparks the discussion whether to grant
+citizenship to avatars. This is illustrated through interviews with a variety of people with different views: Users of the
+service who highlight its benefits, but are divided in their opinion on the questions of granting avatars civil rights;
+An engineer of the avatar birthing service who points out previous problems with another company’s avatar birthing
+service; A non-user, who is committed to the real world, and insists that avatars should be controlled; A wife who talks
+about the anxiety of losing her family to an avatar as most interactions with her family are carried out through the
+avatar. The article ends by suggesting that these debates will most likely become increasingly heated.
+44
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+XR Food
+Fig. 18. Magazine excerpts (first two pages) from the narrative XR-Food; Source: Workshop group.
+The group created an entire magazine issue titled XRFood (XR = extended reality). This issue specifically features XR
+Food restaurants. Set in 2032, two years after the so-called XR Food Revolution, it informs the readers of the many
+possibilities XR food can support humanity. Through seven short articles and advertisements the magazine provides
+explanations of the history and social impact of the XR Food Revolution and experiences offered by the XR restaurants.
+Each article is written by a different character such as the chief editor, researchers and the owner of a XR restaurant.
+The product at the center of the narrative is a metaverse restaurant named DYSTOPIA, which allows visitors from
+anywhere in the world to experience new tastes. The society in the future scenario has just experienced a food war due
+to food shortages, happening simultaneously to a global allergy crisis. Humanity was able to solve the food shortage
+and allergy crisis in a joint effort through the use of XR food technology and to establish peace globally. However,
+this resulted in a global universal food culture, leading to numerous local food cultures being lost. The technical
+specifications of the technology and how it was used to solve the crisis are not explained. The benefits of XR Food
+technology are now also being applied in the entertainment sector for tasting food from movie worlds as well as
+in medicine to promote health through allergen-free food or, more generally, serves users with allergy and dietary
+restrictions to experience any food they desire. As users can change their appearances within the metaverse, the eating
+experience can be shared by users without disclosing their real appearances, which could help to mend the relations
+broken due to the war.
+45
+Hohendanner and Ullstein, et al.
+A.4
+Actantial Models: Narrative Structures
+The analysis was performed by five researchers who also were presented at the workshop. For analysis workshop 1,
+four researchers each prepared an actantial model for one narrative. During the workshop, each actantial model was
+discussed and improved in a collaborative effort. No disagreements in the understanding of the narratives occurred.
+Table 7 presents two exemplary actantial models in a tabular format that resulted from the group analysis. While
+discussing, researchers took note of themes and sub-themes that became apparent through the relations of the actants
+in the respective actantial model.
+Table 7. Exemplary actantial models for the narratives Disaster Prevention and U12-Topia
+Actants
+Guiding Question
+Disaster Prevention
+U12-Topia
+Hero /
+Subject
+Who is the driving and act-
+ing force in the center of
+the narrative? (e.g. institu-
+tion/corporation)
+Japan Meteorological Agency, a disaster
+research institute and a game company,
+in cooperation with the company Tanaka
+Ice Cream Cooperation
+NOBUNAGA Corporation, i.e., the com-
+pany that developed and deployed the
+platform of the Dictatorship Metaverse.
+Object (of
+Desire)
+What is the aim of the
+hero and their actions? (e.g.
+well-educated society)
+Best possible preparedness for the occur-
+rence of natural disasters; Creation of save
+space in the metaverse to fail and learn
+from mistakes for the real world
+Establishing the metaverse as a place
+where any user can find or create a repre-
+sentation of an ideal society and build or
+find a community.
+Helper
+Who helps the hero in the
+process? (e.g., educational
+metaverse product/service)
+`‘Disaster simulation” program that allows
+people to train their reactions to suddenly
+occurring natural disasters in the meta-
+verse
+Both the product itself, i.e. the platform of
+the Dictatorship metaverse, and the users
+who design their own spaces and commu-
+nities.
+Receiver
+Who or what benefits from
+the narrative action? (e.g.,
+product users/society)
+Users of this program offered in the meta-
+verse; Non-users who may be helped by
+trained users in the case of a natural dis-
+aster
+The users, who can use the product as
+a form of personal but also political ex-
+pression and at the same time learn about
+other users’ perspectives on social and so-
+cietal issues. Especially users, who could
+normally not participate in political pro-
+cesses like children.
+Opponent
+Prototyp-
+ing
+Who or what could pre-
+vent the hero from achiev-
+ing the object of desire?
+(e.g. lacking infrastruc-
+ture/competitors on the
+market)
+Non-users rejecting to train using the pro-
+gram; Non-users who want to use it but
+cannot because they don’t have the tech-
+nical equipment or become sick, e.g., VR
+anxiety
+The old conservative part of the polit-
+ical sphere that does not want to give
+up power, as well as people who are
+against the metaverse itself. Extreme anti-
+democratic or discriminatory communi-
+ties that might try to corrupt democratic
+processes.
+Sender
+Who or what is the initial
+force or motivation for the
+hero to act? (e.g. lack of
+accessible educational for-
+mats)
+High frequency of natural disasters oc-
+curring in Japan demands citizens to be
+prepared for these emergencies
+Various social but also political challenges:
+the lack of participatory approaches in
+society and politics, (digital) isolation, and
+an aging society that largely determines
+political processes.
+46
+Metaverse Perspectives from Japan: A Participatory Speculative Design Case Study
+A.5
+Impressions from Follow-up Discourse
+Fig. 19. Walk-Through Exhibition Kobe 2022; Source: Hironari Sakashita.
+47

@@ -1,0 +1,1918 @@
+The Entoptic Field Camera as Metaphor-Driven 
+Research-through-Design with AI Technologies 
+Jesse Josua Benjamin 
+Heidi Biggs 
+Arne Berger 
+University of Twente, Netherlands 
+The Pennsylvania State University 
+Anhalt University of Applied Sciences 
+j.j.benjamin@utwente.nl 
+USA 
+Germany 
+Julija Rukanskait˙e 
+Independent Researcher 
+Michael Heidt 
+Anhalt University of Applied Sciences 
+Nick Merrill 
+University of California, Berkeley 
+Sweden 
+Germany 
+USA 
+James Pierce 
+Joseph Lindley 
+University of Washington 
+Lancaster University 
+USA 
+United Kingdom 
+Figure 1: The Entoptic Field Camera is designed to facilitate in situ use of GAN techniques to create synthetic images based on 
+user input images, thus prompting refections on how AI technologies shape the experience of particular realities and the 
+design opportunities this implies. 
+ABSTRACT 
+the means and modes of image production via the creation and use 
+of the Entoptic Field Camera. Entoptic phenomena usually refer 
+Artifcial intelligence (AI) technologies are widely deployed in 
+to perceptions of foaters or bright blue dots stemming from the 
+smartphone photography; and prompt-based image synthesis mod-
+physiological interplay of the eye and brain. We use the term entop-
+els have rapidly become commonplace. In this paper, we describe a 
+tic as a metaphor to investigate how the material interplay of data 
+Research-through-Design (RtD) project which explores this shift in 
+and models in AI technologies shapes human experiences of reality. 
+This work is licensed under a Creative Commons 
+Attribution-NonCommercial-ShareAlike International 4.0 License. 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+© 2023 Copyright held by the owner/author(s). 
+ACM ISBN 978-1-4503-9421-5/23/04. 
+https://doi.org/10.1145/3544548.3581175 
+Through our case study using frst-person design and a feld study, 
+we ofer implications for critical, refective, more-than-human and 
+ludic design to engage AI technologies; the conceptualisation of 
+an RtD research space which contributes to AI literacy discourses; 
+and outline a research trajectory concerning materiality and design 
+afordances of AI technologies. 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Benjamin, et al. 
+CCS CONCEPTS 
+• Human-centered computing → Human computer interac-
+tion (HCI); Interaction design theory, concepts and paradigms; Field 
+studies; • Computing methodologies → Artifcial intelligence. 
+KEYWORDS 
+research through design, artifcial intelligence, materiality, GAN, 
+image synthesis, technological mediation 
+ACM Reference Format: 
+Jesse Josua Benjamin, Heidi Biggs, Arne Berger, Julija Rukanskaite, Michael
+˙ 
+Heidt, Nick Merrill, James Pierce, and Joseph Lindley. 2023. The Entoptic 
+Field Camera as Metaphor-Driven Research-through-Design with AI Tech-
+nologies. In Proceedings of the 2023 CHI Conference on Human Factors in 
+Computing Systems (CHI ’23), April 23–28, 2023, Hamburg, Germany. ACM, 
+New York, NY, USA, 19 pages. https://doi.org/10.1145/3544548.3581175 
+1 INTRODUCTION 
+In the summer of 2022, the outputs of image synthesis models 
+(e.g., OpenAI’s Dall-E, TikTok’s AI Greenscreen, Stability AI’s sta-
+ble difusion, Midjourney, or Google’s Imagen) that generate im-
+ages from text prompts are everywhere on social media. They are 
+fast becoming a means of expression for professional artists and 
+general enthusiasts,1 a shortcut for companies in image produc-
+tion (see e.g. [111]) and a basis for memes.2 As AI artists Herndon 
+and Dryhurst note, AI image technology—like photography be-
+fore it—is rapidly transitioning “from a scientifc to an expressive 
+medium” [47]. With unprecedented levels of accessibility, such AI 
+technologies are now leaving scientifc or corporate settings and 
+becoming deployed for everyday purposes such as creative expres-
+sion (see e.g. [106]); while also being commodifed as, for instance, 
+marketplaces for prompts3 or end-user image editing solutions (see 
+e.g. [99]). Especially prompt-based image synthesis models suggest 
+to some that AI technologies are fnally ofering utility to everyone 
+(see e.g. [55]). At the same time, this very utilization occurs against 
+a backdrop of phenomena that imply more fundamental questions 
+regarding the relationship of experience, materiality and design of 
+AI technologies that remain to be tackled. 
+Attending to such phenomena is important, since AI image tech-
+nologies also serve as a litmus-test for what AI technologies in 
+general are seemingly capable of.4 One example is particularly il-
+lustrative of this ongoing need. In the summer of 2020, California 
+was plagued by extensive wildfres, resulting in skies being colored 
+in outlandishly deep red tones. However, people found that taking 
+smartphone images resulted in tones that ‘defaulted’ to gray and 
+blue; breaking the relationship between a local phenomenon and 
+its representation. As Bogost noted, the smartphone cameras never 
+‘expected’ the deep red skies [16] due to the training data of embed-
+ded AI technologies. While it is not news that smartphones employ 
+AI technologies to overcome the physical constraints of lenses and 
+sensors [24], this example shows that the reality-shaping infuence 
+1https://twitter.com/images_ai, accessed 09/12/2022. 
+2https://twitter.com/weirddalle, accessed 09/12/2022. 
+3See e.g. https://promptbase.com, accessed 09/12/2022. 
+4It is no coincidence that in parallel to the food of prompt-based image synthesis, a 
+cross-disciplinary academic and popular discourse emerged surrounding a Google 
+research engineer’s belief in a specifc AI technology’s sentience—and subsequent 
+fring [see e.g. [17, 20]. 
+of AI technologies can run in parallel, and simultaneously ‘below,’ 
+an explicit utilization such as improving images. Even below the 
+‘threshold of utility’ for a particular AI technology to be deployed 
+in or as a product, therefore, there are ways that AI technologies 
+render realities and make them accessible to human experience. 
+For many users, this may have been the frst time they were pre-
+sented with a visible clue that computational, artifcially-intelligent 
+photographic technologies were at work behind the scenes when-
+ever they snapped a photo with their smartphone. Like images 
+and imaging instruments always have [58, 75] we therefore argue 
+that AI image technologies imply not only aesthetic, but rather 
+deeply epistemological concerns. Our concern is that current en-
+thusiasm over synthetic imaging capacities may overshadow these 
+subtle, but equally profound ways that AI technologies shape how 
+variant realities are experienced by people. Drawing from post-
+phenomenology [51], and mediation theory in particular [104], we 
+therefore ask: What specifc opportunities for design does the shaping 
+of experiencing particular realities by AI technologies hold? 
+In this paper, we engage this question by way of a metaphor-
+driven Research-through-Design (RtD) project. In doing so, we treat 
+AI technologies as a design material for exploration and experimen-
+tation, rather than as means or ends in themselves—an approach 
+which the HCI community has long pursued regarding computing 
+and emerging information technologies (see e.g. [62, 100]). Indeed, 
+RtD (and design research) with AI technologies is a highly active 
+research feld within the HCI community [9, 11, 65, 108] and re-
+garding the use of metaphors especially [31, 77]. In our approach, 
+we engage AI image technologies by way of a principal design 
+metaphor: entoptic phenomena. Entoptic (Greek: ‘within vision’) 
+phenomena are perceptions that do not directly correspond to ma-
+terial reality, but rather stem from the physiological interplay of 
+eye and brain (cf. [1, 46, 61]). A common example for an entoptic 
+phenomenon are ‘foaters.’ These are small dark shapes, spots, or 
+web-like structures that appear in perception. They are caused by 
+material inside the eye that physically interferes with the light as 
+it passes through the lens and vitreous fuid on its route to hitting 
+the retina, subsequently being rendered as particular perceptual 
+shapes by the brain. 
+Used as a design metaphor, entoptic phenomena support the 
+conceptualization of AI technologies as generating particular per-
+ceptions through the interplay of their material components (i.e., 
+models, algorithms, data). The metaphor was further inspired by 
+previous arguments in [9], who propose the concept of “pattern 
+leakage” to show how AI technologies may shape the world they 
+are intended to represent due to the use of probabilistic techniques. 
+Following the entoptic metaphor, we conceptualized and designed 
+the Entoptic Field Camera.5 In efect, the Entoptic Field Camera is 
+a web application which generates a synthetic output image in re-
+sponse to a user’s input image; and is specifcally built for situated 
+use with a smartphone (see Figure 1). By analogy, it therefore em-
+bodies subtle cases of everyday reality shaping by AI technologies, 
+such as in the wildfre sky example noted above. We document 
+and discuss the development of the metaphor, the design of the 
+Entoptic Field Camera as well as a feld study in which the authors 
+5https://entoptic.media/cam/, accessed 07/09/2022. Note that this prototype is the 
+result of a later iteration, in which one functionality (the Manual mode, see section 
+3.2.1.) was removed. See also https://twitter.com/entoptic__media, accessed 09/15/2022. 
+The Entoptic Field Camera 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+engaged this prototype refectively. We found that the metaphor as 
+well as its concretization in a prototype brought forth a series of 
+implications for designing with and through AI technologies; and 
+outline four distinct contributions: 
+(1) A case study of the conceptualization, development, de-
+sign and deployment of an RtD artefact—the Entoptic Field 
+Camera—that enables situated and refective engagement 
+with AI technologies along a central design metaphor; 
+(2) Novel design implications that make AI technologies avail-
+able to ludic, critical, refective, and more-than-human design 
+methodologies; 
+(3) The conceptualization of a research space for RtD that can 
+contribute to discourses around AI literacy by engaging AI 
+materiality; 
+(4) A sketch for a research trajectory that further investigates 
+the relationship of AI technologies, 21st century design and 
+its afordances. 
+2 BACKGROUND 
+In this section, we frst refect on the roles of images and imaging 
+in AI research and as applied in consumer smartphones. Then, we 
+show how design research and particularly RtD in HCI has exten-
+sively thematized and made use of images and imaging. Lastly, we 
+fnd that this general capacity has not yet signifcantly been applied 
+to AI technologies, but note that metaphor-driven approaches hold 
+promise for further work. 
+2.1 Images and Imaging in AI Research and 
+Application 
+Images and imaging play an important role for the design, develop-
+ment and adaptation of artifcial intelligence (AI) technologies (e.g., 
+neural networks) in terms of application contexts, socio-cultural 
+imagination as well as communication of engineering achieve-
+ments. In the technical felds, the prowess of AI technologies is 
+frequently demonstrated using tasks from image recognition and 
+generation—even if the tasks that AI technologies are designed for 
+are unrelated to imaging per se. The technology company Ope-
+nAI, for instance, frst showcased technical advances in Natural 
+Language Processing by generating images from text prompts6; 
+preceding the latter explosion of “difusion” [48] models into popu-
+lar discourse and cultural expression mentioned in the introduction. 
+In technical HCI work, felds such as explainable AI (XAI), Fairness 
+Accountability and Transparency (FAccT) or interpretable machine 
+learning (ML) deploy algorithmic techniques which ‘image’ infor-
+mation extracted from more complex AI technology pipelines. Such 
+approaches often visualize features or generate saliency maps (see 
+e.g. [49, 57, 76, 81]) with the goal of explanatory guidance. In sci-
+entifc applications, AI technologies are not just the target of but 
+also means for imaging. For instance, the frst-ever image of the 
+M87* black hole was generated through an AI imaging pipeline 
+that itself drew on AI-generated synthetic data to fll in blindspots 
+of the employed telescopes [18]. 
+6https://openai.com/blog/image-gpt/, accessed 16/11/2021. 
+Figure 2: Conceptual diagram for the employment of Gen-
+erative Adversarial Networks (GANs) in computational pho-
+tography. An input image (left) is processed by competing 
+neural networks based on learned patterns (center) into an 
+‘improved’ output image (right). Images from [25]. 
+On a more general level, however, imaging itself is undergoing a 
+change due to AI technologies. Periodically, this comes to the sur-
+face as in the discussed example of images of Californian wildfre 
+skies. Such extreme cases evidence a modus operandi—smartphone 
+cameras are now AI-enabled, overcoming the physical limits of 
+their small-sized photo lenses by relying on trained models. Indeed, 
+Chen notes how contemporary consumer-grade smartphones em-
+ploy “computational photography, which automatically processes 
+images to look more professional” [24]; meaning introducing AI 
+technologies which can, for instance, simulate a wide aperture lens’ 
+bokeh, handle low-light situations, or zoom beyond the material ca-
+pacities of steel and glass [88]. The specifc AI technology that most 
+implementations are based on is the Generative-Adversarial Net-
+work (GAN) architecture proposed by Goodfellow and colleagues 
+in 2014; and as noted, more recently, difusion models such as 
+DALL-E, CLIP, Stable Difusion or Midjourney have become pop-
+ular for prompt-based image synthesis. Focussing on GANs, this 
+powerful and indeed controversial7 AI technology is based on a 
+simple premise: two neural networks competing with each other. 
+A ‘generator’ network is given an input (e.g., an image, text, etc.), 
+and attempts to synthesize it according to learned patterns (e.g., 
+adjusting colors, removing chromatic aberrations or compression 
+artefacts). The result is then fed to a ‘discriminator’ network, which 
+statistically decides whether the generator’s output and the original 
+input can be distinguished, and until this is not the case, the gen-
+erative model starts a next iteration of synthesis. Goodfellow and 
+colleagues illustrate this concept evocatively by suggesting that 
+“the generative model can be thought of as analogous to a team of 
+counterfeiters, trying to produce fake currency and use it without 
+detection, while the discriminative model is analogous to the police, 
+trying to detect the counterfeit currency” [41]. 
+In the context of computational photography, the capacity to 
+generate outputs based on learned features can be used to construct 
+wholly synthetic images that resemble an input, but also a wider 
+range of more subtle corrections such as color grading, removing 
+chromatic aberrations and simulating high-dynamic range (see 
+e.g. [25], also Figure 2). Aside from the overall visual appearance of 
+images, GAN techniques can also be used to manipulate the content 
+7GANs are highly prominent in current conversations around so-called deepfakes, 
+fully synthetic yet photorealistic images that are easily employed for misinformation, 
+see e.g. [74]. 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Benjamin, et al. 
+of images. The so-called ‘inpainting’ technique, in which a portion 
+of an image is masked and to be flled in by a GAN (see e.g. [114]) or 
+similar model, can also already be found in consumer-grade smart-
+phones such as the Google Pixel 6 for the removal of unwanted 
+“photobombs” [99]. In sum, AI technologies are in the process of 
+reshaping images as well as imaging practices. Importantly, the 
+AI-driven correction, inpainting (and a recent development, out-
+painting) and the whole-sale synthesis of images are carried out 
+not only in the latest prompt-based image synthesis models, but are 
+already at work in everyday technologies. In this regard, they fall 
+within the purview of RtD and design research work that focuses on 
+how situated experiences and practices with technologies develop 
+and what particular opportunities for design unfold. In the next 
+section, we therefore briefy refect on existing engagement with 
+images and imaging. 
+2.2 Images and Imaging in Design Research and 
+RtD 
+Images and their production—whether pictures or video—are hugely 
+important to many, if not most, HCI applications. In design research, 
+imaging technologies and especially the relationship between im-
+ages and the perception of reality have been amply explored. To 
+fully cover this is beyond the scope of this paper, therefore we briefy 
+supply evidence for the rich tradition of engaging images and imag-
+ing in design research. To frame this further, as noted in Frayling’s 
+conceptualization of RtD [36], what we seek to demonstrate is that 
+the feld’s ability to conduct “practical experiment[s]” with tech-
+nologies holds potential for work in this space. There is a long line of 
+research emphasizing the importance of using visually rich content 
+in HCI design research [14] such as photo-rich research products 
+which showcase design and material processes [54, 63, 115] as well 
+as refecting on values, scenarios, and aesthetics of images all at 
+once [67, 73]. 
+Photography also has been used as a tool in design methods, 
+the most famous example being that of photographs as tools in 
+cultural probe kits [32], but photographs have also been used as 
+a way to situated speculation [27], and refect on theoretical con-
+cepts [67]. For example, Blevis’ own image-heavy work often re-
+fects on the complexities and nuances of sustainability and global-
+ization (see e.g. [15]), while Desjardins and colleagues imbue their 
+photographic method with feminist theory [27], and Liu, Bardzell 
+and Bardzell use photography to showcase natureculture as a value 
+for design [67]. Concerning non-photographic imaging, Elsden 
+and colleagues’ Zoom Obscura [34] interrogates video-conferencing 
+through counterfunctional designs; for instance by way of specu-
+lative AI-generated doppelgangers. As a particularly noteworthy 
+project, Pierce and Paulos’s Obscura 1C Digital Camera [85] used 
+a photography-device and a design-led method to elicit heuristic 
+insights, deliberately prioritising conceptual and imaginary uses of 
+the prototype, over empirically evaluated frst-hand uses. Standing 
+in for other RtD and HCI work that does what Verbeek refers to as 
+philosophy “by other means” ( [105] see e.g. [43, 108]), the Obscura 
+1C is an example for probing the materiality of novel technologies 
+(e.g., digital photography) that have become rapidly adopted; and in 
+turn developing a “conceptual vocabulary” [9] that enables further 
+designer inquiries. 
+In short, we argue that design research and RtD no doubt has 
+the potential to address latent propositions embodied in objects 
+that draw from AI image technologies—thereby generating con-
+ceptual and practical insights for designing or assessing novel ex-
+periences, products or scenarios. At the same time, however, AI 
+image technologies have rarely been directly addressed; mirroring 
+the relatively scarce engagement with AI technologies as a design 
+research material. Hence, in the next section we address how RtD 
+and design researchers more generally have thus far framed their 
+approaches to AI technologies. 
+2.3 RtD and Metaphoric Approaches to AI 
+The address of AI technologies in terms of design in the HCI com-
+munity has centered primarily on how AI can be made tangible as 
+a design material for designers (see e.g. [113] on a series of stud-
+ies). At the same time, there is a growing body of research that 
+centers on the materiality—i.e. the arrangement of components and 
+the materialization of their functional interoperation in specifc 
+outputs—of AI technologies to develop conceptual vocabularies, 
+and particularly, metaphors. The use of metaphors by designers is 
+a staple that goes back to canonical texts (e.g. [96]). As has been 
+pointed out by numerous authors in HCI and beyond [3, 4, 13, 77], 
+the term AI in itself is already metaphorical at root in that it as-
+signs, symbolically, capacities to technical devices that are usually 
+reserved for living beings; and especially, human beings. 
+While the applicability of particular metaphors (e.g., learning, 
+sentience) has been debated since the early days of AI research [72], 
+the stubborn opacity of contemporary AI technologies at run-
+time [21, 30] also means that it requires in-depth practical and 
+conceptual engagement to gain a foothold on them. Therefore, 
+it is no surprise that design research work with AI technologies 
+has centered on metaphors that make AI technologies approach-
+able to design practice by suggesting symbolic translations. To 
+date, analogical metaphors in the form of ‘X-as-Y’ are the most 
+common. For instance, Murray-Rust and colleagues propose “alter-
+native metaphors for designers working with AI metaphors” [77] 
+such as corporations, geofoam, or fossils. Each of these carries with 
+them an implicit symbolic register of terms, shapes and movements; 
+thereby holding potential design approaches that operate below 
+surface-level concerns such as opacity or technical accuracy. RtD’s 
+capacity for practical experiments is a natural ft for probing emerg-
+ing technologies for new metaphors (see e.g. [91]). As an example, 
+Fayard and Dove’s work on the metaphor of ML-as-monster [31] has 
+shown the generative potential of this approach: through metaphor-
+driven making of ‘ML-monsters,’ the participants in their co-design 
+workshop discerned “territories of concern at an early stage of 
+design and [pointed] to where exploratory inquiry may be most 
+needed.” In this regard, RtD is already working on opening up AI 
+technologies for extensive and inquisitive designerly approaches. 
+However, we note a signifcant lack in the metaphorical ap-
+proaches to AI technologies, which constitutes a gap for further 
+RtD-based inquiry. On a general level, we argue that ‘linguistic’ de-
+sign research approaches, such as discerning and testing metaphors, 
+may replicate a utilitarian understanding of AI technologies as 
+discrete entities—which, as has been conclusively articulated by 
+The Entoptic Field Camera 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Lindh [64], perpetuates existing presuppositions regarding infor-
+mation technologies. In other words, while metaphors may ofer a 
+generative lens on what AI technologies are, this does not necessar-
+ily extend to what AI technologies do. Therefore, we propose that 
+metaphors which echo the broad spectrum of phenomena associ-
+ated with the deployment of AI technologies—such as the California 
+wildfre skies mentioned above—are needed. We frame this argu-
+ment by drawing on Ihde’s proposal that technologies themselves 
+ought to be considered “language-analogues” [52] that make the 
+world ‘legible’ in particular ways. Accordingly, the potential for 
+metaphorical approaches to AI technologies lies not only with 
+understanding more about AI, but rather also in experimentally 
+understanding about how a world that is shaped by AI technologies 
+is ‘read.’ Lindley and colleagues [65, 66] have conducted RtD work 
+on legibility with regards to AI technologies; which they deem to 
+be particularly promising regarding “the emerging reality of living 
+with AI and making those relationships more legible.” While Lind-
+ley and colleagues approach this promise through iconographic 
+experimentation, we echo their sentiment and argue that RtD us-
+ing metaphors can ofer critical openings for design and theory to 
+engage not what an AI technology is, but rather what it does. 
+In the following, we show how we have approached this gap in 
+an RtD project consisting of the metaphor-driven conception of an 
+artefact, its implementation and subsequent deployment in a feld 
+study. Subsequently, we show how our fndings have specifc design 
+implications for the RtD and HCI community, ofer propositions 
+for the role of RtD with regards to AI literacy, and further refect 
+on future work regarding the relationship of AI materiality and 
+design. 
+3 THE ENTOPTIC FIELD CAMERA 
+In this section, we present an RtD project in which an artefact, 
+the Entoptic Field Camera, was conceptualized, developed, and 
+studied through frst-person making and a feld study. The Entoptic 
+Field Camera is a web application which, through GAN techniques, 
+generates a synthetic output image in response to a user’s input 
+image; specifcally built for situated use with a smartphone. By 
+analogy, it therefore embodies subtle cases of reality shaping by AI 
+technologies such as the wildfre sky example noted above. First, 
+we discuss the genesis of the entoptic metaphor. Second, we present 
+our methodological approach, consisting of a frst-person design 
+process and a feld study with secondary users. Third, we present 
+fndings at various levels of emergence. 
+3.1 Development of the Entoptic Metaphor 
+At root, the entoptic metaphor was conceptualized as an expansion 
+on the conceptual vocabulary developed in [9] around the general 
+concept of “thingly uncertainty,” and specifcally of the notion of 
+pattern leakage. Thingly uncertainty was proposed to make the 
+qualitative distinction of AI technologies to other information tech-
+nologies tangible for designers, namely in that AI-driven artefacts 
+exist in variable relations to their users and environments along a 
+probabilistic continuum. The concept has since been taken up in the 
+HCI community (see e.g. [19, 94, 97]). In turn, pattern leakage is a 
+consequence of thingly uncertainty: as AI technologies infer models 
+from patterns in data, their deployment leads to the projection of 
+such patterns onto the world. Seen through the lens of technological 
+mediation [51, 104], events of pattern leakage are a way in which 
+AI technologies make the world legible, often in unintended ways: 
+the things that are ‘readable’ in the world, how we ‘read’ them and 
+what particular ‘we’ is involved here, are shaped through a cascade 
+of “ontological surprises” [59] which slip into situated realities. It is 
+in this context that we place the metaphor of entoptic phenomena. 
+Benjamin (frst author of this paper) became aware of the term 
+through Alastair Reynolds’ science fction series Revelation Space, 
+in which ‘entoptics’ refer to images and animations generated from 
+neural implants [90]. The corresponding term entoptic phenomena 
+(Greek for “within vision”) has real-world origins in the medical 
+and anthropological felds. 
+First, entoptic phenomena as used in the medical sense refer to 
+experiential phenomena induced solely from the structural makeup 
+of the eye and date back to the mid-19th century as a concept 
+developed by Helmholtz’s physiological study of the human eye 
+and perception [46]. They are defned in Oxford’s Concise Medical 
+Dictionary as “visual sensations caused by changes within the eye 
+itself, rather than by the normal light stimulation process,” noting 
+that the “commonest are tiny foating spots (foaters) that most 
+people can see occasionally, especially when gazing at a brightly 
+illuminated background (such as a blue sky)” (cf. [1]). The second, 
+later use of entoptic phenomena is in the anthropological sense 
+as introduced by Lewis-Williams and Dowson. The authors rede-
+fne entoptic phenomena as “visual sensations derived from the 
+structure of the optic system anywhere from the eyeball to the 
+cortex” [61]. Lewis-Williams and Dowson argue that early human 
+cultures deliberately induced altered states of consciousness (e.g. in 
+shamanic rituals) to experience entoptic phenomena, “scrutinizing 
+[the latter] in the hope of seeing specifc forms.” In this, the authors 
+propose humans developed cultural practices for experiencing such 
+phenomena as a basis for creating geometric or iconic imagery. In 
+the anthropological interpretation, the entoptic metaphor explicitly 
+maps to phenomena such as the wildfre skies mentioned above: 
+human perception is infltrated by processes that have no direct 
+physical equivalent in the perceived world; yet are infuencing how 
+human realities are shaped nonetheless. 
+Entoptic phenomena, for our purposes, therefore function as 
+a metaphor for the probabilistic interplay of data-processing (the 
+“cornea”) and model inference (the “cortex”) in AI technologies. 
+Similar to the interplay between eye and brain giving rise to entoptic 
+phenomena in visual perception, the interplay between input data 
+and inferred model leads to ‘entoptic phenomena’ in technological 
+mediation. Importantly, and in contrast to most prior metaphorical 
+work on AI technologies (see section 2.3), the metaphor is not 
+instructive with regards to a particular purpose. Meaning, it does 
+not resolve to AI-as-X for educational or auditing purposes, but 
+rather to the functional consequences of the material interplay 
+between the components that make up an AI technology—models, 
+algorithms, parameters, datasets. In other words, it is not a metaphor 
+about what AI technologies are, but rather what they do. In this 
+regard, we frame the entoptic metaphor as a tactic for what Pierce 
+refers to as “analogical friction” [84]: generating a side-track to 
+current events and capabilities that allows for inquiry. To this end, 
+the entoptic metaphor is conceptualized as a material analogy to 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Benjamin, et al. 
+Figure 3: Conceptual diagram for the entoptic metaphor in 
+terms of Generative Adversarial Networks (GANs). In con-
+trast to Figure 2, learned patterns are not used to improve an 
+input image, but rather constitute the output image them-
+selves. 
+what an AI technology does below the currently existing threshold 
+of utility; and thereby prompting designerly ways to respond.8 
+3.2 Methodological Approach 
+This RtD project sought to develop an everyday imaging appara-
+tus powered by AI technologies—the Entoptic Field Camera. The 
+Entoptic Field Camera embodies Benjamin and colleagues’ con-
+cept of pattern leakage (i.e., the shaping of reality through patterns 
+emerging in the material interplay of AI technologies’ components), 
+and makes it accessible as a design material. Methodologically, this 
+project is broken into two phases which we present in the following, 
+along with our considerations for analysis. 
+3.2.1 First-Person Design Process. The implementation of the en-
+toptic metaphor in a concrete artefact was the result of frst person 
+research (e.g. [69]) conducted by Benjamin over a period of approxi-
+mately six months through a process informed by autobiographical 
+design. This approach, i.e. designing for oneself, allows designers 
+to “rapidly start using and learning about their designs [when de-
+veloping] exploratory systems that fll a new design niche” [78]. 
+Drawing from the entoptic metaphor, Benjamin’s target was a cam-
+era application—the Entoptic Field Camera—that embodies what is 
+already happening in AI-driven photography to a more extreme de-
+gree. Rather than the rare emergence of how AI technologies shape 
+images of reality (e.g., the wildfre sky example), the application 
+is conceptualized as generating images closer to the source—the 
+Field—of imaging. In other words, it deliberately seeks pattern leak-
+age from an underlying ‘leaky’ AI model, overriding the initial 
+photographic representation rather than ‘improving’ it. 
+Benjamin wanted a prototype that was mobile and responsive 
+both in terms of interaction as well as output to support photog-
+rapher’s relations to their environment; allowing for situated re-
+fection and interpretation. Therefore Benjamin decided to make 
+the Entoptic Field Camera run on someone’s phone and return 
+AI-generated images quickly. This stands in contrast to the current 
+8A more extensive theoretical background on the entoptic metaphor can also be found 
+in [8]. 
+popular deployment of AI image synthesis models, which generally 
+(i) rely on computational and time intensive solutions to produce 
+outputs and/or (ii) are embedded in systems that are purely about 
+using the models directly. As a result, the Entoptic Field Camera 
+was envisioned as a type of research product [80, 83], manifest-
+ing as a refned, functionally and conceptually holistic entity. In 
+this sense, the Entoptic Field Camera is an application that (i) is 
+directly usable and (ii) has an open-ended purpose that is depen-
+dent on in situ engagement, inviting users to articulate what taking 
+images with the prototype means. It is therefore conceptualized 
+as a way of discovering the world through AI technologies in a 
+situated, embodied, non-prescriptive and yet purposeful manner. 
+Benjamin’s intuition was that this combination would allow for rich 
+phenomenological interpretations—discerning the world-shaping 
+aspects of AI technologies from how the latter manifest in ‘worldly’ 
+activities (cf. [44, 45]). 
+Figure 4: Interaction architecture diagram for the Entoptic 
+Field Camera. A user may choose between Automatic and 
+Manual mode. The frst required interaction is opening the 
+user agent camera interface (i.e., the ‘native’ camera of the 
+respective OS). In the latter, a user can take and retake an im-
+age. Upon selection, the input image is encoded in base64 and 
+transmitted to the RunwayML platform API corresponding 
+to the selected mode (i.e., either BigBiGAN or HiFill model). 
+The output image is then returned in base64 and rendered in 
+the prototype interface. 
+The Entoptic Field Camera is a web application using the online 
+AI hosting platform RunwayML9 as the source for output from AI 
+technologies. RunwayML serves as a ‘hub’ for creative projects with 
+AI technologies, allowing users to select among various types of 
+models and host them as application programming interface (API) 
+endpoints.10 The API allows authenticated users to send input (e.g., 
+an image fle) to such a hosted model, and receive corresponding 
+output. The application itself is built using JavaScript, with ani-
+mation events using p5.js.11 In the version discussed in this paper, 
+the Entoptic Field Camera has two AI technologies that users can 
+toggle between (Figure 4), which serve as analogues for ‘Automatic’ 
+and ‘Manual’ modes common in regular camera designs. For the 
+Automatic mode, Benjamin chose the BigBiGAN model [29] which 
+has been trained on the omnipresent ImageNet dataset containing 
+9https://runwayml.com/, accessed 11/16/2021.
+10Note that the released application, https://entoptic.media/cam/ utilizes a custom-built 
+Jupyter-based backend hosting BigBiGAN and HiFill rather than RunwayML.
+11https://p5js.org/, accessed 09/12/2022. 
+The Entoptic Field Camera 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Figure 5: Client-side interaction wiht the Entoptic Field Cam-
+era. Left: Interface for the mobile web prototype as used 
+within the feld study. Selecting the red button triggers the 
+user agent camera interface. Middle: Image taken using the 
+user agent camera. Selecting “Use Photo” sends this image as 
+an input to the BigBiGAN API since Automatic mode is cur-
+rently selected. Right: Returned generated image, displayed 
+in the green square on the left. 
+“hundreds of object categories and millions of images” [95]. BigBi-
+GAN generates an image based on learned patterns in response 
+to an input image. While GANs have recently been somewhat 
+overshadowed by difusion models, for the purposes of this appli-
+cation it was important that input-to-output processing occurred 
+quickly. Hence, while BigBiGAN’s outputs often appear distorted 
+or glitchy, this was seen by Benjamin as an acceptable trade-of 
+given that (i) speed would make the Entoptic Field Camera more 
+product-like, and (ii) the transformation and subsequently neces-
+sary interpretation of inputs explicitly aligns with the project goal. 
+Manual mode uses an inpainting GAN called HiFiLL [114]. Inpaint-
+ing GANs are an application of AI technology that builds on GAN 
+techniques to fll in masked (i.e., hidden from the GAN) sections of 
+an input image by drawing from learned features and the available 
+pixel information. This specifc model was trained on the dataset 
+Places [116], comprising millions of images curated for scene (i.e., 
+urban, landscape, etc.) recognition. With these modes, the Entoptic 
+Field Camera incorporates the impact of AI technologies on both 
+the overall appearance as well as content of images. 
+Throughout the development of the application and design of 
+the interface (during the second Covid-19 pandemic winter of 
+2021/2022), Benjamin frst experimented with available models 
+on the RunwayML platform via a browser interface; testing latency 
+and image quality. Once an API was integrated into a frst workable 
+interface, these tests where taken out of the home ofce during 
+daily errands and walks. The design and specifcation of the appli-
+cation where thus refned in parallel to Benjamin’s frst fndings on 
+the developing entoptic photography practice (see further below). 
+Figure 5 shows a typical interaction with the prototype used during 
+the subsequent feld study: upon triggering the user agent camera, 
+a taken image can be passed to the respective mode’s GAN (i.e., API 
+for BigBiGAN or HiFill), and a generated image is returned within 
+approximately 10 seconds. 
+3.2.2 Field Study with Secondary Users. The key motivation for 
+implementing the entoptic metaphor in a concrete artefact was to 
+surface aspects of how AI technologies subtly shape experiences 
+of reality through engagement in a particular practice—here, pho-
+tography. To this end, the exclusive frst-person perspective of 
+conceptualization and making were supplemented: while the con-
+ceptual metaphor, design and implementation of the Entoptic Field 
+Camera are predominantly the work of Benjamin, practices of pho-
+tography with the Entoptic Field Camera are then developed and 
+refected upon in a collaborative manner, with “mediators [which 
+are] eccentric to the lived experience” [103] of designing the proto-
+type itself. This is an established extension of the autobiographical 
+design method, involving “secondary users” [78]—here, co-authors 
+Biggs, Berger, Rukanskaite, Heidt, Merrill, and Pierce—that provide
+˙ 
+critique and refection after the fact. 
+In concert with our position informed by philosophy of tech-
+nology, i.e. that technologies shape the ‘legibility’ of the world, 
+this method draws on how people develop specifc literacies [5] 
+through engagement within situated, socio-cultural settings. The 
+importance of such “real-life literacies” [87] are key with regards 
+to AI technologies, where AI literacy is an ongoing topic of impor-
+tance in democratic citizenship and education. AI literacy is usually 
+meant as declarative knowledge and competencies of end-users (see 
+e.g. [68]). In contrast, we are invested in a plurality of literacies (i.e., 
+how the Entoptic Field Camera leads people to ‘read’ the world and 
+subsequently to articulate their readings) with which the impact of 
+AI technologies on experiences of realities, and according design 
+opportunities, can be formulated. 
+The feld study took shape in an iterative and recursive procedure 
+supported by Benjamin and co-authors, who are all afliated with 
+design research albeit with mixed areas of expertise such as critical 
+making, participatory design, cybersecurity, surveillance, philoso-
+phy of technology, speculative design, or design fction. Through a 
+series of collaborative meetings, the group of authors designed a 
+loose framework for experimentation, which included a minimal 
+technical introduction by Benjamin as well as an introduction to the 
+entoptic metaphor. Each co-author then spent approximately three 
+weeks experimenting and documenting their use with the Entoptic 
+Field Camera in any way they saw ft. Upon completion of the study, 
+authors reconvened to discuss images around a slide-deck and to 
+gather frst impressions. Then, co-authors further refected on their 
+experience in the form of vignette-style reports. The synthesis of 
+fndings into the discussion contributions was then led by Benjamin 
+and Biggs (second author). 
+The feld study has received ethical approval by the appropriate 
+body (Ethics committee of Benjamin’s frst afliation); the devel-
+oped web-application being GDPR-compliant by storing no data 
+on someone’s phone, in browser cookies, or the application server. 
+Additionally, the images sent to and received from the respective 
+models are base64-encoded and only stored in the client-side cache, 
+meaning users deliberately have to choose to save an output image. 
+All co-authors that took on the role of secondary users received 
+informed consent regarding these circumstances. 
+3.2.3 Analytic Procedure. Since the phases discussed above difer 
+in method and the roles of the authors (i.e., as creator, participants, 
+analysts), we approach the derivation of fndings in a manner that 
+refects Gaver and colleagues’ discussion of emergence in practice-
+based research. This is ftting, since the project is heavily inspired by 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Benjamin, et al. 
+an “anomaly” (i.e., the California wildfre skies example) and seeks 
+to “allow technical afordances to suggest new directions” [37]. 
+Further, through the combination of frst-person and secondary 
+perspective methods, this project is also “a mix of intentionality [i.e., 
+the purposive nature of the Entoptic Field Camera] and openness to 
+change [i.e., not prescribing what fndings the former may bring];” 
+and we therefore paid special heed to manage emergence of possible 
+fndings on three levels: Benjamin’s individual design process (3.3.1), 
+the shared discussion of the feld study among authors (3.3.2), and 
+refective vignettes written by co-authors as secondary users (3.3.3). 
+In practice this means that, as mentioned above, Benjamin frstly 
+refected on their design process from a phenomenological angle 
+that focuses on the emotions, challenges, and perceptions mediated 
+in the design process. To this end, Benjamin kept a daily journal 
+during the process. Secondly, the post-feld study discussion was 
+treated as an ad hoc forum to discuss impressions, and was oriented 
+at matters of form that the entoptic photography practices took; 
+which was scafolded by a shared slide deck. Lastly, the textual 
+refective vignettes of secondary users were considered “on their 
+own terms” [37] for thematic analysis carried out by Benjamin and 
+Biggs (second author). 
+3.3 Findings 
+In this section, we document the fndings derived from (i) Ben-
+jamin’s development and use of the Entoptic Field Camera; (ii) the 
+feld study with secondary users (i.e., the co-authors); (iii) a subse-
+quent refective exercise with all secondary users. To facilitate an 
+understanding of the idiosyncratic and generative approaches pur-
+sued in the feld study, we show the secondary users’ self-selected 
+images. As mentioned above, we frame our fndings following Gaver 
+and colleagues’ refections on “emergence” in practice-based re-
+search [37]; and consider the three methodological stages of this 
+project as checkpoints for emergent fndings. 
+3.3.1 First-Person Reflections on Design Process. As the frst stage 
+of emergence, the conceptualization, design and development of 
+the Entoptic Field Camera are considered through three themes: the 
+desire for the creation of the Entoptic Field Camera, experimenta-
+tion with ‘entoptic selfes,’ and the challenge of designing symbolic 
+representations of the entoptic metaphor. 
+Desire for and in Making the Entoptic Field Camera — 
+During the trial-and-error process of fnding suitable and indeed 
+workable AI technologies, Benjamin noticed a particular desire. Two 
+specifc experiences in prototyping the two modes of the Entoptic 
+Field Camera are illuminating in this regard (see Figure 6). As Ben-
+jamin noted, frst they found that in Automatic mode, “I search for 
+the aspects of images that provoke either good attempts at match-
+ing the input, or that completely transform what comes in.” And, 
+when prototyping the Manual mode, Benjamin found that “I seem to 
+either look to suture (stitch together) things or to erase/camoufage 
+things, either way I’m purposely looking at things and their constel-
+lations.” This desire expressed itself in various ways, though always 
+situated in a temporal frame that put potential input and output 
+images into relation. Specifcally, as Benjamin learned that the En-
+toptic Field Camera can alter and reproduce their surroundings in 
+a manner that invites curiosity and refection, the experience can 
+be described as looking forward to what Benjamin will have had to 
+Figure 6: Snapshots by Benjamin during the development 
+phase of the Entoptic Field Camera. The two images on the 
+top depict the Automatic, the two on the bottom the Manual 
+mode, respectively. 
+interpret. This persistent searching was refected in further notes, 
+for example that “I desire to see what I will have to ‘catch up to’.” 
+Experimentation with ‘Entoptic Selfes’ — A concrete mani-
+festation of the described desire were what Benjamin came to call 
+‘entoptic selfes’ (Figure 7). By testing the prototype in everyday 
+situations and practices, the selfe became a way to test how and in 
+which ways feeling, relevance and self-hood persisted in a situated 
+entoptic photography practice. Unsurprisingly, there was no con-
+sistency in facial and bodily features between entoptic selfes; each 
+suggesting slightly diferent identifers of mood, scenario, fashion 
+or gender. This breadth of self-hood transformations also frequently 
+extended to the background: a gym became an abandoned parking 
+lot, a pebble beach a velvet sky. This became particularly evocative 
+against the backdrop of home ofce routine. As Benjamin’s notes, 
+“I keep returning to the same place and expect things to be difer-
+ent, yet available for interpretation [such as] my face with closed 
+eyes, lying on the pebbles.” The recurring theme of going to the 
+same places yet expecting new things had a surprising efect on 
+Benjamin: “because the [Entoptic Field Camera] is so generative, 
+it leads me to refect, maybe even worry, how constrained [...] my 
+life is.” Rather than refections on the AI technologies involved (i.e., 
+BigBiGAN / HiFill), the experimentation with entoptic selfes led 
+to deeply personal refections. 
+Challenges in Representing the Entoptic Metaphor — In 
+terms of the interface design for the Entoptic Field Camera, Ben-
+jamin noted a persistent tension in fnding adequate representations 
+of the conceptual import of the entoptic metaphor. On refection, 
+the symbolic layer formed by using particular graphic elements, 
+The Entoptic Field Camera 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Figure 7: Examples of Benjamin’s ‘entoptic selfes:’ the respec-
+tive input images are passed through the Automatic mode 
+into synthetic images of selfhood. 
+typography and semiotic pointers was perceived as potentially 
+obfuscating the basic premise of the entoptic metaphor. To coun-
+teract, Benjamin’s frst interface design (as used in the feld study) 
+purposely mimicked elements of traditional types of photography, 
+and especially referred to the hardware design of cameras (Figure 
+8, left) such as color-coding, switches, shutter buttons and lens 
+mount decals. Only the latter signifed a departure from photogra-
+phy, in that the aperture scale of the Entoptic Field Camera showed 
+as “1:Σ(∞)f” rather than, for instance, “1:2.8f.” This referred to a 
+GAN’s infnite latent potentials for representing inputs on the one 
+hand, and the fact that each output represented a particular func-
+tion (i.e., 1:Σ) on the other. Following the feld study, Benjamin’s 
+next iteration abstracted more fully from this design, adding a con-
+ceptual graphic element representative of the entoptic metaphor 
+(inspired by Rosenblatt’s Perceptron illustrations [93]), removing 
+the familiar color-scheme, adding an abstract geometric animation 
+Figure 8: The two interface versions for the Entoptic Field 
+Camera. Left: Prototype as used in the feld study. Right: Var-
+ious states (ready, processing, output) of the later prototype. 
+Note that in this version, the color-space is monochrome 
+rather than recalling a conventional camera aesthetic (i.e., 
+red, green and grey), an abstract representation of the en-
+toptic metaphor has been added (above white button), and 
+geometric animations accompany the data processing step. 
+for processing input to output, and integrating text clues for the 
+current processing state (Figure 8, right). Nonetheless, Benjamin 
+found themselves consistently in similar binds to work in XAI or 
+FAccT; for instance: how exactly do you develop a visual language 
+for processes that are intrinsically sub-visual? And how do you ex-
+press a relationship—whether explanatory or suggestive—of visual 
+symbols to such processes? 
+3.3.2 First Impressions of Field Study: Forms of Practice. At the 
+second level of emergence, an initial post-feld study discussion 
+was held online around a slide deck of frst impression encounters 
+with the Entoptic Field Camera. Co-authors were invited to upload 
+a selection of images that was representative of their experience, 
+and talk through the practice that they developed during the feld 
+study. 
+In this study discussion, an immediate topic was that two dis-
+tinct forms of entoptic photography practices had emerged in an 
+uncoordinated way: 1) questions of representation; and 2) a docu-
+mentary approach. Benjamin, Rukanskaite (fourth author), Heidt
+˙ 
+(ffth author) and Merrill (sixth author) focussed on questions of 
+representation. As outlined above, Benjamin was experimenting 
+with how the representation of the world in entoptic images led to 
+unexpected self-world relations. For Heidt, the study coincided with 
+travel abroad to a cosmopolitan city, a setting they pictured with 
+the Entoptic Field Camera as a “tool to explore post-human reality,” 
+a way to look “at a diferent world, but never one I would like to 
+live in” because the Entoptic Field Camera outputs had an “apoc-
+alyptic” atmosphere. Merrill took pictures of scenarios that they 
+would not ordinarily share, treating the Entoptic Field Camera’s 
+generated images “as a [cryptographic] hash” that would obfuscate 
+intimate moments. Nonetheless, to Merrill a feeling of “intimacy” 
+still remained, and a “fear of being interpretable” took shape con-
+cerning the generally nondescript Entoptic Field Camera outputs. 
+Lastly, Rukanskaite focussed on individual objects found around
+˙ 
+the household, “wanting to recognize” the original input in the 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Benjamin, et al. 
+Figure 9: Heidt’s presentation of various “apocalyptic” and 
+“post-human” entoptic images taken while on vacation in 
+North America. 
+output images. They noted that the Entoptic Field Camera outputs 
+felt like “pictures from the internet fowing back,” but in a way that 
+forces one to “let go of expectations” due to the unpredictability of 
+what would be fowing back. 
+The other entoptic photography practice can be grouped as fol-
+lowing a documentary approach. Berger (third author), for instance, 
+used the Entoptic Field Camera while on a roadtrip, and refected on 
+images of this period which on the one hand “I could not have taken,” 
+yet on the other still were “a mimicry of other amateur photogra-
+pher’s pictures.” For Biggs, the feld study coincided with moving 
+home, leading them to experiment whether “GANs break a relation-
+ship to a space.” Biggs found that the “outputs are generic but have a 
+dreaminess,” and saw themselves confronted with “pseudo-realities.” 
+Lastly, Pierce (seventh author) supplemented a long-standing line 
+of research into home surveillance artefacts during the feld study, 
+feeding surveillance images (e.g., of the street outside their house) 
+to the Entoptic Field Camera with the goal of “more images, less 
+curation.” While to them, the quality of outputs rendered them 
+unusable, they note that “it seems the [Entoptic Field Camera] tries 
+to picture things that are interesting to an assumed photographer.” 
+3.3.3 Reflective Vignetes on the Field Study: Situated Literacies. 
+In response to the discussion, a further checkpoint for fndings 
+was established that focused less on what images co-authors took, 
+and more on how those images became meaningful for them. Ac-
+cordingly, co-authors were invited to formulate their experience in 
+the form of short vignettes. The intervening time, it was thought, 
+would further expose the idiosyncratic utilizations of the Entop-
+tic Field Camera through particular vocabulary choices; which we 
+have referred to above as situated literacies. Without any particular 
+order, we present these vignettes in their entirety in the following 
+due to their richness in ethnographic detail. We also accompany 
+each with notes highlighting signifcant themes and concepts (in 
+square brackets); since we cannot process all themes as contribu-
+tions within the length of a paper but are convinced the community 
+could beneft from them. We also accompany each with the self-
+selected images that the co-authors, as secondary users, chose to 
+present in the slide-deck that facilitated the initial discussion. This 
+presents readers with an overview of the idiosyncratic, generative 
+practices that developed. 
+Heidt [ situated technical echo / mirror; interpretation of an alter-
+native world / reality construction; reconfiguration of time; biased by 
+first impressions; perceived ‘biophobia.’ ] — I frst tried out the Entoptic 
+Field Camera while traveling Canada for a couple of months in 2021. 
+Specifcally, I took the very frst picture in Stanley Park, a place 
+quite dear to me, that usually exhibits both a magical and calming 
+efect. However, the entoptic camera did its best to disrupt and 
+pervert said calm. As a test case I chose a nicely framed picture of 
+Vancouver’s skyline refected in the lost lagoon. What the camera 
+threw back at me, however, was more akin to a post-apocalyptic 
+wasteland. Curiously, the image also evoked some dark-romantic 
+associations: skyscrapers appeared as medieval ruins produced by a 
+neutron bomb set of within Vancouver’s downtown core. It seemed 
+as if the device had perverted the fow of time in order to fuse a 
+post-apocalyptic future with a desolate and hopeless past. Perhaps, 
+these frst impressions induced a certain degree of path-dependency. 
+In any case, afterwards most of the pictures appeared to tell a post-
+apocalyptic or perhaps post-human story. Interestingly, manual 
+mode behaved especially hostile towards my face, dissolving it into 
+a blob of coldly algorithmic goo. Gradually, I learned that the cam-
+era hates all living things, angrily blotting them out whenever they 
+enter the frame. Ultimately, the camera succeeded in constructing 
+its own version of reality, turning every screen it could possess into 
+a twisted mirror which shows life within an alternative post-human 
+universe. 
+Biggs [ multimodal, dreamlike quality of images; materiality of 
+GANs; subjective connection to images; question of authentic relations 
+to the world; difference between recollection and record ] — I used 
+the blurry, other-worldly indeterminacy of the networked images 
+it creates to my advantage to refect on the perception of place that 
+can shift when one listens deeply or when one refects in memory. 
+I started exploring the Entoptic Field Camera around the time I 
+was about to move. Therefore, I hoped that the images would take 
+on the dreamy quality of memory and the quality of the images 
+that appear (blurry/atmospheric) when one listens to sounds of a 
+place. Using the Entoptic Field Camera with images tied to specifc 
+memories, a specifc place, and a certain nostalgia made me wonder 
+if the Entoptic Field Camera generated images were any longer 
+‘proof’ of my being there – if they any longer corresponded to 
+place – and if so to what degree. On the one hand, the technical and 
+aesthetic meaning built through using the Entoptic Field Camera 
+inspired refection and creative exploration around the themes of 
+other worlds, memory, and the senses, but on the other hand, the 
+The Entoptic Field Camera 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Figure 10: Biggs’s presentation of entoptic images taken in 
+the process of moving home. Biggs chose to present the input 
+images as well as respective outputs from both Automatic 
+and Manual modes. 
+Entoptic Field Camera unsettles expectations of the camera to be 
+a recording device, proof of experience, proof of travel, garnered 
+through the mechanical objectivity of the camera (Susan Sontag, 
+on photography). I walked around my neighborhood I lived and 
+captured a few simple images and collected the soundscapes they 
+correspond to. First was a photo of a farm feld with baled hay 
+the sound of cicadas droning in the treetops, second was a feld 
+being bufeted by strong winds and a tornado alarm, and third, 
+an ice cream shop in a strip mall at twilight and the sounds of 
+people sitting outside laughing and chatting and cars going by. I 
+strung together the images and sound into a video where the sounds 
+are quite crisp and clear but the images blend into one another. I 
+thought perhaps the crisp, situated sound, paired with the shifting 
+and indeterminate visual feld refected a kind of tension between 
+recollection and record. 
+Rukanskaite˙ [ mundane objects and their representation; recogni-
+tion, transformation and destabilization; returns from the uncanny; 
+images made of images; intrusion; lack of control regarding foreground 
+/ background; decentering of intention ] — I took photos of objects at 
+home I thought the camera might recognize or be able to transform. 
+Taking pictures with the camera meant having everyday objects 
+refected back in an unstable, uncertain manner. Or not having them 
+refected at all, and instead taken for something else; something 
+weird, uncanny. An abstracted mash of anonymous internet images. 
+Their alienness became obvious when I noticed what looked like 
+a date stamp in the lower right corner of one refection. I could 
+not control what the camera picked up on – from its point of view, 
+Figure 11: Presentation by Rukanskaite˙ of various experi-
+ments on representation of mundane things in entoptic im-
+ages. 
+the objects, colors, textures, and shapes I considered to be back-
+ground became central. I kept forgetting the camera picked up on 
+everything in the image frame, large aspects of which I did not con-
+sciously focus on. At the same time, it felt encouraging to see the 
+things I photographed refected back, even if distorted; even if the 
+same thing never refected in the same way once, I searched for and 
+sometimes found repetition in their refections. Towards the end of 
+exploring the camera I stuck to photographing abstract patterns, 
+for example, I took close-up photos of plant leafs: no intention 
+or expectations, just pure curiosity. The red corona-virus-looking 
+thing on what looks like a sink remains a mystery. Could it be a 
+result of the noise in the model’s training data? Reminds me of the 
+absurd things that showed up in other feld studies, for example, 
+the donkey-like animal prompted by a park fountain. 
+Berger [ reality shifting as a ‘dreamlike adventure’; distributed 
+agency; infinite mirror; hopeful misinterpretations; hallucinations / 
+dreamlike aspect; future reader ] — Sitting through yet another 
+pandemic induced video call, I hoped and longed for the EFC to 
+computationally lift the pandemic travel ban and take me on a 
+dreamlike adventure. Much of my everyday reality is computation-
+ally augmented, I am listening to noise reduced 3D-audio through 
+my headphones and my car politely countersteers my driving. Now, 
+how would a computational road-trip hold up? With road-trips 
+one can watch the world go by from a safe distance. In driving 
+endlessly, I composed street, feld, and sky over over and over again 
+and EFC extended this banality beyond the horizon. We created 
+about 100 images and I can’t quite tell who the photographer is. It 
+was as if we never left the realm of what the algorithm believes 
+100% of road-trips look like. Likewise, the GAN model did also 
+serve as an infnite mirror for roads I could have taken, or may 
+have had. The computational road-trip shields the viewer from any 
+unpleasant surprise. We also ended up in the woods, where most 
+plants were plagued, damaged, corroded. This is where, counterin-
+tuitively, the EFC created hope. Through the camera I asked, how 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Benjamin, et al. 
+Figure 12: Selection from Berger’s “computational roadtrip” 
+(left), and forest excursion (right). 
+AI sees and interpret common tree diseases. The GAN seems to 
+have computationally competed against decay and both confdently 
+and consistently reversed any ill efects. The camera made me hal-
+lucinate two worlds that could be. Will nature in a distant future 
+be only computationally healed? And can you, future reader, see 
+the road I took? 
+Merrill [ intimacy and obfuscation; anonymity through distortion; 
+anonymity permeated by intimacy; questionable permanence of privacy; 
+future reader ] — I took photos inside my home, photos of intimate 
+moments, moments I wouldn’t typically share. I expected the cam-
+era to obfuscate these moments: to make them less personal, easier 
+to share. In a sense, it did. It anonymized them, making specifc 
+places, people and situations difcult to discern. In another sense, 
+it didn’t obfuscate the fact that these moments were intimate. All 
+of these photos evoke to me - perhaps because I know their story -
+a privateness. Even as they appear now, I admit I feel as if I might 
+be overdisclosing by sharing them. Today, I wonder if some future 
+technology will be able to “reverse” these photos. I thought of the 
+camera as a sort of hash function, a trapdoor through which the 
+source image could not be recovered. Only once I took and uploaded 
+these photos did I realize: I have no guarantee that the camera is a 
+trapdoor. There is no mathematical assurance (again, gesturing to 
+hash functions) that these photos are irreversible. Will you, reader 
+of the distant future, be able to recover the original images from 
+these? Will you choose to? If so, why? What would it mean for you 
+to do so? 
+Pierce [ distribution of agency; image selection; Rrcursive chains 
+of image processing; meta-imaging; distancing from subjects; intrusion; 
+lack of control regarding foreground / background ] — I set up a 
+Nest smart security camera afxed with a zoom lens and aimed the 
+camera at an area of approximately 1 square meter in the alleyway 
+outside my home. I then reviewed the “motion”, “person” and “an-
+imal” detection events curated by Nest Aware. I selected several 
+images and fed them into the entoptic camera. I then recursively fed 
+some of the image outputs back into the entoptic camera. Results 
+were mixed. More often than not, the camera seemed confused and 
+unable to correctly interpret the image. Not surprising, perhaps, 
+Figure 13: Presentation of Merrill’s ‘intimate’ entoptic im-
+ages. 
+Figure 14: One of Pierce’s presentations of multiple input-
+output pairings; i.e., initial Nest smart security images that 
+are fed into the Entoptic Field Camera over various iterations. 
+given that the images were unconventionally framed and only cap-
+tured fragments of the subject. I was curious if the entoptic camera 
+might be able to infer the entire subject from a component. In most 
+cases it did not. I also was curious what happens with recursive 
+images. Second and third order images seem to introduce additional 
+entropy, and stray further from “the subject.” Viewed relative to 
+the background or texture though, they perhaps fared much better. 
+Conceptually, I also was intrigued by the chains of dependency and 
+mixture of human and machine agency: a camera pointed at a small 
+random area of a thoroughfare, with a smart camera system that 
+captures and selects a subset of events, then I curate a subset of 
+these, then I feed them into the entoptic camera, then I feed the 
+outputs back in, ... My personal favorite was the motley complete 
+child’s face that morphed into a partial face of Kermit the Frog. 
+The Entoptic Field Camera 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+4 DISCUSSION 
+In the following, we outline three major contributions of this project. 
+First, drawing from the development, design and usage of the Entop-
+tic Field Camera, we outline design implications that further enable 
+established design methodologies to engage AI technologies. Sec-
+ond, we outline the conceptualisation of an RtD research space in 
+relation to AI literacy. Lastly, refecting on the relationship between 
+materiality, design practice and afordances, we outline a research 
+trajectory for a more comprehensive inquiry into the relationship 
+of the afordances of 21st century design and AI technologies. 
+4.1 Design Implications of the Entoptic Field 
+Camera 
+We argue that there are numerous implications for RtD method-
+ologies and programs where the entoptic metaphor, whether con-
+cretized in the Entoptic Field Camera or other ‘entoptic media,’ may 
+be deployed. Below, we gather these around themes which refect 
+methodological propositions and practice-oriented provocations. 
+In sum, these implications highlight that the entoptic metaphor 
+allows design research to shift from questions about ‘AI’ to how the 
+material arrangement of actual AI technologies shapes experience 
+and foregrounds particular concerns and opportunities for design. 
+4.1.1 Materializing Distributions of Agency. The question of causal-
+ity, dependencies and mixed agency is a vital one with regards to 
+AI technologies, which prove stubborn in various domains such 
+as the socio-economic conditions of crowdworkers [53], extractive 
+end-user engagements [33] or intellectual ownership (see e.g. [92]). 
+The entoptic metaphor, and the fndings from its concretization 
+in the Entoptic Field Camera, can be used to engage this complex 
+through critical [6, 86] and refective [98] design which seeks to 
+unfold or question how agency is distributed with regards to AI 
+technologies and the systems these are embedded in. Merrill was 
+most explicit here, foregrounding their inquiry into “chains of de-
+pendency and mixture of human and machine agency” in which 
+the Entoptic Field Camera allowed them to probe the boundary 
+conditions of such distributions. The notion of testing boundary 
+conditions is of critical importance in work on AI technologies that 
+foregrounds ethical and power-related issues stemming from the 
+relationship of models and datasets (see e.g. [12, 102]). We argue 
+that RtD projects such as the one presented here could open up the 
+usually expert-constrained methods of such critical auditing. 
+As an example, a future iteration of the Entoptic Field Camera 
+or similar entoptic media could be used for “grassroots documen-
+taries” [42] in which members of specifc communities document 
+their everyday or a specifc event through such an artefact. As we 
+noted above, both GAN techniques (i.e., BigBiGAN and HiFill) were 
+trained on specifc datasets–the ubiquitous ImageNet and Places, 
+respectively. Biggs and Berger in particular noted the “generic” 
+nature of images that foregrounds a dream-like (dis-)connection 
+as well as strangely reassuring aspect at the same time. Accord-
+ingly, entoptic documentaries could, for instance, focus on how 
+a community distinguishes itself from or recognizes itself in the 
+abstract-generic nature of entoptic imagery (e.g., in post-hoc dis-
+cussions); or refect on questions relating to privacy and intimacy 
+which may be sensitive or close to heart for particular communi-
+ties. The entoptic metaphor, we propose, can thus be employed to 
+study the boundaries and fault lines in the relations between an 
+AI technologies’ material interplay and the concerns of particular 
+communities. 
+4.1.2 Dematerializing Privacy Concerns. Merrill’s refection on the 
+relationship between anonymization, obfuscation and intimacy 
+opens up a further trajectory for critical design. Merrill expressed 
+that they “thought of the camera as a sort of hash function” which 
+would allow them to share subjectively felt intimate moments. This 
+suggests a layer to entoptic photography which may be oriented 
+around questions of privacy. While it is doubtful that an Entoptic 
+Field Camera would be useful for any conventional practice of tar-
+geted surveillance—as Pierce found by using actual Nest security 
+images as input—precisely this can be interpreted as a utility of a 
+diferent kind. Bellanova and Fuster have described how airport se-
+curity body scanners needed to be outftted with “dematerialization 
+operations” [7] following complaints over violations of privacy; 
+leading to a downgrading of their technical capacities to only re-
+veal abstract, generic bodyshapes on scanning results. An entoptic 
+surveillance application could arguably perform a similar service, 
+‘dematerializing’ the initial input image while generating a still 
+causally and materially related output image. A potential prototype 
+could be designed as an ‘entoptic monitor’ of a specifc location, and 
+show only output images—which, given the GAN’s radical trans-
+formations, may prompt questions that echo Merrill’s refections 
+on the nature of privacy, intimacy and obfuscation; and Pierce’s 
+experiments with input-output recursivity: what ‘remains’ of the 
+emotional connection or political import of being surveilled, when 
+surveillance images do not resemble their input’s appearance yet 
+are undoubtedly materially connected? In this regard, the entoptic 
+metaphor can support adversarial design (cf. [28]) which makes 
+the presence of AI-driven surveillance both readily apparent (see 
+e.g. [2]) as well as provoking refections on its transformative efects, 
+to seed discussions and prompt refection through (de-)material 
+sensitization. 
+4.1.3 Experimenting with Forms of Subjectivity. Conceptualizing 
+the Entoptic Field Camera’s—or rather, the GANs’—dematerialization 
+of what is given as input can be taken up further through refec-
+tive design [98]. Sengers and colleagues introduce the latter as a 
+methodology that foregrounds “refection on unconscious values 
+embedded in computing.” Aspects of this stance can be discerned in 
+an literal sense throughout co-authors’ experiences. Rukanskaite for
+˙ 
+instance noted that “the things I photographed refected back in an 
+unstable, uncertain manner;” and Berger and Heidt both referenced 
+mirroring. We argue that such notions open a critical avenue to re-
+fect on potentially constraining as well as emancipatory potentials 
+embedded (through data and algorithmic bias) in AI technologies. 
+With regards to the latter, an example can be found in Turtle’s 
+critical self-portrait engagement regarding “queer becomings with 
+AI” [101]. This potential for GANs, and generative AI technologies 
+more generally, to allow for experimentation on opportunities as 
+well as boundaries for self-expression was found explicitly in Ben-
+jamin’s ‘entoptic selfes.’ This brings up immediate opportunities 
+for future critical-refective work: what exactly is the distinction 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Benjamin, et al. 
+between entoptic selfes and more common forms of online self-
+presentation? What is missing on either side of these forms—do 
+entoptic selfes lack verisimilitude, or do they express something 
+about the technologically mediated contemporary lifeworld that 
+Instagram stories lack in turn? And: just who is the photographer 
+in either case?12 
+4.1.4 Decentering Conventional Scales of Representation. More-
+than-human design and sustainable HCI (SHCI) are growing areas 
+of research, frequently confronting the implicit anthropocentric 
+narcissism of emerging technologies (see e.g., [50, 56, 79, 89, 107]). 
+A key strategy in eforts to transcend the extractive logic of estab-
+lished user-/human-centered design is the decentering of a human-
+exclusive logic means and ends [107]. Regarding the latter, our 
+framing and fndings suggest that the entoptic metaphor as applied 
+to photography may suspend this logic to more fully refect how 
+AI technologies afect experiences of reality. Specifcally, Rukan-
+skaite noted how they “kept forgetting the camera picked up on
+˙ 
+everything in the image frame, large aspects of which I did not con-
+sciously focus on.” Pierce’s observation of the “additional entropy” 
+through recursive input-output pairings is also related; suggesting 
+practices of decentering can be entoptically augmented to probe for 
+more-than-human notions of representation. An example can be 
+found in Berger’s forest excursion, where they noted that “the GAN 
+seems to have computationally competed against decay and both 
+confdently and consistently reversed any ill efects,” and further 
+asked whether “nature in a distant future be only computationally 
+healed.” The superfcial removal of decay echoes work that centers 
+on removal or undoing (see e.g [50, 56]), and introduces a further 
+twist: through entoptic imagery, what appears as signifers of an-
+thropocentric efects (e.g., decay, erosion, etc) may be removed, or 
+rather, made mute through the generativity of AI technologies. In-
+versely, Heidt’s perception of “apocalyptic wastelands” are shaped 
+by the introduction of signifers. 
+This transformation of what is represented in photography does 
+also not need to be restricted to signifers in space, but may also 
+relate to time: Heidt argued that the Entoptic Field Camera seemed 
+to “pervert the fow of time” by converting a present scene into 
+its correlated future wasteland. Such perceptions recall Biggs and 
+Desjardins’ High Water Pants [11] project, the titular artefact being 
+computationally-enhanced pants which react to their wearer enter-
+ing a future zone of fooding by shortening the pants leg. Biggs and 
+Desjardins see their prototype as an “oracle [which] bends time” 
+by enabling situated interaction with possible futures in specifc 
+practices (in their case, cycling). Similar to the efect on notions of 
+selfhood we described above, the Entoptic Field Camera can be inter-
+preted as a time-bending artefact: de-materializing present foci, and 
+re-materializing potential futures. Either way, the important point 
+here is that the removal or addition of signifers do not occur either 
+at the behest of subjective choice of motive nor technical ‘intelli-
+gence,’ but rather through the interplay of AI technologies’ models 
+and datasets in response to a circumstantial arrangement of pixels. 
+12That the Entoptic Field Camera is generative of exactly this kind of refection received 
+some informal confrmation during its exhibition at the 2022 Ethical Dilemma Cafe as 
+part of Mozilla’s Mozfest; see e.g. https://cubicgarden.com/2022/05/08/mozilla-bbc-
+ethical-dilemma-cafe-manchester/, accessed 09/06/2022. 
+Entoptic photograpy may thereby undermine prevalent anthro-
+pocentric notions of what make suitable objects of photography; 
+and disclose potentials for decentering design practices accordingly. 
+4.1.5 Exploring Ludo-Entoptic Play. Lastly, as shown in our fnd-
+ings, both Biggs and Berger picked up on a dreamlike or hallucina-
+tory potential of the Entoptic Field Camera, while Rukanskaite˙ 
+referenced the uncanny quality of the images. This recalls the 
+anthropological interpretation of entoptic phenomena ofered by 
+Lewis-Williams and Dowson [61]: the deliberate search for entop-
+tic patterns that are then concretized in forms of cultural expres-
+sion (e.g., cave paintings). In terms of AI technologies, the entop-
+tic metaphor accentuates exactly this generativity in terms of an 
+interplay among components (e.g., model, data, algorithm). This 
+suggests some productive overlaps between ludic design [38, 39] 
+and the Entoptic Field Camera. In this overlap, ludo-entoptic arti-
+facts could be designed that thematize the “intoxication of creative 
+play” [35] which AI technologies such as image synthesis models 
+are already bringing about. 
+Aligning situated play with withdrawn interplay, ludo-entoptic 
+artefacts expand the human-artifact locus (e.g., person + device 
+coupling) towards entanglements with the components of AI tech-
+nologies. Examples could be Entoptic Glasses or Contact Lenses, 
+conjuring up possible entoptic hide-and-seek or games of tag; where 
+pattern leakage intervenes in ordinary searching, hiding and antic-
+ipating practices. The ludic aspect of entoptic media, then, is of a 
+diferent kind than the creative play currently seen with prompt-
+based image synthesis models (e.g., Dall-E, Stable Difusion, etc.). 
+Whereas AI artists Herndon and Dryhurst advocate for such AI 
+technologies “[as] a tool for jamming, rapid iteration and potentially 
+co-authored social experiences” [47]; the Entoptic Field Camera’s 
+creations do not directly correspond to supposed 1:1 relationships 
+in human-AI collaboration. Rather, ludo-entoptic artefacts embed 
+playful creation within an “infnite mirror” (Berger) that disregards 
+intended focus or distinctions between background and foreground 
+([4A, 6A]). Both the Manual as well as Automatic modes, i.e. syn-
+thesis and inpainting GAN techniques, used in the Entoptic Field 
+Camera can serve as impulses here: whereas an inpainting ludo-
+entoptic artefact may allow, force or train people to use peripheral 
+vision for play; a synthesis version could play on contemporary 
+imaginations of multiverses or augmented reality applications. 
+4.2 RtD between AI Materiality and Literacy 
+As we have argued above (see Section 3.2.2), we interpret AI liter-
+acy on a more fundamental level than declarative knowledge and 
+competencies of end-users (see e.g. [68] for an overview); not only 
+referring to technical knowledge, exact terminologies or end-user 
+competencies, but rather as also referring to the intuitive (mis-
+)understandings and experiences of how AI technologies shape 
+our experience of the world. Accordingly, there is a potential gap 
+between what is generally thought of as AI literacy on the one 
+hand, and the situated literacies that are formed by technological 
+mediation of actual AI technologies on the other. In this regard, the 
+entoptic metaphor can serve as one example for RtD engaging this 
+gap fruitfully, deriving implications and conceptual vocabularies 
+that could not have preceded the actual engagement of designers or 
+other stakeholders with AI technologies. As shown in the secondary 
+The Entoptic Field Camera 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+users’ refections, developing a practice with and a related situated 
+literacy for the Entoptic Field Camera proved highly individualized 
+and contextualized; shaping subjective choices in tandem with the 
+processing of inputs and outputs. In this light, we propose that 
+designing via the entoptic metaphor produces artefacts of another 
+kind than, for instance, the co-design artefacts which have been 
+employed in the XAI or FAccT space (see e.g. [10, 110, 112]). Ac-
+cordingly, we ask ourselves what exactly it is about the entoptic 
+metaphor that ‘works,’ and whether this implies a particular role 
+for RtD in this space. 
+Considering what the Entoptic Field Camera articulates about its 
+underlying AI technologies (i.e., the BigBiGAN and HiFill models), 
+the entoptic metaphor is arguably not bringing anything ‘hidden’ 
+to light such as Crawford and Joler’s Anatomy of an AI System [26]— 
+there is no direct revelatory or pedagogical efect. However, the 
+entoptic metaphor nonetheless produced a multiplicity of perspec-
+tives which linked technical aspects to particular concerns, as ev-
+idenced by our fndings. We argue that exactly this is a valuable 
+programmatic implication: rather than assuming that technical 
+or corporate opacity can be overcome (see also [9]), the entoptic 
+metaphor produces a secondary opacity that is detached from the 
+original purpose of the AI technology at hand—e.g., ‘improving’ 
+images through GANs. Accordingly, designing alternative, sym-
+bolic forms of opacity may be a particularly useful way for RtD to 
+expand beyond the recognized forms of opacity (i.e., technical) of AI 
+technologies. Notably, this refects Ghajargar and Bardzell’s work 
+which frames RtD as a type of synthesis that bridges “conventional” 
+and “evocative” forms [40]. In the case of AI technologies, we sug-
+gest that the entoptic metaphor is synthetic in a similar way yet on 
+the conceptual level of opacity. As an “analogical friction” [84] to 
+the conventional use of GANs in photography, the Entoptic Field 
+Camera can be interpreted as an example of RtD in which insights 
+can be gathered on a conventional form of opacity (i.e., technical) 
+through engagement with an evocative one (i.e., metaphorical). 
+Metaphor-driven research products such as the Entoptic Field 
+Camera probe for phenomena in worlds made legible by AI tech-
+nologies. RtD’s privilege to engage in ‘practical experiments’ al-
+lows such probing into a “pre-language, pre-predicative, a pre-
+discursive” [109] space of propositions—the latter holding latent 
+implications for design practice, theory and research or other forms 
+of knowledge making. In efect, by ofering a shortcut across the 
+tensions of AI materiality and literacy, RtD can therefore avoid 
+what anthropologist Lee has referred to as a persistent “epistemic 
+trap” [60] in discourses around AI technologies, and particularly 
+the idea of literacy through transparency. Lee, drawing from Cal-
+lon [22], argues that studies need to progress beyond seeing AI 
+technologies as “punctualized;” i.e. as fnite objects that need to be 
+explained or made transparent. This, we argue, is a key opening 
+for RtD with regards to AI literacy. Across many felds of study 
+(e.g., HCI, FAccT, XAI, anthropology, sociology), it is a systemic 
+problem that researching, critiquing or designing with AI technolo-
+gies generally relies on either a priori (e.g., the arrangement of 
+software components, the provenance of data) or post-hoc (e.g., 
+outputs, socio-technical consequences) objects and events. The en-
+toptic metaphor, then, shows how RtD researchers can instead zero 
+in on the continuous interplay of either. This allows researchers to 
+move from the epistemic trap of what is there to how there is being 
+made—or, as we have stressed, move from what AI technologies 
+are to what they do. 
+4.3 Entoptic Afordances and 21st Century 
+Design 
+Lastly, our engagement with the Entoptic Field Camera has opened 
+up a promising research trajectory on the materiality of AI tech-
+nologies, design afordances, and the conditions of 21st century 
+design; which we discuss briefy in the following. This contribution 
+is informed by Benjamin’s experience in designing the Entoptic 
+Field Camera, Biggs’s mixed-media experimentation, as well as 
+Pierce’s probing of recursive input-output pairings. We propose 
+that all these, as well as the implications derived from our study, are 
+indicative of a new “formative” [23] structure of design afordances 
+shaped by 21st century technologies such as GANs. The notion that 
+forms of expression are related to technological development, and 
+particularly optical techniques (cf. [58]), is nothing new. Indeed, this 
+has been demonstrated in studies as early as Panofsky’s seminal 
+1926 analysis on the diferences between Ancient Greek “aggregate 
+space,” where sculptures mapped to ‘natural’ perception and or-
+namentation to simple layering of shapes, and post-Renaissance 
+“systematic space” [82], where linear perspective allowed for the 
+geometrization of the entire sensible world. More radically, a co-
+evolution of forms of expression and technological development 
+has been substantiated by philosophical anthropologist Löfer, who 
+draws on empirical work to show how technologies both seed as 
+well as draw from particular “afordant ontologies” [70, 71]. The 
+latter can be described as historically evolving material assemblages 
+of human and non-human actors which shape how the world is 
+accessible to human intervention; and, importantly, thereby shap-
+ing both the concrete forms of expression (e.g., linear perspective 
+paintings) as well as the governing metaphysical principle (e.g., 
+geometric ‘rationality’). 
+In this light, we call for a more comprehensive theoretical and 
+designerly engagement with the forms of expression aforded to de-
+sign by contemporary AI technologies (e.g., deep neural networks, 
+GANs, prompt-based image synthesis, text generation, etc.). We 
+do so because a more exhaustive reckoning with the formative 
+structure of 21st century design is not only an intriguing theoret-
+ical endeavor, but also critically important for design: The early 
+21st century is a time in which the active pursuit of alternative 
+forms of production, representation, practice and subjectivity are 
+of existential importance. Accordingly, if design can gain an active 
+foothold on its contemporary formative structure (i.e., how design 
+afordances are made available in light of technological develop-
+ment), it is more likely to distinguish itself from—or at least, gesture 
+beyond—the catastrophic tendencies of the forms expressing and 
+perpetuating extractive capitalism. We see the presented work and 
+implications for design by the entoptic metaphor in exactly this 
+light; allowing for frst thoughts on the matter which we sketch in 
+the following. 
+Designing as well as using the Entoptic Field Camera involved 
+conceiving and putting into action forms that in themselves were 
+absent from intentional design practice—in other words, the actual 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Benjamin, et al. 
+entoptic image could not be designed to the same degree as, for in-
+stance, a graphic user interface or chair can be designed. As AI tech-
+nologies rapidly enter designers’ toolkits, we therefore propose that 
+there is a particular material absence which characterizes the novel 
+entoptic afordances for design. While absence in a direct sense (e.g., 
+as negative space, darkness, silence) is a relatively well-known or 
+at least intuitively engaged design material, our engagement with 
+the entoptic metaphor also attests that the absence ‘encountered’ 
+in AI technologies is diferent to to this ‘frst-order’ absence—it 
+is neither “ready-at-hand” nor “present-to-hand” [45] as an intu-
+itive or deliberate way to make other forms stand out through, e.g., 
+visual gaps or pauses in performance. Our work with the entop-
+tic metaphor, we argue, is an example for RtD that leverages the 
+contemporary formative structure by designing with the ‘absent’ 
+technological afordance of the metaphorical entoptic feld. How-
+ever, it should be noted that this does not in itself articulate what 
+the formative structure is, or what e.g. particular ethico-political 
+dimension are that it is associated with. We propose that a more 
+exhaustive theoretical engagement, which compares the evolution 
+of design afordances—and particularly, forms of absence—across 
+various historical formative structures (e.g., Western linear perspec-
+tive or Japanese ma), may be required. In this regard, we propose 
+that metaphor-driven RtD such as the Entoptic Field Camera can 
+critically support, scafold and even lead such theoretical work. 
+4.4 Limitations and Future Work 
+Given the experimental approach of RtD projects, there are limita-
+tions to the presented work. First, the selection of participants in 
+the feld study introduces signifcant bias due to their expertise and 
+further involvement as co-authors. Arguably, the core motivation 
+for developing the entoptic metaphor was to unfold ongoing reality-
+shaping infuences of AI technologies in everyday, consumer-grade 
+technological products—suggesting that the involvement of a more 
+diverse set of stakeholders, with more everyday connections to AI 
+technologies or the systems they are embedded in, could have been 
+pursued. However, we argue that this initial restriction has led to 
+design opportunities and implications for design methodologies 
+that may allow for a subsequent broadening of the people involved. 
+Second, and relatedly, it may be asked who we envision gets to make 
+entoptic media? Power imbalances are particularly prevalent and 
+intricate surrounding AI technologies, while our implications are 
+thus far ‘only’ oriented at future designers. Accordingly, we argue 
+that further work is needed to ensure metaphor-driven RtD cen-
+tered on AI technologies should participatory methods. Dove and 
+Fayard are exemplary in this regard, bringing a basic metaphoric 
+concept and letting participants iterate around it [31]. 
+Lastly, while we suggest that critical work can be done via the 
+entoptic metaphor, it is unclear how far this can be pursued. Partic-
+ularly difculty resides around the question of datasets: if entoptic 
+media are essentially metaphor-driven RtD experimentation with 
+actual AI technologies, then arguably they may arrive ‘late to the 
+scene;’ i.e. after signifcant political and ethical dimensions around 
+dataset curation and gathering have already played out. Again, 
+however, we argue that the role of such prototypes needs to be 
+borne in mind: these are not tools for auditing purposes, but rather 
+artefacts that prompt articulations of the efects of AI technologies. 
+Nonetheless, the possibility of the entoptic metaphor in itself to 
+inform actual technical designs of, e.g., AI pipelines in future work 
+remains intriguing: if we pay attention to the concept of material 
+interplay, do new opportunities arise in which, for instance, users 
+could fag or contest overt transformations stemming from specifc 
+cases of interplay? As such, we argue that this project has laid the 
+groundwork for rich and manifold future explorations. 
+5 CONCLUSION 
+In this paper, we have presented a metaphor-driven RtD project: 
+the Entoptic Field Camera. It was motivated by our intuition that 
+enthusiasm over current advances in prompt-based image synthesis 
+models may overshadow the often subtle ways that AI technolo-
+gies shape experiences of reality. Through the development of the 
+entoptic metaphor, we introduced an analogy that thematized the 
+latter: just as the physiological interplay of eye and brain lead to in-
+voluntary perceptions (of, e.g., foaters), so the material interplay of 
+AI technologies’ components (i.e., models, datasets, algorithms) can 
+shape how realities are experienced. We materialized this metaphor 
+in the form of a research product, the Entoptic Field Camera, a web 
+application with which users take an image that is subsequently 
+processed by GAN techniques. Through a design process informed 
+by autobiographical design and a subsequent feld study among 
+co-authors, we found that the Entoptic Field Camera prompted 
+specifc forms of practice and led to the articulation of particular 
+situated literacies. Taken together, these provided design impli-
+cations for critical, refective, more-than-human, sustainable and 
+ludic design to engage with AI technologies. Due to the breadth of 
+implications, we further refected on programmatic implications, 
+where we argued that RtD may contribute to discourses around AI 
+literacy by materializing prompts for situated articulations that re-
+fect actual AI technologies without relying on conventional criteria 
+of technical literacy or opacity. Lastly, we refected on whether the 
+entoptic metaphor, as an instance of designerly ways of engaging 
+AI technologies, may indicate specifcities of 21st century design, 
+and sketched out an initial research trajectory. In conclusion, we 
+argue that metaphor-driven RtD projects such as the one presented 
+hold tremendous potential for the HCI community to further probe 
+at the “curvatures” [51] of the coming 21st century lifeworld. 
+ACKNOWLEDGMENTS 
+We wish to thank our reviewers for their constructive feedback, Tim 
+Korjakow for making the entoptic feld addressable, and Ian For-
+rester for providing a venue for real-world encounters. This work 
+is supported by UK Research and Innovation (grant MR/T019220/1, 
+“Design Research Works”) and the National Science Foundation, 
+grants #2142795 and #2230825. 
+REFERENCES 
+[1] 2010. entoptic phenomena. In Concise Medical Dictionary. Oxford University 
+Press. https://www.oxfordreference.com/view/10.1093/acref/9780199557141. 
+001.0001/acref-9780199557141-e-3227 
+[2] 2022. Shuttercam | Responsible Sensing Lab. https://responsiblesensinglab.org/ 
+projects/shuttercam 
+[3] Philip Agre. 1997. Computation and human experience. Cambridge University 
+Press, Cambridge ; New York. 
+[4] Philip E. Agre. 1997. Toward a Critical Technical Practice: Lessons Learned in 
+Trying to Reform AI. In Social Science, Technical Systems, and Cooperative Work: 
+The Entoptic Field Camera 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Bridging the Great Divide, Geof Bowker, Susan Leigh Star, Willian Turner, and 
+Les Gasser (Eds.). L. Erlbaum Associates, New Jersey, USA, 131–156. 
+[5] M. M. Bakhtin. 1986. Speech genres and other late essays (1st ed ed.). Number no. 
+8 in University of Texas Press Slavic series. University of Texas Press, Austin. 
+[6] Jefrey Bardzell and Shaowen Bardzell. 2013. What is "critical" about critical 
+design? In Proceedings of the SIGCHI Conference on Human Factors in Computing 
+Systems. Association for Computing Machinery, New York, NY, USA, 3297–3306. 
+https://doi.org/10.1145/2470654.2466451 
+[7] Rocco Bellanova and Gloria González Fuster. 2013. Politics of Disappearance: 
+Scanners and (Unobserved) Bodies as Mediators of Security Practices. Interna-
+tional Political Sociology 7, 2 (June 2013), 188–209. https://doi.org/10.1111/ips. 
+12017 
+[8] Jesse Josua Benjamin. 2021. The Spark of a Future Anterior: An Archaeology 
+of Entoptic Media. ŠUM Journal for Contemporary Art Criticism and Theory 16 
+(2021), 2172–2184. https://www.sum.si/journal-articles/the-spark-of-a-future-
+anterior-an-archaeology-of-entoptic-media Publisher: Društvo Galerija Books. 
+[9] Jesse Josua Benjamin, Arne Berger, Nick Merrill, and James Pierce. 2021. Machine 
+Learning Uncertainty as a Design Material: A Post-Phenomenological Inquiry. In 
+Proceedings of the 2021 CHI Conference on Human Factors in Computing Systems 
+(CHI ’21). Association for Computing Machinery, New York, NY, USA, 1–14. 
+https://doi.org/10.1145/3411764.3445481 
+[10] Jesse Josua Benjamin, Christoph Kinkeldey, Claudia Müller-Birn, Tim Korjakow, 
+and Eva-Maria Herbst. 2022. Explanation Strategies as an Empirical-Analytical 
+Lens for Socio-Technical Contextualization of Machine Learning Interpretability. 
+Proceedings of the ACM on Human-Computer Interaction 6, GROUP (Jan. 2022), 
+39:1–39:25. https://doi.org/10.1145/3492858 
+[11] Heidi R. Biggs and Audrey Desjardins. 2020. High Water Pants: Designing 
+Embodied Environmental Speculation. In Proceedings of the 2020 CHI Conference 
+on Human Factors in Computing Systems (CHI ’20). Association for Computing 
+Machinery, Honolulu, HI, USA, 1–13. https://doi.org/10.1145/3313831.3376429 
+[12] Abeba Birhane, Vinay Uday Prabhu, and Emmanuel Kahembwe. 2021. Multi-
+modal datasets: misogyny, pornography, and malignant stereotypes. https: 
+//doi.org/10.48550/arXiv.2110.01963 arXiv:2110.01963 [cs]. 
+[13] Alan F. Blackwell. 2006. The reifcation of metaphor as a design tool. ACM 
+Transactions on Computer-Human Interaction 13, 4 (Dec. 2006), 490–530. https: 
+//doi.org/10.1145/1188816.1188820 
+[14] Eli Blevis, Elizabeth Churchill, William Odom, James Pierce, David Roedl, and 
+Ron Wakkary. 2012. Visual thinking & digital imagery. In Conference on Human 
+Factors in Computing Systems - Proceedings. 2715–2718. https://doi.org/10.1145/ 
+2212776.2212703 
+[15] Shunying An Blevis, Eli Blevis, and Bonnie Nardi. 2019. All the tea in China: In-
+teraction design inspirations. In C and C 2019 - Proceedings of the 2019 Creativity 
+and Cognition, Vol. c. 333–345. https://doi.org/10.1145/3325480.3326569 
+[16] Ian Bogost. 2020. 
+Your Phone Wasn’t Built for the Apocalypse. 
+https://www.theatlantic.com/technology/archive/2020/09/camera-phone-
+wildfre-sky/616279/ Section: Technology. 
+[17] Ian Bogost. 2022. 
+Google’s ‘Sentient’ Chatbot Is Our Self-Deceiving Fu-
+ture. 
+https://www.theatlantic.com/technology/archive/2022/06/google-
+engineer-sentient-ai-chatbot/661273/ Section: Technology. 
+[18] Katherine L. Bouman, Michael D. Johnson, Daniel Zoran, Vincent L. 
+Fish, Sheperd S. Doeleman, and William T. Freeman. 2016. 
+Compu-
+tational Imaging for VLBI Image Reconstruction. In Proceedings of the 
+IEEE Conference on Computer Vision and Pattern Recognition (CVPR). 913– 
+922. 
+https://www.cv-foundation.org/openaccess/content_cvpr_2016/html/ 
+Bouman_Computational_Imaging_for_CVPR_2016_paper.html 
+[19] Nico Brand, William Odom, and Samuel Barnett. 2021. A Design Inquiry into 
+Introspective AI: Surfacing Opportunities, Issues, and Paradoxes. In Designing 
+Interactive Systems Conference 2021. ACM, Virtual Event USA, 1603–1618. https: 
+//doi.org/10.1145/3461778.3462000 
+[20] Benjamin Bratton and Blaise Agüera Y Arcas. 2022. The Model Is The Message. 
+NOEMA (July 2022). https://www.noemamag.com/the-model-is-the-message 
+[21] Jenna Burrell. 2016. How the machine ‘thinks’: Understanding opacity in ma-
+chine learning algorithms. Big Data & Society 3, 1 (Jan. 2016), 205395171562251. 
+https://doi.org/10.1177/2053951715622512 
+[22] Michel Callon. 1990. Techno-economic Networks and Irreversibility. The 
+Sociological Review 38, 1_suppl (May 1990), 132–161. https://doi.org/10.1111/j. 
+1467-954X.1990.tb03351.x Publisher: SAGE Publications Ltd. 
+[23] Ernst Cassirer. 1953. Language and Myth (dover ed ed.). Dover Publications Inc., 
+New York. 
+[24] Brian X. Chen. 2019. The Reason Your Photos Are About to Get a Lot Better. The 
+New York Times (Oct. 2019). https://www.nytimes.com/2019/10/15/technology/ 
+personaltech/google-pixel-photography.html 
+[25] Yu-Sheng Chen, Yu-Ching Wang, Man-Hsin Kao, and Yung-Yu Chuang. 2018. 
+Deep Photo Enhancer: Unpaired Learning for Image Enhancement From Pho-
+tographs With GANs. In Proceedings of the IEEE Conference on Computer Vision 
+and Pattern Recognition. 6306–6314. http://openaccess.thecvf.com/content_ 
+cvpr_2018/html/Chen_Deep_Photo_Enhancer_CVPR_2018_paper.html 
+[26] Kate Crawford and Vladan Joler. 2018. Anatomy of an AI System. 
+http: 
+//www.anatomyof.ai 
+[27] Audrey Desjardins, Cayla Key, Heidi R. Biggs, and Kelsey Aschenbeck. 2019. 
+Bespoke Booklets: A Method for Situated Co-Speculation. In Proceedings of the 
+2019 on Designing Interactive Systems Conference (DIS ’19). ACM, New York, NY, 
+USA, 697–709. https://doi.org/10.1145/3322276.3322311 event-place: San Diego, 
+CA, USA. 
+[28] Carl DiSalvo. 2012. Adversarial design. MIT Press, Cambridge, Mass. ; London. 
+[29] Jef Donahue, Philipp Krähenbühl, and Trevor Darrell. 2016. Adversarial feature 
+learning. arXiv preprint arXiv:1605.09782 Published as a conference paper at 
+ICLR 2017. (2016). 
+[30] Paul Dourish. 2016. Algorithms and their others: Algorithmic culture in context. 
+Big Data & Society 3, 2 (Dec. 2016), 2053951716665128. https://doi.org/10.1177/ 
+2053951716665128 
+[31] Graham Dove and Anne-Laure Fayard. 2020. Monsters, Metaphors, and Ma-
+chine Learning. In Proceedings of the 2020 CHI Conference on Human Factors in 
+Computing Systems (CHI ’20). Association for Computing Machinery, Honolulu, 
+HI, USA, 1–17. https://doi.org/10.1145/3313831.3376275 
+[32] Tony Dunne and Delena Pacenti Bill Gaver. 1999. Cultural Probes. ACM 
+Interactions February (1999), 21–29. 
+[33] Hamid Ekbia and Bonnie Nardi. 2014. Heteromation and its (dis)contents: The 
+invisible division of labor between humans and machines. First Monday 19, 6 
+(May 2014), 1–21. https://doi.org/10.5210/fm.v19i6.5331 
+[34] Chris Elsden, David Chatting, Michael Duggan, Andrew Carl Dwyer, and 
+Pip Thornton. 2022. Zoom Obscura: Counterfunctional Design for Video-
+Conferencing. In Proceedings of the 2022 CHI Conference on Human Factors 
+in Computing Systems (CHI ’22). Association for Computing Machinery, New 
+York, NY, USA, 1–17. https://doi.org/10.1145/3491102.3501973 
+[35] Vilém Flusser. 2011. Into the Universe of Technical Images. Number 32 in 
+Electronic Mediations. University of Minnesota Press, Minneapolis, London. 
+[36] Christopher Frayling. 1994. Research in Art and Design. 1, 1 (1994). http: 
+//researchonline.rca.ac.uk/384/ 
+[37] William Gaver, Peter Gall Krogh, Andy Boucher, and David Chatting. 2022. 
+Emergence as a Feature of Practice-based Design Research. In Designing Inter-
+active Systems Conference (DIS ’22). Association for Computing Machinery, New 
+York, NY, USA, 517–526. https://doi.org/10.1145/3532106.3533524 
+[38] William W. Gaver, John Bowers, Kirsten Boehner, Andy Boucher, David W.T. 
+Cameron, Mark Hauenstein, Nadine Jarvis, and Sarah Pennington. 2013. In-
+door Weather Stations: Investigating a Ludic Approach to Environmental HCI 
+Through Batch Prototyping. In Proceedings of the SIGCHI Conference on Human 
+Factors in Computing Systems (CHI ’13). ACM, New York, NY, USA, 3451–3460. 
+https://doi.org/10.1145/2470654.2466474 event-place: Paris, France. 
+[39] William W. Gaver, John Bowers, Andrew Boucher, Hans Gellerson, Sarah Pen-
+nington, Albrecht Schmidt, Anthony Steed, Nicholas Villars, and Brendan 
+Walker. 2004. The Drift Table: Designing for Ludic Engagement. In CHI ’04 
+Extended Abstracts on Human Factors in Computing Systems (CHI EA ’04). ACM, 
+New York, NY, USA, 885–900. https://doi.org/10.1145/985921.985947 event-
+place: Vienna, Austria. 
+[40] Maliheh Ghajargar and Jefrey Bardzell. 2021. Synthesis of Forms: Integrating 
+Practical and Refective Qualities in Design. In Proceedings of the 2021 CHI 
+Conference on Human Factors in Computing Systems (CHI ’21). Association for 
+Computing Machinery, New York, NY, USA, 1–12. https://doi.org/10.1145/ 
+3411764.3445232 
+[41] Ian J. Goodfellow, Jean Pouget-Abadie, Mehdi Mirza, Bing Xu, David Warde-
+Farley, Sherjil Ozair, Aaron Courville, and Yoshua Bengio. 2014. Generative 
+Adversarial Networks. arXiv:1406.2661 [cs, stat] (June 2014). http://arxiv.org/ 
+abs/1406.2661 arXiv: 1406.2661. 
+[42] David Philip Green, Simon Bowen, Jonathan Hook, and Peter Wright. 2017. 
+Enabling Polyvocality in Interactive Documentaries through" Structural Partici-
+pation". In Proceedings of the 2017 CHI conference on human factors in computing 
+systems. 6317–6329. 
+[43] Sabrina Hauser, Ron Wakkary, William Odom, Peter-Paul Verbeek, Audrey 
+Desjardins, Henry Lin, Matthew Dalton, Markus Schilling, and Gijs de Boer. 
+2018. Deployments of the Table-non-table: A Refection on the Relation Between 
+Theory and Things in the Practice of Design Research. In Proceedings of the 2018 
+CHI Conference on Human Factors in Computing Systems (CHI ’18). ACM, New 
+York, NY, USA, 201:1–201:13. https://doi.org/10.1145/3173574.3173775 
+[44] Martin Heidegger. 2005. The basic problems of phenomenology. Indiana University 
+Press, Bloomington; Indianapolis. OCLC: 750615910. 
+[45] Martin Heidegger. 2010. Being and time. State University of New York Press, 
+Albany. OCLC: ocn608297834. 
+[46] Hermann von Helmholtz. 1867. Handbuch der physiologischen Optik. Leipzig : 
+Leopold Voss. http://archive.org/details/handbuchderphysi00helm 
+[47] Holly Herndon and Matt Dryhurst. 2022. 
+Infnite Images and 
+the latent camera. 
+https://mirror.xyz/herndondryhurst.eth/ 
+eZG6mucl9fqU897XvJs0vUUMnm5OITpSWN8S-6KWamY 
+[48] Jonathan Ho, Ajay Jain, and Pieter Abbeel. 2020. Denoising Difusion Proba-
+bilistic Models. https://doi.org/10.48550/arXiv.2006.11239 arXiv:2006.11239 [cs, 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+Benjamin, et al. 
+stat]. 
+[49] Fred Hohman, Andrew Head, Rich Caruana, Robert DeLine, and Steven M. 
+Drucker. 2019. Gamut: A Design Probe to Understand How Data Scientists 
+Understand Machine Learning Models. In Proceedings of the 2019 CHI Conference 
+on Human Factors in Computing Systems (CHI ’19). ACM, New York, NY, USA, 
+579:1–579:13. https://doi.org/10.1145/3290605.3300809 event-place: Glasgow, 
+Scotland Uk. 
+[50] Sarah Homewood, Amanda Karlsson, and Anna Vallgårda. 2020. Removal as 
+a Method: A Fourth Wave HCI Approach to Understanding the Experience of 
+Self-Tracking. In Proceedings of the 2020 ACM Designing Interactive Systems 
+Conference. Association for Computing Machinery, New York, NY, USA, 1779– 
+1791. https://doi.org/10.1145/3357236.3395425 
+[51] Don Ihde. 1990. Technology and the Lifeworld: From Garden to Earth. Indiana 
+University Press, Bloomington and Indianapolis. 
+[52] Don Ihde. 1998. Expanding hermeneutics: visualism in science. Northwestern 
+University Press, Evanston, Ill. 
+[53] Lilly C. Irani and M. Six Silberman. 2013. Turkopticon: interrupting worker 
+invisibility in amazon mechanical turk. In Proceedings of the SIGCHI Conference 
+on Human Factors in Computing Systems. ACM, Paris France, 611–620. https: 
+//doi.org/10.1145/2470654.2470742 
+[54] Nadine Jarvis, David Cameron, and Andy Boucher. 2012. Attention to detail: 
+Annotations of a design process. In NordiCHI 2012: Making Sense Through Design 
+- Proceedings of the 7th Nordic Conference on Human-Computer Interaction. 11–20. 
+https://doi.org/10.1145/2399016.2399019 
+[55] Ellen Jiang, Kristen Olson, Edwin Toh, Alejandra Molina, Aaron Donsbach, 
+Michael Terry, and Carrie J Cai. 2022. PromptMaker: Prompt-based Prototyping 
+with Large Language Models. In Extended Abstracts of the 2022 CHI Conference on 
+Human Factors in Computing Systems (CHI EA ’22). Association for Computing 
+Machinery, New York, NY, USA, 1–8. https://doi.org/10.1145/3491101.3503564 
+[56] Li Jönsson, Martín Tironi, Pablo Hermansen, and Alex Wilkie. 2022. Doing and 
+Undoing Post-Anthropocentric Design. In DRS Biennial Conference Series. https: 
+//dl.designresearchsociety.org/drs-conference-papers/drs2022/editorials/17 
+[57] Christoph Kinkeldey, Tim Korjakow, and Jesse Josua Benjamin. 2019. Towards 
+Supporting Interpretability of Clustering Results with Uncertainty Visualization. 
+In Eurographics Proceedings 2019. The Eurographics Association. https://doi. 
+org/10.2312/trvis.20191183 
+[58] Friedrich Kittler. 2010. Optical media : Berlin lectures 1999. Polity, Cambridge, 
+UK ; Malden, MA. 
+[59] Lucian Leahu. 2016. Ontological Surprises: A Relational Perspective on Machine 
+Learning. In Proceedings of the 2016 ACM Conference on Designing Interactive 
+Systems (DIS ’16). ACM, New York, NY, USA, 182–186. https://doi.org/10.1145/ 
+2901790.2901840 
+[60] Francis Lee. 2021. Enacting the Pandemic: Analyzing Agency, Opacity, and 
+Power in Algorithmic Assemblages. Science & Technology Studies 34, 1 (Feb. 
+2021), 65–90. https://doi.org/10.23987/sts.75323 Number: 1. 
+[61] J. D. Lewis-Williams and T. A. Dowson. 1988. The Signs of All Times: Entoptic 
+Phenomena in Upper Palaeolithic Art [and Comments and Reply]. Current 
+Anthropology 29, 2 (1988), 201–245. https://www.jstor.org/stable/2743395 Pub-
+lisher: [University of Chicago Press, Wenner-Gren Foundation for Anthropo-
+logical Research]. 
+[62] Youn-kyung Lim, Daesung Kim, Jaesung Jo, and Jong-bum Woo. 2013. Discovery-
+Driven Prototyping for User-Driven Creativity. IEEE Pervasive Computing 12, 3 
+(July 2013), 74–80. https://doi.org/10.1109/MPRV.2012.57 Conference Name: 
+IEEE Pervasive Computing. 
+[63] Henry Lin, Ron Wakkary, and Doenja Oogjes. 2019. The Tilting Bowl: Electronic 
+design for a research product. In DIS 2019 - Proceedings of the 2019 ACM Design-
+ing Interactive Systems Conference. 345–357. https://doi.org/10.1145/3322276. 
+3323701 
+[64] Maria Lindh. 2016. As a Utility – Metaphors of Information Technologies. Human 
+IT 13, 2 (2016), 47–80. http://urn.kb.se/resolve?urn=urn:nbn:se:hb:diva-10679 
+Publisher: Högskolan i Borås. 
+[65] Joseph Lindley, Haider Ali Akmal, Franziska Pillling, and Paul Coulton. 2020. Re-
+searching AI Legibility through Design. In Proceedings of the 2020 CHI Conference 
+on Human Factors in Computing Systems (CHI ’20). Association for Computing 
+Machinery, Honolulu, HI, USA, 1–13. https://doi.org/10.1145/3313831.3376792 
+[66] Joseph Galen Lindley, Paul Coulton, Haider Ali Akmal, and Franziska Louise 
+Pilling. 2020. Signs of the Time: Making AI Legible. In DRS Biennial Conference 
+Series. https://dl.designresearchsociety.org/drs-conference-papers/drs2020/ 
+researchpapers/63 
+[67] Szu Yu Liu, Jefrey Bardzell, and Shaowen Bardzell. 2018. Photography as a 
+design research tool into natureculture. In DIS 2018 - Proceedings of the 2018 
+Designing Interactive Systems Conference. 777–790. https://doi.org/10.1145/ 
+3196709.3196819 
+[68] Duri Long and Brian Magerko. 2020. What is AI Literacy? Competencies and 
+Design Considerations. In Proceedings of the 2020 CHI Conference on Human 
+Factors in Computing Systems (CHI ’20). Association for Computing Machinery, 
+New York, NY, USA, 1–16. https://doi.org/10.1145/3313831.3376727 
+[69] Andrés Lucero, Audrey Desjardins, Carman Neustaedter, Kristina Höök, Marc 
+Hassenzahl, and Marta E. Cecchinato. 2019. A Sample of One: First-Person 
+Research Methods in HCI. In Companion Publication of the 2019 on Designing 
+Interactive Systems Conference 2019 Companion (DIS ’19 Companion). Association 
+for Computing Machinery, New York, NY, USA, 385–388. https://doi.org/10. 
+1145/3301019.3319996 
+[70] Davor Löfer. 2018. Distributing Potentiality. Post-capitalist Economies and 
+the Generative Time Regime. Identities: Journal for Politics, Gender and Culture 
+15, 1-2 (2018), 8–44. https://identitiesjournal.edu.mk/index.php/IJPGC/article/ 
+view/329 
+[71] Davor Löfer. 2019. Generative Realitäten I Die Technologische Zivilisation als 
+neue Achsenzeit und Zivilisationsstufe Eine Anthropologie des 21. Jahrhunderts. 
+Velbrück Wissenschaft. OCLC: 1081348786. 
+[72] Drew McDermott. 1976. Artifcial Intelligence Meets Natural Stupidity. SIGART 
+Bull. 57 (April 1976), 4–9. https://doi.org/10.1145/1045339.1045340 
+[73] Heather McKinnon. 2016. Finding Design Value in Modern Mundanity. In 
+Proceedings of the 2016 ACM Conference on Designing Interactive Systems - DIS, 
+Vol. 16. 1059–1071. https://doi.org/10.1145/2901790.2901906 
+[74] Yisroel Mirsky and Wenke Lee. 2021. The Creation and Detection of Deepfakes: 
+A Survey. Comput. Surveys 54, 1 (Jan. 2021), 7:1–7:41. https://doi.org/10.1145/ 
+3425780 
+[75] W. J. T Mitchell. 1995. Picture theory : essays on verbal and visual representation 
+(paperback ed. ed.). Chicago [u.a.]. 
+[76] Alexander Mordvintsev, Christopher Olah, and Mike Tyke. 2015. Inception-
+ism: Going Deeper into Neural Networks. http://ai.googleblog.com/2015/06/ 
+inceptionism-going-deeper-into-neural.html 
+[77] Dave Murray-Rust, Iohanna Nicenboim, and Dan Lockton. 2022. Metaphors for 
+designers working with AI. https://doi.org/10.21606/drs.2022.667 
+[78] Carman Neustaedter and Phoebe Sengers. 2012. Autobiographical design: what 
+you can learn from designing for yourself. Interactions 19, 6 (Nov. 2012), 28–33. 
+https://doi.org/10.1145/2377783.2377791 
+[79] Iohanna Nicenboim, Elisa Giaccardi, Marie Louise Juul Søndergaard, Anu-
+radha Venugopal Reddy, Yolande Strengers, James Pierce, and Johan Redström. 
+2020. More-Than-Human Design and AI: In Conversation with Agents. In Com-
+panion Publication of the 2020 ACM Designing Interactive Systems Conference 
+(DIS’ 20 Companion). Association for Computing Machinery, New York, NY, 
+USA, 397–400. https://doi.org/10.1145/3393914.3395912 
+[80] William Odom, Ron Wakkary, Youn-kyung Lim, Audrey Desjardins, Bart 
+Hengeveld, and Richard Banks. 2016. From Research Prototype to Research 
+Product. In Proceedings of the 2016 CHI Conference on Human Factors in Com-
+puting Systems (CHI ’16). ACM, New York, NY, USA, 2549–2561. 
+https: 
+//doi.org/10.1145/2858036.2858447 
+[81] Chris Olah, Arvind Satyanarayan, Ian Johnson, Shan Carter, Ludwig Schubert, 
+Katherine Ye, and Alexander Mordvintsev. 2018. The Building Blocks of Inter-
+pretability. Distill 3, 3 (March 2018), e10. https://doi.org/10.23915/distill.00010 
+[82] Erwin Panofsky. 1991. Perspective as Symbolic Form (1st ed ed.). Zone Books ; 
+Distributed by the MIT Press, New York : Cambridge, Mass. 
+[83] James Pierce. 2014. On the Presentation and Production of Design Research 
+Artifacts in HCI. In Proceedings of the 2014 Conference on Designing Interactive 
+Systems (DIS ’14). ACM, New York, NY, USA, 735–744. https://doi.org/10.1145/ 
+2598510.2598525 event-place: Vancouver, BC, Canada. 
+[84] James Pierce. 2021. In Tension with Progression: Grasping the Frictional 
+Tendencies of Speculative, Critical, and other Alternative Designs. In Pro-
+ceedings of the 2021 CHI Conference on Human Factors in Computing Systems 
+(CHI ’21). Association for Computing Machinery, New York, NY, USA, 1–19. 
+https://doi.org/10.1145/3411764.3445406 
+[85] James Pierce and Eric Paulos. 2015. Making Multiple Uses of the Obscura 
+1C Digital Camera: Refecting on the Design, Production, Packaging and Dis-
+tribution of a Counterfunctional Device. In Proceedings of the 33rd Annual 
+ACM Conference on Human Factors in Computing Systems (CHI ’15). Asso-
+ciation for Computing Machinery, New York, NY, USA, 2103–2112. https: 
+//doi.org/10.1145/2702123.2702405 
+[86] James Pierce, Phoebe Sengers, Tad Hirsch, Tom Jenkins, William Gaver, and 
+Carl DiSalvo. 2015. Expanding and Refning Design and Criticality in HCI. In 
+Proceedings of the 33rd Annual ACM Conference on Human Factors in Computing 
+Systems (CHI ’15). ACM, New York, NY, USA, 2083–2092. https://doi.org/10. 
+1145/2702123.2702438 event-place: Seoul, Republic of Korea. 
+[87] Victoria Purcell-Gates, Jim Anderson, Monique Gagne, Kristy Jang, Kimberly A. 
+Lenters, and Marianne McTavish. 2012. Measuring Situated Literacy Activity: 
+Challenges and Promises. Journal of Literacy Research 44, 4 (Dec. 2012), 396–425. 
+https://doi.org/10.1177/1086296X12457167 Publisher: SAGE Publications Inc. 
+[88] Ming Qian, Congyu Qiao, Jiamin Lin, Zhenyu Guo, Chenghua Li, Cong Leng, 
+and Jian Cheng. 2020. BGGAN: Bokeh-Glass Generative Adversarial Network 
+for Rendering Realistic Bokeh. arXiv:2011.02242 [cs, eess] 12537 (2020), 229–244. 
+https://doi.org/10.1007/978-3-030-67070-2_14 arXiv: 2011.02242. 
+[89] Anuradha Reddy, Iohanna Nicenboim, James Pierce, and Elisa Giaccardi. 2020. 
+Encountering ethics through design: a workshop with nonhuman participants. 
+AI & SOCIETY (Nov. 2020). https://doi.org/10.1007/s00146-020-01088-7 
+The Entoptic Field Camera 
+[90] Alastair Reynolds. 2003. Revelation Space. Gollancz, London. OCLC: 464649633. 
+[91] Delanie Ricketts and Dan Lockton. 2019. Mental landscapes: externalizing 
+mental models through metaphors. Interactions 26, 2 (Feb. 2019), 86–90. https: 
+//doi.org/10.1145/3301653 
+[92] Adi Robertson. 2022. The US Copyright Ofce says an AI can’t copyright its 
+art. https://www.theverge.com/2022/2/21/22944335/us-copyright-ofce-reject-
+ai-generated-art-recent-entrance-to-paradise 
+[93] Frank Rosenblatt. 1958. The perceptron: a probabilistic model for information 
+storage and organization in the brain. Psychological Review 65, 6 (1958), 386–408. 
+Publisher: American Psychological Association. 
+[94] Julija Rukanskaite. 2021.
+˙ 
+Tuning into uncertainty : A material exploration of object 
+detection through play. http://urn.kb.se/resolve?urn=urn:nbn:se:mau:diva-44239 
+[95] Olga Russakovsky, Jia Deng, Hao Su, Jonathan Krause, Sanjeev Satheesh, 
+Sean Ma, Zhiheng Huang, Andrej Karpathy, Aditya Khosla, Michael Bernstein, 
+Alexander C. Berg, and Li Fei-Fei. 2015. ImageNet Large Scale Visual Recog-
+nition Challenge. International Journal of Computer Vision 115, 3 (Dec. 2015), 
+211–252. https://doi.org/10.1007/s11263-015-0816-y 
+[96] Donald A. Schön. 1979. Generative metaphor: A perspective on problem-setting 
+in social policy. In Metaphor and thought. Vol. 2. Cambridge University Press 
+Cambridge, 137–163. 
+[97] Hugo Scurto, Baptiste Caramiaux, and Frederic Bevilacqua. 2021. Prototyping 
+Machine Learning Through Difractive Art Practice. In Designing Interactive 
+Systems Conference 2021 (DIS ’21). Association for Computing Machinery, New 
+York, NY, USA, 2013–2025. https://doi.org/10.1145/3461778.3462163 
+[98] Phoebe Sengers, Kirsten Boehner, Shay David, and Joseph ’Jofsh’ Kaye. 2005. 
+Refective Design. In Proceedings of the 4th Decennial Conference on Critical 
+Computing: Between Sense and Sensibility (CC ’05). ACM, New York, NY, USA, 
+49–58. https://doi.org/10.1145/1094562.1094569 event-place: Aarhus, Denmark. 
+[99] Zachary Senzer and Navin Sarma. 2021. Photobombs begone with Magic Eraser 
+in Google Photos. https://blog.google/products/photos/magic-eraser/ 
+[100] Petra Sundström, Alex Taylor, Katja Grufberg, Niklas Wirström, Jordi Solsona Be-
+lenguer, and Marcus Lundén. 2011. Inspirational bits: towards a shared under-
+standing of the digital material. In Proceedings of the SIGCHI Conference on Hu-
+man Factors in Computing Systems (CHI ’11). Association for Computing Machin-
+ery, New York, NY, USA, 1561–1570. https://doi.org/10.1145/1978942.1979170 
+[101] Grace Turtle. 2022. Mutant in the mirror: Queer becomings with AI. In DRS 
+Biennial Conference Series. https://dl.designresearchsociety.org/drs-conference-
+papers/drs2022/researchpapers/298 
+[102] Vinay Uday Prabhu and Abeba Birhane. 2020. Large image datasets: A pyrrhic 
+win for computer vision? arXiv e-prints 2006 (June 2020). http://adsabs.harvard. 
+edu/abs/2020arXiv200616923U arXiv:2006.16923. 
+[103] Francisco Varela and Jonathan Shear. 1999. First-Person Methodologies: What, 
+Why, How? Journal of Consciousness Studies 6, 2-3 (1999), 1–14. 
+[104] Peter-Paul Verbeek. 2006. What things do : philosophical refections on technology, 
+agency, and design. Penn State Press, University Park. 
+[105] Peter-Paul Verbeek. 2015. Beyond Interaction: A Short Introduction to Mediation 
+Theory. interactions 22, 3 (April 2015), 26–31. https://doi.org/10.1145/2751314 
+[106] James Vincent. 2022. 
+"An engine for the imagination": an inter-
+view with David Holz, CEO of AI image generator Midjourney. 
+https://www.theverge.com/2022/8/2/23287173/ai-image-generation-art-
+midjourney-multiverse-interview-david-holz 
+[107] Ron Wakkary. 2021. Things We Could Design: For More Than Human-Centered 
+Worlds. MIT Press, Cambridge, MA, USA. 
+[108] Ron Wakkary, Doenja Oogjes, Sabrina Hauser, Henry Lin, Cheng Cao, Leo Ma, 
+and Tijs Duel. 2017. Morse Things: A Design Inquiry into the Gap Between 
+Things and Us. In Proceedings of the 2017 Conference on Designing Interactive 
+Systems (DIS ’17). ACM, New York, NY, USA, 503–514. https://doi.org/10.1145/ 
+3064663.3064734 
+[109] Bernhard Waldenfels. 2000. Time Lag: Motifs for a Phenomenology of the 
+Experience of Time. Research in Phenomenology 30 (2000), 107–119. http: 
+//www.jstor.org/stable/24654799 Publisher: Brill. 
+[110] Danding Wang, Qian Yang, Ashraf Abdul, and Brian Y. Lim. 2019. Designing 
+Theory-Driven User-Centric Explainable AI. In Proceedings of the 2019 CHI 
+Conference on Human Factors in Computing Systems (CHI ’19). Association for 
+Computing Machinery, Glasgow, Scotland Uk, 1–15. https://doi.org/10.1145/ 
+3290605.3300831 
+[111] Charlie Warzel. 2022. 
+Where Does Alex Jones Go From Here? 
+https://newsletters.theatlantic.com/galaxy-brain/62f28a6bbcbd490021af2db4/ 
+where-does-alex-jones-go-from-here/ 
+[112] Yao Xie, Melody Chen, David Kao, Ge Gao, and Xiang ’Anthony’ Chen. 2020. 
+CheXplain: Enabling Physicians to Explore and Understand Data-Driven, AI-
+Enabled Medical Imaging Analysis. In Proceedings of the 2020 CHI Conference 
+on Human Factors in Computing Systems (CHI ’20). Association for Computing 
+Machinery, Honolulu, HI, USA, 1–13. https://doi.org/10.1145/3313831.3376807 
+[113] Qian Yang, Aaron Steinfeld, Carolyn Rosé, and John Zimmerman. 2020. Re-
+examining Whether, Why, and How Human-AI Interaction Is Uniquely Difcult 
+to Design. In Proceedings of the 2020 CHI Conference on Human Factors in Com-
+puting Systems (CHI ’20). Association for Computing Machinery, Honolulu, HI, 
+CHI ’23, April 23–28, 2023, Hamburg, Germany 
+USA, 1–13. https://doi.org/10.1145/3313831.3376301 
+[114] Zili Yi, Qiang Tang, Shekoofeh Azizi, Daesik Jang, and Zhan Xu. 2020. Con-
+textual Residual Aggregation for Ultra High-Resolution Image Inpainting. 
+arXiv:2005.09704 [cs] (May 2020). 
+http://arxiv.org/abs/2005.09704 arXiv: 
+2005.09704. 
+[115] Clement Zheng, HyunJoo Oh, Laura Devendorf, and Ellen Yi-Luen Do. 2019. 
+Sensing Kirigami. In Proceedings of the 2019 on Designing Interactive Systems 
+Conference (DIS ’19). Association for Computing Machinery, New York, NY, USA, 
+921–934. https://doi.org/10.1145/3322276.3323689 
+[116] Bolei Zhou, Agata Lapedriza, Aditya Khosla, Aude Oliva, and Antonio Tor-
+ralba. 2018. Places: A 10 Million Image Database for Scene Recognition. IEEE 
+Transactions on Pattern Analysis and Machine Intelligence 40, 6 (June 2018), 1452– 
+1464. https://doi.org/10.1109/TPAMI.2017.2723009 Conference Name: IEEE 
+Transactions on Pattern Analysis and Machine Intelligence. 

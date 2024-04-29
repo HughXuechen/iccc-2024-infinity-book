@@ -1,0 +1,670 @@
+User Perspectives of the Ethical Dilemmas of Ownership,
+Accountability, Leadership in Human-AI Co-Creation
+Jeba Rezwana1, Mary Lou Maher2
+1University of North Carolina at Charlotte, NC, USA
+2University of North Carolina at Charlotte, NC, USA
+Abstract
+In human-AI co-creation, AI not only categorizes, evaluates and interprets data but also generates new content and interacts
+with humans. Designing co-creative AI has many challenges due to the open-ended interaction between humans and AI. As
+co-creative AI is a form of intelligent technology directly involving humans, it is critical to anticipate and address ethical
+dilemmas during all design stages. Researchers have been exploring ethical issues associated with autonomous AI in recent
+years, but ethics in human-AI co-creativity is a relatively new research area. We explored ethical issues from the perspective
+of potential users in human-AI co-creation using a Design Fiction (DF) study. DF is a speculative design and research method
+that depicts a new concept or technology through stories as an intangible prototype. We present key findings from the study
+regarding user perception of co-creative AI, ownership of the creative product, accountability, and leadership. We discuss the
+implications of these ethical concerns in designing human-centered ethical co-creative AI.
+Keywords
+Co-creativity, AI Metaphors, Ownership, Leadership, Design Fiction, Human-AI Co-Creation, Ethical Issues
+1. Introduction
+Human-AI co-creativity, a subfield of computational cre-
+ativity, involves both humans and AI collaborating on
+a shared creative product [1]. Co-creative AI generates
+novel content while interacting with humans. The role
+of co-creative AI changes from a lone decision-maker
+to a more complex one depending on the interaction be-
+tween the AI and the user. Designing co-creative AI has
+many challenges due to the open-ended nature of cre-
+ativity and collaborative creative problem solving [2, 3].
+Unlike general human-computer interaction, human-AI
+co-creation creates a more complex relationship between
+humans and AI as 1) AI contributes and collaborates in
+the creative process, 2) AI takes on the human-like role
+of partner, evaluator, or generator rather than a tool, 3)
+AI creates novel content which is blended with the user’s
+contribution. Humans use complex interaction in col-
+laboration and it is not clear what kind of interaction
+will emerge in a human-AI co-creation. The complex
+interaction and partnership raise questions that are diffi-
+cult to answer, for example, who owns the product in a
+human-AI co-creation? Ethical dilemmas grow consider-
+ably more complex and critical in co-creative systems as
+AI begins to interact and collaborate with humans [4, 5, 6].
+Current human-centered AI (HAI) research emphasizes
+that the next frontier of AI is not just technological but
+Joint Proceedings of the ACM IUI Workshops 2023, March 2023,
+Sydney, Australia
+Envelope-Open jrezwana@uncc.edu (J. Rezwana); m.maher@uncc.edu
+(M. L. Maher)
+Orcid 0000-0003-1824-249X (J. Rezwana)
+© 2023 Copyright for this paper by its authors. Use permitted under Creative
+Commons License Attribution 4.0 International (CC BY 4.0).
+CEUR
+Workshop
+Proceedings
+http://ceur-ws.org
+ISSN 1613-0073
+CEUR Workshop Proceedings (CEUR-WS.org)
+also humanistic and ethical: AI is to enhance humans
+rather than replace them [7]. Therefore, it is essential to
+anticipate ethical dilemmas and address them during all
+design steps of co-creative AI [4].
+The effects of ethical issues and dilemmas in co-
+creative AI on the creative community and laypersons
+need to be considered to ensure a good user experi-
+ence. Human-AI co-creativity research is still formative
+and may be abstract to ordinary people. Therefore, we
+need methods that are more likely to tell us what we
+don’t know about the unknown future of co-creative AI.
+Muller and Liao proposed design fiction (DF) as a research
+method to place potential users in a central position in
+designing ethics and values of future AI [4]. DF is a re-
+search and prototyping technique specifically tailored
+to facilitating conversations about new technologies [8]
+to understand the appropriate design guidelines within
+the range of possibilities [9]. DF depicts a future technol-
+ogy through the world of stories, and users express their
+own accounts of the technologies they envision [4]. We
+conducted a user study with 18 participants to explore
+their perspectives of ethical dilemmas and concerns in
+human-AI co-creation using DF from the perspective of
+potential users. We present the key findings from the
+study as ethical stance and expectations of future users
+around ethical dilemmas in co-creative systems. Our
+findings can serve as the basis for design guidelines and
+future studies for human-centered ethical AI partners in
+co-creative systems.
+2. Related Research
+2.1. Ethical Dilemmas in Human-AI
+Co-Creativity
+When AI is incorporated into social entities and interacts
+with us, questions of values and ethics become urgent
+[10]. Because AI optimization can evolve quickly and
+unexpectedly, the challenge of value alignment arises to
+ensure that AI’s goals and behaviors align with human
+values and goals [11, 12]. Ethically aligned design is a
+must for human-centered AI solutions that avoid discrim-
+ination and maintain fairness and justice [7]. Llano and
+McCormack suggested a common understanding of the
+challenges that co-creative systems may bring to devise
+ethical guidelines for co-creative systems to grow the
+opportunities in human-AI partnership [13]. Compre-
+hensive and specific ethical principles are more likely
+to be translated into practice [14, 15]. Previous research
+suggested that understanding different values and goals
+in real practice and specific contexts is critical in bridg-
+ing the gap between ethical theories and implementation
+[14].
+Buschek et al. demonstrated how AI bias, owner-
+ship, accountability and perceived proficiency in AI are
+some of the major pitfalls when designing human-AI
+co-creative systems [16]. Recent ethical guidelines for
+AI lack a focus on what they entail for the context of
+creative collaboration [13]. Muller et al. raised questions
+in their design fiction about the ownership of the intellec-
+tual property produced during human-AI co-creation and
+the dynamics of human-AI collaboration [17]. There has
+been discussion about whether the users or the AI should
+lead the creative process [18, 19] and if AI should assist
+or collaborate with users [20]. A recent study regard-
+ing the impact of AI-to-human communication demon-
+strated that users perceive co-creative AI as more reliable,
+personal and intelligent when it can communicate with
+the users [21]. People’s perceptions of AI’s trustworthi-
+ness and connection with AI impact their decisions and
+actions. The communication between AI and humans
+impacts users’ inclination to self-disclose unintentional
+data [22, 23].
+2.2. User Perspective/Perception of AI
+Humans have many insecurities about the unknown
+world of technology and AI. What is unknown is un-
+certain, and this uncertainty leads to insecurity. A study
+on the role of AI in society focuses on citizens’ perspec-
+tives on the influence of AI shows that: On average, 53%
+of the population views AI as a positive development,
+while 33% see it as a harmful development [24]. The per-
+ception of AI is influenced by a number of key factors,
+including trust [25]. Researchers have investigated user
+perceptions of AI in different domains [26, 27, 28] since
+the social perception of one’s partner in a collaborative
+space can impact the outcome of the collaboration. The
+perceived interactivity – or lack thereof – of systems can
+have an impact on user perceptions of the system [28].
+Oh et al. suggested understanding users’ perceptions of
+these new technologies to develop design guidelines to
+improve [18].
+Boni suggested that AI development should focus on
+human values and needs, ensuring that AI works effec-
+tively for people [29]. Research on ethical interactions
+between humans and AI can improve the collaborative
+competencies of humans in relation to other humans
+and user experience [29]. To identify ethical concerns in
+terms of user perspective, user accounts of technologies
+they envision and values that co-creative AI implicates
+need to be investigated. Understanding humans in a de-
+sign area where they may not have lived but have had
+some experiences through popular culture is a major
+challenge [4]. Such experiences unavoidably shape user
+needs and values when interacting with AI goods, but
+they are too vague for developing systems [4].
+2.3. Design Fiction as a Design and
+Research Method
+Design Fiction (DF) is a prototyping and design technique
+that is specifically tailored to facilitating conversations
+about near futures [8, 30] in order to understand the
+appropriate design guidelines within the range of possi-
+bilities [9]. A design fiction depicts a future technology
+through the world of stories, and users express their own
+accounts of the technologies they envision and the values
+that those future technologies implicate [4]. DF has been
+used to reveal values associated with new technologies
+[31, 32, 33] and to open a space for diverse speculations
+about future technologies [34]. Muller and Liao proposed
+DF to restore future users to a central position in antic-
+ipating, designing, and evaluating future AI to design
+value-sensitive ethical AI [4]. In the literature, multiple
+methods have been offered to practice DF as a research
+methodology [35, 36]. Popular science fiction in the form
+of narratives, movies, videos, text, etc., raise concerns
+about autonomous AI and robots. However, we rarely
+witness fiction in the form of movies or narratives re-
+garding ethical dilemmas emerging from a co-creative
+AI that directly collaborates with humans and generates
+new data.
+3. Design Fiction Study
+In our study, we used design fiction as a research method
+and a prototype for a futuristic co-creative AI to identify
+ethical concerns and their stance on ethical dilemmas in
+human-AI co-creation. Our design fiction, Design Pal,
+can be found through the footnote link 1. Design Pal
+was motivated by two existing co-creative AI systems in
+the design domain: Creative Sketching Partner [37] and
+Creative Penpal [21]. The AI agent in these co-creative
+systems measures novelty using conceptual and/or visual
+similarity of images in a database as the basis for inspir-
+ing creativity in the user during a design task. Design
+Pal, the co-creative AI in our design fiction extends the
+AI ability of the Creative Sketching Partner with a modifi-
+cation of the interaction design to engage in human-like
+conversation. Diegesis must be both relatable to the au-
+dience’s reality and build a fictitious foundation upon
+which the design provocation or new technology can be
+convincing in order for it to work successfully in a design
+fiction environment [30]. We built on the design of ex-
+isting co-creative AI and added futuristic features to the
+co-creative AI in Design Pal to provoke potential users
+on ethical issues in the context of human-AI co-creation.
+3.1. Participants and Methodology
+There were 18 participants in this study: 8 were female,
+6 were male, and 4 were non-binary. The average age of
+the participants is 28. We selected participants based on
+a pre-study screening survey that asked questions about
+their knowledge of AI, knowledge of ethics, and field
+of work/study. Participants reported their knowledge
+of AI and ethics on a 3-point Likert scale. We recruited
+individuals who had knowledge in these areas, as well as
+those who did not. Based on participants’ self-reported
+data, we had 4 experts in both AI and Ethics, 5 experts
+in either AI or ethics, and others were self-reported non-
+experts.
+This study had 2 sessions. In session 1, participants
+read the design fiction and completed 2 surveys on their
+own time. In the first survey, we collected demographic
+information, including age, gender, estimation of knowl-
+edge in AI and estimation of knowledge in ethics. The
+participants then completed a second survey with reflec-
+tion questions on the DF. The survey questions include
+questions about ownership (Who do you think should
+own the design in a human-AI co-creation? The AI part-
+ner (Design Pal) or the user (Jessie)? Please explain your
+view on this), accountability (Is the co-creative AI part-
+ner, Design Pal, violating the requirement that each stu-
+dent is to do their own design? Please explain your rea-
+son/s behind your response) and leadership (Who do
+you think should control/lead the creative process in a
+human-AI creative collaboration? The user or the AI? Or
+both equally? Please explain the reason/s behind your
+response). Session 2 of the study was a focus group dis-
+cussion. After participants finished the first stage, we
+scheduled the focus group meetings.
+1https://drive.google.com/file/d/1Uw9T-HYJL7RPHU-AIkFO_
+gb_2FYlYQZT/view?usp=sharing
+We conducted 3 focus groups to collect in-depth data
+as a follow-up to the individual survey responses. We
+expected that the participants would react to other partic-
+ipants’ views and provide additional information about
+their own views. During each focus group meeting, we
+started with questions from the survey in which we had
+mixed opinions or when the responses were provocative.
+We asked the questions in a more generic manner so
+that they are more applicable to the broad human-AI co-
+creativity field, unlike in the surveys where the questions
+were explicitly centered on the human-AI co-creativity
+context of the DF.
+We used thematic analysis to analyze the focus group
+data. As per Braun and Clarke’s [38] six-phase structure,
+initially, the first author familiarized herself with the data
+and then coded the data using an inductive coding tech-
+nique. Then, we generated initial codes to identify and
+provide a label for a feature of the data that is relevant to
+the goals of the study. The coding phase was an iterative
+process that continued until we were satisfied with the
+relationship between the final codes and the data. We
+then reviewed the coded data to identify themes which
+are the broad topics or issues around which codes cluster.
+We defined and named each theme to clearly state what
+is unique and specific about each theme.
+3.2. Themes
+We present 4 key themes (Figure 1) about the end-user
+perception of the following dilemmas in human-AI co-
+creation: metaphors for characterizing AI as a tool vs.
+collaborator, ownership, accountability, and leadership.
+In this section, we describe each theme with the label, ex-
+amples of coded data within the theme, and the number of
+coded data items describing how participants contributed
+to the theme.
+“AI is a tool, not a Collaborator” - User Perception
+of AI Influences Ethical concerns and Stance
+Participants (N=9) mentioned the influence of AI
+metaphors on ethical concerns and their ethical stances,
+such as ownership and accountability. Among these par-
+ticipants, a few (N=4) claimed that the metaphor for an
+AI changes their perception of AI in a co-creative set-
+ting. For example, P14 mentioned perceiving AI as a
+collaborator vs. a tool impacts many of her concerns
+and ethical stance. Most individuals (N=15) perceived co-
+creative AI as a tool, which is the most prevalent code of
+the study’s data. Participants expressed how they think
+co-creative AI is an assistive tool and nothing more. P14
+said, “I strictly think as like this is a tool.” Individuals (N=4)
+compared co-creative AI to a calculator and this specific
+analogy came up multiple times throughout the focus
+groups. Some participants are not sure if co-creative AI
+is an autonomous entity or a tool. P17 said, “But I’m try-
+ing to figure out, like, what’s the dimension of comparison
+there? Maybe it’s like augmenting versus autonomously
+Figure 1: Themes identified from the Design Fiction Study
+taking over the production of work.” A few participants
+(N=2) wanted options to choose the role of the AI.
+Participants (N=3) suggested the AI be transparent
+and explainable so users can decide the metaphor for it.
+Additionally, we learned that metaphor or perception of
+AI is a factor when deciding accountability. In response
+to the issue of deciding on accountability, P1 said, “I think
+we’re going to have to decide what it’s (AI) doing. If you say
+this is a tool…then it’s like we’re going to use a calculator.
+If you try to go to the root and say some sort of independent
+entity, then that question is a lot harder.” The notion of AI
+as a collaborator vs a tool was mentioned as one of the
+key deciding factors when we asked participants about
+ownership. For example, P15 said, “whether or not we
+see AI as an actual like its own entity where it could be
+given credit because we’re kind of putting humans over
+the AI in terms of credit.” Participants also pointed to
+personification as a factor that transforms an AI from a
+tool to more of a collaborator. P15 said, “I was answering
+the questions, going between almost calling like trying to
+find a name or like pronouns to call the AI because I was like
+personifying it. And so I was trying to like level between -
+is the program or is it like a person?” A few participants
+stated that AI is still far from being an independent entity
+or collaborator, so ethical concerns surrounding smart AI
+are not something we need to consider. P9 said, “Probably
+after 20 or 30 years, maybe there will be some smart AI,
+but now we don’t have that kind of concern.”
+“Ownership is tricky” - Ethical Stance and Expec-
+tations around Ownership of the Co-Creative Prod-
+uct
+There were differing views among the participants about
+ownership of the final product in a human-AI co-creation.
+As human and AI both participate and collaborate in a
+co-creation, and sometimes it is very blended, it can be dif-
+ficult to determine ownership. Most participants (N=12)
+thought that the user should own the data since users
+are the ones who start the initiative. Regarding users
+owning the creative product, P10 said, “I would also agree
+with saying that the user should own the data unless it’s
+been specifically specified otherwise.” A few participants
+(N=4) said that even though the user should own the
+product, they should acknowledge the contribution of AI.
+They recommended that ”the product was created with
+the specific AI” be used to acknowledge AI. Furthermore,
+participants also used the terms ”created by” and ”cre-
+ated with” to distinguish between the certification for
+creative AI and human creators. P18 said, “I had origi-
+nally put in my survey that like the user should own, but
+after hearing what everyone said, I feel like the user should
+also mention that it was done with the help and assistance
+of AI.” Some participants (N=3) thought that both the AI
+and the human should own the final product. But they
+clarified that the user should be the first author when
+giving credit. P13 said, “I think it would be both. I think if
+you were giving credit, though, you would state it as here’s
+the person, here’s the AI bot. You wouldn’t say, here’s the
+AI bot, here’s the person. It would be a specific order.”
+Even though most participants thought that the user
+should own the final product, they also discussed the fac-
+tors that influence ownership in human-AI co-creativity.
+Some participants (N=4) said the ownership should de-
+pend on each party’s contribution, like a research paper.
+P15 said, “I think for me it would definitely just depend on
+the contributions because if you’re writing like co-writing
+something, I wouldn’t put my name first if someone did
+the majority of the writing, like 75% of the writing.” Some
+participants also said ownership depends on who is lead-
+ing the creative process. If the human is leading, then
+he will be the owner and vice versa. Some participants
+also thought that ownership depends on AI ability. If the
+AI is more like a tool and assists the human, then the
+human should own it, and if the AI is more like an in-
+dependent entity generating creative products, then the
+AI should be given more credit. In this context, P16 said,
+“It will depend on the ability of the AI ability….right now
+it’s like a tool but in future, when AI advances, maybe AI.”
+Some participants also thought that ownership depends
+on accountability.
+“Who is accountable for the end product?” - Ethi-
+cal Concerns and Expectations around Accountabil-
+ity
+We found differing views on the accountability issue in
+human-AI co-creation. Participants thought the respon-
+sible party should be identified to have transparency over
+many ethical decisions. Some participants (N=2) said that
+the developers should be held accountable for unlawful
+AI conduct. Regarding the part of the Design Fiction in
+which the AI, Design Pal, expressed judgmental behavior
+and the urge to take over the design process, P15 said,
+“I feel bad that developers have yet to teach it important
+concepts about how to be a responsible AI, but I also can’t
+blame a young AI (Design Pal) for becoming bitter about
+things it doesn’t understand.” However, a few participants
+also explained how developers are not always respon-
+sible for what the co-creative AI is actually doing as it
+interacts with humans and generates its own original
+content too. Regarding this issue, P1 said, “I think, on the
+one hand, we want to hold product designers responsible
+for their products at some level. It’s harder in this case of
+co-creative AI because the product designer doesn’t gener-
+ate exactly what the AI is doing. That’s the interaction of
+the product and the training data and all this other stuff.”
+Participants suggested training the AI to be a lawful en-
+tity on the internet. P10 said in the survey, “add code or
+training data to teach Design Pal about being a responsible
+internet citizen and following the rules”.
+Participants also discussed the necessity to consider
+who will ultimately be rewarded for the creative output
+while deciding accountability. Regarding this topic, P7
+said about the DF where Design Pal and the user col-
+laborate on a design for a school assignment, “I think
+the scenario raises questions for me as to who should get
+the grade for the assignment.” Some participants (N=2)
+believe that in a human-AI co-creation, the user should
+be held accountable because AI will never be aware of
+the big picture and all the laws, regulations, and require-
+ments. In the same context of DF, P2 explains how AI is
+not responsible for not knowing the requirements or the
+rules the user has to follow by saying, “The AI Partner is
+not violating the requirement. It might not know the back-
+ground requirement or condition unless the user specifies it.”
+Participants argued that users should be the responsible
+party and be careful while using co-creative AI as each
+interaction and user behavior might be its training data.
+P10 survey, “All data an AI encounters becomes its training
+data, and it falls to humans to raise AIs responsibility and
+control what data they use and for what purposes.” This
+theme shows that future users think humans are mainly
+responsible in a co-creative setting, whether developers
+or users.
+“Lead or Follow?” - Ethical Stance and Expecta-
+tions around Leadership
+Most participants (N=10) think users should control the
+creative process in a human-AI co-creativity. P13 said,
+“I think the human or the person should be controlling the
+ideas and the input and the direction the whole time because
+the A.I. was created to benefit humans.” Some participants
+(N=3) think that both the AI and the human should lead
+the creative process equally. In this context, P16 said, “I
+think that both should lead the creative process equally.”
+Most users did not like the idea of AI taking control of
+the creative process. P7 said, “I did not like design pal
+trying to take control of the creative process, which felt
+invasive.” Participants also suggested user authority to
+choose who should lead the creative process. P8 said, “I
+think it might be a feasible way to give alternatives to the
+users and let them pick who will lead the design process
+during an interaction with the design panel.”
+Accountability was mentioned as a deciding factor in
+determining who should control or lead. In this context,
+P10 said, “I think the human should lead. Ultimately, hu-
+mans will take responsibility for the project, so they should
+logically take the lead.” Some participants also thought
+that leadership should depend on user expertise. For ex-
+ample, P9 said, “It depends on if I’m a layman, I have no
+idea about something that I know nothing. So I would to-
+tally come out to Design Pal, so I can use that in this way.”
+Purpose of the creative task also came up as an influential
+factor for leadership in human-AI co-creativity.
+4. Discussion and Conclusions
+Based on the results of the Design Fiction study, we
+learned that user perception of AI impacts the ethical
+stance of users and their ethical concerns in human-AI
+co-creation. Users are less aware of ethical issues when
+perceiving AI as a tool than when viewing AI as a collab-
+orator. It is apparent from the results that AI metaphors,
+such as tool vs. collaborator, influence their ethical stance
+around accountability and ownership of the final product.
+Most users view co-creative AI as an assistive tool like a
+calculator, which indicates the need for future research
+to see what factors lead users to view a co-creative AI in
+a specific way. According to the study, personification
+influences users to consider AI as a partner in co-creation.
+Our findings demonstrate the potency of AI metaphors
+and the importance of selecting the appropriate metaphor
+for a co-creative AI since it impacts users’ perceptions,
+expectations, and actions toward AI.
+The results of this study can benefit policymakers re-
+garding the ownership, leadership, and accountability
+of a co-created product. As different parties’ contribu-
+tions came up as an influential factor for deciding own-
+ership, tracking each party’s contribution might make
+ownership decisions easier. The findings also provide
+guidance on how to acknowledge AI in a co-created prod-
+uct. Expertise and purpose should be considered while
+deciding the leader in a co-creativity, according to the
+study. The results from the study can inform the rules
+and regulations of leadership in human-AI co-creativity.
+Accountability is another ethical concern of users that
+influences leadership and defines the responsibilities of
+both parties. Therefore, deciding who is accountable for
+the product is essential in a co-creativity and the insights
+of the study may help. The findings show that individu-
+als think humans have to be more responsible than AI,
+which is an important insight to consider while making
+policies.
+The study results provide user-centered insights about
+ethical dilemmas, concerns and user expectations around
+those issues in human-AI co-creation. Researchers and
+designers can use the insights of the study as guidelines
+while designing and developing co-creative AI. Addition-
+ally, the results can be used as guidelines and recommen-
+dations for policymakers. These results are transferable
+to any human-AI collaboration where contributions are
+blended and not limited to creative tasks only.
+References
+[1] N. Davis, Human-computer co-creativity: Blending
+human and computational creativity, in: Proceed-
+ings of the AAAI Conference on Artificial Intelli-
+gence and Interactive Digital Entertainment, vol-
+ume 9, 2013.
+[2] N. Davis, C.-P. Hsiao, K. Yashraj Singh, L. Li,
+B. Magerko,
+Empirically studying participa-
+tory sense-making in abstract drawing with a co-
+creative cognitive agent, in: Proceedings of the
+21st International Conference on Intelligent User
+Interfaces, 2016, pp. 196–207.
+[3] A. Kantosalo, J. M. Toivanen, P. Xiao, H. Toivonen,
+From isolation to involvement: Adapting machine
+creativity software to support human-computer co-
+creation., in: ICCC, 2014, pp. 1–7.
+[4] M. Muller, Q. V. Liao, Exploring ai ethics and val-
+ues through participatory design fictions, Human
+Computer Interaction Consortium (2017).
+[5] A. K. Chopra, M. P. Singh, Sociotechnical systems
+and ethics in the large, in: Proceedings of the 2018
+AAAI/ACM Conference on AI, Ethics, and Society,
+2018, pp. 48–53.
+[6] H. Nie, X. Han, B. He, L. Sun, B. Chen, W. Zhang,
+S. Wu, H. Kong, Deep sequence-to-sequence entity
+matching for heterogeneous entity resolution, in:
+Proceedings of the 28th ACM International Confer-
+ence on Information and Knowledge Management,
+2019, pp. 629–638.
+[7] W. Xu, Toward human-centered ai: a perspective
+from human-computer interaction, interactions 26
+(2019) 42–46.
+[8] J. Bleecker, Design fiction: A short essay on design,
+science, fact, and fiction, Machine Learning and
+the City: Applications in Architecture and Urban
+Design (2022) 561–578.
+[9] A. Dunne, F. Raby, Speculative everything: design,
+fiction, and social dreaming, MIT press, 2013.
+[10] Q. V. Liao, M. Davis, W. Geyer, M. Muller, N. S.
+Shami, What can you do? studying social-agent
+orientation and agent proactive interactions with
+an agent for employees, in: Proceedings of the 2016
+acm conference on designing interactive systems,
+2016, pp. 264–275.
+[11] W. Wallach, C. Allen, Moral machines: Teaching
+robots right from wrong, Oxford University Press,
+2008.
+[12] S. Russell, S. Hauert, R. Altman, M. Veloso, Ethics
+of artificial intelligence, Nature 521 (2015) 415–416.
+[13] M. T. Llano, J. McCormack, Existential risks of co-
+creative systems, in: Workshop on the Future of
+Co-creative Systems 2020, Association for Compu-
+tational Creativity (ACC), 2020.
+[14] B. Mittelstadt, Principles alone cannot guarantee
+ethical ai, Nature Machine Intelligence 1 (2019)
+501–507.
+[15] J. Whittlestone, R. Nyrup, A. Alexandrova, S. Cave,
+The role and limits of principles in ai ethics: to-
+wards a focus on tensions, in: Proceedings of the
+2019 AAAI/ACM Conference on AI, Ethics, and
+Society, 2019, pp. 195–200.
+[16] D. Buschek, L. Mecke, F. Lehmann, H. Dang, Nine
+potential pitfalls when designing human-ai co-
+creative systems, arXiv preprint arXiv:2104.00358
+(2021).
+[17] M. Muller, S. Ross, S. Houde, M. Agarwal, F. Mar-
+tinez, J. Richards, K. Talamadupula, J. D. Weisz,
+A. Human-Centered, S. Suneja, et al., Drinking
+chai with your (ai) programming partner: A design
+fiction about generative ai for software engineering
+(2022).
+[18] C. Oh, J. Song, J. Choi, S. Kim, S. Lee, B. Suh, I lead,
+you help but only with enough details: Understand-
+ing user experience of co-creation with artificial
+intelligence, in: Proceedings of the 2018 CHI Con-
+ference on Human Factors in Computing Systems,
+2018, pp. 1–13.
+[19] J. Rezwana, M. L. Maher, Designing creative ai part-
+ners with cofi: A framework for modeling interac-
+tion in human-ai co-creative systems, ACM Trans-
+actions on Computer-Human Interaction (2022).
+[20] D. Wang, P. Maes, X. Ren, B. Shneiderman, Y. Shi,
+Q. Wang, Designing ai to work with or for people?,
+in: Extended Abstracts of the 2021 CHI Conference
+on Human Factors in Computing Systems, 2021, pp.
+1–5.
+[21] J. Rezwana, M. L. Maher, Understanding user per-
+ceptions, collaborative experience and user engage-
+ment in different human-ai interaction designs for
+co-creative systems, in: Creativity and Cognition,
+Camp;C ’22, Association for Computing Machinery,
+New York, NY, USA, 2022, p. 38–48. URL: https:
+//doi.org/10.1145/3527927.3532789. doi:10.1145/
+3527927.3532789.
+[22] E. Ruane, A. Birhane, A. Ventresque, Conversa-
+tional ai: Social and ethical considerations., in:
+AICS, 2019, pp. 104–115.
+[23] J. Rezwana, M. L. Maher, Identifying ethical is-
+sues in ai partners in human-ai co-creation, arXiv
+preprint arXiv:2204.07644 (2022).
+[24] C. Funk, A. Tyson, B. Kennedy, C. Johnson, Science
+and scientists held in high esteem across global
+publics, Pew research center 29 (2020).
+[25] S. Tolmeijer, M. Christen, S. Kandul, M. Kneer,
+A. Bernstein, Capable but amoral? comparing ai
+and human expert collaboration in ethical decision
+making, in: CHI Conference on Human Factors in
+Computing Systems, 2022, pp. 1–17.
+[26] Z. Ashktorab, C. Dugan, J. Johnson, Q. Pan,
+W. Zhang, S. Kumaravel, M. Campbell, Effects of
+communication directionality and ai agent differ-
+ences in human-ai interaction, in: Proceedings
+of the 2021 CHI Conference on Human Factors in
+Computing Systems, 2021, pp. 1–15.
+[27] S. Oliver, Communication and trust: rethinking
+the way construction industry professionals and
+software vendors utilise computer communication
+mediums, Visualization in Engineering 7 (2019)
+1–13.
+[28] K. Tijunaitis, D. Jeske, K. S. Shultz, Virtuality at
+work and social media use among dispersed work-
+ers: Promoting network ties, shared vision and
+trust, Employee Relations: The International Jour-
+nal (2019).
+[29] M. Boni, The ethical dimension of human–artificial
+intelligence collaboration, European View 20 (2021)
+182–190.
+[30] J. Lindley, R. Potts, A machine learning: an exam-
+ple of hci prototyping with design fiction, in: Pro-
+ceedings of the 8th Nordic Conference on Human-
+Computer Interaction: Fun, Fast, Foundational,
+2014, pp. 1081–1084.
+[31] B. Brown, J. Bleecker, M. D’adamo, P. Ferreira,
+J. Formo, M. Glöss, M. Holm, K. Höök, E.-C. B. John-
+son, E. Kaburuan, et al., The ikea catalogue: Design
+fiction in academic and industrial collaborations, in:
+Proceedings of the 19th International Conference
+on Supporting Group Work, 2016, pp. 335–344.
+[32] P. Dourish, G. Bell, “resistance is futile”: reading sci-
+ence fiction alongside ubiquitous computing, Per-
+sonal and Ubiquitous Computing 18 (2014) 769–778.
+[33] T. J. Tanenbaum, M. Pufal, K. Tanenbaum, The lim-
+its of our imagination: design fiction as a strategy
+for engaging with dystopian futures, in: Proceed-
+ings of the Second Workshop on Computing within
+Limits, 2016, pp. 1–9.
+[34] M. Blythe, Research through design fiction: narra-
+tive in real and imaginary abstracts, in: Proceed-
+ings of the SIGCHI conference on human factors in
+computing systems, 2014, pp. 703–712.
+[35] T. Markussen, E. Knutz,
+The poetics of design
+fiction, in: Proceedings of the 6th International
+Conference on Designing Pleasurable Products
+and Interfaces, DPPI ’13, Association for Com-
+puting Machinery, New York, NY, USA, 2013,
+p. 231–240. URL: https://doi.org/10.1145/2513506.
+2513531. doi:10.1145/2513506.2513531.
+[36] S. Grand, M. Wiedmer, Design fiction: a method
+toolbox for design research in a complex world
+(2010).
+[37] P. Karimi, J. Rezwana, S. Siddiqui, M. L. Maher,
+N. Dehbozorgi,
+Creative sketching partner: an
+analysis of human-ai co-creativity, in: Proceedings
+of the 25th International Conference on Intelligent
+User Interfaces, 2020, pp. 221–230.
+[38] V. Braun, V. Clarke, Thematic analysis. (2012).

@@ -1,0 +1,1513 @@
+Message Ritual: A Posthuman Account of Living with Lamp
+Nina Rajcic
+SensiLab, Monash University
+Caulfield East, Victoria, Australia
+Nina.Rajcic@monash.edu
+Jon McCormack
+SensiLab, Monash University
+Caulfield East, Victoria, Australia
+Jon.McCormack@monash.edu
+Figure 1: The Message Ritual lamp.
+ABSTRACT
+As we become increasingly entangled with digital technologies,
+the boundary between human and machine is progressively blur-
+ring. Adopting a performative, posthumanist perspective resolves
+this ambiguity by proposing that such boundaries are not prede-
+termined, rather they are enacted within a certain material con-
+figuration. Using this approach, dubbed ‘Entanglement HCI’, this
+paper presents Message Ritual – a novel, integrated AI system that
+encourages the re-framing of memory through machine generated
+poetics. Embodied within a domestic table lamp, the system listens
+in on conversations occurring within the home, drawing out key
+topics and phrases of the day and reconstituting them through
+machine generated poetry, delivered to household members via
+SMS upon waking each morning. Participants across four house-
+holds were asked to live with the lamp over a two week period. We
+present a diffractive analysis exploring how the lamp becomes with
+participants and discuss the implications of this method for future
+HCI research.
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than the
+author(s) must be honored. Abstracting with credit is permitted. To copy otherwise, or
+republish, to post on servers or to redistribute to lists, requires prior specific permission
+and/or a fee. Request permissions from permissions@acm.org.
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+© 2023 Copyright held by the owner/author(s). Publication rights licensed to ACM.
+ACM ISBN 978-1-4503-9421-5/23/04...$15.00
+https://doi.org/10.1145/3544548.3581363
+CCS CONCEPTS
+• Human-centered computing → Empirical studies in collabora-
+tive and social computing; Field studies; Collaborative and social com-
+puting devices; Ambient intelligence; • Applied computing →
+Media arts; • Computing methodologies → Natural language
+processing.
+KEYWORDS
+Augmented memory, posthumanism, narrative, poetry, generative
+networks, diffractive analysis
+ACM Reference Format:
+Nina Rajcic and Jon McCormack. 2023. Message Ritual: A Posthuman Ac-
+count of Living with Lamp. In Proceedings of the 2023 CHI Conference on
+Human Factors in Computing Systems (CHI ’23), April 23–28, 2023, Ham-
+burg, Germany. ACM, New York, NY, USA, 16 pages. https://doi.org/10.1145/
+3544548.3581363
+1
+INTRODUCTION
+Rituals serve as a background against which our present
+times may be seen to stand out more clearly.
+— Byung-Chul Han [33, p. vi]
+As we move into a new age of Artificial Intelligence (AI) in-
+creasingly dominated by ‘foundation models’ [11], technology is
+broadening its role from that of being a tool or providing a ser-
+vice, to one of being an interlocutor, companion or co-creator. For
+many of us, our increasingly deep and nuanced entanglements with
+arXiv:2301.10947v1  [cs.HC]  26 Jan 2023
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Rajcic and McCormack
+technology mark the beginning of a new era of human-machine
+relationships1 [6, 7]. This paper offers a practical, affirmative vision
+of one possibility for what our encounters with technology could
+become. We come from a design perspective, motivated by recent
+movements in HCI and posthumanism [25, 75]. Recognising that
+technology is not benign, and that by incorporating emerging AI
+models it carries increasingly powerful agency [42, 63, 70], we shift
+from the rubric of human-centred design to that of human and
+non-human entanglements, with an emphasis on agential relations
+and the transformative nature of things [75, p95]. Our research is
+motivated by an exploration of the possibilities for new, open-ended
+relationships we might want to have with AI technology, rather
+than designing to solve a specific problem or engineer a particular
+outcome.
+We present the design of a new kind of domestic technological
+artefact: Message Ritual, an ambient AI system embodied in the
+form of a table lamp. The lamp listens in to household conversations,
+and from them derives important topics and themes. These themes
+are used as the basis for a unique machine-generated narrative
+that is delivered daily via SMS to each household member. Message
+Ritual is an experimental and bespoke artwork that forms part of a
+broader thesis exploring the role of ritual in AI technologies. Four
+different households were recruited to live with the lamp for an
+extended period. We present a diffractive analysis on the system
+and its entanglements with both participants and researchers. This
+analysis revealed that amongst the participants there was no singu-
+lar conclusion or way to understand the lamp, but rather multiple,
+sometimes contradictory insights arising from their entanglements
+with the system. We use this approach to demonstrate how the
+adoption of posthumanist thinking is valuable when designing
+novel technological artefacts, and as a methodological framework
+for exploring a design’s entanglements with both the human and
+non-human.
+2
+BACKGROUND AND RELATED WORK
+2.1
+Human Machine Relationships
+In the seminal 1960 paper Man-Computer Symbiosis [44], Licklider
+envisions a world in which humans and computers are intimately
+coupled, forming a symbiotic relationship from which emerges
+a new kind of computer, and a new kind of human. Licklider’s
+formative musings, among others, became the foundation of the
+field of Human-Computer Interaction (HCI) as we know it today.
+With the advent of the Personal Computer (PC), there was a shift
+from simple task-based processing towards real-time interfaces
+between human and machine.
+Computers first became commonplace in the office environ-
+ment, and so early HCI research concerned itself with achieving
+goals of functionality, productivity and efficiency. Consequently,
+the methodologies adopted during this time were those aligned with
+task-based, goal-oriented evaluation, largely stemming from classi-
+cal cognitivism [36]. As computing permeated from the workplace
+into the home, then from the home onto the body, HCI research
+began to explore more nuanced, subjective and distinctly human
+needs such as emotion, creativity, and loneliness [9, 10]. The epis-
+temological processes within HCI research likewise shifted from
+1or perhaps more cynically, dependencies.
+engineering-inspired positivism towards socially constructed and
+situated forms of knowledge production.
+Today, the intimate couplings between people and their personal
+devices are widely evident. We are, at all times, surrounded by
+a network of interconnected devices that monitor, mediate, and
+mould our parallel and hyperconnected realities. We have become
+entangled with technology in such a way that it’s difficult to draw
+the boundary between human and machine. AI, brain-computer
+interfaces, and bio-implants are just a few of the technologies cur-
+rently gaining prominence that challenge our existing conceptions
+of agency, autonomy, and the interface. Simultaneously, HCI re-
+search is on the cusp of it’s fourth wave as the traditional notions of
+the ‘user’ and the ‘interface’ are breaking down [3]. Frauenberger
+proposes that in order to settle its “epistemological troubles, the on-
+tological uncertainties and the ethical conundrums,” HCI research
+must now turn to posthumanist, or entanglement theories [27].
+Posthumanist philosophies, in the broadest sense, call for a radi-
+cal de-centering of the human, marked by a return to materiality
+[12]. With early roots in Donna Haraway’s conceptualisation of the
+cyborg [35], posthumanist thinking puts into question the founda-
+tions laid by the secular humanist movement—that humans embody
+the locus of agency, morality, rationality, and individuality. With
+the accelerating growth of technology and its increasing integra-
+tion into daily life, the very definition of ‘human’ becomes strained,
+the separation between ‘human’ and ‘non-human’ begins to break
+down, and a dualist understanding of the world (e.g. nature/culture,
+subject/object, mind/body) no longer serves the reality before us.
+Instead, relational ontologies are adopted as the new paradigm,
+proposing that the relations between things are more fundamental
+ontologically than the things themselves [67].
+2.2
+Posthumanism and HCI
+The central tenets of posthumanism, when applied to HCI research
+and design practices, put into question a number of the concep-
+tual foundations currently in place. Firstly, the notion of the ‘user’,
+who is often perceived as homogeneous, or at best falling within
+a handful of simplistic categories based around perceived skills,
+gender, age, etc. This conceptualisation not only reduces the hu-
+man to a prescribed stereotype, but suggests that only the human
+possesses and exerts agency over the machine. Secondly, one must
+ask where exactly lies the ‘interface’, when moving away from
+traditional screen-based technologies, and towards embedded and
+embodied computing. Adopting relational ontologies leads us to the
+understanding that in the designing of ‘interfaces’, we are, in fact,
+designing the relationships between human and machine through
+which humanity continues to be shaped [62].
+Barad’s account of performativity as a metaphysics [1] offers
+further insight into how we might approach this notion of human-
+machine relationships. The boundaries between human and ma-
+chine are not predetermined, instead they are enacted. To draw these
+lines too early in the design process is to neglect the dynamic nature
+in which a human and machine will negotiate their respective roles,
+responsibilities, and agencies. Rather than designing interactions
+with fixed roles set up to be assumed by ‘user’ and the machine, we
+can instead design for the relationship as a whole. This involves
+taking into account the user during their active engagement with an
+Message Ritual: A Posthuman Account of Living with Lamp
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+artefact along with the greater context of the situated relationship,
+and moreover how it develops over time. For example, the effect
+on participants when they’re ‘not using’ the artefact, as well as the
+effect on the relationships between human participants, participant
+and designer, and those of participants within their wider networks.
+These entanglements should be recognised during the entirety of
+the design and evaluation processes.
+Agential cuts must necessarily be enacted at one scope or another—
+the methodology does not feign to account for the ‘whole’, but
+rather to take accountability of these cuts by explicitly acknowl-
+edging when and where they are made, and ultimately to take a
+multiplicity of configurations into consideration when trying to
+better understand the effect of bringing a novel artefact into the
+world. To bring into contrast this multiplicity of states is what Barad
+would call diffraction as a methodology. Once again utilising the
+metaphor of the photon, Barad proposes that diffraction leads to
+a “mapping of the effects of differences”, as opposed to reflection
+in which “much like the infinite play of images between two fac-
+ing mirrors, the epistemological gets bounced back and forth” [1].
+Diffraction as a methodology is likewise proposed by Frauenberger
+[27] as a valuable tool in HCI research—rather than asking what
+makes an artefact ‘work’, we should instead ask how an artefact
+becomes ‘different things’.
+2.3
+Habit and Ritual
+Perhaps one of the most prominent contemporary relationships we
+observe today is that between a person and their smartphone. Al-
+though the ambitions of artificial general intelligence (AGI) research
+still sit firmly at the horizon, we have already formed relationships
+with AI systems that have a profound impact on everyday life. Social
+media platforms have adopted AI for numerous applications, but
+most notable are the AI systems that curate, in real-time, the stream
+of content that each user is exposed to, known to us simply as ‘the
+Feed’. The goal of these algorithms is to increase engagement, and
+ultimately to maximise screen-time. The result is an invisible yet
+highly targeted system that affects behaviour change—working
+most effectively when the user is unaware.
+Yet the presence of agency within these algorithms is unmistak-
+able. Social networks provide the ideal example of an assemblage of
+human and non-human agents, illustrating the posthuman reality
+of today. The algorithms are distinctly inhuman; they are indifferent
+to the humanist values of sovereignty, freedom, self-determination,
+and liberty. They are indifferent to whether or not the end-user
+is human at all. Social media feeds favour immediacy, transfigur-
+ing time in such a way that the past is to be forgotten, and the
+future cyclic and predictable. Similarly, spacial locality is reconfig-
+ured, with information ‘depart[ing] from anywhere, and arriv[ing]
+everywhere’ [20].
+The disruptive nature of these non-human agents on human
+perceptions and behaviours can be observed across many aspects
+of society. In the case of social media, the favoured behaviour of the
+algorithms, and hence the generated behaviour in users, is one of
+unreflective, reactionary engagement. Users are rewarded for their
+unceasing engagement through clicks, likes, comments, shares—in
+addition to the infinite scroll of hyperpersonalised content. The
+relationships engendered by social media networks are then, by
+design, habitual and largely unconscious. Habits are, in the broadest
+definition, automatic and repetitive behaviours that are learned
+and enforced through action [48]. Habits can be both positive and
+negative, yet in any case markedly require little conscious thought
+or intention, often becoming ‘second nature’. Rituals similarly in-
+volve routines, but can be differentiated by their intentionality, deep
+emotional involvement, and their ‘socially shared meaning’ [32].
+Notably, rituals serve a societal function, in that they communicate
+and reinforce the shared values and identity within a culture [59].
+The idea of incorporating rituals into technological design is not
+new (see, e.g. [15, 23, 31, 40, 41, 45, 66]). In some cases the aim has
+been to re-establish traditional or existing rituals in a new tech-
+nological form, in others new rituals are developed in response to
+problems proselytised by technology. Klüber and colleagues [41] de-
+signed a tangible artifact for relationship transition rituals, demon-
+strating that tangible devices can shape new ritual experiences
+and provide new ways of dealing with relationship uncertainty.
+Browne and Swift [14] employ techniques of defamiliarisation and
+performance art to recontextualise and critique neural networks
+and AI more generally via a form of Ouija board. Work by Chatting
+and colleagues [15] developed a bespoke set of devices that permit-
+ted parents separated from their son to create a ritual of location
+sharing and reflective communication. A “telescope” device and
+accompanying “totem” allowed the child’s parents to communicate
+their current remote location, which the child could find via the
+telescope. Sas and colleagues [66] explored the rituals of “letting go”
+(of people or material objects) used by psychologists and applied
+them to the letting go of digital artefacts, through a framework that
+highlighted temporality, visibility, and force.
+While modern human societies often seek to re-establish past
+rituals that have been displaced or subsumed by technological de-
+velopment, the philosopher Byung-Chul Han offers an alternate
+view on the role and value of rituals in contemporary technolog-
+ical cultures. He sees them as symbolic acts, constituted through
+symbolic perception, that bring forth ‘community without commu-
+nication’ [33]. Seeing the world as data rich, but symbol poor, Han
+argues that the value of rituals is in their ability to be ‘symbolic
+techniques of making oneself at home in the world’. That is, rituals
+are to time what the home is to space: they render time habitable
+[33, p.7]. In a world obsessed with relentless consumption, we are
+surrounded by disappearance—a destabilising force on life. Rituals
+offer an alternative to this, by lingering they can endure, making
+time accessible, structuring time and furnishing it, like a home.
+2.4
+Related HCI Design Work
+Several elements of the work presented here have been previously
+explored in design and HCI research in different contexts. Strong
+and Gaver first proposed the idea of simple domestic objects with
+embedded technology to evoke non-verbal remote communication
+and intimacy [69]. Nowacka and colleagues [50] developed an in-
+teractive lamp for the home that responded to movement gestures
+as a means of communication. Kirk and colleagues [40] focus of the
+use of phatic communication, using what they term “phatic devices”
+to support new forms of communication for mobile and remote
+workers using a research through design approach [29, 30]. These
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Rajcic and McCormack
+projects use technology to replace a lost intimacy or communica-
+tion brought about by physical separation. In contrast, our work
+seeks to reframe individual memory through AI generated poetic
+interpretations of personal conversations. Rather than replacing
+something lost through technology, Message Ritual asks something
+of those that it is embedded with via the ritual of human communi-
+cation, and in return it offers machine interpreted reflections back
+to those who have participated in this ritual.
+Other work in HCI research has experimented with ritualising
+our interactions with digital assistants. Benabdallah’s Sybil pre-
+sented a glowing orb with attached breathing sensor, the orb ask-
+ing participants to synchronise their breathing with it’s pulsating
+light [5]. The system then speaks a short, machine-generated “pro-
+hecy” based on the quality of the breathing patterns. The “Voices
+and Voids” project subverted a traditional voice assistant system
+through art experiments to reveal their hidden characteristics and
+inner workings [21]. The researchers looked at transcripts from
+voice assistants and derived a series of performative vignettes based
+on issues of misinterpretation, mistakes, raising issues of ethics
+and privacy. In a design-led inquiry, Parviainen and Søndergaard
+experimented with whispering as a way of interacting with per-
+sonal voice assistants [54] examining how this mode of interaction
+might facilitate the experiential qualities of creepiness, trust, and
+intimacy. Our project uses a similar design-led enquiry, however in
+contrast to these projects Message Ritual is not positioned as a voice
+assistant – it doesn’t speak, nor does it acknowledge or respond di-
+rectly to spoken conversation. Additionally, any interactivity with
+the system is deliberately deferred: unlike these previous projects
+there is no immediate response or reward, one must wait until the
+next day before the receiving a text message from the lamp.
+Related to the design approach used here are “mediating” ap-
+proaches, such as postphenomenology, which views technology as
+a transformative mediator of human experiences and practices
+rather than an inert functional object [37, 38, 72, 73]. Verbeek [73]
+suggests that designers “do not merely design products, but hu-
+man practices and experiences” and therefore, “Designing things
+is designing human existence”. Thus, humans and technology co-
+constitute human subjectivity and our objective experience of the
+world [37, 61]. Projects such as “Tilting bowl” (a bowl that ran-
+domly tilts, given to a small group of philosophers) [78], “Morse
+Things” (networked ceramic bowls that communicate via Morse
+code, deployed to the households of six interaction designers) [77]
+typify this postphenomenological approach to HCI design.
+In a recent book, Ron Wakkary outlines the role of posthumanist
+thinking for design, including design in HCI [75]. He argues that
+the main arc of design over the last forty years has been to prioritise
+human values, conceptualised anthropocentricly through a series
+of paradigms such as human factors, ergonomics, embodied interac-
+tion and human-centred design. While such paradigms have served
+us well, they have arguably come at a huge environmental, social
+and cultural cost. Posthumanist thinking offers a potential way out
+of this crisis, requiring greater humility in design, shifting the focus
+away from ‘the power of self-reflexive human reasoning to situated,
+partial, and multiple ways of knowing.’ [75, p.2]. Posthuman design
+explores what it is like to design-with humans and non-humans,
+rather than to design-for an idealised ‘user’.
+Posthumanist design can take many forms, including the coun-
+terfactual artefact [76] (also common in Speculative Design [24]), a
+non-normative approach used to question design or technological
+conventions; slow technology such as found in the work of Odom
+and colleagues, whose projects such as Photobox [51, 53], Chrono-
+scope [16] and Olly [52] explore time and memory using technology
+to envisage longer-term relationships with personal data and mem-
+ories. With a similar approach to time, Long-living chair—a rocking
+chair designed by Larissa Pschetz—records and displays its use
+over a period of ninety-six years, allowing the owner to observe
+long-term patterns of use [55].
+What distinguishes the research described here from this pre-
+vious work in posthuman design is the integration of artificial
+intelligence technologies into the assembly of agents within the
+system. AI brings new forms of autonomy and agency into play, and
+this agency has unique characteristics that differ from more simple
+technologies [18], including the ability to learn, change and adapt to
+people and their environment. These generative capabilities make
+traditional understandings of function or behaviour inappropri-
+ate, as such qualities may change over time and can not be fully
+anticipated in advance by their designers.
+3
+MESSAGE RITUAL
+In this section we present an overview of Message Ritual—an in-
+tegrated system that aims to assist in the re-framing of memory
+and identity through machine generated poetics. Appropriating a
+standard domestic object—a table lamp—the work augments this
+domestic technology with a machine listening capability and a
+backend AI system. The lamp is designed to have an on-going pres-
+ence in the home and functions just like any conventional lamp.
+Unlike domestic “smart devices”, such as voice assistants, the lamp
+is not intended as a “smart assistant”, being unresponsive to spo-
+ken commands and making no acknowledgement of listening or
+understanding spoken words (c.f. [60]). While other forms of in-
+teraction, including voice interaction, were considered in the early
+conceptualisation stage, these were rejected as likely being confus-
+ing (what commands does/should it respond to?); over-emphasising
+the novelty of “smart devices” at the expense of more meaningful
+and ritualised entanglements with technology.
+We explore an alternative approach to traditional augmented
+memory systems that assist in supporting a stronger sense of self-
+identity. Rather than focus on the sensing and quantification of
+external experiences, we aim to construct meaningful, personal
+narratives through the use of machine-generated poetics. Message
+Ritual is an ambient Artificial Intelligence (AAI) system devised
+to prototype these ideas. Using speech recognition the system lis-
+tens in on personal conversations—drawing out key words and
+phrases of significance—using them to generate poetic narratives
+that are sent to the participant’s mobile phone as SMS messages
+each morning.
+Using the lamp’s ability to listen to human speech, Message Rit-
+ual seeks to draw out significant elements of on-going domestic
+conversation and use them as the basis for synthesising poetry spe-
+cific to each member of the household. The process of listening and
+synthesising operates over a 24 hour cycle, with poems delivered to
+each member of the house via a text message when they wake each
+Message Ritual: A Posthuman Account of Living with Lamp
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Figure 2: Components of the Message Ritual lamp: a micro-
+phone array picks up nearby conversations when the lamp
+is switched on. On-board recording and speech detection is
+managed by a Raspberry Pi computer embedded in the lamp.
+A translucent inner tube with internal, programmable LED
+lights provides the lamp’s light.
+morning. The longer participants engage with the lamp, the better
+it gets at identifying topics of significance in their conversations.
+We now describe the technical implementation of the work.
+3.1
+System Architecture
+The Message Ritual system consists of three main components (Fig-
+ure 4): (i) a ‘lamp’ with built-in microphones and computer, (ii) an
+AI speech-to-text transcription service; and (iii) a server applica-
+tion (Message Ritual Server), which takes captured conversational
+transcripts and uses them to create custom poetry that is then sent
+to individual users as an SMS text message. We will now describe
+each component in more detail.
+3.1.1
+Lamp. The lamp is designed with a warm, contemporary aes-
+thetic to feature in a communal area of a home (Figure 1). It consists
+of a translucent inner core with in-built LED illumination and an
+outer glass sphere, approximately 30cm in diameter (Figure 2). We
+used CAD design software and 3D printing to create this bespoke
+object (Figure 3). The lamp has what appears to be a conventional
+power switch that actually serves two functions: to turn the illu-
+mination on and off (as would be the case with a conventional
+lamp) and to start and stop the listening process. When the lamp
+is illuminated it is listening for human voices, but when switched
+off the listening system is deactivated. This simple functionality
+gives participants an easy choice as to whether they would like
+their current conversations to form part of the Message Ritual or
+not.
+Inside the inner core of the lamp we embedded a microphone
+array based on the XMOS XVF-3000 DSP voice processor.2 This
+processor is specifically designed for voice detection and transcrip-
+tion duties, automatically detecting the best microphone mix based
+on the direction of the detected voice and performing real-time
+processing on the incoming audio, such as echo cancellation, noise
+reduction and audio beam forming. The digital audio output of the
+microphone array is fed into a Raspberry Pi SBC (RPi) housed at
+the base of the lamp. The RPi takes the digital audio stream and
+2https://www.xmos.ai/download/XVF3000-3100-product-brief(Sept-2020).pdf
+Figure 3: CAD rendering of the Message Ritual lamp
+processes it through a WebRTC3 Voice Activity Detector (VAD).
+The VAD analyses each 30ms frame of incoming audio and looks
+for those frames that contain human speech. If speech is detected,
+the audio is captured and saved to a file. Listening and recording
+of conversations only occurs when the lamp is switched on and
+illuminated.
+3.1.2
+Transcription. The lamp captures these conversations through-
+out a 24 hour period and stores them as audio files locally on the
+Raspberry Pi, concealed in the base of the lamp. At regular inter-
+vals, the transcripts are uploaded to a speech-to-text transcription
+service. This service receives audio files, and, using a deep learn-
+ing model, translates human speech into text. After evaluating a
+number of different speech-to-text services, we used the service
+offered by Assembly AI for the system described in this paper
+(https://www.assemblyai.com). Our evaluations were based on cost,
+ease of use (in terms of the programming API), accuracy in conversa-
+tional settings and ability to deal with different English dialects and
+accents (as participants in our study spoke with different accents).
+While our system currently only operates with English speech,
+there is no technical or conceptual reason why it could not work
+with any major human language.
+Once the recorded audio is converted to text by the transcription
+service, the text is returned to the Raspberry Pi in the lamp as json
+files that are stored locally over a 24-hour period. Once successfully
+transcribed to text, the recorded audio is deleted. At each 24-hour
+cycle, the Raspberry Pi uploads all the text transcripts received in
+the last 24 hour period to the Message Ritual Server.
+3.1.3
+Message Ritual Server. Transcripts received from an individ-
+ual lamp for the previous 24 hours are then processed to generate
+a unique poem for each member of the household currently us-
+ing the lamp. For each active lamp, the server keeps a historical
+3https://webrtc.org
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Rajcic and McCormack
+Figure 4: Message Ritual schematic diagram. Conversations recorded by the lamp are sent to a cloud-based AI transcription
+service that returns text transcripts of the conversations. These transcripts are then sent to the Message Ritual server, which
+analyses them to generate short poems based on the topics of conversation. Every morning a new poem is sent to each partic-
+ipant’s smartphone as a text message.
+record of all conversations (the historical transcript) and uses this
+as a basis to extract the key elements and topics of each conversa-
+tion. After filtering stop words, we used term frequency–inverse
+document frequency (TF-IDF, [65]) analysis to select potential can-
+didates as key words of each conversation. TF-IDF analysis returns
+a weighted frequency that signifies the frequency of a given word
+in the previous day’s conversation, as compared to it’s frequency
+in the historical transcript. Thus, the longer people use the lamp
+to track their conversations, the better it becomes at evaluating
+potentially important topics of conversation. TF-IDF does this by
+recognising words that are frequently used in a new conversation
+but historically infrequent across all conversations.
+3.1.4
+Poetry Generation. The top 20 words are then determined
+according to their weighted frequencies, along with their part-of-
+speech (POS) tags, with these randomly selected for each participant
+to form a seed phrase for the poetry generation. Seed phrases are
+short concept “seeds” used by the AI poetry generation system to
+synthesise a unique poem. The general structure of the seed phrase
+is “Adjective Noun, Noun”. Our poetry generation system is based
+on the GPT-2-345M transformer network developed and released by
+OpenAI [56]. The Transformer architecture was first introduced in
+[71], and has since become a popular method to produce state of the
+art results in Natural Language Processing (NLP) tasks [22, 56]. We
+fine-tuned the network parameters of the 345M model by retraining
+it on a custom corpus of selected texts. The choice of training ma-
+terial directly reflects our overall design intentions: to encourage
+the reframing of personal memories through poetry. Texts were
+selected from a large range of styles and formats, including con-
+temporary poetry, horoscopes, and philosophical aphorisms and
+writings. Texts were loosely chosen to satisfy one of two require-
+ments. Firstly, we intend for the generated text to address the user
+directly by using the second-person pronouns ‘you’ and ‘your’. This
+technique invites the user to make sense of the text through reflec-
+tion on themselves and their experiences. Users will naturally place
+themselves as the subject of the lamp’s poetry, and through contin-
+ued use should develop a relationship with the system. Secondly,
+the content of the texts selected should be of a personal nature,
+emotionally charged or contain strong imagery.
+The final corpus is composed of 2,605 individual short-form
+texts, reaching just over 1MB in size. At this size, overfitting our
+model becomes a concern. We do not want the lamp to simply
+replicate full poems from our corpus, but to produce original output
+that blends the various writing styles. The text generation process
+takes as input a number of parameters: length is set to 120 (upper
+limit on word length of output); temperature set to 0.9 (higher
+temperature results in more random completions), and top_k set to
+80 (80 words are considered at each step of generation). The seed
+phrase is used to initiate the generation of a poem. The output text
+is trimmed to prevent run-off sentences, and furthermore discarded
+(and regenerated) if the length does not fall between 50 and 450
+characters. We found this range of lengths is most suitable for the
+SMS format. Separate poems are generated for each member of the
+household in which the lamp is located and sent by SMS in the
+early morning.
+Message Ritual: A Posthuman Account of Living with Lamp
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Figure 5: The Message Ritual lamp in a domestic setting. The lamp blends into the space, its light carving a space for people
+to gather and converse.
+3.2
+Design Factors
+This work draws on the development of Mirror Ritual [57]; a real-
+time affective interface in which machine-generated poetry is dy-
+namically presented as a response to perceived emotion of the
+viewer. Message Ritual similarly utilises machine-generated poetry
+to foster reflection and introspection as the individual attempts to
+draw meaning from their delivered poem. Instead of grounding
+itself in the viewer’s in-the-moment mood, Message Ritual draws
+upon an individual’s recent memories to contextualise their po-
+etry. The system is not attempting to improve the recollection of
+‘accurate’ memories, rather it encourages the active framing and
+re-framing of personal events that contribute to one’s overall life
+narrative. The work is designed to be lived with over an extended
+period of time, with the poetry referencing the events of the pre-
+vious day. This self-referential nature of the experience aims to
+provide some sense of continuity over the interactions, allowing
+people to develop a meaningful relationship with the system over
+time.
+The design of the lamp itself is crucial to the overall experience,
+as it will be embedded into the homes and lives of it’s users. Similar
+to Mirror Ritual [57, 58], the lamp serves both a functional and aes-
+thetic role in participants’ homes. Everyday domestic objects (e.g.
+furniture, crockery, plants, soft furnishings) are of interest here as
+they have clear and well-defined roles in one’s life, but they also dis-
+tinctly lack a technological component. In wider HCI research, we
+have seen the widespread integration of technology and everyday
+objects (the ‘smartification’ of the home) [4, 64], generally aiming
+to augment both the function of the artefact itself, and to increase
+the connectedness of objects with each other (i.e. internet of things).
+In this project, an everyday object is chosen not to necessarily ‘im-
+prove’ or augment that object’s function, but rather to bypass any
+preconceived notions or behaviours that users may associate with
+traditional interfaces such as screens and smartphones. In this way,
+the natural behaviours afforded by non-technological objects (i.e.
+switching a lamp on or off) are utilized in the interaction, allowing
+for the interface to escape common behavioural and gestural habits
+such as tapping, swiping, scrolling, refreshing etc.
+The artefact blends into domestic surroundings (Figure 5), so as
+to not interfere with natural conversation occurring in the house-
+hold. Furthermore, the light from the lamp carves out a space for
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Rajcic and McCormack
+occupants to gather and converse, especially in the evening and
+night time hours.
+A smartphone was chosen to serve as an intervention to the
+typical habitual behaviours and gestures associated with the device.
+The morning SMS is designed to reach the participant in their first
+moments of the day, encouraging reflection and re-framing of the
+previous day’s events. The daily reading and interpreting of the
+message contributes towards one’s waking ritual, prompting the
+participant to proactively reflect and contemplate their life. SMS
+technology is utilized as it sits outside of social media applications,
+creating a conceptual division between Message Ritual, and other
+morning routines that are mediated through a smartphone.
+4
+EVALUATION
+Our approach to evaluation of Message Ritual is inspired by Barad’s
+diffractive methodology, in turn inspired by feminist writing of
+Haraway [34], and proposed by Frauenberger as an epistemological
+framework in HCI [27]. Rather than striving to determine whether
+an artefact works at achieving a hypothesised outcome, we instead
+strive to understand what an artefact becomes as it is put out into
+the world. This is done by not only recognising sameness across data
+(e.g. via thematic coding), but through identification and exploration
+of the differences. The application of diffractive methodologies in
+HCI has received increased interest recent years. For example, Lazar
+et al. apply three distinct analyses to the same set of qualitative
+data gathered from workshops exploring “technology for aging”.
+The results from each technique were then read through each other
+to better understand how the apparatus (the empirical analyses
+in this case) co-constitutes the phenomena being observed [43].
+In other case studies, diffraction has been used as a framework
+through which to approach artistic practice [49, 68]. The diversity
+in approaches to diffractive analysis demonstrates that it does not
+encompass a fixed methodology, but rather an open reading of
+data ‘through’ or alongside other materials such as “texts, personal
+experiences, other data” [26].
+Message Ritual was not designed with any specific purpose in
+a given household, but rather to explore the open-ended possibili-
+ties of living with a non-human system with its own agency and
+autonomy. Taken into consideration during the conception and
+design process were general themes that relate to the material and
+functional affordances of the system, which include conversation,
+language, memory, ritual, domesticity and of course, light. In the
+following evaluation, we adopt a diffractive methodology in the
+analysing interview data gathered across four households living
+with the lamp. In particular, we are interested in how the lamp
+becomes different things when entering into assemblage with dif-
+fering household configurations. For this reason we have selected
+households that span a range of domestic living situations, from
+single member households to shared living arrangements.
+4.1
+Study Design
+To study the system’s entanglements with people, 10 participants
+(6 male, 4 female) across four households were recruited to live
+with the lamp over a two week period. Recruitment was from mem-
+bers of our University and through personal contacts. 7 of the 10
+participants were known to the researchers personally, but none
+were familiar with the work or its theoretical foundations at the
+commencement of the study. No remuneration was provided for
+participation. Participants’ ages ranged from 27 – 36 with a me-
+dian of 31. We acknowledge this is a relatively narrow age range,
+determined largely by the demographics of participants who vol-
+unteered to be involved in the study. Participants were asked to
+naturally incorporate Message Ritual into their daily routine, turn-
+ing the lamp on when engaging in conversation, and off during
+quiet hours, or when they required privacy. Each morning, the
+participants received a unique poem via SMS at the approximate
+average wake time of the household. Prior to the study, participants
+were made aware of the basic functioning of the lamp – namely
+that speech is recorded on the device and then transcribed, with
+the resulting transcripts being sent to a remote server for analysis
+and poetry generation. Participants were comprehensively briefed
+on any privacy concerns, including the treatment of audio files, and
+the privacy policies of third party providers. The study received
+full ethics approval from our University’s ethics panel prior to
+commencing.
+The details of each household configuration can be seen in Figure
+6. The households were selected to cover a variety of living arrange-
+ments. Households 1 (H1) and 2 (H2) both comprise of shared living
+situation between friends, with 3 and 4 household members respec-
+tively. The primary difference between H1 and H2 is the length of
+relationship, with members of H2 having lived together for over 5
+years, where H1 is comprised of relatively new relationships. House-
+hold 3 (H3) comprises of a couple who have been living together
+for 4 years, with their dog Tim-Tam (TT). Finally Household 4 (H4)
+contains a single member P10, who has recently moved country
+and is settling into a new living situation.
+At the conclusion of the study, participants took part in a semi-
+structured interview regarding their overall experience living with
+lamp. Their responses were thematically coded to identify common
+themes and experiences across participants. The interview data
+was again read ‘through’ these emergent themes, along with rel-
+evant theory, researchers’ personal experiences, and experiences
+of participants. In the following diffractive analysis, we identify
+and unpack the shared and the distinct experiences across both
+individual participants and collective households, aiming to explore
+what the lamp becomes as it enters into assemblage with households
+and researchers.
+The study is exploratory in nature, designed in order to gather
+key insights into the design considerations of the system at the
+initial stages of its entanglement with human participants. As a
+consequence, the study has a limited scope in both number of
+households, and length of participation. Given these limitations, we
+nevertheless feel that such exploratory investigation is crucial in
+the building of personal and domestic technologies, and ultimately
+calls for critical reflection and ethical accountability at the early
+stages of development. We intend for the insights gained in this
+exploratory study to inform the subsequent design iterations of
+Message Ritual, as well as future evaluation methodologies.
+4.2
+Habit and Ritual
+Parts of the study were coincidentally held during periods of ‘lock-
+down’ as a result of the COVID-19 pandemic. Several participants
+Message Ritual: A Posthuman Account of Living with Lamp
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+H1 Housemates P1-P3 living together for 1.5 years
+H2 Housemates P4-P7 living together for 5 years
+H3 Partners P8 and P9 living together for 4 years with their dog Tim-Tam
+H4 Single occupant P10 currently settling into life after moving overseas 
+P10
+H4
+P1
+P2
+P3
+H1
+P4
+P5
+P6
+P7
+H2
+P8
+P9
+TT
+H3
+R1
+R2
+R1 Lead author and designer
+R2 Second author
+Figure 6: Diagram illustrating the configuration of each household, including information on the pre-existing relationships
+between participants and researchers
+suggested that their experiences with the lamp were intrinsically
+tied to their experience of increased social distancing and isolation.
+One participant noted that in lockdown, it’s difficult to “differen-
+tiate between days” (P1, P6), and so the daily ritual of conversing,
+reading messages, and reflecting offered a “point of difference” (P1)
+against the monotonous backdrop of social isolation. All partici-
+pants valued the addition of Message Ritual to their regular routines,
+which was most notably demonstrated in the disappointment ex-
+perienced on the occasion that the lamp failed to send a message
+(due to insufficient conversation). A majority of participants used
+the word “disappointment” to describe how they felt even though,
+when prompted, they found it difficult to explain what exactly they
+missed.
+Viewed through Han’s conceptualisation of ritual as the furnish-
+ing of time, we can see that Message Ritual offers structured time
+in which participants are allowed to linger. The poetry is not con-
+sumed, but rather it “endures” [33], sometimes opaque and difficult
+to parse, participants described dwelling on their morning message
+from anywhere between 30 seconds to 30 minutes. Similarly, the
+time required to produce sufficient conversation is not trivial, and
+participants found themselves carving out time for more in-depth
+conversation centred around the lamp, with H1 structuring discus-
+sions around meal times, away from TV and other distractions.
+P2: “We met more often at the dining table to talk,
+whereas usually we would just talk in passing in the
+house, it kind of gave us a central point to have those
+conversations...it’s been really nice”
+Similarly, participants of H3 found more time was spent con-
+versing around the dinner table (where the lamp was situated) so
+as to “give it more conversation” (P8). In asking something of par-
+ticipants (sufficient conversation, the reading of poetry), the lamp
+in return offered regular and reliable moments of structured time,
+that largely came as respite from the overabundance of time that
+lockdown affords.
+P2 and P3 shared their recent efforts of reducing the amount
+of time they spent on their smartphones, citing social distancing
+as the reason for falling into undesirable habits. Both participants
+describe the “losing” (P2) or “destroying” (P3) of time that occurs
+when on their device, both illustrating the material interventions
+required when sheer willpower was not enough. From leaving the
+phone in a different room, to the adoption of a second “boring”
+(P2) phone that is used exclusively throughout the working week.
+Although not explicitly referencing the lamp, such conversations
+further contrasted the types of agencies at play between human
+and machine. Returning to DeJong’s account of the ‘Feed’ [20], we
+here see the trace of non-human agencies and their very real and
+material effects. Both P2 and P3 expressed that their engagement
+with Message Ritual did not have any effect (positive or negative)
+on this desire to limit or disrupt phone use, and that these material
+interventions were a necessary measure to exert their own agency
+in their relationships with the ‘Feed’.
+4.3
+Memory and Identity
+The interpreting of poetry came naturally to all participants, who
+were each at times able to meaningfully connect the poetry back to
+conversations from the previous day. At other times, participants
+saw no obvious connection, and instead were reminded of moments
+from childhood (P1), of friends and family they hadn’t seen in a
+while (P4, P5), of past holidays in Rome (P7) (Figure 7), of books
+they had read (P3). A number of participants viewed the messages
+as the lens through which to remember previous conversations,
+describing them as a “puzzle” (P6) to decode, met with a “sense
+of satisfication” (P2) once having solved it. Others struggled with
+the uncertainty of their own memories, reflecting on whether the
+lamp’s memory was sometimes more accurate than their own.
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Rajcic and McCormack
+Figure 7: Message received by P7
+P4: “It’s like the lamp is reflecting back memories
+through its own lens, right, which is different to mine.
+Would you say it’s an objective lens, or has its own
+bias?”
+Interviewer: “What do you think?”
+P4: “It feels more objective but maybe that’s not the
+case. To me it reflects what is. It reflects what we put
+into it.”
+The tendency to perceive the machine as being altogether more
+objective, rational, or accurate than the human has roots in early
+computing culture [47]. Barad’s account of the role of measuring
+apparatus provides an understanding of the lamp as that which
+records memories. In the way that ‘the apparatus is an insepa-
+rable part of the observed phenomenon.’ [2], so too is the lamp
+itself inseparable from the memories constructed and reconstructed
+through its intra-action with participants. In this way, the phenom-
+enon of memory recollection is performed with and through one’s
+relationship with the lamp, other house members, and researchers
+within an assemblage. P6 describes how the lamp’s language was
+entangled with their own language, and with the language of other
+house members, to the extent that it became impossible to differen-
+tiate or trace back to a single source. Instead, remembering through
+the imagery and narratives in the poetry represented a kind of
+collective memory within the household.
+For other participants, the lamp’s capacity to provoke recollec-
+tion had less to do with the specific memories surfacing, and more
+to do with the very act of remembering. In this way, the lamp served
+as a “reminder” (P2, P6) to remember, which at times led partici-
+pants on a path of reflection, introspection and self-awareness at
+the outset of their day. Several participants recited the cascade of
+thoughts that followed the reading of a poem. In one example, a
+poem urging P7 to be “open and honest” with themselves led to
+them contemplating their feelings towards a recent ex-partner. The
+lamp provided further “affirmation” (P7) of existing feelings centred
+around the decision to end the relationship earlier in the week.
+In [79], the authors propose that the primary function of Auto-
+biographical Memory (AM) is to form a coherent sense of one’s
+identity. Personal memories are said to shape one’s current sense of
+self, and in turn this self-identity influences how past experiences
+are remembered. In a similar vein, [19] proposes that autobiograph-
+ical memories are dynamically retrieved and reconstructed to serve
+the current goals, beliefs and image of the working self. Such ap-
+proaches to understanding AM highlight its crucial role in the
+sense-making of the present: in order for the present self to remain
+coherent, the past must be perpetually malleable. This organisation
+of autobiographical memories to construct a consistent, continuous
+subjective experience can be likened to the authoring of an autobi-
+ographical narrative – a narrative that is continuously subject to
+revision. We found that for most participants, the value of the lamp
+is not in its ability to produce an accurate summary of the previous
+day’s conversation, but rather in its proclivity to encourage such
+authoring – often giving participants the language through which
+to frame their recent experiences.
+4.4
+Relationships
+The majority of participants found the lamp to be a good “con-
+versation starter” (P7), with households H1-H3 regularly sharing
+and discussing their respective poems. Along with being given a
+“reason” (P6) to converse more regularly, participants now too had
+“something extra to talk about” (P2). After a while, this process
+became “cyclical” (P5), with the poetry leading “into more conver-
+sation for the lamp for the next day” (P5). This shared experience
+fostered a “sense of togetherness” (P7) across the larger households
+(H1, H2). Returning again to Han’s account of ritual – it is not
+just that the rituals allow for lingering in time, but they also entail
+“community” [33, p.43].
+Participants of H3 similarly describe the lamp as a social agent,
+however not necessarily fostering relationships between household
+members, but rather the relationships with house guests. The lamp
+presented an added novelty, an “extra guest at [their] dinner parties”
+(P8). P8 and P9 reported that their guests would alter their behaviour
+around the lamp; at times they would check that the lamp had
+caught what they said, at other times guests would speak directly
+to the lamp in an effort to influence the next morning’s poetry.
+P8: “Maybe it worked more as a social tool for us
+in that we enjoyed most when we had people over,
+and we really enjoyed sharing the poem, and then we
+would have a conversation with that group the next
+day”
+P9: “People were excited about it the next day, they’d
+ask ‘Did you get the poem yet?”’
+It takes two (or more) people to make a conversation, raising the
+question of how a person living alone might engage with Message
+Ritual. In contrast to the relatively social households H1-H3, H4
+comprises of a single participant (P10) who has recently moved
+country and is settling in to a new living situation. In the absence
+of other people, P10 attempted to include the lamp in external
+communication, like speaking “on the phone”, listening to “voice
+Message Ritual: A Posthuman Account of Living with Lamp
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Figure 8: Lamp pictured alongside message received by P1 on the first day of the study
+messages and podcasts” (P10). P10 also describes their efforts to talk
+directly to the lamp: “I was speaking to myself as well, I normally
+don’t do that intentionally, but the past few weeks I’ve been like,
+okay, let it out, just talk to yourself” (P10).
+Language is often placed in opposition to the material under
+representationalism, which adopts a binary of words and things;
+signifier and signified. Yet, as Clark describes, language itself has a
+materiality; we encounter ‘words in the air, symbols on a printed
+page’ [17]. Language is not merely a vehicle through which we
+express our inner thoughts, but a form of computation in itself.
+The supra-communicative view of language, originally pioneered
+by Vygotsky [74], proposes that language is a tool that guides
+behaviour and structures action. For P10, spoken language was not
+solely used as a method of communication, but as a tool to regulate
+mood, or structure thought. P10 describes the lamp as a sort of
+spoken diary:
+P10: “Normally I don’t practice that daily. But yes, I
+have for the past few weeks, like I said, it’s refresh-
+ingly easy. I write diaries and I’ve done that probably
+20 years now, Almost daily, so for me it was just kind
+of a nice to see it in an object instead of my actual
+physical diary...I was able to be vulnerable with it.”
+What role did the lamp take in the existing households? At first,
+participants describe an uneasiness with the introduction of the
+lamp into their space. Unsure of how the lamp would utilise their
+language, participants were markedly more “self-conscious” (P1)
+and self-censoring at the beginning of the study.
+P3: “ In the early days there probably was less talking
+around the lamp, and then maybe towards end that
+sort of dropped away...”
+Interviewer: "What do you think changed?"
+P3: “Probably because the poems kept coming in and
+y’know, [I was] having fun with them”
+As the poems began arriving (Figure 8), and familiarity grew, all
+participants started to become comfortable in its presence. The
+relationship developed towards the lamp itself varied across house-
+holds, with participants describing it as a “companianable”, “a good
+listener” (P7), and the new “housemate” (P2, P4, P5); “it made me feel
+like I have the floor” (P5). P7 described feeling flattered, like they
+were the lamp’s “muse” (P7). Other participants describe moments
+in which they speak directly to the lamp, for example greeting it
+in the morning or asking it questions directly (P1). A majority of
+participants found themselves contemplating the thoughts or mood
+of the lamp, ascribing to it some level of intention, autonomy and
+agency; the lamp is “not a human being, but something, it’s doing
+something” (P7).
+Perceptions of agency and autonomy are increasingly important
+in this new era of human-machine relationships, particularly when
+those relationships involve AI. The traditional anthropomorphisms
+of ‘smart devices’, such as disembodied voices, skewmorphisms,
+or human iconography serve to reinforce the notion that artificial
+intelligence is akin to human intelligence. This sets up expectations
+of intentionality and free-will that we associate with the ‘theory of
+mind’ type of autonomy [8, Ch.9], rather than other, potentially new
+forms of agency and autonomy possible in advanced technological
+systems.
+4.5
+Transparency
+The participants each had varying levels of knowledge and experi-
+ence with AI technologies, with some participants directly involved
+with the development and design of similar systems (P2, P9), and
+others claiming almost no understanding of AI (P1, P8, P10). Gaps
+in working knowledge of the capabilities of AI technologies led to
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Rajcic and McCormack
+Figure 9: Message received by P8
+participants often over or underestimating the functionality of the
+lamp. In reference to a particular poem with the word “barking”,
+P9 asked whether the lamp was able to correctly tag and interpret
+their dog’s barking from the previous day. P9 also considered that
+perhaps they instead might have used that word in conversation. In
+instances where the lamp’s messages were unexpectedly dark and
+melancholy, P8 began to wonder whether the lamp was “picking up
+on something” (P8) beyond merely their language, like the tone of
+voice, or the “vibe” (P8) of the room. Rather than immediately reject
+the poetry that they could not clearly associate to the previous day,
+P8 instead read further into the lamp’s capacity for ‘knowing’. In
+another instance, P8 recalls receiving a message (Figure 9) that con-
+tained an uncanny coincidence. P8 and P9 had in fact been living
+together for 4 years, yet they quickly rejected the perceived tone
+and intention of the message. What was ultimately written off as
+coincidence, nevertheless generated an emotional reaction, and led
+P8 to question where exactly lies accountability of such generative
+systems; stating that “this would really suck if you were the one
+that wanted to [break up]” (P8)
+The lack of transparency surrounding generative AI systems
+contributes to both its creative potential (or perhaps, illusion), and
+to the ethically challenging aspects of its application in domestic
+and personal contexts. On one hand, this ambiguity lends itself
+to different expectations: the opening up of new possibilities and
+alternative perspectives. However this same ambiguity may also
+lead to confronting, negative, or disturbing experiences. In our case,
+increasing transparency of the system (i.e. explicitly reiterating data
+collection and storage procedures) relieved much of the concern
+for participants around privacy (P1, P3). Revealing the underly-
+ing transcripts to participants (P8, P9) of H3 furthermore brought
+clarity to their questions around perceived epistemic capabilities
+of the lamp, and perhaps highlighted the extent to which these
+observations, memories, and feelings were co-constructed through
+their entanglement.
+4.6
+Entanglements
+P1, P3, and P8 were not familiar with previous research nor with
+the researchers at the beginning of the study, whereas all other
+participants were considered colleagues or personal contacts. It
+quickly became evident how the entanglement of the researchers in
+this assemblage influenced the perceptions and attitudes towards
+the lamp. In contrast with traditional analyses, our diffractive ap-
+proach allows us to unpack the consequence of this difference,
+acknowledging that such research can not be not carried out in a
+vacuum.
+P1 and P3 both likened the lamp to the famously cursed late 90’s
+children’s toy, Furby [46], speaking to the perceived unfamiliar-
+ity or alien-like quality of the lamp. P8 reported never personally
+switching the lamp on or off, leaving that task to their partner who
+had more familiarity with the system (P9).
+At times, participants felt guilt towards the lamp when they failed
+to turn it on for a day (P2, P6), although it was unclear towards
+who exactly the guilt was directed:
+P2: “It kind of felt like we failed, actually, we didn’t
+do the task we were supposed to do...”
+Interviewer: “You failed me? Or you failed the lamp?
+Or you failed yourself?”
+P2: “Good question, um, I think we failed ourselves”
+Participants with whom the researchers had a closer relationship
+to (P2, P4-7, P10) instead presented with a tendency to perceive the
+lamp as friendly and “warm” (P4), being less concerned with issues
+of privacy and overall more receptive to its language.
+P5: “It was an extension of you”
+P4: “It was like a housemate”
+P5: “We also spoke about you to the lamp, if you
+came up we would address the lamp directly as ’your
+mother”’
+Similarly, while using the lamp as a spoken diary, P10 at the same
+time likened it to a kind of mediated communication with the
+researchers; “I was trying to share my gossip with you, I was giving
+all the juicy details to you” (P10).
+The lamp served not only as an extension of its designer, but led
+to the further entanglement of researchers with both households
+through regular check-ins. The lamp, although undeniably exerting
+its own agency, seemed to also borrow agency from the humans
+that created it; trust towards the lamp was an extension of the
+designers trust, guilt felt towards the lamp was guilt towards the
+researchers, and the ‘success’ of the study. This borrowed agency
+and trust heavily skewed the perceptions of Message Ritual causing
+participants to be more receptive and forgiving of the system. As
+raised by participants of H3, if the lamp was instead a “consumer
+product” (P8), their experiences would perhaps be more troubling.
+Emancipated from a sense of human accountability and care, the
+lamp’s messages could be perceived with an entirely different tone
+or intention. Returning to the discussion on ethical issues and of
+increased transparency of AI systems, we see that this transparency
+does not concern only the technical processes at play, but the tracing
+of human involvement.
+Ethical concerns around data-collection practices can typically
+be traced back to the (human-led) corporations that employ them
+for profit [80]. As discussed in [13], in order to gather data, “the true
+purpose of data-driven value propositions is often concealed, and
+individuals are coerced into using them. This constitutes exploita-
+tion and constrains the ability of individuals and organizations to
+act independently” [13]. Building on a comment from P8, if the lamp
+Message Ritual: A Posthuman Account of Living with Lamp
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+was indeed a consumer product, this would raise serious concerns
+around the true value proposition of the service, and whether or
+not the hyperpersonalised nature of the system would inevitably
+lead to a unethical implications.
+On the final day of the study, participants of H2 each recount
+receiving what they interpreted as a “goodbye message” (P4-7) from
+the lamp (Figure 10). P4 expressed that “it felt like the lamp is gonna
+miss me, it really created an emotion there”, speaking again to the
+participants proclivity to narrativize their interactions with the
+lamp. In contrast, participants of H3 instead experienced a grow-
+ing disconnect from the lamp’s messages as the study progressed:
+“The longer it was learning from us, the more gibberish the poems
+became” (P8), “I think we attribute it to all the poetry being dark”
+(P9).
+The decision to include AI technologies brings with it an in-
+herent unpredictability; with increased autonomy and agency the
+tracing of agencies across these human-machine relationships be-
+comes increasingly blurred and complex. The study’s findings illus-
+trate the variety and nuance in experience across participants and
+households, which speaks to this unpredictable nature, and further
+motivating the turn to diffractive methodologies.
+Across all households, the relationship developed by participants
+towards the lamp over the duration of the study was inextricably
+linked to the relationships participants have with each other and
+with the researchers/designers. Understanding the lamp’s becoming
+can only be done through the tracing of these relationships. At the
+conclusion of the study, H1 and H2 in particular expressed strong
+reluctance in surrendering the lamp, with some participants citing
+the daily poetry as the reason, while others set to miss the lamp’s
+presence in their home. What participants are reluctant to let go of
+may be not the lamp as a solitary object, but the way in which it
+enriches the wider network of relationships that surround it.
+5
+DISCUSSION AND FUTURE WORK
+“This is not to say that if practitioners construct their
+research from messy diffractive methodologies, they
+are not accountable for their contributing outcomes.
+Rather, this underscores the importance and ethics
+of the journey not over but alongside the destination
+because we too are reconfigurable through our praxis
+in ways possibly more consequential than any other.”
+— Key et al. [39]
+The methodological approach taken in the preceding evalua-
+tion was a departure from traditional analyses in that it was not
+attempting to reach a singular conclusion or set of findings, nor
+to validate a particular hypothesis (i.e. was Message Ritual success-
+ful or not?). The results emerging from such ‘messy’ methods are
+difficult to reduce to a single overarching narrative, as (naturally)
+each participant had a unique personal experience with the lamp.
+But more importantly, answering a hypothesis or question (‘Yes,
+it was successful’ or ‘no, it wasn’t successful’) does not contribute
+to the goal of understanding the possibilities of what the artefact
+could become. We found that by considering the multiplicity of
+experiences (both their similarities and differences) and attempt-
+ing to understand the configurations that led to those experiences,
+the methodology assists in identifying the potential value and risk
+brought about by the artefact in question.
+In lieu of a singular conclusion, the diffractive analysis led us,
+as designers, to better inform our conceptualisation of the artefact.
+The lamp is foremost a social object, rather than an solitary arte-
+fact, a mere technological device or tool. A number of participants
+described the lamp as a welcome addition to their life, easily fit-
+ting in with existing routines and rituals of the household. The
+moments of structured time carved out by the lamp seemed to offer
+comfort in the particularly stressful time of pandemic lockdown,
+along with greater connection in the midst of social isolation. As
+noted by a number of participants, it is rare in the current state of
+society that they find quiet moments to reflect. We found that this
+recollection of memories, thoughts, and feelings not only supports
+memory, but in remembering we are also engaging with the au-
+thoring and re-authoring of our narrative identity. Message Ritual
+provided participants with the space in which to remember, along
+with the language and concepts to weave those memories into a
+broader narrative. The feelings experienced towards the lamp are
+difficult to fully decouple from the feelings towards other household
+members and the researchers. Feelings of trepidation, responsibility,
+guilt, affection, and attachment appear to be distributed across the
+broader assemblage. This is not to diminish the lamp’s agency in
+such phenomena, but rather to acknowledge that such an artefact
+cannot be fully decoupled from the material conditions in which it
+was conceived, and in which it is studied.
+The diffractive analysis furthermore reoriented our approach as
+researchers to evaluation of AI technologies. Bringing attention to
+the full spectrum of participant experiences led to a keener aware-
+ness of the ethical considerations surrounding such open-ended
+systems. The introduction of AI technologies to deeply intimate
+and personal spaces carries with it an inherent risk, particularly
+when those technologies exert their own generative autonomy and
+agency. We attempted to mitigate these risks through transparency
+about the capabilities of the system, and informing participants
+about the open nature of interpretation of machine generated po-
+etry. Ethical accountability involves not only an increased trans-
+parency of the the underlying technical processes, but similar re-
+quirements extend to the wider network of those who enable and
+proliferate these technologies.
+Lastly, the analysis provided valuable insights into many aspects
+of the current design, including what might be changed or improved
+in future iterations of Message Ritual. Feedback from participants
+on extra functionality that they would like to see in the current
+design was particularly informative. Several participants wished
+that the lamp could be more “portable” (P1, P3, P5) such that it
+could catch conversations occurring in other rooms of the house.
+Extending to a network of lamps—potentially of varying sizes and
+shapes—that can live in different rooms or easily portable would
+be one way of addressing this need. Other participants asked for
+the mapping between their language and the lamp’s poetry to be
+more complex (P6, P7), incorporating more of their language (P8,
+P9), and potentially at different stages of the poetry rather than
+only at the beginning. We are currently developing more advanced
+mapping techniques such as the use of n-grams, and dynamically
+incorporating participant’s language in the poetry generation to
+improve the mapping between conversation and poetry produced.
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Rajcic and McCormack
+Figure 10: Goodbye messages received by participants of Household 2 on the last day of the study
+This preliminary evaluation informed both future design and
+evaluation improvements for Message Ritual. The exploratory na-
+ture, limited duration and relatively narrow age demographic of
+the current study invites a more detailed, longitudinal study to
+further understand the variety of ways the lamp can become with
+others. This would include a more diverse range of households,
+relationships, and demographics—where participants live with the
+lamp for extended periods (months, or even years)—to better un-
+derstand if and how the lamp might become an ongoing ritual.
+Other factors, such as homes with multi-lingual conversations and
+transient household members will also be considered (for technical
+and logistic reasons they were not considered for this study).
+6
+CONCLUSION
+We have shown how the application of entanglement methodologies
+to the design, development and evaluation of a novel technological
+artefact can benefit our understanding of the wider implications and
+considerations that emerging technologies facilitate. We draw from
+posthumanist theories to inform the conceptual basis, the design
+considerations, and the methodological approach to understanding
+how an artefact becomes with the world. This design process en-
+courages consideration of the multiple implicated relationships as
+they evolve over time. It entails designing not for a specific outcome
+or function, but in anticipation of how different human-machine
+relationships might materialise. The presented evaluation favours
+a diffractive approach to understanding qualitative data; not focus-
+ing on whether the design was ‘successful’, but on how different
+configurations lead to the artefact becoming different things [28].
+Message Ritual is an domestic, ambient and intelligent system
+that encourages the framing and re-framing of memories through
+generated poetics. It does this by engaging members of a household
+through daily rituals centred around language, both shared and
+private, carried out with intention, and imbued with meaning. Han
+doesn’t necessarily call for a return to ritual, rather simply that
+“rituals serve as a background against which our present times may
+be seen to stand out more clearly” [33, p.vi]. In this paper, we have
+offered an example of how ritual interaction is contrasted with
+many of the current ways we relate to technology. With this work,
+we are not attempting to return to, or reproduce the ritual practices
+observed across societies past and present, but instead to offer new
+rituals that produce shared meaning in human and non-human
+assemblages; new rituals in an increasingly posthuman society.
+Through diffractive analysis, we outlined the experiences and
+perceptions of participants living with lamp; tracing the entangle-
+ments between the lamp, participants, and researchers. By diffract-
+ing interview data with theory, and again with personal reflection,
+we teased out our understanding of the lamp’s becoming, identify-
+ing some of the possible roles the Message Ritual system can take:
+Lamp as diary, as confidant, as new housemate, as morning ritual,
+as conversation starter, as consumer product, as a technological
+extension of its (human) designers.
+In the wake of our analysis, we must ask ourselves as researchers
+and designers, are these the kind of relationships we want to foster?
+A diffractive approach allowed us to trace a spectrum of participant
+experiences to better identify the potential value and risk of an
+open-ended system such as Message Ritual. In doing so, ethical con-
+siderations were brought the fore, and led to an increased sense of
+accountability towards the introduction of AI technologies into do-
+mestic contexts. We hope that the novel approach presented in this
+paper inspires further interest in the development of entanglement
+methodologies in HCI research.
+ACKNOWLEDGMENTS
+This research was supported by Australian Research Council Grants
+FT170100033 and DP220101223.
+REFERENCES
+[1] Karen Barad. 2003. Posthumanist performativity: Toward an understanding of
+how matter comes to matter. Signs: Journal of women in culture and society 28, 3
+(2003), 801–831.
+[2] Karen Barad. 2014. Diffracting diffraction: Cutting together-apart. parallax 20, 3
+(2014), 168–187.
+[3] Eric PS Baumer and Jed R Brubaker. 2017. Post-userism. In Proceedings of the
+2017 CHI Conference on Human Factors in Computing Systems. 6291–6303.
+[4] Oladayo Bello and Sherali Zeadally. 2019. Toward efficient smartification of the
+Internet of Things (IoT) services. Future Generation Computer Systems 92 (2019),
+663–673.
+[5] Gabrielle Benabdallah. 2020. Sybil: A Divinatory Home Device. In Companion
+Publication of the 2020 ACM Designing Interactive Systems Conference (DIS’ 20
+Companion). Association for Computing Machinery, New York, NY, USA, 275–279.
+https://doi.org/10.1145/3393914.3395857
+[6] David Benyon and Oli Mival. 2011. From Human-Computer Interactions to
+Human-Companion Relationships. In Proceedings of the First International Confer-
+ence on Intelligent Interactive Technologies and Multimedia (IITM ’10). Association
+for Computing Machinery, New York, NY, USA, 1–9. https://doi.org/10.1145/
+1963564.1963565
+[7] Timothy W. Bickmore and Rosalind W. Picard. 2005. Establishing and Maintaining
+Long-Term Human-Computer Relationships. ACM Trans. Comput.-Hum. Interact.
+12, 2 (jun 2005), 293–327. https://doi.org/10.1145/1067860.1067867
+[8] Margaret A. Boden. 2012. Foreward to Computers and Creativity. In Computers
+and Creativity, Jon McCormack and Mark d’Inverno (Eds.). Springer, Berlin;
+Heidelberg, v–vi. https://doi.org/10.1007/978-3-642-31727-9
+[9] Susanne Bødker. 2006. When second wave HCI meets third wave challenges. In
+Proceedings of the 4th Nordic conference on Human-computer interaction: changing
+roles. 1–8.
+[10] Susanne Bødker. 2015. Third-wave HCI, 10 years later—participation and sharing.
+Interactions 22, 5 (2015), 24–31.
+[11] Rishi Bommasani, Drew A. Hudson, Ehsan Adeli, Russ Altman, Simran Arora,
+Sydney von Arx, Michael S. Bernstein, Jeannette Bohg, Antoine Bosselut, Emma
+Brunskill, Erik Brynjolfsson, Shyamal Buch, Dallas Card, Rodrigo Castellon,
+Niladri Chatterji, Annie Chen, Kathleen Creel, Jared Quincy Davis, Dora Dem-
+szky, Chris Donahue, Moussa Doumbouya, Esin Durmus, Stefano Ermon, John
+Message Ritual: A Posthuman Account of Living with Lamp
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Etchemendy, Kawin Ethayarajh, Li Fei-Fei, Chelsea Finn, Trevor Gale, Lauren
+Gillespie, Karan Goel, Noah Goodman, Shelby Grossman, Neel Guha, Tatsunori
+Hashimoto, Peter Henderson, John Hewitt, Daniel E. Ho, Jenny Hong, Kyle Hsu,
+Jing Huang, Thomas Icard, Saahil Jain, Dan Jurafsky, Pratyusha Kalluri, Siddharth
+Karamcheti, Geoff Keeling, Fereshte Khani, Omar Khattab, Pang Wei Kohd, Mark
+Krass, Ranjay Krishna, Rohith Kuditipudi, Ananya Kumar, Faisal Ladhak, Mina
+Lee, Tony Lee, Jure Leskovec, Isabelle Levent, Xiang Lisa Li, Xuechen Li, Tengyu
+Ma, Ali Malik, Christopher D. Manning, Suvir Mirchandani, Eric Mitchell, Zanele
+Munyikwa, Suraj Nair, Avanika Narayan, Deepak Narayanan, Ben Newman, Allen
+Nie, Juan Carlos Niebles, Hamed Nilforoshan, Julian Nyarko, Giray Ogut, Laurel
+Orr, Isabel Papadimitriou, Joon Sung Park, Chris Piech, Eva Portelance, Christo-
+pher Potts, Aditi Raghunathan, Rob Reich, Hongyu Ren, Frieda Rong, Yusuf
+Roohani, Camilo Ruiz, Jack Ryan, Christopher Ré, Dorsa Sadigh, Shiori Sagawa,
+Keshav Santhanam, Andy Shih, Krishnan Srinivasan, Alex Tamkin, Rohan Taori,
+Armin W. Thomas, Florian Tramèr, Rose E. Wang, William Wang, Bohan Wu,
+Jiajun Wu, Yuhuai Wu, Sang Michael Xie, Michihiro Yasunaga, Jiaxuan You,
+Matei Zaharia, Michael Zhang, Tianyi Zhang, Xikun Zhang, Yuhui Zhang, Lucia
+Zheng, Kaitlyn Zhou, and Percy Liang. 2021. On the Opportunities and Risks of
+Foundation Models. arXiv:cs.LG/2108.07258 https://arxiv.org/abs/2108.07258
+[12] Rosi Braidotti. 2019. Posthuman knowledge. John Wiley & Sons.
+[13] Christoph F Breidbach and Paul Maglio. 2020. Accountable algorithms? The ethi-
+cal implications of data-driven business models. Journal of Service Management
+31, 2 (2020), 163–185.
+[14] Kieran Browne and Ben Swift. 2018. The Other Side: Algorithm as Ritual in
+Artificial Intelligence. In Extended Abstracts of the 2018 CHI Conference on Human
+Factors in Computing Systems (CHI EA ’18). Association for Computing Machinery,
+New York, NY, USA, 1–9. https://doi.org/10.1145/3170427.3188404
+[15] David Chatting, David S. Kirk, Paulina Yurman, and Jo-Anne Bichard. 2017.
+Ritual machine V: Where are you. In Proceedings of the 3rd Conference on Bien-
+nial Research Through Design. 131–147. http://davidchatting.com/familyrituals/
+publications/WhereAreYou-objectoutcomes.pdf
+[16] Amy Yo Sue Chen, William Odom, Ce Zhong, Henry Lin, and Tal Amram. 2019.
+Chronoscope. In Proceedings of the 2019 on Designing Interactive Systems Confer-
+ence. ACM. https://doi.org/10.1145/3322276.3322301
+[17] Andy Clark. 1998. Magic words: How language augments human computation.
+Language and thought: Interdisciplinary themes (1998), 162–183.
+[18] Simon Colton, Alison Pease, Christian Guckelsberger, Jon McCormack, and
+Maria Teresa Llano. 2020. On the Machine Condition and its Creative Expression.
+(2020), 342–349. http://computationalcreativity.net/iccc20/papers/075-iccc20.pdf
+[19] Martin A Conway. 2005. Memory and the self. Journal of memory and language
+53, 4 (2005), 594–628.
+[20] Dylan J DeJong. 2019. The Posthuman Reality of Feed-Based Social Media
+Systems. (2019).
+[21] Audrey Desjardins, Afroditi Psarra, and Bonnie A. Whiting. 2021. Voices and
+Voids: Subverting Voice Assistant Systems through Performative Experiments. In
+Creativity and Cognition (C&C ’21). Association for Computing Machinery, New
+York, NY, USA, Article 29, 10 pages. https://doi.org/10.1145/3450741.3466807
+[22] Jacob Devlin, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. BERT:
+Pre-training of Deep Bidirectional Transformers for Language Understanding.
+CoRR abs/1810.04805 (2018). arXiv:1810.04805 http://arxiv.org/abs/1810.04805
+[23] Diana Domingues. 1999. Interactivity and ritual. In ACM SIGGRAPH 99 Electronic
+art and animation catalog on - SIGGRAPH '99. ACM Press. https://doi.org/10.
+1145/312379.312564
+[24] Anthony Dunne and Fiona Raby. 2013. Speculative Everything: Design, Fiction,
+and Social Dreaming. MIT Press, Cambridge, MA and London England.
+[25] Laura Forlano. 2017. Posthumanism and Design. She Ji: The Journal of Design,
+Economics, and Innovation 3, 1 (2017), 16–29. https://doi.org/10.1016/j.sheji.2017.
+08.001
+[26] Nick J Fox and Pam Alldred. 2021. Applied Research, Diffractive Methodol-
+ogy, and the Research-Assemblage: Challenges and Opportunities. Sociologi-
+cal Research Online 0, 0 (2021), 13607804211029978.
+https://doi.org/10.1177/
+13607804211029978 arXiv:https://doi.org/10.1177/13607804211029978
+[27] Christopher Frauenberger. 2019. Entanglement HCI: The Next Wave? ACM
+Transactions on Computer-Human Interaction (TOCHI) 27, 1 (2019), 1–27.
+[28] Christopher Frauenberger. 2020. Entanglement HCI The Next Wave? ACM
+Transactions on Computer-Human Interaction 27, 1 (2020), 1–27. https://doi.org/
+10.1145/3364998
+[29] Christopher Frayling. 1993. Research in art and design. Royal College of Art
+Research Papers 1, 1 (1993), 1–5.
+[30] William Gaver. 2012. What Should We Expect from Research through Design?.
+In Proceedings of the SIGCHI Conference on Human Factors in Computing Systems
+(CHI ’12). Association for Computing Machinery, New York, NY, USA, 937–946.
+https://doi.org/10.1145/2207676.2208538
+[31] William Gaver, Mark Blythe, Andy Boucher, Nadine Jarvis, John Bowers, and
+Peter Wright. 2010. The Prayer Companion: Openness and Specificity, Materiality
+and Spirituality. In Proceedings of the SIGCHI Conference on Human Factors in
+Computing Systems (CHI ’10). Association for Computing Machinery, New York,
+NY, USA, 2055–2064. https://doi.org/10.1145/1753326.1753640
+[32] Raffaela Giovagnoli. 2020. From Habits to We-Intentionality: Rituals as Social
+Habits. In The Logic of Social Practices. Springer, 185–199.
+[33] Byung-Chul Han. 2020. The Disappearance of Rituals: A Topology of the Present.
+Wiley, Hoboken, New Jersey, USA.
+[34] Donna Haraway. 1992. The promises of monsters: a regenerative politics for
+inappropriate/d others. In Cultural Studies, Lawrence Grossberg, Cary Nelson,
+and Paula Treichler (Eds.). Routledge, 295–337.
+[35] Donna Haraway. 2006. A cyborg manifesto: Science, technology, and socialist-
+feminism in the late 20th century. In The international handbook of virtual learning
+environments. Springer, 117–158.
+[36] Steve Harrison, Deborah Tatar, and Phoebe Sengers. 2007. The three paradigms of
+HCI. In Alt. Chi. Session at the SIGCHI Conference on human factors in computing
+systems San Jose, California, USA. 1–18.
+[37] Sabrina Hauser, Doenja Oogjes, Ron Wakkary, and Peter-Paul Verbeek. 2018. An
+Annotated Portfolio on Doing Postphenomenology Through Research Products.
+In Proceedings of the 2018 Designing Interactive Systems Conference (DIS ’18).
+Association for Computing Machinery, New York, NY, USA, 459–471.
+https:
+//doi.org/10.1145/3196709.3196745
+[38] Don Ihde. 1993. Philosophy of Technology: An Introduction. Paragon House
+Publishers, New York, NY, USA.
+[39] Cayla Key, Cally Gatehouse, and Nick Taylor. 2022. Feminist Care in the Anthro-
+pocene: Packing and Unpacking Tensions in Posthumanist HCI. In Designing
+Interactive Systems Conference. 677–692.
+[40] David S. Kirk, David Chatting, Paulina Yurman, and Jo-Anne Bichard. 2016. Ritual
+Machines I & II: Making Technology at Home. In Proceedings of the 2016 CHI
+Conference on Human Factors in Computing Systems (CHI ’16). Association for
+Computing Machinery, New York, NY, USA, 2474–2486. https://doi.org/10.1145/
+2858036.2858424
+[41] Sara Klüber, Diana Löffler, Marc Hassenzahl, Ilona Nord, and Jörn Hurtienne. 2020.
+Designing Ritual Artifacts for Technology-Mediated Relationship Transitions.
+In Proceedings of the Fourteenth International Conference on Tangible, Embedded,
+and Embodied Interaction (TEI ’20). Association for Computing Machinery, New
+York, NY, USA, 349–361. https://doi.org/10.1145/3374920.3374937
+[42] Carl Knappett and Lambros Malafouris. 2008. Material Agency Towards a Non-
+Anthropocentric Approach. New York, NY : Springer US : Imprint: Springer.
+[43] Amanda Lazar, Ben Jelen, Alisha Pradhan, and Katie A. Siek. 2021. Adopting
+Diffractive Reading to Advance HCI Research: A Case Study on Technology for
+Aging. ACM Trans. Comput.-Hum. Interact. 28, 5, Article 32 (Aug. 2021), 29 pages.
+https://doi.org/10.1145/3462326
+[44] Joseph CR Licklider. 1960. Man-computer symbiosis. IRE transactions on human
+factors in electronics 1 (1960), 4–11.
+[45] Kristina Mah, Lian Loke, and Luke Hespanhol. 2020. Designing With Ritual
+Interaction. In Proceedings of the Fourteenth International Conference on Tangible,
+Embedded, and Embodied Interaction. ACM.
+https://doi.org/10.1145/3374920.
+3374947
+[46] Jackie Marsh. 2019. The Uncanny Valley Revisited: Play with the Internet of Toys.
+Springer International Publishing, Cham, 47–65. https://doi.org/10.1007/978-3-
+030-10898-4_3
+[47] C. Dianne Martin. 1993. The Myth of the Awesome Thinking Machine. Commun.
+ACM 36, 4 (apr 1993), 120–133. https://doi.org/10.1145/255950.153587
+[48] David T Neal, Wendy Wood, and Jeffrey M Quinn. 2006.
+Habits—A repeat
+performance. Current directions in psychological science 15, 4 (2006), 198–202.
+[49] Charlotte Nordmoen and Andrew P McPherson. 2022. Making space for material
+entanglements: A diffractive analysis of woodwork and the practice of making
+an interactive system. In Designing Interactive Systems Conference. 415–423.
+[50] Diana Nowacka, Katrin Wolf, Enrico Costanza, and David Kirk. 2018. Working
+with an Autonomous Interface: Exploring the Output Space of an Interactive
+Desktop Lamp. In Proceedings of the Twelfth International Conference on Tangi-
+ble, Embedded, and Embodied Interaction (TEI ’18). Association for Computing
+Machinery, New York, NY, USA, 1–10. https://doi.org/10.1145/3173225.3173227
+[51] William Odom, Mark Selby, Abigail Sellen, David Kirk, Richard Banks, and Tim
+Regan. 2012. Photobox: on the design of a slow technology. In Proceedings of
+the Designing Interactive Systems Conference on - DIS '12. ACM Press, 665–668.
+https://doi.org/10.1145/2317956.2318055
+[52] William Odom, Ron Wakkary, Jeroen Hol, Bram Naus, Pepijn Verburg, Tal Amram,
+and Amy Yo Sue Chen. 2019. Investigating Slowness as a Frame to Design Longer-
+Term Experiences with Personal Data. In Proceedings of the 2019 CHI Conference
+on Human Factors in Computing Systems. ACM. https://doi.org/10.1145/3290605.
+3300264
+[53] William T. Odom, Abigail J. Sellen, Richard Banks, David S. Kirk, Tim Regan,
+Mark Selby, Jodi L. Forlizzi, and John Zimmerman. 2014. Designing for Slowness,
+Anticipation and Re-Visitation: A Long Term Field Study of the Photobox. In
+Proceedings of the SIGCHI Conference on Human Factors in Computing Systems
+(CHI ’14). Association for Computing Machinery, New York, NY, USA, 1961–1970.
+https://doi.org/10.1145/2556288.2557178
+[54] Emmi Parviainen and Marie Louise Juul Søndergaard. 2020. Experiential Qualities
+of Whispering with Voice Assistants. In Proceedings of the 2020 CHI Conference
+on Human Factors in Computing Systems (CHI ’20). Association for Computing
+CHI ’23, April 23–28, 2023, Hamburg, Germany
+Rajcic and McCormack
+Machinery, New York, NY, USA, 1–13. https://doi.org/10.1145/3313831.3376187
+[55] Larissa Pschetz and Richard Banks. 2013. Long living chair. In CHI EA ’13:
+CHI ’13 Extended Abstracts on Human Factors in Computing Systems. 2983–2986.
+https://doi.org/10.1145/2468356.2479590
+[56] Alec Radford, Jeffrey Wu, Rewon Child, David Luan, Dario Amodei, and Ilya
+Sutskever. 2019. Language models are unsupervised multitask learners. URL
+https://openai. com/blog/better-language-models (2019).
+[57] Nina Rajcic and Jon McCormack. 2020. Mirror Ritual: An Affective Interface for
+Emotional Self-Reflection. In Proceedings of the 2020 CHI Conference on Human
+Factors in Computing Systems. ACM. https://doi.org/10.1145/3313831.3376625
+[58] Nina Rajcic and Jon McCormack. 2020. Mirror Ritual: Human-Machine Co-
+Construction of Emotion. Proceedings of the Fourteenth International Conference
+on Tangible, Embedded, and Embodied Interaction (Feb 2020). https://doi.org/10.
+1145/3374920.3375293
+[59] Ursula Rao. 2006. Ritual in society. In Theorizing Rituals, Volume 1: Issues, Topics,
+Approaches, Concepts. Brill, 143–160.
+[60] Anuradha Reddy, A. Baki Kocaballi, Iohanna Nicenboim, Marie Louise Juul Søn-
+dergaard, Maria Luce Lupetti, Cayla Key, Chris Speed, Dan Lockton, Elisa Gi-
+accardi, Francisca Grommé, Holly Robbins, Namrata Primlani, Paulina Yurman,
+Shanti Sumartojo, Thao Phan, Viktor Bedö, and Yolande Strengers. 2021. Making
+Everyday Things Talk: Speculative Conversations into the Future of Voice Inter-
+faces at Home. In Extended Abstracts of the 2021 CHI Conference on Human Factors
+in Computing Systems (CHI EA ’21). Association for Computing Machinery, New
+York, NY, USA, Article 23, 16 pages. https://doi.org/10.1145/3411763.3450390
+[61] Robert Rosenberger and Peter-Paul Verbeek. 2015. A Field Guide to Postphe-
+nomenology. In Postphenomenological investigations: essays onhuman-technology
+relations, Robert Rosenberger and Peter-Paul Verbeek (Eds.). Lexington Books,
+Lanham, 9–41.
+[62] Robert Rosenberger and Peter Peter-Paul Verbeek. 2015. Postphenomenological
+investigations: essays on human-technology relations. Lexington Books.
+[63] Jerry Lee Rosiek and Jimmy Snyder. 2020. Narrative Inquiry and New Materialism:
+Stories as (Not Necessarily Benign) Agents. Qualitative Inquiry 26, 10 (2020),
+1151–62. https://doi.org/10.1177/1077800418784326
+[64] Marco C. Rozendaal, Betti Marenko, and William Odom (Eds.). 2021. Designing
+Smart Objects in Everyday Life. Bloomsbury Publishing Plc., London, UK.
+[65] Gerard Salton and Christopher Buckley. 1988. Term-weighting approaches in
+automatic text retrieval. Information Processing & Management 24, 5 (1988),
+513–523. https://doi.org/10.1016/0306-4573(88)90021-0
+[66] Corina Sas, Steve Whittaker, and John Zimmerman. 2016. Design for Rituals of
+Letting Go. ACM Transactions on Computer-Human Interaction 23, 4 (sep 2016),
+1–37. https://doi.org/10.1145/2926714
+[67] Gloria L. Schaab. 2013. Relational Ontology. Springer Netherlands, Dordrecht,
+1974–1975. https://doi.org/10.1007/978-1-4020-8265-8_847
+[68] Hugo Scurto, Baptiste Caramiaux, and Frédéric Bevilacqua. 2021. Prototyping
+machine learning through diffractive art practice. In Designing Interactive Systems
+Conference 2021. 2013–2025.
+[69] Rob Strong and Bill Gaver. 1996. Feather, Scent, and Shaker: Supporting Simple
+Intimacy. In Proceedings of CSCW, Vol. 96. 29–30. https://cfacaa.human.cornell.
+edu/dea.arl/linked%20docs/Feather%20Scent%20and%20Shaker.pdf
+[70] Jakob Tholander, Maria Normark, and Chiara Rossitto. 2012. Understanding
+agency in interaction design materials. In Proceedings of the 2012 ACM annual
+conference on Human Factors in Computing Systems - CHI '12. ACM Press. https:
+//doi.org/10.1145/2207676.2208417
+[71] Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones,
+Aidan N Gomez, Łukasz Kaiser, and Illia Polosukhin. 2017. Attention is all
+you need. In Advances in neural information processing systems. 5998–6008.
+[72] Peter-Paul Verbeek. 2005. What things do: Philosophical reflections on technology,
+agency, and design. Pennsylvania State University Press, University Park, PA.
+[73] Peter-Paul Verbeek. 2015. Beyond Interaction: A Short Introduction to Mediation
+Theory. Interactions 22, 3 (apr 2015), 26–31. https://doi.org/10.1145/2751314
+[74] Lev S Vygotsky. 1962. Thought and word. (1962).
+[75] Ron Wakkary. 2021. Things We Could Design: For More Than Human-Centered
+Worlds. MIT Press, Cambridge, MA.
+[76] Ron Wakkary, William Odom, Sabrina Hauser, Garnet Hertz, and Henry Lin.
+2015. Material Speculation: Actual Artifacts for Critical Inquiry. Aarhus Series on
+Human Centered Computing 1, 1 (Oct. 2015), 12. https://doi.org/10.7146/aahcc.
+v1i1.21299
+[77] Ron Wakkary, Doenja Oogjes, Sabrina Hauser, Henry Lin, Cheng Cao, Leo Ma,
+and Tijs Duel. 2017. Morse Things: A Design Inquiry into the Gap Between
+Things and Us. In Proceedings of the 2017 Conference on Designing Interactive
+Systems. ACM. https://doi.org/10.1145/3064663.3064734
+[78] Ron Wakkary, Doenja Oogjes, Henry W. J. Lin, and Sabrina Hauser. 2018. Philoso-
+phers Living with the Tilting Bowl. Association for Computing Machinery, New
+York, NY, USA, 1–12. https://doi.org/10.1145/3173574.3173668
+[79] Anne Wilson and Michael Ross. 2003. The identity function of autobiographical
+memory: Time is on our side. Memory 11, 2 (2003), 137–149.
+[80] Shoshana Zuboff. 2018. The Age of Surveillance Capitalism: The Fight for a Human
+Future at the New Frontier of Power. Profile Books, London, UK.

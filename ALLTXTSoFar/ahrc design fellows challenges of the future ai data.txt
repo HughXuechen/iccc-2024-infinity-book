@@ -1,0 +1,1721 @@
+AHRC DESIGN FELLOWS
+CHALLENGES OF THE FUTURE
+AI & DATA
+Joseph Lindley and Paul Coulton
+ 
+ 
+Glossary of Terms
+2 
+1. Introduction
+3 
+2. Research Approach
+4 
+3. Viewing AI and Data through a Design Research Lens
+6 
+3.1 How does AI work?
+6 
+3.2 AI Guidance Frameworks
+11 
+3.3 How are AI systems put to use?
+13 
+4. Design Research and Funding Landscape
+17 
+4.1 Where is the Design Research?
+17 
+4.2 Where is the Money?
+19 
+5. Skills
+21 
+5.1 What is a Design Researcher?
+21 
+5.2 Technology-Focused Design Research
+23 
+5.3 Creative Industries and Education
+24 
+6. Research
+26 
+7. Infrastructure and Partnerships
+29 
+8. Recommendations
+34 
+Recommendation 1 - Disambiguate the Domain
+34 
+Recommendation 2 - Communicate the Benefit
+34 
+Recommendation 3 - Unify Investment Strategy
+34 
+Recommendation 4 - Manage Expectations
+35 
+Recommendation 5 - Evaluate Investment Value
+35 
+Recommendation 6 - Support Collaboration
+35 
+Recommendation 7 - Promote Equity and Diversity
+35 
+Recommendation 8 - Support Designing with Data
+36 
+References
+37 
+Acknowledgements
+39 
+Appendix 1: Interviewee Profiles
+40 
+Appendix 2: Interview Schedule
+43 
+Appendix 3: Accuracy in AI Systems
+44 
+ 
+ 
+ 
+Glossary of Terms 
+Artificial Intelligence (AI)​ - for the purposes of this report we define it as an umbrella term for 
+a range of algorithm-based technologies that solve complex tasks by carrying out functions that 
+previously required human thinking. 
+Data​ - this term is principally used in this report in relation to ‘training data’. This is the initial set 
+of data used by AI systems through which they learn to base subsequent decisions or 
+predictions. However, we acknowledge for some types of AI system additional data is collected 
+through system use. 
+Machine Learning (ML)​ - is a subset of artificial intelligence. Machine learning algorithms build 
+mathematical models based on sample data in order to make predictions or decisions. 
+Deep Learning (DL)​ - is a subset of ML that uses neural networks capable of learning 
+unsupervised from data that is unstructured or unlabeled. 
+Reinforcement Learning (RL)​ - after initial training the system continues to refine its 
+decisions/predictions based on new inputs. 
+Neural Networks​ - describes algorithms whose topology is inspired by the human brain. 
+Supervised Learning​ - Supervised learning is when the training data contains both inputs and 
+an output and the algorithm learns the mapping function between input and output. 
+Unsupervised Learnin​g - Unsupervised learning is when the training data contains inputs with 
+no corresponding output. 
+Bias​ - in this report we are principally concerned with algorithmic bias. This describes 
+systematic and repeatable errors in AI systems that create unfair outcomes such as privileging 
+one group over others. 
+ 
+ 
+ 
+ 
+ 
+ 
+1. Introduction 
+Artificial Intelligence (AI) and Data represent significant challenges of our time. In this report 
+we discuss how Design Research can help address these challenges while growing and 
+supporting the UK’s world-leading position in AI and Data innovation. 
+“Our vision is for the UK to become the best place in the world for businesses developing 
+and deploying AI to start, grow and thrive, and to realise all the benefits the technology 
+offers.”  
+1
+Government projections suggest that AI will add an additional £630 billion to the UK 
+economy within the next 15 years boosting GDP by up to 20%. AI and Data are already an 
+essential component of the national economic engine but the scale of the potential growth is 
+so disruptive it will require a reconfiguration of personal, societal and political relationships 
+with both AI itself (as a class of technology) and Data (as the raw material which enables AI). 
+Increasing research and development spending across the whole economy to 2.4% of Gross 
+Domestic Product by 2027  will provide the critical investment necessary to fully benefit from 
+2
+AI and Data, and a key part of this investment is an increase in private sector contribution.  
+ 
+“The UK must seek to actively shape AI’s development and utilisation, or risk passively 
+acquiescing to its many likely consequences.”  
+3
+As AI is more widely adopted it will impact all aspects of our life including healthcare 
+(spotting early signs of illness and diagnose disease), governance (to target interventions 
+1 https://www.gov.uk/government/publications/growing-the-artificial-intelligence-industry-in-the-uk 
+2 https://www.ukri.org/about-us/increasing-investment-in-r-d-to-2-4-of-gdp/ 
+3 https://publications.parliament.uk/pa/ld201719/ldselect/ldai/100/100.pdf 
+ 
+ 
+and identify potential offenders), work (targeting products and services to consumers), and 
+culture (human-machine collaboration). Responding to the gamut of AI’s impact will require 
+an equally wide range of disciplinary perspectives across engineering, art, and the 
+humanities. Design Research’s ability to work with, and among, diverse and flexible methods 
+make it a unique toolkit which is apt to respond to the needs of AI’s paradigm shift. Design 
+Research can help to optimise the opportunities while simultaneously mitigating the risks 
+that AI and Data pose. Through this report we will: 
+●
+Explain why Design Research is relevant to AI and Data innovation. 
+●
+Explore how Design Research related to AI and Data is funded. 
+●
+Discuss the skills and training requirements of Design Researchers. 
+●
+Describe the cutting edge research questions about AI and Data which Design 
+Research can be applied to. 
+●
+Plot the landscape of current centres of excellence and partnerships. 
+●
+Summarise recommendations, based on the evidence in the report, to enhance 
+University-led Design Research, exploring how partnerships with government and 
+business can create positive economic, cultural, and social outcomes for the whole of 
+the UK. 
+2. Research Approach 
+The report is based on original research and qualitative data gathered through interviews 
+with domain experts. In total 16 participants (see profiles in appendix 1) were interviewed. 
+Specific participants were invited to take part in order to represent a spectrum of the Design 
+Research landscape covering various disciplinary alignments, academic and non-academic 
+Design Research practitioners, Design Researchers with historically diverse funding track 
+records, as well as AI and data domain experts with a purview of Design Research.  
+The semi-structured interviews were conducted according to an interview schedule (see 
+appendix 2) that directly addresses the headings and questions specified for the report while 
+also provisioning for the wide range of perspectives that were participated. Interviewees 
+were asked to consent to be quoted directly without anonymisation, this is an important step 
+in contextualising the breadth of viewpoints upon which the report draws.  
+The research is conducted from a pragmatic perspective, accepting both that there are 
+multiple, sometimes incompatible, points of view and also that the researchers are in fact 
+part of the research instrument and will inevitably colour how the data is presented and 
+interpreted. Notwithstanding this acknowledgement, the report endeavours to be faithful to 
+the spirit of participants' comments and all participants have had the opportunity to rescind, 
+amend, or add to their quotes as they appear in the report. Where we quote interviewees 
+directly in the report the interviews will be referenced as follows: ​“This gets a bit 
+complicated, but you could go back to a kind of Cartesian dichotomy between the 
+physical object and the intelligence” (Auger, 2020)​. 
+ 
+ 
+ 
+ 
+ 
+Interviewee 
+Position(s) 
+Affiliation 
+James Auger 
+Enseignant-chercheur (Lecturer/Researcher) 
+École normale supérieure 
+Paris-Saclay 
+Anab Jain 
+Co-founder and Director 
+Superflux 
+Chris Speed* 
+Programme Director, Design Informatics 
+The University of Edinburgh 
+Ewa Luger* 
+Chancellor's Fellow in Digital Arts and Humanities, Design 
+Informatics 
+The University of Edinburgh 
+Bill Gaver* 
+Co-Director, Interaction Research Studio 
+Goldsmiths 
+Andy Boucher* 
+Co-Director, Interaction Research Studio 
+Goldsmiths 
+Ann Light 
+Professor of Design and Creative Technology 
+University of Sussex 
+Alison Powell 
+Just AI Network (lead) and Assistant Professor in Media and 
+Communications 
+London School of Economics 
+Stuart Reeves 
+Assistant Professor in Computer Science, member of the Mixed 
+Reality Lab and Horizon research institute. 
+University of Nottingham 
+Dave Kirk 
+Professor of Human-Computer Interaction and Director, Openlab 
+Newcastle University 
+Ben Kirman 
+Lecturer, Department of Theatre, Film, Television and Interactive 
+Media and member of Digital Creativity Labs 
+University of York 
+Dame Wendy Hall 
+Co-chair of UK Government AI Review, Skills Champion for AI, 
+Executive Director of Web Science Institute 
+University of Southampton 
+Shannon Vallor 
+Chair in the Ethics of Data and Artificial Intelligence at the 
+Edinburgh Futures Institute 
+University of Edinburgh 
+John Vines 
+Professor, School of Design 
+Northumbria University. 
+Julian Bleecker* 
+Co-founder (Near Future Laboratory) 
+Near Future Laboratory 
+Nicolas Nova* 
+Co-founder (Near Future Laboratory), Associate Professor at the 
+Geneva School of Arts and Design 
+Near Future Laboratory 
+Table 1. Interviewees quoted in the report (further profiles included in appendix 1). 
+Those marked with asterisks (*) were interviewed as a pair with their respective 
+colleagues. 
+ 
+ 
+ 
+3. Viewing AI and Data through a Design Research Lens 
+3.1 How does AI work? 
+“If you wish to make an apple pie from scratch, you must first invent the Universe” - Carl 
+Sagan. 
+Carl Sagan’s enigmatic quip about apple pie is profound because it argues a working 
+knowledge of the ​origin​ of the Universe is absolutely necessary to have a working 
+knowledge of physics in the real world (or, of an apple pie). Similarly, if we are to fully 
+understand the breadth of possibilities for Design Research related to AI and Data it is 
+important to be able to navigate the complexity of landscape to which these terms are 
+applied. It is worth noting while some of this discussion is relevant to the wider arts and 
+humanities in this report we are specifically considering AI and Data through a Design 
+Research lens. 
+The ​“ancient human desire of replicating life” (Auger, 2020)​ links together the intrigue of 
+automata such as Vaucanson’s ​Canard Digérateur​, Norbert Wiener’s work on ​Cybernetics 
+and later, in collaboration with John von Neumann, the modelling of neurons which led to 
+so-called ​neural networks​. In 1956, American computer scientist John McCarthy organised 
+the Dartmouth Workshop, at which the term ‘Artificial Intelligence’ (AI) was first adopted. By 
+this time ​“the ability to replicate intelligence starts to become a big obsession with 
+scientists”​,​ ​however, ​“when we see that applied [today] the reality is much more 
+banale” (Auger 2020)​.  
+This more banale utilisation of neural networks to process large datasets is part of what we 
+refer to today as AI, but that the AI moniker stuck is arguably a matter of luck: at the 
+influential Dartmouth Workshop two key attendees (Allen Newell and Herbert Simon) were 
+minded to refer to the field as ​Complex Information Processing ​rather than AI. Given how the 
+technology works and how it is used, if we had adopted Complex Information Processing as 
+the field’s label it would, arguably, have led to fewer misunderstandings about what the field 
+actually is, and how it works. Notwithstanding this observation, AI is the term which is widely 
+adopted and hence we must deal with its connotations. 
+The applications of today’s AI are commonplace, for example spam filters, predictive text 
+messaging, and targeted advertising. However, due to a lack of understanding about what 
+the term AI really represents, and the enduring influence of the field’s grand foundation in the 
+pursuit of artificial life, the perception of AI often transcends its banality. ​“It’s quite 
+problematic actually” ​notes Anab Jain ​“it is sexy to put the term on stuff” (Jain, 2020)​. 
+Some products and services are ​“just processing things without any kind of actual 
+learning” ​and this creates a ​“distinction between public perception of AI and actually a 
+computer science perception of AI” (Light, 2020). 
+The inescapable link between science fiction and AI fuels the disparity between what people 
+think AI is and what it ​actually ​is:​ “human beings want to make sense of the technology 
+ 
+ 
+and they use old metaphors that came from the sort of science fiction kind of 
+mind-set”​, moreover, ​“AI is a science concept, but it was mostly democratised by 
+science fiction movies or comic books and novels” (Nova, 2020)​. The point is that those 
+democratising and popular visions of AI show machines with a human-level general 
+intelligence (i.e. with the ability to learn how to do different tasks). ​The Matrix​, ​Blade Runner​, 
+and ​2001: A Space Odyssey​ - these works of fiction depict ‘strong AI’ and ‘general AI’, 
+leaving a residual influence on the public perception of ​real ​AIs power, for example, facial 
+recognition, natural language processing, and recommendation services. Whilst these 
+everyday systems do ‘learn’ how to do specific tasks very well indeed, they do not have the 
+general intelligence necessary to reskill themselves, or to spontaneously learn without 
+configuration - as those shown in sci-fi tend to. Notably, among our interviewees, when 
+asked to define AI and to explain the relationship between data and AI, none of the 
+interviewees refer to strong, or general AI as an area currently requiring design research 
+(other than to point out how its vision impacts understanding).  
+The conceptual space between the entirely fictional (but highly influential) science fiction 
+visions of AI and the very real (but quite mundane) real applications of AI is referred to as 
+AI’s ​Definitional Dualism ​(Lindley et al, 2020). This dualism, demonstrated in Figure 1, can 
+act to stifle progress about the issues to hand because, as Lindley’s Law states, “any 
+sufficiently in-depth conversation about ‘AI’ will result in the dialogue becoming about 
+sentient killer robots”.  The murkiness and ambiguity arising from AI’s Definitional Dualism is 
+4
+also, arguably, what provides the rhetorical backdrop to allow for products and services to 
+describe themselves as using AI, when in fact they do not. The label is an organising 
+principle in many spheres, public research funding schemes being one of them. However, in 
+applied real-world contexts the term AI is less common. For example, Near Future 
+Laboratory’s clients ​“don’t use the terminology [...] it’s so vague” (Nova, 2020).  
+Since its inception the AI field has undergone periods of excitement which have temporarily 
+attracted huge amounts of hype and research funding. Historically, however, such peaks of 
+interest have been unable to deliver on their grand promises. This resulted in each period of 
+excitement being followed with disillusionment and associated slumps in funding, these have 
+become known as the ​AI Winters​. We are currently in a period of excitement, but it is 
+important to note that it is not being driven by any major advances in the theory and science 
+behind AI approaches: ​“I'm now seeing quite a lot of what was being discussed then [in 
+the 1990s] actually materialising now” (Light, 2020)​. Rather, the current boom is being 
+driven by the increased availability of large data sets (often generated through our online 
+interactions) and the abundance of cheap computing power. Compute power and data are 
+the resources necessary to operationalise and exploit ​machine learning (ML) ​and ​deep 
+learning (DL)​ techniques, both of which employ so-called ​neural networks​. 
+“.. by the 80s there was this programme to develop neural networks. But of course 
+everything was so primitive, there was no processing power, there was no data to 
+train it on, so it was all hypothetical, and again we went into that AI winter. Now here 
+we are 30 years later, we've got the compute power and we've got the data, and the 
+4 It is worth making a distinction between the Sci-Fi visions of killer robots and the understandable 
+opposition to the creation of autonomous weapon systems highlighted by The Campaign to Stop Killer 
+Robots https://www.stopkillerrobots.org. 
+ 
+ 
+researchers have kept on going developing the neural networks, and it's all come 
+together to where we are today.” (Hall, 2020) 
+ 
+ 
+Figure 1. The ‘Definitional Dualism’ of Artificial Intelligence. 
+Although the terms AI and ML are often used interchangeably, ML is a subset of AI, and the 
+potential applications of ML represent much of the promise currently attributed to AI. ML 
+works by creating data to train models. These models may be utilised to make predictions 
+(e.g. guessing what word will be typed next when a keyboard is in use) or to generate new 
+data (e.g. creating a life-like but artificial photograph of a human).  
+ML usually relies on labelled training data. For example we may take a collection of nature 
+photographs. The data is structured so that images which contain aardvarks are labelled as 
+such. Then, using a classifying neural network, the structured data (combination of images 
+and labels) is processed and the result is a usable model. Such models - assuming the 
+training data was appropriate, the labelling was accurate, the neural network was configured 
+correctly - accurately determine whether new images (i.e. those it has never seen before) 
+contain an aardvarks or not. The same process can be applied to many different tasks 
+because it can draw upon the vast array of datasets in the world today, this is how ML can 
+be so powerful. 
+While ML is a data-driven subset of AI, DL, in turn, is a subset of ML. The key difference 
+between ML and DL is that rather than relying on labelled data sets to provide the structure 
+of the data, multiple layers of neural networks manage to extract features automatically and 
+thus create a nested hierarchy of concepts or abstractions of the source data. While an ML 
+system relies on humans to extract the features (or rules) of classification, in DL the system 
+ 
+ 
+creates its own rules and tests them internally (see Figure 2). The distinction between ML 
+and DL systems is sometimes referred to as ‘supervised’ (ML) and ‘unsupervised’ learning 
+(DL).  
+Reinforcement learning (RL) is a third distinct type of AI learning which does not rely on data 
+in the same way. RL algorithms have a measure of success, they can receive rewards, and 
+punishments, and they constantly update and try out new things. If an update results in more 
+successful outcomes then the model ‘reinforces’ that approach (and vice versa). RL systems 
+can be combined with ML and DL systems to great effect, famously powering the AlphaGo 
+systems’s historic victory at the game of Go over Grandmaster Lee Sedol in 2016 . 
+5
+ 
+Figure 2. Machine Learning or Deep Learning 
+All AI systems can suffer from algorithmic bias, a term which describes systematic and 
+repeatable errors that create unfair outcomes. A common misconception is that DL is 
+somehow fundamentally free of human influence because of the way features are extracted 
+automatically. Figure 3 illustrates how this is not the case. Although humans do not control 
+feature extraction directly as they do in ML they are:  
+●
+Responsible for selecting the dataset which is used for training;  
+●
+Configuring how features are extracted from that data; 
+●
+Assessing whether feature extraction is achieved appropriately;  
+●
+Providing oversight of the decisions models make in the real world.  
+Each of these processes is a point at which bias may enter the system. ML systems have 
+the additional risk of label data being biased by the human labellers. The recursion illustrated 
+in Figure 3 shows how AI systems can act to effectively amplify human and societal biases. 
+An infamous example of this is the COMPAS algorithm. COMPAS is used in the USA to 
+guide sentencing by predicting the likelihood of a criminal reoffending. According to analysis 
+by ProPublica the AI-powered model at the heart of COMPAS predicts that black defendants 
+pose a higher risk of recidivism than they actually do (the inverse is true for white 
+5 
+https://www.theguardian.com/technology/2016/mar/15/googles-alphago-seals-4-1-victory-over-grand
+master-lee-sedol 
+ 
+ 
+defendants). The company which created the algorithm challenged these results, but given 
+the algorithm is proprietary (and therefore not open to an open forensic analysis) it is hard to 
+discern the truth. It is completely plausible, however, that as per the processes depicted in 
+Figure 2 and Figure 3, human influence and societal biases are reflected in the algorithm. 
+ 
+Figure 3. Human-AI Relationships. 
+This example highlights how the underlying structure of AI systems’ architecture make 
+unbiased deployments of AI systems a multi-layered and often intractable problem. 
+Transparency is often cited as a way to design AI systems which are ethically sound, 
+however, meaningful transparency, or legibility, is extremely hard to operationalise. AI is not 
+only a black box  for those affected by their use, in many ways AI is also a black box for their 
+6
+creators. Whether utilising ML, DL or RL training techniques, the resulting AI programs 
+eventually operate in a way that is inaccessible to their human creators. They rely on the 
+interrelation between many thousands of variables which can be computationally tweaked at 
+great speed. The effect of this is akin to multiple layers of AI black boxes nested within one 
+another, hence notions of transparency must be carefully qualified. 
+Some experts suggest the problem is even worse than nested black boxes: Ali Rahimi (an AI 
+researcher at Amazon and formerly of Google) argues that not only do many creators not 
+understand how their finished AI systems reach decisions (e.g. ‘I do not know why the 
+autonomous car decided to drive into the wall’) they also don't understand the techniques 
+they used to build those programs in the first place (e.g. ‘I cannot explain the algorithm I 
+used to create the AI which decides whether to drive into the wall’). Thus, Rahmi describes 
+AI development as being akin to alchemy or using an alien technology. 
+"There's a place for alchemy. Alchemists invented metallurgy, ways to make medication, 
+dy[e]ing techniques for textiles, and our modern glass-making processes. Then again, 
+alchemists also believed they could transmute base metals into gold and that leeches were a 
+fine way to cure diseases."  
+7
+6 In science, computing, and engineering, a black box is a device, system or object which can be 
+viewed in terms of its inputs and outputs without any knowledge of its internal workings. 
+7 https://www.livescience.com/62495-rahimi-machine-learning-ai-alchemy.html 
+ 
+ 
+While AI has clear potential for societal and economic benefit, it is clear that research is 
+needed to develop more nuanced understandings of how we conceive of AI, how we 
+communicate about AI, and what we should expect from AI. 
+3.2 AI Guidance Frameworks 
+The perception of AI as layers of block boxes obscured behind a curtain of alchemy is an 
+obvious challenge for designers of AI systems but also for researchers, theorists, educators, 
+and policy-makers. While the real-world impacts of such AI systems are tangible, imagining 
+what they might achieve before-the-fact, predicting the impact of their results in action, and 
+monitoring how they evolve over time, are conversely intangible. This dichotomy has led to 
+academic researchers, commercial organisations, governments, civil liberty groups, and 
+other interested organisations to promote more considered perspectives for the use of AI . 
+8
+For example, Google , Microsoft , Amazon , UK Government , UK House of Lords , the 
+9
+10
+11
+12
+13
+EU , the G20 , the Organisation for Economic Co-operation and Development (OECD) , 
+14
+15
+16
+UNI Global Union , Amnesty International (Toronto Declaration) , IEEE , ACM , the 
+17
+18
+19
+20
+Machine Intelligence Garage (Digital Catapult) , the Alan Turing Institute , and the Ada 
+21
+22
+Lovelace Institute  all have their own initiatives for promoting the responsible use of AI.  
+23
+The proliferation of guidance relating to responsible AI, which are primarily conveyed by the 
+written word, represents a significant comprehension challenge; i.e., discerning what insights 
+are relevant for a given context and how to turn the advice into practice . However, while 
+24
+the spectrum of initiatives is broad, there is much shared ground between them. Recent 
+work by Fjeld et. al. (2020) has distilled a wide range of these documents into general 
+principles and guidelines, the key topics of which are: 
+8 https://inventory.algorithmwatch.org 
+9 https://www.blog.google/technology/ai/ai-principles/ 
+10 https://www.microsoft.com/en-us/ai/responsible-ai 
+11 https://www.partnershiponai.org/partners/amazon/ 
+12 https://www.gov.uk/guidance/understanding-artificial-intelligence-ethics-and-safety 
+13 https://publications.parliament.uk/pa/ld201719/ldselect/ldai/100/10014.htm 
+14 https://ec.europa.eu/digital-single-market/en/news/ethics-guidelines-trustworthy-ai 
+15 https://www.g20-insights.org/wp-content/uploads/2019/07/G20-Japan-AI-Principles.pdf 
+16 https://www.oecd.org/going-digital/ai/principles/ 
+17 http://www.thefutureworldofwork.org/media/35420/uni_ethical_ai.pdf 
+18 https://www.amnesty.org/en/documents/pol30/8447/2018/en/ 
+19 
+https://standards.ieee.org/content/dam/ieee-standards/standards/web/documents/other/ead1e.pdf?ut
+m_medium=undefined&utm_source=undefined&utm_campaign=undefined&utm_content=undefined&
+utm_term=undefined 
+20 https://www.acm.org/binaries/content/assets/public-policy/2017_usacm_statement_algorithms.pdf 
+21 https://www.migarage.ai/ethics-framework/ 
+22 
+https://www.turing.ac.uk/sites/default/files/2019-06/understanding_artificial_intelligence_ethics_and_s
+afety.pdf 
+23 https://www.adalovelaceinstitute.org/our-work/just-ai/ 
+24 https://algorithmwatch.org/en/ai-ethics-guidelines-inventory-upgrade-2020/ 
+ 
+ 
+Privacy ​- This covers guidance relating to how data is collected, stored, used, managed, 
+and controlled much of which is enshrined in the European Union General Data Protection 
+Regulation (GDPR) . ​Privacy by Design​ is often cited as a segue from design issues to 
+25
+privacy issues, however when interpreted hubristically as a ‘solution’, Privacy by Design is a 
+“Heffalump trap” (Lindley et al, 2018). 
+Accountability​ - When decisions are no longer being made by humans, who is then 
+accountable for them? This also covers the potential social and environmental impact of the 
+technologies and infrastructures employed by AI systems. Specific topics it would address 
+would include verifiability of decisions, impact assessments, auditability, liability, etc. 
+Safety and Security​ - AI systems have the real potential to produce harm, hence ensuring 
+the safety of both the living beings and the environment that such systems operate in, is 
+paramount. A key part of this are the cybersecurity considerations in terms of hardware and 
+software, however given suchs systems are often socio-technological the human factors 
+must be considered as cyber attack vectors too.  
+Transparency/Legibility/Explainability​ - Although in some cases these terms are used 
+almost interchangeably they often describe subtly different things. Transparency is 
+concerned with how open the data and algorithms are to outside scrutiny, such that 
+decisions can be verified or challenged (in some cases this openness is suggested to the 
+whole design and development process). Explainability relates how we make AI systems 
+and their decisions understandable, this can apply both in terms of AI designers (so they can 
+make ethical judgements) but more frequently to non-AI experts and users of AI systems. 
+Because of the black box nature of most AI systems, simply making them transparent does 
+not immediately translate to making them explainable, for this reason the use of symbols and 
+signs to make systems to increase the legibility of AI systems is a current area of study 
+(Lindley, et. al., 2020). 
+Fairness​ - This primarily relates to AI systems detrimentally affecting or privileging particular 
+populations. This may be due to systems being trained on biased or unrepresentative data. 
+Further problems may arise from assumptions made during the design process in what 
+decisions are directed towards that may produce discriminatory or harmful effects. 
+Agency​ - Whilst concerns relating to a reduction of human agency are, arguably, amplified 
+by AI’s definitional dualism, many AI guidelines seek to ensure human agency is designed 
+into AI systems. This may be in the form of human review of AI decisions (‘human in the loop 
+AI’) or the ability to challenge or opt-out of decisions made by the machine.  
+Human Centeredness​ - Also described in terms of human values, these principles pertain 
+to ensuring that AI systems are designed to work for humanity’s best interest and reflect 
+human values in respect to social norms and cultural beliefs and are inclusive . 
+26
+25 https://gdpr-info.eu 
+26 While the fundamentals of Human-Centred Design are morally clear, recent work relating to 
+‘More-Than-Human Centred Design’ is a response to the potential issues which arise when 
+Human-Centred Design techniques result in technology disappearing into the background, which in 
+turn can cause harm for users - this is particularly salient for Internet of Things and AI systems 
+(Coulton & Lindley, 2019).  
+ 
+ 
+The potential for Design Research to contribute to the production of guidance documents is 
+clear. Specifically the inherently interdisciplinary character of Design Research catalyses a 
+move away from ‘monocultural’ perspectives and reflects the seachange necessary to 
+engage with issues relating to AI and Data. 
+“The companies that are actually making the most progress are actually taking on 
+that experimental task within their organisations and forming multi-specialists, the 
+equivalent in academia of multi-disciplinary teams, that are working together on these 
+hard problems to take what lives at a level of principle like explainability or fairness, 
+and actually operationalise that in the product development process from start to 
+finish.” (Vallor, 2020) 
+Purely technical solutions to socio-technological issues are unattainable, and the arts and 
+humanities have a critical role: ​“At the moment I don't see a technical test for bias 
+emerging.​ ​It's going to take a whole new group of people. I think the AHRC would be 
+interested in something like that.” (Hall, 2020). ​A large part of the challenge are issues 
+relating to design; for example, how to translate abstract guidance in concrete product 
+choices, balancing technical constraints and against aspirational features, and crucially 
+considering the implications of a given technology’s adoption into the future. This role of 
+facilitator is perhaps one of the most crucial challenges that Design Research and Design 
+Researchers can contribute towards. 
+“If someone's really curated properly the question of who's in the room, then I'd say 
+they're taking it seriously [...] it's often just the scientists that are in the room, and 
+their ability to imagine what the problems could be are very, very limited to a 
+particular context, or a very narrow breadth of possibility based on I guess what they 
+see” (Auger, 2020)​.  
+3.3 How are AI systems put to use? 
+Whilst the specific use cases (i.e. context that they’re applied in) of data-driven AI systems 
+are incredibly diverse the way in which the underlying systems operate can be divided into 
+three distinct modes of operation (see figure 4).  
+Classification​ - These applications are generally trained to recognise particular patterns in 
+data whether it be from images, audio, text, or indeed any other forms of data. Particular 
+examples include face recognition (e.g. suggested tags on Facebook, or automatic passport 
+gates), voice recognition (e.g. powering voice assistants like Siri or Google Home), customer 
+service chatbots, email spam filters, and - famously - cats on Youtube (using Youtube videos 
+as the training data a deep learning system spontaneously learned to recognise felines due 
+to the proliferation of cat videos on the platform). 
+Prediction​ - These applications identify patterns in current data based on previous data and 
+attempt to predict potential future behaviour or outcomes. Particular examples would include: 
+fraud detection, dynamic routing on turn-by-turn navigation (e.g. Google Maps and Waze), 
+dynamic pricing (e.g. Uber), sales (e.g. predicting will increase closed sales and ‘you might 
+ 
+ 
+like’ style product suggestions), media viewing suggestions, and automatic search query 
+completion. 
+Generation​ - Based on patterns extracted from training data these systems are used to 
+suggest new possible configurations. Examples include: image (e.g. Google Dream , 
+27
+DeepArt , GoArt ), drawing (e.g. Cartoonify ), 3D design (e.g. Adobe Dimensions, 
+28
+29
+30
+Autodesk), synthesised media (e.g. Deep Fakes), Music/Sound(e.g. NSynth ), data 
+31
+visualisation (e.g. Activation Atlas ), fonts (e.g. FontJoy ). 
+32
+33
+ 
+Figure 4. Three modes of AI operation. 
+ 
+ 
+Figure 5: Source Image (left), Google Dream (center), GoArt (right) 
+Considering these modes of AI operation help to bring into focus how the various 
+relationships between emerging AI, Design, and Research are in themselves multifaceted. 
+The emerging social and ethical challenges of AI systems which can predict and classify  
+34
+are good candidates for Design Research that is concerned with interactions, experiences, 
+and services. In this sense, ‘Design Research’ means ‘Design’ is the method to explore 
+some other domain. Meanwhile, generative AIs raise issues of direct relevance to 
+professional Art and Design practice, for example graphic design, product design,fashion 
+27 https://deepdreamgenerator.com 
+28 https://deepart.io 
+29 http://goart.fotor.com 
+30 https://experiments.withgoogle.com/cartoonify 
+31 https://experiments.withgoogle.com/sound-maker 
+32 https://distill.pub/2019/activation-atlas/ 
+33 https://fontjoy.com 
+34 It is worth noting that prediction and classification are often the basis of the new generation of AI 
+infused tools being proposed for the digital humanities. 
+ 
+ 
+design  and architectural design - AI and Data in these domains require research (which 
+35
+may also be termed ‘Design Research’) because they will undoubtedly alter and change the 
+work and practice of what it is to design. In this sense, ‘Design Research’ means ‘Research’ 
+into the practice of design .  
+36
+Whilst digital tools have undoubtedly changed the way graphic designers, product designers, 
+fashion designers, and architects create their designs, because AI is facilitating a 
+step-change where, for some classes of design, millions of variants can be created very 
+quickly. When adopted, this change results in the designers role shifting from ​directly 
+designing to focusing instead on data selection, algorithm configuration, output evaluation 
+and selection (see Figure 3).  
+Examples of this include Nutella’s Unica campaign which generated 7 million unique Nutella
+ labels for jars that were subsequently sold; the complex curves of Zaha Hadid Architects’ 
+37
+Heydar Aliyev Center  were designed using script-driven geometry engines and AI-powered 
+38
+cranes which were algorithmically managed to optimise the construction of complex building 
+designs. 
+This shift in role for designers does not mean that human creativity is removed from the 
+process. Figure 3 highlights the human element of AI-supported design processes is crucial: 
+selecting the appropriate starting conditions and making judgments about which of the 
+generated designs most fulfills the brief. This is evident in current creative projects using AI 
+which largely adopt the alchemist approach in that they focus on whether the outcome fulfils 
+their requirements rather than how it produced such an outcome. However, the use of AI in 
+such situations produces considerable challenges for copyright (Dennis 2019) and patent 
+law (Gervais 2020) as the notion of authorship fundamentally disrupted
+.  
+3940
+The scope for AI as a generative tool is vast. AI streamlines and enhances animation 
+pipelines, and can even entirely replace deceased actors in live-action films (e.g. Peter 
+Cushing’s appearance in the 2016 film​ Rogue One​). Elsewhere AI has been proposed as the 
+basis to dynamically create content using object-based media whereby customised versions 
+of broadcast television can be created dynamically in real-time using individuals’ personal 
+data (Coulton et al 2019). Generative AI has widespread nefarious applications too. 
+Infamously, so-called ‘deepfakes’ have been used to make lifelike depictions of celebrities in 
+pornographic films, politicians apparently promoting their opponents, and to make American 
+35 https://www.vice.com/en_us/article/vb9pgm/this-clothing-line-was-designed-by-ai 
+36 This distinction was famously captured by Sir Christopher Frayling (1993) by using the 
+nomenclature Research through Design (practice-based research), Research into Design (research 
+about design practice), and research for Design (background research that any design process may 
+draw upon such as requirements gathering). 
+37 https://www.youtube.com/watch?time_continue=5&v=sHYakhyvJps&feature=emb_logo 
+38 https://www.zaha-hadid.com/architecture/heydar-aliyev-centre/ 
+39 https://www.ipwatchdog.com/2020/05/04/uspto-shoots-dabus-bid-inventorship/id=121284/ 
+40 
+https://www.ipwatchdog.com/2020/01/07/epo-ukipo-refuse-ai-invented-patent-applications/id=117648/ 
+ 
+ 
+ 
+actor Bill Hader apparently morph into another actor (Tom Cruise) mid-interview . When 
+41
+applied to text rather than photography, generative AI is also the basis for producing huge 
+volumes of plausible, yet false, fabricated news stories . 
+42
+Classification and prediction are two closely related, but somewhat distinct concepts. They 
+tend to utilise the same algorithms and approaches to AI. The key difference is that a 
+classifier makes a prediction and then based on that makes a decision, while for a predictive 
+AI the prediction itself is the end point. The ways in which AI is put to use for classification 
+and prediction are hugely diverse. Applications which seem relatively mundane such as 
+electronic-passport gates, soft keyboards on smartphones, decisions on whether customers 
+get loans, and email spam filters - all of these often utilise AI-powered classification. Similar 
+processes lie behind dynamic pricing for ride-sharing apps and flight comparison services, 
+route optimisation for turn-by-turn navigation and even lie detectors. In all of these 
+applications, historic data is utilised in order to train the algorithms such that they can make 
+a prediction about the highest price a customer will pay, whether a person is who they claim 
+to be, or whether taking an alternative route will mean reaching the destination more quickly.  
+The data used to train an AI system, and how accurate decisions based on it are, are 
+intrinsically linked. Properly determining accuracy is rarely discussed and understood 
+outside those specialised knowledge into the workings of AI despite the fact it can have a 
+significant impact on the users affected by its outputs. Discussions of AI accuracy often start 
+with the accuracy of input data, i.e. personal data of a specific individual the AI system then 
+uses to make decisions or predictions about that individual. However, accuracy also applies 
+to AI outputs, in terms of accuracy of decisions or predictions (a more nuanced discussion of 
+accuracy is discussed in appendix 3). Of the three modes of AI previously inaccurate 
+classifiers cause the most significant societal problems, for example wrongly predicting a 
+criminal will reoffend, or determining a customer isn’t fit for a loan. Conversely, the more 
+accurate generative AIs are, the more their disruptive potential is realised (e.g. deepfakes). 
+AI’s definitional dualism exacerbates poor understandings of accuracy, often leading users 
+of AI systems to hubristically believe they are infallible.  
+Whilst this overview highlights many contexts in which AI can be applied, the report is 
+scoped specifically around Design Research activity. Based on the experience of the 
+interviewees the report describes what research is currently happening and where there is 
+an opportunity to utilise Design Research to build capacity to strengthen and expand upon 
+the UKs current capabilities in relation to AI and Data. 
+ 
+41 
+https://www.theguardian.com/news/shortcuts/2019/aug/13/danger-deepfakes-viral-video-bill-hader-to
+m-cruise 
+42 
+https://www.theverge.com/2019/11/7/20953040/openai-text-generation-ai-gpt-2-full-model-release-1-5
+b-parameters 
+ 
+ 
+4. Design Research and Funding Landscape 
+Rooted in the Design Science movement of the 1960s, Design Research is still - relative to 
+long-established disciplines like Philosophy or Mathematics - very immature. It evolved 
+quickly and began to proactively address “wicked problems” (Buchanan, 1992), and 
+empowered to respond to “uncertainty, instability, uniqueness, and value conflict” a distinct 
+epistemology and philosophy for Design Research began to emerge (Schön, 1983) which 
+recognised being that “messy and complex” does not have to compromise rigour (Rodgers, 
+2016). The “designerly” (Cross, 2011) way of knowing “has its own appropriate culture” yet 
+does “not completely disregard other cultures” (Rodgers, 2016). On this foundation Design 
+Research has flourished in the early 21st century, providing the methods and ideology to 
+deliver diverse, interdisciplinary, world-class research (Cooper, Dunn, Coulton, et. al., 2018). 
+The history and structure of the Design Research field has a direct influence on how it is 
+funded, and what it achieves. Inversely, the funding of Design Research impacts upon the 
+makeup of the field itself. In this section we discuss this landscape in order to contextualise 
+recommendations for potential Design Research oriented investment opportunities. 
+4.1 Where is the Design Research? 
+As active Design Researchers ‘we’ (the authors of the report) are immersed in this 
+burgeoning community through our positions at Lancaster University’s ImaginationLancaster 
+research lab. The lab itself has recently received an investment of £7.6m in order to “explore 
+and demonstrate how cutting-edge design research can create a healthier, more prosperous 
+and sustainable world” . Moreover, through a £1m AHRC-funded Design Priority Area 
+43
+Leadership Fellowship  and a £1.2m UKRI-funded Future Leaders Fellowship , both of 
+44
+45
+which are hosted at ImaginationLancaster, the department is itself a significant centre for 
+Design Research. Notwithstanding our department’s success the focus of this report is the 
+research beyond our own purview, outwith the broader research community.  Hence, the 
+report aims to build a complete picture of the Design Research landscape through our 
+interviews. However, to further triangulate the overview data from UKRI’s Gateway to 
+Research portal  was also considered. 
+46
+Gateway to Research is a repository of publicly funded UK research and lists over 32,000 
+active research projects from a variety of funders (e.g. EPSRC, NERC, MRC) achieved 
+through various delivery mechanisms (e.g. Centres for Doctoral Training, Small Business 
+Research Grants, Fellowships). The data palpably reveals the scale of investment in UK 
+research. For example with over 200 active projects valued in excess of £10m, over 18,000 
+projects valued up to £100,000 and nearly 11,000 projects valued between £100,000 and 
+43 
+https://www.lancaster.ac.uk/news/new-13-million-project-goes-beyond-imagination-in-tackling-world-is
+sues 
+44 ​https://gtr.ukri.org/projects?ref=AH%2FP013619%2F1 
+45 ​http://designresearch.works/ 
+46 ​https://gtr.ukri.org  
+ 
+ 
+£1m. While the current portfolio of research is impressive, the aspiration is to increase the 
+share of UK Gross Domestic Product spent on research and development from 1.7% in 2016 
+to 2.4% by 2027. As that target is pursued AI and Data will become increasingly a 
+cross-cutting area of relevance spanning multiple disciplines and contexts. Moreover, the 
+role of Design Research will become increasingly relevant as the adoption of AI technologies 
+amplifies the need to focus and apprehend technology’s broader impacts on society. 
+The Gateway to Research provides access to data on a huge number of research and 
+development programmes, however, it also highlights some clear pitfalls in the efficacy of 
+using this dataset for reporting on the state of active Design Research relating to AI. For 
+example, querying the 32,000 active projects with the search term ‘Design Research’ returns 
+only 33 projects. The number of projects returned goes down to two if the search is 
+constrained to projects containing both ‘Design Research’ and ‘AI’. While both projects - one 
+a doctoral studentship and one a Centre for Doctoral Training  - included in this search do, 
+47
+indeed, incorporate elements of Design Research and AI, the total of two projects is 
+inconceivably low. If the search is relaxed to simply ‘Design’ and ‘AI’ then a more plausible 
+188 projects are returned, of which 21 are funded by the AHRC. This group of 21 projects 
+comprises one fellowship, five large grants, and 15 studentships. Drawing concrete 
+conclusions from this cursory look at the Gateway to Research would be ill-advised, but what 
+is certain is that only 33 projects include the specific keywords ‘Design Research’. If there 
+are, in fact, more than 33 entries in the database which would sensibly be labelled ‘Design 
+Research’, then a proactive shift in how such projects are labelled and described is 
+necessary. Recent work based on Gateway to Research data by Rogers, Conerney, and 
+Mazzarella (2019) utilised a similar search strategy. Based on our work, this is the only 
+practicable way to utilise the data as any further constraint (i.e. searching for ‘Design 
+Research’ rather than simply ‘Design’) would result in a restrictively small data sample. The 
+consequence of this search strategy, however, is an increased noise-to-signal ratio, i.e., the 
+data includes examples which mention Design, but which are not necessarily Design 
+Research​. 
+Elaborating on the noise-to-signal issue, if we consider the projects which are returned for 
+the search terms as ‘Design’ and ‘AI’ (i.e. those which we would expect to be most closely 
+aligned to this report), then ​none​ explicitly state that they are about or utilise ‘Design 
+Research’. For example the fellowship which was included in the search will, coincidentally, 
+utilise an output from a prior Design Research project (​Ethnobot​), but its role in the 
+fellowship is as a tool in service of an unrelated question (which relates to evaluating arts 
+projects) ; the ​InGame​ Hub (part of the Creative Industries Clusters Programme) appears in 
+48
+these search results because of the occurrence of the term ‘design’ in reference to designing 
+game elements; the ​StoryFutures ​project appears due to a reference to User Interface 
+Design; and the terms Participatory Design, Co-Design, and Design Innovation are why the 
+various studentships appear in the search results. Curiously, whilst none of these entries on 
+the Gateway to Research ​explicitly​ say that they are using Design Research, the majority 
+are​ using practice-based methods, leveraging material explorations, and building on 
+47 See ​https://gtr.ukri.org/projects?ref=studentship-2114888​ and 
+https://gtr.ukri.org/projects?ref=EP%2FS022325%2F1​ respectively. 
+48See  ​https://gtr.ukri.org/projects?ref=AH%2FT002794%2F1  
+ 
+ 
+constructionist epistemologies in order to produce knowledge - all hallmarks of a Design 
+Research approach. Hence, it is clear that in some (perhaps most) cases the Design 
+Research projects which are documented in the Gateway to Research do not self-describe 
+in a way that makes them discoverable as examples of Design Research .  
+49
+Notwithstanding the difficulty of assessing Design Research based on Gateway to Research 
+data, there is an active and vibrant community of Design Research in the UK which aligns to 
+issues arising from AI and Data. Across the UK at centres such as Lancaster University’s 
+Imagination​, the ​Mixed Reality Lab​ at University of Nottingham, and ​Design Informatics​ at 
+the University of Edinburgh, Design Researchers lead and participate in a huge array of 
+projects and collaborations. The interviewees we refer to in this report provide an incredibly 
+rich purview of the gamut of Design Research, spanning academic/non-academic work, 
+contrasting approaches within the field, disciplinary backgrounds, differing research contexts 
+(albeit related to the theme of AI and Data), and various funding models (refer to appendix 1 
+for a brief introduction to some of the projects the interviewees are involved with). 
+4.2 Where is the Money? 
+To understand the potential for investment in Design Research, we asked interviewees to 
+explain their significant sources of income (the related topic of partnerships is discussed in 
+section 7 of the report). The majority of interviewees are currently, or have been, based at 
+UK further education institutions. Of those with a track record of attracting funding in the UK 
+(Shannon Vallor was an exception here, having only recently taken her post) the 
+overwhelming majority reported that the AHRC and EPSRC were their primary sources of 
+public funding, with the ESRC and European funding also supporting a range of Design 
+Research in a handful of cases.  
+While the majority of interviewees had attracted funding from both AHRC and EPSRC, which 
+council was the most significant for given individuals differed somewhat. Interestingly the two 
+interviewees with the closest historic affiliations with AHRC were, respectively, based in 
+departments of Engineering and Media and Communications. Of the remainder (majorly in 
+Design and Computer Science departments) the primary source of funding historically has 
+been the EPSRC (notwithstanding the recent £5.6m AHRC Creative Informatics grant 
+awarded to Design Informatics at University of Edinburgh). Although all the interviewees 
+deviated from these patterns in some way - most commonly attracting funding for doctoral 
+students from somewhere other than their primary funder - it was clear that among the 
+Design Researchers we interviewed, the EPSRC funded the majority of the work. The 
+propensity of the cohort of interviewees to pursue funding from the EPSRC further qualifies 
+why our search of the Gateway to Research (which was filtered according to AHRC grants) 
+yielded so few results. In a minority of cases, significant amounts of direct funding came 
+from the private sector (discussed in section 7 of the report).  
+49 It is possible that the multiple interpretations of ‘Design Research’ (e.g. both research ​into 
+Design-and-related disciplines, as well as conducting Research ​through​ Design, into a ​non-design 
+discipline) is related to this challenge, but to address that question is beyond the scope of this 
+particular enquiry. 
+ 
+ 
+Design Research applied in AI and Data contexts clearly crosses the imaginary conceptual 
+boundaries between the funding councils; while Design Research’s foundation in Art and 
+Design is unavoidable, it is widely applied to understand and contribute to 
+technologically-powered change (which in turn, often draws upon Engineering research). 
+While there is a tendency toward EPSRC funding of AI and Data Design Research, the 
+reasons behind this are not straightforward. At one extreme is the perception that, despite 
+appearing positive, AHRC funding is inaccessible: ​“Whenever we talk to anyone from 
+AHRC they always sort of speak quite highly of design and how they want to support 
+design, but every time we've put a proposal in we get knocked back [...] EPSRC we 
+find much easier” (Gaver, 2020).​ One perception is that the AHRC tends to fund the ​“lone 
+scholar”​ model, which ​“lends itself to do more of the design history kind of humanities 
+focused design research, and less so the more let's build fancy new exploratory 
+technologies” (Kirk, 2020)​. The Digital Economy programme (which is cross council, but 
+majority-funded by EPSRC) in particular was cited as being the source of ​“the actual big 
+ticket funding for more design engaged research” (Kirk, 2020). ​A number of 
+interviewees raised questions about the efficacy of the AHRC peer-review process. This 
+covered a lack of confidence about finding qualified reviewers in the peer-review college. 
+The prevalence of reviewers whose disciplinary prejudice is toward art history and 
+non-technical subjects was raised as a point of possible concern.​ ​Conversely, however, for 
+some participants the AHRC was their primary source of funding and the AHRC’s 
+disciplinary alignment was, sometimes, seen as advantageous: 
+“I would apply to the AHRC if I had the time to write something, I'd probably be 
+looking at them first, rather than trying to make something look engineering-ly 
+enough to go into the EPSRC” (Kirman, 2020). 
+It should be noted the perspectives represented in the report mainly reflect the participants 
+own large multi-investigator research grants. Hence, a limitation of the report is a lack of 
+representation from AHRC-funded doctoral research in the AI, Data and Design domain - 
+which in numerical terms (as opposed to volume of funding) likely represent the largest 
+quantity of AHRC-funded Design Research projects. In order to understand that particular 
+landscape a specific review of doctoral research would be necessary. 
+ 
+ 
+ 
+ 
+5. Skills 
+The report addresses skills and training in a number of different ways: reflecting on the 
+disciplinary background of the interviewees to explore what Design Research is and what 
+skills are necessary to do it; exploring of the specific skill set necessary for AI and Data 
+centric Design Research; discussing the University-based training pipelines to support the 
+next generation of Design Researchers. 
+5.1 What is a Design Researcher? 
+Among the interviewees, despite acknowledging they contribute to the milieu of Design 
+Research, a number of interviewees were reticent to self-identify as a Designer or Design 
+Researcher. In some cases, this was because interviewees considered that they researched 
+the topic of Design or researched the topic of Design Research as a subject, but, that this 
+did not make them a Design ​Researcher​ per se: ​“I engage in some design research but 
+normally through other people [...] I wouldn’t count myself as a designer in any 
+normal sense” (Reeves, 2020).​ Ewa Luger said ​“I'm not a designer”​ but went on to say​ “I 
+work with designers and I apply design methods, and have been doing for maybe like 
+four years or so I guess, slightly longer” (Luger, 2020)​. The inference of this statement 
+seems to be that one can ​utilise​ the methods of Design or Design Research, whilst not 
+‘being’ a Designer. Notwithstanding the clear contributions that interviewees are making to 
+the Design Research field, a tentativeness about identifying as Designers was repeated: ​“I 
+never would have considered myself a designer” (Kirman, 2020); “I'm not a trained 
+designer” (Light, 2020); “I don't work in an academic design field [...] I think of that as 
+practice based research, because I don't make stuff, I make experiences” (Powell, 
+2020).  
+A wide range of disciplinary backgrounds were represented including Industrial Design, 
+Design Interactions, Fine Art, Human-Computer Interaction, Games Design, Artificial 
+Intelligence, Filmmaking, Philosophy, Industrial Design, Policy, Media Theory, Psychology, 
+and Ethnography. Unsurprisingly, this diversity is echoed in the departments, organisations, 
+and institutions where individual participants are based. While six of our interviewees are 
+attached to departments which are explicitly related to Design, the remainder are hosted by 
+departments such as Engineering, Theatre, Film and Television, Computer Science, 
+Philosophy, and Media Communications. It should be noted, that while diversity exists in 
+perspectives on design, these are all still predominantly white western perspectives. Design 
+Research, as with much of University-based research in the UK, is not ethnically diverse, for 
+example, fewer than 1% of University Professors in the UK are black.  Given AI systems’ 
+50
+propensity to amplify bias, this inequality is particularly vivid. Funders are part of the 
+structural disadvantages that maintain marginalisation, and should pay attention to 
+sustainable means to strive for increased equity.  
+50 
+https://www.theguardian.com/education/2020/feb/27/fewer-than-1-of-uk-university-professors-are-blac
+k-figures-show 
+ 
+ 
+The diversity (of perspectives on Design) and lack of homogeneity initially makes it difficult to 
+infer generalisations about the skills and training necessary to be a Design Researcher. 
+However, two additional framings shed some further light on the matter. First, it is important 
+to consider the ambiguity imported into the conversation by the conflation of research that is 
+about​ Design, and Research which is conducted ​using ​Design or Design-inspired methods. 
+Second, all of our interviewees had multidisciplinary attributes, which may, or may not, 
+include training in Design. In this sense, the unifying kernel of Design Research does not 
+relate to specific practices, but to a flexible and dynamic epistemological sensitivity that 
+draws upon multiple perspectives: 
+“..basically there's a whole lot of things that come together when you put the arts and 
+humanities together”. ​These factors act to “‘​surround’ design, rather than necessarily 
+being core to it.” (Light, 2020). 
+The panoply of perspectives which Design Researchers may incorporate into a project 
+draws upon an equally open-ended range of potential skill sets. Despite this heterogeneity, it 
+does pivot on a shared appreciation: 
+“We've got people who are really great product designers but who can't do 
+electronics that well [...] we've got creative technologists who are amazing with the 
+technologies, but they're not graphic designers. So everybody kind of has their own 
+mix of skills [...] you can't just find anybody, you have to have somebody with the 
+right flexibility to work with designers” (Gaver, 2020). 
+The connectivity between creative design processes and the exploratory research 
+processes, sometimes couched in multidisciplinary perspectives, was a recurring theme: 
+“I don't know where research ends and design starts” (Jain, 2020). 
+In some cases, interviewees cited their ​non​ Design training as a key factor in their research 
+practice: 
+“What I find interesting in framing the Near Future Laboratory work here as design 
+research, is that it's partly things that matured over time in our practice. It's also a 
+thing that evolved through inspiration [...] by the way we've been trained in 
+engineering and social sciences.” (Bleecker, 2020). 
+One prevalent perspective on Design Research casts design ​practice​ as a hugely important 
+aspect, even if the desired outcome is research insight (as opposed to a usable or saleable 
+product): 
+“For me design is about the practice, how do we maintain that aspect? [...] design is 
+starting to be used to ask questions and participate in philosophical investigations 
+about technology, it's a step into a slightly new terrain.” (Auger, 2020). 
+“... we are heavily practice based. Everything that we do in our studio is legered as a 
+traditional design practice. Most of the people that work in our studio for instance, 
+ 
+ 
+they're not traditional academics, they're all design practitioners [...] it's about how 
+you then begin to articulate that as research I guess” (Boucher, 2020).  
+“... the process itself I think works best when it's basically just a design process [...] 
+you go through a process of trying to understand the situation or context, come up 
+with ideas for how you might make something that speaks to that situation [... and] 
+actually resolve it in design terms.” (Gaver, 2020). 
+The work resulting from ​“the traditions of crafting, of making, of working in workshops, 
+of doing sketches” ​can clearly ​“in the right context be articulated as research” (Vines, 
+2020)​. Meanwhile, some practitioners are moving beyond the (physical) artefact and to work 
+around ‘soft’ design practice such as service or policy design:  
+“​The challenge I've had with design is it has assumed that artefacts might be part of 
+design research [...] there's a nice opportunity now perhaps to think about what 
+service design for the digital economy, or service design for data driven innovation 
+looks like” (Speed, 2020). 
+Whether the practice element centres on physical artefacts or soft designs, the research 
+element of Design Research practice emphasises the need to ​“articulate how this is 
+located into a constellation of other things out in the world” (Vines, 2020).  
+5.2 Technology-Focused Design Research 
+When considering the finer-grained question of skills for Design Researchers specifically 
+working around AI and data it is clear that having a ‘material’ understanding of the nature of 
+AI and data is important: ​“Any sort of expert design practitioner would articulate in very 
+intimate terms the nature of the material that they're engaging with [...] I think the 
+same would be in the case of AI or using data” (Vines, 2020). ​The need to understand 
+the qualities and attributes of a material, without necessarily needing to have the skill to work 
+directly with the material, is not a new mechanic for designers: 
+“I don't see that the approach would need to change much from the way a designer 
+was operating in the 1930s. If you want to get a part injection moulded, you don't need 
+to understand how an injection moulding system works, you need to know what 
+objects can be injection moulded, what's plausible, and then you would work with an 
+engineer who'd go and do the engineering side to realise that.  I think with AI it's a 
+similar kind of problem, you don't need to be able to write complex algorithms as a 
+designer, but you need to be aware of what an algorithm is capable of.” (Auger, 2020) 
+Whilst the technical skills to work directly with AI isn’t ​necessary​, depending on whether a 
+Design Research is speculative, or striving for ‘in the wild’ research, technical input can be 
+highly desirable: ​“it would be great, on our kind of lengthy to-do list I think is we'd be 
+really happy to find somebody who simultaneously was good at stuff like data and 
+machine learning” (Gaver 2020). ​While the value of technical AI and Data skills to a 
+Design Research project should not be underestimated, a sensibility as a Design 
+Researcher is an equally important aspect, ​“If you had someone that was an AI expert, 
+ 
+ 
+they'd also need to be multi-disciplined in some way themselves [...] if they work with 
+us they wouldn't be doing AI all the time” (Boucher, 2020).  
+By bringing the ability to conceive of AI and Data in terms of a malleable material which can 
+be designed ‘with’, Design Research practitioners​ “create a design space which you 
+populate with alternatives [...] a play of possibilities [...] that's something that in 
+computing and engineering I think they do a lot less of” (Kirk, 2020)​. Hence, the value 
+Design Researchers bring in interdisciplinary projects transcend the technical and moves 
+into a ​“really useful role in synthesising understanding”​, it ​“materialises the research 
+problems”​ ​and​ ​“acts as a fulcrum in really useful ways” (Kirk, 2020)​. ​ ​This synthetic 
+ability of Design Research was highlighted multiple times as a key strength, particularly with 
+respect to AI, Data and technology in general:​ “how a [computer science] researcher 
+understands AI and data, and how a human understands AI and data, is very, very 
+different. That's what design research is really good at” (Kirman, 2020). ​Even when 
+working in very technology-centric contexts, the core skills of Design Researchers relate to 
+synthesising perspectives in order to ask salient questions at the intersections of multiple 
+disciplinary boundaries: ​“So for me the ideal project is if I get to sit next to the AI 
+researcher who's writing the code [...] I want to be sitting there and understand why 
+they want to make this work? What are the implications? What are they thinking 
+about? Why does it matter?” (Jain, 2020). 
+5.3 Creative Industries and Education 
+An aim of the report was to explore the impact of AI on the landscape of the creative 
+industries, we examined this issue through the lens of the implications of AI and Data on 
+further education in Design-related subjects.  
+Design’s strength at cohering multiple perspectives and sense-making around issues which 
+are part social and part technical was reflected in a discussion about education, as well as 
+research: ​“I have kind of found a real advantage of bringing the humanities into design 
+education” (Jain, 2020)​. However, it was also reported that this space may need further 
+attention; ​“there's effort that could be made into improving design education so that 
+designers coming through are more sensitive to what the implications of AI might be” 
+and that courses are already adapting to AI being more prevalent “​We've specifically put a 
+module into that programme [...] so that they have some awareness and some 
+sensitivity to what it is that they might be designing with and for​“ ​(Kirk, 2020)​. Many of 
+the challenges arise from deficient data literacy ​“they're designing a system, but they still 
+don't really necessarily understand what you can do with data [...] it remains ethereal; 
+it has that invisible quality, even for designers” (Light, 2020). 
+In Design Schools, a wide range of taught programmes at undergraduate and Masters level 
+are adapting. However, arguably there is currently a ​“blind spot”​ which to be addressed 
+requires that ​“[AI] needs to be woven in at some point [...] not the core training 
+because it won't be for everyone, but certainly I think it has to be a specialism” (Vines, 
+2020). ​Part of the process of filling in this blind spot may involve clarification around AI’s 
+definitional dualism: 
+ 
+ 
+“..one of the things that I think is particularly important, especially with AI, is trying to 
+avoid a tendency towards [...] the kind of like killer computer kind of idea. I think a lot 
+of discourse around AI immediately goes to the ethics of it, which is very sensible, 
+but it's often framed around these potentially catastrophic consequences of 
+Terminator-like technologies” (Kirk, 2020)​.  
+It was also acknowledged that AI will potentially have an affect on various design disciplines 
+through its incorporation into the tools of the trade. Whilst its likely that the alchemic 
+approach to understanding AI-infused tools may be prevalent, to exercise greater control 
+some literacy in the operation of AI systems would be highly beneficial in their education: 
+“There's a critical discourse that has to be had with students around that in terms of 
+them just understanding what is that doing to their practice and where that practice 
+was traditionally [...] the power of AI enriched or enabled tools as part of the design 
+process as well at the fundamental level of [for example] Photoshop doing some 
+things on your behalf now” (Vines, 2020). 
+Across the spectrum of Design Research the sentiment ​“you have to know a little bit 
+about everything” (Light, 2020)​ and ​“I think it's like anything, the designer doesn't 
+necessarily need to have all of the skills, but they need to have a knowledge of what 
+the subjects are” (Auger, 2020) ​is pervasive. The flexible ontological foundation of Design 
+explains how Designers make meaningful contributions to AI and Data research without 
+requiring a ​working​ knowledge of AI systems or the data structures which enable them. It 
+also underpins the shift in the broader role for Design: ​“up until this moment in history 
+really been about creating demand, and about creating the conditions for continued 
+productivity and ever increasing productivity” ​however, we are currently in a ​“moment 
+of instability [...] and designers are trying to work out how to balance what they think 
+is the right thing to do with the demands of the larger political economy” (Powell, 
+2020). ​To understand the full extent of this shift’s impact on AI, Data, Design, education and 
+the Creative Industries requires a proportional and targeted research-based exploration 
+beyond the scope of this report. 
+ 
+ 
+ 
+ 
+6. Research 
+In this section, the focus of contemporary research questions is discussed in order to identify 
+the nature of salient gaps in AI and Data knowledge that Design Research is contributing 
+towards. As this report has already highlighted, there are a plethora of guidelines and 
+principles essentially to help frame values which should be foregrounded during the design, 
+testing, evaluation, and deployment of AI systems (Fjeld et. al., 2020). The multitude of 
+projects that the interviewees are engaged with - not to mention the wider field, including 
+doctoral research - contribute towards these efforts in a wide variety of ways. A currently 
+unmet​ need, however, is the need to bridge the gap between theory and practice (see recent 
+Digital Catapult report, ​Lessons in Practical AI Ethics ). By delivering practical examples, 
+51
+and leveraging a ​material​ engagement with AI and Data, Design Research has a significant 
+opportunity to help bridge that gap: ​“It's going to take a whole new group of people. I 
+think the AHRC should be interested in something like that. What does that mean? 
+What are the frameworks we're going to develop?  How do you test the bias?” (Hall, 
+2020)​. The unique quality of Design Research as a ​“practice at which the formation of 
+this techno-systemic frame is a really important moment” (Powel, 2020) ​is what makes 
+it especially well suited to specifically the kinds of challenges AI poses: ​“working with other 
+people who can help us examine that notion of purpose, whether that's the 
+anthropologists or psychologists, whoever it might be. Design for me is perfectly 
+placed to straddle those worlds. But we have to get better at making that case” 
+(Auger, 2020).  
+Among the interviewees projects, research questions are usually derived through some kind 
+of collaboration with an external partner. In the case of research council funded work, these 
+collaborations often take the form of project partnerships (which are discussed in more detail 
+in section 7), while for work conducted by our non-academic interviewees by organisations 
+such as Superflux and the Near Future Laboratory, the collaborations tend to be negotiated 
+around a more traditional client/design brief model. The scale of these collaborations varies 
+dramatically, for example from Design Informatics’ partnerships with Legal and General, 
+RBS and Tesco Bank through to University of York’s collaboration with community theatre 
+groups. In addition to the diversity of scale we note that, reflecting the multitude of meanings 
+and practices which make up Design Research, there is a similarly diverse network of 
+research priorities and agendas. For example, these encompass both societal and economic 
+issues (which are being explored ​with​ Design research) and challenges relating to design 
+practice (which impact directly on Design Research itself as well as non-research Design 
+practice). Hence, within the gamut of related work there are many attributes which have a 
+tangible impact on the quality and motivation of different research agendas. 
+While the detail in the minutiae is significant, the overarching research questions are 
+relatively straightforward to codify. AI is facilitating and catalysing rapid shifts in the world we 
+live in. This extends and accelerates the related, but distinct, societal shifts associated with 
+the adoption of the Internet, the world wide web, and the Internet of Things. Attempting to 
+understand how to optimise the societal shifts resulting from the adoption of AI (where the 
+51 ​https://www.digicatapult.org.uk/news-and-insights/publication/lesson-in-practical-ai-ethics 
+ 
+ 
+term ‘optimise’ is deliberately subjective and context dependent) is the unifying research 
+space. Within that broad church large organisations - for example, financial institutions, 
+technology multinationals, local governments - seek help from Design Researchers. In the 
+case of Tesco Bank they are ​“just trying to hold up a bank with various apps to allow 
+people to move money into different places to keep their lives together”​, issues which 
+they are ​“locked in”​ to, however through collaboration with Design Researchers they are 
+empowered to ​“re-question what and how they are designing. [by asking] What's the 
+imperators to which they're designing those things?” (Speed, 2020). ​The theme across 
+our University-based interviewees was that the kind of contribution University’s offer through 
+collaborations is research with a more exploratory character, providing ​“.. alternative ways 
+to think about things” (Gaver, 2020)​: 
+“I've had these discussions with companies I suppose in the not too distant past 
+where if they're going down the product route then yeah we can help. But actually not 
+being a commercial partner, we're a university, we're something different [...] We are 
+very good at providing a large-scale future focused research space where people can 
+come and in a low risk way try out problems. They can explore problem spaces and 
+they can try new technologies” (Kirk, 2020). 
+This kind of open-ended creative exploration at the intersection of society and technology is 
+something that previously was well funded by the tech sector, however in recent years such 
+centres have refocused on product-oriented investment. ​“The classic and most 
+well-known example is Xerox PARC [...] they've all shut down over time, or in the case 
+of PARC it's been turned into a separate company and basically mostly does 
+consulting now and doesn't do basic research at all, as far as I know” (Reeves, 2020)​. 
+While these ‘freewheeling’ corporately-funded centres are primarily a thing of the past, in its 
+place the tech sector tends to invest in, or buy out, start-up companies. By purchasing 
+embryonic apps, services and techniques, they use start-up culture as a way of externalising 
+research risk. However, this approach limits their investments’ ability to address larger 
+systemic and macro research questions: 
+“.. start-up culture can solve certain kinds of problems [...] you cannot start-up your 
+way out of a digital infrastructure problem [...] Start-ups are very good at making apps 
+or whatever, other stuff like that, small things, but for really wicked tricky problems 
+they are not” (Reeves, 2020). 
+On another part of the spectrum of collaborative publicly-funded Design Research a range of 
+more cultural and community oriented work exists. For example, as part of a European 
+Cultural Fund project the University of York work on a ​“no staff cost”​ basis in order to use 
+their Design Research practice for direct impact, for example ​“the theatre company or 
+whoever, to work and figure out if something's going to work for them, or if they can 
+figure out a way to use it effectively. They take it on and then they make it into a 
+production if they're happy with it” (Kirman, 2020)​. In this community domain the 
+research still gravitates towards​ “trying to help people understand technologies before 
+they actually have the implications that are projected for them”​, which is crucial 
+because ​“technology is now shaping society quite as much as any political party 
+ 
+ 
+might be”​, and reflective of ​“delight and fascination at what's possible” ​but also ​“a new 
+digital divide or social divide” (Light, 2020).   
+The vast range of Design Research draws upon a rich toolkit of methods and approaches 
+including service design, experience design, speculative design, co-design, interaction 
+design and human-centred design. These are applied in a broad selection of contexts to 
+equally broad questions including, ​“Who's accessing that data? Where's it being held? 
+Who else can view it?  Actually do I have any sort of say on that at all? [...] What is 
+that training data, and how has it been trained, and where has it been collected from? 
+What is it at that intimate level of what the fundamental data points are?” (Vines, 
+2020)​. Collectively these contribute to the grand challenges around algorithmic bias, 
+fairness, agency, and what the implications for transparency, legibility, and explainability are. 
+It is clear given both the background discussion in the report, the wide array of existing work, 
+and the huge spectrum of active Design Research in this space there are opportunities in a 
+plethora of application areas or contexts for Design Research to make meaningful 
+contributions.  
+Unifying this work, and bringing particular relevance to contemporary issues around AI and 
+Data is Design Research’s aptitude to materialise and make tangible otherwise intangible 
+and diffuse problems. Whether observed from the perspective of a large multi-national or a 
+smaller local community, the gaps in knowledge around AI and Data which Design Research 
+speaks to best, relate to bridging the gap between theory and practice. 
+This discussion of the research landscape has focused on the higher-level purview of the AI 
+and Data space. Another active area of research, which is related, explores the impact of AI 
+and Data on Design itself. As discussed ​a priori ​(see section 5), there is an intrinsic interplay 
+between the creative process of ‘doing design’ and the exploratory practice of ‘doing 
+research’. In Design Research the two intersect in a multitude of ways. ​“The power of AI 
+enriched or enabled tools as part of the design process” (Vines, 2020)​ clearly has an 
+impact on what it means to be creative. Moreover, being able to meaningfully conceive of 
+data, from a design perspective, is an idea being grappled with across the board:​ “I think 
+within design training there's perhaps less sensitisation towards working with data” 
+(Kirk, 2020) ​with the concept of ​“data as a material” (Gaver, 2020) ​being a recurrent 
+theme. To fully map or assert conclusions about the coordinates of these questions of 
+research ​into​ design is beyond the scope of this report, however, it is most certainly a key 
+area for further clarification. 
+ 
+ 
+ 
+ 
+7. Infrastructure and Partnerships 
+Identifying research centres of excellence in this domain is not straightforward as world-class 
+work is often associated with individuals (who may move) and/or projects (which may cross 
+institutions). Such projects often rely on interdisciplinary relationships to get the most out of 
+the Design Research elements. Hence to specify single centres often doesn’t make sense. 
+Additionally, the perspectives of the interviewees on what constitutes their Design Research 
+is varied, so codifying that first is - arguably - a necessary preliminary step when trying to 
+identify centres of excellence. Those who principally saw their engagement with design as 
+the adoption of creative methods to address challenges in novel ways to provide alternative 
+perspectives are in a very different category to those who considered themselves as 
+designers and engaged with particular topics through reflection upon their practice. Whilst 
+there is often an overlap of methods between these perspectives, particularly in participation 
+and co-creation, they predominantly differ in the value and epistemological relevance of their 
+contributions.  
+The centres that our interviewees are affiliated with are certainly among the centres of 
+excellence in their respective fields, however, the full extent of picture is more nuanced. To 
+elaborate: Superflux and the Near Future Laboratory are both respected studios outside of 
+the academic sphere, with others including Changeist, Design Friction, Situation Lab, to 
+name a few. The Interaction Research Studio is one of the most revered practice-led Design 
+Research centres, but both Northumbria University and the University of Edinburgh - among 
+others - are also centres of excellence in that space. However, both Northumbria and 
+Edinburgh Universities are also leaders in other, less practice-based, Design Research (e.g. 
+exploring innovation, service design, and social issues using Design-led techniques). 
+Specific projects, for example Paul Rodgers’ Design Priority Area Leadership Fellowship or 
+Design Informatics’ Creative Informatics work, are exceptional projects in their specific 
+niches. Just as projects are sometimes the focus of excellence, individuals often embody 
+leadership and excellence, for example, Ben Kirman’s unique position at the intersection of 
+Game Design, Design Research and Human-Computer Interaction. As noted previously, yet 
+not detailed in this report, there are also a significant number of Design Research projects 
+funded by the AHRC are in the form of doctoral research and are distributed widely.  
+In summary, there is an extensive community of Design Researchers and excellence can be 
+attributed to individuals, projects, and approaches. To properly articulate this additional 
+in-depth research to fully map and explore this landscape is necessary and would provide a 
+framework and vocabulary to more specifically articulate the nature of the UK’s centres of 
+excellence.  
+A variety of perspectives reflect the expertise, knowledge, and practicalities of the 
+interviewees, their work, and what those factors tell us about potential investment 
+opportunities. First, it is clear that collaboration with non-academic institutions, as part of 
+publicly funded research, is the bread-and-butter of Design Research. Design Research 
+thrives on such collaborations and they are central to what Design Research achieves. Such 
+collaborations provide the contexts to which Design Research’s exploratory and divinatory 
+ 
+ 
+prowess is applied. Depending on the specific configuration of stakeholders (e.g. research 
+institutions and partners) value is added through several different mechanisms. In the case 
+of the non-academic interviewees, their relationships are akin to a client/agency/brief model 
+where Design Research, which has an obvious value to the client (e.g. for planning, 
+exhibition, product development, strategy development), is commissioned and paid for. In 
+the case of the academic interviewees, the relationships are a little more complex. For 
+example, research around a particular issue will ordinarily result in impact on the domain of 
+study (e.g. autonomous vehicles) but ​also​ have academic impact (e.g. journal articles about 
+autonomous vehicle theory). In some circumstances impact case studies are the only 
+outcome of interest to the academic institutions, hence the University institution gives an 
+‘in-kind’ or nominal-cost contribution to a collaborating organisation in order for a project to 
+be delivered. Interviewees were mindful that, depending on the nature of collaboration there 
+may be an onus to ensure the partnerships are reasonably equitable: 
+“I've worked with lots of different kinds of organisations, small independent folks and 
+barely-existing civil society organisations, I always to try to make sure that the 
+powerful partners, which are usually the Universities, are able to properly support the 
+less powerful partners” (Powell, 2020). 
+Nonetheless, in-kind contributions typically work the other way around as well, with 
+non-academic partners offering staff time or access to resources to academic Design 
+Researchers. In these circumstances, most frequently the benefit to the academic institution 
+is the invaluable access, ​“providing you with data, providing you with expertise, 
+providing you with a use case” (Hall, 2020), ​which is absolutely necessary to conduct 
+certain types of world-class research. Such in-kind contributions through project partners are 
+generally seen as significant and productive:  
+“[We] leverage pretty extraordinary amounts of resources [from] project partners on 
+Research Council bids [...] they provide a lot of service in kind as it were. That's been 
+extremely helpful.” (Gaver, 2020).  
+The non-academic partners may be motivated to make such in-kind investments for a variety 
+of reasons: for example, as a low-risk opportunity to take a more exploratory (less 
+product-driven) perspective on their business; to maintain established collaboration 
+relationships (including through industry placements for students); to facilitate research and 
+development which wouldn’t otherwise happen; to benefit public relations by being 
+associated with notable public research programmes. In-kind investment are the prevailing 
+type of private investment: 
+“Most of the time it's the usual stuff, costs in kind, those sorts of things, access. 
+That's normally what happens. I wouldn't say we get majorly funded by anyone else, 
+not in a big way, apart from research councils.” (Reeves, 2020). 
+In contrast to in-kind contributions - which are common, and arguably ​necessary​ elements of 
+significant research council grants - direct funding or cash contributions are much rarer and 
+are sometimes perceived as difficult, e.g., ​“after lots and lots of work and with a lot of 
+uncertainty, you can get a small amount of money” (Gaver, 2020)​. The interviewees had 
+various reflections on this issue which are relevant to the question of where there are private 
+ 
+ 
+investment opportunities into Design Research. As discussed in section 6, the rise of 
+‘start-up culture’ appears to be linked to a marked reduction in corporate investment in 
+fundamental research. Hence, opportunities are scarcer than they were. Some interviewees 
+raised issues relating to the contrast in academic and corporate cultures, noting that ​“often 
+when a company funds you directly you are effectively working for them, it's like 
+you're a poorly paid consultancy” (Gaver, 2020)​. A related aspect of this issue is the 
+specific value-add that Design Research tends to offer e.g., ​“stepping outside [of their 
+environment] coming over the threshold into our facilities, meeting some of our 
+people, using some of our toolkits, allows them to re-question what and how they are 
+designing” (Speed, 2020)​. Relationships with businesses and community groups local to 
+academic institutions were cited as having potential but with caveats about scale, funding 
+streams, and relevance:  
+“We're only going to get about £1,000 out of it [but] the actual genuine impact might 
+be that much greater” (Kirman, 2020);  
+“The councils of course have no money and never have done, but the local enterprise, 
+I've never tried this, but in Southampton if we were doing something like this you'd 
+involve the Port” (Hall, 2020);  
+“We worked with a local transport company [...] Fantastic local partner, it was good to 
+collaborate with them [...] when they realised that actually because of the position we 
+were in we could offer to do it for free, they eased up on what they wanted us to ask 
+as part of this consultation [...] They were actually really, really excited when they 
+finally got the data, they were like ‘this is amazing, we hadn't thought about these 
+things’. That's led to further work with them.” (Kirk, 2020).  
+Frequently, the role of Design Research is to ask challenging questions and proffer answers 
+which may be uncomfortable or pose quandaries to an existing product or service model. 
+When Design Research is providing a critical lens, and yet the thing which is being critiqued 
+is funding the work, there is an intrinsic conflict of interest which has the potential to become 
+a problem:  
+“.. there's an implicit sense that it's harder to challenge. It's harder to question. I think 
+you inevitably have to always remember the people that are funding you have got a 
+bottom line and they're funding you probably to help them with that bottom line. 
+There's always an underlying interest in products, service.” (Vines, 2020)​.  
+Conversely, when the equation is such that a partner is benefitting from the Design 
+Research ‘for free’ (in cash terms) the sanctity of academic research prevails, which in turn 
+actually ​increases​ the value of the collaboration. 
+“Trying to develop a relationship with a kind of greater equality where you can 
+actually do the kind of non-commercial research that we find most productive. It is 
+harder if they're funding you directly than if they are providing any other kind of 
+support.” (Gaver, 2020) 
+ 
+ 
+While clearly identified as a risk, this issue does not exist across the board, and there are 
+notable examples of healthy and productive cash investment (e.g. Design Informatics and 
+the Advanced Care Research Centre’s £20m investment from Legal and General ), they are 
+52
+in the minority. Several interviewees noted private funding for doctoral students: ​“partners 
+come in and put some money in for PhD students” (Reeves, 2020)​ observing that such 
+funding was, in the case of PhDs funded by larger and richer corporations, free from the 
+aforementioned conflicts of interests: 
+“I was lucky enough to have my PhD funded by Microsoft. But they gave me a 
+completely clean slate. At no point did they say this is getting too critical or negative 
+[but] if it's a smaller institute and their whole livelihood is based on development of a 
+particular technology, then of course they don't want to hear too much negative 
+stuff.” (Auger, 2020). 
+The successful private investments which are cash-based, the funding of doctoral research, 
+and the successful in-kind investments have a common thread among them. It seems that 
+the key to making such relationships productive is to ensure that all participants are clear 
+what the value-proposition of Design Research is, and in all of the examples touched upon in 
+the interviews Design Research played a questioning and exploratory role. The skills and 
+knowledge about how to manage this and communicating it effectively, are not formulaic and 
+require a bespoke and personal engagement: ​“I don't know how anybody within a 
+University could train other people in a university to be able to work with industry 
+partners. It's a nonsense. I think you have to be out in the world and you have to be 
+working with them, because you couldn't possibly understand otherwise” (Luger, 
+2020).  
+Design Research’s critical lens is clearly more valuable at a relatively early stage of 
+development processes where the work can facilitate the finding of alternative trajectories at 
+a point when they can realistically be delivered and before assumptions around a given 
+services form or function have become ‘baked in’. Design Research’s role in demonstrating 
+or creating novel uses of technology for direct exploitation was not evident in our interviews. 
+Rather the successful projects challenged assumptions and explored alternatives. Hence, 
+seeking investment in a similar vein will likely increase the chance of success. 
+Regardless of whether investment comes through in-kind or cash contributions, there was a 
+clear consensus among interviewees that having non-academic project partners is often a 
+prerequisite for Design Research projects. Moreover, to facilitate such collaborations, 
+long-term relationships are essential and require a significant and sustained effort to build 
+and maintain. Through reciprocal trusting relationships, profound collaborations can hinge on 
+good Design Research for organisations of all types, from corporate and financial institutions 
+to community and cultural groups. Arguably a key for many centres of excellence for Design 
+Research their ability broker, maintain, and utilise such relationships. Ergo, to accelerate and 
+increase private investment, support should be offered for building collaborative relationships 
+which in turn will facilitate world-class Design Research opportunities. 
+52 ​https://edinburgh-innovations.ed.ac.uk/2020/01/27/20m-lg-partnerhip-launches-acrc/ 
+ 
+ 
+ 
+ 
+ 
+ 
+8. Recommendations 
+In this concluding section, the content of the report is reflected and summarised into succinct 
+recommendations. The intention of the recommendations is to highlight where and how 
+University-led Design Research can best partner with government and industry to create 
+positive economic, cultural and social outcomes for the whole of the UK, around the theme 
+of AI and Data. The recommendations reflect the research approach (see section 2) and are 
+inferred from the interviewees’ experience, knowledge and opinions. The recommendations 
+are presented concisely according to a consistent structure and include reference to the 
+relevant section(s) of the report. 
+Recommendation 1 - Disambiguate the Domain 
+Disambiguate funding calls, published research, and reporting about research, which relates 
+to AI and Data. 
+Background: ​The terminology is ambiguous. While an element of ambiguity is unavoidable, 
+the lack of clarity in how the key terms AI (section 3) and Design Research (section 5) are 
+used causes significant problems for the identification and articulation of the value of 
+investment (section 4).  
+Recommendation 2 - Communicate the Benefit 
+Create a codification of Design Research’s potential utilities and use this to promote and 
+facilitate collaborative relationships. 
+Background: ​There is a broad scope of potential benefit for different types of Design 
+Research in different contexts (section 6). Building relationships with collaborators over time 
+is a time-consuming and challenging task (section 7). In order to help to do this a 
+classification or codification of Design Research’s key archetypal contributions (section 5) 
+and how they may be applied to the plethora of interpretations of AI (section 3) would be 
+hugely beneficial. This includes making the distinction between research ​through​ design, 
+research ​into​ the design industry, and mapping the contribution of doctoral research to the 
+overall landscape. 
+Recommendation 3 - Unify Investment Strategy 
+Strategically review UKRI’s AI and Data centric Design Research portfolio in order to identify 
+problematic aspects of peer review and assessment processes. 
+Background: ​Technology focussed Design Researchers note outward positivity from AHRC 
+which is tempered by less enthusiastic reviews, this is in contrast to EPSRC (and other) 
+funders who are less explicit about promoting Design, but appear to be more supportive in 
+ 
+ 
+practice (section 4). Unifying approaches, which will begin with understanding and clear 
+communication, will maximise potential co-investment opportunities.  
+Recommendation 4 - Manage Expectations 
+Make clear distinctions between product-focused and exploratory investments in Design 
+Research. 
+Background: ​The perception that ‘Design Research’ will ​directly​ lead to innovative products 
+in the AI and Data domain is not supported by the experience of the interviewees or their 
+project portfolios. Notwithstanding this finding, the commercial, cultural and societal benefit 
+of Design Research in the technology domain ​is ​clear, in particular when for developing 
+alternative, future-focused, and disruptive perspectives (section 6). The interpolation of both 
+aims without prior clarification introduces the potential to undermine valuable collaborative 
+partnerships (section 7). 
+Recommendation 5 - Evaluate Investment Value 
+Develop a fitting means to quantify the relative value of in-kind and cash investments in 
+terms of overall research impact’s value. 
+Background: ​The majority of Design Research in the AI and Data domain ​depends ​on 
+in-kind contributions from partners, and high quality partnerships can significantly enhance 
+the impact of research in economic, societal and cultural terms (section 7). Conversely, 
+although direct funding is sometimes productive, it can be problematic and provide 
+challenges to the kernel of the approach (section 6). A newly developed approach would 
+provide means to compare and contrast the value of research outcomes in terms of scale 
+and type of investment. 
+Recommendation 6 - Support Collaboration 
+Provide funding, advice and support for research institutions to build and maintain 
+investment partnerships with non-academic organisations.  
+Background: ​The relationships that research collaborations are built on can take a long 
+time to develop and need to be maintained (section 6). These relationships are an invaluable 
+and crucial asset in co-investment (section 7). 
+Recommendation 7 - Promote Equity and Diversity 
+Promote research around AI and Data which strives to ensure innovation helps to dismantle 
+the structural disadvantages endured by the world’s minorities rather than galvanise them. 
+Background: ​Given the propensity of AI to amplify the biases of the world and the extreme 
+sensitivity around bias, future research should promote an agenda of equality through 
+ 
+ 
+technical means, promoting a more diverse community of researchers (section 5), and 
+understanding the potential consequences of biased data (section 3). 
+Recommendation 8 - Support Designing with Data 
+Support the development of theory and curricula relating to data as a medium for Design. 
+Background: ​While the rhetorical force of the term AI is undeniable, data is what allows it to 
+work, and the qualities of data are a key design challenge of our time. Conceptualising how 
+data and Design intersect one another in research, innovation, and education are key issues 
+(section 5). To empower Design Researchers to ask relevant and productive questions, and 
+therefore to leverage its key strengths, investment should support the development of both 
+the theory and practice of Designing with Data (section 6). 
+ 
+ 
+ 
+ 
+References 
+Auger, J. (2013) ‘Speculative design: crafting the speculation’, ​Digital Creativity​, 24(1), pp. 
+11–35. Available at: http://www.tandfonline.com/doi/abs/10.1080/14626268.2013.767276 
+(Accessed: 23 January 2014). 
+Christopher Frayling. 1993. Research in Art and Design. Royal College of Art Research 
+Papers 1, 1: 1–9. 
+Cooper, R. ​et al.​ (2018) ‘ImaginationLancaster: Open-Ended, Anti-Disciplinary, Diverse’, ​She 
+Ji: The Journal of Design, Economics, and Innovation​, 4(4), pp. 307–341. doi: 
+10.1016/j.sheji.2018.11.001. 
+Coulton, P, Lindley, JG, Gradinar, AI, Colley, J, Sailaja, N, Crabtree, A, Forrester, I & Kerlin, 
+L 2019, Experiencing the Future Mundane. in Proceedings of RTD 2019. Research through 
+Design 2019 , Delft, Netherlands, 19/03/19. https://doi.org/10.6084/m9.figshare.7855790.v1 
+Coulton, P & Lindley, J (2019) More-Than Human Centred Design: Considering Other 
+Things, The Design Journal, 22:4, 463-481, DOI: 10.1080/14606925.2019.1614320 
+Cross, N. (2011) ​Design Thinking: Understanding How Designers Think And Work​. 
+Bloomsbury. 
+Dennis, C.A., 2019. AI-Generated Fashion Designs: Who or What Owns the Goods. 
+Fordham Intell. Prop. Media & Ent. LJ, 30, p.593 
+Fjeld, J, Achten, A, Hilligoss, H, Nagy, A, & Srikumar, M 2020. "Principled Artificial 
+Intelligence: Mapping Consensus in Ethical and Rights-based Approaches to Principles for 
+AI." Berkman Klein Center for Internet & Society  
+Gervais, D. 2020. Is Intellectual Property Law Ready for Artificial Intelligence?, GRUR 
+International, Volume 69, Issue 2, February 2020, Pages 117–118, 
+https://doi.org/10.1093/grurint/ikz025 
+Lindley, J, Akmal, HA, Pilling, F & Coulton, P 2020, Researching AI Legibility Through 
+Design. in CHI 2020. ACM, New York, CHI 2020, 25/04/20. 
+Lindley, JG, Coulton, P & Cooper, R 2018, The IoT and Unpacking the Heffalump’s Trunk. in 
+K Arai, R Bhatia & S Kapoor (eds), Proceedings of the Future Technologies Conference 
+(FTC) 2018: Advances in Intelligent Systems and Computing. vol. 880, Springer, Future 
+Technologies Conference 2018, Vancouver, Canada, 13/11/18. 
+https://doi.org/10.1007/978-3-030-02686-8_11. 
+Rodgers, P. A. and Yee, J. S. R. (2016) ‘Design Research is Alive and Kicking’, in ​Design 
+Research Society Conference​. doi: 10.21606/drs.2016.23. 
+Rodgers, P.A., Conerney, L & Mazzarella, F (2019) Deconstructing Design Research, The 
+Design Journal, 22:sup1, 1287-1303, DOI: 10.1080/14606925.2019.1594956 
+ 
+ 
+Buchanan, R. 1992. Wicked Problems in Design Thinking. ​Design Issues​ 8, 2: 5–21. 
+Schön, D. (1983) ​The Reflective Practitioner: How Professionals Think In Action​. Basic 
+Books. 
+ 
+ 
+ 
+ 
+Acknowledgements 
+We would like to extend our thanks to the interviewees, the AHRC team (in particular Claire 
+Coulton and Harry Kerr), and to our colleagues at Imagination Lancaster. We relied on 
+support from all of you to produce the report - thanks! 
+ 
+ 
+ 
+ 
+ 
+Appendix 1: Interviewee Profiles 
+James Auger​ is a designer, researcher and teacher. Graduating from, and then teaching on 
+the Royal College of Art’s influential Design Interactions programme, James has become a 
+highly influential scholar of Speculative Design (2013). Currently affiliated with the École 
+normale supérieure (Paris-Saclay), James has worked on numerous projects related to the 
+space including Blockchain Now and Tomorrow (European Commission ) and Beyond the 
+53
+Face (AI profiling with Aberystwyth University ). 
+54
+Anab Jain​ is the co-founder of design studio Superflux and Full Professor in the Industrial 
+Design Department at the University of the Applied Arts, Vienna. Through their work with 
+Superflux, Anab and co-founder Jon Arden produce world-leading Design Fictions which 
+have helped to define the field and have a high profile. Her work has been exhibited at the 
+Victoria & Albert Museum , she has presented at TED  and completed work for the United 
+55
+56
+Arab Emirates Ministry of Energy .  
+57
+Chris Speed and Ewa Luger​ (who were interviewed at the same time) are based at the 
+University of Edinburgh’s Design Informatics. Chris is the director of the AHRC-sponsored 
+Creative Informatics cluster. Ewa is a Chancellor's Fellow in Digital Arts and Humanities, 
+consulting researcher for Microsoft Research, a Fellow of the Turing Institute, and a director 
+of the Human Data Interaction Network . They are involved in a wide range of related 
+58
+Design Research initiatives including the flagship AHRC Creative Informatics  programme. 
+59
+Bill Gaver and Andy Boucher ​(who were interviewed at the same time) are based at 
+Goldsmiths, University of London, where they are co-directors of the Interaction Research 
+Studio. The world-renowned studio has helped to pioneer Design Research approaches, 
+with a particular focus on Research through Design. Their design-led work has been utilising 
+and critiquing our relationships with data and computation for over 15 years through projects 
+such as Datacatcher , Photostroller  and Local Barometer . 
+60
+61
+62
+Ann Light​ is a Professor of Design and Creative Technology at the University of Sussex. 
+Her work uses Design-led approaches to critique Human-Computer Interaction and 
+technology more broadly. She has a strong track record of securing research from AHRC, as 
+well as EPSRC and EU fundings. Current projects include the H2020 project Creative 
+Practices for Transformational Futures (CreaTures) . 
+63
+53 https://publications.jrc.ec.europa.eu/repository/bitstream/JRC117255/blockchain_online.pdf 
+54 https://www.aber.ac.uk/en/news/archive/2010/03/title-83161-en.html 
+55 https://www.vam.ac.uk/blog/digital/the-future-starts-here-an-interview-with-design-studio-superflux 
+56 https://www.ted.com/talks/anab_jain_why_we_need_to_imagine_different_futures 
+57 https://superflux.in/index.php/work/futureenergylab/# 
+58 https://hdi-network.org 
+59 https://creativeinformatics.org/ 
+60 
+https://goldsmithsdesignblog.com/2015/05/28/interaction-research-studio-launched-datacatcher-book-
+and-film/ 
+61 http://research.gold.ac.uk/4588/ 
+62 https://research.gold.ac.uk/5523/1/Local_Barometer.pdf 
+63 https://cordis.europa.eu/project/id/870759 
+ 
+ 
+Alison Powell​ is an ethnographer and social scientist based at the London School of 
+Economics. In her work she utilises practice-based approaches to research issues pertaining 
+to ethics and computing. Currently she is lead on the AHRC-funded JUST AI Network (in 
+collaboration with the Ada Lovelace institute) . 
+64
+Stuart Reeves​ is a member of the Mixed Reality Lab and Horizon Digital Economy 
+Research Institute at Nottingham University. He has published widely on issues relating to 
+Design, Data and Human-Computer Interaction more broadly. His funded projects include 
+the From Data to Human Experience  and his EPSRC fellowship exploring the links 
+65
+between academic and industrial User-Experience Design . 
+66
+Dave Kirk​ is a Professor in Human-Computer Interaction and the director of Newcastle 
+University’s Open Lab where his research takes a particular interest in Design Research 
+methods. Through his career he has transitioned from an experimental scientist to 
+exploratory design research. He is the Principal Investigator on several significant and 
+relevant projects including the Digital Economy Research Centre , the Centre for Doctoral 
+67
+Training in Digital Civics , and the Centre for Digital Citizens.  
+68
+Ben Kirman​ is a creative technology and game designer, who is currently a Lecturer in 
+Interactive Media at the University of York and member of Digital Creativity Labs. His 
+research leverages design via fiction, criticality and games to create unusual interactive 
+experiences to unpack potential futures, understand modes of interaction. His current 
+research portfolio includes a wide range of projects including an Industrial Strategy 
+Challenge Fund Audience of the Future Demonstrator (WEAVR: Immersive Cross-Reality 
+Experiences) , a collaboration with an international e-sports company, and through to 
+69
+collaborations with local community theatres. 
+Dame Wendy Hall​ is a computer scientist who has recently been appointed as Chair of the 
+Ada Lovelace Institute, is Executive Director of the Web Science Trust, and co-authored the 
+UK Government report on Growing AI in the UK .  
+70
+Shannon Vallor​ is a philosopher of technology and is the Baillie Gifford Chair in the Ethics 
+of Data and Artificial Intelligence at the Edinburgh Futures Institute at the University of 
+Edinburgh. She was formerly a Visiting Research and Ethicist at Google and is author of the 
+forthcoming book Lessons from the AI Mirror: Rebuilding Our Humanity in an Age of 
+Machine Thinking. 
+John Vines​ is Professor at Northumbria School of Design. His research uses design 
+methods to explore how people experience, appropriate, and use digital technologies as well 
+64 https://www.adalovelaceinstitute.org/our-work/just-ai/ 
+65 https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/M02315X/1 
+66 http://www.cs.nott.ac.uk/~pszsr/#fellowship 
+67 https://gtr.ukri.org/project/E7A58D37-F67E-452D-A68F-55579A67CBB4 
+68 https://digitalcivics.io/ 
+69 
+https://digitalcreativity.ac.uk/news/dc-labs-and-university-york-announced-major-stakeholder-%C2%A
+358m-rd-project-immersive-audience 
+70 https://www.gov.uk/government/publications/growing-the-artificial-intelligence-industry-in-the-uk 
+ 
+ 
+as focusing on the ethical and methodological aspects of Design Research. In addition to 
+research examining issues such as social isolation among carers, intergenerational 
+conversations about dementia, measuring charitable outcomes, and community decision 
+making he has worked on projects including Playing Out with the IoT , Ox-chain  and is a 
+71
+72
+Co-Investigator on the Digital Economy Research Centre . 
+73
+Julian Bleecker and Nicolas Nova​ (who were interviewed at the same time) are 
+co-founders of the renowned agency Near Future Laboratory , pioneers of the Design 
+74
+Fiction field. Julian holds a PhD in History of Consciousness, was formerly an Interaction 
+Designer at Nokia Labs, and runs cycling technology startup Omata. Nicolas holds two PhDs 
+in Social Sciences and Human-Computer Interaction, he is an Associate Professor at 
+Geneva School of Art and Design, associate researcher at SciencesPo medialab (Paris), 
+and frequently presents his research about the intersection between society and technology 
+to global audiences. 
+ 
+ 
+ 
+71  https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/P025544/2 
+72 https://gow.epsrc.ukri.org/NGBOViewGrant.aspx?GrantRef=EP/N028198/1 
+73 https://gtr.ukri.org/project/E7A58D37-F67E-452D-A68F-55579A67CBB4 
+74 http://nearfuturelaboratory.com/ 
+ 
+ 
+Appendix 2: Interview Schedule 
+The interviews were semi-structured around the following schedule. Not all questions were 
+asked of all interviewees, as some were not relevant in all contexts, e.g., questions relating 
+to REF not relevant to non-academics and questions relating to UKRI funding not relevant to 
+international interviewees.  
+●
+What do you think is meant by the terms ‘AI’ and ‘Data’, how are they related? 
+●
+What is the relationship between ‘Design’ and ‘Research’?  
+●
+What role does Design play in AI & Data research projects, for example does it aid 
+creativity, provide a critical lens, help encourage interdisciplinarity, or something 
+else? 
+●
+Do you work with non-University partners (e.g. private sector, NGOs, and charities) 
+on AI & Data research projects? 
+●
+How does Design Research benefit your partners and do they fund University-based 
+research directly? 
+●
+Who (else) funds your Research work/time? (e.g. AHRC, EPSRC, others) 
+●
+Do your partners contribute cash or in-kind match funding?  
+●
+What REF panel do you submit your work to? 
+●
+Do the Designers in your AI & Data projects tend to work alone, act as linchpins in 
+the team, or somewhere in between? 
+●
+How does Design help make your AI & Data research more impactful? 
+●
+What precedents from history do you refer to in order to argue for the value of Design 
+in AI & Data research?  
+●
+What disciplinary backgrounds do Designers researching AI & Data have, and what 
+skills or training will future designers need? 
+●
+Why is Design important for AI & Data research? 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Appendix 3: Accuracy in AI Systems 
+Accuracy is often expressed statistically, for example, if an AI system is used to classify 
+emails as spam, a simple accuracy measure would be the number of emails correctly 
+identified as spam as a proportion of all the emails. However such a measure could be 
+problematic. For instance, if 90% of all emails are spam, then you could correctly achieve 
+90% accuracy by simply labelling all emails as spam. For this reason, alternative measures 
+are used to assess a systems performance, which reflect the balance between two different 
+kinds of errors : 
+75
+A ​false positive​ is when an AI system incorrectly labels as positive (eg emails classified as 
+spam, when they are genuine) 
+A ​false negative​ is when an AI system incorrectly labels as negative when they are actually 
+positive (e.g. emails classified as genuine, when they are actually spam). 
+The balance between these two types of errors can be captured through various measures, 
+including: 
+Precision:​ the percentage of cases identified as positive that are in fact positive. For 
+instance, if 9 out of 10 emails that are classified as spam are actually spam, the precision is 
+90%. 
+Sensitivity​: the percentage of all cases that are in fact positive that are identified as such. 
+For instance, if 10 out of 100 emails are actually spam, but the AI system only identifies 
+seven of them, then its sensitivity is 70%. 
+There are trade-offs between precision and sensitivity. If you place more importance on 
+finding as many of the positive cases as possible (maximising sensitivity), this may come at 
+the cost of some false positives (lowering precision). Thus the performance of an AI system 
+is very much in the hands of its designer. 
+75 
+https://ico.org.uk/about-the-ico/news-and-events/ai-blog-accuracy-of-ai-system-outputs-and-performa
+nce-measures/ 
+ 

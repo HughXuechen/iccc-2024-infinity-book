@@ -1,0 +1,4207 @@
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+  
+  
+  
+  
+  
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+UNPREDICTABLE MEMES: 
+Speculative Futures of Meme Creators' 
+Ownership through the Lens of 
+Disruptive Technologies 
+by 
+Winter Yan 
+A thesis exhibition presented to OCAD University in partial fulfillment of the 
+requirements for the degree of Master of Design (MDes) in Digital Futures. 
+Toronto, Ontario, Canada, 2023. 
+1 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ABSTRACT 
+Unpredictable Memes explores the impact of technological change on the 
+creation and propagation of memes in contemporary digital culture and 
+envisions a possible future for the meme creator’s ownership. In this thesis, I 
+begin with a historical and economic review to delve into technological 
+movements and trends on social media in the attention economy, 
+highlighting how Artificial Intelligence (AI) algorithms and Blockchain 
+technologies disrupt the monetization of memes in ways that affect the 
+ownership. Considering the legal and ethical segments of the potential future 
+of meme monetization, the review of copyright and ownership of human and 
+AI-created memes. I employ Economic Constructivism and Participatory 
+Speculation as methodologies to collaboratively imagine both optimistic and 
+dark future scenarios with experts from different fields related to memes, to 
+create an interactive documentary that depicts the evolution of meme 
+creators and the proposed vision of their future. Through this study, I 
+speculate that in the future, AI algorithms will present new opportunities to 
+catalyze human creativity for meme creators and to think of what creators 
+should do to avoid homogenization of creativity, while Blockchain 
+technologies will open up possibilities for emerging communities where 
+meme creators can reshape ownership and scarcity in valuing creativity. 
+2 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ACKNOWLEDGEMENTS 
+I would like to express my deepest gratitude to my advisors, Dr. Sara 
+Diamond and Dr. Michelle Miller for their continuing guidance, support, as 
+well as insightful thoughts and advice throughout the entire process of this 
+thesis. Your feedback and critiques have greatly helped me to refine my ideas 
+and develop my thesis into its final form. 
+I am also grateful to my two tutors of Thesis 3, Dr. Cindy Poremba and Dr. 
+Emma Westecott, for providing me with excellent academic suggestions and 
+recommending effective methods for this research. 
+To my family, I wish to thank my mum and my grandmother for their 
+constant emotional support, encouragement, and patience throughout my 
+academic journey. My love and gratitude are beyond what memes can 
+express. 
+My gratitude also goes to all the participants of the workshop, especially Alex, 
+Joanne, Len and Ludy for their time and enthusiasm toward the project, and 
+for making this research more interesting by sharing their experiences and 
+imagination. 
+Finally, I would like to say I consider myself very fortunate to be part of the 
+Digital Futures Graduate Program at OCAD. I have learnt not only from the 
+courses but also from my friends in this exceptional academic community. 
+Their creativity, passion, and dedication to creative work have inspired me to 
+strive for excellence and continue pushing the boundaries. I thank you all for 
+being so cool! 
+3 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+TABLE OF THE CONTENTS 
+ABSTRACT 
+2 
+ACKNOWLEDGEMENTS 
+3 
+TABLE OF THE CONTENTS 
+4 
+LIST OF APPENDICES 
+6 
+LIST OF FIGURES 
+6 
+CHAPTER 1: INTRODUCTION 
+8 
+ABOUT THE PROJECT 
+8 
+PROJECT MOTIVATION 
+11 
+RESEARCH QUESTIONS 
+13 
+CHAPTER OVERVIEW 
+14 
+CHAPTER 2: LITERATURE AND CONTEXTUAL REVIEW 
+15 
+HISTORICAL EVOLUTION OF MEMES 
+15 
+FROM CULTURAL UNIT TO DIGITAL ARTIFACTS 
+15 
+CONTEMPORARY CASE STUDIES ON SOCIAL MEDIA 
+21 
+AI-CREATED MEMES 
+29 
+MEME ECONOMY 
+34 
+HISTORY OF MEME MONETIZATION 
+34 
+CREATOR OWNERSHIP 
+43 
+COPYRIGHT OF HUMAN-CREATED MEMES 
+43 
+COPYRIGHT OF AI-CREATED MEMES 
+47 
+COPYRIGHT OF NFT MEMES 
+53 
+CONTEXTUAL WORKS 
+57 
+INTERACTIVE DOCUMENTARY 
+57 
+CHAPTER 3: METHODOLOGIES AND METHODS 
+63 
+METHODOLOGIES 
+63 
+ECONOMIC CONSTRUCTIVISM 
+63 
+PARTICIPATORY SPECULATION 
+65 
+METHODS 
+67 
+HISTORICAL ANALYSIS 
+68 
+APPLYING Participatory Speculation: WORKSHOP 
+70 
+PARTICIPANTS RECRUITMENT 
+71 
+WORKSHOPS 
+72 
+DATA COLLECTION 
+75 
+DATA ANALYSIS 
+76 
+CHAPTER 4: VOYAGE TO THE EDGE OF IMAGINATION 
+77 
+STUDY FINDINGS 
+77 
+4 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+INDIVIDUAL SPECULATION 
+77 
+GROUP SPECULATION 
+83 
+THESIS OUTPUT 
+88 
+TIMELINE JUMPING 
+89 
+MEME CREATOR TIMELINE 
+90 
+COLLECTIVE FUTURES 
+94 
+CHAPTER 5: CONCLUSIONS AND FUTURE WORK 
+98 
+SUMMARY OF THE RESEARCH 
+98 
+REFLECTION ON METHODOLOGIES AND METHODS 
+100 
+REFLECTION ON THE THESIS PROJECT 
+101 
+TIME JUMPING 
+101 
+MEME CREATOR TIMELINE 
+103 
+COLLECTIVE FUTURES 
+104 
+SIGNIFICANCE AND FUTURE WORK 
+105 
+CONCLUSION 
+106 
+BIBLIOGRAPHY 
+108 
+APPENDICES 
+123 
+5 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+LIST OF APPENDICES 
+Appendix A: Key Findings Taken From Literature Review 
+Appendix B: Participants Recruitment Materials 
+Appendix C: Participatory Workshop Consent Form 
+Appendix D: Participatory Workshop Invitation Letter 
+Appendix E: Participatory Workshop Description 
+Appendix F: Participatory Workshop Process Screenshot 
+LIST OF FIGURES 
+Figure 1. Engraving of Kilroy on the National World War II Memorial in 
+Washington, D.C. 
+Figure 2. Main page of 4chan 
+Figure 3. AI-generated Kermit Frog Images by Dall-E 
+Figure 4. Doge (Meme) 
+Figure 5. DogeCoin 
+Figure 6. The Disaster Girl meme 
+Figure 7. Harry Potter Memes created by Midjourney with prompts offered by 
+human 
+Figure 8. Photo galleries and audio recordings that illustrates the invasion of 
+Poland 
+6 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 9. Interactive documentary Hollow tells a story of population decline 
+in the rural U.S. 
+Figure 10. Documentation of Workshop Activities 
+Figure 11. The rules and settings of Microscope Explorer 
+Figure 12. Interactive Timeline Wireframe 
+Figure 13. Initial Codes, Specific Categories and Themes 
+Figure 14. Illustrate diagram of an interactive documentary 
+Figure 15. Visualization of the technologies 
+Figure 16. Visualization of the economic models 
+Figure 17. Interactive Timeline Wireframe (Figma) 
+Figure 18. Interactive Timeline Wireframe (Adobe Illustrator) 
+Figure 19. Interactive Timeline Final Design (Adobe Illustrator) 
+Figure 20. Image tracing process: replication and mutation of meme Evil 
+Kermit 
+Figure 21. Image tracing process: replication and mutation of meme Woman 
+Yells At Cat 
+Figure 22. Storyboard for the first scenario of the possible future of meme 
+creators’ ownership 
+Figure 23. Final presentation on a touch screen 
+7 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CHAPTER 1: INTRODUCTION 
+ABOUT THE PROJECT 
+Meme culture refers to the cultural phenomenon that has emerged through 
+the creation and propagation of internet memes. Memes are usually found in 
+the form of humorous images, videos, or pieces of text that spread rapidly 
+through social media and other digital platforms, often evolving and 
+changing as they are shared and remixed by different users. The 
+deconstruction or subversion of authority by internet memes allows everyone 
+to participate in the creation and dissemination of content, liberating 
+individuals from the limitations imposed from being an audience and 
+enabling them to become their own creators and propagators. 
+Creating and sharing memes also brings people together through humor, 
+irony and wit, fostering a sense of belonging and endorse self-expression in 
+virtual communities. Saint Hoax, a prominent meme creator with three 
+million Instagram followers argues that, “The power of a meme lies in its 
+transmissibility and unique knack for being cross-cultural” ( as cited in 
+Benveniste, 2022). Memes can serve a variety of functions, from social 
+commentary to cultural critique and political satire, and they have become a 
+8 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+significant part of contemporary digital culture. At the same time, they raise a 
+bundle of issues related to authorship, copyright and ownership. 
+The nature of memes as a democratic source of collective creativity means 
+that ownership is often diffuse and shared among many people. While some 
+memes are created by individuals for commercial or branding purposes, 
+many memes are created and shared freely and without any expectation of 
+compensation. Additionally, because memes often rely on existing cultural 
+references and images, it is difficult to determine who holds the copyright or 
+intellectual property rights since there are various elements that make up a 
+meme. With the advent of Blockchain technologies and AI algorithms, the 
+creators’ ownership of memes has become a topic of increasing interest, 
+particularly in light of technological advancements that have disrupted 
+traditional models of content creation and distribution. The research is 
+presented in the form of an interactive documentary that invites the 
+audience to explore the journey collaboratively. 
+This research project constructs a resemblance of meme creation. It will 
+repackage the “two main mechanisms of meme creation - mimicry and 
+remix” (Shifman, 2015, p. 20). Mimicry associates the practice of 
+9 
+ 
+ 
+ 
+ 
+ 
+ 
+“reconstruction”- through the exploration of the literature review, I intend to 
+explore the potential for AI algorithms, AI meme generators and Non-
+Fungible Tokens (NFTs) to disrupt conventional models of meme 
+monetization, reflecting on how the technological evolution intertwines with 
+the economic model change in the evolution of memes, and implementing 
+internet memes to become a cultural and economic force, with the potential 
+to generate revenue and influence consumer behavior. Remixing involves 
+group speculation through the Participatory Workshop, taking the collective 
+imagination of the group and transforming it into an interactive 
+documentary by blending different ideas, perspectives, and styles into one 
+digital artifact. 
+By engaging in speculation regarding the potential futures of meme creators’ 
+ownership within the context of technology and economics, this research 
+provides a novel approach to discussing meme culture through a techno-
+economic lens. This approach necessitates an understanding of memes in 
+relation to disruptive technologies, including Artificial Intelligence and NFT 
+memes. Furthermore, this research assesses the impact of these technologies 
+on the meme economy and the commodification of digital artifacts. By 
+exploring the possibilities that disruptive innovations present for meme 
+creators and digital content creators, this research considers new 
+10 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+opportunities for generating revenue and potential challenges that may arise 
+in terms of preserving the diversity and freedom of meme creation. 
+PROJECT MOTIVATION 
+The emergence and development of each and every internet meme engages 
+extensive participation from netizens (the users of the Internet), thus 
+rendering individualism in internet culture appears devoid of footing in the 
+process of meme propagation. Memes reflect a form of connectivity among 
+groups, as netizens collaboratively push forward the dissemination of certain 
+cultural elements. The viral spread resulting from such efforts cultivates a 
+collective atmosphere, providing each participant involved in meme creation 
+and dissemination with a sense of communal identity. 
+The rise of meme culture has revolutionized the way people interact and 
+express themselves in the digital world. Memes are a powerful tool that 
+enables anyone to participate in the creation and dissemination of content, 
+breaking down traditional barriers to entry and moving to a new era of 
+cultural expression. Due to the popularity of memes and the prevalence of 
+social media, visual symbols such as images and videos have gradually taken 
+over as the main medium of communication, displacing text. These features 
+11 
+ 
+ 
+ 
+ 
+ 
+of meme have provided a new avenue for advertisers and digital marketers to 
+reach audiences and create engaging experiences, and open up commercial 
+prospects for meme creators to monetize their work. 
+The motivation behind this thesis stems from the increasing prevalence of 
+disruptive technologies, such as Blockchain and AI algorithms, and their 
+potential impact on the monetization of memes. As both digital and cultural 
+artifacts are created and shared online, memes are an excellent example of 
+free expression and human creativity in the digital age. However, memes 
+pose various challenges to the development of copyright law, and many of 
+these issues remain unresolved. This demonstrates the fascinating and 
+challenging nature of researching copyright law, and I aim to investigate how 
+Blockchain technologies can provide solutions to these issues. 
+Additionally, the advent of these technologies and their intertwinement with 
+economic models of memes raises questions about how this disruption may 
+affect the possibilities for creators to monetize their work and maintain 
+control over its copyright and ownership. This thesis will explore these 
+potential impacts and consider the future problems related to human 
+creativity in the context of disruptive technologies and the changes in value 
+influenced by technological disruption. I seek to explore potential threats and 
+value conflicts that may arise regarding the ownership of memes. Memes are 
+known as a democratic source of collective creativity. However, when meme 
+12 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+creators begin to claim ownership over their creations, conflicts may arise. 
+These conflicts could involve issues such as copyright infringement or 
+disputes over creative control. 
+RESEARCH QUESTIONS 
+The project seeks to explore the following questions: 
+Primary Research Questions 
+How might technological changes on social media platforms impact a 
+creator’s ownership of memes? 
+Secondary Research Questions 
+How might disruptive technologies including Blockchain and AI algorithms 
+impact the monetization of memes in ways that affect creators? 
+How can Participatory Speculation and interactive documentaries with 
+experts be used to imagine the possible future of memes? 
+13 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CHAPTER OVERVIEW 
+Following my exploration of the thesis’s origin, this document continues with: 
+Chapter 2, a literature and contextual review which shapes the direction of 
+speculation for possible futures of memes. It primarily examines historical 
+evolution of meme, case studies on social media, economy of meme, Artificial 
+Intelligence Algorithms, Blockchain technologies and NFTs, copyright and 
+ownership of memes, Participatory Speculation and interactive documentary. 
+Chapter 3 covers the methodologies and research methods that inform this 
+project. It begins with identifying Historical and Economic Constructivism 
+and Participatory Speculation as key methodologies implemented through 
+the research.  Research methods that are applied include historical and 
+Participatory Workshop, data collection and data analysis. 
+Chapter 4 provides an overview of the methodologies and methods, 
+specifying the happenings of the workshops, the study findings, and the 
+process and outputs of the thesis project. 
+Chapter 5 presents a summary of the thesis project, reflect on the literature 
+review, methodologies and methods, thesis project, discuss the significance 
+for future studies, and elaborate on future work and development. 
+14 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CHAPTER 2: LITERATURE AND CONTEXTUAL 
+REVIEW 
+In the following sections, I will review the literature pertinent to the research 
+project with the intention to answer the primary research question. Firstly, I 
+will address the “meme” concept, starting with a theoretical unit of cultural 
+transmission and subsequent evolution to a digital artifact. This will be 
+followed by a discussion of the case studies on social media in the framework 
+of attention economy. The review will proceed with an overview of 
+contemporary case studies of memes on social media and examine Artificial 
+Intelligence created memes, NFT memes & Blockchain as well as the 
+ownership and copyright of memes. It will also identify and define key 
+concepts of Digital Participatory Culture relevant to research on meme 
+studies. 
+HISTORICAL EVOLUTION OF MEMES 
+FROM CULTURAL UNIT TO DIGITAL ARTIFACTS 
+“Meme” is a term coined by biologist Richard Dawkins to describe the flow 
+and flux of culture (Miler, 2016, p. 16). He defines the meme as "a unit of 
+cultural transmission, or a unit of imitation” (Dawkins, 1976, p. 192) that carries 
+15 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ideas, symbols, or practices that can be transmitted from one mind to 
+another by copying or imitation. Analogous to genes, memes have the 
+characteristics of replicators that experience variation, competition, selection 
+and retention (Dawkins, 1976). 
+Scholarship on memes has historically relied on an “epidemiological model” 
+(Weng, Flammini, Vespignani, & Menczer, 2012, p. 6). From an epidemiological 
+stance, memetics is the cultural analogue to the study of how the virus 
+spreads and diffuses through populations. One example is Kilroy Was Here, a 
+meme that went viral and became popular during World War II, usually seen 
+in graffiti. It depicted a man with an extended nose peeking over a wall, 
+accompanied by the caption Kilroy Was Here (Shifman, 2014). Despite the 
+contested origins of this meme, it proliferated throughout the places Allied 
+forces were and beyond. The enigmatic nature and lack of a clear resolution 
+allowed people to feel a sense of ownership over it, while also participating in 
+a broader collective through sharing (Holm, 2021). Kilroy Was Here (Figure 1) 
+also exemplifies the essence of participatory culture, which “encourages 
+broad participation and grassroots creativity” (Jenkins, 2009). The simplicity of 
+the drawing facilitated easy replication, as with Internet memes. Additionally, 
+the meme's ambiguous meaning and interpretation contributed to its appeal 
+and encouraged people's active involvement with it. 
+16 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+Figure 1. Engraving of Kilroy on the National World War II Memorial in Washington, D.C. 
+In the digital era, the Internet has enabled memes to rapidly disseminate 
+across the world in a considerably short span. It is commonly understood that 
+for a digital artifact to become an internet meme, it needs to go viral first 
+(Shifman, 2015). With the evolution of Internet culture, the concept of the 
+meme has undergone a semantic shift from its original definition, as 
+individuals have adapted and modified the term to specifically reference 
+online cultural artifacts (Chandler, 2013). The phrase “Internet meme” is 
+commonly applied to describe “the propagation of content items such as 
+jokes, rumors, videos, or websites from one person to others via the Internet” 
+17 
+ 
+ 
+ 
+ 
+  
+ 
+  
+(Shifman, 2013, p.362). The diffusion of an Internet meme not only occurs in its 
+original manifestation but also generates user-created derivatives, making 
+memes the “quintessential participatory artifact: open, collaborative, and 
+adaptable” (Milner, 2012, p. 12). Shifman finds it useful to define Internet 
+memes by highlighting their three distinct natures: (a) a group of digital 
+items sharing common characteristics of content, form, and/or stance, which 
+(b) were created with awareness of each other, and (c) were circulated, 
+imitated, and/or transformed via the Internet by many users (Shifman, 2015, 
+p.41). 
+Johnson asserts that memes may be of specific relevance for cultural analysis 
+that focuses on interpreting the meaning of “seemingly superficial and trivial 
+elements of popular culture” (Johnson, 2007, p. 27). He identifies and maps 
+memetic dimensions of texts that have been labeled as successful Internet 
+memes, with an eye toward examining whether Internet memes enrich our 
+understanding of contemporary digital culture. Despite their seemingly facile 
+presence, digital memes are rich with a variety of deep and broad meanings, 
+serving as innovative forms of political and social expression. The use of 
+memes on social media enables complex messages to be conveyed to large 
+audiences. This phenomenon gives rise to what Shifman calls a “memeplex” 
+(Shifman, 2015, p. 10). 
+18 
+ 
+ 
+ 
+ 
+  
+The propagation of memes has been shifted into a ubiquitous process by the 
+Internet, rather than any other communication medium, enabling the rapid, 
+accurate, and widespread dissemination of memes through digital networks 
+(Marshall, 1998). As a unique form of communication, memes possess a 
+duality that encompasses individuality/collectivity and content (ideas and 
+ideologies)/stance (the creator’s position in reference to the message). 
+(Nissenbaum & Shifman, 2018). With content that features a visual format of 
+images, GIF, or short videos, memes infuse humor into the creation and 
+produce an emotional context (Posey et al., 2010). The potential for 
+dissemination in terms of symbol construction and visual communication 
+enables participants to apply them as a significant method for conveying 
+emotions and expressions on social media (Wang et al., 2019). Therefore, the 
+incorporation of Internet memes into dialogues enhance their expressive 
+force and vivid information, compared to solely text-based communication 
+(Fei et al., 2022). The notion of emotions is important to consider in the 
+operation of memes as well. As Milner (2016) indicates, the propagation of 
+memes is partly driven by their potential to evoke resonance among different 
+Internet users at both an individual and societal level. By utilizing a shared 
+base of meme templates that directs the creation of unique instances (Segev, 
+Nissenbaum, Stolero, & Shifman, 2015), individuals can deliver a unique 
+message with a collectively created formation (Phillips & Milner, 2017). 
+19 
+ 
+ 
+ 
+ 
+ 
+The individuality/collectivity duality is also manifest in meme creation and 
+sharing and is relevant to the key features of participatory digital cultures 
+(Newton et al., 2020). Scholars highlight that values serve as the fundamental 
+building blocks for constructing our individual identity in relation to others, 
+allowing us to continually negotiate and redefine our collective identity over 
+time (Knight, 2010). Memes are not simply a reflection of existing societal-
+cultural norms, they also serve as a medium for negotiating and constructing 
+those values and norms (Gal et al., 2016), as well as shaping “the mindsets, 
+forms of behavior, and actions of social groups” (Shifman, 2014, p. 18). 
+Memes are commonly understood as either a shared language among 
+members of online communities or as a social practice that underpins the 
+processes of cultural production (Newton et al., 2022). Their creation and 
+sharing incorporate the continual negotiation of shared values and beliefs 
+(Procházka, 2018; Zappavigna, 2020). Shifman (2014) posits that meme 
+sharing encompasses both distribution and communication. Distribution 
+refers to the mere act of copying, pasting, forwarding, etc., while 
+communication refers to the purposeful delivery of a message through 
+sharing. This process of replication, through which the original meme 
+becomes a reference text that is quoted and altered during its dissemination, 
+known as intertextuality (Wigger & Bowers, 2014). The intertextual referencing 
+of original memes to other memes can create a sense of belonging to online 
+20 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+communities as users leverage subcultural knowledge for interpretation and 
+reappropriation (Laineste and Voolaid, 2016). 
+CONTEMPORARY CASE STUDIES ON SOCIAL MEDIA 
+I utilize the concept of the attention economy to discuss the technological 
+change in online space that affects the creation and propagation of memes, 
+as well as the creators. The economic significance of memes is associated 
+with the attention economy, which is a prevalent feature of many 
+contemporary societies (Davenport and Beck, 2001). The attention economy is 
+an economic system in which human attention or time is considered the 
+most valuable resource as attention converts to advertisements and other 
+revenue. Essentially, the success of memes in the attention economy is 
+dependent on their ability to capture and maintain people's attention. Social 
+media has become a significant site for directing human attention in the past 
+decade, bringing together the mediation of everyday life with technology 
+that organizes and values communication practices (Rheingold, 2009). 
+Fundamental values highlighted in the meme culture include creativity and 
+freedom of information (Nissenbaum & Shiffman, 2018). In the realm of 
+memes, creativity is a guiding principle of user participation and the concept 
+of freedom of information is manifested not only in the vast array of topics 
+21 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+addressed by memes but also in the diverse genres of memes that transform 
+personal acts into public information (John, 2016). The production of value on 
+social media can be understood by examining the circulation of images and 
+the management of participation and attention (Carah, 2014). In the context 
+of the attention economy, visibility is considered a form of status (Marwick, 
+2015). It is imperative for creators and users who aspire to succeed in social 
+media platforms to cultivate visibility (William, 2018). The way of achieving 
+visibility is facilitated by technological development in digital space. It can be 
+achieved through various means, including active participation in online 
+communities, the creation and dissemination of content, and the cultivation 
+of a personal brand. Such visibility is seen as a valuable asset, as it increases 
+the chances of capturing and retaining people's attention, and can result in 
+increased opportunities, exposure, and success for meme creators. 
+Memes perform important social functions in the web-based community 
+such as “boundary policing, identity construction, and accumulation of 
+cultural capital” (Literat & Van den Berg, 2017). Using the /b/board of 4chan 
+(one of the original incubators for a huge number of memes) as an example, 
+Nissenbaum and Shiffman assert that the connection between cultural 
+capital and Internet memes is linked to the creative process and social 
+dynamics surrounding memes on social media. "Meme literacy" affects a 
+user's status in online communities and shows their membership. The use of 
+22 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+limited formulas to create memes is similar to Bourdieu’s concept of “cultural 
+capital,” as determined by communal taste, which establishes acceptable 
+forms of expression and results in social hierarchies among meme creators 
+(Nissenbaum & Shiffman, 2015). In this case, the circulation of images on social 
+media platforms is organized by users and their activities. Hashtags, tags, 
+likes, and comments serve as quantitative markers of how web-based 
+communities evaluate the worth of meme creation (Abisheva, Garcia, & 
+Schweitzer, 2016). 
+Figure 2. Main page of 4chan 
+23 
+ 
+ 
+ 
+The web-based community also manifests the process of construction of 
+values and social structure that is moderated by users in the subculture 
+community. By examining the MemeEconomy community on Reddit, where 
+‘meme traders’ appropriate stock market terminology to discuss and 
+appraise memes as objects of cultural exchange, Literat and van der Berg 
+(2017) state that meme valuing and trading impacts community social 
+structure, forming users into three categories: “meme insiders (those with the 
+most savvy and authoritative valuations of memes), newcomers (those open 
+to acquiring inside knowledge), and normies (those who appear to insiders as 
+oblivious to this specialized discourse on memes). The meme insiders are not 
+merely meme creators, but also cultural intermediaries (Bourdieu, 1984, p. 
+101). In Bourdieu’s notion, cultural intermediaries serve as mediators in the 
+cultural production process and in shaping the tastes of consumers in a 
+limited cultural arena (Maguire & Matthews, 2010). The attainment of taste in 
+memes and expertise in discoursing about their value function as cultural 
+capital in maintaining a standing within the subreddit community. The 
+memes traded in the MemeEconomy can be viewed as objects of cultural 
+consumption, and through this consumption ‘fulfill a social function of 
+legitimating differences’ (Bourdieu, 1984, p. 7). Experienced meme 
+creators/insiders are required to differentiate themselves from outsiders, also 
+known as “normies,” and to determine the value of memes within the 
+imaginary meme economy. As Nissenbaum and Shifman (2017) put it, ‘the 
+24 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+deep connection between memes and the culture of some online 
+communities means that they function as cues of membership, 
+distinguishing in-group members from mere passersby’ (p. 485). 
+Additionally, algorithms on social media platforms use a set of predetermined 
+rules to regulate the circulation of images (Carah, 2014). These rules are not 
+visible to users, but users can gain a general understanding of them through 
+observation of the flow of content on the network (Eslami et al., 2015; Rader et 
+al., 2018). The algorithms utilized by social media platforms are designed to 
+manipulate behavioral norms through ‘constantly refining’ the “collecting, 
+storing and processing of data” (Packer, 2013, p. 298) to produce valuable 
+formations of attention. By establishing the conditions by which users are 
+seen, algorithms serve as “disciplinary apparatuses that prescribe 
+participatory norms” (Bucher, 2012; Cotter, 2019). 
+In addition to evolving as a central hub for the dissemination of memes, 
+algorithms on Youtube also made the diffusion, variation, and popularity of 
+memes highly visible and transparent by consistently “aggregating and 
+presenting the viewing habits, choices and responses generated by users'' 
+(Shifman, 2011). YouTube content creators are contributing to the platform's 
+value, but they possess limited power compared to both the platform and its 
+algorithms (Van Dijck, 2009). Shifman (2011) highlights that a video meme is 
+25 
+ 
+ 
+ 
+ 
+frequently a "popular clip that lures extensive creative user engagement in 
+the form of parody, pastiche, mash-ups, or other derivative work” (p. 190). This 
+"extensive user involvement" is usually overlooked when evaluating the 
+counts of “likes, views, and shares'', instead of taking into account the 
+consideration of the “incredible amount of effort and labor that composes 
+these cultural phenomena'' (Soha & McDowell, 2016). Thus, “the path to 
+professionalization and monetization” necessitates initially gaining popularity 
+on the platform, which is partially determined by the algorithm (Cunningham 
+et al., 2016). With this algorithmic power existing as a fundamental 
+contradiction for creators, content producers have to perceive visibility as a 
+privilege and learn about the algorithm structure and develop tactics to 
+respond to it. 
+Through studying the content and users that achieve visibility, content 
+creators also distinguish the participatory norms that algorithms ‘reward’ 
+with visibility (Bucher, 2012). This opens up a broader space for meme 
+diffusion as a “successful mode of marketing communication” (Malodia et al., 
+2022) in several ways such as self-branding (Khamis et al., 2017), authenticity 
+(Audrezet et al., 2018), and consumer engagement (Hughes et al., 2019). The 
+algorithms on Instagram prominently value engagement, looking at different 
+metrics as “positive engagement” (Tafesse & Wood, 2021), which includes 
+profile clicks, comments, likes, reach-to-like ratio, saves, shares, time spent on 
+26 
+ 
+ 
+ 
+ 
+the photo, etc. Users of Instagram are encouraged both digitally and socially 
+to participate in the imitation process through their consumption or 
+interaction with meme marketing content (such as liking and sharing it), thus 
+forming “a shared experience” within a digital community, presenting a 
+perspective that aligns with the concept of brand publics. Meanwhile, the 
+influencers are perceived as “playing a game” (Cotter, 2019) that captures 
+disciplinary normalization via algorithms and perpetuates existing digital 
+inequalities by bringing into focus “winner” and “loser” in algorithmic 
+architecture. Recalling that Instagram influencers are reliant upon high 
+visibility on the platform, they started to incorporate memes into their posts 
+to build affinity with the intended audience, for the purpose of digital 
+marketing or soliciting the attention of more users. This reinforces the 
+mediatory role of Internet memes between the public and participatory 
+culture on social media that bolster “ephemeral brand relationships or 
+associations” (Arvidsson & Caliandro, 2016). Paquette (2019) reported that 
+using memes in online marketing generates a 30% engagement rate on 
+social media. Influencers and brands that engage in the creation and sharing 
+of internet memes on social media platforms, motivated by shared interests, 
+are considered members of an "imagined community" as defined by 
+Anderson (2006). This sense of belonging is derived from a perception of 
+being part of the same group, the digital meme culture, despite potentially 
+never having had personal interactions 
+27 
+ 
+ 
+ 
+ 
+ 
+ 
+Within Web 2.0 environments, memes effectively embody the dynamic remix 
+culture (Burgess & Green, 2018). More specifically, users possess the capability 
+to modify different elements of videos and recompose them to generate 
+video mashups (Zulli & Zulli, 2020). This communicative process is rooted in 
+the concept of “hyper-narrativity” (Wagener, 2019) and the “memefication of 
+collective identities” (Ask & Abidin, 2017, p. 7), facilitating the “creation of 
+discourse and content” on platforms such as TikTok, where the “humor, 
+imitation, replication, and group affiliation” serve as dominant forces in these 
+dynamics (Vizcaíno-Verdú & Abidin, 2021). Its content discovery centers on an 
+algorithm recommender system that pushes trending videos, which shapes 
+users’ practices surrounding visibility (Abidin, 2021). As this model of visibility 
+is bound to proliferation through imitation, it shares the same memetic 
+features with the way how memes propagate. The utilization of algorithmic 
+analysis of user data within Tiktok has created a shift in the production and 
+consumption of content on the platform, leading to potential ramifications 
+for wider society (Zeng & Kaye, 2022). This step generates digital labels and 
+recognizes digital modularity, encompassing elements such as memes, jokes, 
+songs, and filters. The resultant data and forms derived from it are utilized by 
+Tiktok to direct future consumption and production practices. This 
+transformation challenges the traditional social media attention economy 
+model, which has relied on human influencers as its primary attraction, by 
+28 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+instead prioritizing content that has been categorized by digital modularity 
+and labels (Liang, 2022). TikTok has advanced the concept of Internet memes 
+by incorporating memes into its platform infrastructure (Shifman, 2013). 
+Through this integration, Zulli and Zulli (2020) analyze the formation of 
+imitation publics on TikTok, where networks are established through 
+processes of imitation and replication, rather than through “interpersonal 
+connections, expressions of sentiment, or lived experiences"(p. 1875). This 
+new decentralized model of TikTok offers a promising solution to the 
+hierarchy between creators resulting from the algorithms and shed light to 
+an emerging creator-centered economy to catalyze a new wave of 
+transformation within the creative industry. 
+AI-CREATED MEMES 
+The development of AI-generated memes can be traced to the early stages of 
+computer science and AI research. Pioneering work in computer vision and 
+natural language processing laid the foundation for subsequent 
+advancements in the field. During the 2010s, the integration of deep learning 
+algorithms and enhanced computational power enabled AI systems to 
+generate a wide range of content, including memes. Initially, these AI-
+29 
+ 
+ 
+ 
+  
+ 
+ 
+generated memes were simple combinations of text and images. Since then, 
+AI-generated memes have become increasingly prevalent, with various 
+companies and organizations utilizing this technology to create viral content 
+and boost brand recognition. The growing popularity of AI-generated memes 
+has also sparked important discussions about AI's role in society and its 
+potential impact on cultural communication. 
+In his essay "The Language of Internet Memes," Davison developed a three-
+part methodology for analyzing Internet memes, comprising the ideal, the 
+behavior, and the manifestation (Davison, 2009, p.122). According to Davison 
+(2009), when constructing an image meme, the “Ideal” refers to the concept 
+or message that the creator intends to convey. In the context of generating 
+text-to-image memes, it can be considered as the textual description that the 
+creator provides as input to the system. This input serves as the foundation 
+for generating an image that accurately conveys the intended message or 
+concept. The “Behavior” involves selecting an appropriate meme template 
+and caption that effectively conveys the intended idea. Regarding text-to-
+image meme generation, the automated selection of a suitable image 
+template and the utilization of natural language processing and computer 
+vision techniques to produce an image that aligns with the textual input 
+provided would be essential steps. The final result of this process is referred to 
+as the Manifestation, which would be the resulting image meme with a 
+30 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+caption that conveys the message embodied by the Ideal in AI meme 
+generation. 
+Davison’s methodology manifests a conceptualization process in meme 
+creation, which is relevant to both text-based and image-based meme 
+generation. The discipline developed by Davison provides a framework for 
+understanding the process of meme creation. Scholars concentrate on the 
+behavior and manifestation of a meme, whose method for generating image 
+memes is confined to selecting the most matching meme caption or 
+producing a caption for a given image and template name. (Peirson et al., 
+2018; Wang & Wen, 2015). 
+Other studies in the field of meme generation can be classified into two 
+categories. One involves the automatic generation of memes based on text 
+input, while the other pertains to the automatic generation of memes based 
+on image input. Regarding meme generation based on text input, 
+researchers conceptualize the creation of memes as a process of text 
+translation. With the recent release of DALL-E in 2021, a neural network 
+developed by OpenAI that can generate high-quality images from textual 
+descriptions, the potential for text-based meme generation has expanded 
+significantly. DALL-E uses a combination of computer vision and natural 
+31 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+language processing techniques to understand the textual input and 
+generate corresponding images that match the description(Dayma, 2021). 
+Figure 3. AI-generated Kermit Frog Images by Dall-E 
+This AI image generator could revolutionize the way memes are created by 
+enabling meme creators to generate images based on their text descriptions 
+32 
+ 
+ 
+ 
+ 
+without relying on pre-existing image templates (Grimes, 2022). The 
+procedure entails feature extraction from the input text, followed by the 
+utilization of a selection module to pick an appropriate meme template 
+image from a list of well-known candidate images, based on the extracted 
+features. Subsequently, the module generates the text from the chosen 
+template image, culminating in the combination of the meme template 
+image and the generated text (Sadasivam et al., 2020). In the approach to 
+meme generation based on image input, Wang and Wen (2015) proposed a 
+“meme-text sorting algorithm” that relies on “input image features and 
+caption candidate features.” They initiate the process by conducting a reverse 
+image search on the Internet to determine the most likely keyword 
+associated with the input image. Soon after, they sourced other relevant 
+caption candidates by searching for keywords on meme-searching websites. 
+Finally, they applied the input image features to arrange the caption 
+candidates through their algorithm, choosing the most appropriate caption 
+generation result as the output caption for the input image. 
+Furthermore, Vyalla and Udandarao (2020) introduced an end-to-end meme 
+generation system that provides users with the ability to instantly create 
+memes on web applications. The system trains a classification model to 
+categorize the input image based on its own image class labeling, obtaining 
+the image's class label, and then employs the label information to prompt the 
+33 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+generation model to produce captions. The system is designed to be able to 
+handle a large number of meme templates and can generate high-quality 
+memes by combining text and images in a variety of ways. With these 
+exciting developments in the field of meme generation, creating and sharing 
+memes has become a more accessible and efficient way for individuals to 
+express their ideas and humor on various online platforms. 
+MEME ECONOMY 
+HISTORY OF MEME MONETIZATION 
+Essentially, there were two economic models for attributing value to internet 
+memes, namely, as a medium for generating advertising revenue on 
+websites or social media accounts that feature memes (Lorenz, 2018), and as 
+merchandise on physical or digital retail platforms, such as mugs, notebooks, 
+shirts, and other related items (Jordan, 2011). The advertisement-based 
+approach raised intriguing discussions about the economic value of memes 
+and challenged the possibility of assigning monetary value to cultural 
+construction (Elder-Vass, 2022). Notably, in September of 2007, investors 
+purchased the meme aggregator website 'ICanHasCheezburger' from its 
+creators for an incredible sum of $2 million, representing a meaningful 
+moment in the evolution of the meme phenomenon as it was the first time 
+34 
+ 
+ 
+ 
+ 
+that such a considerable amount of money had been expended on the 
+concept (Grossman, 2008). While the site had the potential to yield 
+advertising revenue as a lucrative investment property over an extended 
+period, contingent upon its ability to sustain its status as a platform that 
+offers amusing and easily consumable content, there were also complex 
+issues that merit further scrutiny. Chen (2012) posits a Marxist critique that 
+these websites exploit their users by appropriating and publishing their 
+memes to accumulate web traffic and generate revenue from advertising. 
+These sites crowdsource the creation of content to their users, who produce it 
+for free, presuming that they are cultivating a culture for the benefit of the 
+platform. In reality, however, they are generating profits for the owners of 
+these aggregation and dissemination platforms. 
+Subsequently, within the subreddit r/MemeEconomy, a distinct and 
+captivating community of individuals, known as "meme traders," engage in 
+extensive discussions surrounding the fluctuations and trends within the 
+"meme market"(Literat and van der Berg, 2017). Meme Economy is a “satirical 
+concept and internet subculture in which memes are discussed in the 
+jargons of the financial industry as if they are commodities or capital assets 
+with fluctuating values” (Know your meme, 2016). The concept of the meme 
+economy had emerged prior to the events surrounding Reddit’s 
+/r/wallstreetbets and GameStop, a struggling video game retailer. Before the 
+35 
+ 
+ 
+ 
+ 
+ 
+idea of meme-driven stock investments was proposed by Reddit users, a 
+thriving online real meme economy existed. However, it did not conform to 
+the traditional definition of a market but instead resembled a market for 
+memes in which no actual monetary exchange took place. (Sanderson & 
+Rigby, 2013). In the meme economy, the performance of stocks or 
+cryptocurrencies is more indicative of the traded assets’ “meme-ability”, 
+which is their potential for meme transformation, rather than their ability to 
+forecast business revenue. This investment strategy, which involves user-
+created assets intended for mass dissemination, can be explained using 
+Blackmore's theory of memes, which states that memes have the power to 
+shape people's values and behaviors (Literat & Van den Berg, 2017). 
+Traditional investment strategies have been predominantly influenced by 
+established media outlets, such as television, radio, and top-down online 
+publications. In contrast, the advent of meme investing has been fueled by 
+user-generated investment strategies, facilitated by communication 
+platforms such as Reddit and Twitter (Cuofano, 2019). Unlike ordinary goods 
+and services, financial assets are dependent on the belief that they can be 
+redeemed or sold in the future. This reliance necessitates an additional layer 
+of social construction, which is integral to their existence. Thus, financial 
+assets are not intrinsically valuable and are distinguished from other 
+commodities by their dependence on collective belief (Elder-Vass, 2022).  
+36 
+ 
+ 
+ 
+ 
+  
+Likewise, the meme culture manifests through “a process of collective, 
+primarily anonymous, remixing of visual imagery via message boards and 
+social media channels” (Dovey, 2019, p. 3). When the cultural value of memes 
+is related to financial assets, such as stocks, Bitcoins or NFT, the financial 
+assets become a store of cultural value and might be immensely valuable. In 
+the 2016 US election cycle, memes were being shared in adjacent online 
+forums as Bitcoin experienced an immense surge in value, growing from $13 
+US at the start of 2013 to $18,000 US by the end of 2017. This period also 
+witnessed the launch of thousands of alternative currencies, or alt-coins, as 
+market capitalization rose and individuals engaged in collective speculation 
+and trading of crypto-currencies against financial markets. 
+The most well-known example is Dogecoin, a “combination of money and 
+meme,” existing in two distinct spheres: the “financial economy” and the 
+“cultural meme economy,” with the latter performing “unprecedented 
+tangible impacts on the former'' (Nani, 2022, p. 1719). The distinctive cultural 
+significance of Dogecoin portrays how Blockchain technology can effectively 
+promote alternative monetary systems. The Doge meme originated in 
+February 2010 after Japanese blogger Atsuko Sato shared a photo of her pet 
+dog Shiba Inu Kabosu (Jeong, 2017). One of the photographs featured a 
+distinctive image of Kabosu sitting on a sofa, staring askance at the camera 
+with lifted eyebrows. Following articles published by The Verge, which 
+37 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+identified Sato's Kabosu as the source of the Shiba Inu represented in the 
+meme, the image and content continued to obtain further online attention 
+(Chayka, 2013). 
+Figure 4. Doge (Meme) 
+Figure 5. DogeCoin 
+38 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+In the following year, Doge attained a prominent cultural status and gained 
+widespread recognition, to the point where corporations began to 
+incorporate memes into their promotional campaigns (Bury, 2016, p. 36). The 
+meme's broad appeal ultimately served as the inspiration for the 
+development of a cryptocurrency known as Dogecoin, which was created by 
+marketer Jackson Palmer and software developer Billy Markus. They 
+capitalized on the psychological phenomenon of social proof, using the 
+emotional investment that individuals have in a meme to amplify its 
+influence as a “unique coalescence of meme and money” (Nani, 2022, p. 1728). 
+The users of Dogecoin go beyond being mere cryptocurrency users; they 
+engage with Doge as a cultural artifact that ‘constitute a cultural base that 
+marks a commenter as part of... [a] community’ (Nissenbaum & Shifman, 2017, 
+p. 497), and this approach has notable implications for Dogecoin's status as 
+currency. One prominent campaign was that a group of enthusiastic 
+supporters of the Jamaican bobsleigh team raised more than $25,000 in the 
+cryptocurrency Dogecoin to enable the team to attend the Winter Olympics 
+in Sochi (Hern, 2014). The convergence of memes and money is the distinctive 
+feature that underlies Dogecoin's uniqueness and contributed to its viral 
+spread (Jeong, 2017). 
+The creation and diffusion within the meme culture is a collaborative process, 
+independent of competitive and economic motivations. The advent of 
+39 
+ 
+ 
+ 
+ 
+ 
+Blockchain technology, however, has introduced a platform for the 
+acquisition or exchange of digital objects through Non-Fungible Tokens 
+(NFTs), thereby establishing a new value system that provides meme creators 
+with an opportunity for recognition and compensation with trading memes. 
+Blockchain, which was first proposed by Nakamoto (2008), is a decentralized 
+ledger maintained by decentralized nodes that are utilized for distributed 
+sharing and storing of data. Blockchain originated from Bitcoin, a distributed 
+ledger system that needs everyone to participate collectively and maintains 
+the transcript of the entire value-transaction history. The structure of 
+Blockchain technology is underpinned by four fundamental principles, 
+namely persistence, decentralization, auditability, and anonymity (Gururaj et 
+al., 2020). 
+Non-Fungible Tokens (NFTs), which are cryptographic tokens based on 
+Blockchain technology, serve to signify ownership of singular content, 
+including images, videos, and 3D objects. Although NFTs have gained 
+immense popularity and their trading prices have surged, scant information 
+is available regarding people's attitudes towards and encounters with NFTs 
+(Sharma et al., 2022). The emergence of NFTs has ushered in a novel revenue 
+stream centered on memes. An example is the sale of an NFT depicting the 
+well-known photograph of the little girl in the Disaster Girl meme, which 
+fetched a price of over $400,000. Zoë Roth, the individual in the photograph, 
+40 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+expressed surprise upon discovering that NFTs could offer a means of 
+capitalizing on her online renown (Fazio, 2021). 
+Figure 6. The Disaster Girl meme 
+Blockchain technology enables communication to evolve from the Internet of 
+Information to the Internet of Value, “where a collection of protocols can 
+transfer information in the form of bits and bytes over different physical 
+media, can be used to transmit assets that can be expressed in monetary 
+terms” (Treiblmaier, 2023, p. 5). One of Blockchain’s innovative promises is to 
+forge “digital scarcity” (Nofer et al., 2017, p. 183); It replicates real-world 
+economics, where products and services are not equally free. A digital asset 
+can be coded to become a permanent limited supply. The success of specific 
+41 
+ 
+ 
+ 
+ 
+NFTs presents intriguing questions regarding the meaning of "value" and 
+"scarcity" within the framework of Blockchain technology (Chohan, 2021). 
+Operating on a digital platform, NFT trading is situated within “two-sided 
+markets dominated by network externalities" (Pawelzik, 2022). Network 
+effects, being defined as “the increasing utility that a user derives from 
+consumption of a product as the number of other users who consume the 
+same product increases" (McGee & Sammut-Bonnici, 2015), are deeply rooted 
+in the process of platform usage and adoption by its users (Pawelzik, 2022). 
+Vasan et al (2022) propose that the value of an NFT is driven by strong 
+network effects between creators and their collectors. As the adoption and 
+usage of NFT continue to grow, either creators or collectors are experiencing 
+rising benefits. The expansion of the user base leads to greater liquidity, 
+demand, and prospects for purchasing and repurchasing NFTs.  Creators who 
+sell their work in the NFT world also noticed that the value of their creative 
+work is not fundamentally determined by its aesthetic qualities, but rather by 
+the community surrounding it (Bruner, 2021). 
+The NFT marketplace exhibits a growing trend of active community 
+formation. A multitude of online communities and forums cater to NFT users, 
+including Discord channels associated with popular NFT projects, as well as 
+NFT trading platforms such as Rarible, Foundation, and Opensea. The 
+congregation of individuals with a shared interest creates a platform for NFT 
+42 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+creators to showcase their achievements and principles to the public 
+(Sharma, 2022). Some NFT creators have observed that art transacted 
+through NFT exhibits an interesting resemblance to memes in its 
+dependence on community (Gloerich, 2022). However, “instead of creating 
+scarcity, NFT markets appear to prioritize virality as a source of value, 
+especially when it comes to memes. The more viral a meme is, in the NFT 
+meme economy, the greater the value of the meme” (Lantagne, 2022, p. 286). 
+Lantagne further argues that memes are poised to be commodified entities 
+in “a space where value is based on the community” (Lantagne, 2022, p. 290). 
+Unlike an individual work of art, a digital artifact can only “become a meme 
+because it is replicated and shared” (Lantagne, 2022, p.290). The existence of a 
+meme is fundamentally reliant on the presence of a community, given its 
+underlying dependence on virality. Thus, the perceived value of an NFT 
+meme is positively correlated with the degree of its ubiquity and virality. 
+CREATOR OWNERSHIP 
+COPYRIGHT OF HUMAN-CREATED MEMES 
+Marciszewski (2020) details two profound questions that are closely 
+connected to this thesis: 
+43 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+  
+(1) Does the use of pre-existing content in a newly created meme constitute 
+copyright infringement by the meme creators? 
+(2) Do creators of memes hold copyright ownership over their works in the 
+context of the rising commercialization of meme content? 
+The scholarship that I explore in this section aims to answer these two 
+questions. 
+Internet memes have emerged as prevalent digital cultural artifacts for mass 
+communication and public participation. Several legal scholars have put forth 
+the argument that memes, as expressions of internet culture, should be 
+separated from copyright liability due to their dependence on the 
+participatory nature of their development (Patel, 2013). The European Union 
+Directive on Copyright in the Digital Single Market adopted a similar line of 
+reasoning and exempted memes and GIFs from the new regulations.  In 
+general, if an individual is sharing a meme as a form of expression on social 
+media or other online platforms, concerns about infringement are relatively 
+minimal. According to Smith and Lantagne (2021), social media platforms, 
+such as Instagram or Twitter, have obtained licenses through their terms of 
+service that authorize other users of the platform to share memes with other 
+users through the service's functionalities. Additionally, these platforms have 
+44 
+ 
+ 
+ 
+  
+ 
+ 
+  
+implemented DMCA notice and takedown procedures to safeguard against 
+copyright infringement claims of secondary liability. 
+Nowak points out that memes are a hybrid form of media, combining 
+“indirect authorship by the culture industry” (i.e., producers of the original 
+movies, cartoons, songs, etc.) and “direct authorship by active media 
+audiences that reproduce these culture products with digital tools in order to 
+create new meanings (possible readings) and propagate them horizontally 
+across the internet” (Nowak, 2016, p. 83). Therefore, memes thrive in a gray 
+zone of intellectual property protection where creativity and innovation 
+bloom in spite of the lack of protection provided by Intellectual Property 
+regulations and copyright laws. 
+As the popularity of memes increases, so do concerns about their legal status 
+and implications under copyright law. Any attempt to restrict the production 
+of memes through legal measures that fail to recognize them as a visual 
+language could risk hampering online political and civic participation, which 
+are essential principles of remix culture (Lessig, 2008). Though the 
+collaborative character of memes represents a challenge to copyright law, 
+memes as a communication tool with their specific logic and grammar 
+(Milner, 2016) should be protected by copyright law (Mielczarek & Hopkins, 
+2020). According to the Copyright Act of 1976 in the US, internet memes may 
+45 
+ 
+ 
+ 
+  
+ 
+ 
+be classified either as a "derivative work" or a "compilation." Internet memes 
+are viewed as "derivative works" as Internet users add participatory creativity 
+to pre-existing copyrighted works to produce new material, while memes 
+that utilize more than one copyrighted work, such as ones juxtaposing 
+images from different sources, are classified as "compilations" (Copyright Act, 
+1976). 
+According to Malaton (2019), the most important piece of law to meme-
+creators is the Fair Use Doctrine, a part of the Copyright Act. If meme creators 
+utilize pre-existing memes or modify them in a way that creates a new 
+meaning, such creators may be able to avail themselves of copyright 
+infringement through the fair use of creativity which that law is designed to 
+foster. Due to the transformative nature of memes and their minimal impact 
+on the market value of the original material, a court would likely conclude 
+that internet memes constitute a defense. There are four factors that courts 
+weigh when determining if the appropriation of a prior work without 
+permission is acceptable: purpose and character of the derivative work, 
+nature of the original copyrighted work, amount and substantiality of original 
+work used in the derivative work, effect on the market (Copyright Law, 1976). 
+The fair use doctrine “permits and requires courts to avoid rigid application of 
+the copyright statute when, on occasion, it would stifle fair use, following a 
+46 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+comprehensive weighing of the relevant factors under the doctrine of fair 
+use" (Marciszewski, 2020). 
+Additionally, as mentioned in the previous section, the rising popularity of 
+memes has created opportunities for individuals to obtain economic returns 
+from making memes, and enterprises and corporations have dedicated 
+segments of their marketing teams to working with meme creators, 
+employing memes as promotional instruments to capture the attention of 
+their consumers. However, the problem arises when larger meme-posting 
+social media pages steal the creative work of meme creators with less fame 
+and fortune (Marciszewski, 2020). Marciszewski (2020) highlights the 
+F*ckJerry account as one of the most notorious of these meme-stealing 
+pages, making a significant amount of money per sponsored meme post. The 
+success of these meme-stealing pages has sparked concerns about the 
+“theft” surrounding internet memes and the legal protection of meme 
+creators. Meme creators have expressed their legitimate requirement for 
+credit and compensation for their intellectual property, but without legal 
+recourse, they are left powerless to protect their creative works from being 
+stolen without recognition or compensation. Establishing legal copyright 
+protections for internet memes also helps address these concerns and 
+protect the rights of meme creators. 
+47 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COPYRIGHT OF AI-CREATED MEMES 
+With the rise of AI systems capable of mimicking human creativity and 
+producing original work, copyright laws are facing new and unexplored 
+territory driven by AI, ethicists, lawyers, and regulators are scrambling to 
+understand how innovations will spark new creativity in human society 
+(Ihalainen, 2018). Many diverse definitions of artificial intelligence (AI) exist in 
+the academic literature (Domingos, 2015; Poole et al., 1998; Russell & Norvig, 
+2010). However, for the current context, the most appropriate interpretation 
+of AI can be characterized as “an entity sufficiently simulating the cognitive 
+aspects of human thinking” (Zibner, 2019). The simulation of human 
+intelligence involves both automated learning and automated reasoning. 
+Automated learning pertains to the process by which AI systems acquire 
+information and apply predetermined rules for using that information. 
+Automated learning refers to “the process by which AI systems acquire 
+information and apply predetermined rules for using that information” 
+(Selvadurai & Matulionyte, 2020, p. 536). Along with the same line, Guadamuz 
+(2021) notes that “we are getting to the point at which vital creative decisions 
+are not made by humans, rather they are the expression of a computer 
+learning by itself based on a set of parameters pre-determined by 
+48 
+ 
+ 
+ 
+ 
+ 
+   
+programmers” (p.148). With the proliferation of machines capable of 
+mimicking human creativity and producing original work, the landscape of 
+copyright has been pushed into a novel and unexplored territory that is 
+driven by artificial intelligence. 
+The growing presence of artificial intelligence poses a technological 
+challenge to copyright law (Zibner, 2019), addressing the issues of “whether 
+copyright can subsist in a work generated using AI” (Selvadurai, & 
+Matulionyte, 2020, p. 536) and “who will hold the copyright in these works” 
+(Ihalainen, 2018). Today, ChatGPT4 starkly foregrounds this reality with its 
+capacities of data aggregation and image from text generation, showcasing 
+the potential of AI systems to produce original works that could potentially 
+blur the lines of ownership and copyright law, leaving ethicists, lawyers, and 
+regulators with new challenges to navigate. 
+Selvadurai and Matulionyte (2020) explain that “in [the] case of AI-generated 
+work, natural persons or legal entities are involved at undertaking 
+arrangements necessary for the creation of the work” (Selvadurai & 
+Matulionyte, 2020, p. 540), outlining the diverse potential patterns and levels 
+of interaction between humans and machines in AI-generated and 
+identifying human input in three stages of computational creation: (1) 
+selection and classification of data (2) creation of AI work (3) checking and 
+49 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+delivery of final AI work. The notion is proposed that in cases where human 
+intervention is restricted to the mere selection and categorization of data, the 
+output work cannot be regarded as original under copyright law, as it does 
+not reflect the independent intellectual exertion of a human author. 
+Figure 7. Harry Potter Memes created by Midjourney with prompt offered by human 
+Yanisky and Moorhead (2017) further state that ten essential attributes of 
+algorithms are incorporated in artificial intelligence (AI) systems that create 
+artwork, including “creativity, autonomous and independent, unpredictable 
+and new results, capable of data collection and communication with outside 
+50 
+ 
+ 
+ 
+ 
+data, learning capability, evolving, rational-intelligent system, free choice and 
+goal-oriented” (Yanisky & Moorhead, 2017, p. 681). They are critical to the 
+copyright discourse on AI system accountability. Most AI systems incorporate 
+any or all of these ten features, which are interrelated and partly overlapping. 
+By utilizing such features, AI systems are capable of autonomously 
+generating works of creative art. As we acquire a deeper understanding of 
+these attributes and the autonomous nature of AI-produced output, it is 
+evident that the copyright privileges afforded to human authors may not be 
+exclusive, giving rise to prospective complications in implementing 
+traditional copyright statutes. As technological advancements continue, AI 
+systems are progressively capable of replicating aspects of creativity once 
+deemed intrinsic to human minds. 
+Based on the existing framework of U.S and Europe copyright laws that are 
+unprepared and irrelevant for AI-generated creative work, Yanisky and 
+Moorhead (2017) propose a new accountability model, called the AI Work 
+Made for Hire (WMFH) model, viewing the AI system as a creative employee 
+or independent contractor of the user. This framework would attribute 
+ownership, control, and responsibility to the individuals or legal entities 
+utilizing AI systems. It uncovers the capabilities of AI systems, thus effectively 
+imposing accountability on identifiable individuals or legal entities. Likewise, 
+Birdy suggests that AI authorship can be accommodated within the existing 
+51 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+copyright framework by utilizing the "work made for hire" doctrine in the 
+future. This doctrine enables copyright ownership to be granted to a legal 
+person that is not the actual author of the work. This legal fiction 
+acknowledges the creative contributions of generative code, while also 
+recognizing that such creativity is distinct from that of its human coder. 
+Using AI to generate creative work involves a preliminary step of gathering a 
+substantial corpus of training data, followed by the production of 
+intermediary iterations of the data (Gillotte, 2020). These serve the purpose of 
+training the AI program as its algorithm undergoes continuous refinement 
+over time (Bonadio & Mcdonagh, 2020). In the context of AI-generated works, 
+“copyright infringement claims could arise in two neural-network-based 
+machine-learning scenarios” (Gillotte, 2020, p. 2671).  The first scenario 
+involves an engineer's unauthorized digitization and reproduction of 
+copyrighted works to create a digital corpus of training data, which violates 
+the copyright owner's exclusive right to reproduce their work. The second 
+scenario entails the unauthorized production of intermediate copies of 
+images during the training process of neural networks such as CNNs or GAN's 
+discriminative model, which can also lead to claims of copyright infringement 
+(Sobel, 2017). 
+52 
+ 
+ 
+ 
+  
+  
+Unlike older types of generative neural networks that necessitate the use of 
+intermediate copies to learn, the GAN's generative model has the ability to 
+produce images without such intermediary steps (Serban et al., 2016). This 
+development poses new challenges to human creators. A New York-based 
+group of artists has filed a lawsuit against Artnome, alleging that the 
+company utilized generative adversarial networks (GANs) to create new 
+works that are "substantially similar" to those of the artists, thus infringing on 
+their copyrights. The artists are seeking damages and an injunction to 
+prevent Artnome from using their work in the future. The lawsuit highlights 
+the legal implications of utilizing AI in the creative industries, and the need to 
+provide legal protections for artists whose work is reproduced without their 
+consent. (Pimentel, 2023). 
+The rising “sophistication of generative software” and the fact that “all 
+creativity is algorithmic compel recognition" that AI-generated works exhibit 
+less heterogeneity with respect to their human-authored counterparts and 
+existing copyright laws than what meets the eye (Birdy, 2016, p. 27). The 
+concept of AI authorship can easily fit into the existing copyright system by 
+utilizing the "work made for hire" doctrine (Birdy, 2016, p. 27). This principle 
+enables the transfer of copyright ownership to a legal entity, even if that 
+entity is not the actual creator of the work. 
+53 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+COPYRIGHT OF NFT MEMES 
+The features of Blockchain and NFT make it an innovative solution for code 
+copyright management and the ownership of memes. In a Blockchain 
+network, transactions are validated by a community of nodes and then 
+recorded in a block, which consists of two parts: a block header and a block 
+body (Priyadarshini, 2019). The block header comprises “the hash of the 
+previous block, the timestamp of the current time, nonce, specified difficulty 
+and Merkle root of a group of transactions. The block body contains 
+“information about the transactions” (Liang, 2019, p. 122). Each block in the 
+Blockchain is linked to the previous block through a peer-to-peer network. 
+Recognizing the potentially transformative effects that Blockchain networks 
+could bring to the organization of the internet and society, several Blockchain 
+platforms emerged and attracted enormous attention from the financial, 
+medical and digital fields (Nani, 2022). One of the developments was the 
+creation of Non-fungible tokens, or NFTs, which are authenticated digital and 
+Blockchain-verified assets (Popsecu, 2021), resembling cryptocurrency since 
+they rely on a decentralized authentication process conducted through a 
+network of nodes. 
+54 
+ 
+ 
+ 
+There are two different approaches to intellectual property rights and 
+ownership structure for digital content within the context of NFTs. The first 
+one is the original ownership, to which NFT serves as a means to ascertain 
+the "provenance" of digital artifacts, supplying pertinent information 
+including the identity of the original creator, the chronology of ownership for 
+a given digital artifact, and the extant copies of said artifact, thereby shedding 
+light on its relative scarcity (Sharma et al., 2022). The latter one is collective 
+ownership, which refers to fractional NFTs that allows multiple individuals or 
+entities to own, share, and collaborate on the creation, distribution, and 
+governance of NFT content (Mukhopadhyay & Ghosh, 2021). This model is 
+centered around the idea that digital content, like memes, is often an artifact 
+of collective creation and shared cultural experiences. Scholars suggest that 
+NFTs have the potential to empower artists and creators in the monetization 
+of digital artwork online (Çağlayan & Özkan, 2021; Okonkwo, 2021; Rafli, 2022), 
+but they also require careful consideration and responsible use to ensure that 
+existing power imbalances in the art world will not be further entrenched 
+(Rafli, 2022). The utilization of NFTs can facilitate art creators in registering 
+their works for sale through an intelligent contract framework, whereby the 
+ownership of the work is transferred to the new proprietor along with the 
+verification of a digital certificate (Sharma et al., 2022). Creators employ NFTs 
+to acquire funding directly from their supporters or investors and to 
+effortlessly enforce their resale rights. When combined with an extensive 
+55 
+ 
+ 
+ 
+ 
+repository of works, these two functions have the potential to enable NFTs to 
+create an unprecedented possibility for making the 'remix culture' 
+commercially feasible. This outcome could decrease the need for copyright 
+enforcement and leverage the unbridled circulation of information to the 
+profit of creators (Bajčetić 2020). In the meme context, despite being “a 
+powerful tool to protect artists’ rights” (Histed et al., 2021), the beneficiaries of 
+NFTs are typically the subjects or entities featured in the artwork, as opposed 
+to the artists responsible for creating them. 
+The fundamental purpose of copyright law has always been to establish 
+scarcity, resulting in creating artificial scarcity when virality poses a risk (Genc, 
+2021). The same application of scarcity underlies NFT’s challenges on the 
+Internet. According to Fisher, “NFT represents something unique and, along 
+with providing verifiable authenticity and ownership, creates digital scarcity” 
+(Fisher, 2019, p. 631). The core value of NFTs stems from their perceived rarity 
+and legitimacy, which appeals to buyers seeking assurance that their NFTs 
+are both genuine and unique. However, despite some NFT marketplaces 
+claiming that attached works are scarce, this is frequently not the case in 
+practice, with countless works being instantly available in identical forms 
+across multiple platforms (Bennett & Koblinsky, 2021). Consequently, the 
+purported scarcity of NFTs is often artificial. It is noteworthy that when 
+creators sell NFT entities, they are selling copies of the artwork rather than 
+56 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+the underlying work itself, with the NFTs serving as proof of ownership for the 
+copy (Berg, 2021). As a result, other copies of the artwork persist, and they can 
+be freely copied and shared, particularly in the realm of memes. 
+As was mentioned in the previous section regarding the monetization of NFT 
+memes, the perceived value of an NFT meme is positively correlated with the 
+degree of its ubiquity and virality. And the value of the NFT memes is tied to 
+their associated community, given their fundamental dependence on virality. 
+This configuration of the meme NFT challenges current notions of copyright 
+law in two prominent ways. Firstly, the discussions relating to NFT auctions of 
+memes presume that the subject depicted in the meme, rather than the 
+owner of the copyright, holds the right to auction off the meme NFTs. 
+Secondly, NFT auctions prioritize the aspect of virality over scarcity, as the 
+memes that enjoy wider circulation and recognition are accorded higher 
+value (Lantagne, 2022). 
+However, NFTs indeed offer a prospective solution to the problem of proving 
+ownership of memes, which are frequently circulated without regard for their 
+creators, coupled with companies' growing use of memes in marketing 
+(Sundlöf, 2022). By using NFTs, creators can provide proof of ownership 
+without limiting accessibility, offering a new way for artists to monetize their 
+work in digital space. More importantly, NFTs have enabled unprecedented 
+57 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+compensation opportunities for meme creators within the prevailing 
+copyright framework, igniting expressions of awe and appreciation. 
+CONTEXTUAL WORKS 
+INTERACTIVE DOCUMENTARY 
+Through the creation of an interactive documentary, this study aims to 
+address pertinent research questions of how  interactive documentary can be 
+used to imagine the possible future of memes. This section offers an overview 
+of interactive documentaries, with the aim of comprehending the existing 
+landscape and identifying areas for new contributions. The contextual works 
+section is segmented into two subsections: interactivity and narrative form. 
+The interactivity subsection examines how an interactive timeline is used as 
+nonfiction storytelling and experience giving the audience an active role in 
+the whole process. The narrative form section investigates the forking path 
+narrative related to my own undertaking. 
+Intuitively, the interactivity of interactive documentary refers to the capacity 
+for “responsiveness, exchange, and adaptation” (Nash, 2022, p. 7). Within the 
+context of digital media, this concept underscores a defining feature of 
+58 
+ 
+ 
+ 
+ 
+ 
+computing technology: namely, the ability of computers to react to the 
+actions and inputs of individuals utilizing the technology. According to Nash, 
+interactive documentaries might extend documentary media’s civil role 
+beyond the domain of public knowledge. It can function as a tool for 
+community projects addressing mutual social and economic problems, or 
+even a platform for political engagement creating a civil culture and fostering 
+dialogic spaces (Nash, 2015). 
+In exploring the relationship between reality, interactivity and participation in 
+the interactive documentary, one of the compelling works that I examined is 
+Warsaw Rising 1944. This project invites viewers to engage with the critical 
+chapter in Poland's history during World War II, covering different historical 
+periods in chronological order. The documentary employs a range of 
+interactive features, such as the timeline to navigate different time spans, 
+animated maps and data visualizations, and first-hand accounts from 
+survivors of the uprising. By offering these interactive features, viewers are 
+able to actively participate in the construction of their own understanding of 
+the event, rather than passively consuming information. This participatory 
+approach not only promotes a deeper engagement with the subject matter 
+but also encourages critical thinking and reflection on the complexities of 
+historical events. 
+59 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 8. Photo galleries and audio-recordings that illustrates the invasion of Poland 
+My project also utilizes interactive features, such as an index, a timeline, and 
+animation galleries, to present the historical trajectory of technological 
+breakthroughs and economic innovation that affect the creation and 
+propagation of memes, and the participatory speculated future of meme 
+creators' ownership. Besides the possibility to view the documentary in its 
+standard sequence by scrolling the page, it is intriguing to embrace the 
+constant presence of an index on the bottom band. Having this in-built 
+interaction mechanism to indicate the start of exploration, viewers can more 
+freely choose the investigation through the map or continue to seek statistics 
+or pictures without having to navigate through the challenges and confusion 
+that is often appearing when people face an overload of new information. 
+60 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+Overall, Warsaw Rising 1944 stands as a compelling illustration of the 
+potential of interactive engagement and participation to augment the appeal 
+of documentary narratives. 
+In terms of narrative form, a prevalent structure in database narratives is the 
+'forking path' form, which derives inspiration from Borges's work "The Garden 
+of Forking Paths," and its potential for labyrinthine storytelling. This narrative 
+form incorporates one or more decision points, which broaden the storyline 
+to generate multiple parallel plots (Nash, 2022). One example of an interactive 
+documentary that employs a forking path narrative is Hollow created by 
+Elaine McMillion Sheldon and her team. Hollow is a participatory 
+documentary that explores the impact of the economic decline of rural towns 
+in the United States, particularly in West Virginia. The documentary is 
+structured around the stories of residents from McDowell County, who share 
+their experiences of living in a region that has been devastated by a range of 
+challenges, including job loss, depopulation, and environmental degradation. 
+61 
+ 
+ 
+ 
+  
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 9. Interactive documentary Hollow tells a story of population decline in the rural U.S. 
+By utilizing a forking path narrative structure, Hollow invites viewers to select 
+different stories and perspectives, as well as to access additional background 
+information and interactive features, such as exploration maps and data 
+visualizations. This structure encourages engagement with the material, 
+enabling viewers to explore the complex factors that have contributed to the 
+decline of rural communities in the US. Through its innovative use of 
+interactive technology, Hollow provides a compelling example of how the 
+forking path narrative form can be leveraged to enhance the impact of 
+documentary storytelling. The use of forking path narrative also inspires my 
+work, which is a database narrative documentary that leverages the form to 
+allow viewers to select different stories and perspectives, and to access 
+62 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+additional background information and interactive features, to explore the 
+complex factors that have contributed to the techno-economic development 
+of meme monetization history. 
+Overall, the contextual works provide a compelling framework for 
+understanding the potential of interactivity and narrative form in 
+documentary storytelling, and my project for this thesis builds upon this 
+framework to present a unique and innovative approach to the possible 
+futures of meme creators' ownership. 
+63 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+CHAPTER 3: METHODOLOGIES AND METHODS 
+Unpredictable Memes makes use of two methodologies: Economic 
+Constructivism and Participatory Speculation to address its research 
+question, seeking how these methodologies can be employed to imagine 
+possible futures based on the historical development of techno-economic 
+changes that affect meme creators. The following chapter details a variety of 
+critical, speculative and participatory methodologies and methods. 
+METHODOLOGIES 
+ECONOMIC CONSTRUCTIVISM 
+Economic Constructivism refers to the philosophical and theoretical 
+foundations of economics and the methods used to study and analyze 
+economic phenomena (Backhouse, 2008). I employ this methodology to 
+consider the history of meme monetization, the switch of values of memes, 
+and the aftermath of AI and NFT affects the meme creators' ownership, in a 
+way that echoes the exploration of scholarly works in the section literature 
+review. The approach that I take is Economic Constructivism, a theoretical 
+approach that facilitates an individual’s immersion into the illustration of the 
+economic reality and elucidates this reality based on how an individual 
+perceives and constructs the world around him or her. 
+64 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Popkov defines Economic Constructivism as the “deliberate construction of 
+economic reality in accordance with the axiological preferences of a social 
+subject (whether individual or collective), which takes into account the 
+structural and parametric interfacing of subject and object on the basis of the 
+principles of self-reference, duality, circularity and cyclical causality” (Popkov, 
+2017). This implies a deliberate construction of economic reality, which 
+implies that economic systems are not natural or inevitable, but rather 
+constructed and shaped by human beings based on their values and 
+preferences. It also highlights the principles of self-reference, duality, 
+circularity, and cyclical causality, suggesting that economic systems are not 
+linear or unidirectional, but rather dynamic and interdependent. 
+In the case of technological change on social media platforms and meme 
+monetization, the quote conveys that changes in economic models and 
+incentive models may also have a feedback loop effect on the behavior of 
+meme creators and consumers, as well as the technologies and platforms 
+that influence meme distribution and monetization. The perspective of 
+Economic Constructivism posits that economic reality is not purely objective 
+but is instead a product of individuals' subjective experiences and 
+65 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+interpretations shaped by changes in their internal and external 
+environments. Upon the completion of the Economic Constructivism 
+approach, the visions obtained can be utilized as a fundamental basis for 
+forecasting the future of memes through Participatory Speculation. 
+By incorporating Economic Constructivism for the analysis of meme 
+monetization and creator ownership into the framework of Participatory 
+Speculation, it becomes possible to envision various future scenarios 
+regarding the monetization and ownership of memes. Such scenarios can 
+provide a thought-provoking and engaging way to explore the potential 
+future of memes based on an economic perspective of the meme as digital 
+artifacts. The concepts and materials gained through this process are realized 
+as visual elements of an interactive timeline in the thesis output. 
+PARTICIPATORY SPECULATION 
+This research project is principally focused on meme creators' ownership 
+within the influence of technologies. Participation in meme creation 
+intertwines collective nature and social-communicative bonds, thus, memes 
+can be seen as the “cultural embodiment” of the so-called “networked 
+individualism” (Yhee et al., 2021). The meme culture cannot exist without the 
+66 
+ 
+ 
+ 
+ 
+ 
+ 
+creation and sharing by meme creators. Also, given the fact that current 
+theoretical research might not cover the application of AI and Blockchain to 
+date, it is necessary to invite experts from related fields to the discussion and 
+bring diverse voices to the conversation. 
+The Participatory Speculation Methodology combines the framework of 
+Participatory Design with Speculative Methodology . Participatory Design 
+(PD) is an approach to research and design by imagining and creating 
+alternative sociotechnical scenarios that challenge our status quo, opening 
+up debates and discussions about current and emerging issues. In two 
+decades, it has moved from the fringes to the mainstream of design theory 
+and practice. One of the most significant ways in which the evolution of 
+speculative design over the past decade is its opening up to more 
+participatory approaches. The participatory features encourage the 
+democratic ideals to “emphasize the right to maintain a different opinion 
+than those in power, to forward opposing positions, and to build knowledge 
+on an alternative basis to support a different view” (Bjerknes & Bratteteig, 
+1994). It intends to explore and develop different opinions when the 
+surrounding context supports a singular dominant narrative. In the context of 
+speculative design, the participatory approach opens up possibilities for 
+people to gather and think about, imagine in creating their preferable 
+futures. Participatory Speculation creates a discursive space where thoughts, 
+67 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+needs, and desires, unanticipated by designers and researchers, can be 
+expressed by participants. Coming face-to face with different individuals 
+“demands work, speculative invention and ontological risk. No one knows 
+how to do this in advance of coming together in composition”(Haraway, 2008, 
+p. 83). It is important to make space for the unanticipated, in which designers 
+and participants can communicate in a “mutuality of unfamiliarity” (Muller, 
+2009, p. 1067). 
+METHODS 
+Since meme culture embraces a shared and collective expression among 
+Internet creators, the speculation process is designed to be two-fold: 
+Individually through a historical analysis and group through a Participatory 
+Workshop. The historical analysis covers more on the status quo, looking at 
+the historical evolution of memes, analyzing how AI algorithms and 
+Blockchain turn memes from cultural expression to profitable information 
+products. For the purpose of seeking possible futures of memes, I combine 
+participatory design approach with speculative design practices to enable 
+diverse voices in the discussion. Participants are invited to engage in this 
+research through employing E-mail recruitment strategy that uses my 
+university E-mail account as the sender (see Appendix A - E-mail Invitation).  
+The overall number of participants required for the workshop is 5-8, with a list 
+68 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+of 30 potential participants to ensure that additional participants can be 
+reached out to if any current participants dropped from the workshop.  I 
+searched for creators who have written articles about memes within different 
+professional fields, directly contacting them with E-mail. 
+The REB application was approved on February 3rd, 2022, and I initiated the 
+recruitment strategy shortly after then. To participate in the study, interested 
+individuals are identified as professional experts in different fields including 
+Artificial Intelligence, Blockchain, NFT, meme creation and academic writing, 
+and have sufficient knowledge in memes. 
+HISTORICAL ANALYSIS 
+Why do we need to look at history, if the goal is to speculate about the 
+future? By exploring historical and current trends and development and 
+learning their progression over time, we can open up new perspectives when 
+imagining the future. Historical analysis is an effective research method that 
+can “shed new light on recurring cultural themes embedded in technology” 
+(Wyche et al., 2006). In this regard, it can be applied to the study of the history 
+of meme monetization and the change of copyright of memes as digital 
+artifacts. To conduct such a study, a literature review of relevant scholarship is 
+necessary. By incorporating insights and viewpoints from interdisciplinary 
+69 
+ 
+ 
+ 
+ 
+ 
+research on meme creation, propagation and monetization within the 
+literature review, a foundation of material is established for conducting a 
+historical analysis. Historical research and analysis are selected as a method 
+to investigate the effect of technologies on the propagation of memes and 
+the relationship between disruptive technologies (specifically AI and 
+Blockchain) and the monetization of memes. Firstly, it examines the different 
+values of memes including cultural, social and economic values based on 
+case studies on social media platforms. Secondly, the historical analysis can 
+help identify the key players in the progress of meme monetization, such as 
+algorithms, platforms, advertisers, and meme consumers, uncovering their 
+roles in shaping the monetization and ownership of memes. Thirdly, this 
+approach can be utilized to investigate the potential correlation between 
+technological advancements and the evolution of the economic model of 
+memes. 
+By examining the economic and technological factors that shape the 
+production, distribution, and consumption of memes, this approach offers a 
+comprehensive framework for analyzing the complex interplay between 
+these two domains. Such an investigation can provide valuable insights into 
+the ways in which meme creators have adapted to changing technological 
+environments and the impact of such adaptations on their motivation for 
+creation. Combining perspectives and insights from different fields within the 
+70 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+historical analysis, I build up knowledge of significant technological influence 
+on the creation and distribution of memes which help create a starting 
+foundation for the speculation. 
+APPLYING PARTICIPATORY SPECULATION: WORKSHOP 
+A workshop session is a research method that brings people together to 
+brainstorm and collaboratively speculate on the topic of the possible future of 
+memes. Five participants were required in this session. In this workshop, I 
+presented 2-3 provocations from the literature review that participants can 
+engage with. Participants were selected from experts in different fields related 
+to memes, including AI, Blockchain, NFTs, meme creation, and meme scholars. 
+The role of participants will be to engage in a 1-hour online workshop on Miro. 
+The qualitative approach will consist of two parts: 1) focus group discussion and 
+2) Participatory Speculation. 
+1. The focus group is a way to explore the future of memes from experts’ 
+experience and perspective. In this part, participants will be asked to do 
+individual speculation based on the questions provided and have a 
+discussion. The ideas they generated were a starting point for the next part. 
+2. Participatory Speculation aims to explore how to build an engaging, 
+interactive path from now to the speculative future. They used notes on Miro 
+71 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+to create the future of a fictional universe (in this case, the universe of future 
+memes) starting with the broadest strokes of the future and then narrowing 
+down to specific events and scenes featuring technologies, including AI and 
+Blockchain. Participants were expected to collaboratively imagine both 
+positive and negative future scenarios of memes after monetization by 
+technologies. The speculation activities proceeded for two rounds to explore 
+possibilities in different directions. The data included notes of individual 
+speculation and group speculation, which were visualized and used in the 
+interactive documentary. 
+PARTICIPANTS RECRUITMENT 
+In this project, an E-mail recruitment strategy was utilized, targeting 
+community organizations in North America dedicated to research studies on 
+meme creation, Artificial Intelligence and Blockchain, along with individual 
+meme creators and academic writers on social media. The selection of 
+organizations was recommended by research networks of AI, Blockchain and 
+Digital Futures in OCAD and the individual researchers and creators are those 
+who posted articles on Medium. Upon choosing the organizations, meme 
+creators and individual researchers, I sent them an E-mail containing the 
+recruitment material and a hyperlink to the participant interest form and 
+consent form (see Appendix A and B). 
+72 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+WORKSHOPS 
+The participatory speculative workshop invited participants to become co-
+creators and co-constructors of the speculative future of meme-creator 
+ownership. It was conducted twice through the Zoom video conferencing 
+platform and a Miro board, as these were the best ways to foster collaboration 
+given the constraints imposed by geographic location and the convenience 
+of the participants. The participants were informed that they could be 
+assured of their anonymity. Both workshops involved a focus group 
+discussion with four participants, followed by a group speculation activity 
+facilitated through a fractal role-playing game called Microscope Explorer. 
+Figure 10. Documentation of Workshop Activities 
+73 
+ 
+ 
+ 
+ 
+ 
+ 
+The focus group discussion aimed to generate diverse perspectives and 
+insights from professional experts on the topic of interest. Participants were 
+asked to reflect on four questions (see Appendix D) related to the workshop 
+topic and record their thoughts on stickers provided in the designated work 
+area on Miro. This activity was intended to evoke individual reflection and 
+generate initial ideas that will be discussed in turn during the group 
+discussion. Each participant had five minutes to express their ideas and 
+thoughts, shaping potential futures influenced by AI and Blockchain 
+technology. They drew on their professional background and insights to 
+respond to the proposed questions and contribute valuable insights and 
+perspective to the discussion. 
+The game-based approach provided an engaging and interactive activity for 
+participants to collaboratively build a timeline that envisioned possible 
+directions and scenarios related to the future of meme creators' ownership. 
+Microscope Explorer is a world-building storytelling game that allows players 
+to create a shared history of a fictional world. The initial setting of the game 
+includes Big Picture and Bookends. Big Picture refers to the overall theme or 
+concept of the game world that players create through their collaboration, in 
+this case, it was the landscape that AI generation and Blockchain/NFT 
+influence the meme creators' ownership in future. Bookends specify the two 
+different directions that go towards a bright and dark future under the big 
+74 
+ 
+ 
+ 
+picture. Within the initial setting, the game is broken down into three main 
+components: Periods, Events, and Scenes. Periods represent broad spans of 
+time and are defined by a single player to establish a starting point for the 
+game. Events are pivotal moments or turning points that occur within the 
+chosen period and are established through collaborative discussion among 
+the players. Scenes, on the other hand, are snapshots of specific moments 
+within an event and are played out through role-playing and improvisation. 
+The game-based setting encouraged participants to think more creatively 
+and explore bolder, unexpected ideas. By taking on roles and improvising 
+within the context of the game, they were able to step outside of their usual 
+perspectives and tap into imaginative solutions, making the workshop results 
+more diverse and comprehensive. Also, the game components made the 
+process more engaging and relaxed for the participants, maintaining their 
+interest and motivation throughout the activity. As a result, they inspired 
+each other in the speculation and contributed more actively, leading to a 
+more dynamic and productive conversation.The workshop enabled the 
+participants to collectively envision and co-create possible futures, providing 
+valuable insights and perspectives for further exploration and analysis. The 
+data collected was used later as a part of the interactive documentary in the 
+thesis project. 
+75 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 11. The rules and setting of Microscope Explorer 
+Two separate workshops were conducted to facilitate discussions with 
+participants from different backgrounds. This approach aimed to promote a 
+wide range of ideas and perspectives on the influence of AI and Blockchain 
+technology in shaping potential futures. 
+In the first workshop, participants primarily had backgrounds in media 
+studies and philosophy. Their unique perspectives focused on the ethical, 
+societal, and cultural implications of AI and Blockchain technologies. The 
+discussions revolved around topics such as the role of disruptive technologies 
+in shaping public opinion, addressing privacy concerns, fostering responsible 
+innovation, and exploring their impact on the human experience. The second 
+workshop featured a more diverse group of participants, including meme 
+76 
+ 
+ 
+ 
+ 
+ 
+ 
+creators, NFT artists, and AI machine learning experts. These participants 
+brought a different set of thoughts and experiences, focusing on the practical 
+applications, challenges, and opportunities presented by AI and Blockchain 
+technologies. Discussions in this group touched upon topics such as the 
+democratization of meme creation through NFTs, the role of AI-generated 
+content in the digital landscape, and the potential impact of decentralized 
+systems on creators and industries. 
+DATA COLLECTION 
+Data collection was divided into three categories. The first category was the 
+collection of information regarding the professional backgrounds of the 
+participants. This information could provide insights into the diversity of the 
+group and help to track the contributions made by individual participants 
+during the focus group discussion. The second category involved the audio-
+recorded dialogue that occurred during the focus group discussion. The 
+dialogue, which involved the participants remixing diverse information from 
+their varied professional backgrounds, serves as an informative source of 
+qualitative data for gaining insights into their opinions, experiences, and 
+perspectives. The third category referred to the timeline created during the 
+group speculation game, which can be utilized to track the progression of 
+ideas and concepts throughout the game. This timeline represented a 
+77 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+valuable source of information for analysis and interpretation. By categorizing 
+the data collection into these three categories, I ensured the comprehensive 
+capture of a wide range of data, which served as additional references for the 
+visual elements I created in the documentary video as part of my thesis 
+deliverables. 
+DATA ANALYSIS 
+With the intent of analyzing the literature review and workshop data, I used a 
+thematic analysis inspired by Braun and Clarke(2019), who define a theme as " 
+a pattern found within data that is important to the research question and is 
+associated with some level of meaning" (p. 14) in qualitative data analysis. 
+They further explain that a theme is not simply a topic or a code, but a 
+patterned response or meaning within the data that captures something 
+important about the participants' experiences or views. The theme may be 
+present in some or all of the data and may be identified “at the manifest level 
+(directly observable information) or at the latent level (underlying the 
+phenomenon)” (Botyzis, 1998, p.4). 
+78 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CHAPTER 4: VOYAGE TO THE EDGE OF 
+IMAGINATION 
+STUDY FINDINGS 
+This section takes up the descriptive results of individual speculation through 
+historical analysis and group speculation through the Participatory 
+Workshops to analyze the ways the thesis project answers my primary and 
+secondary research questions. With the intent of bringing the study findings 
+from the literature review and Participatory Workshop into critical narratives 
+of interactive documentaries, this section is divided into two parts for 
+discussion. 
+INDIVIDUAL SPECULATION 
+The analysis of the literature review resulted in three distinctive themes 
+regarding the potential impact of disruptive technologies on the 
+monetization of memes that may affect creators. 
+The first theme highlights the change of values incorporated in the memes. 
+By taking a deep look into the case study of the /b/ board of 4chan, we can 
+identify that the relationship between cultural capital and Internet memes is 
+intertwined with the creative process and social dynamics that characterize 
+79 
+ 
+ 
+ 
+ 
+ 
+the circulation of memes on social media platforms. Being proficient in 
+"meme literacy" has implications for an individual's user status and 
+membership within their online communities. In this context, one's capacity 
+to create, appreciate, and circulate memes indicates their level of cultural 
+competence and membership within the online community. In addition, the 
+Meme Economy satirizes the stock market by treating internet memes as 
+tradable digital assets. This manifests a concept that revolves around the idea 
+of investing in and trading internet memes as if they were stocks in a real-
+world market. 
+This echoes the Blockchain and NFT that replicates real-world economics and 
+assigns economic value to memes by establishing a novel value system that 
+offers meme creators the possibility of recognition and compensation by 
+trading memes. NFT meme prices reflect how the reliance on community 
+and the highlight of virality in memes favor meme creators who have greater 
+social capital within the community or those who have popular memes. The 
+transfer of cultural, economic, and social capital happens in a pyramidal 
+fashion through reflexive feedback loops that mutually reinforce each other. 
+Although culture occupies a prominent position at the apex of this structure, 
+social currency and economics also exert a significant bottom-up influence, 
+yielding tangible consequences in the real world. Within the realm of culture, 
+80 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+economic and social capital are closely intertwined, occupying a relatively 
+equivalent and compelling footing. 
+The second theme underscores the potential for AI algorithms, AI meme 
+generators and NFT to disrupt conventional models of meme monetization. 
+Operating in the attention economy, social media platforms utilize a variety 
+of techniques to capture and hold the attention of users. Consequently, this 
+new paradigm redefines economic principles, shifting emphasis toward the 
+exchange of attention. In this framework, the capacity to attract attention is 
+the decisive factor that distinguishes successful influencers and creators from 
+less successful ones. As attention is a valuable resource that can be 
+monetized through advertising revenue, Internet memes represent a new 
+form of approach for marketing, advertising, and branding purposes, since 
+they engender a broad and engaged audience who consume, appreciate, 
+and potentially modify them. Apart from the algorithms of social media 
+platforms, the emergence of AI-generated memes also poses challenges for 
+human creators seeking to monetize their work. The escalating prevalence of 
+AI-generated memes could saturate the market, making it more difficult for 
+human creators to stand out and achieve attention for their work on social 
+media platforms. 
+81 
+ 
+ 
+ 
+ 
+ 
+ 
+Machine learning enables AI generators to produce memes in a quick and 
+low-cost manner, and has historically made it challenging for human creators 
+to compete with the efficiency and affordability of AI meme generation. 
+Additionally, AI-generated memes disrupt various fundamental assumptions 
+of copyright law in terms of creativity, commercialization, and distribution. It 
+is still unclear in most cases who has the right to monetize AI-generated 
+memes and whether human creators can claim ownership over them. 
+The emergence of meme coins also represents a significant change in the 
+economic model of memes under the influence of Blockchain technology. 
+Prior to the advent of Blockchain technology, traditional financial systems 
+were centralized, with intermediaries such as banks, clearinghouses, and 
+regulatory agencies controlling the flow of transactions. The introduction of 
+Blockchain technology and decentralized cryptocurrencies like meme coin 
+has challenged this paradigm by enabling peer-to-peer transactions without 
+the need for intermediaries. This created a new economic model that is 
+characterized by decentralization, transparency, and enhanced security. 
+Moreover, the use of NFT in transactions ensures that each transaction is 
+verified and recorded on an immutable ledger, increasing the trustworthiness 
+of the system. Consequently, the rise of Blockchain technology has disrupted 
+the traditional economic model and led to the development of a new 
+decentralized economic system. 
+82 
+ 
+ 
+ 
+ 
+ 
+  
+The third theme emphasizes how meme creators have transitioned to adapt 
+to the changing technological landscape for maintaining relevance and 
+profitability. The algorithms used on platforms like YouTube and Instagram 
+are designed to prioritize content that has higher engagement rates and 
+longer watch times. This implies that meme creators who consistently 
+produce popular content and have a larger follower base are more likely to 
+have their content shown to a wider audience, which in turn enhances their 
+visibility, engagement, and revenue. By shaping a hierarchy among creators, 
+where those with higher engagement rates and larger followings have an 
+advantage over those who do not. Creators respond to this hierarchy in a 
+number of ways, such as by using engagement-boosting tactics like clickbait 
+titles, creating memes referencing trending topics that resonate with the 
+audience and gaining popularity through producing political or commercial 
+memes. Some influencers may also invest in advertising or sponsorships to 
+increase their reach and visibility on the platform. 
+In contrast to the hierarchical algorithms used on other social media 
+platforms such as YouTube and Instagram, the algorithm utilized on TikTok is 
+characterized by its decentralized nature and the provision of greater 
+opportunities for creative content. The algorithm incorporates a range of 
+user-specific factors, such as viewing history, search history, and engagement 
+83 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+patterns, to recommend content that is more likely to be of interest to the 
+individual user. This stands opposite to the prioritization of professional or 
+popular creators, as seen in other social media platforms. Consequently, even 
+new or lesser popular creators have the potential to attain a broader audience 
+if their content is engaging and resonates with the TikTok community. The 
+algorithm used on TikTok also promotes diversity and creativity by promoting 
+a range of content and creators, rather than just prioritizing the most popular 
+or mainstream content. This holds the promise of fostering unique and 
+authentic creative content to achieve traction and visibility, thereby 
+potentially leveling the playing field and providing new prospects for 
+emerging creators. 
+The data analysis reveals a timeline of the intertwining of technological 
+change and economic model change in the evolution of memes. This 
+timeline is reflected in the emergence of new types of meme creators who 
+adapt to changing technological landscapes for being seen in the attention 
+economy era. The elements within the timeline will be visualized as part of an 
+interactive documentary in the following section. 
+84 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 12. Interactive Timeline Wireframe 
+GROUP SPECULATION 
+The focus group discussion guided subsequent speculation, providing 
+direction for the discourse that followed. The first step was to find the initial 
+codes, which consisted of individual words, phrases, or short segments of text 
+frequently mentioned by participants throughout the discussion. After 
+reading the entire transcript and systematically reviewing the specific quotes 
+and keywords of the focus group discussion, I assigned interpretive labels 
+regarding the conversation's content as initial codes that represented 
+important segments. The codes were organized into a codebook, which 
+guided further analysis. The initial codes included "meme culture," 
+"communication tool," "digital platforms," "monetization," "nature of meme 
+85 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+community," "meme ownership," "AI algorithms," "AI meme generation," 
+"freedom of creativity," "Blockchain," "NFT memes," and "The Future," based 
+on participants' different professional backgrounds and their contribution to 
+the topic. 
+Next, I organized the initial codes into more specific categories of themes 
+based on the relationships between the initial codes and the overarching 
+speculative future scenarios imagined through the game. After grouping the 
+initial codes with the events and scenes from the game, categories emerged, 
+including "the impact of AI algorithms on meme monetization," "the potential 
+of AI meme generation in mimicking human meme creation," "the role of 
+Blockchain and NFTs in securing creator ownership," "the role of Blockchain 
+and NFTs in constructing meme community," and "the new community of 
+meme creators in the future." 
+The final step involved selecting the most relevant categories and themes to 
+create a cohesive narrative that addressed the research question. I reviewed 
+the categories and themes to identify the most salient points that emerged 
+from the data. The following are the main themes that emerged from the 
+analysis. 
+86 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 13. Initial Codes, Specific Categories and Themes 
+Theme 1 - Exploring the Future of Meme Creation, Ownership and Ethics in 
+the Future AI and Blockchain Era, combines the impact of AI meme 
+generation on human meme creation and the role of Blockchain and NFTs in 
+securing creator ownership for speculation. It illustrates a future where 
+meme creation becomes utilitarian, and memes enter the perspective of AI 
+training and iteration. Artists use AI to create memes, and Blockchain 
+technologies are used to differentiate meme creators. Memes, through AI 
+iteration, can generate unexpected links that humans did not anticipate, and 
+human creators can articulate meaning to them, pushing the boundaries of 
+meme production. The use of Blockchain can mark the creation process, and 
+purchasing NFTs can become a way to pay for memes, countering business 
+exploitation. 
+87 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+The other direction of the future manifests how AI meme generation triggers 
+a debate about AI replacing human meme creators. Cooperate giants may 
+monopolize meme usage rights through patent laws, and AI-generated 
+memes can become propaganda tools after being processed by algorithmic 
+black boxes. People who use memes become followers of AI generators, 
+leading to human alienation. They also use NFTs to force people who use 
+memes to pay fees, which ultimately results in the fading away of “free” 
+memes. This darker future emerged as a concern from participants for the 
+future rather than speculation based on the solid reality. 
+Theme 2- Reclaiming Meme Ownership: Creativity, Identity and Community in 
+the Future AI and Blockchain Era, combines the impact of AI algorithms on 
+meme monetization and the role of Blockchain and NFTs in constructing a 
+meme community. It constructs a future where we will be witnessing a 
+counterattack towards AI algorithms by meme artists who strive for originality 
+and innovation. Through the establishment of new communities with 
+Blockchain technology as their identity, these creators are pushing back 
+against AI algorithms and the growing crisis of human identity. By marking 
+their social identity with NFTs and utilizing memes as a form of self-expression, 
+individuals are able to convey their unique identities outwardly. In turn, meme 
+consumers continue to demonstrate support for their preferred NFTs, creating 
+88 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+a market that sustains this ecosystem of identity expression. Besides, open 
+communication and collaboration between meme creators and AI developers 
+allows for mutual understanding and the creation of innovative and ethical 
+solutions for the use of AI in creative practice. AI becomes a better assistant 
+and a source of inspiration. Iterative Machine learning enables AI to recognize 
+AI-generated content, therefore human and AI can cooperate at a higher level 
+in meme creation. 
+Another avenue for imagination depicts the commercialization of meme 
+creation that threatens its original intentions of pursuing freedom and 
+authenticity in creation. In this case, the original goals of the counterattack by 
+meme artists against AI creativity have been compromised. The counterattack 
+has, in effect, become AI's own material, thereby blunting the force of the initial 
+initiative. Such development has also led to conflicts within the community 
+and society. Besides, the utilization of Blockchain technology as a means of 
+identification may ultimately result in a symbolic hierarchy of certification. This, 
+in turn, could contribute to further identity-based conflicts between those who 
+do and do not identify with Blockchain. 
+The analysis of the Participatory Speculation and the methodological findings 
+of the future of meme creators' ownership derived from this research are 
+89 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+summarized to be a part of the thesis output. This will be elaborated in the 
+following sections. 
+THESIS OUTPUT 
+This section describes the creation of the interactive documentary prototype, 
+built with an open-source codebase tool.  It plays with the interaction of 
+elements including an index named Timeline Jumping, a timeline called 
+Meme Creator Timeline, and animation galleries entitled Collective Futures, 
+in regard to the topic. The techno-economic development of meme 
+monetization history and the participatory speculated future of meme 
+creators' ownership are presented in two different ways. The former will be 
+presented through a temporal narrative. It guides viewers to the 
+chronological stages covering the historical trajectory of technological 
+breakthroughs and economic innovation that affect the creation and 
+propagation of memes. 
+The future is exhibited within an exploratory timeline that allows them to 
+discover their own narrative paths within interactive data visualizations of the 
+documentary. The framework consists of an interactive guide index on the 
+left corner of the project, where blocks with texts introducing the different 
+90 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+stages of technological breakthroughs alternate with ones displaying various 
+changes in all the prominent economic models of meme monetization. The 
+project can be viewed as an interactive interface that visually translates 
+textual data extracted from the literature review and speculative workshop, 
+and presents it to the public as also a database narrative documentary. 
+Figure 14. Illustrate diagram of interactive documentary 
+TIMELINE JUMPING 
+Timeline Jumping functions as an interactive guide index to navigate the 
+viewers. Besides the possibility of watching the first part of the documentary 
+in its standard sequence by scrolling the page horizontally and vertically, it is 
+worth noting the persistent presence of an index on the left corner of the 
+91 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+project. This feature effectively orients the viewers to their position in the 
+narrative and facilitates navigation through the sections. Time is distributed 
+radially, while the time span related to the different chapters is shown by 
+highlighting icons. By clicking the blocks in the index, the viewers will be 
+directed to a specific time point in the timeline corresponding to that block. 
+Leveraging the skill of coding through CSS, I created the basic function of the 
+interactive guide index, incorporating this function as one of the prominent 
+features of the interactive documentary to explore unseen stories within the 
+process of meme monetization. Having this in-built interaction mechanism to 
+indicate the start of exploration, viewers can more freely choose to investigate 
+through the index or continue to seek different stages in the timeline without 
+having to navigate through the challenges and confusion that often appear 
+when people face an overload of new information. 
+MEME CREATOR TIMELINE 
+The Meme Creator Timeline uses Historical Analysis to analyze the value 
+addition in memes through the meme monetization process that has been 
+influenced and changed by disruptive technologies. The prototype of the 
+timeline creates space that draws viewers into a journey to explore the 
+92 
+ 
+ 
+ 
+  
+ 
+ 
+technological and economic influence of meme creators' ownership with the 
+flow of time. 
+To create a timeline that showcases the evolution of technological change in 
+social media and the corresponding changes in the economic model of 
+meme commodification, a thorough historical analysis of the development of 
+these two domains was conducted. By examining the historical data and 
+trends, it is feasible to identify essential components that have contributed to 
+the evolution of these two domains. These components are later utilized to 
+create a visual representation incorporated into the timeline. The timeline not 
+only illustrates the chronological progression of technological change on 
+social media but also highlights the corresponding changes in the meme 
+economy. This analytical approach enables the identification of the key 
+drivers of change and innovation. 
+93 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 15. Visualization of the technologies 
+94 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 16. Visualization of the economic models 
+I first created a wireframe on Figma to illustrate the complex interplay 
+between technology and the economy in the context of social media and 
+meme monetization, and how the influences stemming from two distinct 
+aspects have shaped the different types of meme creators across varying 
+temporal epochs. I created graphical representations of different elements 
+that are shown in the timeline. It also invites the viewer to focus on a specific 
+time point, as well as to compare themes and continents. Clicking on the dots 
+close to the time point brings up pop-ups that show how the selected 
+components have affected meme creators' ownership, providing a 
+perspective from the past and the present. The timeline enhances 
+understanding of the meme creator's circumstances behind the intertwined 
+information it displays. 
+95 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 17. Interactive Timeline Wireframe (Figma) 
+Figure 18. Interactive Timeline Wireframe (Adobe Illustrator) 
+96 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 19. Interactive Timeline Final Design (Adobe Illustrator) 
+COLLECTIVE FUTURES 
+The final piece of work in this project was to create four animation videos that 
+visualize the future of meme creators' ownership, as imagined in the 
+participatory speculative workshop. The animations incorporate different 
+themes that integrate various topics related to the technological impact of AI 
+and Blockchain technologies. My creative process entails a blend of 
+imagination, research, and technical skills. For the future part of the 
+interactive documentary, my objective was to produce an animated, meme-
+style motion graphic that examines the conjectural prospects of meme 
+creators' ownership. 
+97 
+ 
+ 
+ 
+ 
+ 
+ 
+Two components shaping the animations’ vernacular are the camera zooms 
+and the motion comic style. I initially conducted research on the impact of 
+technological advancements and the evolution of economic models on 
+meme culture. Following that, I used an AI meme generator to identify an 
+appropriate meme format as the foundation for my creation. After selecting a 
+template, I traced all the meme images to ensure that they did not infringe 
+on any original works. In addition, I made some remixes and combinations of 
+multiple memes to create new and unique content. This step was crucial in 
+ensuring that my work was original and not a copy of someone else's 
+creation. By creating new content, I could also convey the complex concepts 
+related to the future of meme ownership in a creative and engaging way. 
+Once the tracing and remixing were complete, I proceeded to animate in the 
+consideration of incorporating various themes that emerged during the 
+workshop discussions and activities. My intention was to depict and 
+communicate intricate concepts related to the future of meme ownership in 
+a clear and captivating manner. 
+98 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 20. Image tracing process: replication and mutation of meme Evil Kermit 
+Figure 21. Image tracing process: replication and mutation of meme Woman Yells At Cat 
+Figure 22. Storyboard for the first scenario of possible future of meme creators’ ownership 
+99 
+ 
+ 
+ 
+ 
+ 
+To foster engagement and interaction, I create a branching narrative where 
+the viewer is presented with a choice of two paths, each leading to a different 
+future. Viewers can use this form to explore two divergent scenarios that 
+represent the potential prospect. I provide the viewer with options at the 
+beginning of the vision of the future, allowing them to choose which path 
+they want to follow. Each path has its own set of animations and interactive 
+elements that showcase the unique outcomes of that future. By experiencing 
+both paths, the viewer can gain a deeper understanding of the importance of 
+being aware of the innovative force and the potential impact AI and 
+Blockchain technologies could have on creative individuals and practitioners. 
+Therefore, every movement and click in this project is meaningful. This format 
+relatively provides a great deal of interactivity and freedom to users while the 
+creator can have control over what the audience views by cautiously 
+selecting the content to keep the audience from an information tsunami. 
+100 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Figure 23. Final presentation on a touch screen 
+101 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+CHAPTER 5: CONCLUSIONS AND FUTURE WORK 
+SUMMARY OF THE RESEARCH 
+The primary research question that underpins this project is: How might 
+technological changes on social media platforms impact a creator’s 
+ownership of memes? 
+To develop a comprehensive understanding of the functionality and benefits 
+of possible futures of meme creators' ownership, a literature review was 
+conducted to examine the historical evolution of memes affected by 
+technological advancement and the history of meme monetization that 
+reflected the change in the valuation of the meme. This review continued 
+with an exploration of copyright and authorship of both human and AI-
+created memes, focusing on how Blockchain technologies provide fractional 
+solutions to the ownership issue while AI generation challenges the current 
+legal framework of copyright. To envision the future scenarios of meme 
+creators, Economic Constructivism was applied to identify the prominent 
+issues embedded in the present that affect the future, from an individual 
+perspective. This phase was followed by Participatory Speculation to invite 
+experts from relevant fields to join the discussion, incorporating diverse 
+102 
+ 
+ 
+ 
+ 
+  
+perspectives and collectively envisioning potential futures, and eventually 
+present the results of the research in the form of an interactive documentary. 
+This research reveals that disruptive technologies, specifically Blockchain 
+technologies and AI algorithms, hold the potential to provide novel 
+opportunities for creators of internet memes to gain compensation for their 
+creativity by selling their memes. Nevertheless, it is essential to note that 
+disruptive technologies also introduce fresh challenges that necessitate a 
+judicious approach for wise navigation. Originally, the creation and diffusion 
+of meme culture was a collaborative process that featured the participatory 
+culture, far from a competitive and economically motivated practice. While 
+Blockchain-based platforms may offer avenues for creators to directly sell 
+their memes to consumers and establish ownership of their intellectual 
+property through tokens, the use of AI algorithms for more targeted 
+advertising and sponsorships may increase competition and contribute to 
+market saturation. Creators can leverage the technology's ability to mimic 
+human creativity, produce original work, and generate diverse content. These 
+AI systems, equipped with attributes such as creativity, autonomy, and 
+learning capabilities, can generate creative art, potentially blurring ownership 
+and copyright lines. As AI-generated works grow more prevalent, creators 
+must navigate the complexities of copyright laws and legal frameworks. AI 
+systems can be viewed as creative employees or independent contractors, 
+103 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+attributing ownership and responsibility to individuals or legal entities 
+utilizing these systems. This approach acknowledges the creative 
+contributions of AI while recognizing the distinct creativity of human authors. 
+AI-generated work typically involves gathering training data and producing 
+intermediary iterations for refining algorithms. However, AI advancements 
+like Generative Adversarial Networks (GANs) can create images without 
+intermediary steps, posing new challenges for human creators. As AI's 
+sophistication increases and its output becomes more similar to human-
+authored works, creators must adapt to accommodate AI authorship within 
+the existing copyright framework. As these disruptive technologies continue 
+to evolve and become increasingly integrated into meme creation, creators 
+must remain vigilant in identifying and capitalizing on new opportunities 
+while addressing potential challenges. 
+REFLECTION ON METHODOLOGIES AND METHODS 
+Economic Constructivism was initially chosen as a methodology for this 
+research due to its successful application in the early stages of exploration of 
+the topic, echoing the approach taken in the literature review section that 
+examines the history of meme monetization, the shifting values of memes 
+affected by the technological change, and the impact of AI and NFTs on the 
+ownership rights of meme creators. The significance of forming the basis for 
+104 
+ 
+ 
+ 
+ 
+ 
+understanding the technological impact on the creation and distribution of 
+memes surfaced predominantly as a catalyst for later discussions in the 
+participatory process. The analysis was presented as a background context to 
+generate a set of insightful questions (See Appendix D) for the discussion 
+among experts from diverse professional fields who attended the 
+participatory. This played a crucial role in locating the intersection of 
+technology, economy and creativity for the focus group discussion for 
+participants, sparking the thoughts and ideas of experts from various 
+professional backgrounds. 
+Participatory Speculation as a methodology was valuable in bringing 
+together diverse perspectives and fostering interdisciplinary discussions that 
+can enrich the understanding of complex topics. Through the focus group 
+discussion, these experts shared their unique perspectives and knowledge in 
+their own professional field to compose a more comprehensive 
+understanding of the varied components affecting the future of meme 
+creators. The gamification of the workshop played a crucial role in enhancing 
+the content and perspective of the study. It fosters a more relaxed and 
+creative collaborative environment, enabling participants to express their 
+ideas more freely and sparkling a collection of new insights and ideas that 
+may not have emerged through focus group discussion. The game-based 
+approach within the workshop ideation was an appropriate method to 
+105 
+ 
+ 
+  
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+complement the speculative process, encompassing stages of conception to 
+co-creation of possible futures. It offered value in collaborative imagination 
+and ideation, where the open-ended nature and focus on scenario-building 
+facilitated the generation of diverse and unpredictable ideas. These features 
+of collaborative imagination were also reflected in the final creation of 
+animation in the interactive documentary. 
+REFLECTION ON THE THESIS PROJECT 
+TIMELINE JUMPING 
+Timeline Jumping provides an interactive and engaging experience for 
+viewers, allowing them to navigate through the content in a non-linear way. 
+The use of an interactive index serves as an effective guide, providing viewers 
+with a clear understanding of their position in the narrative and allowing for 
+effortless navigation through the different sections. The horizontal 
+distribution of technological and economic evolution as well as the 
+highlighting of time spans in different stages further facilitate user’s 
+exploration. 
+106 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+To enhance the viewer's experience, the inclusion of supplementary visual 
+cues or interactive components to signal the precise location of the viewer 
+within the timeline could be advantageous. This may encompass the 
+utilization of color variations, animations, or auditory effects to draw attention 
+to specific time points. Additionally, the integration of more detailed 
+descriptions or summaries for each segment could aid in contextualizing and 
+illuminating the significance of the events being depicted. 
+In terms of the manifestation of information, the interactive guide index is a 
+particularly effective feature, allowing viewers to easily explore the different 
+stages in the timeline and discover unseen stories within the process of 
+meme monetization. However, it may be helpful to consider incorporating 
+more detailed information or context within each section, such as quotes 
+from experts or statistics to provide additional insight and support for the 
+narrative being presented. 
+MEME CREATOR TIMELINE 
+Meme Creator Timeline is a project that utilizes historical analysis, seeking to 
+unravel the intricate evolution of memes and their monetization processes. 
+Through an engaging and thoughtfully designed timeline, the project 
+107 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+enables viewers to explore the complex interplay between technology and 
+the economy, particularly in the context of social media and meme 
+monetization. By leveraging a meticulous historical analysis, the project 
+identifies essential components that have driven change and innovation in 
+these two domains, thereby offering a compelling perspective on the 
+evolution of meme creators and their economic value. 
+To enhance the viewer's experience, it may be helpful to incorporate 
+additional visual elements that guide the viewer's focus and attention, such 
+as changes in color or motion graphics, to display the happening change in 
+specific points of the timeline. Additionally, incorporating interactive 
+elements, such as clickable pop-ups or videos, may help to provide more 
+detailed information or context for each section, and further enhance the 
+viewer's understanding of the interconnected dynamics between technology 
+and the economy in the context of social media and meme monetization. 
+In terms of the clear clarification of information, the timeline showcases the 
+evolution of technological change in social media and the corresponding 
+changes in the economic model of meme commodification, highlighting the 
+key drivers of change and innovation. However, it may be helpful to 
+incorporate more detailed information or data to support the narrative being 
+presented, such as expert quotes or statistical analyses, to provide deeper 
+108 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+insight and context for the viewer. Overall, the Meme Creator Timeline 
+effectively illustrates the complex and interconnected nature of meme 
+monetization and change of meme creators, and has great potential for 
+further development and improvement. 
+COLLECTIVE FUTURES 
+Collective Futures involves the creation of four animation videos that explore 
+the future of meme creators' ownership. It is an undertaking that requires a 
+delicate balance of creativity, research, and technical skills. The use of 
+animation and branching narratives adds an interactive and engaging 
+dimension to the documentary, making it more fun to watch and interact 
+with. 
+To further enhance the elements of interactivity and engagement, several 
+improvements could be made to the project. For instance, by incorporating 
+social elements such as user-generated content, live chats, and forums. This 
+would allow viewers to connect with each other and share their thoughts and 
+ideas, making the experience more collaborative and community-driven. 
+109 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+SIGNIFICANCE AND FUTURE WORK 
+The significance of this study lies in its contribution to the ongoing discourse 
+on the future of creative ownership and monetization of digital artifacts in the 
+digital era, particularly in the context of memes, which represents the 
+freedom and creativity of human beings. The proposed vision of the future of 
+meme creators' ownership and the interactive documentary created as part 
+of this study may serve as a catalyst for further research and discussions 
+among scholars, creators, and policymakers on the legal, ethical, and 
+economic implications of technological disruptions on creative ownership 
+and value. Future work could explore the implications of the findings on value 
+change in digital artifacts, techno-economic influence, industry practices, and 
+creator’s awareness, as well as the potential of interdisciplinary collaborations 
+in shaping the future of creative ownership and value in the digital age. 
+Future work related to this research will also focus on exploring the legal, 
+ethical, and economic implications of the proposed vision of the future 
+regarding meme creators' ownership and the potential role of AI algorithms 
+and Blockchain technologies in reshaping creative ownership and value. This 
+future work will contribute to a community of scholars, creators, 
+policymakers, and industry practitioners interested in the ongoing discourse 
+on the future of creative ownership and monetization in the digital era. The 
+findings of this research and the proposed vision of the future will serve as a 
+110 
+ 
+ 
+ 
+ 
+ 
+ 
+starting point for further discussions and debates on the potential of 
+emerging technologies to disrupt traditional models of creative ownership 
+and value, as well as the need for legal and ethical frameworks that reflect 
+these changes. 
+Additionally, this work could contribute to a community of interdisciplinary 
+researchers and practitioners interested in the intersections of technology, 
+economy and creativity. The study's use of Participatory Speculation and 
+collaborative methodologies could serve as a model for future research that 
+seeks to engage diverse perspectives and expertise in imagining and shaping 
+the future of creative industries. 
+CONCLUSION 
+This project aimed to explore the impact of technological change on the 
+creation and propagation of memes in contemporary digital culture and 
+envisions a possible future for the meme creator’s ownership. It responded to 
+the primary research question, investigating how technological changes on 
+social media platforms impact a creator’s ownership of memes in the 
+attention economy. This research can be conceptualized as examining the 
+topic in two distinct directions. By identifying how the technological 
+evolution influence the creation and propagation of memes on the digital 
+111 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+platforms, and how the AI algorithms change the way creators and 
+consumers determine the value of memes, I propose that the AI algorithms 
+present new opportunities to catalyze human creativity for meme creators 
+and to think of what creators should do to avoid homogenization of creativity. 
+By examining how Blockchain and NFT replicates real-world economics and 
+assigns economic value to memes by establishing a novel value system, I 
+discover that its disruption offers meme creators the possibility of recognition 
+and compensation by trading memes. I believe that the Blockchain 
+technologies will open up possibilities for emerging communities where 
+meme creators can reshape ownership of collective creation with NFTs and 
+the decentralized nature will liberate the meme creators from the constraint 
+of algorithms and bring out prospects of creativity. 
+The key contributions of this project include the Participatory Speculation 
+that invites experts to collaboratively imagine the future landscape of meme 
+creators' ownership together. The process has contributed to my 
+understanding of the secondary research question, with the highlight of the 
+participatory workshop as an effective tool for speculative thinking with the 
+collaborative space for individuals to share ideas and and inspire each other. 
+The interactive documentary also responds to the secondary research 
+question, manifesting positive promise as a project to present the co-create 
+112 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+possible futures of meme creators' ownership, with its clear clarification of 
+information on technological and economic change, interactive and 
+engaging experience, and freedom to explore new content via different paths 
+of navigation. With further enhancements to the elements of interactivity and 
+visual appeal, it could be even more playful in inviting and captivating the 
+audience as part of an interactive documentary. 
+113 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+BIBLIOGRAPHY 
+Abidin, C. (2021). Mapping Internet celebrity on TikTok: Exploring attention 
+economies and visibility labours. Cultural Science Journal, 12(1), 77–103. 
+doi:10.5334/csci.140 
+Abisheva, A., Garcia, D., & Schweitzer, F. (2016). When the filter bubble bursts: 
+Collective evaluation dynamics in online communities. Proceedings of 
+the 8th ACM Conference on Web Science. 
+https://doi.org/10.1145/2908131.2908180 
+Arvidsson, A., & Caliandro, A. (2016). Brand public. The Journal of Consumer 
+Research, 42(5), 727–748. https://doi.org/10.1093/jcr/ucv053 
+Aunger, R. (2002). The electric meme: A new theory of how we think. The Free 
+Press. 
+Backhouse, R. E. (2008). Methodology of economics. The New Palgrave 
+Dictionary of Economics, 1–7. https://doi.org/10.1057/978-1-349-95121-
+5_2175-1 
+Bajčetić, M. (2022). Copyright and non-fungible tokens (NFTs). SSRN 
+Electronic Journal. https://doi.org/10.2139/ssrn.4305712 
+Baumann, K., Caldwell, B., Bar, F., & Stokes, B. (2018). Participatory design 
+fiction. Extended Abstracts of the 2018 CHI Conference on Human 
+Factors in Computing Systems. https://doi.org/10.1145/3170427.3186601 
+Baumeister, Roy F., & Mark R. Leary.(1997). Writing Narrative Literature 
+Reviews, Review of General Psychology, 1(3), 311–320. 
+https://doi:10.1037/1089- 2680.1.3.311 
+Bell, G., Blythe, M., & Sengers, P. (2005). Making by making strange. ACM 
+Transactions on Computer-Human Interaction, 12(2), 149–173. 
+https://doi.org/10.1145/1067860.1067862 
+114 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bennett, C., & Koblinsky, C. (2021). Non-fungible tokens: Emerging issues in 
+the emerging marketplace. Lexology. Retrieved February 27, 2023, from 
+https://www.lexology.com/library/detail.aspx?g=1ce4bba4-4b8f-42f3-
+b965-0ecdeea39726 
+Benveniste, A. (2022) The meaning and history of memes, The New York 
+Times. The New York Times. Retrieved February 27, 2023, from 
+https://www.nytimes.com/2022/01/26/crosswords/what-is-a-meme.html 
+Berg, C. (2021). Non-fungible tokens and the new patronage economy. 
+CoinDesk Latest Headlines RSS. Retrieved February 27, 2023, from 
+https://www.coindesk.com/business/2021/03/22/non-fungible-tokens-
+and-the-new-patronage-economy/ 
+Bjerknes, G., & Bratteteig, T. (1994). User participation: A strategy for work life 
+democracy?. In Proceedings of PDC’94 (PDC ’94), CPSR, 3–12. 
+Blackmore, S. (1999). The meme machine. New York, NY: Oxford University 
+Press. 
+Bonadio, E. & McDonagh, L. (2020). Artificial Intelligence as producer and 
+consumer of copyright works: Evaluating the consequences of 
+algorithmic creativity.Intellectual Property Quarterly, 2020(2), 112-137. 
+https://ssrn.com/abstract=3617197 
+Bourdieu, P. (1984). Distinction: A Social Critique of the Judgement of Taste. 
+Routledge & Kegan Paul Ltd. 
+Bridy, A. (2016). Coding creativity: Copyright and the Artificially Intelligent 
+Author. Stanford Technology Law Review, 26(1). 
+https://doi.org/10.31235/osf.io/5ru6m 
+Bruner, R. (2021). Teen artists are making millions on NFTs. why-and how? 
+Time. Retrieved March 1, 2023, from https://time.com/6093982/nft-art-
+teens-money/ 
+115 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Bucher, T (2012) Want to be on the top? Algorithmic power and the threat of 
+invisibility on Facebook. New Media & Society 14(7): 1164–1180. doi: 
+https://doi.org/10.1177/1461444812440159 
+Burgess, J., & Green, J. (2018). YouTube: Online video and participatory 
+culture. Polity Press. 
+Bury, B. (2016). Creative use of internet memes in advertising. World Scientific 
+News 57(1), 33–41. 
+Çağlayan Aksoy, P., & Özkan Üner, Z. (2021). NFTs and copyright: Challenges 
+and opportunities. Journal of Intellectual Property Law & Practice, 
+16(10), 1115–1126. https://doi.org/10.1093/jiplp/jpab104 
+Carah, N. (2014). Curators of databases: Circulating images, managing 
+attention and making value on social media. Media International 
+Australia, 150(1), 137–142. https://doi.org/10.1177/1329878x1415000125 
+Carrington, T. (2016). Grumpy cat or copy cat? Memetic marketing in the 
+digital age, Journal of International Commercial Law, 7(2), 139-160 
+Chen, C. (2012). The creation and meaning of Internet memes in 4chan: 
+Popular Internet culture in the age of online digital reproduction. 
+Habitus, 3(1), 6–19 
+Chohan, U. W. (2021). Non-fungible tokens: Blockchains, scarcity, and value. 
+Critical Blockchain Research Initiative (CBRI) Working Papers. 
+Cotter, K. (2019). Playing the visibility game: how digital influencers and 
+algorithms negotiate Influence on Instagram. New Media & Society, 
+21(4), 895–913. https://doi.org/10.1177/1461444818815684 
+Cunningham, S., Craig, D., & Silver, J. (2016). YouTube, multichannel networks 
+and the accelerated evolution of the new screen ecology. Convergence: 
+The International Journal of Research into New Media Technologies, 
+22(4), 376–391. https://doi.org/10.1177/1354856516641620 
+116 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+   
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Cuofano, G. (2021). Understanding meme economy. HackerNoon. Retrieved 
+February 15, 2023, from https://hackernoon.com/understanding-meme-
+economy-eb4z35en 
+DALL-E mini / Craiyon - There's the kermit, there's the Junji Ito, 
+but I see no murder and no hoe. (2022). Know Your 
+Meme. Retrieved from 
+https://knowyourmeme.com/photos/2386575-dall-e-
+mini-craiyon 
+Davison, P. (2020). The language of internet memes. The Social Media Reader, 
+120–134. https://doi.org/10.18574/nyu/9780814763025.003.0013 
+Dawkins, R. (1976). The selfish gene. Oxford University Press. 
+Dayma, B. (2021). Dall-e Mini explained. W&B. Retrieved March 21, 2023, from 
+https://wandb.ai/dalle-mini/dalle-mini/reports/DALL-E-Mini-Explained-
+with-Demo--Vmlldzo4NjIxODA 
+Dean, I. (2022). NFT sales crash 92%, but is this the full story? Creative Bloq. 
+Retrieved March 1, 2023, from https://www.creativebloq.com/news/nft-
+crash 
+Directive 2009/24/EC of the European Parliament and of the Council of 23 
+April 2009 on the legal protection of computer programs. https://eur-
+lex.europa.eu/legal-content/EN/ALL/?uri=CELEX%3A32009L0024 
+Disaster Girl. (2007). Know Your Meme. Retrieved from 
+https://knowyourmeme.com/memes/disaster-girl 
+Doge. (2010). Know Your Meme. Retrieved from 
+https://knowyourmeme.com/memes/doge 
+Doge Coin. (2013). Know Your Meme. Retrieved from 
+https://knowyourmeme.com/memes/dogecoin 
+117 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Dovey, M. (2019). Must we become meme artists? Making & Breaking, 2019(1), 
+1-6 
+Elder-Vass, D. (2022). Inventing value: The social construction of monetary 
+worth. Cambridge University Press. 
+Eslami, M., Rickman, A., Vaccaro, K., Aleyasen, A., Vuong, A., Karahalios, K., 
+Hamilton, K., & Sandvig, C. (2015). "I always assumed that I wasn't really 
+that close to [her]". Proceedings of the 33rd Annual ACM Conference on 
+Human Factors in Computing Systems, 153–162. 
+https://doi.org/10.1145/2702123.2702556 
+Fazio, M. (2021, April 29). The world knows her as 'disaster girl.' she just made 
+$500,000 off the meme. The New York Times. Retrieved March 1, 2023, 
+from https://www.nytimes.com/2021/04/29/arts/disaster-girl-meme-
+nft.html 
+Fei, Z., Li, Z., Zhang, J., Feng, Y., & Zhou, J. (2021). Towards expressive 
+communication with internet memes: A new multimodal conversation 
+dataset and benchmark. arXiv preprint arXiv:2109.01839. 
+Fisher, K. (2019). Once upon a time in NFT: Blockchain, copyright, and the 
+right of first sale doctrine, Cardozo Law's Arts & Entertainment Law 
+Journal, 37(3), 629-634 
+Gal, N., Shifman, L., & Kampf, Z. (2016). “It gets better”: Internet memes and the 
+construction of collective identity. New Media & Society, 18(8), 1698–1714. 
+Genç, E. (2021, April 4). Overly attached girlfriend NFT sells for $411,000. 
+Decrypt. Retrieved February 26, 2023, from 
+https://decrypt.co/63891/overly-attached-girlfriend-nft-sells-for-411000 
+Gillotte, J.(2020). Copyright infringement in AI-generated artworks. UC Davis 
+Law Review, 53(5), 2657-2691. https://ssrn.com/abstract=3657423 
+Gloerich, I. (2022). Speculate-or else! Blockchain memes on survival in radical 
+uncertainty. Critical Meme Reader II, 11, 237-257 
+118 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Goldman, D. (2021). Dogecoin. What is Dogecoin? How a joke became hotter 
+than bitcoin. photograph, CNN. Retrieved March 21, 2023, from 
+https://www.cnn.com/2021/04/17/investing/what-is-
+dogecoin/index.html 
+Grimes, B. (2022). What is dall-E? how it works and how the system 
+generates AI Art. E. Retrieved March 21, 2023, from 
+https://interestingengineering.com/innovation/what-is-dall-e-how-it-
+works-and-how-the-system-generates-ai-art 
+Grossman, L. (2008). The master of memes. Time. Retrieved February 15, 2023, 
+from 
+https://content.time.com/time/subscriber/article/0,33009,1821656,00.ht 
+ml 
+Guadamuz, A. (2021). Do androids dream of electric copyright? Artificial 
+Intelligence and Intellectual Property, 147–176. 
+https://doi.org/10.1093/oso/9780198870944.003.0008 
+Gururaj, H. L., Manoj Athreya A., Ashwin A. K., Abhishek, M. H., Nagarajath, S. 
+M., Ravi Kumar, N. (2020). Blockchain: A new era of technology. In: G. 
+Shrivastava, D.-N. Le, & K. Sharma (Eds.), Cryptocurrencies and 
+Blockchain technology applications, pp. 1- 24 . John Wiley & Sons. 
+https://onlinelibrary-wiley-
+com.eur.idm.oclc.org/doi/book/10.1002/9781119621201 
+Haraway, D. J. (2008). When species meet. University of Minnesota Press. 
+Hern, A. (2014, January 20). It's bobsleigh time: Jamaican team raises $25,000 
+in Dogecoin. The Guardian. Retrieved March 21, 2023, from 
+https://www.theguardian.com/technology/2014/jan/20/jamaican-
+bobsled-team-raises-dogecoin-winter-olympics 
+Histed, C. C., McLaughlin, J. M., Nolan, A. R. G., Rinearson, J. E., & Wittow, M. 
+(2021). The coming Blockchain revolution in consumption of digital art 
+and music: The Thinking Lawyer's Guide to non-fungible tokens (nfts). 
+K&L Gates. Retrieved February 25, 2023, from 
+https://www.klgates.com/The-Coming-Blockchain-Revolution-in-
+119 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Consumption-of-Digital-Art-and-Music-The-Thinking-Lawyers-Guide-
+to-Non-Fungible-Tokens-NFTs-3-25-2021 
+Holm, C. H. (2021). What do you meme? The sociolinguistic potential of 
+internet memes. Leviathan: Interdisciplinary Journal in English, (7), 1-
+20. 
+Ihalainen, J. (2018). Computer creativity: Artificial intelligence and copyright. 
+Journal of Intellectual Property Law & Practice, 13(9), 724–728. 
+https://doi.org/10.1093/jiplp/jpy031 
+Jenkins, H. (2009, February 11). If it doesn't spread, it's dead (part one): Media 
+viruses and memes - pop junctions. Henry Jenkins. Retrieved 
+December 3, 2022, from 
+http://henryjenkins.org/blog/2009/02/if_it_doesnt_spread_its_dead_p.ht 
+ml 
+John, N. A. (2016). The Age of Sharing. Polity Press. 
+Jeong, S. (2018). Dogecoin. In B. Maurer, L. Swartz, & B. Sterling (Eds.), Paid: 
+Tales of dongles, checks, and other money stuff (pp. 53–70). The MIT 
+Press. 
+Johnson, D. (2007). Mapping the meme: A geographical approach to 
+materialist rhetorical criticism. Communication & Critical/Cultural 
+Studies, 4(1), 27–50. http://doi.org/10.1080/14791420601138286 
+Kilroy was here. (2013). Know Your Meme. Retrieved from 
+https://knowyourmeme.com/memes/kilroy-was-here. 
+Laineste, L., & Voolaid, P. (2016). Laughing across borders: Intertextuality of 
+internet memes. The European Journal of Humour Research, 4(4). 
+Lantagne, S.M. (2018). Famous on the Internet: The spectrum of Internet 
+memes and the legal challenge of evolving methods of 
+communication. University of Richmond Law Review, 52, 387–424. 
+120 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Lantagne, S. M. (2022). Of disaster girl and everydays: How NFTs invite 
+challenging copyright assumptions around creator support. Harvard 
+Journal of Sports & Entertainment Law, 13(2), 266-299. 
+Lessig, L. (2008). Remix: Making art and commerce thrive in the hybrid 
+economy. Penguin Books. 
+Liang, Y. (2019). Blockchain for Dynamic Spectrum Management. Dynamic 
+Spectrum Management, 121–146. https://doi.org/10.1007/978-981-15-
+0776-2_5 
+Literat, I., & Van den Berg, S. (2017). Buy memes low, sell memes high: 
+Vernacular criticism and collective negotiations of value on Reddit’s 
+memeeconomy. Information, Communication & Society, 22(2), 232–249. 
+https://doi.org/10.1080/1369118x.2017.1366540 
+Linford, J. (2020). Copyright and Attention Scarcity. Cardozo L. Rev., 42, 143. 
+Lorenz, T. (2018). Memes are becoming harder to monetize. The Atlantic. 
+Retrieved February 15, 2023, from 
+https://www.theatlantic.com/technology/archive/2018/05/memes-are-
+becoming-harder-to-monetize/561578/ 
+Matalon, L. (2019). Modern problems require modern solutions: Internet 
+memes and copyright. Texas Law Review, 98(2),405-437. 
+https://doi.org/10.1016/j.xjtc.2020.08.060 
+Malodia, S., Dhir, A., Bilgihan, A., Sinha, P., & Tikoo, T. (2022). Meme marketing: 
+How marketers can drive better engagement using viral memes? 
+Psychology & Marketing, 39(9), 1775–1801. 
+https://doi.org/10.1002/mar.21702 
+Marshall, G. (1998). The Internet and memetics. School of Computing Science, 
+Middlesex University. Retrieved March 21, 2023. 
+Marwick, A. E. (2015). Instafame: Luxury selfies in the attention economy. 
+Public Culture, 27(1), 137–160. https://doi.org/10.1215/08992363-2798379 
+121 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Maguire, J. S., & Matthews, J. (2010). Cultural Intermediaries and the Media. 
+Sociology Compass, 4(7), 405–416. https://doi.org/10.1111/j.1751-
+9020.2010.00285.x 
+McCloskey, D. N. (1985). The historian's contribution to economics. The Journal 
+of Economic History, 45(2), 307-314. 
+Mielczarek, N., & Hopkins, W. W. (2020). Copyright, transformativeness, and 
+protection for internet memes. Journalism & Mass Communication 
+Quarterly, 98(1), 37–58. https://doi.org/10.1177/1077699020950492 
+Milner, R. M. (2012). The world made meme: Discourse and identity in 
+participatory media (Doctoral dissertation, University of Kansas). 
+Milner, R. M. (2016). The world made meme: Public conversations and 
+participatory media. MIT Press. 
+Marciszewski, M. (2020). The problem of modern monetization of memes: 
+How copyright law can give protection to meme creators, Pace 
+Intellectual Property, Sports & Entertainment Law Forum, 9(1), Article 3 
+McGee, J., & Sammut-Bonnici, T. (2015). Network externalities. Wiley 
+Encyclopedia of Management, 1–5. 
+https://doi.org/10.1002/9781118785317.weom120053 
+Moufahim, M., Wells, V., & Canniford, R. (2018). The consumption, politics and 
+transformation of community. Journal of Marketing Management, 
+34(7–8), 557–568. https://doi.org/10.1018/0267257X.2018.1479506 
+Mukhopadhyay, M., & Ghosh, K. (2021). Market microstructure of non fungible 
+tokens. arXiv preprint arXiv:2112.03172 
+Muller, M. (2007). Participatory design. The Human-Computer Interaction 
+Handbook, 1061–1081.  https://doi.org/10.1201/9781410615862.ch54 
+Nakamoto, S. (2008). A peer-to-peer electronic cash system. Bitcoin. Retrieved 
+February 24, 2023, from https://bitcoin.org/en/bitcoin-paper 
+Nani, A. (2022). The doge worth 88 billion dollars: A case study of dogecoin. 
+Convergence: The International Journal of Research into New Media 
+Technologies, 28(6), 1719–1736. https://doi.org/10.1177/13548565211070417 
+Nash, K. (2017). 1. I-docs and the documentary tradition: Exploring questions of 
+engagement. I-Docs, 9–25. https://doi.org/10.7312/asto18122-006 
+122 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Nash, K. (2022) Introduction. in Interactive documentary: Theory and debate 
+(pp. 20-37). Routledge. 
+Newton, G., Zappavigna, M., Drysdale, K., & Newman, C. E. (2022). More than 
+humor: Memes as bonding icons for belonging in donor-conceived 
+people. Social Media + Society, 8(1). 
+https://doi.org/10.1177/20563051211069055 
+Nissenbaum, A., & Shifman, L. (2015). Internet memes as contested cultural 
+capital: The case of 4chan’s /B/ board. New Media & Society, 19(4), 483– 
+501. https://doi.org/10.1177/1461444815609313 
+Nissenbaum, A., & Shifman, L. (2018). Meme templates as expressive 
+repertoires in a globalizing world: A cross-linguistic study. Journal of 
+Computer-Mediated Communication, 23(5), 294–310. 
+https://doi.org/10.1093/jcmc/zmy016 
+Nofer, M., Gomber, P., Hinz, O., & Schiereck, D. (2017). Blockchain. Business & 
+Information Systems Engineering, 59(3), 183–187. 
+https://doi.org/10.1007/s12599-017-0467-3 
+Nowak, J. (2016). Internet meme as meaningful discourse: Towards a theory of 
+multi participant popular online content. Central European Journal of 
+Communication, 9(1), 73–89. https://doi.org/10.19195/1899-5101.9.1(16).5 
+Packer, J. (2013). Epistemology not ideology OR why we need new Germans. 
+Communication and Critical/Cultural Studies, 10(2-3): 295-300. 
+Okonkwo, I. E. (2021). NFT, copyright and intellectual property 
+commercialization. International Journal of Law and Information 
+Technology, 29(4), 296–304. https://doi.org/10.1093/ijlit/eaab010 
+Paquette, A. (2019). Meme marketing makes brands go viral. Media Post. 
+Retrieved February 15, 2023, from 
+https://www.mediapost.com/publications/article/344495/meme-marketing-
+makes-brands-go-viral.html 
+123 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+Patel, R. (2013). First World problems:' A fair use analysis of internet memes. 
+UCLA Entertainment Law Review, 20(2). 
+https://doi.org/10.5070/lr8202027169 
+Pawelzik, L., & Thies, F. (2022). Selling digital art for millions-a qualitative 
+analysis of NFT art marketplaces. ECIS 2022 Research Papers. 
+Pearlman, R. (2018). Recognizing Artificial Intelligence (AI) as authors and 
+inventors under U.S. Intellectual Property Law. Richmond Journal of 
+Law and Technology, 24(2). 
+Pimentel, B. (2023). Artists sue, saying AI is used to steal their work. San 
+Francisco Examiner. Retrieved February 22, 2023, from 
+https://www.sfexaminer.com/news/artists-sue-saying-ai-is-used-to-
+steal-their-work/article_3339ef26-96c0-11ed-a040-53c6440bdb96.html 
+Popkov, V. (2017). Economic constructivism: How people construct an 
+economic reality. ResearchGate. Retrieved March 8, 2023, from 
+https://www.researchgate.net/publication/313471803_ECONOMIC_CON 
+STRUCTIVISM_HOW_PEOPLE_CONSTRUCT_AN_ECONOMIC_REALITY 
+Priyadarshini, I. (2019). Introduction to Blockchain technology. In D. N. Le, R. 
+Kumar, B. K. Mishra, M. Khari, & J. M. Chatterjee (Eds.), Cyber security in 
+parallel and distributed computing: Concepts, techniques, applications 
+and case studies (pp. 91–107). Scrivener Publishing LLC. 
+Rader, E., & Gray, R. (2015). Understanding user beliefs about algorithmic 
+curation in the facebook news feed. Proceedings of the 33rd Annual 
+ACM Conference on Human Factors in Computing Systems, 173-182. 
+https://doi.org/10.1145/2702123.2702174 
+Rafli, D. P. A. D. (2022). NFT Become a Copyright Solution. Journal of Digital 
+Law and Policy, 1(2), 43-52. 
+Ravasi, D., & Rindova, V. (2004). Creating symbolic value: A cultural perspective 
+on production and exchange. SSRN Electronic Journal. 111(4). 
+https://doi.org/10.2139/ssrn.1265021 
+124 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+Rheingold, H. (2009). Attention, and other 21st-century social media literacies. 
+EDUCAUSE Review. Retrieved February 5, 2023, from 
+https://eric.ed.gov/?id=EJ951243 
+Russell, S. J., & Norvig, P. (2022). Artificial Intelligence: A modern approach. 
+Pearson. 
+Sadasivam, A., Gunasekar, K., Davulcu, H., & Yang, Y. (2020). memebot: 
+Towards automatic image meme generation. arXiv preprint 
+arXiv:2004.14571. 
+Sanderson, B., & Rigby, M. (2013). We’ve reddit, have you?: What librarians can 
+learn from a site full of memes. College & Research Libraries News, 
+74(10), 518–521. https://doi.org/10.5860/crln.74.10.9024 
+Selvadurai, N., & Matulionyte, R. (2020). Reconsidering creativity: Copyright 
+protection for works generated using artificial intelligence. Journal of 
+Intellectual Property Law & Practice, 15(7), 536–543. 
+https://doi.org/10.1093/jiplp/jpaa062 
+Serban, I. V., Lowe, R., Charlin, L., & Pineau, J. (2016). Generative deep neural 
+networks for dialogue: A short review. arXiv preprint arXiv:1611.06216. 
+Sharma, T., Zhou, Z., Huang, Y., & Wang, Y. (2022). " It's a blessing and a curse": 
+Unpacking creators' practices with Non-Fungible Tokens (NFTs) and 
+their communities. arXiv preprint arXiv:2201.13233. 
+Shifman, L. (2011). An anatomy of a YouTube meme. New Media & Society, 
+14(2), 187–203. https://doi.org/10.1177/1461444811412160 
+Shifman, L. (2013). Memes in a digital world: Reconciling with a conceptual 
+troublemaker. Journal of Computer-Mediated Communication, 18(3), 
+362–377. https://doi.org/10.1111/jcc4.12013 
+Shifman, L. (2015). Memes in digital culture. CRC Press. 
+125 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Smith, C., & Lantagne, S. (2021) Copyright & memes: The fight for success kid. 
+110 Georgetown Law Journal Online, 142 (2021), 142-167 
+https://ssrn.com/abstract=3916362 
+Sobel, B. L. W. (2017). Artificial Intelligence’s fair use crisis. The Columbia 
+Journal of Law & The Arts, 41(1), 45–97. 
+https://doi.org/10.7916/jla.v41i1.2036 
+Soha, M., & McDowell, Z. J. (2016). Monetizing a meme: YouTube, content ID, 
+and the Harlem shake. Social Media + Society, 2(1). 
+https://doi.org/10.1177/2056305115623801 
+Spindler, G. (2019). Copyright law and Artificial Intelligence. IIC - International 
+Review of Intellectual Property and Competition Law, 50(9), 1049–1051. 
+https://doi.org/10.1007/s40319-019-00879-w 
+Sundlöf, Z. (2022). A design science research approach to prove meme 
+ownership: a designed artefact utilising NFTs and affordances. 
+Tafesse, W., & Wood, B. P. (2021). Followers' engagement with Instagram 
+influencers: The role of influencers’ content and engagement strategy. 
+Journal of Retailing and Consumer Services, 58. 
+https://doi.org/10.1016/j.jretconser.2020.102303 
+Tapscott, D., & Euchner, J. (2019). Blockchain and the internet of value. 
+Research-Technology Management, 62(1), 12–19. 
+https://doi.org/10.1080/08956308.2019.1541711 
+Treiblmaier, H. (2023). Defining the Internet of Value. In P. Tasca, N. Vadgama, 
+& J. Xu (Eds.), Enabling the internet of value how Blockchain connects 
+Global Businesses (pp. 3–10), Springer Nature Switzerland AG. 
+Van Dijck, J. (2009). Users like you? theorizing agency in user-generated 
+content. Media, Culture & Society, 31(1), 41–58. 
+https://doi.org/10.1177/0163443708098245 
+126 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Vasan, K., Janosov, M., & Barabási, A.L. (2022). Quantifying NFT-driven 
+networks in crypto art. Scientific Reports, 12(1). 
+https://doi.org/10.1038/s41598-022-05146-6 
+Vizcaíno-Verdú, A. & Abidin, C.(2021). Music challenge memes on TikTok: 
+understanding in-Group storytelling videos. International Journal of 
+Communication, 16(2022), 883–908. 
+Vyalla, S. R., & Udandarao, V. (2020). Memeify: A large-scale meme generation 
+system. Proceedings of the 7th ACM IKDD CoDS and 25th COMAD. 
+https://doi.org/10.1145/3371158.3371403 
+Wagener, A. (2019). Hypernarrativity, storytelling, and the relativity of truth: 
+Digital semiotics of communication and interaction. Postdigital Science 
+and Education, 2(2), 147–169. http://doi.org/10.1007/s42438-019-00066-7 
+Wang, A., Gao, Z., Lee, L. H., Braud, T., & Hui, P. (2022). Decentralized, not 
+dehumanized in the metaverse: Bringing utility to NFTs through 
+multimodal interaction. International Conference On Multimodal 
+Interaction. https://doi.org/10.1145/3536221.3558176 
+Wang, L., Zhang, Q., Kim, Y., Wu, R., Jin, H., Deng, H., Luo, P., & Kim, C. H. (2021). 
+Automatic Chinese meme generation using Deep Neural Networks. 
+IEEE Access, 9, 152657–152667. https://doi.org/10.1109/access.2021.3127324 
+Wang, Q., Li, R., Wang, Q., & Chen, S. (2021). Non-fungible token (NFT): 
+Overview, evaluation, opportunities and challenges. arXiv preprint 
+arXiv:2105.07447. 
+Wang, W. Y., & Wen, M. (2015). I can has Cheezburger? A nonparanormal 
+approach to combining textual and visual information for predicting 
+and generating popular meme descriptions. Proceedings of the 2015 
+Conference of the North American Chapter of the Association for 
+Computational Linguistics: Human Language Technologies. 
+https://doi.org/10.3115/v1/n15-1039 
+127 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  
+ 
+ 
+ 
+  
+Watson, R. T., & Webster, J. (2020). Analyzing the past to prepare for the 
+future: Writing a literature review, Management Information Systems 
+Quarterly, 26(2), xiii-xxiii. 
+Weng, L., Flammini, A., Vespignani, A., & Menczer, F. (2012) Competition 
+among memes in a world with limited attention. Scientific Reports, 
+2(335), 120 –138. 
+White, C., & Matulionyte, R. (2019). Artificial Intelligence Painting the bigger 
+picture for copyright ownership. SSRN Electronic Journal. 
+https://doi.org/10.2139/ssrn.3498673 
+Wiggins, B. E., & Bowers, G. B. (2014). Memes as genre: A structurational 
+analysis of the memescape. New Media & Society, 17(11), 1886-1906. 
+http://doi.org/10.1177/1461444814535194 
+Wiggins, B.E. (2019). The discursive power of memes in digital culture: 
+Ideology, semiotics, and intertextuality (1st ed.). Routledge. 
+Williams, J. (2018). Stand out of our light: Freedom and resistance in the 
+attention economy. Cambridge University Press. 
+Wyche, S., Sengers, P., & Grinter, R. E. (2006). Historical analysis: Using the past 
+to design the future. Lecture Notes in Computer Science, 35–51. 
+https://doi.org/10.1007/11853565_3 
+Yan, T. (2021,). Right-click SAVE #1: A framework for thinking about NFTs. 
+Right-Click Save #1: A framework for thinking about NFTs. Retrieved 
+March 1, 2023, from https://0xprismatic.substack.com/p/right-click-save-
+1-a-framework-for 
+Yanisky-Ravid, S. (2017). Generating rembrandt: Artificial intelligence, 
+accountability and copyright - the human-like workers are already here 
+- a new model. SSRN Electronic Journal. 
+https://doi.org/10.2139/ssrn.2957722 
+128 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+Yhee, Y., Goo, J., & Koo, C. (2021). Meme tourism: A Conceptual Framework. 
+Information and Communication Technologies in Tourism 2021, 328– 
+333. https://doi.org/10.1007/978-3-030-65785-7_32 
+Zeng, J., & Kaye, D. B. V. (2022). From content moderation to visibility 
+moderation : A case study of platform governance on TikTok. Policy & 
+Internet, 14(1), 79–95. https://doi.org/10.1002/poi3.287 
+Zibner, J. (2019). Artificial Intelligence: A Creative Player in the Game of 
+Copyright. European Journal of Law and Technology, 10(1). 
+Zulli, D. and Zulli, D.J. (2020). Extending the internet meme: Conceptualizing 
+technological mimesis and imitation publics on the TikTok platform. 
+New Media & Society, 24(8), 1872–1890. 
+https://doi.org/10.1177/1461444820983603 
+129 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDICES 
+APPENDIX A: KEY FINDINGS TAKEN FROM LITERATURE 
+APPENDIX B: PARTICIPANT RECRUITMENT MATERIALS 
+130 
+ 
+ 
+ 
+131 
+ 
+ 
+ 
+132 
+ 
+ 
+ 
+ 
+133 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX C: PARTICIPATORY WORKSHOP CONSENT 
+FORM 
+134 
+ 
+ 
+ 
+135 
+ 
+ 
+ 
+ 
+136 
+ 
+ 
+ 
+137 
+ 
+ 
+ 
+ 
+138 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX D: PARTICIPATORY WORKSHOP INVITATION 
+LETTER 
+139 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX E: PARTICIPATORY WORKSHOP 
+DESCRIPTION 
+140 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+APPENDIX F: PARTICIPATORY WORKSHOP 
+SCREENSHOT 
+141 

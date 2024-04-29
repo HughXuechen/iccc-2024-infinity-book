@@ -1,0 +1,292 @@
+Full Terms & Conditions of access and use can be found at
+https://www.tandfonline.com/action/journalInformation?journalCode=cjem20
+Learning, Media and Technology
+ISSN: (Print) (Online) Journal homepage: www.tandfonline.com/journals/cjem20
+Instituting socio-technical education futures:
+encounters with/through technical democracy,
+data justice, and imaginaries
+Teresa Swist & Kalervo N. Gulson
+To cite this article: Teresa Swist & Kalervo N. Gulson (2023) Instituting socio-
+technical education futures: encounters with/through technical democracy, data
+justice, and imaginaries, Learning, Media and Technology, 48:2, 181-186, DOI:
+10.1080/17439884.2023.2205225
+To link to this article:  https://doi.org/10.1080/17439884.2023.2205225
+Published online: 11 Jun 2023.
+Submit your article to this journal 
+Article views: 872
+View related articles 
+View Crossmark data
+Citing articles: 1 View citing articles 
+EDITORIAL
+Instituting socio-technical education futures: encounters with/
+through technical democracy, data justice, and imaginaries
+Teresa Swist and Kalervo N. Gulson
+Sydney School of Education and Social Work, The University of Sydney, Sydney, Australia
+A (re)composition of encountered problems and possibilities
+Artiﬁcial intelligence, automation, algorithms, and dataﬁcation are increasingly instituted across
+educational systems and decision-making, including generative AI, student monitoring, exam grad-
+ing, data analytics. The public release of ChatGPT raised stark issues of corporate infrastructuring,
+the politics and scientization of automation, conﬂicts over ethics, and the possibility of how things
+could be ‘designed otherwise’ (Williamson, Macgilchrist, and Potter 2023). The global reach of
+exam surveillance systems during the COVID-19 pandemic provoked questions about commercial
+provider roles, the hidden labour of automated systems, alongside the vulnerabilities of remote
+studying (Selwyn et al. 2021). A grades standardisation algorithm to calculate proxy grades for can-
+celled examinations sparked a range of unintended consequences, protests, and public trust issues
+(Kelly 2021). School openings and closings throughout the crisis increasingly relied upon the poli-
+ticised release and reception of cross-sectoral data analytics, while attendant COVID-19 surveil-
+lance systems escalated the powers of both government and non-government entities (Mahase
+2021; Oster 2021). These socio-technical controversies highlight the multiscalar power relations
+shaping present and future education possibilities (Macgilchrist, Potter, and Williamson 2021).
+A range of conceptual and methodological constraints are provoked by these shifting power
+relations between diverse constituents: students, educators, communities, technology corporations,
+professional bodies, cross-sectoral policymakers, plus all levels of government. Methods can enact
+worlds, Lury (2020) argues, and attention to (re)composing how knowledge continues with, and
+transforms through, societal institutions is vitally needed.
+There are multiple issues in education that arise from socio-technical controversies related to the
+use of algorithms. The ﬁrst issue comes from what we know when socio-technical systems are used
+elsewhere. Algorithmic systems are used in high stakes areas such as policing and hiring. Problems
+in this use include over policing of people of colour using facial recognition technologies, and
+reinforcement of gender bias in automated selection in hiring practices (Noble 2018). In these
+areas, it has been shown that complex socio-technical systems are poorly understood by both
+users and those aﬀected by the systems (Algorithm Watch 2019). Similarly, there are concerns
+about the capacity of educators, administrators and policy makers to understand the limitations
+and presuppositions of using complex socio-technical algorithmic systems in decision-making
+(European Commission 2021; Southgate et al. 2020). The second issue is that with the increased
+use of algorithmic systems, along with the identiﬁcation of risks (European Commission 2021),
+has come awareness that ethical issues like fairness and bias are seriously underdeveloped in edu-
+cation (Sahlgren 2021). Additionally, with a wide range of expertise involved in developing and
+applying socio-technical systems, there is growing contestation over what counts as relevant
+© 2023 Informa UK Limited, trading as Taylor & Francis Group
+CONTACT Teresa Swist
+teresa.swist@sydney.edu.au
+LEARNING, MEDIA AND TECHNOLOGY
+2023, VOL. 48, NO. 2, 181–186
+https://doi.org/10.1080/17439884.2023.2205225
+professional knowledge (Pasquale 2019). There are signiﬁcant disparities relating to the expertise
+required to understand and use algorithmic systems. For example, education experts tend not
+to have the technical expertise needed to evaluate and critique existing algorithmic systems
+(Gran, Booth, and Bucher 2021). To address this disparity in expertise, ﬁelds like human computer
+interaction have undertaken extensive work on making socio-technical systems more visible and
+accessible to non-experts (Kay, Zapata-Rivera, and Conati 2020). However, there is limited
+work in education on broadening expertise about algorithmic systems. As such, there is an acute
+need to help stakeholders, especially educators and administrators, understand both the potentials
+and problems with algorithmic systems in education. Amid such ‘problem spaces’ (Lury 2020)
+are interstices of methodological potential in relation to varying actions, publics, and contexts.
+In light of these always in-between conditions, this special issue aims to inspire conceptual and
+methodological innovation focused on instituting socio-technical educational futures across a range
+of learning contexts. As automated, algorithmic, and dataﬁed trends permeate the education sector,
+there is a vital need to assemble new toolboxes of methods and theories for innovative critical
+research “to examine educational technology as they continue to mutate, evolve, extend to new set-
+tings and expand in their (un)intended uses” (Castañeda and Williamson 2021, 11). To inform this
+need, we were interested in papers for this special issue that could be broadly related to exploring
+the potential of ‘technical democracy’ (Callon, Lascoumes, and Barthe 2009), ‘data justice’ (Dencik
+et al. 2019) and ‘post-automation’ (Smith and Fressoli 2021). Contributors were invited to test the
+conceptual and empirical horizons of collective learning, action and capabilities, such as: ‘hybrid
+forums’ where heterogeneous groups “can come together to discuss technical options involving
+the collective” (Callon, Lascoumes, and Barthe 2009, 18); the interplay of data and social justice
+(Dencik et al. 2019); and, post-automation, a commitment to appropriate automation technologies
+for “more plural relations rooted in human creativity, conviviality, and care” (Smith and Fressoli
+2021, 1–2).
+The range of work submitted surprised us. Not the number of conceptual developments, we had
+expected this would be the case. But that there were many papers that outlined attempts to help
+people understand and experiment with socio-technical systems in education. As such, this special
+issue seeks to oﬀer Learning, Media, and Technology readers a novel set of vocabulary, resources,
+and ideas to spark encounters within their own education contexts characterised by democracy, jus-
+tice, and sustainability. As readers will note, this issue is not about synthesis, and contriving onto-
+logical and epistemological links, but about representing the diverse ideas that are brought to bear
+on socio-technical controversies in education. The thirteen papers in this issue bring a rich array of
+conceptual tools, empirical insights, and unique approaches toward (re)composing the problems
+and possibilities encountered with socio-technical systems in education. We acknowledge that
+these papers represent scholars from the Minority World, yet we hope this special issue oﬀers a
+way to connect a more diverse range of researchers and regions interested in this line
+of transdisciplinary inquiry. In particular, how critical and situated methods can potentially inspire
+new possibilities for instituting socio-technical education futures in democratic, just, and sustain-
+able ways. Next, we provide a brief overview of these papers.
+Conceptualising the limits and possibilities of justice, ethics, and discourses
+The roll out of automated technologies into myriad aspects of social life has highlighted the ways
+algorithmic bias and automated feedback loops can reinforce existing inequalities in the areas of
+application. In this special issue, the focus on justice from outside of education is brought to
+bear on the speciﬁcity of education as a domain of policy and practice, so as to explore the fruitful-
+ness and limits of concepts of justice, ethics, and discourses.
+Against a backdrop of the recognition of algorithmic bias in education, Carlo Perrotta outlines
+an approach to engaging with bias through both technical and conceptual avenues. Perrotta shows
+how a focus on dealing with bias and fairness has become a key part of areas of computer science
+182
+EDITORIAL
+and statistics, including the rise of the fair machine learning ﬁeld, and has been a focus of ﬁelds such
+as critical data studies. However, Perrotta suggests that what has been lacking in both the data and
+social sciences has been a focus on the key question of ‘what is a just outcome?’. Perrotta’s paper
+works from this gap to propose an approach to dealing with algorithmic bias using Nancy Fraser’s
+critiques and responses to distributive and recognitive justice. Perrotta suggests that Fraser provides
+a deontological approach to ethics, that allows for a pragmatic approach to participatory justice in
+education that can deal with the growing problems of algorithmic bias in education.
+The rising interest in ethics and technology in education is carried through into Jeremy Knox’s
+paper. Knox suggests that ethics are becoming predominant in the proliferation of new frameworks
+to govern the use of artiﬁcial intelligence in education. However, for Knox this means there is a
+hollowing out of ethical meaning that provides legitimacy for the use of technology, rather than
+any type of substantive guidance for not only how but whether to use emerging technologies like
+AI in education. Knox suggests that we need to locate the use of AI in education both within a dis-
+cussion of the philosophy of ethics and in relation to the existing concerns about justice from within
+education. This would allow for questions about how technology can amplify or reshape existing
+education practices.
+Janine Arantes and Mark Vicars take an approach to data justice by examining how inclusion
+and exclusion of data categories have signiﬁcant implications for LGBTQI+ people and attendant
+discourses. They examine how big data and automated technologies exclude LGBTQI+ people,
+undertaking a genealogical approach to a series of socio-technical imaginaries that highlight the
+ways LGBTQI+ people as ‘missing in action’ in data. As a counter-narrative to this absence Arantes
+and Vicars propose that we can consider a queering of big data and AI, that is to consider ‘queer
+automation’.
+Democratising technologies via pluralistic approaches with diverse stakeholders
+This next group of papers highlights ways to potentially democratise technologies via collective
+learning and pluralistic possibilities with diverse stakeholders. In particular, they articulate unique
+modes of cooperation which engage with the uncertainty, controversy, conﬂict, complexity, and
+possibilities of emerging technologies. Each of these papers oﬀers a unique way to engage stake-
+holders with diverse expertise - with the common purpose of addressing the limits and possibilities
+of socio-technical systems in education via pluralistic approaches.
+To expand public pedagogy with emerging technologies across society, Teresa Swist, Justine
+Humphry and Kalervo Gulson introduce a ‘pedagogic encounters toolkit’ to study algorithmic sys-
+tem controversies. This multifaceted approach includes learning with controversies, testing diverse
+methods, and making democratic designs. The toolkit is tested in the context of school-based and
+urban-based cases, which highlights the potential of applying and adapting the toolkit across diverse
+sectors.
+Within the context of socio-technical controversies in education Greg Thompson, Kalervo Gul-
+son, Teresa Swist and Kevin Witzenberger explore the potential of ’hybrid forums’ to broaden
+expertise and participation about the impacts of automated decision-making (ADM) systems in
+education. Proposed as ways of decision-making that do not require consensus, these forums
+can create moments of democratisation via processes of learning with shared uncertainty, material
+politics, and collective experimentation.
+As a critical response to what they view as the limits of hybrid forums, Jessica Holloway, Steven
+Lewis and Sarah Langman argue for the need to embrace democratic dissensus via a process of
+‘technical agonism’. Informed by Habernasian theory and a hypothetical case study focused on
+the Texas Teacher Evaluation and Support System, they propose the need to centre dissent and
+scepticism in the pursuit of democratic ideals in the context of the dataﬁcation of education.
+To explore the possibilities and limits of the growing ﬁeld of explicable artiﬁcial intelligence
+(XAI) in education, Robert Farrow combines a socio-technical perspective with the application
+LEARNING, MEDIA AND TECHNOLOGY
+183
+of artiﬁcial intelligence (AI) in education to address structural issues of transparency. Farrow pro-
+poses that educators and learners should be engaged in the process of meaningfully understanding
+and consenting to AI interventions through an ongoing process of trust-building and
+interpretability.
+The powerful role of social research in making educational futures is the focus of a paper by Ken-
+neth Horvath, Mario Steinberg and Andrea Isabel Frei. Informed by critical data studies in edu-
+cation and French pragmatic sociology, the authors aim to bridge inquiry and critique via their
+analytical anchor point of ‘plural (school) worlds’. They examine the historical entanglements of
+social and political orders and emphasise the need to expand discursive spaces and shift problema-
+tizations amid the context of existing school worlds.
+Investigating alternatives to data and commercially-led visions of education futures
+This ﬁnal group of papers illustrate ways to investigate alternatives to data and commercially-led
+visions of socio-technical education futures. Attention to the temporality of socio-technical systems
+in education can help open up the scope of research approaches. As technologies become increasingly
+networked and proprietary, expanded lines of inquiry are necessary to surface these dynamic tensions
+associated with dataﬁed platforms, marketplaces, and strategies in education.
+To surface the often hidden circulations of data associated with the Australian primary school
+context, Tiﬀany Apps, Karley Beckman and Sarah Howard applied a walkthrough method to a
+study of two digital reading platforms. This method enabled the researchers to examine the visibility
+of users, (mis)representations of learning, plus the (re)conﬁguration of users, classroom teaching
+practices, and digital labour. The researchers suggest that this approach oﬀers a way to generate
+heuristics and representations that enable multiple stakeholders to understand digital economies
+and engage with questions of data justice.
+Amid the conditions of an increasingly commercialised curricular marketplace in the United
+States, Michael Brown, Noreen Naseem Rodríguez and Amy Updegraﬀ explore the potential of
+alternative models of online curriculum and instructional resources. The researchers conducted
+a qualitative critical content analysis of how teacher candidates in an elementary social studies
+methods course encountered and experienced the Teachers Pay Teachers online marketplace.
+They propose a ‘curricular platform cooperative’ conceptual framework that would provide oppor-
+tunities for curating social justice instructional content with embedded aﬀordances for user contri-
+butions and feedback.
+Also deploying a data justice lens, Molly Stewart, Elizabeth Pier, Dan Ralyea and Andrew Rice
+examine interoperability initiatives in several U.S. states to explore the role of data standards and
+APIs in the K-12 education sector. Their research exposes the power dynamics among vendors,
+states, and local agencies and potential data injustices associated with data access and visibility,
+plus the representation and categorisation of students. With current interoperability initiatives cur-
+rently driven by policymakers and technology vendors, this article highlights valuable avenues for
+wider public learning and engagement informed by justice-led approaches.
+In working towards sustainable and reﬂective digital school development, Nina Brandau and
+Samira Alirezabeigi deploy critical design (CD) and participatory design (PD) in the context of
+daily practices at two elementary schools. Guided by these approaches, the analysis and interpret-
+ation of ethnographically collected material identiﬁed how CD and PD challenged, or supported,
+diﬀerent stakeholders’ practices and understandings of digital school development. While recognis-
+ing the limits of time and educational administration constraints, Brandau and Alirezabeigi propose
+the potential of re-thinking CD and PD to grapple with tensions between immediate and long-term
+expectations, digital and analogue practices, plus varying modes of knowledge acquisition across
+daily school contexts.
+In a close-up examination of high school students’ data modeling practices, Shiyan Jiang, Heng-
+tao Tang, Cansu Tatar, Carolyn Rosé, and Jie Chao illustrate the potential of data modeling
+184
+EDITORIAL
+practices to support democratic discussions and informed evaluations of AI technologies. Drawing
+upon technical democracy and situated learning approaches, they identify practices associated with
+students’ data modeling processes, plus learning opportunities that could support critical evalu-
+ations of automated decision-making. Based on their ﬁndings, the researchers highlight impli-
+cations for understanding data justice, the potential of designing accessible data modeling
+experiences, plus the role of data modelers.
+Toward a collective mode of instituting
+In closing this editorial, we return to the ‘instituting’ aspect of this special issue’s title. In his book
+The Imaginary Institution of Society, Castoriadis (1975) argues that possibilities for alterity and
+transformation always emerge from “a new mode of instituting and a new relation of society of indi-
+viduals to the institution” (373). As the global controversy of ChatGPT highlights, the dominance of
+Big Tech is expanding due to a range of data, computer power, and geopolitical advantages which
+requires more expansive obligations, policies, strategies, and changes across society (Kak and West
+2023). To counter such dominant narratives, designs, and infrastructures, there is an urgent need to
+make spaces for generating future alternatives and transitions across education (Macgilchrist et al.
+2023). Embedding transitions with/through conditions of corporatised, infrastructural dominance
+across society demands a new mode of instituting socio-technical education futures.
+The papers in this special issue (re)compose a range of encounters with/through technical
+democracy, data justice, and imaginaries. In particular, how to: conceptualise the limits and possi-
+bilities of justice, ethics, and discourses; democratise technologies via collective learning and plur-
+alistic approaches with diverse stakeholders; and, investigate alternatives to data and commercially-
+led visions of education futures. As Castoriadis (1975) notes, institutions are never static, but con-
+tinually dynamic in terms of how they are created, maintained, altered, or destroyed: “it is the union
+and tension of instituting society and of instituted society, of history made and of history in the
+making” (108). How we collectively grapple with these instituting unions and tensions signal
+both political and compositional turning points for transdisciplinary research, policy, and practice.
+References
+Algorithm Watch. 2019. Automating Society: Taking Stock of Automated Decision-Making in the EU. Berlin: AW
+AlgorithmWatch.
+Callon, M., P. Lascoumes, and Y. Barthe. 2009. Acting in an Uncertain World: An Essay on Technical Democracy.
+Cambridge, MA: MIT Press.
+Castañeda, L., and B. Williamson. 2021. “Assembling New Toolboxes of Methods and Theories for Innovative
+Critical Research on Educational Technology.” Journal of New Approaches in Educational Research 10 (1): 1–
+14. doi:10.7821/naer.2021.1.703.
+Castoriadis, C. 1975. The Imaginary Institution of Society. Cambridge: Polity Press.
+Dencik, L., A. Hintz, J. Redden, and E. Treré. 2019. “Exploring Data Justice: Conceptions, Applications and
+Directions.” Information, Communication & Society 22 (7): 873–881. doi:10.1080/1369118X.2019.1606268.
+European Commission. 2021. Laying Down Harmonised Rules on Artiﬁcial Intelligence (Artiﬁcial Intelligence Act) and
+Amending Certain Union Legislative Acts. Brussels: European Union.
+Gran, A. B., P. Booth, and T. Bucher. 2021. “To Be or Not To Be Algorithm Aware: A Question of a New Digital
+Divide?” Information, Communication & Society 24 (12): 1779–1796. doi:10.1080/1369118X.2020.1736124.
+Kak, A., and S. M. West. 2023. AI Now 2023 Landscape: Confronting Tech Power. AI Now Institute. https://
+ainowinstitute.org/wp-content/uploads/2023/04/AI-Now-2023-Landscape-Report-FINAL.pdf.
+Kay, J., D. Zapata-Rivera, and C. Conati. 2020. “The Gift of the Scrutable Learner Models: Why and How.” In Design
+Recommendations for Intelligent Tutoring Systems, edited by A. Sinatra, A. C. Graesser, X. Hu, B. Goldberg, and A.
+J. Hampton, 25–40. Orlando: U.S. Army.
+Kelly, A. 2021. “A Tale of Two Algorithms: The Appeal and Repeal of Calculated Grade Systems in England and
+Ireland in 2020.” British Educational Research Journal 47 (3): 725–741. doi:10.1002/berj.3705.
+Lury, C. 2020. Problem Spaces: How and Why Methodology Matters. Cambridge; Medford: Polity Press.
+Macgilchrist, F., H. Allert, T. Cerratto Pargman, and J. Jarke. 2023. “Designing Postdigital Futures: Which Designs?
+Whose Futures?” Postdigital Science and Education, doi:10.1007/s42438-022-00389-y.
+LEARNING, MEDIA AND TECHNOLOGY
+185
+Macgilchrist, F., J. Potter, and B. Williamson. 2021. “Shifting Scales of Research on Learning, Media and
+Technology.” Learning, Media and Technology 46 (4): 369–376. doi:10.1080/17439884.2021.1994418.
+Mahase, E. 2021. “Covid-19: Government Faces Legal Challenge Over Alleged Suppression of School Data.” BMJ
+2021 (373): n1408. doi:10.1136/bmj.n1408.
+Noble, S. U. 2018. Algorithms of Oppression: How Search Engines Reinforce Racism. New York: New York University
+Press.
+Oster, E. 2021. “Beyond Past Due: Data to Guide US School Reopenings.” Nature. (5 January). https://www.nature.
+com/articles/d41586-020-03647-w.
+Pasquale, F. 2019. “Professional Judgment in an Era of Artiﬁcial Intelligence and Machine Learning.” Boundary 2 46
+(1): 73–101. doi:10.1215/01903659-7271351.
+Sahlgren, O. 2021. “The Politics and Reciprocal (Re)conﬁguration of Accountability and Fairness in Data-Driven
+Education.” Learning, Media and Technology, 48(1): 1–14. doi:10.1080/17439884.2021.1986065.
+Selwyn, N., C. O’Neill, G. Smith, M. Andrejevic, and X. Gu. 2021. “A Necessary Evil? The Rise of Online Exam
+Proctoring in Australian Universities.” Media International Australia. doi:10.1177/1329878X211005862.
+Smith, A., and M. Fressoli. 2021. “Post-automation.” Futures 132. doi:10.1016/j.futures.2021.102778.
+Southgate, E., S. K. Howard, M. De Laat, J. Cohen, and J. Frew. 2020. YAI: An overdue conversation. Report from the
+First National Roundtable and Data Safari on Artiﬁcial Intelligence and School Education. Sydney: University of
+Newcastle, University of Wollongong, NSW Department of Education and Intel.
+Williamson, B., F. Macgilchrist, and J. Potter. 2023. “Re-examining AI, Automation and Dataﬁcation in Education.”
+Learning, Media and Technology 48 (1): 1–5. doi:10.1080/17439884.2023.2167830.
+186
+EDITORIAL

@@ -1,0 +1,806 @@
+See discussions, stats, and author profiles for this publication at: https://www.researchgate.net/publication/375691029
+Artistic Fusion: Exploring the Potential of AI-Generated Artwork in Enabling
+Creative Expression with People with Intellectual Disabilities
+Conference Paper · December 2023
+CITATIONS
+0
+READS
+445
+4 authors, including:
+Leandro Guedes
+University of Lugano
+33 PUBLICATIONS   79 CITATIONS   
+SEE PROFILE
+Laurianne Sitbon
+Queensland University of Technology
+154 PUBLICATIONS   1,691 CITATIONS   
+SEE PROFILE
+Monica Landoni
+University of Lugano
+159 PUBLICATIONS   2,397 CITATIONS   
+SEE PROFILE
+All content following this page was uploaded by Leandro Guedes on 16 November 2023.
+The user has requested enhancement of the downloaded file.
+Artistic Fusion: Exploring the Potential of AI-Generated Artwork
+in Enabling Creative Expression with People with Intellectual
+Disabilities
+Leandro Soares Guedes
+Università della Svizzera italiana
+Lugano, Switzerland
+leandro.soares.guedes@usi.ch
+Saminda Sundeepa Balasuriya
+Queensland University of Technology
+Brisbane, Australia
+saminda.balasuriya@qut.edu.au
+Laurianne Sitbon
+Queensland University of Technology
+Brisbane, Australia
+l.sitbon@qut.edu.au
+Monica Landoni
+Università della Svizzera italiana
+Lugano, Switzerland
+monica.landoni@usi.ch
+ABSTRACT
+This paper explores the potential of AI-generated artwork to facili-
+tate creative expression for individuals with intellectual disabilities.
+We present an inclusive approach called "Artistic Fusion", which
+combines original museum artwork with drawings contributed by
+participants with intellectual disabilities, leveraging the Midjour-
+ney platform. By blending these distinct artistic styles, we aim
+to empower individuals with intellectual disabilities to engage in
+artistic creation and foster inclusivity within museum spaces. We
+explore specific strategies for mitigating biases in AI-generated
+content and articulate the technical nuances of the Artistic Fusion
+process. We highlight the possible benefits, challenges, and ethical
+considerations associated with deploying AI in this context through
+a user-centred design approach and iterative feedback cycle.
+CCS CONCEPTS
+• Social and professional topics → People with disabilities; •
+Computing methodologies → Artificial intelligence; • Human-
+centered computing → Accessibility.
+KEYWORDS
+Artificial Intelligence, Artwork, Museum, Creative Expression, Peo-
+ple with Intellectual Disabilities, Engagement
+ACM Reference Format:
+Leandro Soares Guedes, Saminda Sundeepa Balasuriya, Laurianne Sitbon,
+and Monica Landoni. 2024. Artistic Fusion: Exploring the Potential of AI-
+Generated Artwork in Enabling Creative Expression with People with Intel-
+lectual Disabilities. In OzCHI 2023: 35th Australian Conference on Human-
+Computer Interaction, December 04–06, 2023, Wellington, New Zealand. ACM,
+New York, NY, USA, 9 pages. https://doi.org/10.1145/nnnnnnn.nnnnnnn
+Permission to make digital or hard copies of all or part of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for components of this work owned by others than ACM
+must be honored. Abstracting with credit is permitted. To copy otherwise, or republish,
+to post on servers or to redistribute to lists, requires prior specific permission and/or a
+fee. Request permissions from permissions@acm.org.
+OzCHI ’23, December 04–06, 2023, Wellington, New Zealand
+© 2024 Association for Computing Machinery.
+ACM ISBN 978-x-xxxx-xxxx-x/YY/MM...$15.00
+https://doi.org/10.1145/nnnnnnn.nnnnnnn
+1
+INTRODUCTION
+Artistic expression is a fundamental facet of human communica-
+tion and emotional exploration. Engagement in artistic activities
+can support cognitive development, improve emotional well-being,
+and foster social connections [29]. For individuals with intellec-
+tual disabilities, however, conventional avenues of artistic creation
+and engagement with cultural spaces often present challenges that
+limit their opportunities for self-expression and participation. In-
+novative and inclusive approaches to artistic creation and cultural
+engagement are key to enabling meaningful participation.
+Artificial Intelligence (AI) offers promising support and oppor-
+tunities in the domain of artistic expression. AI technologies have
+rapidly advanced, showcasing their capability to generate diverse
+and intricate forms of artwork. In particular, generative AI can
+create new and innovative content by extracting and learning pat-
+terns from existing data. Algorithms such as GPT-4 [20] or Stable
+Diffusion [23] can produce diverse outputs such as images, text, or
+music that are novel and creative [19]. Generative AI also has the
+potential to make web accessibility more personalised for people
+with disabilities by adapting content to the preferences and needs
+of individuals [1].
+Leveraging recent advancements in Generative AI, we intro-
+duce an inclusive approach to creative expressivity that we name
+"Artistic Fusion". This approach combines original museum art-
+work with drawings contributed by participants with intellectual
+disabilities, offering a tool for engaging meaningfully with artwork
+through personal creative inputs to merge with established artistic
+pieces. The fusion of artistic styles not only serves as a means of
+connecting distinct artistic techniques but also has the capacity to
+empower individuals with intellectual disabilities. This empower-
+ment is achieved through people’s active participation in the artistic
+process, by supporting self-expression in the informal learning pro-
+cess; they contribute to the creation of a novel artistic object while
+keeping track of modifications made to the original contribution.
+People with intellectual disabilities have the entitlement to par-
+ticipate in everyday activities and enjoy the benefits of cultural
+heritage. Museums and cultural spaces have long been symbols of
+shared human experiences and narratives, and it is imperative that
+they are welcoming and representative of diverse populations. By
+OzCHI ’23, December 04–06, 2023, Wellington, New Zealand
+Guedes et al.
+incorporating the Artistic Fusion approach, these spaces can trans-
+form into platforms that not only display art but also encourage
+its co-creation by individuals who have traditionally been under-
+represented. Further, to ensure the integrity and authenticity of
+AI-augmented creative processes, we propose a framework that
+includes human curation and moderation. This framework out-
+lines specific roles for curators to oversee the AI’s output, ensuring
+that the final artwork aligns with the creative intentions of the
+participants while remaining culturally sensitive and inclusive.
+This work explores the potential of AI-generated artwork to
+facilitate creative expression for individuals with intellectual dis-
+abilities, empowering individuals with intellectual disabilities to
+engage with informal learning through artistic creation. This en-
+deavour aligns with the broader societal goal of fostering inclusivity,
+enabling active participation, and dismantling barriers that hinder
+creative engagement for all individuals. We implemented Artistic
+Fusion as an activity within a series of workshops where people
+with intellectual disabilities engaged with a museum through var-
+ious technologies. We contribute some initial observations and a
+discussion on how Artistic Fusion can support creative expression,
+inclusion, empowerment, enjoyment and engagement for people
+with intellectual disabilities through an enjoyable activity.
+We organise this paper as follows: We introduce the background
+and related works in Section 2. In Section 3 we explain the method-
+ology we used, including details about our participants, the proce-
+dure we used, and our data and ethical considerations. Section 4
+brings our initial findings about the influence on creative expres-
+sion, inclusivity, empowerment, enjoyment and engagement with
+the Artistic Fusion process. Section 5 brings a discussion about AI.
+Finally, Section 6 concludes this paper.
+2
+BACKGROUND AND RELATED WORK
+2.1
+Technologies for Inclusion of People with
+Intellectual Disabilities
+People with intellectual disabilities are a heterogeneous population
+with diverse abilities, skills, and interests [8]. The formal medical
+definition of the American Association of Intellectual and Devel-
+opmental Disabilities (AAIDD), is that “intellectual disability is a
+disability characterised by limitations in both intellectual function-
+ing and in adaptive behaviour, which covers many everyday social
+and practical skills”, and originates before the age of eighteen [26].
+Societal norms frequently impose ways of communicating that
+don’t align with how people with intellectual disabilities express
+themselves, leading to reduced social interactions [18] and less satis-
+fying relationships [6] compared to those experienced by neurotyp-
+ical individuals. In Australia, people with intellectual disabilities
+are among the most marginalised and disadvantaged groups [4].
+Technology offers avenues for people with intellectual disabilities
+to engage in activities they might otherwise be unable to participate
+in due to physical or social constraints [22]. People with intellec-
+tual disabilities have displayed interest in adopting both novel and
+mainstream technologies [11] and their utilisation of technology
+has seen growth in recent times [21].
+Museums have begun incorporating technology to make their
+exhibits more engaging and inclusive. Augmented and Mixed re-
+ality has been used to immerse museum goers in interactive sto-
+rytelling experiences [12], and immersive technology in museums
+led to more people visiting [27]. Technology tools to assist visu-
+ally impaired people to navigate and learn about art exhibits have
+improved their museum experience and encouraged them to visit
+museums more often [2]. Assistive robots have also been used to
+guide and describe exhibits to visually impaired museum visitors
+enabling them to safely and independently explore the museum
+at their own pace [15]. Museums should also cater to people with
+cognitive disabilities. Low sensory areas and providing items like
+noise-cancelling headphones can help with issues with overstim-
+ulation [14]. Maps and wayfinding apps with different modalities
+for varied abilities can help people navigate the museum. Exhibits
+that have tactile interactions, including a touchscreen that provided
+immediate feedback, were liked by people with autism [14].
+2.2
+Artificial Intelligence and Accessibility
+AI can support people with diverse abilities by providing different
+modalities for engaging with media. For example, automatic alt-
+text by Meta has helped people with visual disabilities engage with
+their social media platforms [30], AI-supported image recognition
+can compare uploaded images with related photos to provide au-
+tomatically generated image descriptions [1] and AI-based voice
+recognition can create automatic captioning for videos on stream-
+ing platforms.
+Furthermore, people with cognitive disabilities (an umbrella term
+that includes people with intellectual disabilities) can benefit from
+the functionality of platforms like ChatGPT to summarise text and
+replace difficult-to-read words with words that are easier to read
+[3]. ChatGPT is a large language model trained by OpenAI. Gener-
+ative Pre-trained Transformer (GPT) models use natural language
+processing to read and create human-like text [3]. ChatGPT can
+also automate accessibility features like text-to-speech captioning
+[5].
+Generative AI can help autistic people who struggle with making
+eye contact by modifying live video content so that it looks like the
+person in the video is making direct eye contact with the viewer
+[10]. However, public sentiment among neurotypical and autistic
+people towards this technology is split where some believe that
+it could help people to communicate more confidently but others
+voiced concern over normalising the neurotypical norms for autistic
+people.
+2.3
+Augmenting abilities with Artificial
+Intelligence
+AI-generated art has been progressing as a type of modern media
+and digital artistic expression since the middle of the 2010s [25].
+During the initial phases of AI art, a small group of artists employed
+data and machine learning (ML) as creative elements, in combina-
+tion with enhancements in model design derived from research
+breakthroughs [25]. During the beginning of the 2020s, a series of
+breakthroughs in machine learning significantly transformed AI
+art, propelling it from a specialised artistic endeavour to a wide-
+spread cultural phenomenon. These accomplishments expanded the
+Artistic Fusion
+OzCHI ’23, December 04–06, 2023, Wellington, New Zealand
+possibilities of text-to-image generators, making their exploration
+unrestricted and available to the general public [25].
+Text-to-image generation platforms can be used as a form of self-
+expression and to visualise ideas that people have in their heads
+[25]. Generative AI platforms like Midjourney have been used to
+generate speculative designs and visually represent artifacts that
+have not been brought into existence yet [17]. This process can
+give rise to a fresh and realistic embodiment of concepts. Both the
+human and the computer are influenced by each other’s inputs,
+leading to a shared creative responsibility for the final product [7].
+This new approach involves a blending of computer and human
+initiative, and the partnership of human-computer co-creativity
+can be observed as flourishing along a spectrum spanning from
+human creativity to independent computational creativity [9].
+However, there are some concerns when it comes to the use of
+AI. One of the main concerns with internet-based AI technology is
+the collection of user data, the issue of consent and how this data is
+being used [1]. The collection of sensitive data can particularly lead
+to risks to the safety and privacy of individuals with a disability.
+Another concern is the algorithmic bias that is present. ChatGPT
+and similar language models have the potential to sustain or mag-
+nify pre-existing biases present within the training data they utilise
+[5] and even spread misinformation.
+3
+METHODOLOGY
+3.1
+Participants
+All individuals included in our study are considered research par-
+ticipants according to their identification by the supporting organ-
+isation and the National Disability Insurance Scheme (NDIS) as
+individuals with an intellectual disability. They receive assistance
+within urban communities located in Australia, and they possess
+Australian citizenship. They take part in group settings, where a
+variety of activities are provided to facilitate their developmental
+goals. This support is offered both within a day centre and in the
+broader community. We refrained from inquiring about medical
+diagnoses, as such inquiries are considered irrelevant to the scope
+of our research. Furthermore, the conducting of IQ tests was not
+included in our research methodology, since we considered them
+to be irrelevant to the nature of our study. We had five participants
+in total during the two weeks of activities. P1 is a man in his late
+40s, P2 is a man in his 50s, P3 is a woman in her 30s, and P4 and P5
+are men in their early 20s.
+3.2
+Research Design and Procedure
+This study builds on observations and collective reflections of a
+series of three workshops with a group of five adults with intel-
+lectual disabilities and two support workers. The workshops were
+offered as an activity about art and technology at the Queensland
+University of Technology (QUT) for three sessions of two hours in
+three consecutive weeks.
+During the first workshop, participants were introduced to the
+museum artworks using an accessible application called ACCESS+
+[24, 28]. Subsequently, they were taken on a museum visit to the
+QUT Art Museum, where they had the opportunity to engage with
+original artworks by the Australian artist Ethel Spowers (1890–1947).
+During the museum visit, participants were encouraged to interact
+with the researchers, a cultural mediator, and a social robot to estab-
+lish a deeper connection with the artworks. Following their museum
+visit, participants were encouraged to express what they found most
+appealing about the museum experience through drawings. These
+drawings were intended to capture their personal interpretations
+and emotions related to the artworks they encountered. The initial
+set of drawings was subsequently used as a foundation to create
+the initial examples of Artistic Fusion.
+The step-by-step Artistic Fusion process was as follows: partic-
+ipants’ drawings were scanned and uploaded to the Midjourney
+platform, where a set of parameters pre-determined by the research
+team guided the fusion of images. While Midjourney provided a ro-
+bust starting point, fine-tuning was occasionally required to better
+align the AI’s output with the participants’ vision.
+During the second workshop, participants were presented with
+the outcomes of their individual drawings merged with the original
+museum artworks. The first author provided an explanation of
+the "Artistic Fusion" concept and guided participants on how to
+reinterpret their own creations in light of this fusion. Participants
+were then prompted to create new artistic expressions inspired by
+the original artworks, their initial drawings, and the AI-generated
+Artistic Fusion images.
+After that, with their new drawings scanned and available on the
+computer, a researcher was facilitating the Artistic Fusion process.
+Everyone could see the ongoing process on a screen projected in
+the middle of the workshop room. The support workers helped
+participants whenever needed. Participants were given the oppor-
+tunity to select both their own artwork and their preferred available
+original museum artwork, Artwork 1 (Fig. 1a) or Artwork 2 (Fig.
+1b). This selection process provided insights into their preferences
+and creative inclinations. Following the processing stage, partici-
+pants could select one image between four AI-generated images to
+upscale, generating an increased size and more detailed version of
+their choice.
+The research employed a mixed-methods approach to gather
+detailed feedback from participants, focusing on qualitative over
+quantitative data. This approach entailed the qualitative analysis
+of participants’ feedback, including narrative responses, emotional
+reactions, and the extent of assistance and collaboration with the
+facilitators. Quantitative data was collected in instances such as
+when participants selected an image to upscale (from image one
+to four) or when identifying their preferred AI outcome. The ob-
+servations were made by a team of researchers who also captured
+video data during the workshops (authors 1, 2 and 3). The collec-
+tive reflections were held together with the workshop organisers
+(authors 1, 2, 3, and three students) and the researchers at the end
+of each workshop for a duration of around 45 minutes and were
+audio recorded. Author 4 was overseas helping us to create the
+research and write this paper. In this paper, we focus on observa-
+tions and reflections that relate to the Artistic Fusion activity. We
+analysed participants’ reactions and preferences in order to answer
+our research questions.
+3.3
+Data and Ethical Considerations
+Informed consent was secured from participants or their guardians
+prior to participation. Privacy and confidentiality were maintained
+OzCHI ’23, December 04–06, 2023, Wellington, New Zealand
+Guedes et al.
+(a) Artwork 1 (A1): School is Out (1936)
+(b) Artwork 2 (A2): Balloons (c. 1920)
+Figure 1: Artworks by the Australian artist Ethel Spowers
+(1890–1947).
+throughout, with participants empowered to decline engagement
+in artwork creation or workshops. We provided all the possible
+measures to minimise potential discomfort or harm. Participants’
+drawings were scanned and we kept them safe from identification,
+without any private information stored. We recorded a video of the
+workshop for further analysis. The video was saved in the university
+server and was only accessed for analysing participants’ reactions
+or details related to the research procedure. No data related to par-
+ticipants’ names or sensitive personal information was stored. For
+the AI-generated images, we used Midjourney, uploading images
+that had no identification of our participants. The museum has the
+copyrights to edit and distribute the original artworks, making it
+possible for our team to use them with Artistic Fusion and include
+them in the paper because of this collaboration. The ethics approval
+for this study was granted by the QUT ethics committee, as part of
+protocol number [2000000213]. The protocol supports voluntary
+and informed participation with easy read consent forms, verbal
+reminders to participants while they take part in the study and
+attention to body language for signs of wishing to quit the study.
+4
+INITIAL FINDINGS
+Participants engaged with museum artworks through the ACCESS+
+app, providing a preliminary introduction to the artistic content.
+This interaction was integral in preparing participants for their mu-
+seum visit to the QUT Art Museum. The importance of familiarising
+participants with the museum’s offerings prior to their physical
+visit was evident. This preparation facilitated a smoother engage-
+ment process during their museum visit, enhancing their overall
+experience. During the museum visit, participants interacted with
+original artworks by Ethel Spowers, facilitated by researchers, a
+cultural mediator, and a social robot. These facilitators played a
+role in guiding discussions, providing historical context, and foster-
+ing conversations around the artworks. However, their presence
+was complementary rather than directive. Participants retained
+the independence to form their interpretations, ask questions, and
+engage with the experience. This engagement allowed participants
+to establish deeper connections with the artworks, facilitating per-
+sonal interpretations and emotional connections, with expressions
+of awe and quiet contemplation. The experience supported the
+participants’ ability to express their feelings and thoughts visually
+through Artistic Fusion.
+4.1
+Influence on Creative Expression
+The initial Artistic Fusion process marked a transformative juncture
+where participants’ creative expressions through their drawings
+took on a new dimension. Their drawings were merged with the
+original museum artworks available in Fig. 1. The images generated
+are available in Fig. 2. Four participants contributed with drawings
+(P1, P2, P3, and P4), while one participant (P5) was absent, joining
+the following workshop. This process ignited new creative perspec-
+tives, leading participants to perceive their creations differently.
+Upon receiving their Artistic Fusion-created artworks at the
+workshop’s outset, participants displayed a mix of emotions, pri-
+marily excitement and joy, witnessing their creations fused with AI.
+P1 said, “It’s beautiful”. When questioned about their preference
+between their original creations and the AI-generated versions, all
+participants favoured the latter. One participant (P4) showed his
+favourite AI-generated image, the central picture available in Fig.
+2d. He highlighted the colours and the number of robots in the
+generated image.
+Artistic Fusion
+OzCHI ’23, December 04–06, 2023, Wellington, New Zealand
+(a) P1
+(b) P2
+(c) P3
+(d) P4
+Figure 2: Images generated after the museum visit. On each subfigure, clockwise, the transformation from participants’ original
+drawings to AI-generated fusion with Artwork 1 and Artwork 2.
+The introduction of the Artistic Fusion process had an impact
+on the participants’ subsequent creative expression. Once they re-
+alised that their drawings could be merged with existing artworks
+through AI, their approach to creation underwent a noticeable
+transformation, adding more colours or focusing on different as-
+pects of the original artwork. The prospect of collaboration with
+AI and established artworks seemed to broaden their creative hori-
+zons. Participants proudly showcased their fused creations, often
+identifying elements from their original drawings that had been
+transformed through the fusion process. This sense of ownership
+over the results was not diminished by the AI’s involvement; in-
+stead, it seemed to solidify their pride in their contributions to the
+collaborative pieces.
+4.2
+Inclusivity and Empowerment
+Participants’ journey continued through a creative empowerment
+workshop. Here, they engaged in the Artistic Fusion process them-
+selves, selecting their own artwork and their preferred original
+museum artwork. This empowerment step allowed participants to
+actively influence the fusion process, granting them a greater sense
+of agency and ownership over their artistic endeavours. Some of the
+fused drawings are available in Fig. 3. All participants contributed
+with drawings. We are displaying four examples, two originating
+from Artwork 1, and the other two from Artwork 2.
+During the workshop, participants exhibited a high level of
+agency and engagement in operating the application. While some
+participants required occasional prompting and support to navi-
+gate through the Artistic Fusion process, the overall experience
+showcased a high degree of inclusivity. The participants’ ability
+to independently select their preferred original artwork and col-
+laboratively choose their drawings for fusion highlighted their
+active involvement in the creative journey. A strong collaboration
+developed between participants, researchers, a social robot, a cul-
+tural mediator, and support workers to create an inclusive and
+dynamic artistic environment, fostering a sense of community and
+shared accomplishment. The support workers played a crucial role
+in providing assistance and guidance throughout the process. Their
+presence facilitated a smooth workflow and ensured that partici-
+pants felt comfortable and empowered to express themselves fully.
+Support workers limited their input to prompting participants to
+choose their artworks and at no point, made suggestions of what
+they might prefer.
+The participants’ influence over the outputs was prominently
+demonstrated during the workshop. The choices made by partic-
+ipants were diverse and indicative of their distinct artistic pref-
+erences. Notably, participants often explored multiple rounds of
+fusion, opting for different combinations to see how their drawings
+interacted with the original museum artwork. This experimen-
+tation suggested a high level of control and ownership over the
+creative process. While some participants did occasionally choose
+the first proposed fusion, many actively sought out new combi-
+nations, showcasing their autonomy in shaping the final artistic
+outcomes. This dynamic decision-making process underscored the
+OzCHI ’23, December 04–06, 2023, Wellington, New Zealand
+Guedes et al.
+(a) P1’s drawing and the fusion with A1
+(b) P5’s drawing and the fusion with A1
+(c) P2’s drawing and the fusion with A2
+(d) P4’s drawing and the fusion with A2
+Figure 3: Images generated during the workshop. On each subfigure, the transformation from participants’ original drawings
+(left) to AI-generated fusion with the original Artwork.
+participants’ agency and control over the creative collaboration,
+further emphasising the success of the inclusive and empowering
+workshop environment.
+4.3
+Enjoyment and Engagement
+The analysis of participant reactions and preferences revealed sev-
+eral interesting insights. A noteworthy observation was the evident
+delight and curiosity displayed by many participants during the
+process of merging their drawings with the original artworks. Par-
+ticipants value the co-creation capabilities of generative AI as they
+can feel ownership over the creations and learn from the process
+[13]. Additionally, the engagement with the AI-generated Artistic
+Fusion images added a new dimension to their creative experi-
+ence. Some participants discussed how the AI-generated images
+provided unique combinations that they hadn’t considered before,
+which sparked creativity boosting.
+During the workshop, participants shared their creations with
+us, underscoring the impact of Artistic Fusion. P2 described his
+contribution - designing the tablet interface of the social robot. He
+was previously interacting with the tablet to play a game about
+the museum artworks, and this inspired his new drawing. The
+final fusion result (depicted in Fig. 3c) incorporated his artwork as
+a framing element for the original masterpiece. This integration
+seamlessly aligned with the tablet’s purpose of showcasing artwork.
+As a result, P2 found himself captivated and content with the result.
+As participants explored the fusions, they were presented with the
+option to experiment with the remaining different artwork. Among
+them, P5, a minimally verbal newcomer to the workshop, became
+acquainted with the artworks and effectively conveyed his thoughts
+through gestures. These gestures included a confirming thumbs up
+or pointing, demonstrating the accessibility and engagement of the
+experience.
+In the pursuit of discerning individual inclinations, we inquired
+the participants regarding their preferences between their own cre-
+ations and those generated by AI. P1 and P3 expressed a preference
+for their own drawings. Participant 3 specifically emphasised, "I like
+mine because it’s human". On the other hand, P4 and P5 favoured
+the outcome of Artistic Fusion. P2 displayed uncertainty, oscillating
+between preferences before ultimately concluding a preference for
+both. This variety in preferences highlighted the diverse range of
+attitudes participants had toward the co-creative process with AI.
+5
+DISCUSSION
+AI techniques possess the characteristics of creativity as they can
+exhibit novelty, value, and unexpectedness within a given applica-
+tion context. As a result, the rise of generative AI approaches holds
+Artistic Fusion
+OzCHI ’23, December 04–06, 2023, Wellington, New Zealand
+significant promise in supporting creative endeavours in diverse
+manners [19]. We discuss how Artistic Fusion can contribute to
+participating approaches for co-designers, as well as its current
+limitations and risks.
+Due to this vast potential to amplify human creativity, it is essen-
+tial to co-design generative AI systems with various stakeholders to
+understand their needs and requirements [13]. Initiating the process
+of selecting both the initial artwork and the original museum pieces
+enabled researchers to reveal significant patterns in participants’
+aesthetic preferences and artistic inclinations. This exploration al-
+lowed researchers to understand how individuals with intellectual
+disabilities engage with art, discerning the particular aspects of
+the original artworks that held a strong connection for them. This
+investigation not only added depth to the collaborative process but
+also set the foundation for a more comprehensive, inclusive, and
+impactful artistic involvement within this community, recognising
+divergent creative modes [16].
+While Artistic Fusion is intriguing, it is important to recognise
+that there are potential drawbacks and biases associated with the
+use of AI in this context. The blending of AI-generated artwork with
+contributions from individuals with intellectual disabilities raises
+questions about the authenticity and originality of the final artwork
+[31]. While the goal is to empower individuals with intellectual
+disabilities, there is a potential risk of inadvertently reinforcing
+a power dynamic where the AI-generated elements overshadow
+the contributions of the participants. We attempted to mitigate this
+challenge by providing alternatives to our participants, allowing
+them to continue editing the AI creation to fulfil their artistic needs.
+However, further investigations would help address these questions
+more in-depth.
+In Artistic Fusion, the AI’s interpretation of cultural elements
+might not be accurate or sensitive, potentially leading to misrepre-
+sentations or cultural insensitivity within the collaborative artwork.
+Participants might question whether the artwork truly represents
+their emotions and experiences or if it is an externally biased in-
+terpretation, in a similar way to what a member of their support
+network might impose. A true collaborative tool would be able to
+listen in the way that collaborative artists do to capture the intent
+and emotions, beyond the aesthetic features of the combination.
+That being said, Artistic Fusion is a tool that participants can choose
+to use as they see fit, as they may continue their interpretations
+independently.
+To address the potential biases and concerns identified, we pro-
+pose a framework for human-AI collaboration that includes the
+role of human curators and moderators. These individuals would
+not only oversee the AI’s output but would also bring an under-
+standing of cultural contexts and sensitivities to the process. They
+would work to identify and correct any misrepresentation or biases
+in the AI-generated content, drawing on diverse perspectives and
+inclusive practices. The correction process would involve iterative
+cycles of review and adjustment, where the participants’ feedback
+is continuously sought to ensure that the final artwork aligns with
+their intentions and is culturally sensitive.
+Finally, AI models can inadvertently under-represent certain
+groups, as they learn from existing data and replicate biases present
+in society. This is likely to lead to an uneven representation of
+artistic styles or cultural backgrounds in the final fusion. Intro-
+ducing human curators or moderators who review and refine the
+AI-generated elements can help correct bias and ensure that the
+final artwork respects the intentions and emotions of the partici-
+pants. Continuing the user-centred design approach and feedback
+cycle highlighted in the paper is crucial. Regular engagement with
+participants and iterative adjustments based on their input can help
+address biases as they emerge.
+6
+CONCLUSIONS
+This paper has explored the transformative potential of AI-generated
+artwork as a means to promote creative expression and inclusivity
+among individuals with intellectual disabilities. Through the lens
+of the "Artistic Fusion" approach, which combines original museum
+artworks with participants’ drawings, this study has highlighted
+the power of collaboration between human creativity and AI ca-
+pabilities. The research journey demonstrated that by leveraging
+technology and innovative methodologies, individuals with intel-
+lectual disabilities can engage in meaningful artistic creation that
+transcends barriers and amplifies their voices. The emphasis on
+participatory approaches in this study ensured that participants’
+needs, preferences, and agency were at the forefront of the creative
+process.
+The Artistic Fusion concept not only bridged diverse artistic
+styles but also provided participants with a platform to contribute
+to the ever-evolving landscape of art creation. The collaborative
+workshop sessions revealed the potency of participant agency in
+shaping AI-generated enhancements, challenging traditional no-
+tions of passive engagement. The research aligns with the aspira-
+tion of fostering inclusivity and dismantling barriers to creative
+engagement.
+The journey uncovered emotions like excitement, joy, and cu-
+riosity as participants saw their creations fuse with AI-generated
+artwork. This process inspired creativity and intensified partici-
+pants’ enjoyment of the artistic process. The Artistic Fusion process
+empowered participants, fostering inclusivity and a genuine con-
+nection with their contributions. AI as a collaborative tool expanded
+creative horizons, encouraging experimentation. Interaction with
+AI-generated collaborative artwork facilitated personal interpreta-
+tions and emotional bonds with the art, enabling expression.
+Combining AI-generated elements with participants’ work raises
+concerns about authenticity and originality. Cultural sensitivity and
+bias require careful consideration. Collaborative artwork might in-
+advertently perpetuate misrepresentations, raising concerns about
+capturing emotions without introducing biases. Inherent biases in
+AI models could lead to uneven representation of artistic styles
+or cultural backgrounds. Meticulous curation and human modera-
+tion are crucial to mitigate biases and ensure respectful represen-
+tation. In navigating AI, creativity, and inclusivity, emphasising
+benefits while addressing challenges is essential. The relationship
+between human imagination and AI innovation promises an artis-
+tic landscape that celebrates human diversity and pushes creative
+boundaries forward.
+OzCHI ’23, December 04–06, 2023, Wellington, New Zealand
+Guedes et al.
+ACKNOWLEDGMENTS
+We would like to thank our wonderful participants supported by
+Endeavour Foundation, the support workers who accompanied our
+participants during the activities, the QUT Art Museum and their
+engagement officer Renae Belton, and SNSF for their support and
+funding through a Doctoral Mobility grant. We would also like to
+thank members of the QUT Techshops team, Maria Hoogrtrate and
+Ahmed Abbas, and the support of the ARC Future Fellowship of
+the Australian Research Council (grant FT190100855 ). We finally
+acknowledge continued support from the Queensland University of
+Technology (QUT) through the Centre for Robotics and the Centre
+for Justice.
+REFERENCES
+[1] Shadi Abou-Zahra, Judy Brewer, and Michael Cooper. 2018. Artificial Intel-
+ligence (AI) for Web Accessibility: Is Conformance Evaluation a Way For-
+ward?. In Proceedings of the 15th International Web for All Conference (W4A
+’18). Association for Computing Machinery, New York, NY, USA, 1–4.
+https:
+//doi.org/10.1145/3192714.3192834
+[2] Saki Asakawa, João Guerreiro, Daisuke Sato, Hironobu Takagi, Dragan Ahme-
+tovic, Desi Gonzalez, Kris M. Kitani, and Chieko Asakawa. 2019. An Independent
+and Interactive Museum Experience for Blind People. In Proceedings of the 16th
+International Web for All Conference (W4A ’19). Association for Computing Ma-
+chinery, New York, NY, USA, 1–9. https://doi.org/10.1145/3315002.3317557
+[3] David Baidoo-Anu and Leticia Owusu Ansah. 2023. Education in the Era of
+Generative Artificial Intelligence (AI): Understanding the Potential Benefits of
+ChatGPT in Promoting Teaching and Learning.
+https://doi.org/10.2139/ssrn.
+4337484
+[4] Christine Bigby and Ilan Wiesel. 2011. Encounter as a dimension of social
+inclusion for people with intellectual disability: Beyond and between community
+presence and participation. Journal of Intellectual & Developmental Disability 36,
+4 (Dec. 2011), 263–267. https://doi.org/10.3109/13668250.2011.619166 Publisher:
+Taylor & Francis _eprint: https://doi.org/10.3109/13668250.2011.619166.
+[5] Aras Bozkurt, Junhong Xiao, Sarah Lambert, Angelica Pazurek, Helen Crompton,
+Suzan Koseoglu, Robert Farrow, Melissa Bond, Chrissi Nerantzi, Sarah Honey-
+church, Maha Bali, Jon Dron, Kamran Mir, Bonnie Stewart, Eamon Costello,
+Jon Mason, Christian Stracke, Enilda Romero-Hall, Apostolos Koutropoulos,
+Cathy Mae Toquero, Lenandlar Singh, Ahmed Tlili, Kyungmee Lee, Mark Nichols,
+Ebba Ossiannilsson, Mark Brown, Valerie Irvine, Juliana Raffaghelli, Gema Santos-
+Hermosa, Orna Farrell, Taskeen Adam, Ying Thong, Sunagul Sani-Bozkurt,
+Ramesh Sharma, Stefan Hrastinski, and Petar Jandrić. 2023. Speculative Futures
+on ChatGPT and Generative Artificial Intelligence (AI): A Collective Reflection
+from the Educational Landscape. Asian Journal of Distance Education 18, 1 (Jan.
+2023). https://digitalcommons.odu.edu/teachinglearning_fac_pubs/199
+[6] Darren Chadwick, Caroline Wesson, and Chris Fullwood. 2013. Internet Access
+by People with Intellectual Disabilities: Inequalities and Opportunities. Future
+Internet 5, 3 (Sept. 2013), 376–397. https://doi.org/10.3390/fi5030376
+[7] Nicholas Davis. 2013. Human-Computer Co-Creativity: Blending Human and
+Computational Creativity.
+Proceedings of the AAAI Conference on Artificial
+Intelligence and Interactive Digital Entertainment 9, 6 (2013), 9–12.
+https:
+//doi.org/10.1609/aiide.v9i6.12603 Number: 6.
+[8] Laura Davy. 2015. Philosophical Inclusive Design: Intellectual Disability and
+the Limits of Individual Autonomy in Moral and Political Theory. Hypatia 30, 1
+(2015), 132–148. https://doi.org/10.1111/hypa.12119
+[9] Sebastian Deterding, Jonathan Hook, Rebecca Fiebrink, Marco Gillies, Jeremy
+Gow, Memo Akten, Gillian Smith, Antonios Liapis, and Kate Compton. 2017.
+Mixed-Initiative Creative Interfaces. In Proceedings of the 2017 CHI Conference
+Extended Abstracts on Human Factors in Computing Systems (CHI EA ’17). As-
+sociation for Computing Machinery, New York, NY, USA, 628–635.
+https:
+//doi.org/10.1145/3027063.3027072
+[10] Deepak Giri and Erin Brady. 2023. Exploring outlooks towards generative AI-
+based assistive technologies for people with Autism. https://doi.org/10.48550/
+arXiv.2305.09815 arXiv:2305.09815 [cs].
+[11] Leandro S. Guedes, Irene Zanardi, Marilina Mastrogiuseppe, Stefania Span, and
+Monica Landoni. 2023. “Is This Real?”: Assessing the Usability and Accessibility of
+Augmented Reality with People with Intellectual Disabilities. In Universal Access
+in Human-Computer Interaction, Margherita Antona and Constantine Stephanidis
+(Eds.). Springer Nature Switzerland, Cham, 91–110.
+[12] Ramy Hammady, Minhua Ma, and Carl Strathearn. 2020. Ambient Information
+Visualisation and Visitors’ Technology Acceptance of Mixed Reality in Museums.
+Journal on Computing and Cultural Heritage 13, 2 (June 2020), 9:1–9:22. https:
+//doi.org/10.1145/3359590
+[13] Ariel Han and Zhenyao Cai. 2023. Design implications of generative AI systems
+for visual storytelling for young learners. In Proceedings of the 22nd Annual ACM
+Interaction Design and Children Conference (IDC ’23). Association for Comput-
+ing Machinery, New York, NY, USA, 470–474. https://doi.org/10.1145/3585088.
+3593867
+[14] Elizabeth Hoskin, Aditi Singh, Nicola Oddy, Adrian L. Jessup Schneider, Gabrielle
+Trepanier, Chantal Trudel, and Audrey Girouard. 2020. Assessing the Experi-
+ence of People with Autism at the Canada Science and Technology Museum. In
+Extended Abstracts of the 2020 CHI Conference on Human Factors in Computing
+Systems (CHI EA ’20). Association for Computing Machinery, New York, NY, USA,
+1–7. https://doi.org/10.1145/3334480.3382834
+[15] Seita Kayukawa, Daisuke Sato, Masayuki Murata, Tatsuya Ishihara, Hironobu
+Takagi, Shigeo Morishima, and Chieko Asakawa. 2023. Enhancing Blind Visitor’s
+Autonomy in a Science Museum Using an Autonomous Navigation Robot. In
+Proceedings of the 2023 CHI Conference on Human Factors in Computing Systems
+(CHI ’23). Association for Computing Machinery, New York, NY, USA, 1–14.
+https://doi.org/10.1145/3544548.3581220
+[16] Kay Kender, Christopher Frauenberger, Johanna Pichlbauer, and Katharina
+Werner. 2020. Children as Designers - Recognising Divergent Creative Modes
+in Participatory Design. In Proceedings of the 11th Nordic Conference on Human-
+Computer Interaction: Shaping Experiences, Shaping Society (Tallinn, Estonia)
+(NordiCHI ’20). Association for Computing Machinery, New York, NY, USA, Arti-
+cle 18, 11 pages. https://doi.org/10.1145/3419249.3420145
+[17] Lauren Lin and Duri Long. 2023. Generative AI Futures: A Speculative Design
+Exploration. In Proceedings of the 15th Conference on Creativity and Cognition
+(C&amp;C ’23). Association for Computing Machinery, New York, NY, USA,
+380–383. https://doi.org/10.1145/3591196.3596616
+[18] Keith R. McVilly, Roger J. Stancliffe, Trevor R. Parmenter, and Rosanne M. Burton-
+Smith. 2006. ‘I Get by with a Little Help from my Friends’: Adults with Intellectual
+Disability Discuss Loneliness1. Journal of Applied Research in Intellectual Disabil-
+ities 19, 2 (2006), 191–203. https://doi.org/10.1111/j.1468-3148.2005.00261.x
+[19] Michael Muller, Lydia B Chilton, Anna Kantosalo, Q. Vera Liao, Mary Lou Maher,
+Charles Patrick Martin, and Greg Walsh. 2023. GenAICHI 2023: Generative
+AI and HCI at CHI 2023. In Extended Abstracts of the 2023 CHI Conference on
+Human Factors in Computing Systems (CHI EA ’23). Association for Computing
+Machinery, New York, NY, USA, 1–7. https://doi.org/10.1145/3544549.3573794
+[20] OpenAI. 2023. GPT-4. https://openai.com/gpt-4
+[21] S. B. Palmer, M. L. Wehmeyer, D. K. Davies, and S. E. Stock. 2012. Family mem-
+bers’ reports of the technology use of family members with intellectual and
+developmental disabilities. Journal of Intellectual Disability Research 56, 4 (2012),
+402–414. https://doi.org/10.1111/j.1365-2788.2011.01489.x
+[22] Camilla Ramsten and Helena Blomberg. 2019. Staff as Advocates, Moral Guardians
+and Enablers – Using ICT for Independence and Participation in Disability Ser-
+vices. Scandinavian Journal of Disability Research 21, 1 (Nov. 2019), 271–281.
+https://doi.org/10.16993/sjdr.608
+[23] Robin Rombach, Andreas Blattmann, Dominik Lorenz, Patrick Esser, and Björn
+Ommer. 2022. High-Resolution Image Synthesis with Latent Diffusion Models.
+arXiv:2112.10752 [cs.CV]
+[24] Leandro S. Guedes, Irene Zanardi, Marilina Mastrogiuseppe, Stefania Span, and
+Monica Landoni. 2023. Co-Designing a Museum Application with People with
+Intellectual Disabilities: Findings and Accessible Redesign. In Proceedings of the
+European Conference on Cognitive Ergonomics 2023 (Swansea, United Kingdom)
+(ECCE ’23). Association for Computing Machinery, New York, NY, USA, Article
+27, 8 pages. https://doi.org/10.1145/3605655.3605687
+[25] Téo Sanchez. 2023. Examining the Text-to-Image Community of Practice: Why
+and How do People Prompt Generative AIs?. In Proceedings of the 15th Conference
+on Creativity and Cognition (C&amp;C ’23). Association for Computing Machinery,
+New York, NY, USA, 43–61. https://doi.org/10.1145/3591196.3593051
+[26] Robert L Schalock, Sharon A Borthwick-Duffy, Valerie J Bradley, Wil HE Buntinx,
+David L Coulter, Ellis M Craig, Sharon C Gomez, Yves Lachapelle, Ruth Luckasson,
+Alya Reeve, et al. 2010. Intellectual disability: Definition, classification, and systems
+of supports. ERIC.
+[27] Francesca Serravalle, Alberto Ferraris, Demetris Vrontis, Alkis Thrassou, and
+Michael Christofi. 2019. Augmented reality in the tourism industry: A multi-
+stakeholder analysis of museums. Tourism Management Perspectives 32 (Oct.
+2019), 100549. https://doi.org/10.1016/j.tmp.2019.07.002
+[28] Leandro Soares Guedes, Valentina Ferrari, Marilina Mastrogiuseppe, Stefania
+Span, and Monica Landoni. 2022. ACCESS+: Designing a Museum Application
+for People with Intellectual Disabilities. In Computers Helping People with Spe-
+cial Needs: 18th International Conference, ICCHP-AAATE 2022, Lecco, Italy, July
+11–15, 2022, Proceedings, Part I (Milan, Italy). Springer-Verlag, Berlin, Heidelberg,
+425–431. https://doi.org/10.1007/978-3-031-08648-9_49
+[29] Helen Spandler, Jenny Secker, S. Hacking, Lynne Kent, and Jo Shenton. 2007.
+Mental health, social inclusion and arts: developing the evidence base. https:
+//api.semanticscholar.org/CorpusID:141092244
+[30] Shaomei Wu, Jeffrey Wieland, Omid Farivar, and Julie Schiller. 2017. Auto-
+matic Alt-text: Computer-generated Image Descriptions for Blind Users on a
+Artistic Fusion
+OzCHI ’23, December 04–06, 2023, Wellington, New Zealand
+Social Network Service. In Proceedings of the 2017 ACM Conference on Com-
+puter Supported Cooperative Work and Social Computing (CSCW ’17). Asso-
+ciation for Computing Machinery, New York, NY, USA, 1180–1192.
+https:
+//doi.org/10.1145/2998181.2998364
+[31] I Yusa, Yu Yu, and Tetiana Sovhyra. 2022. Reflections on the Use of Artificial
+Intelligence in Works of Art. Journal of Aesthetics, Design, and Art Management
+(2022), 152–167.
+View publication stats

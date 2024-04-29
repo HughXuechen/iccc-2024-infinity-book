@@ -1,0 +1,3077 @@
+ 
+ 
+ 
+ 
+ 
+© Copyright 2018 
+ 
+Robert Twomey 
+ 
+ 
+ 
+ 
+ 
+Machines for Living 
+ 
+ 
+ 
+Robert Twomey 
+ 
+ 
+ 
+ 
+A dissertation 
+ 
+submitted in partial fulfillment of the 
+ 
+requirements for the degree of 
+ 
+ 
+ 
+Doctor of Philosophy 
+ 
+ 
+ 
+ 
+University of Washington 
+ 
+2018 
+ 
+ 
+ 
+ 
+Reading Committee: 
+ 
+Juan Pampin, Chair 
+ 
+Richard Karpen 
+ 
+Afroditi Psarra 
+ 
+ 
+ 
+ 
+ 
+Program Authorized to Offer Degree:  
+ 
+Digital Arts and Experimental Media 
+ 
+ 
+ 
+ 
+ 
+University of Washington 
+ 
+ 
+ 
+Abstract 
+ 
+ 
+ 
+ 
+Machines for Living 
+ 
+ 
+ 
+Robert Twomey 
+ 
+ 
+ 
+Chair of the Supervisory Committee: 
+Associate Professor and Director of DXARTS 
+Dr. Juan C. Pampin 
+Digital Arts and Experimental Media 
+ 
+ 
+This thesis describes A Machine for Living In, a digital media artwork using newly available 
+computational and sensing tools to study the home as a site of intimate life. The title invokes Le 
+Corbusier's modernist framing of the house as a machine to interpret the promise of contemporary 
+smart home technologies. The project has two distinct phases: the construction and inhabitation of 
+a functional smart home system, followed by an exhibition of processed data as a multi-part digital 
+art installation. In a process of joint human-machine authorship, this system produces a complex 
+portrait of the home: as a space of language, intimacy, bodily practice, and quotidian narrative. 
+Compositionally, it contrasts utopian illusions of beautiful, frictionless utility with artistic 
+strategies generating insight into the messy, material realities of the everyday.  
+ 
+ 
+The thesis begins with three key frames of reference for the work in Bachelard’s topoanalysis, 
+critical engineering design, and site-specific and systems-oriented arts production. It describes 
+early projects pursing the psychological study of intimate life, leading to the current work. It 
+recounts the conceptual and technical development of A Machine for Living In, and discusses the 
+composition of the resulting exhibition. The thesis concludes with a speculative framing of this 
+research as a kind of introspective design: a hybrid practice of targeted inquiry to provide insight 
+about both human and machine. 
+ 
+ 
+ 
+i 
+ 
+TABLE OF CONTENTS 
+List of Figures ........................................................................................................................... iii 
+List of Tables .............................................................................................................................. v 
+Chapter 1. Introduction ............................................................................................................... 1 
+1.1 
+Overview ..................................................................................................................... 1 
+1.2 
+Structure ...................................................................................................................... 2 
+Chapter 2. Art, Technology, and Intimate Life ............................................................................ 5 
+2.1 
+Topoanalysis ............................................................................................................... 6 
+2.2 
+Site Specificity ............................................................................................................ 9 
+2.3 
+Systems Construction ................................................................................................ 12 
+2.4 
+Critical Engineering Design ....................................................................................... 15 
+2.4.1 Inverse Technologies ............................................................................................. 18 
+2.4.2 Machine Therapy ................................................................................................... 20 
+2.5 
+Art to be Inhabited ..................................................................................................... 23 
+Chapter 3. Strategies and Explorations ...................................................................................... 29 
+3.1 
+Technical Domain ..................................................................................................... 29 
+3.2 
+Sites of Meaning........................................................................................................ 31 
+3.3 
+Formal Strategies ....................................................................................................... 32 
+3.3.1 Model-Limited Experience .................................................................................... 32 
+3.3.2 Opportunistic Systems and Projective Identity ....................................................... 35 
+3.3.3 Digital Surrogates .................................................................................................. 36 
+3.3.4 Machine Observers ................................................................................................ 40 
+3.3.5 Machine as Metaphor ............................................................................................ 44 
+Chapter 4. A Machine for Living In .......................................................................................... 49 
+4.1 
+Arriving at Home....................................................................................................... 49 
+4.2 
+Le Corbusier and Machine Living.............................................................................. 53 
+ 
+ 
+ii 
+4.3 
+House-Machines ........................................................................................................ 55 
+4.4 
+Site Observation ........................................................................................................ 66 
+4.4.1 Instrumentalized Home .......................................................................................... 66 
+4.4.2 Geometric Space .................................................................................................... 71 
+4.4.3 Physical Sensors .................................................................................................... 72 
+4.4.4 Video Nodes .......................................................................................................... 74 
+4.4.5 Audio Nodes .......................................................................................................... 76 
+4.4.6 Black Box Recorder ............................................................................................... 77 
+4.4.7 What the Machine Saw .......................................................................................... 78 
+4.5 
+Constructed Home ..................................................................................................... 79 
+4.5.1 Exhibition Space .................................................................................................... 80 
+4.5.2 Visual Elements ..................................................................................................... 85 
+4.5.3 Model Smart Home / Home of the Future .............................................................. 91 
+4.5.4 Temporal Composition and Joint Authorship ......................................................... 94 
+Chapter 5. Conclusions and Future Directions ......................................................................... 103 
+5.1 
+Conclusions on A Machine for Living In ................................................................. 103 
+5.1.1 Sensing and Home Instrumentation ...................................................................... 103 
+5.1.2 Data Analysis and Machine Perception ................................................................ 104 
+5.1.3 New Exhibition Forms and Venues ...................................................................... 105 
+5.2 
+Machines for Living: Designing Introspective Technologies .................................... 107 
+Bibliography ........................................................................................................................... 108 
+ 
+ 
+ 
+ 
+ 
+iii 
+ 
+LIST OF FIGURES 
+ 
+Figure 2.1. Robert Smithson A Nonsite, Pine Barrens, New Jersey ................................ 11 
+Figure 2.2. Mary Kelly Post-Partum Document ............................................................ 15 
+Figure 2.3. Bureau of Inverse Technology, Suicide Box (1996) ..................................... 19 
+Figure 2.4. Kelly Dobson, Blendie (2004) ..................................................................... 22 
+Figure 2.5. Lynn Hershman Leeson, Roberta Breitmore (1973-1978)............................ 24 
+Figure 2.6. Claes Oldenburg, The Store (1961).............................................................. 25 
+Figure 2.7. Francisco de Goya, Black Paintings (1819-1823) ........................................ 26 
+Figure 2.8. Goya’s Duelo a garrotazos (Fight with Cudgels) in situ. ............................. 27 
+Figure 3.1. Solipsist (2011) ........................................................................................... 33 
+Figure 3.2. Face Swap / Everyone as Someone I Know (2013) ...................................... 36 
+Figure 3.3. Father-Daughter Art Show (2007) ............................................................... 38 
+Figure 3.4. Megahal Grandmommy (2005) .................................................................... 39 
+Figure 3.5. Convex Mirror (2013) ................................................................................. 41 
+Figure 3.6. James Coupe and Juan Pampin, Sanctum (2013-15) .................................... 42 
+Figure 3.7. Rover (2015) ............................................................................................... 43 
+Figure 3.8. Francis Picabia, Fille Née sans Mère (1916-18) ........................................... 45 
+Figure 3.9. Searle’s Room (2013) .................................................................................. 47 
+Figure 4.1. Four house transformations ......................................................................... 51 
+Figure 4.2. A survey of smart home devices circa 2018. ................................................ 52 
+Figure 4.3. Le Corbusier, Villa Savoye (1931) ............................................................... 57 
+Figure 4.4. Buster Keaton, The Scarecrow (1920), film stills......................................... 59 
+Figure 4.5. Deb Roy, The Human Speechome Project (2006) ........................................ 62 
+Figure 4.6. Le Corbusier, Le Cabanon (1951). .............................................................. 64 
+Figure 4.7. Initial home sensing sites identified in the home .......................................... 69 
+Figure 4.8. Home sensor network .................................................................................. 70 
+Figure 4.9. Measured floor plan and CAD model .......................................................... 72 
+Figure 4.10. Photon with sensors on the washing machine, fridge, garbage can, and toilet74 
+ 
+ 
+iv 
+Figure 4.11. Video node and ceiling view ..................................................................... 75 
+Figure 4.12. Still frames from infrared (IR) imaging of the bed ..................................... 76 
+Figure 4.13. Audio node with MEMS mic and Raspberry Pi Zero ................................. 77 
+Figure 4.14. Black box recorders ................................................................................... 78 
+Figure 4.15. A Machine for Living In, exhibition view .................................................. 80 
+Figure 4.16. A Machine for Living In, exhibition floor plan ........................................... 81 
+Figure 4.17. A Machine for Living In, front view looking in .......................................... 83 
+Figure 4.18. A Machine for Living In, right hand side of exhibition ............................... 84 
+Figure 4.19. A Machine for Living In, showing three perspectives on built space........... 85 
+Figure 4.20. A Machine for Living In, one day, still from 24-minute video .................... 86 
+Figure 4.21. Room Scan, still from animation ............................................................... 87 
+Figure 4.22. Floor plan in CAD, floor plan and 3D scans in the exhibition. ................... 88 
+Figure 4.23. A Machine for Living In, motion trail drawings installed. .......................... 89 
+Figure 4.24. Motion trail extraction from video and a resulting drawing ........................ 89 
+Figure 4.25. Sensor narrative ........................................................................................ 90 
+Figure 4.26. A Machine for Living In, model smart home .............................................. 91 
+Figure 4.27. Francis Bacon, Sweeney Agonistes (1967) triptych .................................... 92 
+Figure 4.28. Detail of bed, mirror, and chair in model smart home ................................ 93 
+Figure 4.29. James Coupe, General Intellect (2014-15) ................................................. 97 
+Figure 4.30. Classified audio data, clustered, and visualized with t-SNE ....................... 99 
+Figure 4.31. Sensor frequencies by hour ...................................................................... 101 
+ 
+ 
+ 
+ 
+v 
+ 
+LIST OF TABLES 
+ 
+Table 4.1. Experiential Layers of Domestic Space......................................................... 68 
+Table 4.2. Sensor technologies and sensing locations .................................................... 73 
+  
+ 
+ 
+ 
+vi 
+ 
+ 
+ACKNOWLEDGEMENTS 
+ 
+Thank you Juan Pampin, for your deep engagement in my work and your unflagging support 
+throughout my time at DXARTS. Thank you Richard Karpen, for your critical perspective and 
+your evident passion as an artist and educator. Thank you Afroditi Psarra, for your focused insight 
+into both this project and this writing. 
+Thank you Sheldon Brown, my MFA advisor, for your continued encouragement and guidance 
+over these past thirteen years. Thank you Edward Shanken, Natalie Jeremijenko, and all of the 
+teachers and mentors who have played pivotal roles in my development as an artist and as a person. 
+To my colleagues in the DXARTS program: you are the most extraordinary group of artists 
+and friends. Thank you Ha Na Lee, James Hughes, Martin Jarmick, Michael McCrea, Marcin 
+Pączkowski, Tivon Rice, Nico Varchausky, Stelios Manousakis, Annabel Castro, Meghan Trainor, 
+Haein Kang, Donald Craig, and Eunsu Kang. This dissertation would not exist without the rich 
+mix of ideas and influences you all provide. I am amazed at the community we formed in our time 
+at DXARTS, and am thankful that we will carry it forward for the rest of our careers. 
+Thank you John, Katherine, Mom, and Dad. Home is our first universe, and the roots of many 
+of these projects were planted in the years that 1504 Brookmeade Place was ours. Thank you Leah 
+and Jasper, this project quite literally would not exist without you. Beyond your willing 
+participation in the production of it all, thank you for your loving patience and support as we have 
+navigated these final chapters of school. We are now building our own intimate corner of the 
+world. 
+ 
+ 
+ 
+vii 
+ 
+ 
+DEDICATION 
+ 
+To my parents, for starting my education, 
+and to Leah and Jasper for seeing me through to the end. 
+ 
+ 
+1 
+Chapter 1. INTRODUCTION  
+1.1 
+OVERVIEW 
+This thesis describes A Machine for Living In, a digital media artwork using newly available 
+computational and sensing tools to study the home as a site of intimate life. The title invokes Le 
+Corbusier's modernist framing of the house as a machine to interpret the promise of contemporary 
+smart home technologies. The project has two distinct phases: the construction and inhabitation of 
+a functional smart home system, followed by an exhibition of processed data as a multi-part digital 
+art installation.  
+In a process of joint human-machine authorship, this system produces a complex portrait of 
+the home: as a space of language, intimacy, bodily practice, and quotidian narrative. 
+Compositionally, it contrasts utopian illusions of beautiful, frictionless utility with artistic 
+strategies generating insight into the messy, material realities of the everyday. The project was 
+first exhibited in the Foster Art Gallery at Westminster College in New Wilmington, Pennsylvania, 
+in August of 2017. 
+Le Corbusier's valorization of the machine—the product of engineered utility—is resonant 
+with a contemporary utopian spirit founded on the potential of ubiquitous sensing, embedded 
+computing, and machine learning. Where the airplane and automobile were the models of his time, 
+the computer has become our dominant metaphoric and idealized machine. 
+In my doctoral studies I have explored diverse modes of human-computer interaction through 
+digital art, creating poetic intersections of human and machine perception. Delving further into my 
+history as an artist, I have often sought to engage the intimate circumstances of life through my 
+work: whether exploring relationships, family structure, studio processes, or systems of 
+ 
+ 
+2 
+communication and exchange. My dissertation continues these twin threads of technical 
+exploration and intimate investigation. I build on Bachelard's topoanalysis—the systematic 
+psychological study of sites of intimate life—striving for similar goals through technological 
+means in a process of technological topoanalysis. 
+The purpose for my project is two-fold: to use emerging technologies to study the home as an 
+intimate site; and in so doing, to interpret the qualities and implications of those new techniques.  
+My goal is to produce a reciprocal diagnosis of human and machine. Accordingly, I combine 
+methods from engineering design, psychological exploration, and art production. This work is a 
+meeting of systems art, poetic topoanalysis, and machine design. 
+In summary, the larger arc of my research considers how evolving technologies impact our 
+most personal lives. As we live in increasingly intimate codependence with our technologies, our 
+understandings of ourselves must change. This state of technological cohabitation, with all of its 
+immanent potential and unforeseeable consequence, is the subject of my research for the 
+foreseeable future. The practices documented in this paper point towards that broader investigation 
+of machine living. I advocate for the design of introspective machines that harness the potential 
+and reveal the limitations of new technologies, while bringing insight into the intimate conditions 
+of the everyday.  
+1.2 
+STRUCTURE 
+This paper is divided into five chapters.  
+Chapter 1 introduces my project, potential contributions to the field, and the structure of this 
+document.  
+ 
+ 
+3 
+In Chapter 2, Art, Technology, and Intimate Life, I articulate three key frames of reference 
+for my work: engineering design, art production, and psychological exploration. I discuss the most 
+relevant theories and practices for each domain.  
+Chapter 3, Strategies and Explorations, illustrates my practice through early projects leading 
+to the current work. I discuss formal strategies of model-limited experience, opportunistic systems, 
+digital surrogacy, machine observers, joint human-computer authorship, and machine as metaphor 
+as they have been developed in these past works. Each project engages different modes of intimate 
+experience. 
+Chapter 4, A Machine for Living In, describes the dissertation project in five sections. 
+In "Arriving at Home," I describe my interest in the home as a subject in all of its experiential 
+complexity: as a space of language, intimacy, bodily practice, quotidian narrative, and as the focus 
+of contemporary smart home enthusiasm.  
+In "Le Corbusier and Machine Living," I introduce Le Corbusier's affinity for the machine 
+and his modernist conception of the house as a machine for living. I identify echoes of this spirit 
+in the contemporary idealization of ubiquitous sensing, embedded computing, and machine 
+learning, particularly as they combine in popular enthusiasm for the smart home. 
+In "House-Machines" I establish a formal context for this project through other house works 
+and art to be inhabited: architectural (Le Corbusier), cinematic (Keaton), fictional (Bradbury, 
+Casares), and technoscientific (Roy).  
+In “Site Observation” I describe the hardware and setup for the site-specific phase of the 
+project. I identify the key experiential layers of domestic space, and match them with effective 
+technologies for capturing domestic activity. I describe the sensing apparatus built, the parameters 
+of site observation, and the scope of collected data. 
+ 
+ 
+4 
+In “Constructed Home" I describe the structure of the inaugural exhibition of this work at the 
+Foster Art Gallery at Westminster College. I relate the forms and composition developed to key 
+artistic references for the work. I consider the compositional problem of working with complex, 
+multi-modal data: how to synthesize diverse machine observations into a singular, cohesive viewer 
+experience. I describe my approach to temporal composition. I also discuss the dynamics of shared 
+agency in this process of joint human-machine authorship.  
+Finally, in Chapter 5, Conclusions and Future Directions, I describe new horizons for the 
+work: new forms for the Machine for Living In, and future directions for the broader research 
+practice. The paper concludes with a speculative framing of my work as kind of intimate science: 
+a hybrid art and technology practice designing introspective technologies to provide insight about 
+both human and machine. 
+ 
+ 
+ 
+ 
+5 
+Chapter 2. ART, TECHNOLOGY, AND INTIMATE LIFE 
+My research is devoted to the domain of intimacy, to the domain in which 
+psychic weight is dominant.1 
+–Gaston Bachelard 
+I have at various times worked as a neuroimaging researcher, experimental game designer, 
+circuit designer for consumer electronics, and as a painter in a studio. This paper describes multiple 
+years of digital arts research into the smart home. What unifies these diverse activities?  
+Like Bachelard in his Poetics of Space, I would claim my research operates in "the domain of 
+intimacy." Though the forms change from project to project, with their particular subjects and 
+material engagements, I consistently return to a desire to understand and interpret the intimate 
+circumstances of the everyday. This has led me to artistic explorations of the constituents of human 
+identity such as language, cognition, relationships, and the body. I have built projects around 
+speech recognition, mechatronic automation, physical sensing, computer vision, and machine 
+learning, as these technologies increasingly shape our interactions and experience. Artistically, I 
+am informed by the rich history of artists’ responses to and interventions in their own intimate 
+lives.  
+Theoretically, I seek to situate these diverse modes of research and production within a unified 
+frame of inquiry. This chapter details the key references for my work. Investigating the 
+circumstances of intimate life, my practice resonates with Bachelard's topoanalysis in analytic 
+intent, psychological interest, and poetic method. In art production, I utilize strategies of site 
+specific engagement and systems construction to produce art to be inhabited, informed by models 
+drawn from literature, speculative fiction, and the history of art and technology. Treating 
+                                                
+1 Gaston Bachelard, The Poetics of Space (Boston: Beacon Press, 1994), 12. 
+ 
+ 
+6 
+technology as both tool and subject, freighted with sociocultural meaning, my work aligns with 
+Critical Engineering Design, and practices of the Bureau of Inverse Technology (Jeremijenko and 
+Rich) and Machine Therapy (Dobson). 
+The projects discussed in this paper build on the tradition of art to be inhabited. They are sites 
+studied through constructed intervention. They seek poetic insight through technical means, 
+juxtaposing mechanisms of human and machine. They pursue a psychological understanding of 
+the space of everyday experience.  
+2.1 
+TOPOANALYSIS 
+Of course, thanks to the house, a great many of our memories are 
+housed… A psychoanalyst should, therefore, turn his attention to this 
+simple localization of our memories. I should like to give the name of 
+topoanalysis to this auxiliary of psychoanalysis. Topoanalysis, then, would 
+be the systematic psychological study of the sites of our intimate lives.2 
+-Gaston Bachelard 
+The house, for me functions as “a simple localization” of themes, material, and technical 
+possibility. It is a complex site. In his Poetics of Space, Bachelard uses the house as the structuring 
+image through which he examines the poetry and psychology of intimate space. His topoanalysis, 
+described above, is an apt frame for my work as an art and technology researcher: engaged in "the 
+systematic psychological study of the sites of our intimate lives." Trained as a painter and engineer, 
+experimental in my forms and methods, my development as an artist has been a gradual sharpening 
+of focus onto these sites of intimate human experience, exploring the consequences of emerging 
+technologies. Given the widespread adoption of tech into our intimate lives, a study of embedded, 
+situated, “smart” technology is, for all intents and purposes, a study of intimate life. What I find 
+                                                
+2 Ibid., 8. 
+ 
+ 
+7 
+compelling in Bachelard’s work is his method combining a systematic analytic approach, 
+psychological interest, anchored to real sites, with a seriousness about the significance of poetic 
+imagery.  
+I was introduced to Bachelard’s ideas during my MFA studies at University of California, San 
+Diego, through the animation work of Carl Burton, particularly his short film Shelter that dwells 
+in a Bachelardian notion of intimate, inhabited space.3 I was reintroduced to Bachelard’s ideas and 
+became more invested in them as a doctoral student at the Center for Digital Arts and Experimental 
+Media at the University of Washington, through discussions with my faculty Juan Pampin, Richard 
+Karpen, and James Coupe. I was particularly struck by the General Exam prompt they authored 
+for my colleague Ha Na Lee out of Bachelard’s Poetics of Space: "The great function of poetry is 
+to give us back the situations of our dreams."4 Lee’s resultant work, Vestiges II, itself a dreamlike 
+exploration of space, can be viewed online.5  
+In The Poetics of Space, Bachelard takes a systematic approach to his study of intimate space. 
+He takes the reader through discussions of houses, rooms, nests and shells, inhabitation, the 
+dialectics of large and small, and the dialectics of within and without. These discussions are 
+anchored to real sites: the home, the attic, the cellar, the living room, the cave, or the city apartment. 
+For each, he analyzes those spaces as evocative sites, as locations of memories, and as images in 
+particular works of poetry or art. 
+Bachelard attributes a specific potency to the poetic image: “the reader of poems is asked to 
+consider an image not as an object and even less as the substitute for an object, but to seize its 
+                                                
+3 Carl Burton, Shelter (accessed March 15, 2018); available from 
+http://carlburton.io/index.php?/anim/shelter/. 
+4 Bachelard, 15. 
+5 Ha Na Lee, Vestiges II, 2013, (accessed March 14, 2018); available from 
+http://hanalee.me/projects/projects/vestiges.html. 
+ 
+ 
+8 
+specific reality.”6 According to him: “By its novelty, a poetic image sets in motion the entire 
+linguistic mechanism.”7 There is a radical transsubjectivity in the poetic image for Bachelard. 
+Poetry supersedes language: the poet’s invented images spark a sympathetic creative genesis in 
+the reader’s mind. Poems operate through “resonances and repercussions”: resonating with our life 
+in the world, repercussions awakening new depths in the reader.8 “At the level of the poetic image, 
+the duality of subject and object is iridescent, shimmering, unceasingly active in its inversions.”9  
+Where Bachelard aims for a poetic interpretation of built space, I extend his idea of "intimate 
+sites" to include any of the systems, relationships, and contexts where we find intimacy in life. For 
+instance, my grandmother’s diagnosis with Alzheimer’s is explored through the creation of an 
+interactive chatbot and my dialog with the system in Megahal Grandmommy.10 Similarly, an 
+imaginary daughter is the conceptual machine to unpack my fantasies of parenthood in the Father-
+Daughter Art Show.11 Language, drawing, and mirrored self-image are similarly addressed as 
+moments of intimate exchange engaged through well-constructed art systems. On a closer reading 
+of Bachelard’s work, I began to see his ideas as a natural frame for my art. I too am concerned 
+with the psychological study of these intimate sites, using new computational and sensing 
+techniques in a kind of technological topoanalysis.  
+Significantly, Bachelard focused much of The Poetics of Space on the home as a subject. He 
+describes the house as a vertical and concentrated being, and establishes a system of meanings for 
+                                                
+6 Bachelard, xix. 
+7 Ibid., xxiii. 
+8 Ibid., xxii. 
+9 Ibid., xix. 
+10 Robert Twomey, Megahal Grandmommy, 2005; available from 
+http://roberttwomey.com/megahal-grandmommy. 
+11 Robert Twomey, Father-Daughter Art Show, 2007; available from 
+http://roberttwomey.com/father-daughter-art-show. 
+ 
+ 
+9 
+spaces in the house along those axes: rationality for the roof, irrationality for the cellar.12 The house 
+becomes “a tool for analysis of the human soul.”13 It is defined by its enclosure, a simple 
+encapsulation of space in opposition to the surrounding nature. Its primary function is shelter, and 
+its primordial form is the cave. For Bachelard the house is a kind of spatialized representation, 
+creating a diagrammatic relationship between the physical arrangement of rooms and the 
+psychological organization of the individual: “On whatever theoretical horizon we examine it, the 
+house image would appear to have become the topography of our intimate being.”14 This casts the 
+house as an intimate, psychological spatial diagram.  
+2.2 
+SITE SPECIFICITY 
+By drawing a diagram, a ground plan of a house, a street plan to the location 
+of a site, or a topographic map, one draws a "logical two dimensional 
+picture." A "logical picture" differs from a natural or realistic picture in that 
+it rarely looks like the thing it stands for. It is a two dimensional analogy or 
+metaphor—A is Z. 
+The Non-Site (an indoor earthwork) is a three dimensional logical picture 
+that is abstract, yet it represents an actual site in N.J. (The Pine Barrens 
+Plains). It is by this three dimensional metaphor that one site can represent 
+another site which does not resemble it." 15 
+- Robert Smithson 
+The first major frame for my arts production is site specificity. A Machine for Living In 
+establishes a descriptive relationship between observations of an actual, inhabited house site, and 
+a condensed representation of that space in the gallery exhibition. As such, it is participating in the 
+                                                
+12 Bachelard, 18. 
+13 Ibid., xxxvii. 
+14 Ibid., xxxvi. 
+15 “A Provisional Theory of Non-sites,” in Robert Smithson, Robert Smithson, The Collected 
+Writings, ed. Jack D. Flam (Berkeley: University of California Press, 1996), 364. 
+ 
+ 
+10 
+tradition of site specific art: artists who develop work out of intense engagements with particular 
+geographic and conceptual sites. Specifically, Robert Smithson’s seminal non-site artworks are a 
+key model for the two-part process of this project.  
+In his Nonsites, described in the passage above, Smithson establishes an abstract relationship 
+between a real site and its gallery representation, the "three dimensional logical picture." He 
+portrays this conceptual pairing of crafted object and observed site as a spatial metaphor. The 
+constructed site does not resemble the actual site, but describes it through some abstract process 
+other than likeness.  
+There is space in this definition for computational production: data driven representations are 
+abstracted, derived from observation, and function through visual means beyond resemblance. The 
+most powerfully operative strategy here is the idea of metaphor: "Between the actual site in the 
+Pine Barrens and The Non-Site itself exists a space of metaphoric significance.” Rather than poetic 
+metaphor, Smithson argues for “’an entirely new sense of metaphor’ free of natural or realistic 
+expressive content."16 In Figure 2.1 we see this abstract mapping between the aerial map of Pine 
+Barrens and the constructed sculpture in the gallery space. Rather than working with conventional 
+visual metaphors, he establishes a new aesthetic vocabulary inspired by science fiction, 
+photography, and born out of the administrative aesthetic of conceptual art.17 
+                                                
+16 Ibid. 
+17 For more on the administrative aesthetic, see H. D. Buchloh Benjamin, "Conceptual Art 1962-
+1969: From the Aesthetic of Administration to the Critique of Institutions," October 55 (Winter 
+1990), http://dx.doi.org/10.2307/778941. 
+ 
+ 
+11 
+ 
+ 
+Figure 2.1. Robert Smithson A Nonsite, Pine Barrens, New Jersey18 
+In non-sites such as the Pine Barrens, Smithson focused on collapsing space and distance 
+through his representations of remote sites. However, Smithson was also interested in the 
+ontological categories of place and their semantic meanings. His text Untitled (Site Data) is "an 
+attempt to locate structural meanings by observing building sites within a kind of abstract 
+anthropology."19 Spaces discussed include the urban apartment, the artist's studio or loft, the 
+suburban house, the art gallery (since the late 50s), the art museum (modern), the urban office 
+building, and the industrial site (dams and spillways, power plants, flood control and irrigation 
+works, tunnels bridges roads and parking lots, and air terminals). Work with that last category—
+industrial sites—became his most well-known subject, as in Monuments of Passaic, where he 
+brings an archeologist’s interest to them as ruins of modern society.20 Untitled (Site Data) is an 
+                                                
+18 Robert Smithson, A Nonsite, Pine Barrens, New Jersey, 1967, Photostat of map., and Robert 
+Smithson, A Nonsite, Pine Barrens, New Jersey, 1968, Sculptural nonsite. 
+19 "Untitled (Site Data)," in Smithson, Robert Smithson, The Collected Writings. 
+20 Robert Smithson, Monuments of Passaic, 1967, (accessed March 15, 2018); available from 
+https://www.robertsmithson.com/photoworks/monument-passaic_300.htm. 
+ 
+ 
+12 
+inventory of places and their meanings. I find Smithson’s descriptions entirely charged with 
+potential, as spaces for action or production. 
+Georges Perec accomplishes a similar structural reading of space through more diverse textual 
+strategies in his Species of Spaces.21 In a slow zoom out, he travels from the page, to the bed, the 
+bedroom, the apartment, the apartment building, the street, the neighborhood, the town, the 
+countryside, the country, Europe, the world, and Space. With Perec there is no deferred artistic 
+production and no future site-specific artwork: the text is the work. 
+My work embraces an expanded notion of site specificity. Where Smithson deal with 
+concrete, geographical sites, in my work I am interested in Bachelardian sites: broadened from 
+concrete locations to abstract loci of content and meaning. Family as a site of drama. Studio as a 
+site of creative work. Sites are concrete nuclei of meaning whether spatial, psychological, or 
+cultural. 
+2.3 
+SYSTEMS CONSTRUCTION 
+Conceptual focus rather than material limits define the system. Thus any 
+situation, either in or outside the context of art, may be designed and judged 
+as a system.22 
+–Jack Burnham 
+The second major frame for my art production is systems construction. In 1950 Ludwig von 
+Bertalanffy outlined his General Systems Theory, a science of wholes, studying "systems of 
+various orders not understandable by investigation of their respective parts in isolation."23 He 
+                                                
+21 Georges Perec, Species of Spaces and Other Pieces, Rev. ed. (New York, N.Y., USA: Penguin 
+Books, 1999). 
+22 Jack Burnham, "Systems Esthetics," Artforum 7, no. 1 (September 1968): 32. 
+23 Ludwig von Bertalanffy, General Systems Theory; Foundations, Development, Applications 
+(New York: G. Braziller, 1969). 
+ 
+ 
+13 
+distinguishes between two types of systems: "open" and "closed" depending on whether they admit 
+energy and material from their environments or stand apart in isolation. Once, systems thinking 
+was the purview of military scientists and academic specialists, but today systems have become a 
+commonplace frame for understanding any complex, multicomponent circuits of communication 
+and exchange. 
+In 1968, sculptor and critic Jack Burnham published “Systems Esthetics” in Artforum. In that 
+article, he proposes systems thinking as the dominant paradigm of the time, articulating a societal 
+transition "from an object-oriented to a systems-oriented culture.”24 This claim is more 
+complicated today, as we seem suspended somewhere between the two. Increasingly we imbue 
+our objects with agency, perception, and intelligent response through computational technologies. 
+Smart, internet-connected things function as both. 
+Burnham situated contemporaneous art practices in relation to those systems theories, 
+articulating a precedence for systems over objects: "art does not reside in material entities, but in 
+relations between people and between people and the components of their environment."25 From 
+these new theories grew new conceptions of the artist’s role as “a perspectivist considering goals, 
+boundaries, structure, input, output, and related activity inside and outside the system.”26 
+Contemporary artists, cognizant of the network of possible contexts, communities, and information 
+channels for their work, adopt similar global systems perspectives on the function of their work. 
+Burnham engaged a broad scope of sites through his systems analyses, concerned with “the 
+creation of stable, on-going relationships between organic and non-organic systems, be these 
+neighborhoods, industrial complexes, farms, transportation systems, information centers, 
+                                                
+24 Burnham, 31. 
+25 Ibid. 
+26 Ibid., 32. 
+ 
+ 
+14 
+recreational centers, or any of the other matrixes of human activity."27 The house functions as one 
+such “matrix of activity,” and is particularly dense in numbers of human and non-human agents, 
+relationships in motion, and layers of material accretion.  
+Beyond the construction of pure, functional technologies, there is a rich ecosystem of possible 
+forms at the periphery of systems art. I’m most interested in applying systems paradigms to 
+interpret these non-technological sites: installation artworks as networks of signifying objects, as 
+narrative systems and linguistic systems; cybernetics and systems perspectives on artist-object-
+viewer relationships; ways to situate non-technical, non-canonical Systems Artists who engage 
+with complex human phenomena.  
+What would a non-technological systems art look like? For instance, consider Mary Kelly's 
+Post-Partum Document (1973-79)28 as a work of systems art, portraying the first years of her 
+child’s life as a complex psychological, familial, and linguistic system. What is a systems art 
+engaged with the real, lived conditions of human experience in all of its messy materiality? My 
+work explores multiple parallel systems strata: both complex functional technologies and the soft 
+human structures they engage with.  
+Mary Kelly’s Post-Partum Document (Figure 2.2) is an analysis of parenthood / child rearing 
+as a systems of communication and exchange. It explores layers of consumption and waste (“dirty 
+nappies”), language and communication, and psychoanalytic theories of child development 
+through lived experience as a parent. The resulting artwork is also a configurable network: a 
+signifying system of objects, images, and text that can be reconfigured to adapt to exhibition 
+                                                
+27 Ibid., 31. 
+28 Mary Kelly, Post-Partum Document, 1973-1979; available from 
+http://www.marykellyartist.com/post_partum_document.html. 
+ 
+ 
+15 
+scenarios and alternate print media form. Kelly’s book “Post-Partum Document”29 adapts and 
+expands upon the project through multiple additional channels of communication. She writes 
+supplementary text, reframes images, and establishes a new textual ordering of the materials 
+produced through the project. Post-Partum Document becomes a diffuse cluster of activities, a 
+system of meaning, producing diverse experiential artifacts.  
+ 
+ 
+ 
+Figure 2.2. Mary Kelly Post-Partum Document 
+Mary Kelly’s project is a personal inventory of intimate experience, assisted by the child as 
+catalyst and anchoring subject. Birth and parenting provide frames to examine theories of 
+language, development, psychoanalysis. Simultaneously, the project is a means to document 
+intimate life. Where the child is Kelly’s device and conceptual lens, for me the machine is other. 
+2.4 
+CRITICAL ENGINEERING DESIGN 
+The significant artist strives to reduce the technical and psychical distance 
+between his artistic output and the productive means of society.30 
+- Jack Burnham 
+                                                
+29 Mary Kelly, Post-Partum Document (Berkeley, Calif.: University of California Press, 1999). 
+30 Burnham, 31. 
+ 
+ 
+16 
+The third frame for my work is critical engineering design: practitioners who create work to 
+use and interpret new technologies. As Burnham describes above, there is a currency in engaging 
+technically and psychically with “the productive means of society.” These critical engineering 
+practices capitalize on the capabilities of new technologies, but simultaneously reveal their limits 
+and human consequences. This is part of critical, cultural sense-making — provoking informed 
+perspectives on the uses, meanings, and transformative potential of new technologies.  
+Anthony Dunne and Fiona Raby popularized the term Critical Design in the late 90s, first 
+using the phrase in their book Hertzian Tales. Critical Design encompasses a number of practices 
+that “use design as a medium to stimulate discussion and debate ... about the social, cultural, and 
+ethical implications of existing and emerging technologies.”31 Speculative designs “challenge 
+narrow assumptions, preconceptions and givens about the role products play in everyday life.”32 
+In part, this is a bid for cultural and technical relevance, “significance” as Burnham describes it 
+above. Critical Design is “one of the many mutations design is undergoing in an effort to remain 
+relevant to the complex technological, political, economic and social changes we are experiencing 
+at the beginning of the 21c.”33 Dunne and Raby invest in the central importance of designed 
+products as mass media and consumer interfaces, imbuing product design with the criticality of 
+other avant-garde cultural practices. 
+Oliver, Savičić, and Vasiliev provide a technologically focused update to Critical Design in 
+2011 with their Critical Engineering Manifesto. “The Critical Engineer considers Engineering to 
+be the most transformative language of our time, shaping the way we move, communicate and 
+                                                
+31 Dunne and Raby, Biography (accessed March 15, 2018); available from 
+http://www.dunneandraby.co.uk/content/biography. 
+32 Dunne and Raby, Critical Design FAQ (accessed March 15, 2018); available from 
+http://www.dunneandraby.co.uk/content/bydandr/13/0. 
+33 Ibid. 
+ 
+ 
+17 
+think. It is the work of the Critical Engineer to study and exploit this language, exposing its 
+influence.”34 This belief in the centrality of engineering in determining sociocultural behavior and 
+values is shared with the next practice I discuss in detail: The Bureau of Inverse Technology. Where 
+Critical Engineering differs is in expressing a skeptical and somewhat paranoid worldview. In 
+addition to the need for technological literacy, they speak of the “challenge and threat” of 
+technological dependence, a desire to “incite suspicion,” “exposing influence” and “moments of 
+imbalance and deception.”35 This is a language of resistance to power, exposing hidden 
+mechanisms of control, and the user constraints built into the formal strictures of engineered 
+design. 
+The authors identify a reciprocality in the constitution of engineering and its subjects: “each 
+work of engineering engineers its user.” I identify a similar reciprocality in the knowledge gained 
+through my experimental human-computer interactions: they effect a reciprocal diagnosis of 
+human and machine where we learn something about each. In terms of practical medium, the 
+critical engineers seek to observe and operate in “the space between the production and the 
+consumption of technology,” adopting strategies from “art, architecture, activism, philosophy and 
+invention.”36 
+Finally, Critical Engineering arrives at a systems perspective: “The Critical Engineer expands 
+‘machine’ to describe interrelationships encompassing devices, bodies, agents, forces and 
+networks.” This generalization of the category of machine is one Le Corbusier makes implicitly 
+though his mechanized theories of architecture, one I adopt in my own work and research, and 
+                                                
+34 Julian Oliver, Gordan Savičić, and Danja Vasiliev, Critical Engineering Manifesto (accessed 
+March 14, 2018); available from https://criticalengineering.org/. 
+35 Ibid., see items 1, 3, and 4. 
+36 Ibid. 
+ 
+ 
+18 
+serves to connect Critical Engineering practice to the long discourse and heritage of the machine 
+in industry and culture.  
+2.4.1 Inverse Technologies 
+Natalie Jeremijenko and Kate Rich’s Bureau of Inverse Technology (BIT) bills itself as "an 
+information agency servicing the Information Age."37 Their reflexive approach turns the products 
+of technical innovation to examine the systems and structures that produced them. As I see it, the 
+practice has three key ideas: that data has values (particularly in what is and isn’t measured), that 
+artists and designers importantly render things legible, and that cultural producers operate both 
+through experimental prototyping and mediagenic spectacle.  
+Their project Suicide Box (1996) demonstrates these strategies.38 This was an autonomous 
+computer vision system monitoring the Golden Gate bridge, at the time the most common site for 
+suicide attempts in the Bay Area and the country. Installed on site with a view of the bridge, the 
+system looks for vertical motion in a camera feed and records those events to disk, creating “public, 
+frame-accurate data of a social phenomenon not previously accurately quantified.”39 This project 
+raises questions of what information counts, what we choose to observe, and what jobs we task 
+our technologies with. Site specific and locally engaged, this project complicates our 
+understanding of the context and culture of San Francisco and the Bay Area as “Information capital 
+and Suicide capital of the USA.”40 Additionally, the piece makes corporations involuntarily 
+                                                
+37 Bureau of Inverse Technology, (accessed March 14, 2018); available from 
+http://bureauit.org/bitindex.html. 
+38 Bureau of Inverse Technology, Suicide Box, 1996, (accessed March 14, 2018); available from 
+http://bureauit.org/sbox/. 
+39 Ibid. 
+40 Ibid. 
+ 
+ 
+19 
+complicit, citing sponsorship from Silicon Graphics, Microsoft, NBC, Genentech, Fox, Failure 
+Analysis, and Disney. 
+ 
+  
+Figure 2.3. Bureau of Inverse Technology, Suicide Box (1996) 
+Through the corresponding video produced about the project (and later exhibited), BIT 
+renders visible the issue of suicide, questions the social and governmental response to this known 
+problem, and conveys some of the complicated ethical terrain underlying the creation and 
+deployment of advanced technologies. The video of the project (and indeed videos of other BIT 
+related projects) exists as a mass media communication that can circulate widely. While a smart 
+use of media technology and a clever manipulation of the conventions of mass commercial 
+communication, my critique of BITs methods has to do with what I consider an experientially 
+impoverished result for the viewer. It’s all about the corporation, the technological apparatus, and 
+a critical examination of the forces “out there.” The work’s cold, technical surface cuts it off from 
+the domain of intimacy. But perhaps that is the point. 
+I am interested in using similar techniques to related ends: achieving a reciprocal diagnosis 
+that examines the nature of the human as well as the nature of the machine, and how they construct 
+one another.  
+ 
+ 
+20 
+If BIT was the appropriate pseudo-corporate entity to service the information age, what is the 
+necessary entity to service ours? Jeremijenko now operates the Environmental Health Clinic,41 
+providing prescriptions for improving our wellness (and the planet’s), developing mutualistic 
+systems engaged with our ecological environment. I believe there is still a need for inverse 
+technologies: we are living through a second machine age built on machine perception and 
+machine learning, defined by these new applications of computational technology. 
+I will end with some provocation from Natalie Jeremijenko on the relation between art and 
+technoscience, New York Magazine from 2000:  
+The art world is a very prissy little thing over in the corner, while the major 
+cultural forces are being determined by technoscience. The whole way we 
+imagine ourselves is being redefined, and the art world is still talking about 
+gender politics or whatever without taking on big corporate biotechnical 
+advances. Technology is a language that is much less about privilege, it's 
+much less intimidating conceptually than art criticism–one knows how to 
+use a computer keyboard.42  
+2.4.2 Machine Therapy 
+A more intimate approach to critical engineering, Kelly Dobson's Machine Therapy is a 
+“parapraxis of machine design,” creating connections with machines through their visceral side-
+effects "in ways that are revelatory and potentially therapeutic for people."43 In Machine Therapy, 
+"it is not the main functions that the machines are designed to carry out that matter most, but rather 
+it is the side elements of their designs and actions that matter to people in deep yet unconscious 
+                                                
+41 Natalie Jermeijenko, Environmental Health Clinic (accessed March 14, 2018); available from 
+http://www.nyu.edu/projects/xdesign/clinic/. 
+42 Natalie Jeremijenko, interview by Courtney Eldridge, 2000, The New York Times Magazine. 
+43 Kelly Dobson, “Machine Therapy” (Ph.D. diss., Massachusetts Institute of Technology, 2007), 
+20. 
+ 
+ 
+21 
+ways."44 A hybrid art and technology practice, Dobson's work is visceral, psychological, and 
+potentially therapeutic. It is also acutely personal. Dobson frames her practice as arising from 
+personal experiences communing with industrial machines. 
+Like Bachelard, Dobson's work is inherently psychological. Invoking therapy, she suggests 
+that one or both parties (human and machine) is in need of a cure. This relates to my own idea of 
+reciprocal diagnosis of human and machine: that through unexpected encounters we reveal 
+something about the nature of each. In 2005, Dobson conducted a series of “Machine Therapy 
+Sessions” with her interactive devices and documented participants’ responses to their 
+experience.45 Many sought to prolong their engagements, and found near-total immersion in their 
+experience.  
+Dobson’s projects focus on “visceral, cathartic, and reflexive expressions and 
+communication”.46 Rather than denying the sonic, haptic, and visual qualities of machines, she 
+connects them to processes of human expression. For instance, Blendie is “a modified mid-1940’s 
+Osterizer blender that foregrounds the guttural sounds of a blender in action.”47 Blendie analyzes 
+sound with its embedded microphone and signal processor to detect human vocalizations matching 
+its own “guttural” blender voice. It uses the dominant pitch of the user’s voice to modulate the 
+speed of its motor, creating a sympathetic re-embodiment and establishing a visceral empathy. 
+                                                
+44 Ibid., 19. 
+45 Ibid., 71. 
+46 Ibid., 3. 
+47 Ibid., 79. 
+ 
+ 
+22 
+ 
+  
+Figure 2.4. Kelly Dobson, Blendie (2004) 
+This dynamic of human-computer interaction relates to the contemporary practice of visceral 
+design, producing situated, embodied experience of immaterial data. In Luke Stark’s article “Come 
+on Feel the Data (and Smell It)", he finds that “users prompted to engage viscerally will have a 
+well-rounded sense of their own intellectual, emotional and physical stance on the matter at 
+hand."48 A visceral engagement draws on the full range of sensory perception, rather than 
+privileging dominant channels of visual and auditory experience.  
+Visceral engagement places users in an intimate, embodied position. This focus on the body 
+of both human and machine agents is a strong counterpoint to the rhetoric and design choices 
+expressed through Le Corbusier’s modernist practice, particularly works such as Villa Savoye, his 
+flagship modernist “machine for living.”49 As she describes it, a “parapraxis”, Dobson’s work 
+dwells in the “slip of the tongue, thought to reveal a repressed motive.”50 In psychoanalysis this is 
+                                                
+48 Luke Stark, "Come on Feel the Data (and Smell It)," The Atlantic May 19, 2014)(accessed 
+March 14, 2018); available from https://www.theatlantic.com/technology/archive/2014/05/data-
+visceralization/370899/. 
+49 The epitome of Le Corbusier’s New International style, his “machine for living.” 
+50 Dobson, 54. 
+ 
+ 
+23 
+a revealing breakdown of the conscious machine, or in systems terms it is evidence of the 
+unscriptable human subject. 
+2.5 
+ART TO BE INHABITED 
+The function of inhabiting constitutes the link between full and empty. A 
+living creature fills an empty refuge, images inhabit, and all corners are 
+haunted, if not inhabited.51 
+ 
+A house that has been experienced is not an inert box. Inhabited space 
+transcends geometrical space.52 
+-Gaston Bachelard 
+A Machine for Living In belongs to a tradition of art to be inhabited. These are projects that 
+take a hybrid approach to their subjects as sites and systems. They occupy real spaces, whether 
+architectural or psychological. They enact a Bachelardian notion of site-specificity. Whether 
+examining existing sites (Oldenburg’s lower east side bodega) or manufacturing new ones (Lynn 
+Hershman Leeson’s invented Roberta Breitmore persona), they confuse the distinction between 
+simulation and the real. Invariably, as work both constructed and inhabited by the artists, they are 
+personally psychological topoanalytic studies of intimate space. They are also diffuse projects 
+functioning as systems, not objects. 
+Lynn Hershman Leeson’s Roberta Breitmore project (Figure 2.50) began in 1973 with her 
+arrival in San Francisco, taking up residency at the Dante Hotel.53 Over the next 5 years, she 
+developed an alternate persona named Roberta Breitmore. Strategies included renting a room, 
+registering for a driver’s license, signing up for bank accounts, and developing palettes for clothing 
+                                                
+51 Bachelard, 140. 
+52 Ibid., 47.  
+53 Lynn Hershman Leeson, The Roberta Breitmore Series, 1973-1978; available from 
+http://www.lynnhershman.com/roberta-breitmore/. 
+ 
+ 
+24 
+and makeup choices. Additionally, she advertised for roommates, went on dates, visited a therapist, 
+and at one point hired a private detective to document her daily activities, providing consequential 
+“proof” of this new persona. Later she multiplied this performative identity, hiring multiple actors 
+to inhabit the role for particular events, art openings, etc. Leeson’s work tweaks the mechanisms 
+of institutionally constituted identity (driver’s license, therapist sessions, newspaper want-ads) and 
+thus critically engages the real social systems supporting personal identity. Simultaneously these 
+gestures pursue a personal exploration and fantastic play. 
+ 
+ 
+ 
+Figure 2.5. Lynn Hershman Leeson, Roberta Breitmore (1973-1978) 
+Claes Oldenburg’s Store similarly blurs the boundaries between the representation and the 
+real. Originally proposed to his gallery as a commercial artistic enterprise, 54 Oldenburg occupied 
+a store front on the Lower East Side of Manhattan for 2 months in 1961. His Store, in a commercial 
+storefront, would in fact operate as a store:  
+In the front half, it is my intention to create the environment of a store, by 
+painting and placing (hanging, projecting, lying) objects after the spirit and 
+in the form of popular objects of merchandise, such as may be seen in stores 
+                                                
+54 See “The Store Described & Budget for the Store” in Claes Oldenburg and Emmett Williams, 
+Store Days: Documents from The Store, 1961, and Ray Gun Theater, 1962 (New York: 
+Something Else Press, 1967).  
+ 
+ 
+25 
+and store-windows of the city, especially in the area where the store is 
+(Clinton St., f.ex., Delancey St., 14th St.).55 
+Functionally, this piece constructs and inhabits an essentially ambiguous place between 
+reality and representation. His initial proposal included an estimate of costs including rent, 
+renovations, and materials for art production, as well as expected operating hours, public events, 
+etc.56 His “Preliminary Report on the Store” tallies total sales, tax collected, cost of rent, utilities, 
+and supplies, and calculates profits and costs to split between Oldenburg and his gallery.57 This 
+project both constructs a site and inhabits an existing one: a doubling of roles and representations, 
+creating a pseudo-commercial doppelganger gallery mimicking its commercial brethren. 
+ 
+ 
+Figure 2.6. Claes Oldenburg, The Store (1961) 
+Near the end of his life, between 1819 and 1823, Francisco de Goya painted a set of darkly 
+compelling images on the walls of his house near Madrid, the “Quinta del Sordo” (Villa of the 
+Deaf Man). Though his home named after a previous occupant, Goya, too, was deaf and nearly 
+                                                
+55 Ibid. 
+56 Ibid. 
+57 See “Preliminary Report on the Store” in ibid. 
+ 
+ 
+26 
+blind when he moved into the house, having recovered from a bout of near fatal illness.58 
+Colloquially known as the Black Paintings, and dark in both subject matter and tone (reflecting 
+the circumstances of his personal health), these works are a particularly private example of art to 
+be inhabited. There are fourteen paintings in all, seven each in two rooms, one on each floor of the 
+house. These were painted directly onto the walls of the house, and were never intended to travel 
+or be exhibited. Goya did not discuss the works during his lifetime, thus titles and dates are mere 
+speculation. They only rose to widespread public knowledge nearly fifty years after his death, in 
+1873-74, when they were transferred to canvas and relocated to the Museo del Prado in Madrid. 
+This is a rare case of a major work by a major artist serving largely private functions during the 
+course of his life, when there was any chance of getting direct explanation.  
+ 
+ 
+ 
+ 
+Figure 2.7. Francisco de Goya, Black Paintings (1819-1823) 
+Goya literally surrounded himself with his painted images. Each of two rooms in the house 
+had paintings mounted on all available wall space. Photographer Jean Laurent documented these 
+images in situ prior to their relocation to the Prado. In his photographs of the works (for instance 
+Figure 2.8 below) you see the wall paper, wainscoting, and decorative wooden trim of the 
+                                                
+58 Depicted in his painting Francisco de Goya, Self-portrait with Dr. Arrieta, 1820. 
+ 
+ 
+27 
+architecture of the home. What accounts for this directness of gesture, and this construction of 
+immersive pictorial space to reside in? Interpretations of the work tend towards the 
+autobiographical, reading preoccupations with aging and mortality in the work, as well as Goya’s 
+habitual themes of superstition, organized religion, and the power of the mob. Since he did not 
+discuss them in his lifetime, all readings are mere speculation. The only thing known for sure is 
+that these images serve some private symbolic and expressive function for the artist, that he chose 
+to paint them directly in the intimate lived space of his everyday life. 
+  
+Figure 2.8. Goya’s Duelo a garrotazos (Fight with Cudgels) in situ.59 
+                                                
+59 Goya’s Duelo a garrotazos (Fight with Cudgels), photographed by Jean Laurent, Duelo a 
+Garrotazos, 1874. 
+ 
+ 
+28 
+Goya constructed an image space to literally dwell within. This is similar to Hershman 
+Leeson’s invention of the Breitmore persona to inhabit, and Oldenburg’s creation of the Store to 
+operate as both proprietor and artist/craftsman. All of the projects construct ontologically 
+ambiguous sites straddling self-consciously artistic production and everyday contexts, roles, and 
+activities. My own works pursue a similar strategy of construction and inhabitation. They are 
+machines for living, intimate psychological spaces to be inhabited, operated by human and 
+machine. 
+ 
+ 
+ 
+29 
+Chapter 3. STRATEGIES AND EXPLORATIONS 
+This chapter outlines the creative strategies and technical terrain for my research through early 
+projects leading to A Machine for Living In. I describe my technical domains of engagement. I 
+highlight the essential sites of meaning explored. I describe the formal strategies operating in the 
+work and the particular systems constructed. Finally, I consider these projects as examples of 
+introspective inquiry into human and machine. Each project deals with different modes of 
+technologically mediated human experience.  
+3.1 
+TECHNICAL DOMAIN 
+I work in a diverse landscape of contemporary electronic technologies, grouped under topics 
+of physical computing, creative coding, and experimental human computer interaction. My early 
+digital projects targeted single technologies for exploration and use: for example, automatic speech 
+recognition in the project Solipsist,60 conversational chatbots in Megahal Grandmommy,61 and face 
+recognition in Everyone as Someone I Know.62  
+Recent projects combine multiple modes of technical production in service of larger 
+descriptive goals. Searle’s Room (and the follow up, The Serious Business of Children) used a 
+                                                
+60 Solipsist used the Carnegie Melon University speech recognition framework pocketsphinx. 
+This is a part of the project CMUSphinx (accessed March 14, 2018); available from 
+https://cmusphinx.github.io/. 
+61 “Megahal” in this title comes from the chatbot software I used to create the piece: Jason 
+Hutchens, MegaHAL (accessed March 14, 2018); available from 
+https://megahal.alioth.debian.org/. 
+62 The early version of this project used a simple Principal Component Analysis (PCA) algorithm 
+to match viewer’s faces with static images in a database. The newer version, shown as “Face 
+Swap”, tracks viewers faces in live video using a constrained linear model (CLM) based on 
+facial landmarks written by Jason Saragih, implemented in the ofxFaceTracker package: Kyle 
+McDonald, ofxFaceTracker (accessed March 14, 2018); available from 
+https://github.com/kylemcdonald/ofxFaceTracker.  
+ 
+ 
+30 
+mechatronic drawing machine, motion encoders, k-means clustering, concatenative synthesis, and 
+speech recognition to explore machine intelligence through children’s protolanguage.63 Rover used 
+a mechatronic camera platform, structure from motion algorithms, light field synthesis / 
+computational photography techniques, GLSL shaders, audio feature extraction, clustering, and 
+granular synthesis to create a dreamlike cinematic exploration of place.64 My dissertation project 
+continues in this vein of multi-process research and development. Each of these has been in a sense 
+a “machines for living.”  
+My material engagements are these technologies of the self: domains where technologies 
+purport to represent or capture the constituents of identity. These include receptive technologies 
+for machine perception of sound, vision, speech and language. They also include expressive 
+synthesis of human legible sound, image, drawing, speech and language. Other topics deal with 
+digital fabrication, embodied experience, computational portraiture, and personal analytics. 
+These domains stake a terrain of machine living, our contemporary condition where 
+computers are the machines we dwell in and amongst. The bulk of contemporary experience is 
+mediated through electronic media and computational sensing technologies. Thus, my work with 
+them is an attempt at a critical embrace of Burnham’s “productive means of society.” Projects that 
+engage the conditions of machine living are the meeting point between critical engineering design 
+practice, technological topoanalysis, and psychological investigation. 
+                                                
+63 Robert Twomey, Searle’s Room, 2015; available from http://roberttwomey.com/searles-room. 
+64 More information is available in our SIGGRAPH 2017 paper: Robert Twomey and Michael 
+McCrea, "Transforming the Commonplace through Machine Perception: Light Field Synthesis 
+and Audio Feature Extraction in the Rover Project," Leonardo 50, no. 4 (2017), 
+http://dx.doi.org/10.1162/LEON_a_01458. 
+ 
+ 
+ 
+31 
+My affinity for technology is rooted in my own history as an artist and engineer. I started 
+programming in MS Basic some time in elementary school, and taught myself C++ when I was 
+13. I have built circuits for as long as I can remember, starting with the Radio Shack electronics 
+inventors kit my grandma gave me, also during elementary school. I designed and programmed 
+my first embedded microcontrollers and fabricated and populated my first printed circuit boards 
+in high school. I have a deep technical and intellectual affinity for these techniques and modes of 
+production. It is only in my mature career as an artist that I have situated them in a unified 
+conceptual field with other more traditional artistic media and content concerns.65 
+3.2 
+SITES OF MEANING 
+Beyond technical exploration, my projects are structured around particular human 
+engagements. Specific subjects vary from project to project, but as described in the previous 
+chapter, they are unified in their engagement with sites of everyday life. A partial list of previous 
+subjects for my work includes Alzheimer’s disease, parenthood, guns, drawing, speech, language, 
+studio practice, art school, family members, and art world heroes.  
+These spring from a conceptual extension of Bachelard’s “sites of intimate life”: similarly 
+drawn from the domain of the intimate; equally poetic and replete with history, memory, and 
+imagination; but broader than mere geometric space. Some are actual temporospatial sites (the 
+home, the studio, the art school). Others are social relations, kinships, or common cultural 
+experiences. All of these are defined by some readily identifiable and simply articulated nucleus 
+                                                
+65 Not to say that I am not adapting to an emergent technological landscape: in recent work and 
+instruction I have employed digital fabrication, cloud-based computing, embedded systems, 
+machine learning, and GPU programming. Future horizons for my work include neural and 
+somatic interfaces, augmented reality, and autonomous robotics.  
+ 
+ 
+ 
+32 
+or locus of meaning. My work is anchored to the experience of the everyday, through these 
+commonplace subjects, and thus readily accessible.  
+3.3 
+FORMAL STRATEGIES 
+My work develops a number of formal strategies. The first, model-limited experience, has to 
+do with the functional expression and constructed experience of the inherent limits of algorithms 
+and data as filters for experience. The next, opportunistic systems, are the active counterparts to 
+the first: systems that act to achieve desired results rather than passively filtering the world. The 
+next, machine observers and digital surrogates, substitute machine perception and autonomous 
+agents as placeholders for absent others in traditionally human roles. Finally, the idea of the 
+machine as metaphor reframes the stakes of these previous strategies to focus on meta-practices 
+of representation and analogy between human and machine.  
+3.3.1 Model-Limited Experience 
+Model-limited experiences are interactions where participant experience is curtailed (and 
+potentially frustrated) by the algorithmic parameters and implicit values in the data producing that 
+experience. These systems are designed to give viewers direct, working understanding of 
+algorithmically inbuilt rules of interaction; prompting reflection on the nature of those rules and 
+values.  
+My project Solipsist exemplifies this dynamic.66 In it, a small wooden room with a 
+microphone and receipt printer establishes a finite world of language. Speaking to the “intelligent” 
+printer that transcribes their words, viewers quickly learn that the system (and its choice of 
+                                                
+66 Robert Twomey, Solipsist, 2011; available from http://roberttwomey.com/solipsist. 
+ 
+ 
+ 
+33 
+language model) directly determines what is heard, what counts, and thus what can be said. The 
+system’s values determine the space of expression. Poetically, this illuminates the inherent 
+boundedness of our contemporary reality of always-on speech recognition, and resonates with the 
+idea of language as a closed system. These lessons project outwards to inform our understandings 
+of the parameters of commercially available personal voice assistants.67 This also resonates with 
+the essential Jeremijenko/BIT interest in the idea “that data has values,” and that a task of the artist 
+is the render them legible. 
+ 
+ 
+ 
+Figure 3.1. Solipsist (2011) 
+Solipsist was born out of a close reading of Mel Bochner’s “Serial Art, Systems, Solipsism.”68 
+In it, he invokes the character of the solipsist to describe the aesthetic characteristics of a number 
+of contemporary art practices, circa 1967: 
+                                                
+67 Apple’s Siri, Amazon’s Alexa, and Google’s eponymous Google Assistant. 
+ 68Mel Bochner, "Serial Art, Systems, Solipsism," Arts Magazine, no. Summer (1967). 
+ 
+ 
+34 
+For the solipsist reality is not enough. He denies the existence of anything 
+outside the self-enclosed confines of his own mind. Viewed within the 
+boundaries of thought, the random dimensions of reality lose their qualities 
+of extension. They become flat and static. Serial art in its highly abstract 
+and ordered manipulation of thought is likewise self-contained and 
+nonreferential.69  
+There are two moves at play in this passage: a flattening of reality through the boundaries of 
+thought (as language), and a declaration of self-containment and nonreferentiality. These same 
+formal principles operate in my piece: a flattening of experience into language, and the 
+development of a self-contained, closed system of speech. Viewers of the piece are situated in an 
+isolated, closed world of language.  
+The second reference for this piece is David Markson’s novel Wittgenstein’s Mistress.70 In it, 
+the protagonist, Kate, is similarly suspended in a finite space of language. This enclosure is 
+compounded by a seemingly finite well of experience, historical reference, and language that she 
+cycles through in the book. In the form of the book, a printed textual medium, the reader and author 
+similarly have no recourse to reference or information outside of the text.  
+Each of these creative works functions as a model-limited experience and finite system, where 
+the rules of the game establish the space of possible interaction and expression. The character of 
+these systems is strangely flat and unexpressive. As Bochner describes: 
+Some may say, and justifiably, that there is a "poetry" or "power" or some 
+other quality to this work that an approach like the above misses. But 
+aspects like those exist for individuals and are difficult to communicate 
+using conventional meanings for words. Others may claim that given this 
+they are still bored. If this is the case, their boredom may be the product of 
+                                                
+69 Ibid. 
+70 David Markson, Wittgenstein’s Mistress, First edition ed. (Elmwood Park, IL, USA: Dalkey 
+Archive Press, 1988). 
+ 
+ 
+35 
+being forced to view things not as sacred but as they probably are—
+autonomous and indifferent.71 
+3.3.2 Opportunistic Systems and Projective Identity 
+While similarly finite in their data and rule sets, opportunistic or coercive systems act on their 
+environment to produce desired goals. Here, beyond simply expressing the limits of data and 
+algorithms, systems proactively author their intended effects on the external world. 
+In my project Everyone as Someone I Know, viewers’ video mediated bodies are the contexts 
+on which the system manifests a database of stored personae, grafting pre-computed identities in 
+place of the viewers’ own faces.72 Functionally, this system excises and re-edits identity through 
+facial appearance, expression, mouths and words. Representational effect is no longer due to 
+viewer’s volitional contribution to an interactive experience, but rather to an involuntary re-edit of 
+their identity through computer vision and face tracking technology.  
+This project speaks to the mechanics of computational attribution of identity as broadly 
+practiced by computing giants such as Google and Facebook, and dwells in potentially sinister 
+consequences of voluntary or semi-voluntary participation in these systems. Who oversees or 
+verifies these computational judgments? This is a pressing contemporary issue in machine learning 
+and computer vision communities, with a growing public focus on the bias built into naturalistic 
+recognition and perception technologies.73 
+                                                
+71 Bochner. 
+72 Robert Twomey, Everyone As Someone I Know, 2013; available from 
+http://roberttwomey.com/face-swap. 
+73 Recent press including Dina Bass and Ellen Huet, "Researchers Combat Gender and Racial 
+Bias in Artificial Intelligence," Bloomberg December 4, 2017); available from 
+https://www.bloomberg.com/news/articles/2017-12-04/researchers-combat-gender-and-racial-
+bias-in-artificial-intelligence., or Will Knight, "Forget Killer Robots—Bias Is the Real AI 
+Danger," MIT Technology Review October 3, 2017); available from 
+https://www.technologyreview.com/s/608986/forget-killer-robotsbias-is-the-real-ai-danger/. 
+ 
+ 
+36 
+ 
+ 
+Figure 3.2. Face Swap / Everyone as Someone I Know (2013) 
+In audiovisual content, this project explores ideas of public/private personae and interpersonal 
+desire. The faces and identities programmed into the system, stored in its database, were pre-
+selected by the artist based on entirely personal criteria of attachment and desire, appropriating 
+identity irrespective of actual social distance. The bulk of the “characters” in the piece are artists 
+or theorists that the artist feels particularly attached to. Examples include William Pope.L, Marina 
+Abramovic, Marcel Duchamp, and Rosalind Krauss. In this sense, the project becomes a sort of 
+aspirational wish fulfillment: a system for projective identity using advanced computational 
+techniques to instantiate idealized others through the presence of viewer/participants.  
+This project collapsed boundaries of space, time, and context, unifying a collection of absent 
+others based on their value to some esoteric individual fantasy. It is solipsistic, in its own way.  
+3.3.3 Digital Surrogates 
+A third major artistic strategy in my work is the creation of digital surrogates. Similar to the 
+dynamics at play in the model-limited and opportunistic systems described above, observers and 
+surrogates differ through their relative passivity and agency. 
+ 
+ 
+37 
+Much of my work (including pre-digital projects such as The Father-Daughter Art Show74) 
+operates through the construction of affective surrogates. In engineering research and consumer 
+product design, attention has been devoted to efforts such as affective computing,75 social 
+robotics,76 and companion robots.77 These are systems that capitalize on the inbuilt human abilities 
+to sense and express emotions, harnessing those capabilities through expressive and receptive 
+machine perception techniques. Kelly Dobson’s Machine Therapy projects (discussed in Chapter 
+2), offer a unique perspective on affective computing focusing on embodied, visceral interactions, 
+but still concerned with the reception and expression of human-legible emotion. 
+Working from the position of a studio artist, I take a broad view of affective surrogacy. 
+Machines or computational systems can be surrogates, but so can objects. A surrogate is anything 
+that stands in as place-holder or invented foil. They function variously as observers, translators, 
+interlocutors, partners, replicas, doppelgangers, or simulations. For example, The Father-
+Daughter Art Show (2007) is a body of work built around the idea of an imaginary child.78 This 
+conceptual device was a mechanism to explore fantasies of parenthood and family absent any real 
+                                                
+74 Twomey, Father-Daughter Art Show. 
+75 See for instance Machine Perception Lab (MPLab) at the University of California, San Diego 
+(accessed March 14, 2018); available from http://mplab.ucsd.edu/wordpress/. The central 
+researchers founded emotional analysis company Emotient, later acquired by Apple: Doug 
+Ramsey, Apple Acquisition of UC San Diego Startup Paves Way for Further Robotics Research 
+at UC San Diego (accessed March 14, 2018); available from 
+http://ucsdnews.ucsd.edu/pressrelease/apple_acquisition_of_uc_san_diego_startup_paves_way_f
+or_further_roboti. 
+76 See the social robotics work of Cynthia Breazeal, Kismet (accessed March 14, 2018); available 
+from http://www.ai.mit.edu/projects/sociable/baby-bits.html. And her research group at the MIT 
+Media Lab, Personal Robotics Group (accessed March 14, 2018); available from 
+http://robotic.media.mit.edu/. 
+77 Breazeal’s commercial product, Jibo, “the first social robot for the home”: Jibo (accessed 
+March 14, 2018); available from https://www.jibo.com/. 
+ 
+78 Twomey, Father-Daughter Art Show. 
+ 
+ 
+38 
+child. The works produced were crafted studio objects (paintings, drawings, sculpture) and video 
+art, functioning as an expressive system in an art installation: an object-based visual essay. 
+ 
+ 
+Figure 3.3. Father-Daughter Art Show (2007) 
+In a digital project such as Megahal Grandmommy,79 the constructed system (a text-based 
+chatbot) was a direct replacement for a living individual: my grandmother, recently diagnosed with 
+Alzheimer’s disease. Conversations with the chatbot potentially displaced or replaced 
+conversations with my actual grandmother, and the whole system became an affective 
+psychological feedback loop. My interactions with the surrogate, contextualized through actual 
+events, generated a unique meditation on and portrait of my grandmother’s declining mental state. 
+                                                
+79 Twomey, Megahal Grandmommy. 
+ 
+ 
+39 
+ 
+ 
+Figure 3.4. Megahal Grandmommy (2005) 
+Surrogates operate through this displacement of affection of attachment onto the constructed 
+other. From an artistic perspective, surrogates serve as a third agent/actor, triangulating meaning 
+between artist, viewer, and crafted object. The artist interacts with the crafted surrogate, and the 
+viewer interacts with that same construction with some additional comprehension of the artist’s 
+use and history.  
+From a cybernetic perspective, surrogates serve as psychological feedback devices, catalyzing 
+emotion or interaction. Dobson conceived of Blendie and her later projects Umo, Omo, and Amo80 
+in this sense: as cathartic and therapeutic on an emotional, visceral, bodily level. This is a frontier 
+for engineering design: creating affective devices that sense and respond to emotional expression. 
+My own projects pursue poetic aims through similarly psychological / topoanalytic engagement. 
+Increasingly, personal robots such as Cynthia Breazeal’s Jibo are being adopted into intimate 
+space, for instance serving as companions for children and the elderly in the home. Breazeal’s MIT 
+colleague, Sherry Turkle, succinctly articulates the dangers of this approach to forming “real” 
+emotional bonds with machines in her article from the Washington Post from December 2017: 
+                                                
+80 Dobson. 
+ 
+ 
+40 
+These machines are seductive and offer the wrong payoff: the illusion of 
+companionship without the demands of friendship, the illusion of 
+connection without the reciprocity of a mutual relationship. And interacting 
+with these empathy machines may get in the way of children’s ability to 
+develop a capacity for empathy themselves.81 
+3.3.4 Machine Observers  
+Machine observers are the passive versions of active surrogates. They operate as mute 
+witnesses and narrators, sensing and describing aspects of observed experience. Solipsist, Convex 
+Mirror,82 and Rover83 all function in this vein: registering external events with no real capacity to 
+influence them. Solipsist transcribes speech to text to produce machine-mediated representations 
+of spoken words.  
+Convex Mirror is a site-specific drawing machine and computer vision system creating 
+compressed temporal representations of time and space. Substituting computer vision and 
+precision automation for the human hand and eye, this project operates with a superhuman physical 
+precision and temporal duration. Each drawing is produced over the course of three weeks, for 
+twelve hours a day, as the system dogmatically records its computational perception, resulting in 
+densely rendered images such as Figure 3.5 below. Named after Parmigianino’s self-portrait in a 
+convex mirror, this project implicitly contrasts the scope, scale, and temporal duration of human 
+and machine labor, producing its own portrait in the process. 
+                                                
+81 Sherry Turkle, "Why these friendly robots can't be good friends to our kids," The Washington 
+Post, December 17, 2018. 
+82 Robert Twomey, Convex Mirror, 2013; available from http://roberttwomey.com/convex-
+mirror. 
+83 Robert Twomey, Rover, 2015; available from http://roberttwomey.com/rover. 
+ 
+ 
+41 
+ 
+ 
+Figure 3.5. Convex Mirror (2013) 
+DXARTS Professor Juan Pampin and James Coupe’s Sanctum84 operates as a multi-modal 
+machine observer: using algorithmically extracted quantifications of viewer identity, gender, age, 
+etc., as a basis to produce visual, textual, and sonic narration of the public space surrounding the 
+Henry Art Gallery at the University of Washington. Embedded across the façade of the gallery 
+building, the system monitors passers-by and produces a continuous social narration of place. 
+Sanctum shares qualities with the opportunistic systems described above: it uses participants’ faces 
+as the occasions to retrieve and synthesize textual, auditory, and sonic narrative derived from 
+contributed social media material, collapsing remote and local information in the vein of a 
+Smithsonian nonsite. 
+                                                
+84 James Coupe and Juan Pampin, Sanctum, 2013-15; available from 
+https://dxarts.washington.edu/research/creative-work/sanctum. 
+ 
+ 
+42 
+ 
+Figure 3.6. James Coupe and Juan Pampin, Sanctum (2013-15) 
+BIT’s Suicide Box functions as a witness or machine observer to a most psychically charged 
+phenomena: suicide victims jumping from the Golden Gate Bridge in San Francisco. Here the 
+muteness of the system accentuates the artistic strategy: highlighting the lack of any official 
+monitoring, safe-guarding, or reporting of this vital safety issue where automated observation is 
+demonstrably feasible. 
+Rover (a collaboration with Michael McCrea) postulates a machine explorer (like the Martian 
+Rover, our project’s namesake) with its own perception and intelligence. It filters audio-visual 
+experience through novel processes of machine listening and computational photography.85 After 
+initially sampling a site through a mechatronic imaging system and digital audio recording, Rover 
+                                                
+85 Twomey and McCrea. 
+ 
+ 
+43 
+algorithmically processes and re-explores the place in a machinic search and audio-visual 
+reminiscence. The result is a dreamlike exploration of place, existing somewhere between cinema 
+and photography. Rover develops and explores the particular aesthetic character of machine 
+perception of visual and sonic experience, playing those modes of expression off of our own 
+inherent human understandings of these same quotidian spaces. 
+ 
+ 
+Figure 3.7. Rover (2015) 
+What is gained in substituting machine perception for human perception? Applying 
+engineered models of mechanized perception, machine observers implicitly contrast their 
+perceptual capabilities with those of their human analogs. The human interest in machine 
+perception is in experiencing this central comparison of natural and engineered modes of 
+perception, as these differences illuminate the function and meaning of our own. Biologist Jakob 
+von Uexküll calls this organism-specific worldview the umwelt, the subjective perceptual 
+understanding of the world defined by its sensory apparatus and cognitive capabilities.86 As we 
+develop increasingly sophisticated human-like modes of computational perception, this 
+                                                
+86 Discussed in Giorgio Agamben, The Open: Man and Animal (Stanford, Calif.: Stanford 
+University Press, 2004)., 39. 
+ 
+ 
+44 
+comparative study of human and machine offers potentially revelatory insight about the nature of 
+each. 
+3.3.5 Machine as Metaphor 
+Machines as simple as thermostats can be said to have beliefs.87 
+- John McCarthy 
+The ultimate formulation of my approach to human computer interaction is the idea of the 
+machine as metaphor. As John McCarthy concisely describes in his essay “Ascribing Mental 
+Qualities to Machines”: machines, particularly computers, have become the preeminent vessels by 
+which to examine our human cognitive nature. Even “machines as simple as thermostats can be 
+said to have beliefs.”88 What McCarthy has written amounts to a literary description: using the 
+device of metaphor to lever a host of human traits and qualities onto unthinking, unfeeling 
+“intelligent machines.” This is projective identification writ large, an anthropomorphism of the 
+dominant technology of our time.  
+McCarthy’s article speaks in very narrow terms about ideas later termed Strong Artificial 
+Intelligence (AI), at a point in the 1970s where the field looked very different than it does today. 
+But our contemporary impulse remains the same. Machine Learning (ML) is the dominant 
+technique of our time, and facile comparisons with human perception, cognition, and learning 
+deserve scrutiny: to elucidate the complex relationships between computational techniques and the 
+domains they model. Art is an ideal discipline to pursue this work, comprehensively addressing 
+                                                
+87 John McCarthy, Ascribing Mental Qualities to Machines (accessed March 14, 2018); available 
+from http://jmc.stanford.edu/articles/ascribing.html. 
+88 Ibid., 3. 
+ 
+ 
+45 
+the social, cultural, and experiential dimensions of ML techniques through functional aesthetic 
+products.  
+ 
+Figure 3.8. Francis Picabia, Fille Née sans Mère (1916-18) 89 
+This anthropomorphism of the machine is a rich artistic tradition: Picabia attempted similar 
+ends through purely visual metaphor in paintings such as Fille Neé sans Mère (Daughter Born 
+Without a Mother), seen in Figure 3.8. My imaginary daughter is spiritual kin to Picabia’s 
+daughter, similarly born without a mother, birthed of a generative conceptual machine. The 
+opportunity, now, is to create functional machines emulating human-like cognition and 
+perception—critically assessing the capabilities of these new technologies while untangling this 
+complex human-machine metaphor.  
+A number of my works operate in this manner: addressing pressing questions about human 
+nature through computational analogs. Rather than merely assuming the validity of this central 
+                                                
+89 Francis Picabia, Fille Née sans Mère (Girl Born without a Mother), 1917, Gouache on 
+railway-machine diagram. 
+ 
+ 
+46 
+comparison of human to machine, I always seek to question both the function and the failure of 
+the metaphor.  
+My project Searle’s Room90 grows out of an engagement with these computational theories 
+of mind, a response to John Searle’s 1980 essay “Minds, Brains, and Programs.” In it, Searle 
+challenges the claims of strong AI: that “the appropriately programmed computer literally has 
+cognitive states,” and that “programs thereby explain human cognition.”91 To challenge this 
+perspective, he describes what is known as the “Chinese room” thought experiment: where a 
+human operator isolated in a room, by means of lookup tables and rules, responds “intelligently” 
+to queries written in a foreign script they have no comprehension of. To observers on the outside, 
+this black box appears to demonstrate comprehension and intelligent response. In this, Searle is 
+describing the formal structure of a then state-of-the art reasoning system—with algorithmic 
+hierarchies of query and response—but gives lie to the idea that such mechanisms in any way 
+demonstrates intelligence. The human in the loop, capable of self-analysis and critical reflection, 
+clearly has no understanding of what they do. Everything else is mere process, any “intelligence” 
+is baked into the system a priori by the author of the rules and data. The project is an act of 
+technological ventriloquism. 
+                                                
+90 Twomey, Searle’s Room. A later variation of the project with a participatory role for the 
+viewer was shown as Robert Twomey, The Serious Business of Children, 2015; available from 
+http://roberttwomey.com/serious-business. 
+91 John Searle, "Minds, Brains, and Programs," The Behavioral and Brain Sciences 3, no. 3 
+(September 1980), https://doi.org/10.1017/S0140525X00005756. 
+ 
+ 
+47 
+ 
+ 
+Figure 3.9. Searle’s Room (2013) 
+My project Searle’s Room is a parallel construction using children’s babble and scribbles as 
+protolanguage, unintelligible in any conventional linguistic sense but communicative in other 
+registers. My piece casts the viewer as an observer on the outside of a linguistic query and response 
+conducted in half formed baby words and scribbles. Where the observer in Searle’s experiment is 
+fluent in the language of conversation and thus attributes intelligence to the room, the viewer in 
+my piece is linguistically in the dark. In fact, there is no language there. Rather, viewers rely on 
+more deeply human and embodied responses to pitch, tone, and the biosocial evocations of 
+children’s utterances.  
+Ultimately Searle’s Room becomes about the difference between expression and 
+comprehension, and creates a surreal estrangement from the intimate appeal of children’s speech 
+through the distancing mechanism of the robots. Technically, the apparatus is set to fail: a speech 
+transcription device attempting to find language (English text) where there is none. The viewer 
+sees this, creating a critical vantage point from which to evaluate the weight and authority given 
+to the processes of machine translation and expression.  
+ 
+ 
+48 
+My piece, like Searle’s essay, is a reflection on the impossibility of autonomy in any 
+technological artifact. It advances the idea that “intelligent” behavior has always been programmed 
+in. (Today, trained in, through epochs of machine learning) This returns to Kelly Dobson’s 
+question of “what we interact with when we interact with machines.”92 I would argue that in most 
+of our supposedly intelligent or autonomous creations, we are interacting with the consciousness, 
+subjectivity, and intent of whomever constructed it. This is a kind of high-tech ventriloquism: the 
+time-delayed manifestation of behavioral rules or data biases built by the human engineer behind 
+the screen. The device becomes just a longer stick to paint with. 
+                                                
+92 Dobson, 3. 
+ 
+ 
+49 
+Chapter 4. A MACHINE FOR LIVING IN 
+4.1 
+ARRIVING AT HOME 
+There is ground for taking the house as a tool for analysis of the human 
+soul.93  
+- Gaston Bachelard 
+Just what is it that makes today's homes so different, so appealing?94 
+- Richard Hamilton 
+My search for a dissertation topic was driven, like much of my creative work, by the twin 
+forces of dissatisfaction and desire. My previous projects seemed too narrow: whether in their 
+singular focus on individual technologies, or in their bracketing off of narrow ranges of human 
+experience (children’s language, drawing, etc.) as conceptual scenario. For my dissertation I 
+sought a subject that would provide a more expansive field for engagement, encompassing a broad 
+range of technical inquiry and human experience. Rather than picking bit by bit at individual 
+threads of technical and humanistic inquiry, I wanted an encompassing site where the project could 
+be as much about weaving a tapestry as developing the individual threads. This is a compositional 
+challenge. 
+Home is a generous subject. It is a complex and layered space of multiple modes of being and 
+experience. We are our most bodily at home, where we sleep, eat, bathe, and eliminate. Home is a 
+space of shared language: the site of ongoing dialog and exchange between inhabitants, guests, 
+                                                
+93 Bachelard, xxxvii. 
+94 Richard Hamilton, Just what is it that makes today's homes so different, so appealing?, 1956, 
+Collage. Hamilton’s title text is taken from an advertisement for Armstrong Floors from the June 
+1955 issue of Ladies Home Journal, showing "Armstrong Royelle Linoleum" flooring. See John-
+Paul Stonard, "Pop in the Age of Boom: Richard Hamilton’s “Just What Is It That Makes 
+Today’s Homes so Different, so Appealing?”," The Burlington Magazine 149, no. 1254 (2007). 
+ 
+ 
+50 
+and tele-present others; people and animals; people and objects (including voice-responsive smart 
+assistants). Reductively, home can be viewed as a series of discrete physical interactions between 
+inhabitants and the doors, cabinets, objects and appliances within.95 Geometrically, home is a fixed 
+spatial envelope, a space of encapsulated living defined by its separation from the world around it, 
+recalling Bachelard’s concept of the cave as the mother of all homes, and the minimal inhabited 
+space. Most importantly, home is an intimate space, replete with history, memory, fantasy, and 
+quotidian narrative. 
+The home as a subject is too broad for a single comprehensive art historical survey. As 
+Bachelard says: “our house is our corner of the world... it is our first universe, a real cosmos in 
+every sense of the word.” It is our first site of common human experience. Artists have variously 
+wrapped the home,96 split it,97 shelled it,98 burnt it,99 and rebuilt it.100 While thoroughly explored 
+as an artistic subject, I believe that conversely, the home is impossible to exhaust. 
+                                                
+95 Georges Perec created this kind of endless inventory of a Parisian street corner in Georges 
+Perec, An Attempt at Exhausting a Place in Paris, trans. Marc Lowenthal (Cambridge, Mass.: 
+Wakefield Press, 2010).  
+96 Christo and Jeanne-Claude, America House Wrapped, 1970. 
+97 Gordon Matta-Clark, Splitting, 1977. 
+98 Rachel Whiteread, House, 1993. 
+99 Filmmaker Andrei Tarkovsky used the image of the burning home in both Mirror, directed by 
+Andrei Tarkovsky (Kino Video, 1975). And Sacrifice, directed by Andrei Tarkovsky (Kino 
+Video, 1986). 
+100 Do Ho Suh, Apartment A, Unit 2, Corridor and Staircase, 348 West 22nd Street, New York, 
+NY, 10011, USA, 2011-14. 
+ 
+ 
+51 
+ 
+Figure 4.1. Four house transformations101 
+What is unique about today’s homes? The major transformation of domestic space in the past 
+twenty-plus years is the penetration of technology into the inner sanctum of the home. 
+Commercially, this is sold as the smart home. 
+The term smart home first surfaced in 1995, when the American Home Builders Associate 
+established a special interest group on “Smart Homes.”102 While early smart home development 
+focused on integrating the multiple control systems and technical layers of the home, it is only in 
+                                                
+101 Clockwise from top left: Christo America House Wrapped, Gordon Matta-Clark Splitting, 
+Rachel Whiteread House, and still from Andrei Tarkovsky’s Sacrifice. 
+102 Frances Aldrich, "Smart Homes: Past, Present, and Future," in Inside the smart home, ed. 
+Richard Harper (New York: Springer, 2003). 
+ 
+ 
+52 
+the early 2000s that the computational smart home as we understand it arose. This is the period in 
+which the science fictional became the nearly possible. Commercial markets are now saturated 
+with competing smart hubs (Google Home, Amazon Alexa, Apple HomePod), communication 
+protocols (ZigBee, Thread, Z-Wave and more), and novel technological solutions in search of a 
+problem (smart kitchen stove knobs, smart button pushing robots, smart door cameras). Financial 
+forecasters estimate the smart home sector will grow from a $24.1 billion market in 2016 to $54.3 
+billion by 2022.103 
+ 
+Figure 4.2. A survey of smart home devices circa 2018.104 
+                                                
+103 Zion Market Research, Global Smart Home Market to Exceed $53.45 Billion by 2022 
+(accessed March 14, 2018); available from https://globenewswire.com/news-
+release/2018/01/03/1281338/0/en/Global-Smart-Home-Market-to-Exceed-53-45-Billion-by-
+2022-Zion-Market-Research.html. 
+104 Clockwise from top left: Amazon Alexa, Google Home, Nest Thermostat, Meld smart knob, 
+Aura Smart Sleep system, Wakē smart alarm clock, Zuli smart outlet, Microbot Push smart 
+button pusher, and Sense Mother smart sensor hub. 
+ 
+ 
+53 
+For my purposes, the smart home is a target of opportunity: it marries my complex interest in 
+the home as a site and subject with the kinds of technologies I seek to examine through my work. 
+Previously I have used speech recognition to explore language as a closed system, computer vision 
+to create machinic attribution of identity, and physical sensors to capture and re-animate biological 
+motion. The notional smart home gathers all of these machine perception and computational 
+sensing technologies into a single space of ubiquitous, multi-modal machine observation: smart 
+assistants always listening, smart cameras interpreting domestic activity, and wireless sensors 
+monitoring all aspects of inhabited space. 
+My arrival at the home as a subject for the dissertation is a blend of artistic fascination with 
+the home, a personal desire to interpret intimate life, and a critical opportunity to examine an 
+emergent space of technological invention, the smart home.  
+4.2 
+LE CORBUSIER AND MACHINE LIVING 
+The problem of the house has not yet been stated.  
+Nevertheless, there do exist standards for the dwelling house.  
+Machinery contains in itself the factor of economy, which makes for 
+selection.  
+The house is a machine for living in.105 
+—Le Corbusier 
+Having settled on the home as a site and subject, I needed a frame through which to develop 
+the project. I found it in the work of Modernist French-Swiss architect Charles-Èdouard Jeanneret, 
+known as Le Corbusier. In his 1923 book Vers une Architecture (Towards a New Architecture), 
+from which the above passage is sourced, he embraces the machine as a model and engineering as 
+the muse for the design and construction of buildings. For Le Corbusier, the epochal “problem of 
+                                                
+105 Le Corbusier, Towards a New Architecture (New York: Dover Publications, 1986), 4. 
+ 
+ 
+54 
+the house” (circa 1923) could be addressed through a design approach focused on factors of 
+economy and utility, akin to the engineering of functional machines.106 Through discussion of a 
+number of paradigmatic examples—the airplane, automobile, and cruise liner—Le Corbusier 
+advocates for the streamlined, functional aesthetic that an ends-driven methodology could bring to 
+the design of the home. He believes that these machines achieve a kind of felicitous harmony with 
+the outside world that classical works of art and architecture achieved, and which contemporary 
+architecture and design was sorely in need of. Rather than a literal engineering of space, his is an 
+idealization and valorization of the engineered machine. This championing of the machine was 
+shared by a number of contemporary artistic movements, notably the Italian Futurists and Russian 
+Constructivists.107 
+Ninety years later, the computer is our ubiquitous machine and the dominant metaphor in our 
+cultural imagination. The contemporary notion of robust, utilitarian functionality is located in 
+technologies of ubiquitous sensing, embedded computing, cloud storage and analysis, and machine 
+perception—accessed through smart phones, personal computers, and increasingly, through smart 
+home appliances. Physical, mechanical aspects of technologies have receded into the background 
+(though Dobson’s Machine Therapy might try to resurface them)—replaced with an evanescent 
+digital immateriality.  
+Le Corbusier had a great faith in machines, that they “will lead to a new order both of work 
+and of leisure.”108 What more than the computer has led to this great reorganization in our time? 
+                                                
+106 In a Bachelardian frame the "problem of the house" would be: what do we imagine and expect 
+of the house as an intimate psychological site, and how can the architecture/construction of the 
+space produce those desired results? 
+107 The history of the machine in art is well summarized in Pontus Hultén, The Machine: As Seen 
+at the End of the Mechanical Age (New York: Museum of Modern Art, 1968). 
+108 Corbusier, 101. 
+ 
+ 
+55 
+As the site where computation is physically embedded in the home, the smart home telescopes the 
+capabilities of planetary scale computing into intimate, inhabited space: it is our contemporary 
+machine for living in. 
+4.3 
+HOUSE-MACHINES 
+If we eliminate from our hearts and minds all dead concepts in regard to the 
+house, and look at the question from a critical and objective point of view, 
+we shall arrive at the "House-Machine", the mass-production house, healthy 
+(and morally so too) and beautiful in the same way that the working tools 
+and instruments which accompany our existence are beautiful.109 
+- Le Corbusier 
+What is Home Without A Mother?110 
+-Buster Keaton 
+The two passages above juxtapose clinically utilitarian and deeply human perspectives on the 
+home. Le Corbusier speaks of the desire to eliminate “all dead concepts” regarding the house to 
+achieve a critical and objective point of view. For him, this approach arrives at the “house-
+machine”: a mass-production house that is healthy, moral, and beautiful like a tool or instrument. 
+In Buster Keaton’s 1920 movie The Scarecrow the phrase “What is Home Without a Mother?” is 
+revealed on the underside of the kitchen table as it is hoisted high onto the wall by a pair of 
+bachelor-inhabitants, concluding their meal and departing the house. Amidst a thicket of string-
+operated contraptions and parodic home automation devices, this plaintive non-sequitur reframes 
+all of this mechanized utility in terms of simple familial desire.  
+                                                
+109 Ibid., 7. 
+110 The Scarecrow, directed by Edward F. Cline and Buster Keaton (Metro Pictures, 1920), 
+https://archive.org/details/TheScarecrow1920. 
+ 
+ 
+56 
+The “house-machine” projects discussed in this section demonstrate a similarly complex mix 
+of engineered utility and deep human desire manifest in constructed space. Though created in 
+different eras and fields of production, each project captures something of Le Corbusier’s total 
+mechanizing aesthetic applied to the domain of the house, and stake out the parameters for my 
+own research in this space.  
+Le Corbusier’s Villa Savoye (1931) is a seminal work of high modernist architecture in the 
+International Style, and the building most readily associated with his pronouncement of the house 
+as “a machine for living in.” It demonstrates his five points of architecture: pilotis lifting the box 
+of the house off of the ground,111 an open plan “free” interior, a free façade (non-structural and 
+independent from the walls), horizontal ribbon windows, and rooftop gardens. The dominant 
+character of the building is its spatial plasticity: its geometric white exterior an elevated form 
+floating like a sculpture in the landscape, its interior plan is open to optimal use and free travel, 
+walls and windows functioning as viewing devices to frame a series of perspectives onto interior 
+courtyards and the surrounding environment. In stripping the building of inessential ornament, 
+embracing new structural possibilities through technologies such as reinforced concrete, Le 
+Corbusier’s building expresses the machine aesthetic he so admires. 
+                                                
+111 Pilotis are reinforced concrete columns, replacing structural walls in supporting the house. 
+ 
+ 
+57 
+ 
+ 
+ 
+Figure 4.3. Le Corbusier, Villa Savoye (1931) 
+Buster Keaton’s 1920 film The Scarecrow opens with two men in a small domestic interior. 
+Over the first third of the film, they are seen operating the architecture in various ways in a series 
+of mechanistic gags: slamming a door to pull a tooth, swinging condiments and eating utensils 
+through the air, hoisting the kitchen table to reveal the “home without a mother” question posed 
+above (See Figure 4.4 below). Every domestic appliance in this home has a double purpose, such 
+ 
+ 
+58 
+as the shaving mirror which flips to reveal a portrait of a love interest. Keaton’s building is the 
+“house as tool” in Le Corbusier’s conception.  
+Additionally, the film manifests a systems description of the home in exchange with its 
+environment: food waste drops through the wall into a pig pen on the outside, bath water flows to 
+replenish a duck pond. Though the film’s action moves on beyond the limits of the house, this 
+machinic apartment—home as a site and system—establishes a mechanical context for the rest of 
+the film. The plot unfolds through a series of mechanistic pratfalls (recalling Bergson’s theory of 
+humor as the unexpected interruption of mechanical human motion112) as the two main characters 
+pursue the affections of a woman, ending with Keaton’s character marrying her in a wedding 
+officiated mid-stream while mounted on a motorcycle. The story continues, perhaps, into the film 
+One Week (also from 1920, and co-starring the same female lead), where the protagonist and his 
+newly wedded bride construct and inhabit a first home. 
+                                                
+112 Henri Bergson, Laughter: An Essay on the Meaning of the Comic (New York: Macmillan, 
+1911). 
+ 
+ 
+59 
+ 
+ 
+Figure 4.4. Buster Keaton, The Scarecrow (1920), film stills 
+Until recently, the smart home was a fictional construction, discussed in the writings of Ray 
+Bradbury, Adolfo Bioy Casares, J.G. Ballard, and others.  
+Bradbury’s short story, “There Will Come Soft Rains”113 centers on one such fictional smart 
+home. Bradbury’s house contains a variety of “smart home” technologies: voice interfaces, robotic 
+appliances for cooking and cleaning, in-wall displays, home monitoring systems, and smart smoke 
+and fire protection systems. The story opens with a synthetic voice reciting the date, time, and 
+                                                
+113 “There Will Come Soft Rains” in Ray Bradbury, The Martian Chronicles, Trade ed. (New 
+York: Bantam Books, 1979). 
+ 
+ 
+60 
+reminders for the inhabitants beginning with a summary of the day’s events. As the textual 
+narration moves from room to room describing this fictional smart home, it gradually reveals the 
+absence of human inhabitants. Mid-morning (“ten-fifteen” in the story), while describing the 
+garden and sprinklers surrounding the house, we learn that the home’s inhabitants have perished 
+in what is apparently a nuclear explosion, “their images burned on wood in one titanic instant.”114 
+This story dwells on the quotidian rhythms of domestic space, manifest through the routinized 
+actions of a number of robotic agents. Human tragedy and loss is expressed through the absence 
+of inhabitants, with unsupervised automation run amok in the aftermath of a nuclear apocalypse. 
+One full day after the story begins, after a midnight crescendo of mechanical breakdown and self-
+immolation, the story concludes with the home as a skeleton of burnt walls and a molten electronic 
+nervous system announcing the arrival of the new day to an empty field, using what remains of its 
+machinic voice. 
+Adolfo Bioy Casares’ 1964 novel The Invention of Morel functions poetically in this zone of 
+inhabited space, ubiquitous machine observation, absent others, and the psychology of loss and 
+desire.115 In the book a protagonist is stranded on a remote island, and over the course of the 
+narrative he pieces together the parameters of a total reality-recording device (Morel’s eponymous 
+invention), the life-like “physical illusions” it projects, and the past events of a looping drama that 
+the system sustains. In parallel with the protagonist, we learn of the illusory nature of the 
+“inhabitants” of the island (first taken as real), and follow him as he attempts to integrate himself 
+into this endless, repeating cycle of their projected images. The central conceit of this story—a 
+                                                
+114 Ibid., 167. 
+115 Adolfo Bioy Casares, The Invention of Morel (New York: New York Review Books, 2003). 
+ 
+ 
+61 
+human falling in love with the immaterial illusion of an image—echoes the myth of Pygmalion 
+falling for his statue of Galatea. 
+Multiple aspects of Casares’ story are relevant to the idea of the smart home and provide 
+compositional references for my own project on the subject: the island (an encapsulated site), is 
+monitored by a totalizing observational system that captures the texture of activity in that space. 
+This system produces a distilled representation of those events, and the resultant experience loops 
+in perpetuity, suspended in illusionistic stasis.  
+Numerous projects out of academic labs, tech startups, and corporate research parks imagine 
+concrete future possibilities in the smart home space. The most compelling for me is Deb Roy’s 
+Human Speechome project (2006-present) from the MIT Media Lab’s Cognitive Machines Group, 
+with its intense mix of the personal and the scientific.116 For this project, Roy installed an “ultra-
+dense” sensing apparatus in his home: 11 cameras and 14 microphones comprehensively 
+monitored interior space, accumulating approximately 300GB of data per day.117 Over a three year 
+period of site observation, he captured 90,000 hours of video and 140,000 hours of audio 
+documenting the life of his son from birth to 3 years of age.118 In his TED Talk, “The Birth of a 
+Word,” Roy discusses how this apparatus and subsequent analytic techniques enable novel data 
+explorations leading to new insights about the genesis of speech and language.119 
+                                                
+116 A key reference is his paper Deb Roy et al., "The Human Speechome Project," Cognitive 
+Science  (2006). 
+117 Ibid. 
+118 Deb Roy, "New horizons in the study of child language acquisition" (paper presented at the 
+INTERSPEECH-2009, Brighton, United Kingdom, September 6-10, 2009). 
+119 Deb Roy, "The Birth of a Word," recorded 2011, Technology, Entertainment, Design 2011, 
+https://www.ted.com/talks/deb_roy_the_birth_of_a_word. 
+ 
+ 
+62 
+ 
+Figure 4.5. Deb Roy, The Human Speechome Project (2006) 
+In constructing a formal research apparatus to observe his family in vivo, Roy’s project aligns 
+with traditions of scientific self-experimentation and the personalized analyses of the Quantified 
+Self120 movement. His project becomes something complex and monumental: he has leveraged 
+resources from a massive research institution (MIT), to build a panoptic system, documenting the 
+intimate familial process of raising a young child. This resembles an art project (a work to be 
+inhabited) while chasing “scientific” aims. Roy seems to recognize some of this raw poetic 
+implication of science as portraiture: at the end of his TED talk, he recounts his son’s realization 
+                                                
+120 See for instance "Quantified Self," Wikipedia: The Free Encyclopedia (accessed March 14, 
+2018); available from https://en.wikipedia.org/wiki/Quantified_self or Quantified Self (accessed 
+March 14, 2018); available from http://quantifiedself.com/about/. 
+ 
+ 
+63 
+that he could share this unique data portrait with his own children someday. Roy built his own 
+Post-Partum Document. 
+To return to Le Corbusier, I will end with what I view as Le Corbusier’s true “machine for 
+living in”: his Cabanon built in 1952 Roquebrune-Cap-Martin in the South of France. This was a 
+modest vacation property that Le Corbusier designed and built to resemble a rustic wood cabin. 
+As he describes it: “I have a castle on the Riviera, it measures 3.66 by 3.66 meters. It’s for my 
+wife, and is extremely comfortable and cosy.”121 The cabin is situated on the rock hillside 
+overlooking the ocean, adjacent to the Etoile de Mere restaurant and Eileen Gray and Jean 
+Badovici’s modernist villa E-1027.122  
+Aside from the conspicuous lack of a kitchen (the cabin was attached to a restaurant), this 
+space expresses an extremely reduced typology of inhabited space including: “a working area, a 
+resting area, lavatory, wash-basin, a table, storage cupboards and a coat-rack ... concentrated into 
+a square cell measuring 3.66m by 3.66m and 2.26m high.”123 The cabanon interior combines a 
+Modernist utility stripped of ornament with the outwards appearance of a rustic hunter’s cabin, 
+itself a sort of unadorned functionalism.  
+                                                
+121 Le Corbusier quote is uncredited, but retrieved from Le Corbusier’s Cabanon (accessed 
+March 14, 2018); available from https://capmoderne.com/en/lieu/le-cabanon. 
+122 See E-1027: A House by the Sea (accessed March 14, 2018); available from 
+https://capmoderne.com/en/lieu/la-villa-e-1027/. This building was also site of a scandal 
+regarding Le Corbusier’s “vandalism” through paintings he made directly on the white walls.  
+123 "Le Corbusier’s Cabanon." 
+ 
+ 
+64 
+ 
+Figure 4.6. Le Corbusier, Le Cabanon (1951). 
+The cabanon is an intimate space par excellence. Le Corbusier designed it for his wife, as a 
+vacation spot. And after her death in 1957, he continued to use the space as a personal retreat until 
+his death in 1965. Le Corbusier, an experienced swimmer, drowned off of the coast by the cabanon 
+at the age of 1977, leading speculation as to suicide or possible intentional death.124 
+While Le Corbusier’s other buildings may have demonstrated a machine aesthetic, inspired 
+by the beautiful efficiency of the ends-driven engineering process of large machines, the cabanon 
+expresses a different sort of utility. This building expresses a bare functionalism that has more in 
+                                                
+124 Izzy Ashton, Le Corbusier's Cabanon seaside cabin is his smallest building on the World 
+Heritage List (accessed March 14, 2018); available from 
+https://www.dezeen.com/2016/07/20/le-corbusier-french-holiday-home-cabanon-17-buildings-
+unesco-world-heritage-list/. 
+ 
+ 
+65 
+common with Henry David Thoreau’s idea of reduced or essential living, expressed in Walden and 
+the home that he constructed at Walden Pond: “I went to the woods because I wished to live 
+deliberately, to front only the essential facts of life...”125 Like Thoreau’s cabin or Bachelard’s cave 
+or hut, the cabanon is a house stripped to its essence. Rather than the new stylistic language of 
+International Modernism, Le Corbusier’s cabanon expresses a simpler functionalism that hearkens 
+back to an earlier time.  
+Le Corbusier’s cabanon synthesizes a number of these in my research: it is an intimate site, it 
+is the epitome of unadorned functionalism, transforming economy into an aesthetic, and it is 
+overloaded with narratives and meanings. Constructing one’s own home, as Thoreau did at 
+Walden, is a quintessentially American pursuit.  
+By comparison, the functionality of the cabanon illustrates a core irony of the commercial 
+smart home: its inutility, and inessential nature. Though marketed through the fantasy of utility, as 
+stream-lining consumption, securing the home, and facilitating the free flow of information 
+through natural interfaces, the smart home provides mere technological luxury. A most efficient, 
+utilitarian, economical, machine-like implementation of living space would better resemble the 
+engineered quarters of space station, submarine, or small cabin.  
+Together, these examples highlight the multiple dimensions of the complex engagement with 
+the home in my dissertation work. They evoke contrasts between essential living and the technical 
+luxury of the smart home; between the home as a place of private intimacy and of constant machine 
+observation. They consider the implications of robotic agents and machine observers in domestic 
+                                                
+125 Henry David Thoreau, Walden and On the Duty of Civil Disobedience (New York: New 
+American Library, 1960), 66. 
+ 
+ 
+66 
+space. As we enmesh human-computer interactions more deeply in our lives, we shift to an era of 
+human-computer cohabitation, and ubiquitous sensing is our new domestic condition.  
+4.4 
+SITE OBSERVATION 
+In evaluating systems the artist is a perspectivist considering goals, 
+boundaries, structure, input, output, and related activity inside and outside 
+the system.126 
+- Jack Burnham 
+When I was ready, I turned on the receivers of simultaneous action. Seven 
+days have been recorded. I performed well: a casual observer would not 
+suspect that I am not part of the original scene… I arranged the records; the 
+machine will project the new week eternally.127 
+- Bioy Casares 
+4.4.1 Instrumentalized Home 
+A Machine for Living In has two phases: the construction and inhabitation of a functional 
+smart home system, followed by an exhibition of processed data as a layered digital arts 
+installation. This section describes the hardware and sensing setup for the site observation phase 
+of the project. I identify the key experiential layers of domestic space to be engaged, working as a 
+“perspectivist” in Burnham’s description above, performing an analysis of the home as site and 
+system. I match these points of interest with effective technologies for capturing home activity. 
+Like Morel’s invention in Casares’ novel, these are the “receivers of simultaneous action” for this 
+project. I then discuss the parameters of site observation and the scope of collected data. 
+In this process of system design, my “machine for living” aims for a functional perception of 
+space in its physical, psychological, and human dimensions. This contrasts with commercial smart 
+                                                
+126 Burnham,  32. 
+127 Bioy Casares, 101. 
+ 
+ 
+67 
+home goals of providing frictionless shopping experience, the ambient production of marketable 
+personal information, and the refinement of corporate machine perception models.128 For my 
+purposes, the house is an observing instrument tasked with producing a durable portrait of intimate 
+life. 
+As described in 4.1 above, home is an overloaded site: a space of language, bodily practice, 
+quotidian narrative, physical actions, cultural codes, and a constructed space. The sensing 
+apparatus created for this project records these multiple strata of experience through physical 
+sensing, cameras, sound recording, and 3d imaging and spatial representation, as described in 
+Table 4.1 below. The particular techniques used extend the processes of machine perception 
+developed for my earlier projects such as Convex Mirror, Solipsist, and Rover, now situated and 
+embedded within a real, lived space: the inhabited home. The topology of the situation has 
+changed: rather than staging experimental encounters between human and machine as coequal 
+entities in some exterior context, now the humans reside within the sensing machine. The home is 
+instrumentalized: transformed from inert inhabited space into a documentary apparatus and 
+impassive technological observer. 
+                                                
+128 Amazon, Google, and Apple all gather voice data from user interactions. See Tim Moynihan, 
+"Alexa and Google Home Record What You Say. But What Happens to That Data?," Wired 
+2016)(accessed March 14, 2018); available from https://www.wired.com/2016/12/alexa-and-
+google-record-your-voice/. 
+ 
+ 
+ 
+68 
+Table 4.1. Experiential Layers of Domestic Space 
+Experience 
+Sensing Techniques 
+Concreteness 
+Activity 
+ML Classifiers 
+Abstract 
+Speech 
+Voice Activity Detector, Google 
+Voice Services, Kaldi 
+... 
+Motion 
+OpenCV, MOG FG/BG 
+Segmentation 
+... 
+Sound 
+Microphone 
+... 
+Image 
+Camera 
+... 
+Physical Interaction 
+Physical Sensors 
+... 
+Architecture /  
+Physical Space 
+Measurement and 3D Scanning 
+Concrete 
+ 
+The identification and selection of sensing sites for this project is itself a descriptive endeavor. 
+Rooms in the home present a natural taxonomy of spaces: bedroom, bathroom, kitchen, living 
+room, basement. Each is suggestive of particular functions, and particular psychology (Bachelard). 
+The appliances, furniture, and objects in the house provide a secondary list of possible sites of 
+engagement. A quick inventory of everyday objects provides their own suggestive meanings and 
+histories: the bed, alarm clock, shower, toilet, sink, oven, toaster, microwave, fridge, television, 
+and couch. Finally, the commercial smart home industry provides a variety of targets ripe for 
+parody employing the debased “smart” descriptor: smart beds, smart sheets, smart kitchen knobs, 
+smart door locks. My original sketch of potential sensing sites (Figure 4.7) shows this dense and 
+overloaded perspective on home sensing. 
+ 
+ 
+69 
+ 
+Figure 4.7. Initial home sensing sites identified in the home 
+What I have developed for this project is a general strategy for home sensing that can be 
+opportunistically extended with the inclusion of new technologies. The specific sensors, platforms, 
+and processors used are unimportant: what matters is engaging the identified sites in the home 
+space. These are the anchors of meaning for the piece. They define the essential, functional 
+requirements for the sensing apparatus, and are my assessment of “the problem of the house.” 
+The network topology of this real-time house sensate was a centralized hub with wireless 
+sensing nodes as shown in Figure 4.8 below. Individual nodes were either physical sensors, digital 
+microphones, or digital video cameras, all running on-sensor analysis and filtering. Cameras and 
+microphones were attached to embedded Linux systems (Raspberry Pi) running basic sound and 
+ 
+ 
+70 
+image event detection. Physical sensors were programmed to only transmit state changes through 
+configurable thresholds of activation and temporal criteria. Shifting these basic levels of 
+intelligence out to the edge of the network (“edge computing”129) saved on network traffic, density 
+of stored data, and harnessed the available computational resources of the various sensors most 
+efficiently. 
+ 
+Figure 4.8. Home sensor network 
+Devices were attached to a Wireless Local Area Network (WLAN) communicating with 
+sensors and receivers using Open Sound Control (OSC) and various communication and file 
+                                                
+129 See "Edge Computing," Wikipedia: The Free Encyclopedia (accessed March 14, 2018); 
+available from https://en.wikipedia.org/wiki/Edge_computing. 
+ 
+ 
+71 
+transfer protocols (scp, ftp, and ssh). The following sections describe the data logger, physical 
+sensors, audio sensors, and video sensors used for the project. 
+4.4.2 
+Geometric Space 
+This project commenced with a manual survey of the built space of the home using a tape 
+measure and pen and paper. These measurements were then consulted to produce a 3D CAD model 
+of the home using the Rhinoceros 3D software,130 as seen in Figure 4.9. In a later phase, I used a 
+handheld 3D scanner (repurposed Microsoft Kinect131) and Real-Time Appearance-Based 
+Mapping (RTAB-Map) software132 to create 3d point cloud models of built space. These were 
+cleaned and edited using MeshLab133 and Rhinoceros 3D to produce point cloud models on the 
+order of 10 million 3D vertices per room. 
+                                                
+130 Robert McNeel and Associates, Rhinoceros 3D (accessed available from 
+https://www.rhino3d.com/. 
+131 "Kinect for Xbox 360 (2010)," Wikipedia: The Free Encyclopedia (accessed March 14, 
+2018); available from https://en.wikipedia.org/wiki/Kinect#Kinect_for_Xbox_360_(2010). 
+132 RTAB-Map (accessed March 14, 2018); available from http://introlab.github.io/rtabmap/. 
+133 Meshlab (accessed March 14, 2018); available from http://www.meshlab.net/. 
+ 
+ 
+ 
+72 
+ 
+ 
+Figure 4.9. Measured floor plan and CAD model 
+4.4.3 Physical Sensors 
+The first layer of sensing in this project are the physical sensors. These are embedded, situated 
+devices attached to particular locations in the house, each using different sensing technologies to 
+capture tangible physical interactions in the home space. Table 4.2 shows the various sensing 
+modalities, sensing sites, and technologies deployed for this project. 
+ 
+ 
+73 
+Table 4.2. Sensor technologies and sensing locations 
+Sensing Modality 
+Sensing Location 
+Sensor Technology 
+temperature and humidity 
+shower, stove 
+DHT11 
+open/closed 
+closets, doors, garbage can, 
+fridge, etc. 
+magnetic reed switch 
+presence 
+interior passageways 
+IR send/receive pair 
+vibration 
+microwave, washing 
+machine, chairs, tables 
+piezo 
+motion 
+room occupancy 
+Passive Infrared (PIR) 
+proximity 
+toilet, sink 
+IR range finder 
+ 
+All physical sensors in the house were connected to Particle Photon wireless controllers.134 
+Photons combine a STM32 ARM Cortex M3 microcontroller and a Cypress Wi-Fi chip with a 
+number of standard digital interfaces (I2C, I2S, Serial) and analog and digital pinouts. Individual 
+code was adapted for each sensor from a common housenode codebase I developed specifying 
+naming conventions, communication protocols (OSC), and over-the-air programmable 
+configuration options (not requiring a USB connection). Nodes were given descriptive names and 
+could be reconfigured live with OSC messages. Node names, server addresses, and sensory and 
+temporal thresholds were stored in onboard Flash memory where they would remain after power 
+was turned off. Once the nodes were attached to physical sites and configured, these settings 
+remained largely unchanged for data collection periods. Figure 4.10 shows sensors installed on 
+various sensing sites in the home. 
+                                                
+134 Particle Photon Wi-Fi Hardware (accessed March 14, 2018); available from 
+https://www.particle.io/products/hardware/photon-wifi-dev-kit. 
+ 
+ 
+74 
+ 
+Figure 4.10. Photon with sensors on the washing machine, fridge, garbage can, and toilet 
+4.4.4 Video Nodes 
+Video data was captured from a number of overhead vantage points using embedded Linux 
+systems (Raspberry Pi 3135 and Raspberry Pi Zero W136) with circular fisheye lenses137 and the 
+PiKrellCam motion triggered recording software.138 Video was recorded at 15fps and 1560x1080, 
+the maximum resolution and framerate possible for a full fisheye view given this image sensor and 
+the inbuilt constraints on the video processing capabilities of the Raspberry Pi. 
+                                                
+135 Raspberry Pi 3 Model B (accessed March 14, 2018); available from 
+https://www.raspberrypi.org/products/raspberry-pi-3-model-b/. 
+136 Raspberry Pi Zero W (accessed March 14, 2018); available from 
+https://www.raspberrypi.org/products/raspberry-pi-zero-w/. 
+137 Arducam OV5647 Camera Board with LS-40180 Fisheye Lens M12x0.5 Mount for Raspberry 
+Pi 3 (accessed March 14, 2018); available from https://www.amazon.com/Arducam-LS-40180-
+Fisheye-M12x0-5-Raspberry/dp/B013JWEGJQ. 
+138 Bill Wilson, PiKrellCam - OSD Motion Detect Program (accessed March 14, 2018); 
+available from http://billw2.github.io/pikrellcam/pikrellcam.html. 
+ 
+ 
+ 
+75 
+ 
+Figure 4.11. Video node and ceiling view 
+Software parameters were tuned to capture the movements of all inhabitants of the house 
+(animal, human, and baby human) across various bodily scales and viewing distances, and to 
+ignore changes in environmental lighting where possible.139 This amounted to a first level of 
+intelligence implemented in the sensing approach. Video was further filtered as described in the 
+following section. Inhabitant tracking was accomplished with custom code written in Python using 
+OpenCV140, also describe below.  
+                                                
+139 Parameters included size of motion activation regions, magnitude thresholds for calculated 
+visual motion, duration of motion trigger, and duration of pre- and post-event recording. All 
+were set through pikrellcam software configuration files.  
+140 OpenCV (accessed March 14, 2018); available from https://opencv.org/. 
+ 
+ 
+76 
+Additional video data was recorded through thermal imaging cameras (FLIR Lepton141) 
+running on a Raspberry Pi. This produced very low resolution (80x60 pixels, 16 bits per pixel) 
+video at low frame rates (1 fps), but was a novel mode to record traces of human presence and 
+inhabitation through lingering heat signatures. Figure 4.12 below shows successive infrared frames 
+from an overnight recording session of the bed. 
+ 
+Figure 4.12. Still frames from infrared (IR) imaging of the bed 
+4.4.5 Audio Nodes 
+Audio data was gathered through a number of audio nodes consisting of omni MEMS 
+microphones, the InvenSense ICS-43432142 attached to embedded Linux systems (Raspberry Pi) 
+running open-source voice activity detection software webrtc-vad.143 Figure 4.13 shows an audio 
+node. The circuit for the microphone was designed and fabricate by the artist, and is documented 
+online.144 The sound listening service was written in Python, and only audio classified as “voice 
+                                                
+141 FLIR Lepton (accessed March 14, 2018); available from 
+https://www.flir.com/products/lepton/. 
+142 InvenSense, ICS-43432 Datasheet (accessed March 14, 2018); available from 
+https://www.invensense.com/products/digital/ics-43432/. 
+143 John Wiseman, py-webrtcvad (accessed March 14, 2018); available from 
+https://pypi.python.org/pypi/webrtcvad. 
+144 Flexible circuit design for ICS-43421: https://github.com/roberttwomey/ics43432-pi.  
+ 
+ 
+77 
+activity” was recorded to disk. Audio was recorded at 48kHz sample rate and 24-bit sample depth, 
+to give the greatest degree of fidelity for later analysis and synthesis. In the analysis phase, audio 
+features were extracted, clustered, and resynthesized as discussed in the following section. 
+ 
+Figure 4.13. Audio node with MEMS mic and Raspberry Pi Zero 
+4.4.6 
+Black Box Recorder 
+Centralized event logging and data storage was accomplished through a single embedded 
+Linux system with attached disk storage. This device, blackbox.local, had an attached Real Time 
+Clock (RTC) with battery backup to create a master clock for the home system, and stored 
+incoming sensor messages as well as aggregating sound and video files.  
+In commercial aviation the flight data recorder (FDR) and cockpit voice recorder (CVR) are 
+the two pieces of technology colloquially known as the black box recorder. They create a 
+comprehensive running record of the physical state of the aircraft, pilot actions, and cockpit 
+conversations for some prior period of time. I strove for a similar functionality through the site-
+ 
+ 
+78 
+observation system I developed for this piece, likening the data logger and file storage to a black 
+box recorder installed in the home (itself an encapsulated site like an aircraft). 
+ 
+Figure 4.14. Black box recorders 
+4.4.7 What the Machine Saw 
+The combined approaches above formed a comprehensive engagement with the home as an 
+intimate site and produced large corpora of audio, visual, spatial, and physical sensing data. Taken 
+together, these materials provide a composite image of inhabitation. The scale and heterogeneous 
+character of this data provided complex challenges both computationally and compositionally, in 
+cleaning the data and in processing it to produce meaningful distillations. Over the course of this 
+site observation, the project recorded 40GB of compressed video data, 60 GB of uncompressed 
+audio data, and approximately 200,000 sensor activations. 
+A Machine for Living In differs from my earlier work in its integrative intent: my aim with 
+the project is to place these diverse experiential aspects of place within a unified frame, where 
+ 
+ 
+79 
+each type of information can communicate with the others. Secondly, the scale of data collected 
+for this project presents new challenges: the sensing apparatus produced hundreds of hours of 
+audio and video, tens of thousands of sensor readings, and millions of point cloud points. Data 
+storage and analysis were problems to be solved. Finally, the compositional challenge with this 
+project is to produce meaningful distillations of domestic activity, and to manifest these 
+experiences in an exhibition scenario. My compositional approach and methodological models are 
+discussed in the following section.  
+The goal of the sensing approach was to create a transcript of activities, a record of speech, 
+images of inhabitation. Following Perec, to document the infra-ordinary: 
+What speaks to us, seemingly, is always the big event, the untoward, the 
+extra-ordinary: the front-page splash, the banner headlines. Railway trains 
+only begin to exist when they are derailed, and the more passengers that are 
+killed, the more the trains exist. Aeroplanes achieve existence only when 
+they are hijacked. The one and only destiny of motor-cars is to drive into 
+plane trees.… How should we take account of, question, describe what 
+happens every day and recurs everyday: the banal, the quotidian, the 
+obvious, the common, the ordinary, the infra-ordinary, the background 
+noise, the habitual?145 
+4.5 
+CONSTRUCTED HOME 
+A house that has been experienced is not an inert box. Inhabited space 
+transcends geometric space.146 
+- Gaston Bachelard 
+The second phase of A Machine for Living In is an exhibition of processed domestic data as a 
+multilayered digital arts installation. In this section I discuss the technical and compositional 
+problems of working with the complex, multi-modal data produced in phase one of the project: 
+                                                
+145 “Approaches to What?” in Perec, Species of Spaces and Other Pieces. 
+146 Bachelard, 140. 
+ 
+ 
+80 
+how to synthesize diverse machine observations into a singular, cohesive viewer experience. I 
+describe my approach to data analysis, visual and temporal composition, and exhibition design for 
+the project.  
+A Machine for Living In, the exhibition, is a signifying system and sculptural non-site. The 
+piece necessarily accomplishes dimensional reduction of data, sculptural distillation of form, and 
+the computational analysis and classification of domestic activity. Recorded site data is filtered 
+through machine perception processes, then composed by the artist in a process of joint human-
+machine authorship. 
+4.5.1 Exhibition Space 
+ 
+Figure 4.15. A Machine for Living In, exhibition view 
+ 
+ 
+81 
+The inaugural exhibition of A Machine for Living In was at the Foster Art Gallery at 
+Westminster College in New Wilmington, PA, from August through October 2017. 
+Compositionally, the installation created a spatialized representation of the data gathered in phase 
+one of the project. This entire show is to be viewed as a sculptural non-site (Smithson) representing 
+material gathered at the primary site, the home. A multi-layered exhibition, the project combines 
+audio, video, text, digital drawings, and a small constructed room within the room. Figure 4.16 
+below shows the key elements of the exhibition labelled on a floor plan for the installation. 
+ 
+Figure 4.16. A Machine for Living In, exhibition floor plan 
+The project announces itself before viewers enter the space of the gallery. A looping 24-
+minute audio piece fills the room and spills out into the hallway and surrounding space of the 
+ 
+ 
+82 
+building. Dogs’ barks, babies’ cries, and other domestic noises punctuate the local sonic 
+environment and invite viewers into the show.  
+Encountering the piece through the front entrance as shown in Figure 4.17, viewers experience 
+multiple competing forms and modes of representation operating in a shared space of signification. 
+To the left is a small room encapsulated in bright yellow contour lines. In the back third of the 
+piece (the left-hand side of the above floor plan) various representations of domestic space vie for 
+representational authority: 3d architectural scans floating in a digital null space on a monitor to the 
+left, brightly colored panels on the floor illustrate a geometric house layout, densely rendered 
+drawings on the right wall show patterns of motion in the space, and directly ahead a large flat 
+screen television shows overhead views of each room in the house in a twenty-four minute video 
+matched to the audio composition playing in the room. In relation to my past work and research 
+trajectory, this exhibition most directly resembles the Father-Daughter Art Show: individual 
+pieces employing diverse modes of representation communicate with one another to create a 
+complicated, layered experience for the viewer. 
+ 
+ 
+83 
+  
+Figure 4.17. A Machine for Living In, front view looking in 
+Looking to the right (Figure 4.18), in a small nook past the row of motion trail drawings, a 
+vertical monitor plays a textual sensor narrative, accompanied by photos of sensors and sensing 
+sites documented in situ.  
+ 
+ 
+84 
+ 
+Figure 4.18. A Machine for Living In, right hand side of exhibition 
+Different perspectives through the space create new meanings combining elements along lines 
+of site. Looking forward from the rear of the piece, as in Figure 4.19 below, the brightly colored 
+floor plan tiles contrast with the floating point cloud representation of the house on the screen to 
+the right, while at the same anchoring the yellow wireframe box of the white space / smart home 
+seen at the front of the exhibition. These different representations resonate off of one another in 
+the exhibition space. 
+ 
+ 
+85 
+ 
+ 
+Figure 4.19. A Machine for Living In, showing three perspectives on built space 
+4.5.2 Visual Elements 
+The primary visual element of the exhibition is the overhead video playing on the large 
+monitor at the back of the room, shown in Figure 4.20 below. This top-down fisheye panopticon 
+offers a comprehensive and omniscient perspective on the home and its inhabitants as they 
+unwittingly carry out the activities of the day. 
+ 
+ 
+86 
+ 
+Figure 4.20. A Machine for Living In, one day, still from 24-minute video 
+This visual perspective emphasizes both a flattening seriality to the rooms of the house (as 
+just a finite set of room boxes), and the essential encapsulation of interior space. The distortions 
+induced by the geometry of the fisheye lenses make the periphery nearly unreachable: as people 
+or objects approach the edge of the frame they shrink to miniscule proportions. Windows and doors 
+are similarly rendered opaque, thus the only signs of the exterior environment surrounding the 
+home are evident in the varying lighting conditions in the rooms. Room light is momentarily 
+transformed as clouds pass by the sun, and brightness gradually cycles over the course of the day. 
+Due to the fisheye lens, each room is focused around a spherical microcosm anchored on the center 
+of the frame, a zone of pictorial enlargement where people and animals dominate their 
+surroundings.  
+The room scans seen in Figure 4.21 afford a more immediate perspective on interior space. 
+The video shows a series of rotating views of the rooms of the house floating in a black digital 
+ 
+ 
+87 
+non-space. Here light emanates from the thousands of three-dimensional points captured by the 3d 
+scanning technology. These rooms are purposefully devoid of human presence but show traces of 
+inhabitation in the casual detritus of everyday life: books on counters, papers strewn about, lights 
+left on. Models were captured from within the rooms but are viewed from the outside: producing 
+exterior views of the interior of the house. These scans demonstrate a painterly aesthetic in their 
+loose digital materiality, and situate the viewer immersively in the inhabited space of the home. 
+They combine individual rooms (basement, kitchen, living room) in a digital non-space, creating 
+more of a virtual sculptural object than a video piece. 
+ 
+Figure 4.21. Room Scan, still from animation 
+Juxtaposed with the room scans and overhead video, on the floor we have a brightly colored 
+geometric representation of the floor plan of the house. This element was added to anchor the 
+ground plane of the exhibition in the ground plane of the house, to manifest something of the 
+ 
+ 
+88 
+architectural CAD modelling done for the project (see Figure 4.22 below), and lends color to the 
+exhibition as a meta-compositional decision, balancing the other visual elements in the room. 
+ 
+ 
+Figure 4.22. Floor plan in CAD, floor plan and 3D scans in the exhibition. 
+Along the long wall to the right we have a series of motion trail drawings derived from video 
+observation of the house, shown in Figure 4.23. These digital prints recall the line drawings from 
+Convex Mirror. No longer mechanically concentrated in the body of a drawing machine, here the 
+“machine observer” is dispersed in the house (one camera in each room), and the drawings are 
+produced at a remove from the observed space. But the descriptive intent is similar, to produce a 
+temporally layered image of place. Bachelard: 
+Thus we cover the universe with drawings we have lived. These drawings 
+need not be exact. They need only to be tonalized on the mode of our 
+internal space.147 
+Figure 4.24 below shows an example frame of overhead video from the living room 
+demonstrating people detection and extracted motion trails. On the right we see the accumulated 
+                                                
+147 Ibid., 12. 
+ 
+ 
+89 
+mass of lines showing cumulative motion over time in the living room, with concentrated masses 
+on the couch, television, and flowing into the next room.  
+ 
+Figure 4.23. A Machine for Living In, motion trail drawings installed. 
+ 
+ 
+Figure 4.24. Motion trail extraction from video and a resulting drawing 
+ 
+ 
+90 
+The last wall mounted elements in the exhibition are the textual sensor narratives and the 
+photographs of the sensing sites, show in Figure 4.25 below. These provide a reduced digital and 
+textual representation of the home. On the vertical screen, a scrolling text feed lists sensor 
+activations as they occurred in the house. To the right are photographs showing the sensors in situ, 
+attached to appliances and parts of the house. Combined with the audio piece and the overhead 
+video, this sensor narrative provides a third temporal representation summarizing activity in the 
+home. 
+ 
+Figure 4.25. Sensor narrative 
+ 
+ 
+91 
+4.5.3 
+Model Smart Home / Home of the Future 
+ 
+Figure 4.26. A Machine for Living In, model smart home 
+The final visual element of the project is a model smart home / home of the future, seen in 
+Figure 4.26 above. This is a room within a room, a blank white space outlined with a bright yellow 
+geometric wireframe, constructed within the space of the gallery. The room is arranged to resemble 
+Le Corbusier’s cabanon, with its reduced typography of inhabited space as an interior living cell. 
+Within the room there is a bed, a chair, and a mirror, simple accompaniments to domestic life. The 
+room asserts its purity with a very modernist or science fictional aesthetic: all white space, light 
+wood, reflective mirror, and fluorescent yellow geometry.148 
+                                                
+148 For modernist white spaces in general, see THX 1138, directed by George Lucas (Warner 
+Bros., 1971)., or Ernest Hemingway’s “A Clean, Well-Lighted Place” in Ernest Hemingway, 
+Winner Take Nothing (New York: Collier Books, 1987). 
+ 
+ 
+92 
+This room expresses a simple encapsulation of domestic activity. Much like a submarine, 
+spaceship, or studio apartment, it contains the necessary elements of reduced or essential living in 
+a closed space. The compositional references for this open frame construction are both the glowing 
+lines of CAD geometry (wireframe models), and the encapsulated space of Francis Bacon’s round 
+areas, arenas, and cubes — “the operative field.”149 This painted structure is particularly evident 
+in the two exterior images from his triptych Sweeney Agonistes (1967, Figure 4.27 below). On the 
+left and the right sides, we see these boxlike structures: open to the air, with a solid ground plane, 
+a stage, and some mirrored or televisual curved imaging plane on the right-hand side.  
+ 
+Figure 4.27. Francis Bacon, Sweeney Agonistes (1967) triptych 
+Bacon aims to achieve an isolation and encapsulation of the body: avoiding the “figurative, 
+illustrative, and narrative character the Figure would necessarily have if it were not isolated.”150 
+The spaces he constructs have been called variously a cage, arena, vitrine, or boxing ring. What I 
+                                                
+149 Gilles Deleuze, Francis Bacon: The Logic of Sensation (Minneapolis: University of 
+Minnesota Press, 2004), 6. 
+150 Ibid. 
+ 
+ 
+93 
+find most compelling about these paintings is the contrast between the smooth pastel panels and 
+clean curved surfaces of the containing environments and the comingled fleshy masses within. 
+This compositional dynamic plays out between the visceral explosion of bodily matter on the chair 
+in the central image, and the spatial and organic constraint in the two bracketing images. These 
+paintings map out a triangulation of viewership between the massed bodies on the platforms, the 
+mirrors or screens on the right (including the staring figure on the phone), and the embodied 
+spectator (us) looking at the paintings and seeing both subject and mediating observer / device.  
+ 
+Figure 4.28. Detail of bed, mirror, and chair in model smart home 
+Figure 4.28 above shows a detail view the model smart room I have constructed. The objects 
+within embody traces of inhabitation. The mirror displays video originally recorded through the 
+bathroom mirror, playing back what it saw here in the exhibition. The bed similarly plays traces 
+ 
+ 
+94 
+of body heat captured in the house. Covered with an array of heating elements and a 
+thermochromic blanket,151 the fluctuations in temperature of the bed outline visually reveal the 
+outline of a body in white against the gray ground. If the viewer touches the blanket, they can feel 
+real heat emanating from this image. The plain wooden chair has an attached piezo sensor that 
+visually registers when a viewer sits in it.  
+I call this constructed space the model smart home because it serves as a nexus of imaginations 
+and concrete manifestations of smart home technologies. Replaying recorded traces of absent 
+individuals, the objects within recall the automated remnants of the smart house in Bradbury’s 
+“There Will Come Soft Rains.” 
+4.5.4 
+Temporal Composition and Joint Authorship 
+What machines do is to telescope and edit experiences in a way that printed 
+materials cannot.152 
+- Jack Burnham 
+Now that I am accustomed to seeing a life that is repeated, I find my own 
+irreparably haphazard.153 
+- Bioy Casares 
+The overhead video, audio, and sensor narrative screens function together as the temporal 
+core of the project. They all participate in the same kind of time compressed edit: structured as one 
+complete day in a twenty-four-minute loop, where one minute represents one hour. The larger 
+corpus of recorded house data is telescoped and edited by software, capitalizing on the machinic 
+                                                
+151 Body Faders, Grey to White Heat Color Changing Fabric (accessed March 3, 2017); 
+available from http://www.bodyfaders.com/shopping/pc/viewCategories.asp?idCategory=29. 
+152 Jack Burnham, “Notes on art and information processing,” in Jewish Museum, American 
+Motors Corporation, and Smithsonian Institution, Software; An Exhibition (New York: Jewish 
+Musem, 1970), 14. 
+153 Bioy Casares, 85. 
+ 
+ 
+95 
+potential Burnham describes above. The final pieces in the show are products of joint human-
+machine authorship consisting of data analysis, classification, structured query, and 
+algorithmically assisted edits. These efforts align with technical fields of computational 
+creativity,154 algorithmic composition, and computer supported cooperative work (CSCW).155 
+This looping structure was largely inspired by Bioy Casares’ story The Invention of Morel. 
+Existential loop. Endless recurrence (eternal return). Temporal durability. Giving oneself over to 
+the representation. 
+The video piece was visually described in the previous section with its six overhead views of 
+interior space. The source material is doubly filtered. On site, the recording system only captured 
+when motion was detected: thus, all events on screen in the resulting piece are moments where 
+motion was detected in the original house context. To detect motion, the video software used 
+relatively simplistic camera motion vector fields that are produced as part of the hardware video 
+compression process. Thus, detected motion means that some object, person, or animal moved in 
+the space, or that some spurious change in lighting registered as “motion.” Thus, there is a need 
+for a second level of filtering.  
+Video was additionally processed using computer vision techniques implemented with 
+OpenCV156 in python. Foreground/background segmentation was accomplished using the K-
+nearest neighbor background subtractor implemented in OpenCV.157 Background pixels were 
+masked out, the foreground image was thresholded, and contours were detected. Contours size was 
+                                                
+154 Association for Computational Creativity (accessed March 14, 2018); available from 
+http://computationalcreativity.net/home/. 
+155 ACM Conference on Computer-Supported Cooperative Work and Social Computing 
+(accessed March 14, 2018); available from https://cscw.acm.org/2018/. 
+156 OpenCV 3.2,"OpenCV." 
+157 OpenCV BackgroundSubtractorKNN (accessed March 14, 2018); available from 
+https://docs.opencv.org/3.3.1/db/d88/classcv_1_1BackgroundSubtractorKNN.html#details. 
+ 
+ 
+96 
+tuned to capture animals, human adults, and children in the home imaging space. Processed clips 
+containing tracked motion were selected for inclusion in the final video composition to provide a 
+continuous image of inhabitation throughout the course of the day. 
+This kind of structured query is an approach to algorithmic video editing employed by James 
+Coupe in his project General Intellect (2014-15). His piece engages the pool of internet-mediated 
+labor available through the Amazon Mechanical Turk (MTurk) marketplace158 to produce a 
+collective portrait through the platform. Coupe’s piece relies on the anonymous production of 
+MTurk workers, paying them to record one minute of video per hour between 9am and 5pm. 
+Workers additionally were required to write captions for their videos and provided detailed 
+metadata about themselves.159 These rules structure participation for the MTurk workers, and 
+provide a framework for algorithmic composition of the resultant media. 
+At the Morningside Academy in Seattle, Coupe’s piece was exhibited as a series of thirteen 
+queries on the dataset: demographically, temporally, or by any other metadata the workers 
+provided or that could be extracted.160 The resultant videos—manually labelled, then 
+computationally queried according to manually selected criteria—are then layered into a formerly 
+inhabited site, the abandoned middle school as shown in Figure 4.29 below. Viewers experience 
+these intimate video snapshots in the context of a site that is itself marked by absence, the 
+abandoned school. The locus of creative agency in this piece is difficult to attribute. The videos 
+are multiply authored: by the original MTurk workers, by the artist in selecting search criteria, by 
+                                                
+158 Amazon Mechanical Turk (MTurk) marketplace, Amazon Mechanical Turk (accessed March 
+14, 2018); available from https://www.mturk.com/.  
+159 His methods are described on the project website for the original version of the project at 
+Bath Spa University, James Coupe, General Intellect, 2015; available from 
+http://jamescoupe.com/?p=2093. 
+160 As installed at Morningside Academy in Seattle, James Coupe, General Intellect Exhibition in 
+Seattle, 2015; available from http://jamescoupe.com/?p=2157. 
+ 
+ 
+97 
+the system in executing those edits, and by the artist in selecting and realizing the exhibition 
+context.  
+ 
+ 
+Figure 4.29. James Coupe, General Intellect (2014-15)  
+My project aims for a similar sort of structured query. My materials (the model or data set) 
+are structured semantically (the names of sensors), spatially (room locations), and temporally 
+(when data was captured / activity occurred). Additionally, I use software tools to produce a 
+number of additional layers of metadata: for instance, using machine learning classifiers to identify 
+activities and objects in the scene, classifying sonic events, and recognizing speech data in the 
+audio recordings.  
+The second temporal loop in A Machine for Living In is the audio playing in the room. Like 
+the video, the audio is structured on a twenty-four-minute day, where one minute in viewer 
+experience represents one hour in the day. Initially intended just to record speech in the house 
+through the use of the voice activity detection software, the machine listening system gathered a 
+much broader set of matching sonic events. As with the video, a second level of classification was 
+necessary.  
+ 
+ 
+98 
+The techniques employed for audio analysis extend work done with Michael McCrea for 
+Rover, discussed in our SIGGRAPH paper from 2017.161 In this instance, detected sounds were 
+analyzed using the SuperCollider Music Information Retrieval (SCMIR) library162 implemented 
+in the SuperCollider digital audio language. Audio samples were split using beat detection, and 
+analyzed with SCMIR to produce twelve dimensional descriptive vectors for each segment. 
+Descriptors consisted of: 4 Mel-Frequency Cepstral Coefficients, the Spectral Centroid, a 6-point 
+Chromagram, and the Fast Fourier Transform crest. These audio descriptors were clustered using 
+k-Means163 and HDBSCAN,164 as shown in Figure 4.30 below. T-SNE handles the dimensional 
+reduction necessary to display the detected twelve-dimensional clusters in a 2-dimensional 
+image.165 
+                                                
+161 Twomey and McCrea. 
+162 Nick Collins, SCMIR: A SuperCollider Music Information Retrieval Library, ICMC (2011). 
+163 "k-means Clustering " Wikipedia: The Free Encyclopedia (accessed March 14, 2018); 
+available from https://en.wikipedia.org/wiki/K-means_clustering. 
+164 Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBSCAN) 
+(accessed March 14, 2018); available from http://hdbscan.readthedocs.io/en/latest/index.html. 
+165 "T-distributed Stochastic Network Embedding (t-SNE)," Wikipedia: The Free Encyclopedia 
+(accessed March 14, 2018); available from https://en.wikipedia.org/wiki/T-
+distributed_stochastic_neighbor_embedding. 
+ 
+ 
+99 
+ 
+ 
+Figure 4.30. Classified audio data, clustered, and visualized with t-SNE 
+To produce the final audio composition, clustered audio data was explored using an interactive 
+cluster browser GUI written in SuperCollider. Particular clusters for each hour of audio were noted 
+for later use. These files and clusters were then fed into a modified GrainScanner instrument,166 
+altered to work with HDBSCAN cluster labels. The GrainScanner uses granular synthesis on 
+samples grouped around the previously identified clusters of interest to synthesize representative 
+audio for each hour in the house.  
+I liken the aesthetic effect of the audio process to Juan Pampin’s ambisonic audio piece A 
+Line.167 His piece collapses sonic experience across the various sites and durations of a trip on the 
+historic Linea A in Buenos Aires. My piece collapses sonic material spatially and temporally in 
+the home.  
+                                                
+166 Michael McCrea, GrainScanner (accessed March 14, 2018); available from 
+https://github.com/mtmccrea/mtm-sc-extensions/tree/master/GrainScanner/classes. 
+167 Juan Pampin, "A Line," recorded 2015, Ambisonic audio, accessed March 14, 2018, 
+https://dxarts.washington.edu/research/creative-work/line#. 
+ 
+ 
+ 
+100 
+Pampin’s piece starts at the beginning of the train route with binaural audio recording of the 
+composer and his son, traversing through a series of sites on the train and the streets above. The 
+initial sounds of the train transitions to the drumbeat of a parade on the avenue above. Quickly we 
+move to the next aural scene: a bell ringing and dog barking. Back to the train, then traffic sounds. 
+The sonic material of the train’s journey serves as the connective tissue throughout the piece.  
+This aural space is plastic and malleable: a door slamming transforms into a truck idling. 
+There is acute perceptual ambiguity about what is real and what is constructed. Pampin’s piece is 
+bracketed at the start and finish with sounds of the train beginning and ending its run, layered with 
+short conversational exchanges with his son. He documents a place and experience that are no 
+longer available (the historic train route), with sonic material recorded in the last period before the 
+train cars were removed and replaced. Intimate and doubly documentary, the piece is biographical, 
+framed as a shared experience between father and son.  
+My own work, while rendered in stereo, produces a similar collapsing of space and time in 
+the representation of place. In my project, the space is all internal, encapsulated within the confines 
+of the home. Audio was recorded using audio nodes, and processed and classified using machine 
+listening techniques. In choosing particular clusters and synthesis parameters to represent each 
+hour of the day, I am making editorial and creative decisions about the representation of place. 
+The third temporal loop in the project is the textual sensor narrative playing on the vertical 
+monitor. Over the course of a twenty-four-minute cycle, each minute of viewer experience 
+represents one hour of the day. Individual sensor activations are shown through their semantic 
+labels, producing texts like “washingmachine toilet toilet frontdoor fridge fridge microwave” that 
+create a running record on the vertical monitor. The data is sourced from the time-stamped sensor 
+readings transmitted to the black box recorder over the course of the site observation. 
+ 
+ 
+101 
+These recorded activations were aggregated in time to produce a statistical distribution of 
+likely sensor activations for each hour. Additionally, total numbers of activations per hour were 
+normalized to produce a representative distribution of activation frequency across the hours of the 
+day. These simple statistical distributions (seen in Figure 4.31) were used to generate new textual 
+narratives using Python code. 
+ 
+Figure 4.31. Sensor frequencies by hour 
+This narrative textual display speaks with a kind of deadpan literalism. Like Georges Perec in 
+An Attempt at Exhausting a Place in Paris,168 the text is a simple registration of events through a 
+descriptive process of creative notation. Where Perec manually inventories his perceptions of place 
+(the “infra-ordinary”) through writing, in this case the machine produces a textual transcript of 
+material interactions in the home. Though constructed by the artist and shaped through the specific 
+assignment of language to sensor activations, the computational sensing apparatus mechanistically 
+                                                
+168 Perec, An Attempt at Exhausting a Place in Paris. 
+ 
+ 
+102 
+generates this deadpan narration. The type of notational, deadpan, literal voice in this piece is 
+popular in conceptual art and contemporary experimental literature, particularly in the practice of 
+“Uncreative Writing” championed by Kenneth Goldsmith and Craig Dworkin.169 
+All three of the temporal artifacts discussed in this section participate in a durable circularity 
+that echoes the experience of Casares’ protagonist, quoted at the beginning of this section. The 
+events of some ideal day (in Casares case, an ideal week) repeat in perpetuity. For computer nerds, 
+this is the endless loop. These circular structures in time also anchor the temporal experience of 
+the viewer in the exhibit, portraying the house as a place of cyclical repetition: diurnal cycles of 
+day and night, and bodily rhythms of inhabitation. 
+These pieces are all produced through joint human-machine authorship. For the textual 
+narration, I gave the systems the words/labels to use in a ventriloquistic effort, but the system 
+applies them. I define the limits of the model, the parameters of the space, but the algorithm and 
+hardware implement them in a rote and uncreative process. For the video and audio, what the 
+viewer sees is a mix of machine classified material and subjective human compositional decisions, 
+thus computer supported collaborative work. Each type of judgment, human and machine, is in its 
+own way aesthetic: even the audio-visual analysis systems operate on evident phenomenological 
+traits of their analyzed materials. Telescoping outwards (to invert Burnham’s perspective), the 
+choice of data and training parameters for these machine perception models determine the space 
+of comprehension they can achieve. Choices about the representativeness of the resultant media, 
+and their communicative effects, are entirely in the subjective judgment of the artist. 
+ 
+ 
+                                                
+169 See Kenneth Goldsmith, Uncreative Writing: Managing Language in the Digital Age (New 
+York: Columbia University Press, 2011)., and Craig Douglas Dworkin and Kenneth Goldsmith, 
+Against Expression: An Anthology of Conceptual Writing (Evanston Illinois: Northwestern 
+University Press, 2011). 
+ 
+ 
+103 
+Chapter 5. CONCLUSIONS AND FUTURE DIRECTIONS 
+5.1 
+CONCLUSIONS ON A MACHINE FOR LIVING IN 
+Ultimately . . . systems theory may be another attempt by science to resist 
+the emotional pain and ambiguity that remain an unavoidable aspect of 
+life.170 
+-Jack Burnham 
+This project serves dual purposes: to study the home as a site of intimate life, and to evaluate 
+the meanings and uses of new smart technologies in that domestic space. To create this project, I 
+constructed a home sensing apparatus that recorded what I deemed to be the substantive sites of 
+meaning in the home. Installed for a period of months in a real home, this machine observation 
+produced rich, multi-modal data, which I have analyzed and processed to create the exhibit 
+described above. At the conclusion of the project, I recognize three main areas for future 
+development: improvements in instrumentation, new modes of data analysis, and new exhibition 
+forms and venues.  
+5.1.1 
+ Sensing and Home Instrumentation 
+While I am satisfied with the receptive scope of the home sensing apparatus, in the area of 
+instrumentation there is room for improvement in: 
+• Streamlining the deployment of sensors using zero-configuration networks and mesh 
+networking. 
+                                                
+170 Jack Burnham, Great Western Salt Works; Essays on the Meaning of Post-Formalist Art 
+(New York: G. Braziller, 1974), 11. 
+ 
+ 
+104 
+• Improving the robustness of network connectivity, for instance automatically 
+reconnecting to the network on dropped wireless signal, and improving data 
+transmission to re-transmit lost packets.  
+• Addition of Bluetooth Low Energy (BLE) sensors for monitoring small, mobile objects 
+such as forks, spoons, cups, where larger batteries and power supplies are not 
+feasible.171  
+• Incorporate far-field microphones: using beam-forming and far-field microphone 
+arrays to filter spatially, reject noise, and provide directional information about audio. 
+• Develop single smart home elements (for instance a heat sensing blanket that both 
+records and plays back body heat data) as individual projects. 
+My ultimate goal for the instrumentation portion of this project would be to develop these 
+sensing technologies into a more unified kit for reading and writing inhabited space. I gave a recent 
+workshop on this subject at Carnegie Mellon University,172 using the sensing and networking setup 
+I developed for the project to interface with the building we were in. Further work is needed to 
+streamline this process and toolset. 
+5.1.2 
+Data Analysis and Machine Perception 
+The second area for future improvement is in the analysis of recorded data. Even with the 
+current sensing approach, this project produces a dense set of observed house data that can be 
+sliced and processed in a variety of ways. A Machine for Living In proposes the house, and smart 
+                                                
+171 At the time of the dissertation, I have done initial experiments with the LightBlue Bean. 
+Punch Through Design LLC., LightBlue Bean (accessed March 14, 2018); available from 
+https://store.punchthrough.com/collections/bean-family/products/bean. 
+172 Robert Twomey, Workshop: Reading and Writing Inhabited Space (accessed March 14, 
+2018); available from https://github.com/roberttwomey/housemachine-workshop. 
+ 
+ 
+105 
+home sensing, as a meeting point between personal analytics and big data science. I am particularly 
+interested in extracting higher orders of description in the data processing workflow. Additional 
+computer vision, audio analysis, and physical sensing methods can provide more nuanced 
+interpretations of domestic activity. Future directions in this area include:  
+• Speech and language transcription of all processed data.173 
+• Contextual video description including identification of objects, inhabitants, etc.  
+• Improved audio feature descriptors and clustering algorithms. 
+• Activity classification for audio, video, and physical sensors. 
+• Bespoke recognition / classification models trained on house data.  
+• Generative models for audio, video, and sensor activations trained on house data. 
+I expect that these technical developments for the project will track with the growth and 
+availability of new tools in machine learning and data analysis fields. With increased intelligence 
+built into these processing tools, the “machine” element of A Machine for Living In will take 
+greater authorial responsibility or the resulting works.  
+5.1.3 
+New Exhibition Forms and Venues 
+Beyond the gallery exhibition presented above, A Machine for Living In can be developed for 
+a number of new formats, contexts, and presentation scenarios. These include:  
+• Using the sensor activations, speech transcription, and other textual descriptions of 
+recognized activities to produce an experimental form digital literature. I believe this 
+                                                
+173 I’ve already done this using Kaldi (accessed March 14, 2018); available from http://kaldi-
+asr.org/., and the Google Speech API (accessed March 14, 2018); available from 
+https://cloud.google.com/speech/., but did not incorporate those results into the initial exhibition. 
+ 
+ 
+106 
+is a novel, sensor-driven approach to authoring digital texts, and could be of interest to 
+e-literature communities, among others.174 
+• Algorithmically assembled video and audio from the project as stand-alone 
+experimental video work. This could result from further queries on the existing data, 
+or extracting new “details” studying particular elements of the home (for instance a cut 
+focused on domestic labor in the kitchen, centered on the stove, fried, and sink).  
+• A site-specific installation of the project in the space of an abandoned house. This site 
+would be doubly marked with absence: the recorded digital traces of inhabitation 
+layered onto a place that is rich with physical signs of absent others. 
+Much of the effort in creating this project was invested in developing and testing the 
+functional version of the sensing apparatus. Taking the lessons learned from this process, it would 
+be valuable to install the system in a significant new space and produce a new dataset. A number 
+of future sites of interest that could be profitably engaged as “Machines for Living” include:  
+• the workplace175 
+• the school176 
+• the automobile177 
+                                                
+174 See Electronic Literature Organization (accessed March 14, 2018); available from 
+https://eliterature.org/what-is-e-lit/. 
+175 Automation in the workplace is a hot topic both in terms of advanced manufacturing, co-
+robotics, and even the recent automation of the commercial storefront with the Amazon Go store 
+in Seattle: Amazon Go (accessed March 14, 2018); available from 
+https://www.amazon.com/b?node=16008589011. 
+176 Contrasting human and machine learning (like Searle’s Room), and also thinking about 
+schools as a physical site at a time of rising interest in massively distributed online courses. 
+177 The idea of the automobile as a “machine for living” conjures wildly divergent associations, 
+from low-tech RV homes and trailers to high-tech Tesla self-driving vehicles. 
+ 
+ 
+107 
+The strategy for each of these contexts is to explore the descriptive potential and conceptual 
+ramifications of interpreting the site as a system, and playing out the machine analogy. 
+5.2 
+MACHINES FOR LIVING: DESIGNING INTROSPECTIVE TECHNOLOGIES 
+introspection: "the examination or observation of one's own mental and 
+emotional processes." 
+introspection: "the ability to examine the type or properties of an object at 
+runtime." 
+To codify my research practice: this work generalizes to a broader investigation of machine 
+living, our contemporary condition of life lived with ubiquitous computing and machine 
+perception. Constructing technological experiments and art systems to operate in this space of 
+intimate human-machine cohabitation, I aim for a targeted introspection into the nature of human 
+and machine. We, as people, need to look inward and ask questions of ourselves and our natures. 
+Our technologies, as autonomous machines, should aim for a similar self-examination and critical 
+introspection.  
+I seek to foster a reciprocal diagnosis, creating mutually revelatory encounters between 
+humans and machines, where each reveals something about the other. I use the word diagnosis to 
+invoke therapy, because I believe that each part has some essential lack that needs to be addressed.  
+Machines for living are technologies that are sufficiently sophisticated to operate as digital 
+surrogates and autonomous interlocutors, seamlessly integrating into the everyday. They are 
+cybernetic systems and psychological feedback devices, harnessing emerging technologies to 
+bring insight about ourselves. I exercise both an optimistic embrace of new technological 
+possibilities and a critical examination of their consequences. Future “machines for living” will 
+chase these engagements deeper into our intimate lives, to teach us more about how we live them. 
+ 
+ 
+108 
+ 
+ 
+ 
+BIBLIOGRAPHY 
+ACM Conference on Computer-Supported Cooperative Work and Social Computing. Accessed 
+March 14, 2018. Available from https://cscw.acm.org/2018/. 
+ 
+Amazon Go. Accessed March 14, 2018. Available from 
+https://www.amazon.com/b?node=16008589011. 
+ 
+Amazon Mechanical Turk. Accessed March 14, 2018. Available from https://www.mturk.com/. 
+ 
+Association for Computational Creativity. Accessed March 14, 2018. Available from 
+http://computationalcreativity.net/home/. 
+ 
+CMUSphinx. Accessed March 14, 2018. Available from https://cmusphinx.github.io/. 
+ 
+E-1027: A House by the Sea. Accessed March 14, 2018. Available from 
+https://capmoderne.com/en/lieu/la-villa-e-1027/. 
+ 
+"Edge Computing." Wikipedia: The Free Encyclopedia  (Accessed March 14, 2018. 
+https://en.wikipedia.org/wiki/Edge_computing. 
+ 
+Electronic Literature Organization. Accessed March 14, 2018. Available from 
+https://eliterature.org/what-is-e-lit/. 
+ 
+Google Speech API. Accessed March 14, 2018. Available from 
+https://cloud.google.com/speech/. 
+ 
+Hierarchical Density-Based Spatial Clustering of Applications with Noise (HDBSCAN). 
+Accessed March 14, 2018. Available from 
+http://hdbscan.readthedocs.io/en/latest/index.html. 
+ 
+"k-means Clustering " Wikipedia: The Free Encyclopedia  (Accessed March 14, 2018. 
+https://en.wikipedia.org/wiki/K-means_clustering. 
+ 
+Kaldi. Accessed March 14, 2018. Available from http://kaldi-asr.org/. 
+ 
+"Kinect for Xbox 360 (2010)." Wikipedia: The Free Encyclopedia  (Accessed March 14, 2018. 
+https://en.wikipedia.org/wiki/Kinect#Kinect_for_Xbox_360_(2010). 
+ 
+Le Corbusier’s Cabanon. Accessed March 14, 2018. Available from 
+https://capmoderne.com/en/lieu/le-cabanon. 
+ 
+ 
+ 
+109 
+Machine Perception Lab (MPLab) at the University of California, San Diego. Accessed March 
+14, 2018. Available from http://mplab.ucsd.edu/wordpress/. 
+ 
+OpenCV BackgroundSubtractorKNN. Accessed March 14, 2018. Available from 
+https://docs.opencv.org/3.3.1/db/d88/classcv_1_1BackgroundSubtractorKNN.html#detail
+s. 
+ 
+Particle Photon Wi-Fi Hardware. Accessed March 14, 2018. Available from 
+https://www.particle.io/products/hardware/photon-wifi-dev-kit. 
+ 
+"Quantified Self." Wikipedia: The Free Encyclopedia  (Accessed March 14, 2018. 
+https://en.wikipedia.org/wiki/Quantified_self  
+ 
+Quantified Self. Accessed March 14, 2018. Available from http://quantifiedself.com/about/. 
+ 
+Raspberry Pi 3 Model B. Accessed March 14, 2018. Available from 
+https://www.raspberrypi.org/products/raspberry-pi-3-model-b/. 
+ 
+Raspberry Pi Zero W. Accessed March 14, 2018. Available from 
+https://www.raspberrypi.org/products/raspberry-pi-zero-w/. 
+ 
+"T-distributed Stochastic Network Embedding (t-SNE)." Wikipedia: The Free Encyclopedia  
+(Accessed March 14, 2018. https://en.wikipedia.org/wiki/T-
+distributed_stochastic_neighbor_embedding. 
+ 
+Meshlab. Accessed March 14, 2018. Available from http://www.meshlab.net/. 
+ 
+Arducam OV5647 Camera Board with LS-40180 Fisheye Lens M12x0.5 Mount for Raspberry Pi 
+3. Accessed March 14, 2018. Available from https://www.amazon.com/Arducam-LS-
+40180-Fisheye-M12x0-5-Raspberry/dp/B013JWEGJQ. 
+ 
+FLIR Lepton. Accessed March 14, 2018. Available from https://www.flir.com/products/lepton/. 
+ 
+OpenCV. Accessed March 14, 2018. Available from https://opencv.org/. 
+ 
+RTAB-Map. Accessed March 14, 2018. Available from http://introlab.github.io/rtabmap/. 
+ 
+Jibo. Accessed March 14, 2018. Available from https://www.jibo.com/. 
+ 
+Agamben, Giorgio. The Open: Man and Animal. Stanford, Calif.: Stanford University Press, 
+2004. 
+ 
+Aldrich, Frances. "Smart Homes: Past, Present, and Future." In Inside the smart home, edited by 
+Richard Harper. New York: Springer, 2003. 
+ 
+ 
+ 
+110 
+Ashton, Izzy. Le Corbusier's Cabanon seaside cabin is his smallest building on the World 
+Heritage List. Accessed March 14, 2018. Available from 
+https://www.dezeen.com/2016/07/20/le-corbusier-french-holiday-home-cabanon-17-
+buildings-unesco-world-heritage-list/. 
+ 
+Associates, Robert McNeel and. Rhinoceros 3D. Accessed from https://www.rhino3d.com/. 
+ 
+Bachelard, Gaston. The Poetics of Space. Boston: Beacon Press, 1994. 
+ 
+Bass, Dina and Ellen Huet. "Researchers Combat Gender and Racial Bias in Artificial 
+Intelligence." Bloomberg  (December 4 2017). 
+https://www.bloomberg.com/news/articles/2017-12-04/researchers-combat-gender-and-
+racial-bias-in-artificial-intelligence. 
+ 
+Benjamin, H. D. Buchloh. "Conceptual Art 1962-1969: From the Aesthetic of Administration to 
+the Critique of Institutions." October 55 (Winter 1990): 105-43. 
+http://dx.doi.org/10.2307/778941. 
+ 
+Bergson, Henri. Laughter: An Essay on the Meaning of the Comic. edited by Cloudesley 
+Brereton and Fred Rothwell. New York: Macmillan, 1911. 
+ 
+Bertalanffy, Ludwig von. General Systems Theory; Foundations, Development, Applications. 
+New York: G. Braziller, 1969. 
+ 
+Bioy Casares, Adolfo. The Invention of Morel. edited by Ruth L. C. Simms. New York: New 
+York Review Books, 2003. 
+ 
+Bochner, Mel. "Serial Art, Systems, Solipsism." Arts Magazine, no. Summer (1967). 
+ 
+Bradbury, Ray. The Martian Chronicles. Trade ed. New York: Bantam Books, 1979. 
+ 
+Breazeal, Cynthia. Kismet. Accessed March 14, 2018. Available from 
+http://www.ai.mit.edu/projects/sociable/baby-bits.html. 
+ 
+Burnham, Jack. "Systems Esthetics." Artforum 7, no. 1 (September 1968): 30-35. 
+ 
+Burnham, Jack. Great Western Salt Works; Essays on the Meaning of Post-Formalist Art. New 
+York: G. Braziller, 1974. 
+ 
+Burton, Carl. Shelter. Accessed March 15, 2018. Available from 
+http://carlburton.io/index.php?/anim/shelter/. 
+ 
+The Scarecrow. Directed by Cline, Edward F. and Buster Keaton. Metro Pictures, 1920. 
+ 
+Collins, Nick. SCMIR: A SuperCollider Music Information Retrieval Library. ICMC, 2011. 
+ 
+ 
+ 
+111 
+Corbusier, Le. Towards a New Architecture. New York: Dover Publications, 1986. 
+ 
+Deleuze, Gilles. Francis Bacon: The Logic of Sensation. Minneapolis: University of Minnesota 
+Press, 2004. 
+ 
+Dobson, Kelly. "Machine Therapy." Ph.D. diss., Massachusetts Institute of Technology, 2007. 
+ 
+Dworkin, Craig Douglas and Kenneth Goldsmith. Against Expression: An Anthology of 
+Conceptual Writing. Evanston Illinois: Northwestern University Press, 2011. 
+ 
+Faders, Body. Grey to White Heat Color Changing Fabric. Accessed March 3, 2017. Available 
+from http://www.bodyfaders.com/shopping/pc/viewCategories.asp?idCategory=29. 
+ 
+Goldsmith, Kenneth. Uncreative Writing: Managing Language in the Digital Age. New York: 
+Columbia University Press, 2011. 
+ 
+Hemingway, Ernest. Winner Take Nothing. New York: Collier Books, 1987. 
+ 
+Hultén, Pontus. The Machine: As Seen at the End of the Mechanical Age. edited by Art Museum 
+of Modern, Thomas University of St, and Art San Francisco Museum of. New York: 
+Museum of Modern Art, 1968. 
+ 
+Hutchens, Jason. MegaHAL. Accessed March 14, 2018. Available from 
+https://megahal.alioth.debian.org/. 
+ 
+InvenSense. ICS-43432 Datasheet. Accessed March 14, 2018. Available from 
+https://www.invensense.com/products/digital/ics-43432/. 
+ 
+Jermeijenko, Natalie. Environmental Health Clinic. Accessed March 14, 2018. Available from 
+http://www.nyu.edu/projects/xdesign/clinic/. 
+ 
+Kelly, Mary. Post-Partum Document. Berkeley, Calif.: University of California Press, 1999. 
+ 
+Knight, Will. "Forget Killer Robots—Bias Is the Real AI Danger." MIT Technology Review  
+(October 3 2017). https://www.technologyreview.com/s/608986/forget-killer-robotsbias-
+is-the-real-ai-danger/. 
+ 
+Lab, MIT Media. Personal Robotics Group. Accessed March 14, 2018. Available from 
+http://robotic.media.mit.edu/. 
+ 
+LLC., Punch Through Design. LightBlue Bean. Accessed March 14, 2018. Available from 
+https://store.punchthrough.com/collections/bean-family/products/bean. 
+ 
+THX 1138. Directed by Lucas, George. Warner Bros., 1971. 
+ 
+ 
+ 
+112 
+Markson, David. Wittgenstein’s Mistress. First edition ed. Elmwood Park, IL, USA: Dalkey 
+Archive Press, 1988. 
+ 
+McCarthy, John. Ascribing Mental Qualities to Machines. Accessed March 14, 2018. Available 
+from http://jmc.stanford.edu/articles/ascribing.html. 
+ 
+McCrea, Michael. GrainScanner. Accessed March 14, 2018. Available from 
+https://github.com/mtmccrea/mtm-sc-extensions/tree/master/GrainScanner/classes. 
+ 
+McDonald, Kyle. ofxFaceTracker. Accessed March 14, 2018. Available from 
+https://github.com/kylemcdonald/ofxFaceTracker. 
+ 
+Moynihan, Tim. "Alexa and Google Home Record What You Say. But What Happens to That 
+Data?" Wired  (2016). Accessed March 14, 2018. https://www.wired.com/2016/12/alexa-
+and-google-record-your-voice/. 
+ 
+Museum, Jewish, American Motors Corporation, and Smithsonian Institution. Software; An 
+Exhibition. New York: Jewish Musem, 1970. 
+ 
+Oldenburg, Claes and Emmett Williams. Store Days: Documents from The Store, 1961, and Ray 
+Gun Theater, 1962. New York: Something Else Press, 1967. 
+ 
+Oliver, Julian, Gordan Savičić, and Danja Vasiliev. Critical Engineering Manifesto. Accessed 
+March 14, 2018. Available from https://criticalengineering.org/. 
+ 
+Pampin, Juan. "A Line." Ambisonic audio. 2015. 
+ 
+Perec, Georges. Species of Spaces and Other Pieces. Rev. ed., edited by John Sturrock. New 
+York, N.Y., USA: Penguin Books, 1999. 
+ 
+Perec, Georges. An Attempt at Exhausting a Place in Paris. Translated by Marc Lowenthal. 
+Cambridge, Mass.: Wakefield Press, 2010. 
+ 
+Raby, Dunne and. Biography. Accessed March 15, 2018. Available from 
+http://www.dunneandraby.co.uk/content/biography. 
+ 
+Raby, Dunne and. Critical Design FAQ. Accessed March 15, 2018. Available from 
+http://www.dunneandraby.co.uk/content/bydandr/13/0. 
+ 
+Ramsey, Doug. Apple Acquisition of UC San Diego Startup Paves Way for Further Robotics 
+Research at UC San Diego. Accessed March 14, 2018. Available from 
+http://ucsdnews.ucsd.edu/pressrelease/apple_acquisition_of_uc_san_diego_startup_paves
+_way_for_further_roboti. 
+ 
+Research, Zion Market. Global Smart Home Market to Exceed $53.45 Billion by 2022. Accessed 
+March 14, 2018. Available from https://globenewswire.com/news-
+ 
+ 
+113 
+release/2018/01/03/1281338/0/en/Global-Smart-Home-Market-to-Exceed-53-45-Billion-
+by-2022-Zion-Market-Research.html. 
+ 
+Roy, Deb, "New horizons in the study of child language acquisition." INTERSPEECH-2009, 
+Brighton, United Kingdom, September 6-10, 2009. 
+ 
+Roy, Deb. "The Birth of a Word." Technology, Entertainment, Design 2011, 2011. 
+ 
+Roy, Deb, Rupal Patel, Philip DeCamp, Rony Kubat, Michael Fleischman, Brandon Roy, 
+Nikolaos Mavridis, Stefanie Tellex, Alexia Salata, and Jethran Guinness. "The Human 
+Speechome Project." Cognitive Science  (2006). 
+ 
+Searle, John. "Minds, Brains, and Programs." The Behavioral and Brain Sciences 3, no. 3 
+(September 1980): 417-57. https://doi.org/10.1017/S0140525X00005756. 
+ 
+Smithson, Robert. Robert Smithson, The Collected Writings. Edited by Jack D. Flam. Berkeley: 
+University of California Press, 1996. 
+ 
+Stark, Luke. "Come on Feel the Data (and Smell It)." The Atlantic  (May 19 2014). Accessed 
+March 14, 2018. https://www.theatlantic.com/technology/archive/2014/05/data-
+visceralization/370899/. 
+ 
+Stonard, John-Paul. "Pop in the Age of Boom: Richard Hamilton’s “Just What Is It That Makes 
+Today’s Homes so Different, so Appealing?”." The Burlington Magazine 149, no. 1254 
+(2007): 607-20. 
+ 
+Mirror. Directed by Tarkovsky, Andrei. Kino Video, 1975. 
+ 
+Sacrifice. Directed by Tarkovsky, Andrei. Kino Video, 1986. 
+ 
+Technology, Bureau of Inverse. Accessed March 14, 2018. Available from 
+http://bureauit.org/bitindex.html. 
+ 
+Thoreau, Henry David. Walden and On the Duty of Civil Disobedience. New York: New 
+American Library, 1960. 
+ 
+Turkle, Sherry. "Why these friendly robots can't be good friends to our kids." The Washington 
+Post. December 17, 2018. 
+ 
+Twomey, Robert. Workshop: Reading and Writing Inhabited Space. Accessed March 14, 2018. 
+Available from https://github.com/roberttwomey/housemachine-workshop. 
+ 
+Twomey, Robert and Michael McCrea. "Transforming the Commonplace through Machine 
+Perception: Light Field Synthesis and Audio Feature Extraction in the Rover Project." 
+Leonardo 50, no. 4 (2017): 400-08. http://dx.doi.org/10.1162/LEON_a_01458. 
+ 
+ 
+ 
+114 
+Wilson, Bill. PiKrellCam - OSD Motion Detect Program. Accessed March 14, 2018. Available 
+from http://billw2.github.io/pikrellcam/pikrellcam.html. 
+ 
+Wiseman, John. py-webrtcvad. Accessed March 14, 2018. Available from 
+https://pypi.python.org/pypi/webrtcvad. 
+ 
+ 
+ 
+ 
+115 
+VITA 
+ 
+Robert Twomey (b. 1979, Washington, DC) is an artist and engineer exploring the poetic 
+intersection of human and machine perception. He exploits the potential of new technologies while 
+critically revealing their limits. Engaged with the messy conditions of everyday life, his works ask 
+questions about our technologies and ourselves to reveal moments of insight. 
+He has created a computer simulation of a grandmother with Alzheimer’s disease, a body of 
+work exploring the fantasy of an imaginary daughter, and recreated John Searle’s Chinese Room 
+as an exchange between synthetic child voice and robotic child drawing. 
+Twomey has worked in a variety of research labs throughout his career, notably the Center 
+for the Study of Learning, the Center for Research in Computing and the Arts with Sheldon Brown, 
+the Experimental Design Lab with Natalie Jeremijenko, and the Center for Digital Arts and 
+Experimental Media. 
+Twomey has presented his work at SIGGRAPH, the Museum of Contemporary Art San 
+Diego, the Seattle Art Museum, and has been featured by Microsoft and Amazon. He received his 
+BS from Yale with majors in Art and Biomedical Engineering, and his MFA in Visual Arts from 
+the University of California, San Diego. He is currently an Assistant Professor of Digital Media 
+at Youngstown State University. 
+ 

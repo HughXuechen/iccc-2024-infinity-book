@@ -1,0 +1,235 @@
+arXiv:2304.00266v2  [cs.HC]  27 Apr 2023
+Hidden Layer Interaction: A Co-Creative Design Fiction for Generative Models
+IMKE GRABE and JICHEN ZHU, IT University of Copenhagen, Denmark
+This paper presents a speculation on a ﬁctive co-creation scenario that extends classical interaction patterns with generative models.
+While existing interfaces are restricted to the input and output layers, we suggest hidden layer interaction to extend the horizonal
+relation at play when co-creating with a generative model’s design space. We speculate on applying feature visualization to ma-
+nipulate neurons corresponding to features ranging from edges over textures to objects. By integrating visual representations of
+a neural network’s hidden layers into co-creation, we aim to provide humans with a new means of interaction, contributing to a
+phenomenological account of the model’s inner workings during generation.
+Additional Key Words and Phrases: generative AI, co-creation, post-phenomenology, design ﬁction
+ACM Reference Format:
+Imke Grabe and Jichen Zhu. 2023. Hidden Layer Interaction: A Co-Creative Design Fiction for Generative Models. In CHI ’23: Workshop
+on Generative AI and HCI, April, 2023, Hamburg,Germany. ACM, New York, NY, USA, 4 pages. https://doi.org/10.1145/nnnnnnn.nnnnnnn
+1
+INTRODUCTION
+A certain mystique surrounds the latent space of generative AI models. Recent art projects like the immersive instal-
+lations from Reﬁk Anadol’s Machine Hallucination series1 illustrate how exploring latent images can be a captivating
+human experience. When humans are exposed to “a world of the otherwise unseen” [13, p.1], new phenomenological
+properties emerge, as Seberger and Slaughter point out for the case of deepfakes. Aiming to make sense of this relation,
+Benjamin et al. apply post-phenomenology to analyze how machine learning models inﬂuence our “phenomenological
+horizon” [5, p.12]. They introduce the concept of horizonal relations to describe how a probabilistic machine learning
+model mediates between a human and the world. Knowing that feature visualization can reveal how parts of a neural
+network represent certain features, one might wonder how making sense of latent space’s hidden properties could
+inﬂuence the horizonal relation coined by generative models when humans co-create with them. While researchers
+have found ways to make sense of latent space’s underlying properties in generative models [4, 8], its hidden layers are
+not a part of the interaction in co-creation [7]. For example, one can ﬁnd directions in latent space corresponding to
+semantic features [6, 14], based on which humans might co-create with a generative model via features that translate
+back into the input vector [17]. Or, one can investigate how objects are encoded in GANs’ internal representations [4]
+serving as a backbone for rewriting their weights in an application that lets users rearrange objects at the output layer
+level [3]. In both cases, however, human users interact with the input or output layer, respectively, which does not pro-
+vide them with a sense of how changes feed back into the hidden layers. Insight into a co-creator’s actions matters as
+it informs our understanding of the decisions taken in the creative process. This opens up our speculation of whether
+insight into a generator’s hidden workings could contribute to co-creative processes.
+1https://reﬁkanadol.com/works/machine-hallucinations-nature-dreams/
+Permission to make digital or hard copies of all or part of this work for personal or classroom use is granted without fee provided that copies are not
+made or distributed for proﬁt or commercial advantage and that copies bear this notice and the full citation on the ﬁrst page. Copyrights for components
+of this work owned by others than ACM must be honored. Abstracting with credit is permitted. To copy otherwise, or republish, to post on servers or
+to redistribute to lists, requires prior speciﬁc permission and/or a fee. Request permissions from permissions@acm.org.
+© 2023 Association for Computing Machinery.
+Manuscript submitted to ACM
+1
+CHI ’23, April, 2023, Hamburg, Germany
+Imke Grabe and Jichen Zhu
+Design ﬁction can be useful for envisioning future interactions with generative AI [9, 16]. In this paper, we use spec-
+ulative design [1] as a way to imagine a co-creative scenario, that involves interaction with the hidden representations
+of a generative AI. More speciﬁcally, we imagine a reconstrained design [2] by combining existing technological ele-
+ments, namely generative AI and feature visualization, to give human users a better sense of how a generative model’s
+design space is constructed. By asking How can interacting with hidden layers aﬀect our experience of generative models?,
+we aim to investigate whether feature visualization can expand the horizonal relation at play when co-creating with
+generative AI.
+2
+METHOD
+Speculative design can serve as a method to overcome preconceptions and dogmas underlying technological develop-
+ment [2]. A characteristic of the recent development of generative AI is that we tend to compare the models’ func-
+tionality to humans and expect similar behavior. However, as AI models come with inherently diﬀerent capabilities
+from humans, we risk restricting their development to one stringent direction without asking what novel modes of
+co-creation the technology might bring to the table. By recognizing the constraints underlying our thinking when
+imagining new technological applications, we might imagine ‘alternative presents’ in a reconstrained world [2]. One
+practical aspect diﬀerentiating generative models from human brains is that one can ‘look inside’ them by printing
+out the activation on its layers. However, these values are challenging to make sense of. Here, feature visualization
+can be used as a tool to shed light on what hidden layers react to. By newly arranging technological elements [2], we
+speculate on a co-creation scenario that uses this insight. In doing so, we apply an alternative motivation, namely to
+imagine a co-creator that gives us access to and lets us intervene with how its creation process is constructed.
+3
+CURRENT WORLD: CLOSED HORIZONAL RELATION
+Humans and generative AI can co-create following diﬀerent patterns, ranging from simply prompting random gen-
+eration over exploring design alternatives to manipulating the design space [3, 7, 10]. In the visual domain, latent
+variable models, such as Generative Adversarial Networks (GANs), use the input or output layer as the main access
+point for interaction. At the input level, humans can prompt GANs with a latent code that holds an encoding, such as
+a text description or other attributes [15, 18]. Through interaction, alteration to the latent code lets humans traverse
+the model’s design space [12]. The generation process can also be inﬂuenced by intervening at the output layer level.
+Bau et al. [3] suggest rearranging elements in generated images to change the weights of the associated memory on
+the hidden layers. In other words, the output layer is the interface for making changes to the inside of the black-boxed
+network by rewriting its construction. In the terminology of evolutionary biology, one might say that we can either
+interact with a model via its phenotype, like in Bau et al.’s example, or via the genotype when manipulating the input
+vector, e.g., through encoded conditioning or by changing its variables. The layers in between remain undisclosed to
+the human co-creator. As generative models like GANs are probabilistic models and not rule-based, assuming their
+inner working is an impossible task.
+Benjamin et al. [5] use post-phenomenology to analyze how humans might experience the interaction with proba-
+bilistic models, more speciﬁcally how machine learning uncertainty functions as a design material. The authors formal-
+ize the phenomenological relationship by introducing horizonal relations, depicted by the term “ML ∼ World”, where
+the tilde operator describes the inference of the ML model from the world. Interacting with machine learning models
+can then be formalized as “Human ˜→ Tech – World”, where the arrow is the interpretation of the world based on
+the inferred model, through another technology such as the computer. This shows how machine learning models can
+2
+Hidden Layer Interaction: A Co-Creative Design Fiction for Generative Models
+CHI ’23, April, 2023, Hamburg, Germany
+“‘populate’ the world that humans experience with ready-made yet uncertain entities” [5, p.12]. In other words, we
+read the world through the model’s inference space [5]. Applied to generative design, humans navigate in an inferred
+design space when co-creating with latent variable models. With our ﬁctive design application, we speculate on en-
+riching the horizonal relation underlying the design space by giving humans a sense of the hidden layers’ workings
+by interacting through them.
+4
+SPECULATIVE WORLD: HIDDEN LAYER INTERACTION
+In the following, we present our speculation on the ﬁctive scenario of hidden layer interaction, in which humans can edit
+the parameters inside a generative model via a visual interface. More speciﬁcally, we rearrange existing technological
+elements from the realm of computer vision and generative AI anew to come up with an alternative mode of interacting
+with a generative model. Our motivation is to extend existing co-creation patterns by having humans interact with
+a model beyond its input and output layers. Central to our speculation, we suggest using feature visualization to
+investigate which parts of a neural network capture certain output features. Researchers have used the method to show
+how diﬀerent layers in neural networks for image processing encode edges, textures, patterns, parts, and objects [11].
+Through optimization, we imagine visualizing what a particular neuron ‘sees.’ In other words, we could ﬁnd neurons
+that activate strongly in connection to speciﬁc visual features. These features then act as the visual representation of
+the linked neurons. By manipulating the visual representation linked to the neuronal activation, the user is imagined
+to ‘draw with neurons’ in this activation space.
+The interaction with the generative model is imagined as follows. The user is presented with a selection of hidden
+layers of diﬀerent abstraction levels ranging from edges to objects in the network. They can choose to ‘pull up’ one
+of those layers to change the neuronal activation on it. Here, they see facets that a feature captures, e.g., diﬀerent
+geometric orientations for a low-abstraction layer representing edges, or diﬀerent motives for a higher-abstraction
+layer representing objects. When interacting with a chosen layer, the user can alter the strength of a feature facet via
+an interface similar to adjusting the exposure when editing an image. E.g., on a layer representing texture as a feature,
+they might increase the activation of some textures while decreasing the activation of others. The visual representation
+of the texture’s facets acts as a handle to change the activation of the corresponding neurons.
+Via these handles for visual features covering diﬀerent levels of abstraction in the neural network, human users
+undertake internal modiﬁcations by changing the activation of neurons. By observing how neuronal changes aﬀect
+the output of a generative model, they experience the roles of neurons distributed across the network, what behavior
+they cause, and how they relate. Hence, humans learn to think into the generative algorithm by looking backward in
+‘time’ into the generation process. We argue that giving humans a sense of how a prompt at the input layer transforms
+through the multi-layered structure into an output aﬀects how they experience the co-creative process by changing
+the horizonal relation towards the design space they navigate. Integrating the inner workings of neural networks into
+co-creative processes lets the human user step inside their artiﬁcial co-creator.
+5
+CONCLUSION
+We presented a co-creative generative design ﬁction making hidden representation experienceable in an interactive
+interface through feature visualization. More speciﬁcally, we propose interacting through a generative models’ in-
+ner workings in a future co-creation scenario, giving human actors a sense of how a generative AI’s design space
+is constructed. With our speculation, we aim to discuss the phenomenological relation underlying the experience of
+co-creating with generative models.
+3
+CHI ’23, April, 2023, Hamburg, Germany
+Imke Grabe and Jichen Zhu
+REFERENCES
+[1] James
+Auger.
+2013.
+Speculative
+design:
+crafting
+the
+speculation.
+Digital
+Creativity
+24,
+1
+(March
+2013),
+11–35.
+https://doi.org/10.1080/14626268.2013.767276
+[2] James Auger. 2017. Reconstrained Design: Confronting Oblique Design Constraints. https://doi.org/10.21606/nordes.2017.025
+[3] David Bau, Steven Liu, Tongzhou Wang, Jun-Yan Zhu, and Antonio Torralba. 2020. Rewriting a Deep Generative Model. In Proceedings of the
+European Conference on Computer Vision (ECCV).
+[4] David Bau, Jun-Yan Zhu, Hendrik Strobelt, Bolei Zhou, Joshua B Tenenbaum, William T Freeman, and Antonio Torralba. 2019. GAN Dissection:
+Visualizing and Understanding Generative Adversarial Networks. In Proceedings of the International Conference on Learning Representations (ICLR).
+19.
+[5] Jesse Josua Benjamin, Arne Berger, Nick Merrill, and James Pierce. 2021.
+Machine learning uncertainty as a design material: A post-
+phenomenological inquiry. Association for Computing Machinery. https://doi.org/10.1145/3411764.3445481
+[6] Emily Denton, Ben Hutchinson, Margaret Mitchell, Timnit Gebru, and Andrew Zaldivar. 2019. Image Counterfactual Sensitivity Analysis for
+Detecting Unintended Bias. (June 2019). http://arxiv.org/abs/1906.06439
+[7] Imke Grabe, Miguel González-Duque, Sebastian Risi, and Jichen Zhu. 2022.
+Towards a Framework for Human-AI Interaction Pat-
+terns in Co-Creative GAN Applications. In Joint Proceedings of the ACM IUI Workshops 2022, March 2022, Helsinki, Finland. 11.
+https://hai-gen.github.io/2022/papers/paper-HAIGEN-GrabeImke.pdf
+[8] Erik Härkönen, Aaron Hertzmann, Jaakko Lehtinen, and Sylvain Paris. 2020. GANSpace: Discovering Interpretable GAN Controls. arXiv:2004.02546
+[cs] (Dec. 2020). http://arxiv.org/abs/2004.02546 arXiv: 2004.02546.
+[9] Michael Muller, Steven Ross, Stephanie Houde, Mayank Agarwal, Fernando Martinez, John Richards, Kartik Talamadupula, and Justin D Weisz.
+2022. Drinking Chai with Your (AI) Programming Partner: A Design Fiction about Generative AI for Software Engineering. In Joint Proceedings of
+the ACM IUI Workshops 2022, March 2022, Helsinki, Finland.
+[10] Michael
+Muller,
+Justin
+D
+Weisz,
+and
+Werner
+Geyer. 2020.
+Mixed
+Initiative
+Generative
+AI
+Interfaces:
+An
+Analytic
+Frame-
+work
+for
+Generative
+AI
+Applications.
+In
+Proceedings
+of
+the
+Workshop
+The
+Future
+of
+Co-Creative
+Systems
+-
+A
+Work-
+shop
+on
+Human-Computer
+Co-Creativity
+of
+the
+11th
+International
+Conference
+on
+Computational
+Creativity
+(ICCC
+2020).
+https://computationalcreativity.net/workshops/cocreative-iccc20/papers/Future_of_co-creative_systems_185.pdf
+[11] Chris Olah, Alexander Mordvintsev, and Ludwig Schubert. 2017. Feature Visualization. Distill (2017). https://doi.org/10.23915/distill.00007
+[12] Jacob Schrum, Jake Gutierrez, Vanessa Volz, Jialin Liu, Simon Lucas, and Sebastian Risi. 2020. Interactive Evolution and Exploration Within Latent
+Level-Design Space of Generative Adversarial Networks. In Proceedings of the 2020 Genetic and Evolutionary Computation Conference. 148–156.
+https://doi.org/10.1145/3377930.3389821 arXiv: 2004.00151.
+[13] John S. Seberger and Aubrey Slaughter. 2020. The Mystics and Magic of Latent Space: Becoming the Unseen. Membrana Journal of Photography
+Vol. 5, no. 1 (2020), 88–93. https://doi.org/10.47659/m8.088.art
+[14] Yujun Shen, Jinjin Gu, Xiaoou Tang, and Bolei Zhou. 2020. Interpreting the Latent Space of GANs for Semantic Face Editing. In 2020 IEEE/CVF
+Conference on Computer Vision and Pattern Recognition (CVPR). IEEE, Seattle, WA, USA, 9240–9249. https://doi.org/10.1109/CVPR42600.2020.00926
+[15] Gökhan Yildirim, Calvin Seward, and Urs Bergmann. 2018. Disentangling Multiple Conditional Inputs in GANs. In KDD 2018 Conference AI for
+Fashion Workshop. http://arxiv.org/abs/1806.07819 arXiv: 1806.07819.
+[16] Nur Yildirim. 2022. Emergent HCI Approaches to Envisioning with Generative AI Capabilities. In CHI ’23: Workshop on Generative AI and HCI. 4.
+[17] Nicola Zaltron, Luisa Zurlo, and Sebastian Risi. 2020. CG-GAN: An Interactive Evolutionary GAN-Based Approach for Facial Composite Generation.
+Proceedings of the AAAI Conference on Artiﬁcial Intelligence 34, 03 (April 2020), 2544–2551. https://doi.org/10.1609/aaai.v34i03.5637
+[18] Shizhan Zhu, Sanja Fidler, Raquel Urtasun, Dahua Lin, and Chen Change Loy. 2017. Be Your Own Prada: Fashion Synthesis with Structural
+Coherence. In Proceedings of the IEEE International Conference on Computer Vision (ICCV). 1680–1688.
+http://arxiv.org/abs/1710.07346 arXiv:
+1710.07346.
+4

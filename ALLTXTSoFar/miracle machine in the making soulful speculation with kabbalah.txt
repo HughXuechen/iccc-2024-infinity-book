@@ -1,0 +1,1865 @@
+Miracle Machine in the Making:
+Soulful Speculation with Kabbalah
+Brett A. Halperin
+University of Washington, Human
+Centered Design & Engineering
+Seattle, WA, USA
+bhalp@uw.edu
+Daniela K. Rosner
+University of Washington, Human
+Centered Design & Engineering
+Seattle, WA, USA
+dkrosner@uw.edu
+ABSTRACT
+What does it mean to design for a miracle—an ineffable phenome-
+non that might just exist in the world, but might also transcend it?
+Focusing on an esoteric strand of Jewish mystical thought known
+as Kabbalah, we draw from speculative interview activities with
+11 Jewish creative interlocutors to describe a process of designing
+a “miracle machine.” Interweaving foundational Kabbalah litera-
+ture with design inquiry, we find that lived experiences of miracles
+span life-saving events, effortful acts of love, and ineffable forms of
+knowledge. We also learn that people envision miracle machines
+as natural, cosmic, and sensory systems with transcendent capaci-
+ties. These insights rework a normative focus on the human mind
+(cognition) and body (embodiment) by embracing the all-too-often
+overlooked soul as a design resource. We end with a reflection on
+what soulful speculation entails and the purview that it expands,
+reorienting our understanding of what machines are altogether.
+CCS CONCEPTS
+• Human-centered computing → Interaction design theory,
+concepts and paradigms.
+KEYWORDS
+Contemplation, Divinity, Faith, Judaism, Magic, Meditation, Mind-
+fulness, More-than-Human, Mysticism, Non-Human, Religion, Sci-
+ence and Religion, Soul, Spirituality, Speculation, Speculative De-
+sign, Techno-Mysticism, Transcendence, Transcendent Experiences
+ACM Reference Format:
+Brett A. Halperin and Daniela K. Rosner. 2023. Miracle Machine in the
+Making: Soulful Speculation with Kabbalah. In Designing Interactive Systems
+Conference (DIS ’23), July 10–14, 2023, Pittsburgh, PA, USA. ACM, New York,
+NY, USA, 17 pages. https://doi.org/10.1145/3563657.3595990
+1
+INTRODUCTION
+“When it comes to political organizing and climate work,
+we need a miracle whether it’s some sort of actual non-
+scientifically explained divine intervention in our situa-
+tion or really effective community organizing.”
+— Danielle, Climate Activist
+Permission to make digital or hard copies of part or all of this work for personal or
+classroom use is granted without fee provided that copies are not made or distributed
+for profit or commercial advantage and that copies bear this notice and the full citation
+on the first page. Copyrights for third-party components of this work must be honored.
+For all other uses, contact the owner/author(s).
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+© 2023 Copyright held by the owner/author(s).
+ACM ISBN 978-1-4503-9893-0/23/07.
+https://doi.org/10.1145/3563657.3595990
+We live during a period of profound unrest. Whether due to global
+pandemics, the existential crises of a warming planet, or the height-
+ened awareness of extreme social and political inequity, a strong cur-
+rent of unease has taken root in the field of design research. Many of
+us who feel the insurmountability of the current challenges—issues
+that are hardly solvable at the scale of individual intervention, and
+increasingly impossible through structural reform—are searching
+for additional responses, as one of our interlocutors observes above.
+Some call for organizing and collective action to rework existing
+institutional arrangements [41, 53, 121, 139]. Others call for shaping
+advocacy around public policy [8, 39, 44, 103]. Such efforts share
+ambitious hope for exceeding instrumental change. It is a hope for
+something beyond the easy-to-place solution; something more com-
+plex than an engineering innovation; something more ethereal than
+‘disruption’ or resistance. Alongside day-to-day action, these efforts
+highlight a desire for intervention beyond human limitations—a
+mystical occurrence that might just transcend pain and suffering.
+For design, the notion of mysticism might seem far afield. To
+be sure, mysticism has many definitions, some of which refer to
+the possibility of acquiring ineffable knowledge attributed to the
+divine [42]. Design, by contrast, tends to adhere to the terrestrial—
+those decisions made by people creating conditions for change in
+the earthly realm. To speak of mystical design then is to either
+redefine mysticism as human-made or to consider the work of a
+non-human designer. While scholars have begun to explore non-
+human [22, 34, 45, 50, 69, 101] and magical design possibilities
+[6, 96, 108, 117, 122, 123, 136], designing for mystical phenomena
+and transcendent experiences [25, 95] has been less fully imagined.
+Our study builds on this loosely connected body of design schol-
+arship that explores mystical connections to the unknown. Calling
+their projects speculative, critical, or reflective [33, 57, 71, 91], this
+range of work has reckoned with the impossibility of recovery or
+resolution, turning to religion or secular modes of spirituality (e.g.,
+[95, 118, 145])—sometimes tracing connections between them. For
+example, AI scholar Mitchell Marcus provocates that computer sci-
+entists are in some ways like kabbalist mystics of today in terms of
+how they program machines with language, manipulating symbols
+to create information structures [94]. Looking to these connections
+between design and Kabbalah, we probe the possibility of support-
+ing unconstrained speculation around visions for machinery.
+Kabbalah refers to a set of texts, scholarly discipline, and school
+of Jewish mystical thought that likely hails from thirteenth century
+Spain [42]. Unlike exoteric Judaism examined in design research,
+which underscores shared rules, laws, and knowledge [67, 152],
+Kabbalah is an esoteric method of study that emphasizes secret or
+not commonly-held knowledge [21, 42, 59, 79, 125]. According to
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Halperin & Rosner
+Figure 1: Hand-drawn illustrations of motifs in Kabbalah texts to inspire conceptual designs of miracle machinery.
+Kabbalah texts where miracles are narrated by source text authors
+and debated among scholars, miracles are extraordinary and desired
+events that often go unexplained by nature or science [59, 61, 99].
+They surface not only in the central text, the Zohar (“Book of Splen-
+dor” or “Radiance”) [59, 61, 99], but also in conversations among
+Kabbalah scholars [20, 49] and practitioners, discerning miracles
+as rewards for “ethical virtue in the earthly realm” or expressions
+of a “particular view of divine providence” [49, p.273,286].
+As two Jewish design scholars, we speculate with Kabbalah as
+a cultural form of more-than-human inquiry, introspection, and
+critique alongside fellow members of our Jewish communities. We
+therefore build upon decades of design scholarship that has bene-
+fited from studying speculation, as well as non-humans, non-users,
+and peripheral contexts (e.g., [13, 15, 120]) to ask: (1) What expe-
+riences do people associate with miracles?; and (2) How do people
+envision a miracle machine inspired by Kabbalah?
+To address these questions, we draw from a speculative inquiry
+involving 11 Jewish interlocutors whose creative practices may cre-
+ate certain conditions or environments for miraculous experiences
+to transpire. Each session unfolded in three parts: an interview
+(questions about miracles and related Jewish mystical phenomena);
+Kabbalah readings (collaborative close readings and interpretation
+of source texts); and meditative sketching (a design activity involv-
+ing illustration and analysis of a miracle machine). We devised these
+sessions to lay the groundwork for examining the role that design
+techniques may play in envisioning new technological formats for
+reflecting on and experiencing miracles.
+Across this work, we make three contributions to design research
+literature. First, we broaden conversations on digital transcendence
+(e.g. [25, 28]) to present a form of technological development that
+helps designers reinterpret the conventional boundaries among
+users and interaction design contexts, use cases, and implicated
+non-humans. This process prompts designers to ask participants
+about the soul and to grasp forms of wonder, intuition, and aware-
+ness that exceed the physical (interpretable, experiential) world.
+Second, in the intimate interweaving of Jewish mystical thought
+and design, we identify techniques for deepening design inquiry
+methods for speculation. We show how incorporating modes of
+meditative sketching and mystical study in the design process open
+nuanced pathways for self-directed introspection that embraces
+and exceeds observed reality—a form of engagement that we deem
+participatory “soul work.” Lastly, the resulting design proposals
+expand scopes of speculation by considering more sensory possi-
+bilities and peripheral users, as well as extended timelines of use
+by charting engagements with non-humans (other species, sacred
+objects, ancestors, decedents, and divinity). Through attentive en-
+counters with beliefs surrounding the soul, our inquiry prompts
+design scholars to exercise care amid temporal ecologies that frame
+interaction as a wider set of design horizons in speculative activities.
+Miracle Machine in the Making: Soulful Speculation with Kabbalah
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+2
+BACKGROUND AND LITERATURE REVIEW
+While a thorough review of prior work is beyond the scope of our
+article, below we cover key questions and themes that shaped our
+analysis across Jewish mysticism, technology for transcendence,
+and speculative design inquiry. One important aspect of this work
+involves recognition that terms such as mysticism, magic, and mir-
+acles are neither clear-cut nor stable, but tend to highlight common
+concepts such as connectedness, timelessness, and knowledge in
+relation to transcendence [29]. Mystical experiences—operationally
+defined as the deepest form of transcendence [28] and described as
+“peak-experience[s]” [25, 88, 97]—often exhibit a core set of features
+(e.g., sense of oneness or unity), whether viewed as religious or
+not [25, 107, 134]. Meanwhile, magic can be understood as either
+sorcery or natural phenomena [43]. Our focus is on how the latter
+“opens onto us the properties and qualities of hidden things, and the
+knowledge of the whole course of Nature” [Ibid]—secret workings
+that link the natural world to the divine [115, p.18]. As for miracles,
+in this paper, they refer to transcendent experiences, which may
+be perceived as mystical or magical across religions and cultures.
+To follow, we focus on miracles vis-à-vis Jewish mystical thought.
+2.1
+Kabbalah and Jewish Mystical Thought: A
+Brief Overview
+Our work primarily engages excerpts from two Kabbalah source
+texts, Sefer Ha Bahir (“Book of Illumination” or “Brightness”) and
+Sefer Ha Zohar (“Book of Radiance” or “Splendor”)—two classical
+works of Kabbalah originally written primarily in Aramaic. First
+published as early as 1176, the Bahir expounds biblical verses with
+secret wisdom of divinity, creation, and Hebrew letters, unveiling
+the Ten Sefirot [divine attributes of God] that form the foundation
+of the kabbalistic belief system, the Tree of Life. Once the Zohar sur-
+faced toward the end of the thirteenth century, it became the most
+influential text among the body of medieval Kabbalah literature [79]
+as a type of midrash (rabbinic interpretation of the Jewish Bible)
+that is also part medieval fiction. Among the many translations of
+these works, we draw mostly on Daniel Matt’s acclaimed annotated
+and explained Zohar [99], as well as on a version of the Bahir that is
+attributed to Rabbi Nehunia ben haKana of the first century esoteric
+school (and translated into English by Aryeh Kaplan) [79].
+Despite variation in interpretations, scholars point to mysti-
+cism as a common denominator of Kabbalah. German-born Israeli
+philosopher and historian Gershom Scholem is credited with found-
+ing the modern academic study of Kabbalah as Jewish mystical
+thought [1, 7, 124–127, 132]. Centered on the Zohar [59], Scholem
+focused on philology and historicism, while refraining from ethno-
+graphic research on contemporary kabbalists or occultist Kabbalah
+in practice [74, 75]. In line with Scholem’s academic study, we per-
+form this work not as kabbalist mystics, but rather as scholars of the
+tradition. However, as design scholars, we are also interested in how
+kabbalists manipulate symbols and language to create information
+systems like computer programmers [94] in their mystical practices
+such as those of medieval Spanish kabbalists who, Schwartz argues,
+developed NLP in effect [114]. We further note that what people
+consider “authentic” Kabbalah is a source of debate since its esoter-
+cisim can be exploited [73]. The international nonprofit Kabbalah
+Centre [14], for example, has their own translations that deviate
+from academic scholarship with much controversy surrounding it
+[54]. With that said, we recognize the knowledge of both Kabbalah
+scholars and practitioners. Thus, our study foregrounds the aca-
+demic study, while also conversing with contemporary kabbalists
+(as other scholars have [99, 146]). Academic and practical studies
+may deviate in nature, but both tend to revolve around the Zohar.
+The Zohar is commentary on the Torah (the Five Books of Moses),
+but also an experiment in fiction [99]. The mystical text follows an
+intricate literary structure of radical poetic mythology [21], inter-
+weaving homilies and parables of traveling companions unearthing
+mystical secrets. In the Zohar, God is presented not as static, but
+rather as in a dynamic process and cause-and-effect relationship
+with humanity. This means that human actions affect God’s whole-
+ness. Divine union of God’s fragmented androgynous body can
+only occur if humans act virtuously to express the divine potential
+in them and thus in God [99]. Given this dynamic, every interaction
+in the text is “supernatural.” However, the authors, namely Spanish
+rabbi and kabbalist Moses de León [42], reserve the word “miracle”
+itself for not the most spectacular events, but rather the more mi-
+nor ones for which the divine interventions could be overlooked
+(e.g., the growth of a fruit tree in a cave to nourish a protagonist).
+Given this subtlety, renown medieval kabbalist Nahmanides posits
+the notion of “hidden miracles” that are both ubiquitous and hid-
+den in our everyday environment [20, Nahmanides, Torat Adonai
+Temimah, 1: 147]. In analyzing literary devices and themes such as
+miracles, many contemporary Kabbalah scholars have conducted
+close-readings of the mystical thought and motifs in source texts.
+Below we draw from this form of close analysis connected to mira-
+cles, bringing age-old Kabbalah literature into our design process.
+2.2
+Transcendence, Mysticism, and Judaism in
+Design Research
+Design scholars have increasingly studied techno-transcendence
+[25, 29, 100, 104] through inquiries that complicate normative no-
+tions of interaction between users and technologies, often involving
+non-humans in sacred experiences. In their landmark text on the
+subject, Blythe and Buie [25] present a fertile field of transcendent
+experience (TX) design to consider states of consciousness that op-
+erate beyond the limits of an individual identity, or what they call (in
+line with neuropsychology literature [109]) the transpersonal [25,
+p.22]. Designing for transcendent experiences—connecting with
+something transpersonal—then hinges on accounting for not only
+individuals, but also their sources of connection [104]. Scholars
+across cultural anthropology and psychology have found that peo-
+ple often associate transcendence with emotions like awe, wonder,
+gratitude, and appreciation [78, 109, 116, 128], which design schol-
+ars have explored in techno-spiritual design [24, 25, 29], as well as
+user experience design for mindfulness [47, 89] and awe [35, 36].
+The relationship between mysticism and design reflects a long-
+standing dilemma in technology. Where computational practices
+tend to emphasize the new and realizable, mystical practices tend
+to underscore the age-old and the unknown [16, 67, 91, 105]. A
+small but significant body of scholarship has explored the occult in
+the landscape of digital design, outlining opportunities for support-
+ing faith-based practices [151] and moments of caution and repair
+[3, 58]. In these connections, design researchers have alchemized
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Halperin & Rosner
+scientific and mystical ways of knowing. For example, Seymour and
+Van Kleek engage Japanese Shinto conceptions of the soul to inform
+the design of social robots, interrogating assumptions underpinning
+the design of voice assistants [129]. To date, these kinds of mystical
+inquiries have uncovered a range of implications for technology,
+including the entanglement of religious and technoscience practice
+[3, 152, 154]; support for moments of meditation and contempla-
+tion [76, 119, 133, 144, 145]; the importance of tending to intimate
+nuances of spiritual inquiry across cultures [57, 92, 110, 111, 155];
+and the role that artifacts play in techno-spiritual experiences and
+practices [18, 23, 27–29, 70].
+Adjacent design research on Judaism has drawn on theological
+traditions to challenge what scholars perceive to be the hegemony,
+amorality, and soullessness of mainstream technological develop-
+ment. Recent scholarship, for instance, has shown how Judaism and
+technology can enhance one another by positioning Judaic practices
+and concepts as exemplars for design innovation [67]. For example,
+in a study of American Jewish Orthodox families, Woodruff and col-
+leagues show that a mixture of technology and religion in home au-
+tomation can support the soulful Jewish tradition of refraining from
+technology use on the Sabbath [152]. Taking this insight to social
+justice, Hammer argues that Judaic orientations can resist Christian
+hegemony in systems design more broadly [67]. Putting this theory
+into practice, Klein and Dubin describe a socially-distanced robotic
+menorah that they designed amid the Covid-19 pandemic to help
+safely bring families together to celebrate Hanukkah, the Jewish
+holiday of miracles [82]. Our work draws from this focus on Ju-
+daic notions of miracles and experiments in design to explore how
+technology can serve not as a problem solving vehicle, but rather
+as a reflection of spiritual encounters—communal candle lighting,
+singing prayers, and celebrating miracles. While this set of projects
+exhibits a variety of ways technology might serve Jewish practices,
+they only begin to scratch the surface of what a computational sys-
+tem inflected with mysticism might do. We take inspiration from
+these theoretical, practical, and interstitial works to investigate the
+unknown mystical potential of Jewish miracle machinery.
+2.3
+Critical, Playful, and Magical Speculation
+Many design scholars have engaged critical, playful, and even
+magical forms of speculation in the here and now, as well as in
+envisioning more just futures. Tan and colleagues, for instance,
+present critical-playful speculation as a method for enacting partic-
+ipants’ creative imaginations on one hand, while eliciting critiques
+grounded in their social realities on the other [62]. Taking a similar
+approach to design inquiry, Fox and colleagues develop a fictional
+catalog of speculative artifacts that engage emotional, social, and
+political implications to consider possible design futures [52]. Ad-
+ditionally, Sum and colleagues evoke “dreaming” as a frame for
+envisioning futures of disability justice that transcend hegemonic
+thought [137]. Meanwhile, numerous scholars use similarly reflex-
+ive methods for critically rethinking time in relation to the future,
+calling for greater attention paid to: how temporal representations
+are culturally situated [83]; how deeper reflection on connections
+to time can actualize anti-oppressive futures [31, 32, 66]; and how
+spiritual transformations can occur over time with respect to love,
+friendship, and kinship [130]. To facilitate such vulnerable futuring,
+Howell and colleagues have called on design researchers to embrace
+uncertainties about the future by having humble respect for all that
+which is unknown [71]. Such speculation can inform design today.
+Some scholars have also studied how magic can play a role in
+media arts and design [72, 96, 108, 117, 122, 123, 136]. As Pierson de-
+scribes in tracing the development of computer-generated-imagery
+(CGI) back to early practices of magicians, visual effects in the cine-
+matic arts are “designed to trick the eye and stimulate the imagina-
+tion” while presented to audiences as magic; in her words: “artists,
+designers, and engineers [...] are revered as wizards and illusionists”
+in terms of how they elicit wonder [115, p.12]. Demonstrating this
+in design research, To and colleagues have maneuvered uncertainty
+and curiosity as speculative design resources [140]—for example,
+“Treehouse Dreams” presents a method for eliciting interview data
+by inviting participants to envision a fantasy tree house: a dream
+space that renders a “magic circle” [72] for “meaning-making and
+open communication of thoughts and feelings” [142]. Similarly,
+Nam and Oldenburg create an immersive wonderland experience
+for people to find the magic in the mundane through stories [108].
+Sharing this playful technique, Andersen and colleagues’ magic
+machine workshops take an anti-solutionist approach to “inject the
+notions of the powerful and unknown” into subject matters that
+may otherwise be too banal or difficult for design briefs to address
+[4–6]. Magical speculation thus expands imaginative capacities.
+While magic may seem to hinge on fantasy and fiction, Carey
+and colleagues show how a “fictional foundation” that is not merely
+speculative can also make it less burdensome for people to share
+personal stories of intense experiences that look toward just futures
+[33, 141]. Since telling personal stories of miracles can also be inti-
+mate, vulnerable, and even derided by skeptics, we take inspiration
+from these works to think about how speculation can not only be
+fantastical, but also reflexive and grounded in reality by provid-
+ing a storytelling foundation for sharing desired futures and past
+experiences of miracles that may be discounted in other settings.
+2.4
+Non-Human and Peripheral Users
+As an additional focus, we engage prior work on non-human and
+peripheral users seldom recognized in design processes [13, 15,
+51, 120]. In techno-spiritual endeavors in particular, we learn that
+“users” may also be thought of as sacred imagery [153] and non-
+human cosmic entities such as divinity [17, 24, 57]. Non-human
+entities may be as immersive as a mosque or landscape [153]; as
+simple yet nourishing as an apple that grows from a tree [143];
+as protective and vital as a home; or as mundane yet restorative
+as hand-cream [80]. All together, these non-humans demonstrate
+the power of inanimate artifacts to open pathways for reimagining
+not only who or what gets considered in design processes, but also
+the normative lifespan of use [55, 56, 156]. For example, Massimi
+and Charise develop thanatosensitive design to consider mortality
+and death in systems for memorializing ancestors [98]. Others
+have also explored technology to commemorate lost lives [135] and
+deceased relatives in techno-spiritual interactions [27]—sometimes
+even accounting for ghosts, spirits, and other unseen forces [30].
+These works thus expand the definition and lifespan of the “user.”
+Miracle Machine in the Making: Soulful Speculation with Kabbalah
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Engaging “traditionally ignored” users [51] further extends to
+feminist and anticolonial thought around more-than-human de-
+sign. Scholars have cautioned against efforts to “humanize” or “see
+through the eyes of an other (human or non-human)” rather than
+meet them “where they are” with “nonrepresentational ways of
+knowing” [80] beyond colonial mentalities [138]. These works draw
+from Black and Indigenous ecological scholarship [112, 113, 149] to
+emphasize the importance of multi-species environmental design
+[22, 34, 45, 50, 69, 101]—sometimes describing pitfalls of oppressive
+subject-object divides that evoke domination over nature [138].
+For example, Key and colleagues draw on the work of Watts, a
+Haudenosaunee and Anishinaabe scholar, [149] to warn against
+framing non-humans as subjects for extraction [80]. Similarly, Es-
+cobar calls for reorienting design away from colonial exploitation
+[26, 48]. These arguments reappear in work by Livio and Devendorf,
+who suggest subverting non-human instrumentalization to foster
+reciprocal relations at the “eco-technical interface” [90]. Our work
+builds on these proposals by probing the role that natural objects
+and other non-humans deemed sacred in Jewish mysticism might
+play in particular formulations of interaction and use.
+3
+METHODOLOGY
+To facilitate reflection and speculation around miracles, we de-
+signed our study to include interviewing, close readings, and sketch-
+ing prompts in the tradition of integrative mixed methods inquiry
+[9, 10]. We planned these activities with two aims: (1) to present
+interlocutors with Kabbalah concepts and motifs (e.g., Fig 1); and
+(2) to help design scholars imagine new relationships between tech-
+nology and mystical consciousness. As we reflect on later (in 5.1),
+we find that the fusion of meditative music, sketching, and mystical
+study offers a unique opening for inquiry and introspection.
+3.1
+Study Design
+We held remote, one-hour study sessions with 11 Jewish creative
+interlocutors (ages 26 to 75). To safely navigate the Covid-19 pan-
+demic and reach broad locations, we conducted all interviews via
+Zoom with video cameras on (except for two sessions that were
+mostly audio only). With interlocutors’ consent, Zoom recorded
+audio and video. Each interlocutor participated in a separate ses-
+sion. Ten sessions were one-on-one interviews, and one consisted
+of two interviewers (researchers) with one interviewee. All data
+were collected solely from these sessions aside from a few points
+of clarification in follow-up conversations with some interlocutors.
+In preparation for interview study sessions, both authors per-
+formed close readings [9, 10] of Kabbalah texts [49, 99]. For us,
+this involved making annotations and writing memos, followed by
+discussion of our interpretations during weekly meetings. These
+discussions led to deepened analysis of central themes and curation
+of poems and stories (from [49, 99]) to incorporate in the study
+sessions. We paid close attention to literary motifs by tracking,
+curating, and illustrating them (Fig 1). Ahead of the interviews, we
+shared curated excerpts from the Zohar [99] with our interlocutors
+as an optional reading exercise to orient those less familiar with
+Kabbalah. We also aimed to introduce interlocutors to critical exe-
+gesis that could potentially deepen their speculations about miracle
+machinery during the study session.
+Each study session broke into five main phases: (1) background
+questions; (2) mystical text interaction and discussion; (3) story-
+telling about miracles; (4) design activity; and (5) reflection. During
+phase one, we asked questions about their creative, social, and/or
+mystical practices. For phase two, we asked them to react to the
+kabbalistic belief system presented in the Bahir [79] for which we
+provided a brief overview and diagram. We also summarized how
+miracles appear in Kabbalah and asked them to reflect on poems or
+stories that stood out to them. In phase three, we prompted them
+to share specific times that they experienced miracles and any fu-
+ture miracles desired. During phase four, we used a design exercise
+to explore connections among our conversations on miracles, the
+Kabbalah excerpts, and speculative technology. We first asked our
+interlocutors to describe what they envision a “miracle machine”
+as. Then, we asked each interlocutor to draw a conceptual sketch of
+one vision for a miracle machine. To facilitate this, we shared our
+screen to display mystical motifs for prompting creative inspiration
+(e.g., Fig 1). To sensitize them to the motifs and design exercise, we
+played out loud Ovadia Hamama’s rendition of the Ana Bekoach,
+often considered one of the most powerful prayers in Kabbalah [68].
+We told them that they had until the end of the five-minute song to
+finish sketching. This time-constraint modeled that of a five-minute
+guided meditation, a short-form that can be just enough time to
+offer benefits such as mindfulness [40, 86]. We clarified that this
+embodied form of concept sketching was meant to be loose, lax,
+and intuitive rather than tight, rigid, and calculated. Once the song
+ended, we asked them to share their sketches and probed design
+rationale. We ended with a reflection on participating in the study.
+3.2
+Recruitment
+To reflect emergent insights from phase one, we recruited close
+contacts who we knew thought about miracles and were engaged
+in kabbalistic themes (e.g., tikkun olam, the modern Jewish notion
+of social justice and action derived from Kabbalah; light or lighting;
+art or design with spiritual orientations). Everyone identified as
+Jewish. Most participants also had a transcendent practice, meaning
+that their professions had relevancy to physical contexts that are
+common for transcendent experiences: architecture, art, music, and
+natural environments including outer space [25]. We purposely
+invited people varying in familiarity with Kabbalah and outside
+technology fields to explore alternative ideas of Kabbalah-inspired
+computational systems. All participants were based in a US city ex-
+cept for one located in Tzfat, the center of the Kabbalah movement.
+3.3
+Analyses
+After the sessions, we closely read and analyzed the data, individ-
+ually and as a pair. Each transcript was approximately 25 pages,
+totaling to about 275 pages, which we reviewed in full at least four
+times. In our first round of reading, we watched each recorded
+session and adjusted the audio transcript generated from Zoom to
+accurately reflect the discussion and activity. Then, we conducted
+additional rounds of shared analysis to draw out analytic inter-
+pretations, questions, and connections inspired by Adele Clarke’s
+situated mapping techniques [38]. This work involved in depth
+engagement with individual stories, sharing and revising interpre-
+tations in memos, as well as identifying sensitizing concepts to
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Halperin & Rosner
+reflect on and revise in subsequent rounds of analysis. Furthermore,
+in the tradition of close reading [12], we analyzed individual re-
+sponses for literary elements such as diction, figurative language,
+and metaphors entangled with their emotional responses and em-
+bodied encounters [11, 87] with miracles. This approach allowed
+us to examine their lived experiences as told through stories, while
+also reflect on our roles and relationships to the activities [77].
+4
+FINDINGS
+Our intention was to learn about specific experiences with miracles
+and to explore what relationship they might have to technology.
+Across the stories of miracles and miracle machines that follow, our
+interlocutors speak to more-than-human interactions with other
+people, species, and cosmic entities. We find near-death moments
+intercepted by deer and divine presences; exceptional trials of child-
+birth; and healing through dialogue with God. These conversations
+with miracles and Kabbalah texts bring new readings of technology
+to the forefront. They also stress the significance of interpreting
+technology as part of expanded ecological connections, empha-
+sizing the role that sensory encounters and non-humans play in
+reorienting people’s minds, bodies, and souls to not only interac-
+tions with machinery, but also the universe writ large.
+4.1
+What Experiences Do People Associate With
+Miracles?
+During the first part of our study sessions, our interlocutors re-
+flected on their experiences of miracles, relaying moments of awe
+and relief. Rather than asking interlocutors to define miracles, we
+invited them to share stories about their specific experiences of
+them. Our goal was less to characterize miracles definitively or to
+delineate what they are or are not, and more to open up different
+orientations toward their existence, meaning, and potential. We
+expected all of our interlocutors to have already encountered mira-
+cles in some form based on how they described their practices and
+interests during our recruitment phase. In practice, however, some
+encounters took unexpected turns, including when one person ini-
+tially resisted the premise. Despite varied responses, each person
+used their readings of the Kabbalah texts to explore what kind of
+phenomena a miracle might be. They interchangeably spoke of
+miracles as near-death events, effortful acts of love, and forms of
+knowledge beyond words. While interlocutors had different ideas
+and stories, they all elucidated the indispensable role that non-
+humans play in experiences of miracles, which we find hinge on
+mystical connections with deceased ancestors, forthcoming babies,
+God, biodiverse life forms, and nature.
+4.1.1
+Miracles as Life-Saving Events. Multiple interlocutors asso-
+ciated miracles with senses of divine intervention connected to
+overcoming near-death encounters of illness or pain. For exam-
+ple, Erin shared a story about a life-saving childhood moment that
+seemed divinely orchestrated. On a canoe trip with their dad and his
+brother, they inadvertently entered whitewater, stretches of river
+water that run dangerously fast. Their canoe filled up with water,
+pushing them perilously close to the river. At one point, Erin’s leg
+got stuck in between the canoe and a rock, a painful experience
+that they believed would cause them to lose their leg:
+It felt like it was going to squeeze my leg off and
+the weirdest thing—I saw this thing out of the
+corner of my eye, and it was this deer standing
+on the side of the river. And I think in turning my
+head, I pivoted my body and got free and kind of
+made my way to the riverbank and might have
+passed out. But when I woke up, the deer was
+still there. So it felt like [...] this miracle of sorts.
+[...] there’s something in that particular moment
+that felt like some connection to the cosmos or
+God or something beyond the human realm that
+intervened and communicated and to me, in that
+moment, felt like it saved my life.
+The deer standing next to Erin, as they managed to maneuver safely
+to land, represented a particular presence. The miraculous act was
+not limited to the animal’s concern for near death—it required the
+animal’s role in witnessing Erin’s threat and survival. While in
+excruciating pain, Erin described shifting their body to look at the
+deer, dislodging their leg, and making it to the riverbank. Describing
+that moment as a miracle, they drew a connection between the phe-
+nomenal recovery of life and divine intervention. With this soulful
+connection, Erin articulates the vital roles that a deer and divinity
+played in their near-death experience of a life-saving miracle.
+This soulful connection to the cosmos, relating to phenomena be-
+yond the human realm, undergirds a sense of awe that several inter-
+locutors described in overcoming mortal threats. Further speaking
+to survival, Alana shared a story of her baby surviving a near-death
+experience in the womb. She described herself as being “not of
+the age to really get anything that needed to be checked out by an
+ultrasound,” but her spouse had uncanny insight. Her husband, a
+radiologist with a curious interest in utero-ultrasounds, told her
+that he had seen some bad cases at work and that she should do an
+ultrasound, just in case. When Alana received the ultrasound, her
+husband was very concerned. Ultimately, Alana delivered early to
+save her son’s life. She reflected on the experience as follows: “It’s
+a miracle that [my son] is here because he would not have made it.
+One kidney was gone in utero and the other one was being insulted
+[...]. If his father was not interested in this type of work [...] I’d have a
+whole different story to tell [...]. This kid never would have been born.”
+With this reflection, Alana conveys a rescue, which seemed beyond
+belief. In turn, she felt the unreal weight of this seemingly divine
+intervention, interpreting its unfolding as “the biggest miracle” of
+her life, as well as the source of her son’s life.
+For these interlocutors, a miracle did not signify a solitary, static,
+or isolated phenomenon, but rather an event activated by a form of
+mystical connection, presence, and timing. Betsy further spoke to
+this when she told a story about how her breast cancer was curiously
+caught just in time to be cured. These miracles involved stakes that
+were both particular and consequential. Whether surviving the
+loss of a leg, life, or child, they hinged on a cataclysmic possibility.
+Transcending fatality or loss seemed to be attributable to miraculous
+involvement of other life forms, loved ones, and divinity.
+4.1.2
+Miracles as Effortful Acts of Love. Some interlocutors shared
+stories of experiencing miracles through their own effortful acts
+of love: processes that took intention, time, and work to cultivate.
+With ongoing care, their benevolent giving could blossom into a
+Miracle Machine in the Making: Soulful Speculation with Kabbalah
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+child, self-transformation, or relief and healing. Describing this care
+as a righteous phenomenon, Avraham explained: “Once we reach a
+state of pure giving—a state loving that which is outside of ourselves—
+then we will be able to experience all of the boundless goodness.” But,
+he clarified, such “goodness” cannot and will not be received “to
+serve ourselves.” Instead, it can only be received in “a state of divine
+service, a state of giving and love.” Other interlocutors emphasized
+this effortful giving across stories of willful and arduous care work,
+leading to receipt of divine blessings. Consider Tamara, who joined
+the session with her newborn baby, sharing her “unreal” experience
+of giving birth to him and receiving the gift that is her son in return:
+The birth of the child coming out is probably
+the closest thing to the word miracle I’d say be-
+cause it’s unreal. [...] I gave birth to both children
+unmedicated and him unassisted really, which
+allows you to feel every moment and everything
+[...]. It’s just actually pulling him out and taking
+him into my arms that feels like an absolute like
+‘holy s—, a human being just emerged out of me.’
+[...] definitely a miracle.
+Tamara associates miracles with not just receiving her beloved baby,
+but also the act of giving birth itself: bringing him to life without
+the assistance of medicine or any technological “beeps” at home. In
+giving labor her full attention, she noticed an “unreal” sensibility
+coming from her choice to feel every moment of childbirth followed
+by her ongoing work to care for and sustain the miracle of life that
+she received. These laborious acts of love reflect how miracles can
+be born out of something or someone yet to be born who ultimately
+extends and indeed transforms the self in the process.
+Rachel spoke in similar terms about a miraculous self-transformation
+from effortful acts of self-love with God’s help. After repeated phone
+calls to a renown psychic in New York City, she finally convinced
+him to teach her how to perform tarot card readings. That persis-
+tence led her to transformational healing and thus her life changing:
+What I had found in the tarot [...] part of that
+deck is composed of 22 cards [...] related to the 22
+letters of the Hebrew alphabet, which the tarot
+says are the archetypes of the universe and so
+does Kabbalah [...]. That was really a miracle
+because when I started studying Kabbalah my
+whole life started opening up. [...] I was on an-
+tidepressants at the time. I remember that I was
+on medication for so long. That all lifted. Sud-
+denly, I felt like I didn’t need it. I was doing well
+without all this because, again, tapping into these
+three letter combinations and doing the prayers.
+I did the Dialing God[: Technology for the Soul]
+book [...]. When you transform yourself, miracles
+occur because you’re transforming your nature.
+Rachel associates miracles with the soul work that she did to trans-
+form her conscious nature through “dialing God,” a daily process of
+kabbalistic prayer and meditation (e.g, the Ana Bekoach) [19]. By
+framing this process as “technology for the soul” in the book she
+engaged by sullied former Kabbalah Centre director Yehuda Berg,
+she links the cultivation of self-transformation and design. Upon
+materializing soulful connections with God, her life “opened up”
+with Kabbalah, shepherding a successful line of kabbalistic jewelry
+including her “One Love” necklace to spread the message: “Love
+thy neighbor as thyself.” Through this story of miraculous change,
+she connected persistent giving of love to the receipt of divine
+blessings—what Betsy called “unimaginably hard work” contingent
+upon “self-love” in addition to selfless love; as Betsy, explained “I
+had [my son], so I had to heal.” For these interlocutors implausible
+gifts emerge from a care ethic and labor of love that makes miracles.
+4.1.3
+Miracles as Ineffable Knowledge. While most interlocutors
+shared stories of miraculous experiences, two were reluctant to
+narrate any single event. Instead, they spoke to their reluctance,
+offering explanations that were logically similar, yet ideologically
+contrasting; they reflected the unexpected connections between
+their respective fields of deep study in Kabbalah and theoretical
+physics. As we learned, both fields involve contemplating the mirac-
+ulous nature of the universe upon connections within and beyond
+the solar system, including with non-human life forms, celestial
+beings, and cosmic entities like the sun and stars.
+Avraham, a mystical artist working with Kabbalah concepts in
+Tzfat, attested to why and how everything is a miracle that cannot
+be reduced to a single instance. In articulating why the universe is
+miraculous, he spoke to its composition:
+Because right now we are on a big ball of dirt
+that is floating through space. There is the sun
+[...] that is blowing up every single moment. We
+are just the right distance, at just the right tilt, at
+just the right spin [...]. Space is so big [...]. Our
+hearts have been beating since the moment that
+we have been born. We can see stars. There are
+birds [...]. It is just glorious! Straight out glorious!
+In this explanation, Avraham associates miracles not only with the
+creation of the universe and Earth with its sun, stars, birds, and
+people, but also the moments of appreciation for glory that may
+otherwise be overlooked. When he stops to recognize that existence
+is miraculous, “every second is a straight out 100% full blast miracle.”
+Astrophysicist Bob, by contrast, relayed skepticism that anything
+at all could be a miracle. When asked to share a specific time that he
+experienced a miracle, he surprised us by saying, “Well, there you’re
+going to be out of luck, a little bit, because I don’t believe in miracles
+[...]. There are things that happen that are not easy to explain.” Given
+our discussion of miracles in the study recruitment, we expected
+Bob to talk about miracles. Although he expressed disbelief in mir-
+acles at first, he did allude to the miraculous nature of the universe
+that in some ways was similar to Avraham’s conception. Bob said:
+It is remarkable that mathematics is the language
+of the universe. It’s astonishing, right? [...] why
+would the universe care [...] that we can actu-
+ally explain things [...] through equations? It’s
+amazing actually, isn’t it? [...] there is a kind of
+organizing principle [...]. If you want to call it
+God or something like that, fine [...]. This person-
+organizing principle exists [...]. It’s amazing.
+For Bob, the capacity for certain principles to explain space and time,
+whether known or unknown, is neither trivial nor expected, but
+rather an “astonishing” form of knowledge. Since he was reluctant
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Halperin & Rosner
+to call this an outright miracle, however, we invited him to explore
+this concept further by recounting his family’s survival through the
+Holocaust. He then conveyed a similar sense of awe in not only his
+own existence, but also that of his daughter: “The fact that I exist,
+that [my daughter] exists, is the consequence of a series of chances.
+My father met [my] mom [...] in a displaced person camp in Austria in
+1946. It’s a miracle.” In essentially calculating his unlikely existence
+and the creation of the universe, he computed a miracle within
+his mathematical framework. Despite insisting on explanation and
+resisting belief in miracles, Bob ultimately embraced ineffability
+surrounding himself, his loved ones, and his deceased ancestors.
+While Avraham and Bob began their reflections with opposite
+perspectives, they both found the miraculous in the cosmos and in
+existence. Where Avraham reiterated his stance that miracles are
+everything at every second, Bob began by expressing apprehension.
+Yet these contradictory understandings of miracles (everything ver-
+sus nothing) allowed them to converge on the knowledge that the
+composition of the universe and creation of life is miraculous—or at
+the very least, “remarkable,” “astonishing,” and “amazing” in Bob’s
+words. Such sentiments associate miracles with unlikely events that
+defy the odds beyond belief, a process Tamara called “the sublime”
+and “that feeling of smallness within something so much greater.”
+Betsy also seemed to capture this observation, saying of miracles:
+“They are awe-inspiring. It’s everything. It’s how I want to live [...] little
+miracle to big miracle to little miracle to big miracle.” Notwithstand-
+ing differences in interpretation, interlocutors associated miracles
+with an inexplicable and humbling sense of cosmic knowledge.
+Altogether our interlocutors’ stories illustrate how miracles offer
+a different way of approaching design compared with mainstream
+technology development. Seeking out alternative possibilities in
+acts of recovery, loving acts, and out-of-this-world knowledge, they
+show how devising change (material, social, epistemic) is only pos-
+sible through mystical connections with humans and non-humans.
+Recall Alana, Bob, and Tamara’s concerns for deceased souls, as
+well as Alana and Tamara’s concerns for babies emerging in the
+world. These forms of care were not generic or incidental. They af-
+firmed a deliberate ethic of love. Below we consider what this focus
+on effortful relationality brings to the design of miracle machinery.
+4.2
+How Do People Envision a Miracle Machine
+Inspired by Kabbalah?
+In this second part of our study sessions, our interlocutors shifted
+from conversation to embodied speculative design activities. Some
+initially approached the prompt of a miracle machine in jest, refer-
+ring to it variously as a “parody” (Rebecca) and “play thing” (Betsy).
+Or Erin saying “miracles don’t happen in machines,” but also express-
+ing desire to think beyond what they described as their “dystopic,
+machines-are-going-to-do-anything-but-create-a-miracle mentality.”
+After studying the Kabbalah texts, however, interlocutors soon
+expressed more complex hopes and uncertainties about machinery.
+As we see in the sketches that follow, this tenuous relationship
+between miracles and machines prompted interlocutors to refig-
+ure technology. Their initial feelings of skepticism and uncertainty
+transformed into hope, prompting considerations of what machines
+are today and speculating around what they may become. Below
+we review miracle machine concepts that take an array of formats
+and trajectories: natural (in some cases, supernatural) systems for
+fostering the sublime; tools for contemplating cosmic systems; and
+sensory systems for ascending the body. While some interlocutors
+conceived of machines that already exist in their environments, oth-
+ers invited more-than-human encounters with God, sacred Jewish
+objects, and other life forms in nature. We find that something like
+a tree can hold every mighty potential of a miracle (life, love, and
+knowledge), broadening our ideas of what machines are altogether.
+4.2.1
+(Super)Natural Systems. When faced with the kabbalistic be-
+lief system that is the Ten Sefirot—the Tree of Life—our interlocutors
+reflected on the divine attributes of God such as beauty, eternity,
+compassion, power, knowledge, and more. Taking this appreciation
+for the Tree of Life to the design of a miracle machine, several
+interlocutors envisioned similar phenomena in natural networks.
+Consider how Tamara, who previously described a miracle as an
+“experience of the sublime,” presented her miracle machine:
+It’s literally a tree [...] all the way to the roots
+[...] grounding it [...] and sucking nutrients in
+from the Earth. [...] If you are the human being
+below the tree [...] you will experience the com-
+pletely phenomenal and unexpected outcome of
+[sunlight] filtration. [...] that is why that grand
+tree represents the ultimate miracle machine [...].
+The machine is [...] the components of the tree.
+[...] a super branch, and then the small branches
+begin to grow off of it [...]. It’s like a mechanism
+for filtration [...]. Like the computer [...] it has a
+function it is doing for me. But it also has running
+functions I can’t see that are keeping it alive [...].
+So it’s like the background and the foreground.
+Tamara is describing not only a tree inspired by the kabbalistic
+motif, but also an entire root structure. She tells us that roots are
+essential for giving people the experience of being under the tree,
+but that people do not experience the roots directly. Instead, what
+people experience—sunlight filtration—comes out through its suste-
+nance of the tree canopy that people encounter from below. Calling
+this process a machine and comparing filtration to computing, she
+alludes to how technologies have a front-end and a back-end, but
+in a mystical sense. While the “foreground” refers to the observable
+aspects of the machine, the “background” refers to unobservable as-
+pects that we know exist nonetheless. Tamara illuminates an under-
+examined technological capacity: the latent potential for spiritual
+connection in the background of computation. This machine—a tree
+in and of itself—thus refigures technology with kabbalistic roots. In
+the Zohar, the sheltering tree is a celebrated site of mystical study.
+When protagonists come across it, they stop to applaud the loveli-
+ness of its shade and beauty with prayers [49, p.164]. As the Zohar
+implies that this natural site is sanctified with mystical creativity
+[49], Tamara suggests that its sublime nature is technological.
+Erin expressed a similar sensibility with their sketch, heightening
+natural networks to a supernatural level with extraordinary powers:
+This little mushroom with the mycelial network
+and these little spores [...] have these powers of
+bioremediation [...]. They can help transform
+toxic chemicals into bioavailable, better organic
+Miracle Machine in the Making: Soulful Speculation with Kabbalah
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Figure 2: Gallery view of miracle machine sketches inspired by Kabbalah.
+compounds that can decompose [...]. It kind of
+connects life and death [...] in a lot of biblical and
+also ancient stories [...]. So [the miracle machine
+is] this spore drive [...] that would connect the
+spores from the mushrooms, but also the mycelial
+network to engender new plant growth and re-
+new our ecosystem [...]. The spores would help
+transform people’s consciousnesses to be more
+compassionate and connected to the Earth.
+Inspired by tikkun olam (‘repair of the world’) and nature motifs,
+Erin is depicting a mycelial network of delicate white filaments
+within a fungus, entwining fungal roots, business supply chains,
+and wide forms of social and political life. Like Tamara’s framework
+of branches and roots, Erin’s mycelial network exhibits phenome-
+nal capabilities related to the expanded connection, decomposition,
+and recomposition of life on Earth for eternity. Placing this insight
+into its biblical context, Erin draws attention to the forms of re-
+newal and remediation that have long permeated religious stories.
+In this spiritual relation, Erin casts the fungal ecosystem as their
+miracle machine, using the technological metaphor as a means of
+expanding fungal capacities for care and planetary connection by
+disseminating compassion into businesses and government to re-
+pair the world. In the Bahir [79], tikkun olam appears in a story of
+creation, whereby primordial “vessels” (the Ten Sefirot) were able
+to receive God’s light, but not interact, give, or hold it. The vessels
+were thus overwhelmed by the light and “shattered” (a concept
+known as the “Breaking of Vessels”), falling to a lower spiritual
+plane and becoming the source of evil [Ibid]. Rooted in this concept,
+Erin frames technology as a supernatural mechanism for repairing
+these “vessels” by reuniting human activity, divinity, and nature.
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Halperin & Rosner
+Where Erin and Tamara focused on a particular node in the
+network (tree and mushroom), Alana took in the whole. As a garden
+designer herself, Alana drew inspiration from the sacred garden
+motif to conceptualize the miracle machine as a soul-stirring site
+of natural beauty, describing a landscape both new and familiar for
+intimate connection with nature:
+I have this tree that extends way beyond us into
+the sky and then the clouds as they move through
+and the world gets dark and then it gets light [...].
+A gorgeous beautiful sky just sweeping across
+with all the colors of the world. To me that’s just
+miracles. [...] this machine should have beauty
+to it that just fills up somebody that they cannot
+think anything but pure good thoughts [...] and
+fills our souls up.
+Alana is describing a sunny park that is full of biodiversity: a vibrant
+garden of flowers, butterflies, birds, and a “majestic tree,” mediating
+light from the multicolor sky. The park as a machine does not serve
+a physical or cognitive aim, but rather a soulful purpose. The beauty
+radiating from this ecosystem “fills our souls up” with ascendant
+feelings of relaxation and aesthetic joy. By focusing on the sensory
+power of connecting with nature, the machine stirs the soul.
+Unlike Tamara and Erin, however, Alana shifted her vision when
+probed as to what makes her concept machine-like. Realizing that
+she already had a beautiful urban park near her home, she referred
+to her mobility scooter as the miracle machine that gives her access
+to the park and to feelings of deep appreciation for all the life forms:
+This miracle machine [...] has gotten me to this
+gorgeous park. [...] I can drink in people, babies,
+just life, the world and it’s not just the flowers.
+It’s everything around it. [...] I can be part of the
+world again even though my legs are not doing it
+for me. [...] now how can that translate to bigger
+and beyond me?
+With this evolving idea of a miracle machine, Alana associated the
+site of natural beauty with her lived experience of muscular sclerosis
+and desire to connect with those around her. Being “part of” her
+surroundings involved a sense of soul nourishment that she sought
+to ascend onto the collective. Mediated by her scooter, she conveyed
+a technology-driven spiritual experience through immersion in
+nature and its stunning life forms. Near the end of our conversation,
+she observed: “The drawing—it literally just flowed out of me [...].
+It led to a really cool place: the introspection of it and, of course, the
+music.” Her attention to the Ana Bekoach song and its facilitation
+of reflection highlights how the meditative sketching supported
+the formation of her miracle machine. Meanwhile, the machine
+itself recasts technology as a facilitator of sacred capacities built
+into natural environments like those that she activates as a garden
+designer. In the Zohar, earthly caves open up into the heavenly
+Garden of Eden while other gardens appear as mystical sites, where
+protagonists uncover secret knowledge. With this connection to
+Kabbalah, Alana’s machine reflects a mobility scooter that operates
+like the cave: a way to access the heavenly experience of nature.
+Calling natural elements like a tree the “ultimate miracle machine”
+and expressing the magnificence of its supported interactions, in-
+terlocutors like Tamara, Erin, and Alana invite a mystical interpre-
+tation of technology rooted in natural networks, ecosystems, and
+biodiverse landscapes that radiate life. These visions expand design
+scholarship focused on profound technological powers built into
+the existing environment (see [84] for analysis of “natural sensors”
+and [150] on mycelium artifacts). In materializing mystical con-
+cepts and connections among humans, nature, and God inspired by
+Kabbalah, their speculations prompted reflections on the potential
+for nature to embody miracle machinery.
+4.2.2
+Cosmic Systems. Other interlocutors envisioned miracle ma-
+chines that facilitated enlightening connections with God. For some,
+this vision sprouted from the Tree of Life and its divine attributes
+of balance, clarity, splendor, and unity. Avraham, for example, ex-
+plained how the Tree of Life embodies opposites coming together.
+As a long time Kabbalah artist dedicated to working with the con-
+cepts, he described each side of the tree representing a polar oppo-
+site: the right side as divine provenance and the left side as free will.
+He then interpreted miracles as manifestations of these opposing
+sides coming together and balancing. Avraham thus drew his mira-
+cle machine as luminescent Hebrew letters and lines, explaining:
+The [Ana Bekoach] was playing, so I drew the
+first three lines [...] because hopefully the miracle
+machine is helping us realize that everything is
+[God’s] goodness. [...] the first line is connected
+to the right side of the tree of life, the left to the
+second side of the tree of life and the third line,
+the center of the tree of life [...]. Then on the top, I
+wrote Ein Ode Milvado that the Ana Bekoach can
+help us to realize: that there is nothing but God
+[...]. The machine is the contemplation [...]. Con-
+templating the tools like the Ana Bekoach and the
+Holy Names [of God] in the Zohar [...] work[s] on
+our inner transformation toward states of giving
+and love to ultimately realize that there is noth-
+ing but God [...]. The miracle machine, which is
+the Zohar in the Kabbalah, works, but [only] if
+we are using the machine for the right miracle.
+Avraham is recounting his machine as contemplation to facilitate
+the revelation that “there is nothing but God.” Having created multi-
+ple artworks about the Ana Bekoach and listening to the song while
+sketching, he observes how the prayer inspired his conceptualiza-
+tion of a miracle machine as Hebrew letters containing “spiritual
+light” to help realize everything is God’s goodness. Broadening
+the miraculous nature of his sketch to other kabbalistic tools, he
+then casts the Zohar as a miracle machine. He emphasizes how
+the intent behind interacting with the machine—desiring a miracle
+to transcend a selfish state of receiving and reach a selfless state
+of giving—is crucial for it to “work.” Thus, Avraham’s conceptu-
+alization extends beyond contemplative interaction. The machine
+can only enact miracles if the motivation for using it stems from
+pure desire to emit love (a central ideal in Kabbalah). This machine
+refigures how technology functions by not only hinging on divine
+interaction, but also divine will of the user to use it for greater good.
+Miracle Machine in the Making: Soulful Speculation with Kabbalah
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Resonating with Avraham’s spiritual apparatus, Rachel envi-
+sioned a miracle machine as a contemplative tool for achieving
+clarity by connecting with God. Made of metal (in line with her jew-
+elry designs), Rachel aimed to receive divine knowledge through the
+energetic Aramaic codes of hidden wisdom bestowed in Kabbalah.
+She described her sketch as follows:
+There’s a circle inside of a square, which is the
+shape of a kabbalistic wedding ring. The circle
+represents the 99%, the spiritual world. The square
+represents the physical world, which is the 1% and
+is the world of limitations. We need to know and
+have the clarity on how to live in both worlds
+at the same time and when to jump from one
+to another. So I thought the two worlds and just
+giving me the da’at to do God’s will, I will know
+what to do at any given time. And if we have that,
+we have miracles. We have everything really [...].
+You look at [this large sculpture] and you just
+understand the meaning.
+Rachel is describing a metallic figuration to unlock the miracle of
+God’s will. She calls this the “da’at to do God’s will,” where “da’at”
+refers to clarity: a Jewish mystical state of knowledge, where the
+Ten Sefirot [divine attributes] of the Tree of Life unite, representing
+the midpoint of the left and right sides of the human brain (see
+[46]). Using the metaphor of a circle inside a square, she depicts the
+expansive spiritual world as inside a smaller physical world of “lim-
+itations.” She marks not only a need to exist across worlds, but also
+a desire to understand how to navigate them. The miracle comes
+from gaining this insight that fulfills the desire for an answer. From
+this knowledge, in Rachel’s words, “we have everything.” Rachel’s
+miracle machine is therefore a meditative tool for connecting with
+divinity, a process she intends with her own design practice. While
+casting technology in a familiar form that is metal, the miracle
+machine pushes commonplace conceptualizations by facilitating
+interactions to receive divine knowledge.
+Even as the envisioned miracle machines diverged in their repre-
+sentation, Rachel and Avraham shared a crucial recognition of the
+divine capacity for systems to reflect back our worlds and ourselves
+through contemplative interaction with God. With these benevolent
+visions of machinery, they approach technology design as a process
+of creating a mechanism to transmit and receive divine knowledge
+on spiritual journeys—a process with few parallels in current design
+practices, especially in mainstream technology development.
+4.2.3
+Sensory Systems. Multiple interlocutors envisioned miracle
+machines that drew inspiration from kabbalistic descriptions of
+sensory faculties. Engaging with excerpts from the Zohar about
+hidden light, astrophysicist Bob reflected on sensory limitations:
+“In some sense there is light that is completely hidden [...]. Our eyes
+cannot see it [...] but instrumentation sees what our eyes cannot see.”
+From the same concepts, Rachel grasped that “we’re so limited by the
+five senses,” and looked to Kabbalah texts as “tools” for exceeding
+sensorial limitations. This potential for sensual excess motivated
+several sketches. For instance, Rebecca gravitated toward an excerpt
+on roses because it seemed “more sensual” than others. Explaining
+that the rose scent facilitates a “sweet intimate moment between two
+friends [...] taking a moment to pause and appreciate nature, but to
+also tie to some fundamental laws of the universe,” Rebecca described
+her machine as an immersive “architecture” of technology:
+The miracle machine is a chamber [...]. Prior to
+entering it, you record in present tense a personal
+miracle as if it has already happened and a collec-
+tive miracle as if it already happened [...]. When
+you sit [inside], it loops 360 surround sound and
+deep acoustics and bass [...]. It’s a whole thing to
+enter [...]. In front of the chamber there’s a cold
+pool and a hot pool and you dip in between them
+and then you put on a satin robe to enter [...].
+Inside [...] it smells really good. There’s incense
+and a skylight [...]. The actual chamber itself is
+really wild stained glass [...]. When you exit, you
+eat the supernal bread.
+Rebecca’s miracle machine involves non-linear conceptions of time
+through expanded aesthetic sensation. To document a present tense
+event as if it exists in the past involves a recognition of the past
+as shaping the present. In the Zohar, the protagonists similarly
+enter and exit divine dimensions like the chamber by activating the
+senses of smell in particular (e.g., inhalation of roses and enchanted
+apples facilitate magical entry and exit [49]). Further drawing in-
+spiration from Judaism, she imagines the chamber made of stained
+glass in the formation of a Jewish ritual artifact, the Star of David,
+activating the sense of sound with a palpable experience of “deep
+acoustics” to physically revitalize oneself. Through the five senses,
+she creates an intimate channel between her bodily interiors and
+rich external sensations. The act of recording miracles blends with
+soulful sensations: touching the opposite water temperatures and
+soft satin robe; hearing the 360-surround-sound; witnessing the
+artfully sculpted glass; smelling the incense; tasting the heavenly
+bread. Inspired by Kabbalah, the miracle machine explores the role
+of design in sensory transcendence: moving within and between
+past and present realities through interactions with ritual objects
+that suggest divine contact in cosmic time.
+Also drawing inspiration from zoharic roses while emphasizing
+“the power in the lyrics” of the Ana Bekoach music, Zack sketched a
+multisensory immersive holodeck for facilitating divine connection
+with God and nature:
+I thought of it as an experience [...]. We have sen-
+sory deprivation tanks, but what if we had a [...]
+sensory experience tank? And so I was imagining
+[...] the scent of rose coming through air like es-
+sential oil vaporizer and the warmth of candles
+or natural fire burning and the smell of that fire.
+And the participant kneeling in meditation on a
+soft cushion of some kind, listening to [...] mysti-
+cal music. [...] and then a VR experience [...]. An
+apple orchard is something that feels so special to
+me and when I saw that on the list [...] I thought
+that’d be the perfect virtual natural environment
+[...] especially for contemporary city living that’s
+so disconnected from nature. [...] That would all
+together allow someone to relax and [move] into
+a place of safety—like their nervous system—to a
+point where that opening of that divine flow and
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Halperin & Rosner
+a conversation and prayer might be a little more
+potent than it would otherwise.
+Zack is describing a physical-virtual engagement that culminates
+in an experience to calm the nervous system. He describes the
+machine activating the sense of smell, the feeling of warmth, the
+touch of softness, and the sound of music. For him, immersion in
+this sensorium facilitates a meditation that complements city liv-
+ing. To enrich these physical sensations, he further conceptualizes
+a virtual reality experience of an apple orchard. Like Rebecca’s
+sketch, this machine reflects how the Zohar casts roses and apples
+as metaphysical openings and passageways to divinity (see [49]).
+Interpreting the machine as a means of dialogue and prayer, Zack
+locates a connection with God. Thus, Zack’s miracle machine is a
+way of ascending bodily sensations to reach divine interaction.
+For design research, these miracle machines complicate and sub-
+vert normative technology development. Where Erin and Tamara
+conceived of wondrous filtration systems (tree roots, mycelia), Avra-
+ham and Alana illustrated mystical constellations (lines of Ana
+Bekoach, a natural landscape). Meanwhile, Rebecca and Zack pon-
+dered multisensory immersions into divine spaces. Each miracle ma-
+chine took users beyond present circumstances to open avenues for
+communing with other humans and non-humans, whether through
+contemplative prompts, extensions of the senses, or prompts for
+social and ecological connection. They envisioned technological
+mechanisms for accessing soulful experiences with clarity, appreci-
+ation, and deepened understanding of the cosmos. In broadening
+the purposes that people design for, the meanings assigned to tools,
+and the means by which a technology might exist in the world (if
+not beyond it), they introduced techniques that enrich how many of
+us, as design scholars, conceive of and create interactive machinery.
+5
+SOULFUL SPECULATION
+We have so far probed the possibility of miracle machinery by in-
+forming technology development with Jewish mystical thought.
+Across study sessions and conversations, interlocutors drew from
+past experiences to describe miracles as multiple and variegated:
+sometimes momentous events; other times loving acts or remark-
+able knowledges. Faced with designing a machine around these
+encounters, they described scenarios with and without conven-
+tional notions of technology: ecological happenings, contemplative
+apparatuses, and sensory oases—sometimes all at once.
+Looking toward interactive systems design, our study has set up
+a number of challenges for accommodating uncommon and other-
+worldly encounters. With our interlocutors, we learn the value of
+wonder and allowing design engagements to encompass not only
+ways of knowing and being, but also ways of doing that elevate se-
+crecy, intuition, and witnessing of non-physical phenomena. What
+might it mean to create moments of hidden understanding with
+contemporary technologies like Internet of Things devices? How
+might designers extend acts of strange wonder with generative AI?
+This embrace of the non-physical and transpatial creates new links
+to transporting works such as Dinkins’ Conversations with Bina48
+or Sweeney’s Deepfake Dad (using AI to speak with ancestors), as
+well as holographic strands of thought in the philosophy of knowl-
+edge [102]. For design researchers, it places an emphasis on the
+inseparability of sensing and realization, where what we come to
+recognize and categorize as user input or output (sound, vision,
+heat, texture, etc.) registers an entangling of our feeling, thinking,
+and meditative selves. Practically, this might mean an imperative
+to consider: how present design materials (precious metals, lithium
+batteries) remember the past; how our data (oral histories, digital
+traces on social media) reflect wider forms of awareness and insight;
+and how asking design participants about the soul (conceptually,
+practically, technically, metaphorically) can inspirit technology.
+While design scholars have long focused on concepts of experi-
+ence (what we feel, see, and observe) and interpretation (what we
+analyze and think through), engagement with the soul remains less
+clear. Understood as spiritual and immaterial engagement, the soul
+has opened a range of opportunities for reflecting on the assump-
+tions and possibilities underlying existing technology [30, 98, 129].
+Our conversations with interlocutors open an additional layer. They
+introduce a kind of imaginative process to the design of machinery,
+a process we call soulful speculation. Soulful speculation describes
+an approach to envisioning future technological developments that
+exceed our empirical and interpretive tools. Where design spec-
+ulations typically open questions about the future through the
+introduction of alternative material worlds, soulful speculations
+raise questions through the proposition of alternative immaterial
+worlds. As one of our interlocutors reminded, technology can feel
+like a soulless site where “miracles do not happen” (Erin). Through
+meditative and introspective encounters, we use this study to con-
+sider how technology might be or become a site where miracles can
+happen. We reflect on how speculative acts might allow designers
+to engage aspects of the self and environment that hold emotion,
+energy, and liveliness beyond our physical reality observations.
+5.1
+Participatory “Soul Work”
+A first facet of soulful speculation concerns our subtle and provi-
+sional engagements with Kabbalah that helped infuse the design
+process with soulful techniques —what we deem participatory “soul
+work.” Our study sessions elicited design ideas through acts of med-
+itation, introspection, and contemplation. Rather than separate
+design research methods such as interviewing and sketching from
+reflective methods of close reading, our sessions blended the two.
+We asked interlocutors to intertwine conversations about Kabbalah
+with their own reflections, treating Jewish mystical thought as
+a complementary design resource. As a way of “tuning the soul”
+[131], we facilitated meditative sketching with prayer music, as
+well as introspection via reflective storytelling and contemplation
+prompted by the kabbalistic belief system and morals of stories in
+source texts. These connected forms of mystical song, imagery, and
+text invited us, as analysts, to turn our gaze to the inner rhythms,
+hopes, and recollections of our interlocutors.
+Of particular note, we saw “soul work” generatively play out
+and concretely materialize in the meditative sketching excerise. We
+asked interlocutors to draw miracle machines while listening to
+a contemporary musical rendition of an age-old kabbalistic medi-
+tation and prayer. We devised this activity to potentially harness
+the transcendent power of the Ana Bekoach [68] through Ovadia
+Hamama’s widely-revered and emotional composition of the sa-
+credly encoded lyrics. This decision follows not only our recog-
+nition of how kabbalists manipulate language for mystical means
+Miracle Machine in the Making: Soulful Speculation with Kabbalah
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+[94, 114], but also the role that cantillation, nusah, hymns, and other
+musical forms play in forming particular moods and experiences.
+The song builds on the linkages drawn among music, spiritual prac-
+tices, and transcendent experience [25, 131]. Recall interlocutors
+like Avraham and Rachel who knew the alchemy of the Ana Bekoach
+letter combinations and aligned their sketching with Kabbalah prac-
+tice. Or think back to Zack, who used the music’s reverberations to
+support his sketching. Similarly, Alana described channeling the
+music as she sketched. Playing the meditative music during the
+sketching activity extended existing forms of Kabbalah tradition,
+complementing how the sketching acts flowed through the body.
+While channeling the meditative flow of the music, people incor-
+porated the Kabbalah morals and motifs into their sketches. This
+process recalls work by Wyche and colleagues to take seriously
+sacred imagery [153], as well as work by Key and colleagues to
+consider the powerful presence of inanimate objects [80]. But rather
+than live within an image or object, this exploration of kabbalistic
+beliefs and stories took a processual form. The miracle machine
+sketches evoked a kind of soul-searching, a recounting of ineffable
+memories that invited our interlocutors to critically reflect [32, 62],
+intimately imagine [52, 130], and daringly dream [137, 142] beyond
+“the traditional design brief as we know it” [6].
+5.2
+The Expansive Span of Speculation
+A second dimension to soulful speculation is the span of specula-
+tion itself. Our engagement demonstrated a particularly expansive
+purview for speculating about time, technology, and use beyond
+normative design dimensions. To follow, we unpack how soulful
+speculation enlargens the scope of design considerations by ac-
+counting for more non-human peripheral users, expansive timelines
+of use, and multiple senses in technology-mediated experiences.
+5.2.1
+More-than-Human Users. Regarding non-human peripheral
+users, soulful speculation broadened concerns around who is and is
+not a user. Much design literature makes a distinction between those
+present and willful in their technological engagement from those
+outside the frame of analysis or compelled into engagement [3, 15,
+22, 34, 50, 69, 101]. Our interlocutors seemed to expand normative
+frames of analysis and speculation around non-human peripheral
+users by not only expressing concerns for other species and nature,
+but also cosmic entities like deceased souls and divinity. One of
+the main contributions of Kabbalah texts is their conceptualization
+of God as dependent upon human activity; how, in a cause-and-
+effect relationship, all human actions implicate God’s ability to
+repair the world [42, 79, 99]. Applying this cultural belief to design
+means that God is a peripheral “user” in interactions such as those
+involved in Erin’s mycelial network that conceives of politicians
+and business people acting with compassion that in turn renews
+our ecosystem. Our interest in soulful speculation thus builds upon
+prior design research on exoteric Judaism that has looked at how
+technology can support or exemplify Judaic practices in particular
+[67, 152]. However, our approach also broadens this analysis with
+esoteric teachings to consider how interaction designs may work to
+repair the world. For example, when Avraham called the Zohar the
+miracle machine, he said that it only works when interacted with
+to share love for greater good. This expansive outlook extends to
+interactions with biodiverse life forms and nature as exemplified by
+the ecological relations envisioned in the natural systems as miracle
+machines. Soulful speculation thus considers spiritual relations with
+nature and divinity at sites of technology development to include
+more non-human peripheral users within the frames of analysis.
+5.2.2
+Temporal Ecologies. What follows accounting for more non-
+human peripheral users are expanded timelines of use: a longer
+time-frame to speculate about with respect to the soul and non-
+humans. Consider how Ben associated miracles with his ancestors
+meeting, a connection that culminated in the birth of his daughter.
+In this reflection, he drew connections between terrestrial ancestral
+threads with the heavenly space beyond it. We see a similar inter-
+weaving of temporal registers in Avraham’s ineffable knowledge
+of birds (a species that has existed long before humans) and Erin’s
+connection with the mycelial landscape (as a site of future plant
+growth). These insights build on Black and Indigenous philosophies
+[60, 81, 93, 112] that call for deepened relational ethics, or what
+design scholars have examined as more-than-human ecologies that
+care for the planetary future [48, 80, 138]. As a particularly illustri-
+ous example, recall Tamara’s idea of “the ultimate miracle machine”
+inspired by the Tree of Life: a tree exactly the way it is—where and
+how it exists today and has long existed—not extracted, tokenized,
+“rescued,” or humanized [80], and barring anthropocentric abuse,
+will continue to live longer than many humans. In recognizing these
+temporal ecologies, soulful speculation looks at the past, present,
+and future to consider how, for example, extracting raw materials
+to power our computers with lithium batteries today may lead to
+future souls born into a planet devastated of natural resources.
+Our work therefore points to another broadened axis of use: how
+human souls and non-humans might be physically absent but still
+(immaterially) present in technology. Timelines of technology use
+tend to concern the normative lifespan of humans, but not their
+souls that are culturally conceived of as immortal. With concern for
+how souls proceed and succeed human bodies, “miracle machines”
+like trees may be cared for to support the kinds of intergenerational
+interactions that Schofield and colleagues consider in speculating
+not only about the future but also the past in magical realist de-
+sign [122]. We thus suggest that design scholars broaden temporal
+registers of use—concepts of use, users, and even the “human” and
+“more-than-human” that take into account how someone or some-
+thing that existed centuries earlier or that will come to be might
+shape technological use today.
+5.2.3
+Multi-Sensory Interactions. Soulful speculation spans think-
+ing about how more sensory faculties might support people in hav-
+ing transcendent experiences with technology. Recall how Zack and
+Rebecca sketched immersive alcoves for reaching sensational states
+of equanimity by activating four to five senses. These sketches
+exhibit how thinking beyond one or two senses (as more com-
+monly done in design briefs) might help stir the soul with scents,
+light, sounds, temperatures, and tastes that orient users inward
+with immersive aesthetic joy. Speculating around what multiple
+senses might offer and how they might help the body ascend to
+an elevated human experience can thus help designers reimagine
+what technology is capable of supporting. This expands other spir-
+ited calls for making literary-inspired machines deeply expressive
+[63–65, 106, 148] but with the transcendent power of multisensory
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Halperin & Rosner
+user experiences [2, 37, 47, 85, 147]. These expansive sensorial con-
+cerns grounded in Kabbalah and personal stories of miracles—peak
+human experiences that cut across social geographies and cultures—
+augment the emerging subfield of design research on transcendent
+experiences [25, 27–29, 95]. Our inquiry suggests that technology
+may wield alternative capacities when it nurtures more senses that,
+as Zack speculates, help people reach states of relaxation and flow—
+or as Rebecca surmises, help rejuvenate. With a wider concern for
+soulful concepts, design researchers can probe the unknown and
+unseen more-than-human entanglements alongside the known and
+seen to configure how miracle machines might actually exist today.
+6
+CONCLUSION
+Survival of near-death experiences. Child birth. The order of the
+universe. Such phenomena—what some might consider miracles—
+are not the typical sites of technology design. Many people believe
+in miracles or have experienced them, but few of us, as design schol-
+ars, take them seriously. They reflect a core but under-examined
+aspect of the human experience. By engaging Kabbalah, our study
+has extended an examination of mystical practices and how they
+get implicated in design. During our study sessions, Jewish mysti-
+cal materials infused reflective pause into our conversations about
+machines and miraculous phenomena. In doing so, they worked to
+cultivate a technological premise that some interlocutors ultimately
+perceived as soulful. We attribute such shifts in perspective not to
+Kabbalah alone, but rather to how the engagements with mystical
+thought broaden concepts of more-than-human interaction and
+timelines of use. They honed in on the soul as an additional design
+resource that brings subtle immaterial inflections to engineering
+developments. When we recognize that a miracle machine is within
+arm’s reach, we might just realize that miracles are up to all of us.
+ACKNOWLEDGMENTS
+We warmly thank our interlocutors for their soulful participation.
+We also extend great thanks to Gabrielle Benabdallah, Nathaniel
+Berman, Tyler Fox, Sourojit Ghosh, Helen Gibson, Nadya Peek,
+James Pierce, Jennifer Turns, Julie Vera, our anonymous reviewers,
+and the Tactile and Tactical Design Lab at University of Washing-
+ton. This material is based upon work that is graciously supported
+by the National Science Foundation Graduate Research Fellowship
+Program under Grant No. DGE-2140004, as well as under NSF Grant
+No. 2222242. Any opinions, findings, and conclusions or recommen-
+dations expressed in this material are those of the authors and do
+not necessarily reflect the views of the National Science Foundation.
+REFERENCES
+[1] Theodor W Adorno and Gershom Scholem. 2021. Correspondence, 1939-1969.
+John Wiley & Sons.
+[2] Yoko Akama, Ann Light, and Simon Bowen. 2017. Mindfulness and Technology:
+Traces of A Middle Way. In Proceedings of the 2017 Conference on Designing
+Interactive Systems (Edinburgh, United Kingdom) (DIS ’17). Association for
+Computing Machinery, New York, NY, USA, 345–355. https://doi.org/10.1145/
+3064663.3064752
+[3] Morgan G Ames, Daniela K Rosner, and Ingrid Erickson. 2015. Worship, faith,
+and evangelism: Religion as an ideological lens for engineering worlds. In
+Proceedings of the 18th ACM Conference on Computer Supported Cooperative
+Work & Social Computing. 69–81.
+[4] Kristina Andersen. 2013. Making magic machines. In 10th European Academy of
+Design Conference.
+[5] K Andersen. 2013. Making Magic Machines in Proceedings of Crafting the
+Future. In 10th European Academy of Design Conference. Göteborg.
+[6] Kristina Andersen and Ron Wakkary. 2019. The magic machine workshops:
+making personal design knowledge. In Proceedings of the 2019 CHI conference
+on human factors in computing systems. 1–13.
+[7] Hannah Arendt and Gershom Scholem. 2017. The Correspondence of Hannah
+Arendt and Gershom Scholem.
+[8] Mariam Asad and Christopher A. Le Dantec. 2015. Illegitimate Civic Participa-
+tion: Supporting Community Activists on the Ground. In Proceedings of the 18th
+ACM Conference on Computer Supported Cooperative Work & Social Computing
+(Vancouver, BC, Canada) (CSCW ’15). Association for Computing Machinery,
+New York, NY, USA, 1694–1703. https://doi.org/10.1145/2675133.2675156
+[9] Jeffrey Bardzell. 2010. HCI and the Essay: Taking on ‘Layers and Layers’ of
+Meaning. In CHI 2010 Workshop on Critical Dialogue.
+[10] Jeffrey Bardzell and Shaowen Bardzell. 2015. Humanistic hci. Synthesis Lectures
+on Human-Centered Informatics 8, 4 (2015), 1–185.
+[11] Jeffrey Bardzell and Shaowen Bardzell. 2015. The user reconfigured: on subjec-
+tivities of information. In Proceedings of The Fifth Decennial Aarhus Conference
+on Critical Alternatives. 133–144.
+[12] Jeffrey Bardzell and Shaowen Bardzell. 2016. Humanistic Hci. Interactions 23, 2
+(2016), 20–29.
+[13] Shaowen Bardzell. 2010. Feminist HCI: taking stock and outlining an agenda for
+design. In Proceedings of the SIGCHI conference on human factors in computing
+systems. 1301–1310.
+[14] Nicole Bauer. 2019. The Kabbalah Centre and Spirituality of the Self. Interna-
+tional Journal for the Study of New Religions 10, 1 (2019).
+[15] Eric PS Baumer, Jenna Burrell, Morgan G Ames, Jed R Brubaker, and Paul
+Dourish. 2015. On the importance and implications of studying technology
+non-use. interactions 22, 2 (2015), 52–56.
+[16] Genevieve Bell. 2006.
+No more SMS from Jesus: Ubicomp, religion and
+techno-spiritual practices. In International Conference on Ubiquitous Computing.
+Springer, 141–158.
+[17] Gabrielle Benabdallah. 2020. Sybil: A Divinatory Home Device. In Companion
+Publication of the 2020 ACM Designing Interactive Systems Conference (Eindhoven,
+Netherlands) (DIS’ 20 Companion). Association for Computing Machinery, New
+York, NY, USA, 275–279. https://doi.org/10.1145/3393914.3395857
+[18] Gabrielle Benabdallah, Ashten Alexander, Sourojit Ghosh, Chariell Glogovac-
+Smith, Lacey Jacoby, Caitlin Lustig, Anh Nguyen, Anna Parkhurst, Kathryn
+Reyes, Neilly H Tan, et al. 2022. Slanted Speculations: Material Encounters with
+Algorithmic Bias. In Designing Interactive Systems Conference. 85–99.
+[19] Yehuda Berg. 2013. Dialing God: Daily Connection Book: Technology for the Soul.
+Kabbalah Centre International.
+[20] David Berger. 1983. Miracles and the Natural Order in Nahmanides. Rabbi
+Moses Nahmanides (Ramban): Explorations in his religious and literary virtuosity
+(1983), 107–128.
+[21] Nathaniel Berman. 2018. Divine and Demonic in the Poetic Mythology of the
+Zohar: The" other Side" of Kabbalah. Brill.
+[22] Purav Bhardwaj and Cletus V. Joseph. 2020. Plantimate: Personality Augmen-
+tation for Fostering Empathy Towards Plants. In Companion Publication of the
+2020 ACM Designing Interactive Systems Conference (Eindhoven, Netherlands)
+(DIS’ 20 Companion). Association for Computing Machinery, New York, NY,
+USA, 563–567. https://doi.org/10.1145/3393914.3395901
+[23] Ananya Bhattacharjee, Jiayu Pang, Angelina Liu, Alex Mariakakis, and
+Joseph Jay Williams. 2022. Design Implications for One-Way Text Messaging
+Services that Support Psychological Wellbeing. ACM Transactions on Computer-
+Human Interaction (2022).
+[24] Mark Blythe and Elizabeth Buie. 2014. Chatbots of the gods: imaginary abstracts
+for techno-spirituality research. In Proceedings of the 8th Nordic Conference on
+Human-Computer Interaction: Fun, Fast, Foundational. 227–236.
+[25] Mark Blythe, Elizabeth Buie, et al. 2021. Designs on Transcendence: Sketches
+of a TX machine. Foundations and Trends® in Human–Computer Interaction 15,
+1 (2021), 1–131.
+[26] Joe Bryan and Diego Melo. 2020. Arturo Escobar: Designs for the Pluriverse:
+Radical Interdependence, Autonomy, and the Making of Worlds. Journal of
+Latin American Geography 19, 3 (2020), 353–357.
+[27] Elizabeth Buie. 2016. Transcendhance: a game to facilitate techno-spiritual
+design. In Proceedings of the 2016 CHI Conference Extended Abstracts on Human
+Factors in Computing Systems. 1367–1374.
+[28] Elizabeth Buie. 2019. Let Us Say What We Mean: Towards Operational Defini-
+tions for Techno-Spirituality Research. In Extended Abstracts of the 2019 CHI
+Conference on Human Factors in Computing Systems. 1–10.
+[29] Elizabeth Anne Buie. 2018. Exploring techno-spirituality: Design strategies for
+transcendent user experiences. University of Northumbria at Newcastle (United
+Kingdom).
+[30] Daragh Byrne, Dan Lockton, Meijie Hu, Miranda Luong, Anuprita Ranade,
+Karen Escarcha, Katherine Giesa, Yiwei Huang, Catherine Yochum, Gordon
+Robertson, Lisa (Yip Yan) Yeung, Matthew Cruz, Christi Danner, Elizabeth
+Wang, Malika Khurana, Zhenfang Chen, Alexander Heyison, and Yixiao Fu.
+Miracle Machine in the Making: Soulful Speculation with Kabbalah
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+2022. Spooky Technology: The Ethereal and Otherworldly as a Resource for
+Design. In Designing Interactive Systems Conference (Virtual Event, Australia)
+(DIS ’22). Association for Computing Machinery, New York, NY, USA, 759–775.
+https://doi.org/10.1145/3532106.3533547
+[31] Hillary Carey. 2020. Anti-Oppression Mindsets for Collaborative Design. (2020).
+[32] Hillary Carey, Rachel Arredondo, Mihika Bansal, and Christopher Costes. 2022.
+Envisioning New Futuring Models: Past, Plurality, and Positionality. In [] With
+Design: Reinventing Design Modes: Proceedings of the 9th Congress of the In-
+ternational Association of Societies of Design Research (IASDR 2021). Springer,
+3618–3618.
+[33] Hillary Carey, Alexandra To, Jessica Hammer, and Geoff Kaufman. 2020. Fic-
+tional, Interactive Narrative as a Foundation to Talk about Racism. In Companion
+Publication of the 2020 ACM Designing Interactive Systems Conference. 171–177.
+[34] Michelle Chang, Chenyi Shen, Aditi Maheshwari, Andreea Danielescu, and
+Lining Yao. 2022. Patterns and Opportunities for the Design of Human-Plant
+Interaction. In Designing Interactive Systems Conference. 925–948.
+[35] Alice Chirico, Pietro Cipresso, David B Yaden, Federica Biassoni, Giuseppe Riva,
+and Andrea Gaggioli. 2017. Effectiveness of immersive videos in inducing awe:
+an experimental study. Scientific reports 7, 1 (2017), 1–11.
+[36] Alice Chirico, Francesco Ferrise, Lorenzo Cordella, and Andrea Gaggioli. 2018.
+Designing awe in virtual reality: An experimental study. Frontiers in psychology
+8 (2018), 2351.
+[37] Jean Ho Chu, Daniel Harley, Jamie Kwan, Melanie McBride, and Ali Mazalek.
+2016. Sensing History: Contextualizing Artifacts with Sensory Interactions and
+Narrative Design.. In Conference on Designing Interactive Systems. 1294–1302.
+[38] Adele E Clarke, Carrie Friese, and Rachel S Washburn. 2017. Situational analysis:
+Grounded theory after the interpretive turn. Sage Publications.
+[39] Anna Claudia. 2019. Bots as Storytellers: An Analysis of the Use of Facebook Mes-
+senger Chatbots by Non-Profit Organizations and Their Added Value for Advocacy
+Purposes. Ph. D. Dissertation. Vrije Universiteit Brussel.
+[40] Jennifer Cornelius. 2017. Five minute meditation used to impact workplace
+meetings. Ph. D. Dissertation. Pepperdine University.
+[41] Sasha Costanza-Chock. 2020. Design justice: Community-led practices to build
+the worlds we need. The MIT Press.
+[42] Joseph Dan. 2007. Kabbalah: A very short introduction. Vol. 162. Oxford Univer-
+sity Press.
+[43] Giambattista Della Porta. 1957. Natural Magick. Basic Books.
+[44] Jill P Dimond, Michaelanne Dye, Daphne LaRose, and Amy S Bruckman. 2013.
+Hollaback! The role of storytelling online in a social movement organization.
+In Proceedings of the 2013 conference on Computer supported cooperative work.
+477–490.
+[45] Carl DiSalvo and Jonathan Lukens. 2011. Nonanthropocentrism and the nonhu-
+man in design: possibilities for designing new forms of engagement with and
+through technology. From social butterfly to engaged citizen: urban informatics,
+social media, ubiquitous computing, and mobile technology to support citizen
+engagement 421 (2011).
+[46] Gustav Dreifuss. 2005. The union of opposites in the Kabbalah. Journal of
+Jungian Theory and Practice 7, 1 (2005).
+[47] Daniel A Epstein, Felicia Cordeiro, James Fogarty, Gary Hsieh, and Sean A Mun-
+son. 2016. Crumbs: lightweight daily food challenges to promote engagement
+and mindfulness. In Proceedings of the 2016 CHI Conference on Human Factors in
+Computing Systems. 5632–5644.
+[48] Arturo Escobar. 2018. Designs for the Pluriverse. In Designs for the Pluriverse.
+Duke University Press.
+[49] Eitan Fishbane. 2018. The Art of Mystical Narrative: A Poetics of the Zohar. Oxford
+University Press, USA.
+[50] Laura Forlano. 2016. Decentering the human in the design of collaborative cities.
+Design Issues 32, 3 (2016), 42–54.
+[51] Laura Forlano. 2017. Posthumanism and design. She Ji: The Journal of Design,
+Economics, and Innovation 3, 1 (2017), 16–29.
+[52] Sarah Fox, Noura Howell, Richmond Wong, and Franchesca Spektor. 2019.
+Vivewell: speculating near-future menstrual tracking through current data
+practices. In Proceedings of the 2019 on Designing Interactive Systems Conference.
+541–552.
+[53] Sarah E Fox, Samantha Shorey, Franchesca Spektor, and Daniela K Rosner. 2020.
+Crafting everyday resistance through lightweight design. In Proceedings of the
+2020 ACM Designing Interactive Systems Conference. 101–113.
+[54] Harry Freedman. 2019. Kabbalah: secrecy, scandal and the soul. Bloomsbury
+Publishing.
+[55] Batya Friedman and Lisa P. Nathan. 2010. Multi-Lifespan Information System
+Design: A Research Initiative for the Hci Community. In Proceedings of the
+SIGCHI Conference on Human Factors in Computing Systems (Atlanta, Georgia,
+USA) (CHI ’10). Association for Computing Machinery, New York, NY, USA,
+2243–2246. https://doi.org/10.1145/1753326.1753665
+[56] Batya Friedman and Daisy Yoo. 2017. Pause: A Multi-Lifespan Design Mecha-
+nism. In Proceedings of the 2017 CHI Conference on Human Factors in Computing
+Systems (Denver, Colorado, USA) (CHI ’17). Association for Computing Machin-
+ery, New York, NY, USA, 460–464. https://doi.org/10.1145/3025453.3026031
+[57] William Gaver, Mark Blythe, Andy Boucher, Nadine Jarvis, John Bowers, and
+Peter Wright. 2010. The prayer companion: openness and specificity, materiality
+and spirituality. In Proceedings of the SIGCHI conference on Human factors in
+computing systems. 2055–2064.
+[58] Elizabeth Gerber. 2007. Devotion to an innovation process: The case of human
+centered design. ProQuest.
+[59] G Gershom. 1977. Zohar The Book of Splendor: Basic: Readings from the Kabbalah.
+Rider.
+[60] Julia Gibson. In submission. Holographic Ethics for Intergenerational Justice:
+Planetary Politics Through the Prism. (In submission).
+[61] David Goldstein, Yeruh. am Fishel Lachower, and Isaiah Tishby. 1989. The wisdom
+of the Zohar: an anthology of texts. Vol. 1. Oxford [England]: Published for the
+Littman Library by Oxford University Press.
+[62] Neilly H. Tan, Brian Kinnee, Dana Langseth, Sean A. Munson, and Audrey
+Desjardins. 2022. Critical-Playful Speculations with Cameras in the Home. In
+Proceedings of the 2022 CHI Conference on Human Factors in Computing Systems.
+1–22.
+[63] Brett A. Halperin. 2022. Airbrush Hyperfabric: Designing Interactive Story-
+telling Fabric Connected to Motion Graphics and Music. Interactions 29, 3 (apr
+2022), 8–9. https://doi.org/10.1145/3529705
+[64] Brett A Halperin, Gary Hsieh, Erin McElroy, James Pierce, and Daniela K Ros-
+ner. 2023. Probing a Community-Based Conversational Storytelling Agent to
+Document Digital Stories of Housing Insecurity. In Proceedings of the 2023
+CHI Conference on Human Factors in Computing Systems (Hamburg, Ger-
+many) (CHI ’23). Association for Computing Machinery, New York, NY, USA.
+https://doi.org/10.1145/3544548.3581109
+[65] Brett A. Halperin and Stephanie M. Lukin. 2023. Envisioning Narrative In-
+telligence: A Creative Visual Storytelling Anthology. In Proceedings of the
+2023 CHI Conference on Human Factors in Computing Systems (Hamburg, Ger-
+many) (CHI ’23). Association for Computing Machinery, New York, NY, USA.
+https://doi.org/10.1145/3544548.3580744
+[66] Brett A. Halperin and Erin McElroy. 2023. Temporal Tensions in Digital Story
+Mapping for Housing Justice: Rethinking Time and Technology in Community-
+Based Design. In Designing Interactive Systems Conference (Pittsburgh, Pennsyl-
+vania) (DIS ’23). Association for Computing Machinery, New York, NY, USA.
+https://doi.org/10.1145/3563657.3596088
+[67] Jessica Hammer. 2020. Envisioning Jewish HCI. In Extended Abstracts of the
+2020 CHI Conference on Human Factors in Computing Systems. 1–10.
+[68] Yuval Harari. 2019. “Practical Kabbalah” and the Jewish Tradition of Magic.
+Aries 19, 1 (2019), 38–82.
+[69] Fabian Hemmert, Andreas Bell, Miriam Glöß, Maximilian Klaiß, Katharina Kurm,
+Ina van der Linde, Kathrin Neumann, Gürkan Orak, Katlin Sommer, Thanh Ta
+Dui, Paulina Wagner, Becky Weier, and Michael Zalesak. 2020. Designing
+Human-God Interfaces. In Proceedings of the Conference on Mensch Und Computer
+(Magdeburg, Germany) (MuC ’20). Association for Computing Machinery, New
+York, NY, USA, 393–397. https://doi.org/10.1145/3404983.3409997
+[70] Alexis Hiniker and Jacob O Wobbrock. 2022. Reclaiming attention: Christianity
+and HCI. Interactions 29, 4 (2022), 40–44.
+[71] Noura Howell, Britta F. Schulte, Amy Twigger Holroyd, Rocío Fatás Arana,
+Sumita Sharma, and Grace Eden. 2021. Calling for a plurality of perspectives
+on design futuring: an un-manifesto. In Extended Abstracts of the 2021 CHI
+Conference on Human Factors in Computing Systems. 1–10.
+[72] Johan Huizinga. 2014. Homo ludens: A study of the play-element in culture.
+Routledge.
+[73] Boaz Huss. 2015. Kabbalah and the Politics of Inauthenticity: The Controversies
+over the Kabbalah Center. Numen 62, 2-3 (2015), 197–225.
+[74] Boaz Huss. 2021. Academic Study of Kabbalah and Occultist Kabbalah. Occult
+Roots of Religious Studies (2021), 104.
+[75] Boaz Huss and Joel A Linsider. 2005. Ask No Questions: Gershom Scholem and
+the Study of Contemporary Jewish Mysticism. Modern Judaism 25, 2 (2005),
+141–158.
+[76] Mahmoud Mohamed Hussien Ahmed, Chaklam Silpasuwanchai, Kavous Sale-
+hzadeh Niksirat, and Xiangshi Ren. 2017. Understanding the role of human
+senses in interactive meditation. In Proceedings of the 2017 CHI Conference on
+Human Factors in Computing Systems. 4960–4965.
+[77] John L Jackson Jr. 2013. Thin Description: Ethnography and the African Hebrew
+Israelites of Jerusalem. Harvard University Press.
+[78] James W Jones. 2001. Transference AND Transcendence. In Contemporary
+Psychoanalysis and Religion. Yale University Press, 34–67.
+[79] Aryeh Kaplan and Nehunia ben HaKana. 1989. The Bahir. Weiser Books.
+[80] Cayla Key, Cally Gatehouse, and Nick Taylor. 2022. Feminist Care in the Anthro-
+pocene: Packing and Unpacking Tensions in Posthumanist HCI. In Designing
+Interactive Systems Conference. 677–692.
+[81] Robin Kimmerer. 2013. Braiding sweetgrass: Indigenous wisdom, scientific knowl-
+edge and the teachings of plants. Milkweed editions.
+[82] Lauren Klein and Ryan Dubin. 2021. A Socially Distanced Robotic Menorah Set.
+In Companion of the 2021 ACM/IEEE International Conference on Human-Robot
+Interaction. 653–654.
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+Halperin & Rosner
+[83] Sandjar Kozubaev, Chris Elsden, Noura Howell, Marie Louise Juul Søndergaard,
+Nick Merrill, Britta Schulte, and Richmond Y Wong. 2020. Expanding modes
+of reflection in design futuring. In Proceedings of the 2020 CHI Conference on
+Human Factors in Computing Systems. 1–15.
+[84] Stacey Kuznetsov, William Odom, James Pierce, and Eric Paulos. 2011. Nurturing
+natural sensors. In Proceedings of the 13th international conference on Ubiquitous
+computing. 227–236.
+[85] Mei-Kei Lai and Siu Wing Chung. 2021. TranScent in Stillness: Exploring the
+Feasibility of Using Incense Art with Virtual Reality for Meditation. In 10th
+International Conference on Digital and Interactive Arts. 1–7.
+[86] Amy G Lam. 2014. Effects of five-minute mindfulness meditation on mental health
+care professionals. The Chicago School of Professional Psychology.
+[87] Amanda Lazar, Norman Makoto Su, Jeffrey Bardzell, and Shaowen Bardzell. 2019.
+Parting the Red Sea: sociotechnical systems and lived experiences of menopause.
+In Proceedings of the 2019 CHI conference on human factors in computing systems.
+1–16.
+[88] Jeff Levin and Lea Steele. 2005. The transcendent experience: conceptual, theo-
+retical, and epidemiologic perspectives. Explore 1, 2 (2005), 89–101.
+[89] Lika Haizhou Liu, Xi Lu, Richard Martinez, Dennis Wang, Fannie Liu, Andrés
+Monroy-Hernández, and Daniel A Epstein. 2022. Mindful Garden: Supporting
+Reflection on Biosignals in a Co-Located Augmented Reality Mindfulness Expe-
+rience. In Companion Publication of the 2022 Conference on Computer Supported
+Cooperative Work and Social Computing. 201–204.
+[90] Maya Livio and Laura Devendorf. 2022. The Eco-Technical Interface: Attun-
+ing to the Instrumental. In Proceedings of the 2022 CHI Conference on Human
+Factors in Computing Systems (New Orleans, LA, USA) (CHI ’22). Associa-
+tion for Computing Machinery, New York, NY, USA, Article 101, 12 pages.
+https://doi.org/10.1145/3491102.3501851
+[91] Caitlin Lustig and Daniela Rosner. 2022. From Explainability to Ineffability? ML
+Tarot and the Possibility of Inspiriting Design. In Designing Interactive Systems
+Conference. 123–136.
+[92] Caitlin (Caitie) Lustig and Hong-An (Ann) Wu. 2022. Tarot as a Technology of
+Care. Interactions 29, 4 (jun 2022), 24–29. https://doi.org/10.1145/3536392
+[93] Lee Maracle. 2015. Memory serves: oratories. NeWest Press.
+[94] Mitchell P Marcus. 1999. Computer science, the informational, and Jewish
+mysticism. Technology in Society 21, 4 (1999), 363–371.
+[95] Robert B Markum and Kentaro Toyama. 2020. Digital Technology, Meditative
+and Contemplative Practices, and Transcendent Experiences. In Proceedings of
+the 2020 CHI Conference on Human Factors in Computing Systems. 1–14.
+[96] Joe Marshall, Steve Benford, and Tony Pridmore. 2010. Deception and Magic in
+Collaborative Interaction. In Proceedings of the SIGCHI Conference on Human
+Factors in Computing Systems (Atlanta, Georgia, USA) (CHI ’10). Association for
+Computing Machinery, New York, NY, USA, 567–576. https://doi.org/10.1145/
+1753326.1753410
+[97] Abraham H Maslow. 1969. Various meanings of transcendence. Journal of
+Transpersonal Psychology 1, 1 (1969), 56–66.
+[98] Michael Massimi and Andrea Charise. 2009. Dying, death, and mortality: towards
+thanatosensitivity in HCI. In CHI’09 Extended Abstracts on Human Factors in
+Computing Systems. 2459–2468.
+[99] Daniel Matt. 2002. Zohar: Annotated & Explained. Skylight Paths Publishing.
+[100] John McCarthy and Peter Wright. 2004. Technology as experience. interactions
+11, 5 (2004), 42–43.
+[101] Joshua McVeigh-Schultz, Jen Stein, Jeff Watson, and Scott Fisher. 2012. Extend-
+ing the Lifelog to Non-Human Subjects: Ambient Storytelling for Human-Object
+Relationships. In Proceedings of the 20th ACM International Conference on Mul-
+timedia (Nara, Japan) (MM ’12). Association for Computing Machinery, New
+York, NY, USA, 1205–1208. https://doi.org/10.1145/2393347.2396419
+[102] Manulani Aluli Meyer. 2013. Holographic epistemology: Native common sense.
+China Media Research 9, 2 (2013), 94–101.
+[103] Lydia Michie, Madeline Balaam, John McCarthy, Timur Osadchiy, and Kellie
+Morrissey. 2018. From Her Story, to Our Story: Digital Storytelling as Public
+Engagement around Abortion Rights Advocacy in Ireland (CHI ’18). Association
+for Computing Machinery, New York, NY, USA, 1–15. https://doi.org/10.1145/
+3173574.3173931
+[104] Julia Mossbridge. 2016. Designing transcendence technology. Psychology’s New
+Design Science and the Reflective Practitioner (2016), 1–27.
+[105] Michael J Muller, Ellen Christiansen, Bonnie Nardi, and Susan Dray. 2001. Spiri-
+tual life and information technology. Commun. ACM 44, 3 (2001), 82–82.
+[106] Janet H Murray. 2017. Hamlet on the Holodeck, updated edition: The Future of
+Narrative in Cyberspace. MIT press.
+[107] Caroline Myss and James Finley. 2009. Transforming Trauma: A Seven-step
+Process for Spiritual Healing. Sounds True.
+[108] Hye Yeon Nam. 2008. Wonderland (2007). In ACM SIGGRAPH 2008 art gallery.
+108–108.
+[109] Andrew B Newberg and Eugene G d’Aquili. 2000. The neuropsychology of
+religious and spiritual experience. Journal of consciousness studies 7, 11-12
+(2000), 251–266.
+[110] Teresa K O’Leary, Dhaval Parmar, Stefan Olafsson, Michael Paasche-Orlow,
+Timothy Bickmore, and Andrea G Parker. 2022. Community Dynamics in
+Technospiritual Interventions: Lessons Learned from a Church-based mHealth
+Pilot. In CHI Conference on Human Factors in Computing Systems.
+[111] Teresa K O’Leary, Elizabeth Stowell, Jessica A Hoffman, Michael Paasche-Orlow,
+Timothy Bickmore, and Andrea G Parker. 2021. Examining the Intersections of
+Race, Religion & Community Technologies: A Photovoice Study. In Proceedings
+of the 2021 CHI Conference on Human Factors in Computing Systems. 1–19.
+[112] Romy Opperman. 2020. Race, Ecology, Freedom: Climate Justice and Environmen-
+tal Racism. Ph. D. Dissertation. Pennsylvania State University.
+[113] Romy Opperman. 2022. Racism. The Philosopher (2022).
+[114] Schwartz Oscar. 2019. Natural Language Processing Dates Back to Kabbalist
+Mystics. IEEE Spectrum (2019).
+[115] Michele Pierson. 2002. Special effects: Still in search of wonder. Columbia
+University Press.
+[116] Denise Quesnel, Ekaterina R Stepanova, Ivan A Aguilar, Patrick Pennefather,
+and Bernhard E Riecke. 2018. Creating AWE: artistic and scientific practices in
+research-based design for exploring a profound immersive installation. In 2018
+IEEE Games, Entertainment, Media Conference (GEM). IEEE, 1–207.
+[117] Majken Kirkegaard Rasmussen. 2013. Magical Realities in Interaction Design
+(TEI ’13). Association for Computing Machinery, New York, NY, USA, 125–128.
+https://doi.org/10.1145/2460625.2460644
+[118] Joan Sol Roo, Renaud Gervais, Jeremy Frey, and Martin Hachet. 2017. Inner
+Garden: Connecting Inner States to a Mixed Reality Sandbox for Mindfulness. In
+Proceedings of the 2017 CHI Conference on Human Factors in Computing Systems
+(Denver, Colorado, USA) (CHI ’17). Association for Computing Machinery, New
+York, NY, USA, 1459–1470. https://doi.org/10.1145/3025453.3025743
+[119] Joan Sol Roo, Renaud Gervais, Jeremy Frey, and Martin Hachet. 2017. Inner
+garden: Connecting inner states to a mixed reality sandbox for mindfulness. In
+Proceedings of the 2017 CHI conference on human factors in computing systems.
+1459–1470.
+[120] Christine Satchell and Paul Dourish. 2009. Beyond the user: use and non-use
+in HCI. In Proceedings of the 21st annual conference of the Australian computer-
+human interaction special interest group: Design: Open 24/7. 9–16.
+[121] Jan Rippentrop Schnell. 2020. Better living through anger: religious women
+negotiating virtuous anger through community organizing. The University of
+Iowa.
+[122] Tom Schofield, John Bowers, and Diego Trujillo Pisanty. 2020. Magical Realist
+Design. In Proceedings of the 2020 ACM Designing Interactive Systems Conference
+(Eindhoven, Netherlands) (DIS ’20). Association for Computing Machinery, New
+York, NY, USA, 1873–1886. https://doi.org/10.1145/3357236.3395530
+[123] Tom Schofield, Diego Trujillo Pisanty, Gabriella Arrigoni, Kim Reynolds, and
+Rachel Pattinson. 2019. Magical Realism and Augmented Reality: Designing
+Apps with Children in a Cultural Institution (DIS ’19). Association for Computing
+Machinery, New York, NY, USA, 737–749.
+https://doi.org/10.1145/3322276.
+3322293
+[124] Gershom Scholem. 2003. Walter Benjamin: The story of a friendship. New York
+Review of Books.
+[125] Gershom Gerhard Scholem. 1991. Origins of the Kabbalah. In Origins of the
+Kabbalah. Princeton University Press.
+[126] Gershom Gerhard Scholem. 1995. Major trends in Jewish mysticism. Random
+House Digital, Inc.
+[127] Gershom Gerhard Scholem. 1997. On the mystical shape of the Godhead: basic
+concepts in the Kabbalah. Mysticism and Kabbalah.
+[128] Martin EP Seligman. 2011. Flourish: a new understanding of happiness and
+well-being–and how to achieve them. Boston: Nicholas Brealey (2011).
+[129] William Seymour and Max Van Kleek. 2020. Does Siri have a soul? Exploring
+voice assistants through shinto design fictions. In Extended Abstracts of the 2020
+CHI Conference on Human Factors in Computing Systems. 1–12.
+[130] Sumita Sharma, Britta F. Schulte, Rocío Fatás, Noura Howell, Amy Twigger Hol-
+royd, and Grace Eden. 2022. Design Futuring for Love, Friendship, and Kinships:
+Five Perspectives on Intimacy. In CHI Conference on Human Factors in Computing
+Systems Extended Abstracts. 1–14.
+[131] Chani Haran Smith. 2008. Tuning the Soul: Music as a spiritual process in the
+teachings of Rabbi Nahman of Bratzlav. University of London, University College
+London (United Kingdom).
+[132] Steven B Smith. 1993. Gershom Scholem and Leo Strauss: Notes toward a
+German-Jewish Dialogue. Modern Judaism (1993), 209–229.
+[133] Velvet Spors, Hanne Gesine Wagner, Martin Flintham, Pat Brundell, and David
+Murphy. 2021. Selling Glossy, Easy Futures: A Feminist Exploration of Commer-
+cial Mental-Health-Focused Self-Care Apps’ Descriptions in the Google Play
+Store. In Proceedings of the 2021 CHI Conference on Human Factors in Computing
+Systems (Yokohama, Japan) (CHI ’21). Association for Computing Machinery,
+New York, NY, USA, Article 404, 17 pages.
+https://doi.org/10.1145/3411764.
+3445500
+[134] Walter Terence Stace. 1960. Mysticism and philosophy. Philosophy 37, 140
+(1960).
+Miracle Machine in the Making: Soulful Speculation with Kabbalah
+DIS ’23, July 10–14, 2023, Pittsburgh, PA, USA
+[135] Angelika Strohmayer, Janis Lena Meissner, Alexander Wilson, Sarah Charlton,
+and Laura McIntyre. 2020. "We Come Together as One...and Hope for Solidarity
+to Live on": On Designing Technologies for Activism and the Commemoration of
+Lost Lives. In Proceedings of the 2020 ACM Designing Interactive Systems Confer-
+ence (Eindhoven, Netherlands) (DIS ’20). Association for Computing Machinery,
+New York, NY, USA, 87–100. https://doi.org/10.1145/3357236.3395452
+[136] Sharifa Sultana and Syed Ishtiaque Ahmed. 2019. Witchcraft and HCI: Morality,
+Modernity, and Postcolonial Computing in Rural Bangladesh. In Proceedings
+of the 2019 CHI Conference on Human Factors in Computing Systems (Glasgow,
+Scotland Uk) (CHI ’19). Association for Computing Machinery, New York, NY,
+USA, 1–15. https://doi.org/10.1145/3290605.3300586
+[137] Cella M Sum, Rahaf Alharbi, Franchesca Spektor, Cynthia L Bennett, Christina N
+Harrington, Katta Spiel, and Rua Mae Williams. 2022. Dreaming Disability
+Justice in HCI. In CHI Conference on Human Factors in Computing Systems
+Extended Abstracts. 1–5.
+[138] Jordan Taylor. 2022. Decoloniality in computing: an interview with Dipto Das.
+XRDS: Crossroads, The ACM Magazine for Students 28, 4 (2022), 32–36.
+[139] Jordan Taylor and Adinawa Adjagbodjou. 2022. DEI in computing: centering
+the margins. , 6–7 pages.
+[140] Alexandra To, Safinah Ali, Geoff Kaufman, and Jessica Hammer. 2016. Integrat-
+ing Curiosity and Uncertainty in Game Design. Digra/fdg (2016).
+[141] Alexandra To, Hillary Carey, Riya Shrivastava, Jessica Hammer, and Geoff
+Kaufman. 2022. Interactive Fiction Provotypes for Coping with Interpersonal
+Racism. In Proceedings of the 2022 CHI Conference on Human Factors in Computing
+Systems. 1–14.
+[142] Alexandra To, Anny Fan, Catherine Kildunne, Eda Zhang, Geoff Kaufman, and
+Jessica Hammer. 2016. Treehouse Dreams: A Game-Based Method for Eliciting
+Interview Data from Children. In Proceedings of the 2016 Annual Symposium on
+Computer-Human Interaction in Play Companion Extended Abstracts. 307–314.
+[143] Sherry Turkle. 2011. Evocative objects: Things we think with. MIT press.
+[144] Jay Vidyarthi and Bernhard E Riecke. 2013. Mediated meditation: cultivating
+mindfulness with sonic cradle. In CHI’13 Extended Abstracts on Human Factors
+in Computing Systems. 2305–2314.
+[145] Jay Vidyarthi and Bernhard E Riecke. 2014. Interactively mediating experiences
+of mindfulness meditation. International Journal of Human-Computer Studies
+72, 8-9 (2014), 674–688.
+[146] Birrell Thomas Walsh. 1999. The practice of praying for others: Eight examples
+from late twentieth-century America. California Institute of Integral Studies.
+[147] Vanissa Wanick, Guilherme Xavier, and Erhan Ekmekcioglu. 2018. Virtual
+transcendence experiences: Exploring technical and design challenges in multi-
+sensory environments. In Proceedings of the 10th International Workshop on
+Immersive Mixed and Virtual Environment Systems. 7–12.
+[148] Noah Wardrip-Fruin. 2009. Expressive Processing: Digital fictions, computer
+games, and software studies. MIT press.
+[149] Vanessa Watts. 2013. Indigenous place-thought and agency amongst humans
+and non humans (First Woman and Sky Woman go on a European world tour!).
+Decolonization: Indigeneity, Education & Society 2, 1 (2013).
+[150] Jennifer Weiler, Piyum Fernando, Nipuni Siyambalapitiya, and Stacey Kuznetsov.
+2019. Mycelium artifacts: Exploring shapeable and accessible biofabrication. In
+Companion Publication of the 2019 on Designing Interactive Systems Conference
+2019 Companion. 69–72.
+[151] Mikael Wiberg, Alex Taylor, and Daniela Rosner (Eds.). 2022. Interactions 29, 4
+(2022).
+[152] Allison Woodruff, Sally Augustin, and Brooke Foucault. 2007. Sabbath Day
+Home Automation: "It’s like Mixing Technology and Religion". In Proceedings
+of the SIGCHI Conference on Human Factors in Computing Systems (San Jose,
+California, USA) (CHI ’07). Association for Computing Machinery, New York,
+NY, USA, 527–536. https://doi.org/10.1145/1240624.1240710
+[153] Susan P. Wyche, Kelly E. Caine, Benjamin K. Davison, Shwetak N. Patel, Michael
+Arteaga, and Rebecca E. Grinter. 2009. Sacred Imagery in Techno-Spiritual
+Design. In Proceedings of the SIGCHI Conference on Human Factors in Computing
+Systems (Boston, MA, USA) (CHI ’09). Association for Computing Machinery,
+New York, NY, USA, 55–58. https://doi.org/10.1145/1518701.1518710
+[154] Susan P. Wyche and Rebecca E. Grinter. 2009. Extraordinary Computing: Re-
+ligion as a Lens for Reconsidering the Home. In Proceedings of the SIGCHI
+Conference on Human Factors in Computing Systems (Boston, MA, USA) (CHI
+’09). Association for Computing Machinery, New York, NY, USA, 749–758.
+https://doi.org/10.1145/1518701.1518817
+[155] Susan P. Wyche, Gillian R. Hayes, Lonnie D. Harvel, and Rebecca E. Grinter.
+2006. Technology in Spiritual Formation: An Exploratory Study of Computer
+Mediated Religious Communications. In Proceedings of the 2006 20th Anniversary
+Conference on Computer Supported Cooperative Work (Banff, Alberta, Canada)
+(CSCW ’06). Association for Computing Machinery, New York, NY, USA, 199–208.
+https://doi.org/10.1145/1180875.1180908
+[156] Daisy Yoo, Milli Lake, Trond Nilsen, Molly E. Utter, Robert Alsdorf, Theon-
+este Bizimana, Lisa P. Nathan, Mark Ring, Elizabeth J. Utter, Robert F. Utter,
+and Batya Friedman. 2013. Envisioning across Generations: A Multi-Lifespan
+Information System for International Justice in Rwanda. In Proceedings of the
+SIGCHI Conference on Human Factors in Computing Systems (Paris, France) (CHI
+’13). Association for Computing Machinery, New York, NY, USA, 2527–2536.
+https://doi.org/10.1145/2470654.2481349
